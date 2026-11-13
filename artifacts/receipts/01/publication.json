@@ -1,8 +1,0 @@
-{
-  "commit": "b8ab6123891fd4f36e726b3fe4ef53bdd13136c3",
-  "parent": "faced1bedd7531fa2965e449b3339de0d88092e9",
-  "tree": "bf4b0a2148222a146f592408bac022ee4f4e03d6",
-  "route": "Atomic GitHub objects with expected-head guard; independent Git verification next",
-  "status": "published; CI pending",
-  "next_action": "Fetch and independently verify current commit/tree; inspect exact-revision required jobs; if successful mark stage 01 passed and begin stage 02 immediately."
-}

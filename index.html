@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Generate reproducible Penrose tilings, botanical borders and other vector ornaments for books and pages.">
+<title>Patternfolio · Vector ornament for books and pages</title>
+<link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+<header class="wrap masthead">
+  <a class="wordmark" href="./">Patternfolio</a>
+  <nav aria-label="Project"><a href="./studio/">Full studio</a><a href="https://github.com/UPerna/patternfolio">GitHub ↗</a></nav>
+</header>
+<main class="wrap">
+  <section class="intro">
+    <h1>Vector ornament<br>for books and pages.</h1>
+    <p>Change a pattern, download the SVG, and keep its recipe to make it again.</p>
+  </section>
+  <section class="workbench" aria-label="Pattern generator">
+    <div class="work">
+      <form id="controls">
+        <label for="pattern">Pattern</label>
+        <select id="pattern"><option value="penrose">Penrose tiling</option><option value="botanical-panel">Botanical panel</option></select>
+        <div id="phase-field">
+          <label for="phase">Pentagrid phase</label>
+          <select id="phase"><option value="amber">Amber</option><option value="indigo">Indigo</option></select>
+        </div>
+        <div id="seed-field" hidden>
+          <label for="seed">Seed</label>
+          <input id="seed" type="number" step="1" required>
+        </div>
+        <button id="generate" type="submit" class="primary" disabled>Generate pattern</button>
+      </form>
+      <div class="exports">
+        <a id="svg" class="button" download="compass-garden.svg" href="./preview/decorated.svg">Download SVG</a>
+        <button id="copy" type="button" disabled>Copy recipe</button>
+        <a id="recipe" class="button" download="pattern.recipe" hidden>Download recipe</a>
+      </div>
+      <p id="status" role="status">Loading the pattern engine…</p>
+      <noscript><p>Enable JavaScript to generate a pattern. The Compass Garden SVG is available above.</p></noscript>
+    </div>
+    <figure class="preview">
+      <div class="art"><img id="art" src="./preview/decorated.svg" alt="Compass stars across the shared edges of a Penrose tiling"></div>
+      <figcaption id="caption">Compass Garden · Decorated Penrose detail</figcaption>
+    </figure>
+  </section>
+  <section class="collection" aria-labelledby="collection-title">
+    <div><h2 id="collection-title">Compass Garden</h2><p>Two facing pages share one Penrose tiling. Compass stars cross tile edges, and the same palette carries through the chapter ornaments.</p><a href="https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/design/ORIGINAL-COLLECTIONS.md">How the collection was made ↗</a></div>
+    <figure class="spread">
+      <img src="./preview/collection-1.svg" alt="Left page of Compass Garden with an ornamental initial and a Penrose band" loading="lazy">
+      <img src="./preview/collection-2.svg" alt="Right page of Compass Garden with matching ornaments and Penrose band" loading="lazy">
+    </figure>
+  </section>
+</main>
+<footer class="wrap">Open-source browser demo built from <a href="https://github.com/UPerna/patternfolio/commit/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8">Patternfolio 8cdfdb52</a> · Based on <a href="https://github.com/kevinraymond/florilegium">Florilegium</a></footer>
+<script type="module" src="./demo.js"></script>
+</body>
+</html>
