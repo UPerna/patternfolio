@@ -1,0 +1,48 @@
+[
+  {
+    "name": "divider",
+    "source_revision": "200db9a8bc209eb067f2d6e20c8b50dafb225cee",
+    "source_recipe_sha256": "cb3da822e99109edc3e692bc6edbfe96963bb1077c179ec0aacb4ab90437a495",
+    "cropped_recipe_sha256": "6710a4b8d372b8ede049d5c7b11a2d42bb2eef5dec9880a7554c73e3bd8aaa30",
+    "original_crop": [
+      0,
+      0,
+      4,
+      4
+    ],
+    "new_crop": [
+      0,
+      1.2720109688216281,
+      4,
+      2.1202500000000004
+    ],
+    "conservative_paint_bounds_y": [
+      1.3920109688216282,
+      2.0002500000000003
+    ],
+    "method": "Retain the complete source design and every path. Trim only vertical blank canvas beyond all transformed Bezier control points plus a conservative stroke envelope and 0.12 cm padding."
+  },
+  {
+    "name": "micrography",
+    "source_revision": "200db9a8bc209eb067f2d6e20c8b50dafb225cee",
+    "source_recipe_sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+    "cropped_recipe_sha256": "ad7cbc1bf8c95cbb62963122ef079579b647aa3c9530f39aed79da8ebb59ca8a",
+    "original_crop": [
+      0,
+      0,
+      13,
+      7
+    ],
+    "new_crop": [
+      0,
+      1.6890820906121755,
+      13,
+      5.9339156677762395
+    ],
+    "conservative_paint_bounds_y": [
+      1.8090820906121756,
+      5.813915667776239
+    ],
+    "method": "Retain the complete source design and every path. Trim only vertical blank canvas beyond all transformed Bezier control points plus a conservative stroke envelope and 0.12 cm padding."
+  }
+]

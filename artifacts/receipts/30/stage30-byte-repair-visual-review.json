@@ -1,0 +1,58 @@
+{
+  "revision": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "run": 42198761489,
+  "status": "passed",
+  "book_pages_reviewed_per_engine": 4,
+  "fallbacks_reviewed": [
+    "lua",
+    "xe"
+  ],
+  "books": {
+    "lua": {
+      "source_pdf_sha256": "5811c818a4601d8c4ec41f7c1686052797f785f236de7d0fb5397595f91c6a16",
+      "page_png_sha256": {
+        "lua-page-1.png": "27dae116c6411067579122966fac346944ff7af57f771feca3362f915c2c12cc",
+        "lua-page-2.png": "ee7162bbe7fed6f799cd85e59c9454f47af2328446bf7216856fe0bddb26170d",
+        "lua-page-3.png": "cebdab1826f4885a596df693952f5478ce98f313da0e8ec8cf54103d66a3d7bd",
+        "lua-page-4.png": "66fe77e13fe68ca29cc822b58a4bf0604b616d71e350a188e89221c6b71dcf45"
+      },
+      "contact": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30-byte-repair-visual\\lua-book-contact.png"
+    },
+    "xe": {
+      "source_pdf_sha256": "d6ed279062e81e40e120bbce08e6ddcca2470955fc31eb11ca1fbabf25c30736",
+      "page_png_sha256": {
+        "xe-page-1.png": "136596b73406a143af18969fb66efe5deacef1cdb56bfd6d346d48ca912d6af5",
+        "xe-page-2.png": "c9bfdf6b5d3878f7de6ca2eb50767a44d0160609ac4d14771fe20ef0227a8c1f",
+        "xe-page-3.png": "460a0cd4be7a4a5868fcbb1394da21fe2ec30200e07083e4f96607fb89016e9c",
+        "xe-page-4.png": "d93f69c6b6da3d38e84b40af30f5d99b2c0dd7be3a3fb22ec81442b8a2120907"
+      },
+      "contact": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30-byte-repair-visual\\xe-book-contact.png"
+    }
+  },
+  "fallbacks": {
+    "lua": {
+      "source_pdf_sha256": "24ea1f2523cd0bde3611bd7617bdc2ff2e3dfa53647fe017b1c15b20f90c910c",
+      "actual_enlarged_a": [
+        {
+          "text": "A",
+          "effective_size_pt": 61.161742850399996,
+          "visibility": "painted text operators only"
+        }
+      ],
+      "detail": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30-byte-repair-visual\\fallback-lua-detail.png"
+    },
+    "xe": {
+      "source_pdf_sha256": "7c019efbb662df7d24823ed3eff4c894454663627eb5119fcd552490f8a8c723",
+      "actual_enlarged_a": [
+        {
+          "text": "A",
+          "effective_size_pt": 61.161497286,
+          "visibility": "painted text operators only"
+        }
+      ],
+      "detail": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30-byte-repair-visual\\fallback-xe-detail.png"
+    }
+  },
+  "scope": "Independently rerendered actual current native PDFs with local Poppler; no page content transformation for visual review",
+  "notes": "Inspected both four-page contact sheets and both actual fallback details. Contents initials and folio are upright and complete; body text and L-shaped callout remain clear; the protected floating hybrid travels to page3; the spread bands retain their construction across the two pages; divider and full micrography are visible without crop defects. Both missing-font cases visibly paint the enlarged bold A beside lphabet. The red markers and link borders belong to these diagnostic fixtures. Structural, text, placement and protected-ink results are separately verified."
+}

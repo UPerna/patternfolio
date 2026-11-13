@@ -1,0 +1,22 @@
+{
+  "id": "R12",
+  "doi": "10.1145/3721238.3730649",
+  "paper_sha256": "56ee0c365808c8dd152d5d3a332a4ff7c3e32a2030b0b0d930be8991b10f751e",
+  "sections": [
+    "4.2",
+    "4.3",
+    "4.4",
+    "5",
+    "supplement A"
+  ],
+  "repository": "llorz/SIG25_goldschmiedrisse",
+  "revision": "c48eae8ed972e127c2bd2a3adb430ad27aff7612",
+  "code_license": "CC BY-NC 4.0",
+  "reviewed_blobs": {
+    "get_pos_from_2D_projections.m": "d93890552e06c4fad34b6d12735bdcbe2d8cbab1",
+    "embed_in_3D.m": "8808a939e349a669ed00ebce3d376ea93bc0ea0c",
+    "fit_height.m": "a03d6d500442887e034c23fc93ff61ba4073613c",
+    "compute_all_replicas.m": "0eb2ef6f9b477ec56323d1917a71846837d35d4b"
+  },
+  "scope": "Independent circular top/side chart and adaptive wire representation. Original fixtures."
+}

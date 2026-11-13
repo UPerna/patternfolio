@@ -1,0 +1,7 @@
+{
+  "scope": "Local actual public CLI through Lupa2.8/Lua5.3; full editor/native CI still pending",
+  "style_view_revision": "passed, same instance bytes and changed vector output, recorded lineage",
+  "previous_actual_native_escher_cache": "replayed with byte-identical instance/PDF/SVG; new parent-record body hash check accepts it",
+  "source_base_revision": "bd11eefd36d21104ad46cbdde2684401ec6ee9b8",
+  "native_parent_record": "build/ee9a3295fb525687ea4f30bfe81de891e00b47938cf8de5a360914bf66a62b74"
+}

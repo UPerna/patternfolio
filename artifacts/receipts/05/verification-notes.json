@@ -1,0 +1,36 @@
+{
+  "stage": "05",
+  "local_status": "passed",
+  "ci_status": "pending publication",
+  "runtimes": [
+    "Lupa2.8 Lua5.3",
+    "Lupa2.8 Lua5.4"
+  ],
+  "python": "3.12.14",
+  "analytical_checks_per_runtime": 91,
+  "contract_checks_per_runtime": 61,
+  "replay_checks_per_runtime": 145,
+  "independent_current_corpus": {
+    "reports": 2,
+    "orientations": 4000,
+    "segments": 1000,
+    "cubics": 132,
+    "affine_bounds": 256
+  },
+  "raw_local_source_digest": "08affa40d42a24785c3f7d79e2b3d3b11b089faa4af319977e9452216226dd79",
+  "oracle": "Fraction exact binary64 input arithmetic;70-digit extrema; cross-runtime corpus equality excluding runtime label",
+  "repaired_failures": [
+    "clip distance aggregation accidentally included second Lua return; analytic hole fixture now guards it",
+    "zero-dimensional clip contacts were previously reported empty; contacts are retained",
+    "sparse arrays and executable data metatable fields now reject before traversal",
+    "new strand test syntax corrected before acceptance"
+  ],
+  "scope_limits": [
+    "general cubic/cubic and NURBS unsupported",
+    "non-dyadic repeated cubic roots may remain unresolved",
+    "polygon Boolean operations outside this module",
+    "native Windows TeX unavailable; real Linux CI mandatory",
+    "browser parity pending31"
+  ],
+  "followup": "Review added non-dyadic simple roots1/3 and1/5,2/5,3/5 to exercise interval refinement and exact error bounds; all pass on both runtimes. Initial published90-test CI passed; follow-up exact-head CI required."
+}

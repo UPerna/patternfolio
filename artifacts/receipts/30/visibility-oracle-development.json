@@ -1,0 +1,23 @@
+{
+  "scope": "Synthetic PDF visibility-oracle fixtures, not a TeX compilation",
+  "pypdf": "6.10.0",
+  "cases": {
+    "visible": {
+      "expected_visible_A": true,
+      "observed_visible_A": true,
+      "pdf_sha256": "550caa846d72ceae512cbaae159fe3192a92032249a62b199c3246ecb44a1dc9"
+    },
+    "hidden": {
+      "expected_visible_A": false,
+      "observed_visible_A": false,
+      "pdf_sha256": "dea37ad269be7b17f8035dc448026fbf917dfa8631e7eaf8d21c6feedcd6f134"
+    },
+    "mixed": {
+      "expected_visible_A": false,
+      "observed_visible_A": false,
+      "pdf_sha256": "d97c6e01fb13ac892d8ca307d5a9eb6e643bd2ea35ac3880dc149d9950db71ec"
+    }
+  },
+  "verifier_sha256": "b6843059eabb1aa6118c51cc029881ffa87067d9e6ee9493d01920ea6e90d1a4",
+  "script_sha256": "40def4bcd3bd6c24c8a68c239b0741f497a9bde349c72f933a80ef40e27123c1"
+}

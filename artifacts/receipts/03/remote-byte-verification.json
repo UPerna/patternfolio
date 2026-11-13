@@ -1,0 +1,87 @@
+{
+  "commit": "e9793c9efa8a8246175bc5921f7d3771ca69350b",
+  "tree": "ab2512e3ce7da27215d1200b374debf0611b1802",
+  "independent_native_fetch": true,
+  "matched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "5af5504ba9762c0bb8f862c63ee44ee941c96416b46d31e3861c2fa9335bdc12"
+    },
+    {
+      "path": "ACKNOWLEDGEMENTS.md",
+      "sha256": "caef489408536008127a46d20591a778df06513d376e72cf16c879e0e39ba64d"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "6544b3d408dd3374cc582ef81f45cb52836010b9efacc512f632f6573f9a6414"
+    },
+    {
+      "path": "artifacts/receipts/02/ci-final.json",
+      "sha256": "97c1800bfda198779047e32846bfb9e169c252500d513b76ace2e3c98bc5fdf4"
+    },
+    {
+      "path": "artifacts/receipts/02/portable-ci.json",
+      "sha256": "b4ce46f0502d209026f051528cb7de26376fcf45a1be5863e670d31bf43cbbf8"
+    },
+    {
+      "path": "artifacts/receipts/02/publication.json",
+      "sha256": "a5970ab35593426a6456e16bfdea9cab18737463188de3083018493f41898f78"
+    },
+    {
+      "path": "artifacts/receipts/03/dkjson-dependency.json",
+      "sha256": "7770170ad534ea998826c7f5b4b22f391f349e70154aa0f61f4f1e0dcb9b3ee2"
+    },
+    {
+      "path": "artifacts/receipts/03/local-checks.json",
+      "sha256": "e9e4cd032beaf3978544bb8e0f2baa749f8bc4294ff471c558d65c8e307a37a6"
+    },
+    {
+      "path": "artifacts/receipts/03/lupa-dependency.json",
+      "sha256": "508a601aafb929316794dea82dd6d057663d3e26c5afd4f3c1a8a9ba9cbbca00"
+    },
+    {
+      "path": "docs/architecture/CONTRACTS.md",
+      "sha256": "7710984582b701249af8bafc0e296ff41f4fd8df932857f6aabc6f8dcfd0a2d9"
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "e5716011cf006012c79e17caa7c2dfc798cf5881e1f3dcdcf57fc33fb756f6e2"
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "b53d1374c4dd29c3f478e973286bbc85627fa8edf672d1c5d31d81b8c588c49a"
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "5afb05be3c59b0dbea57aa064dac7e03a5f174716909d5014bd16797d40e5fb9"
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "b8d67cebca702b4726232ddadb90b8671f0d8d4da0fc86e59d89730eaf547232"
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "a7ff73a51dfe191b1a951b62273a707b4014ea7dd34756cb2a04c86d29fd43a8"
+    },
+    {
+      "path": "pattern.lua",
+      "sha256": "87db49e8547b13131f20bc71dac291bc76eb6a02132475fca31e986d6e136d87"
+    },
+    {
+      "path": "pattern_examples.lua",
+      "sha256": "caabaca4448306a418684fb6d9fca35532e2ee26ee78edd7a1f1103840c424ad"
+    },
+    {
+      "path": "pattern_json.lua",
+      "sha256": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481"
+    },
+    {
+      "path": "pattern_registry.lua",
+      "sha256": "a70c73a68b9fb732079730f3842d6c32e47ac8839d4e6e91dd298954349e5fa7"
+    },
+    {
+      "path": "tools/contractcheck.lua",
+      "sha256": "1c418ba7f56516d34a7a075f9d98d0586afde21e52d316c5dd5572196349d4d4"
+    }
+  ]
+}

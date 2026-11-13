@@ -1,0 +1,10 @@
+{
+  "commit": "879610d82637229f0f4c06f828fe3a6d68d6faf6",
+  "tree": "6b0354ce8ab9f5818fe7385f8677a4ffc5a989c3",
+  "parent": "b8ab6123891fd4f36e726b3fe4ef53bdd13136c3",
+  "status": "published and independently verified; exact-revision CI in progress",
+  "next_action": "Inspect CI run 41462720343 for 879610d82637229f0f4c06f828fe3a6d68d6faf6; repair failures without relaxing checks; on success mark 02 passed and begin 03 contracts.",
+  "independent_git_verified": true,
+  "clean_worktree": "work/stage02-verified",
+  "ci_run": 41462720343
+}

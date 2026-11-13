@@ -25,3 +25,10 @@ pinned here so the origin of the work remains clear:
 Spread/fixed variation, monochrome artwork, the matching divider, the source-kit
 workflow, and the additional integration/visual checks were developed in this fork.
 No third-party font binaries are bundled.
+
+The platform contract serializer uses David Kolf's **dkjson 2.11**
+([author download](https://dkolf.de/dkjson-lua/dkjson-2.11.lua)), vendored
+without changes as `pattern_json.lua`. Its MIT copyright and permission notice
+is retained in that file. The verified upstream SHA-256 is recorded in
+`artifacts/receipts/03/dkjson-dependency.json`. This dependency is independent of
+the existing floral code. No LPeg module or automatic native dependency is required.

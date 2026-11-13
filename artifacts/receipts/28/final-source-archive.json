@@ -1,0 +1,8 @@
+{
+  "revision": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+  "source_archive_sha256": "3cf19f35c75a2ea5e557052e1f823521e4a1efa8b03b9f5a96d23f113f282d37",
+  "verified_git_blobs": 553,
+  "binary_blobs": 26,
+  "windows_git_recipe_hashes": 22,
+  "result": "All source ZIP file bytes equal independently fetched Git blob objects; all catalog hashes verify in the Windows Git checkout."
+}

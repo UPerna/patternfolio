@@ -1,0 +1,226 @@
+{
+  "revision": "abdeebebaff70f32cc6bfdca32d60c7ebcce1e31",
+  "run": 42214620480,
+  "job": 127881417180,
+  "archive_sha256": "0f7f6c1f294d6cb14fd8949b44dfaa7dfeedd2870390a713acb3657ebe83e797",
+  "consumer_source_digest": "a374102b89fd4601a776e0be22af637a99eedbee1cd12210b736e1eba693a748",
+  "verified_consumer_source_files": 107,
+  "core_checks": 42,
+  "verified_core_source_files": 103,
+  "verified_core_output_hashes": 15,
+  "host_fallback_regression": true,
+  "book_pages": 4,
+  "unique_generations": 6,
+  "physical_views": 4,
+  "verified_declaration_hashes": 30,
+  "placements": [
+    {
+      "pdf": "florilegium-pattern-92e2911e2c8ce293c1107c07ae1cdc40327433cc4e3548c4c341ea8deae29e05.pdf",
+      "measured_cm": [
+        3.4272008333333335,
+        8.45742388888889,
+        5.427200833339445,
+        10.457423888895
+      ],
+      "expected_cm": [
+        3.4271887764429936,
+        8.457422656033796,
+        5.427188442848324,
+        10.457422322439127
+      ],
+      "maximum_absolute_error_cm": 1.239049112022883e-05,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-626f3714fba8899c9ee3a3c1f885260d6ada264b37b740aa31985e8324d6e42c.pdf",
+      "measured_cm": [
+        5.544220277777778,
+        8.45742388888889,
+        7.5442202777838885,
+        10.457423888895
+      ],
+      "expected_cm": [
+        5.544224621772898,
+        8.457422656033796,
+        7.5442242881782295,
+        10.457422322439127
+      ],
+      "maximum_absolute_error_cm": 4.343995120059674e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-9caa1e57be40cf9628cc7194079eb4de18c3d007ed417cf618f117bad599746c.pdf",
+      "measured_cm": [
+        0.0,
+        8.650005277777778,
+        14.799999891058055,
+        12.350005250551112
+      ],
+      "expected_cm": [
+        0,
+        8.650000005172828,
+        14.799999891053893,
+        12.349999977936303
+      ],
+      "maximum_absolute_error_cm": 5.272614808760068e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-9c6e9351eb4aa7c65468c665bd989ee98e6906d150af408fe97e463dc556c50e.pdf",
+      "measured_cm": [
+        0.3000022222222222,
+        8.9500075,
+        4.000002983312778,
+        12.650008261090555
+      ],
+      "expected_cm": [
+        0.29999949411846405,
+        8.949998718996468,
+        4.000000255221035,
+        12.64999948009904
+      ],
+      "maximum_absolute_error_cm": 8.781003531410647e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-f3ddb1c32d85f25a3afe02101aeb61357951f44f27a42eb49f6d45e6d0ef745e.pdf",
+      "measured_cm": [
+        0.0,
+        8.650005277777778,
+        14.799999891058055,
+        12.350005250551112
+      ],
+      "expected_cm": [
+        0,
+        8.650000005172828,
+        14.799999891053893,
+        12.349999977936303
+      ],
+      "maximum_absolute_error_cm": 5.272614808760068e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-bf1a726a4d0de847974ff2c34179a7b148e4e11a9078c4839c3f86b62aa74cc9.pdf",
+      "measured_cm": [
+        5.499981944444444,
+        9.722767222222222,
+        8.500101944435974,
+        12.72288722221375
+      ],
+      "expected_cm": [
+        5.499999602811208,
+        9.72276321801734,
+        8.499999370561754,
+        12.722762985767886
+      ],
+      "maximum_absolute_error_cm": 0.00012423644586334603,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-3886aa8b3f25ecb955270843be46a41d4fd53da61162f75675da388c4292f2da.pdf",
+      "measured_cm": [
+        0.3000022222222222,
+        8.9500075,
+        4.000002983312778,
+        12.650008261090555
+      ],
+      "expected_cm": [
+        0.29999949411846405,
+        8.949998718996468,
+        4.000000255221035,
+        12.64999948009904
+      ],
+      "maximum_absolute_error_cm": 8.781003531410647e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-99bcdd17077dfda6697a8fe5ecda4cdb5306c2f2017c73f868ffebe49e4d408e.pdf",
+      "measured_cm": [
+        6.900015833333334,
+        8.715868888888888,
+        9.9001358333425,
+        9.352073609455866
+      ],
+      "expected_cm": [
+        6.9000002809796115,
+        8.715874534555203,
+        9.900000048730158,
+        9.35205375868822
+      ],
+      "maximum_absolute_error_cm": 0.0001357846123415385,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-a281a2e4d3abb2835eb90ee2406e577d29460e3d65cfbc8266663548e0b7ce99.pdf",
+      "measured_cm": [
+        4.300008333333334,
+        6.09981,
+        11.300118333335726,
+        8.385525536301122
+      ],
+      "expected_cm": [
+        4.2999997493394995,
+        6.099805024303933,
+        11.29999938618581,
+        8.385484524197892
+      ],
+      "maximum_absolute_error_cm": 0.00011894714991633748,
+      "tolerance_cm": 0.01
+    }
+  ],
+  "maximum_placement_error_cm": 0.0001357846123415385,
+  "placement_tolerance_cm": 0.01,
+  "mask_checks": [
+    {
+      "name": "penrose",
+      "protected": [
+        0,
+        0
+      ],
+      "control": [
+        4961,
+        1920
+      ]
+    },
+    {
+      "name": "hybrid",
+      "protected": [
+        0,
+        0
+      ],
+      "control": [
+        0,
+        28
+      ]
+    }
+  ],
+  "failure_cases": [
+    "inline-stroke-minimum",
+    "inline-text-minimum",
+    "unknown-asset",
+    "unknown-region",
+    "unknown-control",
+    "fully-protected",
+    "wrong-spread",
+    "late-declaration",
+    "missing-spread-partner",
+    "occupied-generated-file-preserved"
+  ],
+  "verified_failure_log_hashes": 10,
+  "load_orders": [
+    "order-0-0",
+    "order-0-1",
+    "order-1-0",
+    "order-1-1"
+  ],
+  "discarded_shipout_checked": true,
+  "pattern_receipt_converged": true,
+  "searchable_micrography_and_initial_folio": true,
+  "runtime": {
+    "pypdf": "6.12.1",
+    "Pillow": "12.2.0",
+    "lualatex": "This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)"
+  },
+  "visual_review": "pending",
+  "inherited_jobs": "pending"
+}

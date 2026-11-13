@@ -1,0 +1,618 @@
+{
+  "status": "passed",
+  "repetitions": [
+    {
+      "baseline": {
+        "whole_child_wall_seconds": 13.58844510000199,
+        "receipt": "periodic-1-baseline.json",
+        "receipt_sha256": "c90389f69a9aab7e6ebcf013ff0567b56b71a9464beeb78c14b886e2f6747236",
+        "data": {
+          "actual_lua": "Lua 5.3",
+          "bootstrap_source_loading_and_hash_seconds": 0.8118250999832526,
+          "family": "periodic",
+          "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+          "instruction_sample_attribution": [],
+          "measurement_clock": "Python time.perf_counter wall seconds",
+          "phases": [
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 3.8024965000222437,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 23213387,
+              "lua_bytes_before": 1629800,
+              "pdf_bytes": 3626,
+              "phase": "cold-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 3.817370100005064,
+              "vector_serialization_seconds": 0.014873599982820451
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 3.859624300035648,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 23472336,
+              "lua_bytes_before": 6930566,
+              "pdf_bytes": 3626,
+              "phase": "warm-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 3.8733833000296727,
+              "vector_serialization_seconds": 0.013758999994024634
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 169,
+                  "operations": 1111
+                }
+              },
+              "generation_validation_hash_seconds": 4.762796399998479,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 20126266,
+              "lua_bytes_before": 6932144,
+              "pdf_bytes": 3626,
+              "phase": "validated-instance-replay",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 4.781550300016534,
+              "vector_serialization_seconds": 0.018753900018054992
+            }
+          ],
+          "process_host_elapsed_seconds": 13.320220399997197,
+          "profiled": false,
+          "scope": "Actual unmodified core calls and vector serialization; sampled heap is not whole-process memory or an exact peak. Profile timing has hook overhead; unprofiled timing is measured separately. Semantic output digests are read from the actual Build record, avoiding extra evidence-only hashes during profiling. No TeX/other-device latency claim.",
+          "source_digest": "6d9f4afb5154d05f25d85068141d22fd8ac092babfc155bb45f3eeb203882af3",
+          "status": "passed"
+        }
+      },
+      "candidate": {
+        "whole_child_wall_seconds": 7.91360369999893,
+        "receipt": "periodic-1-candidate.json",
+        "receipt_sha256": "785a3ce82ddada7a6f6a36e1caf375a90a5d279cb98f04a7da0a80ee0f137815",
+        "data": {
+          "actual_lua": "Lua 5.3",
+          "bootstrap_source_loading_and_hash_seconds": 0.8371254000230692,
+          "family": "periodic",
+          "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+          "instruction_sample_attribution": [],
+          "measurement_clock": "Python time.perf_counter wall seconds",
+          "phases": [
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 2.7774513000040315,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 11643393,
+              "lua_bytes_before": 1651871,
+              "pdf_bytes": 3626,
+              "phase": "cold-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 2.7906156000099145,
+              "vector_serialization_seconds": 0.013164300005882978
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 1.8811580000328831,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 34540011,
+              "lua_bytes_before": 8239050,
+              "pdf_bytes": 3626,
+              "phase": "warm-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 1.8968065000372007,
+              "vector_serialization_seconds": 0.01564850000431761
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 169,
+                  "operations": 1111
+                }
+              },
+              "generation_validation_hash_seconds": 2.0325403000460938,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 51199900,
+              "lua_bytes_before": 8765218,
+              "pdf_bytes": 3626,
+              "phase": "validated-instance-replay",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 2.047922100056894,
+              "vector_serialization_seconds": 0.015381800010800362
+            }
+          ],
+          "process_host_elapsed_seconds": 7.612674799980596,
+          "profiled": false,
+          "scope": "Actual unmodified core calls and vector serialization; sampled heap is not whole-process memory or an exact peak. Profile timing has hook overhead; unprofiled timing is measured separately. Semantic output digests are read from the actual Build record, avoiding extra evidence-only hashes during profiling. No TeX/other-device latency claim.",
+          "source_digest": "96cb7a899689315d142e54df9db3231d6fd13fb9d822ba04ceec7bdf8d6f28b7",
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "candidate": {
+        "whole_child_wall_seconds": 8.571430499956477,
+        "receipt": "periodic-2-candidate.json",
+        "receipt_sha256": "0ce19a014af51b3fe7328cc1d0122857e290eb5c2775c2d075d589fc83da4ce9",
+        "data": {
+          "actual_lua": "Lua 5.3",
+          "bootstrap_source_loading_and_hash_seconds": 0.917178200033959,
+          "family": "periodic",
+          "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+          "instruction_sample_attribution": [],
+          "measurement_clock": "Python time.perf_counter wall seconds",
+          "phases": [
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 3.6429812000133097,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 11811201,
+              "lua_bytes_before": 1651871,
+              "pdf_bytes": 3626,
+              "phase": "cold-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 3.664084999996703,
+              "vector_serialization_seconds": 0.0211037999833934
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 1.7072887000394985,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 34444927,
+              "lua_bytes_before": 8238930,
+              "pdf_bytes": 3626,
+              "phase": "warm-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 1.7228178000077605,
+              "vector_serialization_seconds": 0.015529099968262017
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 169,
+                  "operations": 1111
+                }
+              },
+              "generation_validation_hash_seconds": 1.9396903999731876,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 25959856,
+              "lua_bytes_before": 8765098,
+              "pdf_bytes": 3626,
+              "phase": "validated-instance-replay",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 1.9543136999709532,
+              "vector_serialization_seconds": 0.014623299997765571
+            }
+          ],
+          "process_host_elapsed_seconds": 8.296266600023955,
+          "profiled": false,
+          "scope": "Actual unmodified core calls and vector serialization; sampled heap is not whole-process memory or an exact peak. Profile timing has hook overhead; unprofiled timing is measured separately. Semantic output digests are read from the actual Build record, avoiding extra evidence-only hashes during profiling. No TeX/other-device latency claim.",
+          "source_digest": "96cb7a899689315d142e54df9db3231d6fd13fb9d822ba04ceec7bdf8d6f28b7",
+          "status": "passed"
+        }
+      },
+      "baseline": {
+        "whole_child_wall_seconds": 14.041152700025123,
+        "receipt": "periodic-2-baseline.json",
+        "receipt_sha256": "6fcabdee5abc00d43027cc113529a2285183b387f5f48fda8af43321ca6b44c6",
+        "data": {
+          "actual_lua": "Lua 5.3",
+          "bootstrap_source_loading_and_hash_seconds": 0.7603616999695078,
+          "family": "periodic",
+          "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+          "instruction_sample_attribution": [],
+          "measurement_clock": "Python time.perf_counter wall seconds",
+          "phases": [
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 4.173803700017743,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 16338068,
+              "lua_bytes_before": 1629800,
+              "pdf_bytes": 3626,
+              "phase": "cold-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 4.193809600023087,
+              "vector_serialization_seconds": 0.0200059000053443
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 4.252857300045434,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 24923271,
+              "lua_bytes_before": 6755206,
+              "pdf_bytes": 3626,
+              "phase": "warm-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 4.2655114000081085,
+              "vector_serialization_seconds": 0.012654099962674081
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 169,
+                  "operations": 1111
+                }
+              },
+              "generation_validation_hash_seconds": 4.5330819000373594,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 18377854,
+              "lua_bytes_before": 6756784,
+              "pdf_bytes": 3626,
+              "phase": "validated-instance-replay",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 4.545232700009365,
+              "vector_serialization_seconds": 0.012150799972005188
+            }
+          ],
+          "process_host_elapsed_seconds": 13.800539000018034,
+          "profiled": false,
+          "scope": "Actual unmodified core calls and vector serialization; sampled heap is not whole-process memory or an exact peak. Profile timing has hook overhead; unprofiled timing is measured separately. Semantic output digests are read from the actual Build record, avoiding extra evidence-only hashes during profiling. No TeX/other-device latency claim.",
+          "source_digest": "6d9f4afb5154d05f25d85068141d22fd8ac092babfc155bb45f3eeb203882af3",
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "baseline": {
+        "whole_child_wall_seconds": 13.087544100009836,
+        "receipt": "periodic-3-baseline.json",
+        "receipt_sha256": "874ff78699b992201ad8792fd4f3df79e6f25c0f738c4a7b00f8ec725d09cc2e",
+        "data": {
+          "actual_lua": "Lua 5.3",
+          "bootstrap_source_loading_and_hash_seconds": 0.7744866999564692,
+          "family": "periodic",
+          "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+          "instruction_sample_attribution": [],
+          "measurement_clock": "Python time.perf_counter wall seconds",
+          "phases": [
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 3.752043600019533,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 23194555,
+              "lua_bytes_before": 1629800,
+              "pdf_bytes": 3626,
+              "phase": "cold-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 3.7668868000037037,
+              "vector_serialization_seconds": 0.014843199984170496
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 3.704665199969895,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 23490224,
+              "lua_bytes_before": 6930566,
+              "pdf_bytes": 3626,
+              "phase": "warm-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 3.7169953999691643,
+              "vector_serialization_seconds": 0.012330199999269098
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 169,
+                  "operations": 1111
+                }
+              },
+              "generation_validation_hash_seconds": 4.550200300000142,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 20066858,
+              "lua_bytes_before": 6932144,
+              "pdf_bytes": 3626,
+              "phase": "validated-instance-replay",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 4.5620429999544285,
+              "vector_serialization_seconds": 0.011842699954286218
+            }
+          ],
+          "process_host_elapsed_seconds": 12.852423499978613,
+          "profiled": false,
+          "scope": "Actual unmodified core calls and vector serialization; sampled heap is not whole-process memory or an exact peak. Profile timing has hook overhead; unprofiled timing is measured separately. Semantic output digests are read from the actual Build record, avoiding extra evidence-only hashes during profiling. No TeX/other-device latency claim.",
+          "source_digest": "6d9f4afb5154d05f25d85068141d22fd8ac092babfc155bb45f3eeb203882af3",
+          "status": "passed"
+        }
+      },
+      "candidate": {
+        "whole_child_wall_seconds": 7.02255170000717,
+        "receipt": "periodic-3-candidate.json",
+        "receipt_sha256": "e40336d169e725794d9f0d71420f661ce0dfd547381d9deaec7e01b0ffbff68a",
+        "data": {
+          "actual_lua": "Lua 5.3",
+          "bootstrap_source_loading_and_hash_seconds": 0.7594731000135653,
+          "family": "periodic",
+          "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+          "instruction_sample_attribution": [],
+          "measurement_clock": "Python time.perf_counter wall seconds",
+          "phases": [
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 2.68122129997937,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 11810937,
+              "lua_bytes_before": 1655271,
+              "pdf_bytes": 3626,
+              "phase": "cold-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 2.6957514999667183,
+              "vector_serialization_seconds": 0.014530199987348169
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 898,
+                  "operations": 1787
+                }
+              },
+              "generation_validation_hash_seconds": 1.5522897000191733,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 33784135,
+              "lua_bytes_before": 8242330,
+              "pdf_bytes": 3626,
+              "phase": "warm-generation",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 1.564408199978061,
+              "vector_serialization_seconds": 0.012118499958887696
+            },
+            {
+              "budgets": {
+                "cancelled": false,
+                "limits": {
+                  "bytes": 33554432,
+                  "objects": 20000,
+                  "operations": 400000
+                },
+                "spent": {
+                  "bytes": 29064,
+                  "objects": 169,
+                  "operations": 1111
+                }
+              },
+              "generation_validation_hash_seconds": 1.7280108999693766,
+              "instance_bytes": 715232,
+              "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+              "lua_bytes_after": 24772704,
+              "lua_bytes_before": 8768554,
+              "pdf_bytes": 3626,
+              "phase": "validated-instance-replay",
+              "scene_bytes": 5038,
+              "scene_sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635",
+              "svg_bytes": 6370,
+              "total_seconds": 1.7399168999982066,
+              "vector_serialization_seconds": 0.011906000028830022
+            }
+          ],
+          "process_host_elapsed_seconds": 6.789165800029878,
+          "profiled": false,
+          "scope": "Actual unmodified core calls and vector serialization; sampled heap is not whole-process memory or an exact peak. Profile timing has hook overhead; unprofiled timing is measured separately. Semantic output digests are read from the actual Build record, avoiding extra evidence-only hashes during profiling. No TeX/other-device latency claim.",
+          "source_digest": "96cb7a899689315d142e54df9db3231d6fd13fb9d822ba04ceec7bdf8d6f28b7",
+          "status": "passed"
+        }
+      }
+    }
+  ],
+  "scope": "Fresh runtimes, serial alternating order, actual pure-Lua SHA, full generation/validation/serialization; uncontrolled OS/power/thermal activity. Exact source revisions and phase semantic digests are in raw receipts. No extrapolation beyond this workload."
+}

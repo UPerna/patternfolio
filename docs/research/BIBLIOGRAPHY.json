@@ -26,7 +26,7 @@
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "stage08 passed; legacy baseline compatibility and independent convex-panel adaptation; no MAT or exact figure claim"
     },
     {
       "id": "R03",
@@ -121,12 +121,12 @@
         "Original isohedral parameterization and optimization; compare R20 Chapter 4.3–4.5"
       ],
       "stage_owner": "20",
-      "retrieved": "2026-11-02",
-      "access": "Publisher metadata verified; publisher full text blocked; author thesis R20 available. Recover original before claiming exact paper reproduction.",
+      "retrieved": "2026-11-04",
+      "access": "Full original SIGGRAPH 2000 paper recovered from the University of Washington author archive. Sections 3–5 reviewed.",
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "Bounded Stage 20 Escherization profiles passed native CI, independent objective/geometry checks and visual acceptance."
     },
     {
       "id": "R04d",
@@ -151,7 +151,7 @@
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "Bounded Stage 20 Escherization profiles passed native CI, independent objective/geometry checks and visual acceptance."
     },
     {
       "id": "R05",
@@ -204,11 +204,11 @@
       ],
       "stage_owner": "19",
       "retrieved": "2026-11-02",
-      "access": "Full primary PDF retrieved and section inventory inspected",
+      "access": "Full primary PDF reviewed. Exact bytes, figures and sections pinned in artifacts/receipts/19/source-reference.json.",
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "Stage 19 analytic 2D tracery passed native CI, geometry and visual acceptance. The source manifold mesh remains optional and separate."
     },
     {
       "id": "R07",
@@ -232,7 +232,8 @@
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "The bounded Stage 21 CPU Hausner variant passed native CI, independent placement and packing checks, and visual acceptance.",
+      "sha256": "cc0778b1457d7f0db4cf2ea31e1caf0095743762883de2e1a7b3e9770eb8465a"
     },
     {
       "id": "R08",
@@ -249,15 +250,21 @@
       "primary_url": "https://www.cs.ubc.ca/labs/imager/tr/2011/Micrography/",
       "doi": null,
       "sections": [
-        "Boundary-condition optimization, singularity-free low-curvature vector fields, streamline/text placement; exact section numbers require recovered full text"
+        "4.1 Boundary Conditions Design",
+        "4.2 Computing the Vector Field",
+        "5 Tracing Lines",
+        "6 Orienting and Ordering",
+        "7 Text Generation"
       ],
       "stage_owner": "24",
-      "retrieved": "2026-11-02",
-      "access": "Primary author metadata/abstract/license verified; 47.7 MB PDF rejected by web reader and direct download closed twice. Recover primary full text before implementation.",
+      "retrieved": "2026-11-04",
+      "access": "Complete 11-page author-hosted paper recovered and inspected. Prior one-page poster kept separately.",
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "Author page: personal use only; paper and all images not for redistribution; third-party source graphics have separate rights",
-      "implementation_status": "pending"
+      "implementation_status": "The Stage 24 bounded signed-boundary and doubled-angle micrography profile passed native CI, independent geometry and extraction checks, and visual acceptance.",
+      "download_url": "https://www.cs.ubc.ca/labs/imager/tr/2011/Micrography/micrography.pdf",
+      "sha256": "7906be137b7756c2c148141cf0a242116f52de34d03df3c93e16f7ec3d2fdd57"
     },
     {
       "id": "R09",
@@ -285,7 +292,8 @@
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "The Stage 23 source-led bounded maze profiles and original scaffold extensions passed native CI, independent topology/geometry checks and visual acceptance.",
+      "sha256": "139852bf5fc462e16c3631e3df5faca26bff33e67a03bbe8ab9b9bd80f245004"
     },
     {
       "id": "R10a",
@@ -302,15 +310,23 @@
       "primary_url": "https://doi.org/10.1111/j.1467-8659.2006.00986.x",
       "doi": "10.1111/j.1467-8659.2006.00986.x",
       "sections": [
-        "Element clustering and neighbor-based synthesis; exact sections require recovered full text"
+        "2.1 Stroke fitting",
+        "2.2 Element clustering",
+        "2.3 Distribution analysis",
+        "3 Synthesis",
+        "3.1 Synthesizing one element",
+        "3.2 Propagating synthesis",
+        "3.3 Adding variation"
       ],
       "stage_owner": "22",
-      "retrieved": "2026-11-02",
-      "access": "Author and publisher metadata verified; HAL bot denial and primary ARTIS PDF timeout. Related R10b is separately retrieved, not a substitute.",
+      "retrieved": "2026-11-04",
+      "access": "Full primary nine-page author/publisher PDF retrieved and sections 2–3 inspected.",
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "The Stage 22 bounded stroke analysis and synthesis profiles passed native CI, independent distribution and geometry checks, and visual acceptance.",
+      "download_url": "https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/pdf/stroke-pattern-analysis-and.pdf",
+      "sha256": "42411b631777411e4520246ad73ea76dcf646f29b764805c3e772c33161ce309"
     },
     {
       "id": "R10b",
@@ -339,7 +355,8 @@
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "The Stage 22 bounded stroke analysis and synthesis profiles passed native CI, independent distribution and geometry checks, and visual acceptance.",
+      "sha256": "45a5aed3cb76492b1255b65bae31a6a1df91256eb99952a47ce9b1dc3a615fef"
     },
     {
       "id": "R11",
@@ -372,7 +389,7 @@
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "The Stage 25 bounded polygon-exemplar DecoBrush profile passed native CI, topology, edit locality and visual acceptance."
     },
     {
       "id": "R12",
@@ -399,7 +416,7 @@
       "code_availability": "llorz/SIG25_goldschmiedrisse @ c48eae8ed972e127c2bd2a3adb430ad27aff7612; MATLAB/web; README CC BY-NC 4.0. Do not import into MIT core; implement equations independently with paper attribution.",
       "data_availability": "Author repository identifies Basel historical drawings as public domain; prefer original compass/straightedge fixtures and retain any dataset provenance.",
       "paper_license": "CC BY 4.0, confirmed on PDF first page",
-      "implementation_status": "pending"
+      "implementation_status": "The independently implemented circular compass/side-biarc profile passed native CI, spatial-network export, nested support and projection acceptance. Scope is documented in GOTHIC-MICROARCHITECTURE.md."
     },
     {
       "id": "R13",
@@ -452,10 +469,10 @@
       "stage_owner": "18",
       "retrieved": "2026-11-02",
       "access": "Full primary PDF retrieved and section inventory inspected",
-      "code_availability": "isohedral/hatviz @ 4bb9d01999e4e84accc2a78d0fa279ef20b47263; BSD-3-Clause; preserve notice if reused. Ancillary independent validation code also linked from primary paper.",
+      "code_availability": "Official HatViz BSD-3-Clause source pinned to 4bb9d01999e4e84accc2a78d0fa279ef20b47263. Source rule data adapted with license.",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "arXiv record grants distribution to arXiv; no project redistribution permission inferred. Project sample-media licenses are separate.",
-      "implementation_status": "pending"
+      "implementation_status": "Stage 18 exact four-metatile Hat hierarchy passed pinned-reference, native CI and artifact checks."
     },
     {
       "id": "R15",
@@ -467,7 +484,7 @@
         "Chaim Goodman-Strauss"
       ],
       "year": 2024,
-      "version": "arXiv:2305.17743v2, 28 September 2024; Combinatorial Theory 4(2), 2024",
+      "version": "Combinatorial Theory 4(2), article 13, 2024, final CC BY 4.0 paper",
       "primary_url": "https://arxiv.org/abs/2305.17743v2",
       "doi": "10.5070/C64264241",
       "sections": [
@@ -477,12 +494,12 @@
         "5 A substitution system for marked hexagons"
       ],
       "stage_owner": "15",
-      "retrieved": "2026-11-02",
-      "access": "Full primary PDF retrieved and section inventory inspected",
-      "code_availability": "Primary project browser app available; app code license not yet established. Use paper construction and independently authored Lua unless reuse license is verified.",
+      "retrieved": "2026-11-04",
+      "access": "Final paper read. Official reference app pinned and exercised privately.",
+      "code_availability": "Reference app reuse license unverified. Independent mathematical implementation, no app code redistributed.",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "arXiv record grants distribution to arXiv; no project redistribution permission inferred. Project sample-media licenses are separate.",
-      "implementation_status": "pending"
+      "implementation_status": "Stage 15 marked hierarchy and Lemma 2.1 S-curve construction passed native CI and artifact review."
     },
     {
       "id": "R16a",
@@ -503,7 +520,7 @@
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "Stage 17 source tetragrid passed native CI and independent finite geometry, tie, symmetry and render checks."
     },
     {
       "id": "R16b",
@@ -516,15 +533,18 @@
       "primary_url": "https://research.tue.nl/en/publications/algebraic-theory-of-non-periodic-tilings-of-the-plane-by-two-simp/",
       "doi": null,
       "sections": [
-        "Algebraic square/rhombus projection construction; full-text sections pending recovery"
+        "§2.2, equations (2.1)–(2.5) and Fig. 2.2",
+        "§2.3, equations (2.6)–(2.9) and Theorem 2.1",
+        "§4.3, Theorem 4.3",
+        "§§5.1–5.3, Theorems 5.1–5.2 and Figs. 5.2–5.5"
       ],
       "stage_owner": "17",
-      "retrieved": "2026-11-02",
-      "access": "Institutional bibliographic record verified; both linked primary PDF hosts returned 403. Recover institutional text before implementation.",
+      "retrieved": "2026-11-04",
+      "access": "Full publisher report retrieved and reviewed. SHA-256 in artifacts/receipts/17/primary-recovery.json.",
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "Stage 17 source tetragrid passed native CI and independent finite geometry, tie, symmetry and render checks."
     },
     {
       "id": "R17",
@@ -557,19 +577,22 @@
         "N. G. de Bruijn"
       ],
       "year": 1981,
-      "version": "Indagationes Mathematicae (Proceedings) 84(1), pp.39–52",
-      "primary_url": "https://doi.org/10.1016/1385-7258(81)90016-0",
+      "version": "Proceedings A 84(1), March 20 1981; pp. 39-52 (Part I)",
+      "primary_url": "https://pure.tue.nl/ws/files/4344195/597566.pdf",
       "doi": "10.1016/1385-7258(81)90016-0",
       "sections": [
-        "Regular pentagrid duality, admissible shifts and matching; full-text sections pending recovery"
+        "2 AR-patterns",
+        "4 Regular pentagrids",
+        "5 Pentagrid duality and edge arrows",
+        "7 Five-dimensional interpretation"
       ],
       "stage_owner": "14",
-      "retrieved": "2026-11-02",
-      "access": "Institutional author metadata verified; primary full text remains a recovery obligation before stage 14",
+      "retrieved": "2026-11-04",
+      "access": "Both full parts verified in TU/e scan and readable University of Illinois mirror",
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "Stage 14 regular-pentagrid P3 passed native CI and artifact review. P2 optional."
     },
     {
       "id": "R19b",
@@ -578,19 +601,20 @@
         "N. G. de Bruijn"
       ],
       "year": 1981,
-      "version": "Indagationes Mathematicae (Proceedings) 84(1), pp.53–66",
-      "primary_url": "https://doi.org/10.1016/1385-7258(81)90017-2",
+      "version": "Proceedings A 84(1), March 20 1981; pp. 53-66 (Part II)",
+      "primary_url": "https://pure.tue.nl/ws/files/4344195/597566.pdf",
       "doi": "10.1016/1385-7258(81)90017-2",
       "sections": [
-        "Continuation of algebraic Penrose construction; full-text sections pending recovery"
+        "9 New parameters for pentagrids",
+        "10 Singular pentagrids and phase conditions"
       ],
       "stage_owner": "14",
-      "retrieved": "2026-11-02",
-      "access": "Institutional author metadata verified; full text recovery pending before stage 14",
+      "retrieved": "2026-11-04",
+      "access": "Both full parts verified in TU/e scan and readable University of Illinois mirror",
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "Stage 14 regular-pentagrid P3 passed native CI and artifact review. P2 optional."
     },
     {
       "id": "R20",
@@ -615,7 +639,7 @@
       "code_availability": "No reusable code/license established; independent implementation required unless separately verified",
       "data_availability": "Use original fixtures; publication access is not artwork permission",
       "paper_license": "No redistribution permission established; do not bundle paper",
-      "implementation_status": "pending"
+      "implementation_status": "Bounded Stage 20 Escherization profiles passed native CI, independent objective/geometry checks and visual acceptance."
     },
     {
       "id": "R01",
@@ -662,6 +686,28 @@
       "paper_license": "No redistribution permission established; do not bundle paper",
       "implementation_status": "pending",
       "kind": "web_reference"
+    },
+    {
+      "id": "R21",
+      "title": "A primer of substitution tilings of the Euclidean plane",
+      "authors": [
+        "Natalie Priebe Frank"
+      ],
+      "year": 2008,
+      "version": "Author-hosted primary PDF; Expositiones Mathematicae (2008)",
+      "primary_url": "https://pages.vassar.edu/nafrank/files/2012/08/substitutions.pdf",
+      "doi": null,
+      "sections": [
+        "2.1 Self-similar tilings; L-triomino example"
+      ],
+      "stage_owner": "13",
+      "retrieved": "2026-11-04",
+      "access": "Primary PDF read through web retrieval; independent exact reconstruction",
+      "code_availability": "No copied implementation",
+      "data_availability": "Original integer fixtures only",
+      "paper_license": "Paper not bundled",
+      "implementation_status": "Stage 13 finite L-triomino infrastructure passed native CI and artifact review",
+      "kind": "paper"
     }
   ]
 }

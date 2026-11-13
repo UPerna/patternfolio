@@ -1,0 +1,707 @@
+{
+  "stage": "36",
+  "status": "rendered_visible_review_pending",
+  "profiles": [
+    {
+      "id": "botanical-panel",
+      "title": "Asymmetric garden",
+      "variant": "Copper garden",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "0e775b6d99c8e13595eb1c8cdd6842f5130d45b606ac4a992ac351a2e8c4608e",
+          "physical_cm": [
+            11.999999999999998,
+            11.0
+          ],
+          "pixels": [
+            709,
+            650
+          ]
+        },
+        "polished": {
+          "png_sha256": "49f11affd24dc292b95662122f752f8fab65af59bd379daa96cba5dd162f0e44",
+          "physical_cm": [
+            11.999999999999998,
+            11.0
+          ],
+          "pixels": [
+            709,
+            650
+          ]
+        }
+      }
+    },
+    {
+      "id": "periodic",
+      "title": "Masked periodic repeat",
+      "variant": "Jade margin",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "12a3f5b728ab8c3b4ba48aa0468a214277ae6cbcb2d19f116d3a75301b9fd563",
+          "physical_cm": [
+            3.2000000000000006,
+            2.7999999999999994
+          ],
+          "pixels": [
+            189,
+            166
+          ]
+        },
+        "polished": {
+          "png_sha256": "fdd4990a2e9bf275ad0c521a2b8f9457993ca25498a9aaf88cacf8fa477610c6",
+          "physical_cm": [
+            3.2000000000000006,
+            2.7999999999999994
+          ],
+          "pixels": [
+            189,
+            166
+          ]
+        }
+      }
+    },
+    {
+      "id": "celtic",
+      "title": "Celtic strand",
+      "variant": "Jade ribbon",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "9667f98e9175a61574e14a86459ce54f1304366fdf5ec480eb5eef483e0c95f5",
+          "physical_cm": [
+            5.4,
+            5.5
+          ],
+          "pixels": [
+            319,
+            325
+          ]
+        },
+        "polished": {
+          "png_sha256": "f1d677c97249b3b21593d82fc324d58008b4fc67f88314e06d0bc341f4a7083b",
+          "physical_cm": [
+            5.4,
+            5.5
+          ],
+          "pixels": [
+            319,
+            325
+          ]
+        }
+      }
+    },
+    {
+      "id": "islamic",
+      "title": "Polygons in contact",
+      "variant": "Copper contacts",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "fa8db41ac838e2f7aa7597572ae90b31c84472cf00c19ef35978ee6fd8d1c40d",
+          "physical_cm": [
+            5.4,
+            3.5999999999999996
+          ],
+          "pixels": [
+            319,
+            213
+          ]
+        },
+        "polished": {
+          "png_sha256": "b2b308b72071179f93bfcf09275e87c27b7c7d096e2d963479190884b0843627",
+          "physical_cm": [
+            5.4,
+            3.5999999999999996
+          ],
+          "pixels": [
+            319,
+            213
+          ]
+        }
+      }
+    },
+    {
+      "id": "freeform",
+      "title": "Freeform star ornament",
+      "variant": "Plum stars",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "cf9da2643d54580b6ec13918c5b1e4244aba8af5eb03be834bfcfe84017e9971",
+          "physical_cm": [
+            5.999999999999999,
+            5.999999999999999
+          ],
+          "pixels": [
+            355,
+            355
+          ]
+        },
+        "polished": {
+          "png_sha256": "de4431702f538d474d949ee770e7cd916bd23894036b844a5961cb56f11ae2ff",
+          "physical_cm": [
+            5.999999999999999,
+            5.999999999999999
+          ],
+          "pixels": [
+            355,
+            355
+          ]
+        }
+      }
+    },
+    {
+      "id": "substitution",
+      "title": "Chair substitution",
+      "variant": "Slate steps",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "ca9f49b832954fea5b12aa507a63014b8b443dc09cacc4a060f13e7541a62998",
+          "physical_cm": [
+            1.0,
+            1.25
+          ],
+          "pixels": [
+            60,
+            74
+          ]
+        },
+        "polished": {
+          "png_sha256": "fbbd3b076650384f50dd2467635e7c915ec8ff61615de65bda7f2654e3c2a28e",
+          "physical_cm": [
+            1.0,
+            1.25
+          ],
+          "pixels": [
+            60,
+            74
+          ]
+        }
+      }
+    },
+    {
+      "id": "penrose",
+      "title": "Penrose P3",
+      "variant": "Plum rhombs",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "ad17d80bc601d6df3cccaeddbef69e85782de6638d815d25815db60df9221949",
+          "physical_cm": [
+            2.5,
+            3.2000000000000006
+          ],
+          "pixels": [
+            148,
+            189
+          ]
+        },
+        "polished": {
+          "png_sha256": "c814477f64dccb007250428c49cc3ed06ded782b25617911a02081cd2fcfa154",
+          "physical_cm": [
+            2.5,
+            3.2000000000000006
+          ],
+          "pixels": [
+            148,
+            189
+          ]
+        }
+      }
+    },
+    {
+      "id": "spectre",
+      "title": "Spectre patch",
+      "variant": "Blue curved seams",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "462fca9bae15c99e084ca49b2a6ee253c350a97d1af9452297e3af7e099af8b2",
+          "physical_cm": [
+            1.5499999999999998,
+            2.3
+          ],
+          "pixels": [
+            92,
+            136
+          ]
+        },
+        "polished": {
+          "png_sha256": "c278036723ea555d0950729d39a2b5fe8eddcfddde28947c26fb127e3657f85c",
+          "physical_cm": [
+            1.5499999999999998,
+            2.3
+          ],
+          "pixels": [
+            92,
+            136
+          ]
+        }
+      }
+    },
+    {
+      "id": "beenker",
+      "title": "Ammann–Beenker squares and rhombs",
+      "variant": "Deep teal window",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "94abdb6553696fd183bce5a5db6acc1c3f27348332f6389a1c7afa7ad4aff20f",
+          "physical_cm": [
+            3.5,
+            3.5999999999999996
+          ],
+          "pixels": [
+            207,
+            213
+          ]
+        },
+        "polished": {
+          "png_sha256": "3615ea1078c71520c7c174fb335cd8d68d31bd7ce41cccc4fac4ded21c022bc8",
+          "physical_cm": [
+            3.5,
+            3.5999999999999996
+          ],
+          "pixels": [
+            207,
+            213
+          ]
+        }
+      }
+    },
+    {
+      "id": "completion",
+      "title": "Bounded square completion",
+      "variant": "Indigo route",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "d42e818e377142a31e6a08e9a6c59e0f97be24a5da50edcc5fb0b9174c91c7f5",
+          "physical_cm": [
+            3.25,
+            2.7
+          ],
+          "pixels": [
+            192,
+            160
+          ]
+        },
+        "polished": {
+          "png_sha256": "bc8a2ce2271e974f287c5361703e296c5b59a0472856d2736dc9310a0a7371a5",
+          "physical_cm": [
+            3.25,
+            2.7
+          ],
+          "pixels": [
+            192,
+            160
+          ]
+        }
+      }
+    },
+    {
+      "id": "tracery",
+      "title": "Gothic tracery",
+      "variant": "Copper arch",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "13d606eae3482ffba49cb70f37a8fda5c0c8b945070c179988daa19d12ed1114",
+          "physical_cm": [
+            8.600000000000001,
+            12.100000000000001
+          ],
+          "pixels": [
+            508,
+            715
+          ]
+        },
+        "polished": {
+          "png_sha256": "5875cf8200e8d1a1fdcf421193ef9ec933351841c116699d9579b14fc153bb7e",
+          "physical_cm": [
+            8.600000000000001,
+            12.100000000000001
+          ],
+          "pixels": [
+            508,
+            715
+          ]
+        }
+      }
+    },
+    {
+      "id": "escher",
+      "title": "Periodic Escherization",
+      "variant": "Blue-green tessellation",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "a2bad08e941d40f58e6823da441d4546af74e47bd746b45fb6752364006ba94e",
+          "physical_cm": [
+            4.199999999999999,
+            3.2000000000000006
+          ],
+          "pixels": [
+            249,
+            189
+          ]
+        },
+        "polished": {
+          "png_sha256": "2616b93f0532989a0b5ca4c023dbf37d6d2d7d32f99d1fb0652391c6c8d168d5",
+          "physical_cm": [
+            4.199999999999999,
+            3.2000000000000006
+          ],
+          "pixels": [
+            249,
+            189
+          ]
+        }
+      }
+    },
+    {
+      "id": "mosaic",
+      "title": "Partial mosaic",
+      "variant": "Terracotta grout study",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "a00667791bd388aa6bfdc44418795a60530947f6253f0395425c2a260ee1c0e0",
+          "physical_cm": [
+            5.999999999999999,
+            4.0
+          ],
+          "pixels": [
+            355,
+            237
+          ]
+        },
+        "polished": {
+          "png_sha256": "aef9d571e397592581790649057562844d309aae00f5f22927b407cf5dc6ecd9",
+          "physical_cm": [
+            5.999999999999999,
+            4.0
+          ],
+          "pixels": [
+            355,
+            237
+          ]
+        }
+      }
+    },
+    {
+      "id": "stroke",
+      "title": "Field-guided hatching",
+      "variant": "Indigo contour study",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "0a394795c60d72b400e9e3f6966a6d27a669d920e762d037de827e8c9f1aa4e1",
+          "physical_cm": [
+            5.999999999999999,
+            4.0
+          ],
+          "pixels": [
+            355,
+            237
+          ]
+        },
+        "polished": {
+          "png_sha256": "445f83a82960c402e2be5101c47f397e963d0893db2551baddb8d8b4ec076410",
+          "physical_cm": [
+            5.999999999999999,
+            4.0
+          ],
+          "pixels": [
+            355,
+            237
+          ]
+        }
+      }
+    },
+    {
+      "id": "maze",
+      "title": "Tone-guided maze",
+      "variant": "Plum wall study",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "2c257198dfad5b1d2ddcc2afe01e8bc824a5d5baec6a806c64cf50c1e75827b9",
+          "physical_cm": [
+            10.559999999999999,
+            7.5600000000000005
+          ],
+          "pixels": [
+            624,
+            447
+          ]
+        },
+        "polished": {
+          "png_sha256": "b7f6a81c58310707166c5e5d8590405478da8771f0737b17b0d5d90ae72ba1c8",
+          "physical_cm": [
+            10.559999999999999,
+            7.5600000000000005
+          ],
+          "pixels": [
+            624,
+            447
+          ]
+        }
+      }
+    },
+    {
+      "id": "micrography",
+      "title": "Micrography",
+      "variant": "Ink-blue text study",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "26bd6fd69d979b5ba05d8c51c31a0548d4f27b83c7f9af067dbc81bfacd91730",
+          "physical_cm": [
+            13.0,
+            7.0
+          ],
+          "pixels": [
+            768,
+            414
+          ]
+        },
+        "polished": {
+          "png_sha256": "219488c1c0eea494efb33b56e9d5cd441f841e2f0760e84591c393949ddc8174",
+          "physical_cm": [
+            13.0,
+            7.0
+          ],
+          "pixels": [
+            768,
+            414
+          ]
+        }
+      }
+    },
+    {
+      "id": "decobrush",
+      "title": "DecoBrush exemplar synthesis",
+      "variant": "Copper brush silhouette",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "fb3f7f885904245a2e9908afaca284b1b7c50f3feadd9177e44524da247ca0d8",
+          "physical_cm": [
+            4.0,
+            1.4999999999999998
+          ],
+          "pixels": [
+            237,
+            89
+          ]
+        },
+        "polished": {
+          "png_sha256": "9ad6fc0f06131dbdf3bf6aa9a0cc8df7e1f8ab3fb4cc668de1aa8e4e212233a4",
+          "physical_cm": [
+            4.0,
+            1.4999999999999998
+          ],
+          "pixels": [
+            237,
+            89
+          ]
+        }
+      }
+    },
+    {
+      "id": "gothic-spatial",
+      "title": "Projected spatial ogees",
+      "variant": "Blueprint curves",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "cb6d8fd3e842a5bd5b234be59133707be82d90b5e74e053f596dced8ca30314c",
+          "physical_cm": [
+            9.0,
+            9.5
+          ],
+          "pixels": [
+            532,
+            562
+          ]
+        },
+        "polished": {
+          "png_sha256": "450efa49b8b66d83d402fb86ebe0c06a211bbf925c19b8a11f283f17836b3be3",
+          "physical_cm": [
+            9.0,
+            9.5
+          ],
+          "pixels": [
+            532,
+            562
+          ]
+        }
+      }
+    },
+    {
+      "id": "inline",
+      "title": "Inline garden divider",
+      "variant": "Blue-green divider",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "3462adfc433e63b7e87cdd5aa2ae66cb26cc61af6c2bf2a0ab7826db4de66ba8",
+          "physical_cm": [
+            4.0,
+            4.0
+          ],
+          "pixels": [
+            237,
+            237
+          ]
+        },
+        "polished": {
+          "png_sha256": "554616d49f30da1ee4bd40cf4a9208a023b3af3b8f220f34d3559acdc91e297c",
+          "physical_cm": [
+            4.0,
+            4.0
+          ],
+          "pixels": [
+            237,
+            237
+          ]
+        }
+      }
+    },
+    {
+      "id": "hat",
+      "title": "Hat clusters",
+      "variant": "Slate cluster study",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "0f33e9018bb1a15e7832d9746929af421be228aa2bd4df23e149c1a252cee758",
+          "physical_cm": [
+            4.5,
+            4.4
+          ],
+          "pixels": [
+            266,
+            260
+          ]
+        },
+        "polished": {
+          "png_sha256": "6824047f9d522390eec10c6f37cfabce701bd021218fe148b5a71646232db6f3",
+          "physical_cm": [
+            4.5,
+            4.4
+          ],
+          "pixels": [
+            266,
+            260
+          ]
+        }
+      }
+    },
+    {
+      "id": "botanical-authored",
+      "title": "Authored floral margin",
+      "variant": "Copper page margin",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "0603d1abdbc4b8b8f68dfeb758b846cba3a308ec40f02431d72195beac6108c4",
+          "physical_cm": [
+            20.999999999999996,
+            29.699999999999996
+          ],
+          "pixels": [
+            1241,
+            1754
+          ]
+        },
+        "polished": {
+          "png_sha256": "db5ab70149ffe6c120103630ed300d5453b0a48dcd0cae9451c86de61a26aec5",
+          "physical_cm": [
+            20.999999999999996,
+            29.699999999999996
+          ],
+          "pixels": [
+            1241,
+            1754
+          ]
+        }
+      }
+    },
+    {
+      "id": "botanical-grown",
+      "title": "Grown floral margin",
+      "variant": "Jade page margin",
+      "proofs": {
+        "canonical": {
+          "png_sha256": "7d90d2a9bbe35b5f213b7cffdebfd9ae108f98dcd81f825e6491c084f374f55f",
+          "physical_cm": [
+            20.999999999999996,
+            29.699999999999996
+          ],
+          "pixels": [
+            1241,
+            1754
+          ]
+        },
+        "polished": {
+          "png_sha256": "b69ec964ba6bae2e1f68c806351d160bcd227c18820f927bf3efc0e58a56198d",
+          "physical_cm": [
+            20.999999999999996,
+            29.699999999999996
+          ],
+          "pixels": [
+            1241,
+            1754
+          ]
+        }
+      }
+    }
+  ],
+  "sheets": [
+    {
+      "file": "pdf-proof/sheet-1.png",
+      "sha256": "e6ca6b71bd2adcaf25353ea17983a5c3dd5fbf9cb0f880427c65cf9fd0c3e37f",
+      "profiles": [
+        "botanical-panel",
+        "periodic",
+        "celtic",
+        "islamic"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-2.png",
+      "sha256": "c8f0dd0bfb61c21a8ecfec9e9a79c8f21a5bedcce5c503ab2b2f330d1d1ba39e",
+      "profiles": [
+        "freeform",
+        "substitution",
+        "penrose",
+        "spectre"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-3.png",
+      "sha256": "5d8dfaeeda6aa3ec5b30a4f02c37ce0d79c7a42423444fd1aea62bcc097467e5",
+      "profiles": [
+        "beenker",
+        "completion",
+        "tracery",
+        "escher"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-4.png",
+      "sha256": "290787f368e1d7ba8d9f343b37c6ce08431525e6b40b6bd54d58cedbb53e679e",
+      "profiles": [
+        "mosaic",
+        "stroke",
+        "maze",
+        "micrography"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-5.png",
+      "sha256": "c699647219d2be4693cc04e1085f57199a20296f6d76cba0016813c528e711f4",
+      "profiles": [
+        "decobrush",
+        "gothic-spatial",
+        "inline",
+        "hat"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-6.png",
+      "sha256": "3681046ad47f911b036374b91d95484bd2a5d0165e24c5a644ef32df60885846",
+      "profiles": [
+        "botanical-authored",
+        "botanical-grown"
+      ]
+    }
+  ],
+  "gallery_metadata_sha256": "43e939ee606692aab50dcd04dfc7d02417bd47ccd8eb922cc3974f5480a9a84b",
+  "renderer": "Poppler26.07.0/150dpi",
+  "scope": "Color and scale review of actual PDFs. Method geometry and crop checks are separate."
+}

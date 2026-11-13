@@ -1,0 +1,44 @@
+{
+  "revision": "6be6efcb7286a1beadb4c1c5a56f2ad115f2f6a1",
+  "run": 42194177533,
+  "job": 127813190816,
+  "scope": "Actual LuaTeX1.24 zero-page native compiler output and failed build receipt; the driver correctly rejected it. Earlier assertion incorrectly required the file to be absent. The repaired check requires failed acceptance, zero successful compiler exit, no file or exactly zero bytes, and no survival of the seeded valid old PDF. No production acceptance gate changed.",
+  "actual_build_receipt": {
+    "schema_version": 1,
+    "status": "failed",
+    "engine": "lua",
+    "source": "/home/runner/work/florilegium/florilegium/build/pattern-dual/d49712d5a3adea2af47141357087ba23fedf20bd20c9f0daa64462403a748cc8/build-faults/auxiliaries-lua/empty.tex",
+    "job_name": "source",
+    "max_passes": 6,
+    "runtime": {
+      "lualatex": {
+        "version": "This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)",
+        "executable_sha256": "3f9f667920853d2be8296139a192f585a510f19f6c8597882a446361cc9cfe7b"
+      }
+    },
+    "policy": "Fresh complete PDF; stable complete auxiliary and compiler-input state; verified external dependencies and outputs",
+    "passes": [
+      {
+        "pass": 1,
+        "rendered": false,
+        "external_before": "verified",
+        "compiler_command": [
+          "lualatex",
+          "-no-shell-escape",
+          "-halt-on-error",
+          "-interaction=nonstopmode",
+          "-recorder",
+          "-jobname=source",
+          "\\input{/home/runner/work/florilegium/florilegium/build/pattern-dual/d49712d5a3adea2af47141357087ba23fedf20bd20c9f0daa64462403a748cc8/build-faults/auxiliaries-lua/empty.tex}"
+        ],
+        "compiler_exit": 0,
+        "log_sha256": "37e717df470d64876fd77a8487f7703e58ccc696a2f4873acf6f341f159d9fd0"
+      }
+    ],
+    "diagnostic": "Compiler reported success but its PDF is missing or incomplete: /home/runner/work/florilegium/florilegium/build/pattern-dual/d49712d5a3adea2af47141357087ba23fedf20bd20c9f0daa64462403a748cc8/build-faults/auxiliaries-lua/empty/source.pdf; see /home/runner/work/florilegium/florilegium/build/pattern-dual/d49712d5a3adea2af47141357087ba23fedf20bd20c9f0daa64462403a748cc8/build-faults/auxiliaries-lua/empty/source.pass-1.log"
+  },
+  "rejected_empty_pdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "rejected_empty_pdf_bytes": 0,
+  "compiler_log_sha256": "37e717df470d64876fd77a8487f7703e58ccc696a2f4873acf6f341f159d9fd0",
+  "native_comparison": "Both consumers and all book comparisons completed before entering build_cases; later fault cases unrun after empty-output-lua assertion."
+}

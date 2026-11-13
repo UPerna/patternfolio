@@ -1,0 +1,4 @@
+Measured actual workload	knot-topology-large	cold-generation	8.076583
+Measured actual workload	knot-topology-large	warm-generation	8.962922
+Measured actual workload	knot-topology-large	validated-instance-replay	5.552775
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 9021849

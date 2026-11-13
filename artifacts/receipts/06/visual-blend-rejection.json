@@ -1,0 +1,32 @@
+{
+  "stage": "06",
+  "initial_revision": "07f3fdb3f44dc82707d2f0d9320eb652410e1130",
+  "initial_ci": 41502953750,
+  "artifact_id": 13168963725,
+  "artifact_sha256": "8112f12757168f694b77ab781f3be5eec2a3b473524d40826d58c2ae15b482ea",
+  "visual_review": "rejected clipped multiply backdrop; other geometry/units/glyph and protected-region comparisons retained",
+  "world_point_cm": [
+    0.9,
+    1
+  ],
+  "expected_rgb": [
+    91,
+    82,
+    99
+  ],
+  "pdf_rgb": [
+    90,
+    81,
+    98
+  ],
+  "svg_rgb": [
+    177,
+    94,
+    101
+  ],
+  "max_channel_tolerance": 3,
+  "current_followup": "76cc324cd68f564f924f1e00729a19579eb4a78d",
+  "new_oracle_source": "tools/scene_oracle.py",
+  "new_ci": 41505209725,
+  "status": "stage in_progress; require corrected exact-head CI and images"
+}

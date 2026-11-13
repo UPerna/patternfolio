@@ -1,0 +1,10 @@
+{
+  "runtimes": [
+    "Lua 5.3 via Lupa 2.8",
+    "Lua 5.4 via Lupa 2.8"
+  ],
+  "layoutcheck_checks_each": 28,
+  "celticcheck_checks_each": 23,
+  "layout_md5_backend": "Python hashlib.md5 supplies texlua md5.sumhexa in the local harness",
+  "native_regressions": "Pending exact-head CI"
+}

@@ -1,0 +1,42 @@
+{
+  "stage": "03",
+  "runner": "Lupa 2.8, embedded Lua 5.3; local pure-Lua checks only",
+  "checks": [
+    {
+      "command": "dofile(\"tools/contractcheck.lua\")",
+      "status": "passed",
+      "seconds": 0.125
+    },
+    {
+      "command": "dofile(\"tools/spacecheck.lua\")",
+      "status": "passed",
+      "seconds": 0.0
+    },
+    {
+      "command": "dofile(\"tools/backendcheck.lua\")",
+      "status": "passed",
+      "seconds": 0.015
+    },
+    {
+      "command": "dofile(\"tools/layoutcheck.lua\")",
+      "status": "passed",
+      "seconds": 11.156
+    },
+    {
+      "command": "dofile(\"tools/initialcheck.lua\")",
+      "status": "passed",
+      "seconds": 0.0
+    }
+  ],
+  "limits": [
+    "Native Windows TeX initialization unavailable; exact revision Linux CI still required",
+    "Browser runtime parity unverified"
+  ],
+  "source_files": {
+    "pattern.lua": "87db49e8547b13131f20bc71dac291bc76eb6a02132475fca31e986d6e136d87",
+    "pattern_examples.lua": "caabaca4448306a418684fb6d9fca35532e2ee26ee78edd7a1f1103840c424ad",
+    "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+    "pattern_registry.lua": "a70c73a68b9fb732079730f3842d6c32e47ac8839d4e6e91dd298954349e5fa7",
+    "tools/contractcheck.lua": "1c418ba7f56516d34a7a075f9d98d0586afde21e52d316c5dd5572196349d4d4"
+  }
+}

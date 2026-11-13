@@ -1,0 +1,35 @@
+{
+  "stage": "33",
+  "status": "passed",
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "native_source_digest": "f2001fdce7f8273d0b7b64bb92c4de49247f88e50f139bf1d6417b58919412c6",
+  "root_lua_sources": 87,
+  "native": [
+    {
+      "receipt_sha256": "8562ca094d1804587e955749f8d04dae35520752ddb27fc3ddd2a3bf3fe4731e",
+      "actual_lua": "Lua 5.3",
+      "checks": 40,
+      "detected_corruptions": 8
+    }
+  ],
+  "independent_oracle_sha256": "c7bc7f0c9ed43808b3e8a86440afda0487d8e1f1a8dc769fe8398a4797124612",
+  "native_instance_hashes": {
+    "periodic": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+    "penrose": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+    "micrography": "96d8887df900c2d02cfd4bf6b2c09cabdd32cbd79fe0025d8ee4adf925217142",
+    "spectre": "a154b6bddcde8c38c357892707727ce3086f21a8a7cd3b2b7b971251d4242c4e"
+  },
+  "independent_controlled_corruptions": 8,
+  "near_integer_corruptions": 54,
+  "continuous_coordinate_controls": 5,
+  "nonfinite_controls": 3,
+  "family_aware_crop_order": [
+    2,
+    1,
+    3,
+    1
+  ],
+  "independent_checker_rerun_on_downloaded_actuals": true,
+  "scope": "Single-agent independent arithmetic/code paths; not an independent reviewer or swarm"
+}

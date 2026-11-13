@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "examples": [
+    {
+      "id": "botanical-panel",
+      "family": "botanical/asymmetric-garden",
+      "recipe": "botanical-panel.recipe",
+      "sha256": "cb04a4485843e1eaaf22eec28f4672d13d8996da2bdf0f3f3d88d649d375a15e",
+      "source": "Accepted native stage 27 artifact botanical/panel.recipe"
+    },
+    {
+      "id": "periodic",
+      "family": "tiling/periodic",
+      "recipe": "periodic.recipe",
+      "sha256": "0f7a9b9355b1a53b911ebac8628eea679d4792c10af6d2fcb8b696f9bf6383ab",
+      "source": "Accepted native stage 27 artifact periodic/masked-full.recipe"
+    },
+    {
+      "id": "celtic",
+      "family": "strand/celtic",
+      "recipe": "celtic.recipe",
+      "sha256": "6a305820ae2024e4fc6e9cccfed3b2e730a51c7b84830813a5ef57dc84d3dfd3",
+      "source": "Accepted native stage 27 artifact integration/celtic.recipe"
+    },
+    {
+      "id": "islamic",
+      "family": "ornament/islamic-pic",
+      "recipe": "islamic.recipe",
+      "sha256": "4314e59dda865286d6c0a51d9057aec38f620650cce30b3e0ecbc876a19900d4",
+      "source": "Accepted native stage 27 artifact integration/islamic.recipe"
+    },
+    {
+      "id": "freeform",
+      "family": "ornament/islamic-freeform",
+      "recipe": "freeform.recipe",
+      "sha256": "2519e49fa5379bef09d7b17acfb34e98a0b07bf05e76d80f047a9b9bba37b6af",
+      "source": "Accepted native stage 27 artifact freeform/panel.recipe"
+    },
+    {
+      "id": "substitution",
+      "family": "tiling/finite-substitution",
+      "recipe": "substitution.recipe",
+      "sha256": "5765c035274653c48be4598db511780c01650632ff3fbbd16d05cee7587dbbae",
+      "source": "Accepted native stage 27 artifact substitution/document.recipe"
+    },
+    {
+      "id": "penrose",
+      "family": "tiling/penrose-p3",
+      "recipe": "penrose.recipe",
+      "sha256": "dd9f678ca3108fc442d63ef7befa657ce69175a6f1ec0364e5c1cd4e93e77de0",
+      "source": "Accepted native stage 27 artifact penrose/spread.recipe"
+    },
+    {
+      "id": "spectre",
+      "family": "tiling/spectre",
+      "recipe": "spectre.recipe",
+      "sha256": "85502ed8baf851dbc4b0619243232d56d1090643e1691164e7329e85192c3e4e",
+      "source": "Accepted native stage 27 artifact spectre/document.recipe"
+    },
+    {
+      "id": "beenker",
+      "family": "tiling/ammann-beenker",
+      "recipe": "beenker.recipe",
+      "sha256": "2d45d2058383d50a46bfff232b0d9902332cc119c331f26eb9d6c7fd67452ad1",
+      "source": "Accepted native stage 27 artifact beenker/spread.recipe"
+    },
+    {
+      "id": "completion",
+      "family": "tiling/marked-square-completion",
+      "recipe": "completion.recipe",
+      "sha256": "30299eb32576fde785078a594f8e2874bc482f06c1290b4cf26d3fc1ff0ae7ec",
+      "source": "Accepted native stage 27 artifact hat/completion.recipe"
+    },
+    {
+      "id": "tracery",
+      "family": "ornament/gothic-tracery",
+      "recipe": "tracery.recipe",
+      "sha256": "d3875a48ea7de87313c85b2522d2256bfb0fe07904a70bb54ca875bda7bb661a",
+      "source": "Accepted native stage 27 artifact tracery/rosette.recipe"
+    },
+    {
+      "id": "escher",
+      "family": "tiling/escherization",
+      "recipe": "escher.recipe",
+      "sha256": "f2927b4fa41624d7aa46cbc5f1f4398cc7bd5102ee01c8b36550db16b5f07ade",
+      "source": "Accepted native stage 27 artifact escher/split.recipe"
+    },
+    {
+      "id": "mosaic",
+      "family": "mosaic/hausner",
+      "recipe": "mosaic.recipe",
+      "sha256": "e8d23847e8230efc62ea274d8ecbaeeba29606e5a4fb9b2b2c44e6eae3ecdde8",
+      "source": "Accepted native stage 27 artifact mosaic/analytic.recipe"
+    },
+    {
+      "id": "stroke",
+      "family": "stroke/fields-and-examples",
+      "recipe": "stroke.recipe",
+      "sha256": "45096933af2988ecdd2bb0ca42868dd7533fae19f6d61fa99d4087c1a4f25a56",
+      "source": "Accepted native stage 27 artifact strokes/hatch.recipe"
+    },
+    {
+      "id": "maze",
+      "family": "maze/image-guided",
+      "recipe": "maze.recipe",
+      "sha256": "cf23af66d4b2ebcb5ee352d573ff4b6890099b53bc58226766a3c8f5cd94c4ba",
+      "source": "Accepted native stage 27 artifact maze/guided.recipe"
+    },
+    {
+      "id": "micrography",
+      "family": "text/digital-micrography",
+      "recipe": "micrography.recipe",
+      "sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+      "source": "Accepted native stage 27 artifact micrography/latin.recipe"
+    },
+    {
+      "id": "decobrush",
+      "family": "decoration/decobrush",
+      "recipe": "decobrush.recipe",
+      "sha256": "d6d9fb02a6845cca23478ee07134aa81f01e2c526e911b93365557e105dd5559",
+      "source": "Accepted native stage 27 artifact decobrush/geometric.recipe"
+    },
+    {
+      "id": "gothic-spatial",
+      "family": "gothic/spatial-ogee",
+      "recipe": "gothic-spatial.recipe",
+      "sha256": "945cd19c3714aa3bd8bd7c9cc5f00ccee57de1ce7a0967281e6126c4cf661722",
+      "source": "Accepted native stage 27 artifact gothic/top.recipe"
+    },
+    {
+      "id": "inline",
+      "family": "collection/ornament",
+      "recipe": "inline.recipe",
+      "sha256": "cb3da822e99109edc3e692bc6edbfe96963bb1077c179ec0aacb4ab90437a495",
+      "source": "Accepted native stage 27 artifact collection/divider.recipe"
+    },
+    {
+      "id": "hat",
+      "family": "tiling/hat",
+      "recipe": "hat.recipe",
+      "sha256": "f351ad94c8330821b829699508595782ac47cf16a5c825097a774a36b0906a8b",
+      "source": "Explicit supported inputs from the existing native family harness"
+    },
+    {
+      "id": "botanical-authored",
+      "family": "botanical/legacy-authored",
+      "recipe": "botanical-authored.recipe",
+      "sha256": "554142ca591c380fae69972e2f5125446ca8b8f8fd3ae390397fe06b3a211e8b",
+      "source": "Explicit supported inputs from the existing native family harness"
+    },
+    {
+      "id": "botanical-grown",
+      "family": "botanical/legacy-grown",
+      "recipe": "botanical-grown.recipe",
+      "sha256": "86638fc0dac2763bee69ef4f113339a6f8c3d80ade3a54c0216c351eb7a13c46",
+      "source": "Explicit supported inputs from the existing native family harness"
+    }
+  ]
+}

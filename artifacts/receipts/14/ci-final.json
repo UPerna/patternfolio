@@ -1,0 +1,269 @@
+{
+  "stage": "14",
+  "source_digest": "7d5ae6dcdd7e48afa99f2a7356c2503546a42ff9eb6c6cfded8feb9b5e9db276",
+  "native_checks": 18,
+  "native_output_hashes": 23,
+  "native_local_differences": [],
+  "kit_hashes": 309,
+  "oracle": {
+    "stage": "14",
+    "source_digest": "7d5ae6dcdd7e48afa99f2a7356c2503546a42ff9eb6c6cfded8feb9b5e9db276",
+    "precision_digits": 76,
+    "queries": {
+      "small": {
+        "counts": {
+          "thick": 142,
+          "thin": 87
+        },
+        "red_edges": 247,
+        "green_edges": 246,
+        "query_cuts": 70,
+        "area_error": "3E-74",
+        "tested_overlap_pairs": 1055,
+        "unit_areas": {
+          "thick": "0.951056516295153572116439333379382143405698634125750222447305644430153170085",
+          "thin": "0.58778525229247312916870595463907276859765243764314599107227248075727847417"
+        }
+      },
+      "medium": {
+        "counts": {
+          "thick": 222,
+          "thin": 135
+        },
+        "red_edges": 381,
+        "green_edges": 380,
+        "query_cuts": 94,
+        "area_error": "7E-73",
+        "tested_overlap_pairs": 1691,
+        "unit_areas": {
+          "thick": "0.951056516295153572116439333379382143405698634125750222447305644430153170085",
+          "thin": "0.587785252292473129168705954639072768597652437643145991072272480757278474165"
+        }
+      },
+      "large": {
+        "counts": {
+          "thick": 375,
+          "thin": 240
+        },
+        "red_edges": 644,
+        "green_edges": 647,
+        "query_cuts": 122,
+        "area_error": "5.7E-72",
+        "tested_overlap_pairs": 2997,
+        "unit_areas": {
+          "thick": "0.951056516295153572116439333379382143405698634125750222447305644430153170085",
+          "thin": "0.587785252292473129168705954639072768597652437643145991072272480757278474165"
+        }
+      },
+      "offset": {
+        "counts": {
+          "thick": 159,
+          "thin": 100
+        },
+        "red_edges": 277,
+        "green_edges": 279,
+        "query_cuts": 76,
+        "area_error": "8E-74",
+        "tested_overlap_pairs": 1211,
+        "unit_areas": {
+          "thick": "0.9510565162951535721164393333793821434056986341257502224473056444301531700875",
+          "thin": "0.5877852522924731291687059546390727685976524376431459910722724807572784741635"
+        }
+      },
+      "indigo": {
+        "counts": {
+          "thick": 138,
+          "thin": 84
+        },
+        "red_edges": 237,
+        "green_edges": 242,
+        "query_cuts": 70,
+        "area_error": "6E-74",
+        "tested_overlap_pairs": 1016,
+        "unit_areas": {
+          "thick": "0.95105651629515357211643933337938214340569863412575022244730564443015317008",
+          "thin": "0.58778525229247312916870595463907276859765243764314599107227248075727847416"
+        }
+      }
+    },
+    "shared_tiles": 187,
+    "finite_expansion_counts": [
+      {
+        "thick": 80,
+        "thin": 48
+      },
+      {
+        "thick": 153,
+        "thin": 105
+      }
+    ],
+    "spread": {
+      "world_viewports": [
+        [
+          "-2.3",
+          "-1.6",
+          "0.2",
+          "1.6"
+        ],
+        [
+          "0.2",
+          "-1.6",
+          "2.7",
+          "1.6"
+        ]
+      ],
+      "crossing_addresses": [
+        [
+          1,
+          2,
+          0,
+          -1
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          1
+        ],
+        [
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          1
+        ],
+        [
+          1,
+          5,
+          0,
+          -1
+        ],
+        [
+          1,
+          5,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          4,
+          0,
+          0
+        ],
+        [
+          3,
+          5,
+          1,
+          -2
+        ],
+        [
+          4,
+          5,
+          1,
+          1
+        ]
+      ]
+    },
+    "same_world_view": "byte and pixel exact",
+    "outputs": 23,
+    "rasters": {
+      "clean": {
+        "mean_backend_error": 0.010698320899628092,
+        "size": [
+          225,
+          165
+        ]
+      },
+      "diagnostic": {
+        "mean_backend_error": 0.014947558372394974,
+        "size": [
+          225,
+          165
+        ]
+      },
+      "offset": {
+        "mean_backend_error": 0.010777111148352978,
+        "size": [
+          225,
+          195
+        ]
+      },
+      "alternate": {
+        "mean_backend_error": 0.010556809929358948,
+        "size": [
+          225,
+          165
+        ]
+      },
+      "common-a": {
+        "mean_backend_error": 0.010493702666251685,
+        "size": [
+          150,
+          105
+        ]
+      },
+      "common-b": {
+        "mean_backend_error": 0.010493702666251685,
+        "size": [
+          150,
+          105
+        ]
+      },
+      "spread-left": {
+        "mean_backend_error": 0.015679148511256354,
+        "size": [
+          150,
+          192
+        ]
+      },
+      "spread-right": {
+        "mean_backend_error": 0.014491693899782134,
+        "size": [
+          150,
+          192
+        ]
+      }
+    }
+  },
+  "visual_review": "Eight native PDF/SVG pairs accepted. Clean and matching views, two phase profiles, asymmetric crops, and the spread were inspected.",
+  "revision": "580053a163b33ab2bf7dd4284fcb66f13021fcbb",
+  "tree": "fbdbb980f4d982ab711c40c878b17c889921be90",
+  "run": 41834634936,
+  "jobs": {
+    "portable": {
+      "id": 126590277522,
+      "conclusion": "success"
+    },
+    "pdfs": {
+      "id": 126590278106,
+      "conclusion": "success"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "c9d7e17464234b9e3836ad214e3e7e0652efb5b33cee808eb946be01533b92e3",
+    "portable": "deaff3273e36a08398d4ae82c190bcde69e45bb005add4dc7e191660a978f3fa"
+  }
+}

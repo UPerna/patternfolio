@@ -1,0 +1,9 @@
+{
+  "status": "equivalent_executable_footprints_verified",
+  "bound_revision": "8a7f34fa3d84068d6ef98b0c8b3ecf84909abb5f",
+  "actual_local_run_revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "source_files_verified_in_new_canonical_archive": 90,
+  "browser_performance_runner_identical": true,
+  "original_local_proof_sha256": "99d197f0dbe5f4621d8507fa6a28480e4a7a7242b06ebd80d4a8c8624977d85f",
+  "basis": "OnlyCIorchestration/artifactdiscovery/prose/evidence changed. LocaltimedLua/recipefactory/renderer/worker runner sourcebytesmatch exactly. Freshall5current-headCI is stillmandatory; no localrun relabelled as a fresh8Aexecution."
+}

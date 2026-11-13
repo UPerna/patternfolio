@@ -1,0 +1,208 @@
+{
+  "revision": "cc23ebe635039e1495e212708ec41e8e8b3745a4",
+  "run": 42245712407,
+  "url": "https://github.com/UPerna/florilegium/actions/runs/42245712407",
+  "required_jobs": [
+    "portable",
+    "pdfs",
+    "patterns-luatex",
+    "patterns-dual",
+    "browser"
+  ],
+  "status": "in_progress",
+  "jobs": [
+    {
+      "id": 127987265499,
+      "name": "patterns-dual",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_id": 42245712407,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "shared semantic patterns and bounded builds in both native engines",
+          "status": "in_progress",
+          "conclusion": null,
+          "number": 3
+        },
+        {
+          "name": "preserve dual-engine verification evidence",
+          "status": "pending",
+          "conclusion": null,
+          "number": 4
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "pending",
+          "conclusion": null,
+          "number": 5
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "pending",
+          "conclusion": null,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": 127987265919,
+      "name": "portable",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_id": 42245712407,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "shared renderer and source kit",
+          "status": "in_progress",
+          "conclusion": null,
+          "number": 3
+        },
+        {
+          "name": "make container build evidence readable",
+          "status": "pending",
+          "conclusion": null,
+          "number": 4
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "pending",
+          "conclusion": null,
+          "number": 5
+        },
+        {
+          "name": "preserve portable failure evidence",
+          "status": "pending",
+          "conclusion": null,
+          "number": 6
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "pending",
+          "conclusion": null,
+          "number": 12
+        }
+      ]
+    },
+    {
+      "id": 127987265950,
+      "name": "pdfs",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_id": 42245712407,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "authored and grown (lualatex)",
+          "status": "in_progress",
+          "conclusion": null,
+          "number": 3
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "pending",
+          "conclusion": null,
+          "number": 4
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "pending",
+          "conclusion": null,
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": 127987266364,
+      "name": "patterns-luatex",
+      "status": "in_progress",
+      "conclusion": null,
+      "run_id": 42245712407,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "common semantic patterns in real LuaLaTeX documents",
+          "status": "in_progress",
+          "conclusion": null,
+          "number": 3
+        },
+        {
+          "name": "make common-pattern verification files readable",
+          "status": "pending",
+          "conclusion": null,
+          "number": 4
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "pending",
+          "conclusion": null,
+          "number": 5
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "pending",
+          "conclusion": null,
+          "number": 10
+        }
+      ]
+    },
+    {
+      "id": 127987267624,
+      "name": "gallery",
+      "status": "completed",
+      "conclusion": "skipped",
+      "run_id": 42245712407,
+      "logs_url": null,
+      "steps": null
+    }
+  ]
+}

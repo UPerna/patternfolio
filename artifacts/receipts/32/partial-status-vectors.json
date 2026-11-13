@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "source_digest": "a12ec1ef1bb32d9e732ed2914a47d4171578794b1ca72a3576e093f818690687",
+  "cases": {
+    "partial-packing": {
+      "physical_cm": [
+        6,
+        4
+      ],
+      "pdf_page_points": [
+        170.0787401574803,
+        113.38582677165354
+      ],
+      "pdf_operations": 34,
+      "svg_elements": 11,
+      "vector_only": true,
+      "searchable_text_characters": null,
+      "sha256": {
+        "recipe.json": "6faa20725c2e52a472e492438e54d8eea84b256fe800a649bc9e68be96445e42",
+        "pattern.svg": "9dfef68d2239d7afaa7eca2174977587fec5a60f5dab8ef5ae731482d0624fb7",
+        "pattern.pdf": "5860964070065079e4fac81116fa014bf77ef6de569f0a3cc821e6e6c95e7cc1"
+      }
+    },
+    "exemplar": {
+      "physical_cm": [
+        4,
+        1.5
+      ],
+      "pdf_page_points": [
+        113.38582677165354,
+        42.519685039370074
+      ],
+      "pdf_operations": 278,
+      "svg_elements": 8,
+      "vector_only": true,
+      "searchable_text_characters": null,
+      "sha256": {
+        "recipe.json": "a6aa17fbff7819a6786a12335e228ff71cc2fc2ade4e79873a569723dee02a9e",
+        "pattern.svg": "ec46275abcaae91823629c9f0bc4292242811c3f517a63e3ca99d12f729da226",
+        "pattern.pdf": "eb5eed60bea8cfe98627046cd5fb4d9ed0cd140977c0600d1a775455b9ab3bd3"
+      }
+    },
+    "microgram": {
+      "physical_cm": [
+        13,
+        7
+      ],
+      "pdf_page_points": [
+        368.503937007874,
+        198.4251968503937
+      ],
+      "pdf_operations": 10007,
+      "svg_elements": 1495,
+      "vector_only": true,
+      "searchable_text_characters": 351,
+      "sha256": {
+        "recipe.json": "862108931d1c58a56dab36fdf85bcb62a4e32681148a783d501f0b00e48a260d",
+        "pattern.svg": "40a59533cc9f2c2c9651c52dd18d15344d32b5c45e9b2a71434b7c1ba7583c87",
+        "pattern.pdf": "080cade796b44d929e4ea6801117379c94bb38af0566f5d030cbb18de528e330"
+      }
+    }
+  },
+  "scope": "Independent XML/PDF syntax, physical units, vector-only resources, DeviceGray and searchable text; visual review remains separate"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "observed_failure_repaired_recheck_pending",
+  "kind": "tool_observation_not_a_passing_receipt",
+  "test": "tools/check-performance-bounds.lua",
+  "actual_lua": "Lua5.3/Lupa2.8",
+  "observed_diagnostic": "Exhaustion was accepted as a complete patch:mosaic-packing-small/objects",
+  "pre_fix_mosaic_source_sha256": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+  "pre_fix_micrography_source_sha256": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+  "repair": "Charge requested mosaic sites before solve/witness acceptance and shaped graphemes before field solve. Preserve algorithm/output geometry; rerun all54failure checks and exact-head native/browser gates.",
+  "text_tall_case": "measurements/performance/results/text-shaping-large-matrix-v1-candidate-Lua-5.3.json",
+  "second_observation": {
+    "actual_lua": "Lua5.3/Lupa2.8",
+    "diagnostic": "Exhaustion was accepted as a complete patch:example-synthesis-small/objects",
+    "repair": "Charge width*rows grid samples before field synthesis; no geometry changes."
+  }
+}

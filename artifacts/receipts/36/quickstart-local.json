@@ -1,0 +1,357 @@
+{
+  "stage": "36",
+  "status": "passed",
+  "source_kit_sha256": "1e0eb32b92d9e8bee9ebcd47b023249e1de3f7da021b1743d51738ad93a74758",
+  "manifest_files": 1241,
+  "checked_document_links": [
+    {
+      "from": "README.md",
+      "path": "docs/QUICKSTART.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/GALLERY.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/COMPATIBILITY.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/architecture/CONTRACTS.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/ADDING-A-FAMILY.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/research/SOURCES.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/project/BASELINE.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/architecture/DOCUMENTS.md"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/seeds.gif"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/preview-grown-lastpage.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/detail.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/folio-guide.png"
+    },
+    {
+      "from": "README.md",
+      "path": "folio-demo.tex"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/folio-labels.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/layout-controls.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/book-layouts.png"
+    },
+    {
+      "from": "README.md",
+      "path": "examples/assets"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/preview-showcase.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/initials.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/seasons.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/detail-visitors.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/inks.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/preview-postscript.png"
+    },
+    {
+      "from": "README.md",
+      "path": "examples/book.tex"
+    },
+    {
+      "from": "README.md",
+      "path": "CLAUDE.md"
+    },
+    {
+      "from": "README.md",
+      "path": "ACKNOWLEDGEMENTS.md"
+    },
+    {
+      "from": "README.md",
+      "path": "VALIDATION.md"
+    },
+    {
+      "from": "README.md",
+      "path": "QC.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/architecture/BOTANICAL.md"
+    },
+    {
+      "from": "README.md",
+      "path": "docs/architecture/PERIODIC.md"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/preview-authored.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/preview-grown.png"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/growth.gif"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/growth-explain.gif"
+    },
+    {
+      "from": "README.md",
+      "path": "gallery/printed.jpg"
+    },
+    {
+      "from": "docs/ADDING-A-FAMILY.md",
+      "path": "docs/architecture/CONTRACTS.md"
+    },
+    {
+      "from": "docs/ADDING-A-FAMILY.md",
+      "path": "docs/architecture/DOCUMENTS.md"
+    },
+    {
+      "from": "docs/ADDING-A-FAMILY.md",
+      "path": "docs/architecture/RECIPES.md"
+    },
+    {
+      "from": "docs/ADDING-A-FAMILY.md",
+      "path": "examples/cli/catalog.json"
+    },
+    {
+      "from": "docs/ADDING-A-FAMILY.md",
+      "path": "docs/research/COVERAGE.csv"
+    },
+    {
+      "from": "docs/ADDING-A-FAMILY.md",
+      "path": "docs/research/SOURCES.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "artifacts/receipts/35/acceptance.json"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/architecture/BROWSER-RUNTIME.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/CLI.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "LICENSE"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/research/licenses/HATVIZ-BSD-3-Clause.txt"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/architecture/HAT_AND_BOUNDED.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "pattern_json.lua"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "web/vendor/wasmoon-1.16.0/LICENSE"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "web/vendor/wasmoon-1.16.0/LUA-LICENSE.txt"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "web/vendor/hash-wasm-4.12.0/LICENSE"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/fonts/README-PatternMicrography.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/fonts/README-PatternSceneFixture.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/fonts/GUST-FONT-LICENSE.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/fonts/LPPL-1.3c.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/research/SOURCES.md"
+    },
+    {
+      "from": "docs/COMPATIBILITY.md",
+      "path": "docs/research/BIBLIOGRAPHY.json"
+    },
+    {
+      "from": "docs/GALLERY.md",
+      "path": "examples/cli/catalog.json"
+    },
+    {
+      "from": "docs/GALLERY.md",
+      "path": "examples/gallery/profiles.json"
+    },
+    {
+      "from": "docs/GALLERY.md",
+      "path": "docs/research/COVERAGE.csv"
+    },
+    {
+      "from": "docs/GALLERY.md",
+      "path": "docs/design/ORIGINAL-COLLECTIONS.md"
+    },
+    {
+      "from": "docs/GALLERY.md",
+      "path": "docs/validation/EXPORT-REVIEW.md"
+    },
+    {
+      "from": "docs/GALLERY.md",
+      "path": "docs/QUICKSTART.md"
+    },
+    {
+      "from": "docs/LUALATEX-PATTERNS.md",
+      "path": "docs/XELATEX-PATTERNS.md"
+    },
+    {
+      "from": "docs/QUICKSTART.md",
+      "path": "docs/GLOSSARY.md"
+    },
+    {
+      "from": "docs/QUICKSTART.md",
+      "path": "docs/CLI.md"
+    },
+    {
+      "from": "docs/QUICKSTART.md",
+      "path": "docs/validation/EXPORT-REVIEW.md"
+    },
+    {
+      "from": "docs/QUICKSTART.md",
+      "path": "docs/LUALATEX-PATTERNS.md"
+    },
+    {
+      "from": "docs/QUICKSTART.md",
+      "path": "docs/XELATEX-PATTERNS.md"
+    },
+    {
+      "from": "docs/QUICKSTART.md",
+      "path": "docs/browser-editor.md"
+    },
+    {
+      "from": "docs/QUICKSTART.md",
+      "path": "docs/research/SOURCES.md"
+    },
+    {
+      "from": "docs/XELATEX-PATTERNS.md",
+      "path": "docs/LUALATEX-PATTERNS.md"
+    },
+    {
+      "from": "docs/browser-editor.md",
+      "path": "docs/QUICKSTART.md"
+    },
+    {
+      "from": "docs/research/CONTROL-AUDIT.md",
+      "path": "docs/browser-editor.md"
+    },
+    {
+      "from": "docs/research/CONTROL-AUDIT.md",
+      "path": "docs/architecture/RECIPES.md"
+    },
+    {
+      "from": "docs/research/CONTROL-AUDIT.md",
+      "path": "docs/architecture/DOCUMENTS.md"
+    },
+    {
+      "from": "docs/validation/EXPORT-REVIEW.md",
+      "path": "examples/cli/catalog.json"
+    },
+    {
+      "from": "docs/validation/EXPORT-REVIEW.md",
+      "path": "docs/CLI.md"
+    },
+    {
+      "from": "docs/validation/EXPORT-REVIEW.md",
+      "path": "docs/LUALATEX-PATTERNS.md"
+    },
+    {
+      "from": "docs/validation/EXPORT-REVIEW.md",
+      "path": "docs/XELATEX-PATTERNS.md"
+    }
+  ],
+  "profiles_listed": 22,
+  "quickstart_instance_scene_vectors_byte_exact": {
+    "pattern.pdf": "71dd4f0f1e210c06118584cf3a2259a8733c7b9d1ac9f0d22a22c069d6258cd1",
+    "pattern.svg": "aef7897a30b6c6dd56d9bfa8b0bd88c1b30a614f2e81bd266e29c820db705a01",
+    "scene.json": "1ca2acdaf671d87182cfa4e6d9481870440973199ec798c18e24299abc8dfd10",
+    "instance.json": "0df09e1caafb9c253ab7a54f75ba95c69b8f371d16c3c610d277c6f8498838ca"
+  },
+  "browser_assets_rebuilt": {
+    "assets.json": "4287e99255ffb32771fd33bd2894b375d06d982322617eabe06906ee62f40573",
+    "bundle.json": "3a8a3679d8e04b4ecb45b91c90fe945357b4a4856187deb2ec6c00803417da15",
+    "cache.js": "deb688790ce9e59ef561026a069c37f9ef521660a26e1bd20a7115f45900f1ed",
+    "client.js": "79560ab80b995f6fc129d521ebd0542c692c3129a1fb32bec651db959cec545a",
+    "editor.css": "37f24127c5bb5c730cdcd585b809bd506e78b9114d70b408fe2b05b1243fe867",
+    "editor.js": "4a3186aa3792eb94c350e5a584c6f9158c5d0dd7a9dc564ce8cd85338fe2ebac",
+    "index.html": "bd6f6b2f00787d79c79dd8af9e554fefefdce432fa2d9b06a19d0f4f6dbdd89f",
+    "runtime.html": "0d618d4968b839f896ecfd0d6d4e83d968459e77a58c211499144f12a221f77a",
+    "runtime.wasm": "95f3f19ddb740125883bc41d5ec670cd0828e7b58c8bdad385323cbff497b55c",
+    "sha256.js": "ed7f5896b41aba98909ab143264c5b2ae5c81abf2e47f08dd2d1c0d02ce623de",
+    "wasmoon.js": "dc2dcf019449008bb224370052473dc760db28b3ba14fc604e1ca3e8646af35d",
+    "worker.js": "13a774b8d93b9ecf9db33d4679ab53b878192e9440636a647d3fc1c8ee012067",
+    "licenses/hash-wasm-MIT.txt": "c14dea172f72f2714284a0ac2ab1b00b5352a01409d58255a46227ffc541debd",
+    "licenses/LICENSE": "9ed9226c0138819a0859cf3c55a3414b4a186a17a4eaf4b5a51ceed7937615ac",
+    "licenses/LUA-LICENSE.txt": "b5412fd42e0763f0ee941a527e95f874a57597c26a87bfab41ec65000748c6ae",
+    "licenses/SHA256-C-LICENSE.txt": "a26eb88ba874fcfd93eaaeb7cf0ff7a2284f336f795de2fc57aa2880355e053a"
+  },
+  "runtime": "Windows Lupa functional CLI host, Python 3.12.14; current native TeX and browser artifact gates separate",
+  "scope": "Fresh extracted working source kit in a path with spaces. CLI generate and replay use the documented recipe and a Unicode nondefault output folder. Browser static files reconstructed entirely from package.",
+  "local_host_limitation": "The first Windows Lupa-only attempt could not open its trusted driver from a source directory containing Greek Omega. All extracts preserved. This does not certify Unicode source paths for a native Windows TeX installation; Linux native checks remain separate.",
+  "reviewer_correction": "A README folder link is valid. The independent link check now distinguishes an existing directory hyperlink from an image file requirement."
+}

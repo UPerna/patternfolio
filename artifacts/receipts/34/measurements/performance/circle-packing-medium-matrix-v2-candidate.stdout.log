@@ -1,0 +1,4 @@
+Measured actual workload	circle-packing-medium	cold-generation	3.563366
+Measured actual workload	circle-packing-medium	warm-generation	2.474893
+Measured actual workload	circle-packing-medium	validated-instance-replay	2.115865
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 28668986

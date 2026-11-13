@@ -1,0 +1,100 @@
+{
+  "displaced": {
+    "differing_numeric_values": 857,
+    "max_abs_difference": 8.881784197001252e-16,
+    "pdf": {
+      "bbox": [
+        12,
+        24,
+        157,
+        108
+      ],
+      "peak": 78,
+      "mean_normalized_error": 0.0006626724763979665
+    },
+    "svg": {
+      "bbox": [
+        0,
+        0,
+        168,
+        132
+      ],
+      "peak": 2,
+      "mean_normalized_error": 0.00031300398947457775
+    },
+    "vector": {
+      "pdf_operand_total_diff_max": [
+        1382,
+        56,
+        2.220446049250313e-16
+      ],
+      "svg_operand_total_diff_max": [
+        296,
+        56,
+        2.220446049250313e-16
+      ]
+    }
+  },
+  "parquet": {
+    "differing_numeric_values": 59,
+    "max_abs_difference": 2.6645352591003757e-15,
+    "pdf": {
+      "bbox": null,
+      "peak": 0,
+      "mean_normalized_error": 0.0
+    },
+    "svg": {
+      "bbox": [
+        0,
+        0,
+        168,
+        132
+      ],
+      "peak": 2,
+      "mean_normalized_error": 0.00022045855379188714
+    },
+    "vector": {
+      "pdf_operand_total_diff_max": [
+        394,
+        12,
+        2.4424906541753444e-15
+      ],
+      "svg_operand_total_diff_max": [
+        88,
+        12,
+        2.4424906541753444e-15
+      ]
+    }
+  },
+  "rosette": {
+    "differing_numeric_values": 1879,
+    "max_abs_difference": 8.881784197001252e-16,
+    "pdf": {
+      "bbox": null,
+      "peak": 0,
+      "mean_normalized_error": 0.0
+    },
+    "svg": {
+      "bbox": [
+        0,
+        0,
+        168,
+        132
+      ],
+      "peak": 2,
+      "mean_normalized_error": 0.0004977411840156939
+    },
+    "vector": {
+      "pdf_operand_total_diff_max": [
+        2750,
+        49,
+        2.220446049250313e-16
+      ],
+      "svg_operand_total_diff_max": [
+        584,
+        49,
+        2.220446049250313e-16
+      ]
+    }
+  }
+}

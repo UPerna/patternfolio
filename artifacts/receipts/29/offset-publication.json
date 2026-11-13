@@ -1,0 +1,99 @@
+{
+  "stage": "29",
+  "revision": "9201a5731c494d111153d15c9937621529d18a02",
+  "parent": "200db9a8bc209eb067f2d6e20c8b50dafb225cee",
+  "tree": "ee2d4ec5ae5698160d9ef4237ca6263f7fb23115",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": "artifacts/receipts/29/book-view-crops.json",
+      "sha256": "5d6ce438fa147009fcf139f098f3a5551fbccf46e19f54cfeb3183e2fcc23bd6",
+      "bytes": 1500
+    },
+    {
+      "path": "artifacts/receipts/29/host-offset-Lua-5.3.json",
+      "sha256": "3e5526604bd861bcf9ba981b3fa3fb0aed339d04345feedf23acad55f40194a0",
+      "bytes": 8210
+    },
+    {
+      "path": "artifacts/receipts/29/host-offset-Lua-5.4.json",
+      "sha256": "2c4665ba3fd8dab1885c6cbb2225fc84b1f3ef091096e770eabd71460a768ba0",
+      "bytes": 8210
+    },
+    {
+      "path": "artifacts/receipts/29/mask-oracle-preflight.json",
+      "sha256": "b06ede5e38c488649d77b69d3ec10854765054f05c6153382c049ebe065f4813",
+      "bytes": 497
+    },
+    {
+      "path": "artifacts/receipts/29/native-offset-diagnosis.json",
+      "sha256": "b130aa41d49efd21417c53415e114fd75b92048e269144cbc9491a86a710d3f3",
+      "bytes": 5066
+    },
+    {
+      "path": "artifacts/receipts/29/offset-native-rejected.json",
+      "sha256": "25c31a38e44b9721ad24e00dc0ef05a8107f3bd1f2b36bff9fbaa1a3bccb0202",
+      "bytes": 526
+    },
+    {
+      "path": "artifacts/receipts/29/repair-publication.json",
+      "sha256": "d6789c1bd2f278761b51648a8ea9decf40a0fbee342ef86ab824b298ba9d804e",
+      "bytes": 3713
+    },
+    {
+      "path": "docs/LUALATEX-PATTERNS.md",
+      "sha256": "49a40b9ae730e3eee6744a1f219be4839c6bba67fc0d85b7f7eb610b95d9df73",
+      "bytes": 7055
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "fac4bd7f15c692b83cfe9e409313805e39cf2cc62f7714086674ceeedff17311",
+      "bytes": 8072
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "2a3134229f730f5b1b222c60c8bf5db98f2acef481aea2ede88beb44485f3d22",
+      "bytes": 66276
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "7b4a40de4e08fffc7f518dd72085683385eb27d3e14c8450e02a8d1b4c537209",
+      "bytes": 1245
+    },
+    {
+      "path": "examples/patterns/book.tex",
+      "sha256": "04303df13e4fcf561f1e943dc57482969238d61bb63a15d902dbc99f1fdfc685",
+      "bytes": 947
+    },
+    {
+      "path": "examples/patterns/chapter-one.tex",
+      "sha256": "05428d363054b3c66e5bf8a5a9fe1a3d65488c0315e9eb1294ec2e37d2b84bb3",
+      "bytes": 1351
+    },
+    {
+      "path": "examples/patterns/divider.recipe",
+      "sha256": "6710a4b8d372b8ede049d5c7b11a2d42bb2eef5dec9880a7554c73e3bd8aaa30",
+      "bytes": 1160
+    },
+    {
+      "path": "examples/patterns/micrography.recipe",
+      "sha256": "ad7cbc1bf8c95cbb62963122ef079579b647aa3c9530f39aed79da8ebb59ca8a",
+      "bytes": 116402
+    },
+    {
+      "path": "pattern_luatex.lua",
+      "sha256": "c1ab0e7768b20e3d5f26bc2dc54d48045bea233362180c8f633f35398c279c36",
+      "bytes": 8761
+    },
+    {
+      "path": "tools/tex-mask-control.lua",
+      "sha256": "870343a3bca80082e1d9a461bbd01eb8e9e7a4645e12802719cd7b216b468dd9",
+      "bytes": 1624
+    }
+  ],
+  "unchanged_parent_entries": 593,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42054812019,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

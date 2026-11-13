@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "runtimes": [
+    "Lua 5.3 via Lupa 2.8",
+    "Lua 5.4 via Lupa 2.8"
+  ],
+  "checks_each": {
+    "contractcheck": 61,
+    "replaycheck": 145,
+    "eschercheck": 20
+  },
+  "shared_exact_p3_edges": 947,
+  "numeric_locales_exercised_each": 3,
+  "unavailable_locales": "Explicitly skipped by the existing suite"
+}

@@ -1,0 +1,213 @@
+{
+  "revision": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+  "native_cli_source_digest": "d50ca5dc265b53d9efb97f9aa401892c3031565def3f4670d4f7cc5be5aa26ff",
+  "families": 22,
+  "verified_export_hashes": 44,
+  "core_checks": 17,
+  "failure_checks": {
+    "checks": 20,
+    "symlink_checked": true,
+    "signal_cancellation_checked": true,
+    "junction_checked": false,
+    "timeout_checked": true,
+    "hardlink_lock_checked": true,
+    "partial_batch_repaired": true,
+    "damaged_output_rebuilt": true,
+    "unicode_paths_checked": true,
+    "concurrent_destination_checked": true
+  },
+  "kit_hashes": 545,
+  "native_local_export_differences": [
+    "freeform.pdf",
+    "freeform.svg",
+    "micrography.pdf",
+    "micrography.svg",
+    "decobrush.pdf",
+    "decobrush.svg"
+  ],
+  "native_source_verification": "Derived independently from the fetched Git tree",
+  "solver_cache_replayed_on_windows": {
+    "revision": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+    "native_run": 42026815106,
+    "family": "tiling/escherization",
+    "public_command": "replay --from native solver-cache",
+    "host": "Windows, Lua 5.3 through Lupa 2.8",
+    "parent_record": "build/443dd74f7c8dd4a76357f7b93d7a4c5f6bb45f7d31a790151dcfc0dbecde95bb",
+    "replay_record": "build/b777f71cecba50bc5ca4c3fa9ecf54c402817fc3b6b29bf168b746416b6ebaf4",
+    "unchanged_artifacts": {
+      "instance.json": "337034a7ef569dfad32f048f136b8227564f52614dfc861ed56ba4f54fb0016e",
+      "pattern.pdf": "acdf1c368bc0273f80a8300422ea81cc0e08b2e2ebe27f2d6ad80b502d7291e6",
+      "pattern.svg": "9b3d751e07ac75dd3d989d1a6b24107befd0767bccdecc4559d92bda4cbbde29"
+    },
+    "result": "The public CLI from the extracted native kit validates the native solver witness and replays its instance/PDF/SVG bytes exactly on Windows. Optimizer bypass is additionally checked by the independent 17-check shared core suite."
+  },
+  "visual_review": "Accepted all 22 PDF/SVG pairs. Exact export matches and independently audited floating-point differences bind the native exports to the reviewed Windows outputs.",
+  "tree": "992f9e5dc1d179b4e1fe68d9e962be5e79bfd7be",
+  "run": 42026815106,
+  "jobs": [
+    {
+      "id": 127242970935,
+      "name": "pdfs",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 42026815106,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "authored and grown (lualatex)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        }
+      ]
+    },
+    {
+      "id": 127242971235,
+      "name": "portable",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 42026815106,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "shared renderer and source kit",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "make container build evidence readable",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "preserve portable failure evidence",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        }
+      ]
+    },
+    {
+      "id": 127242973147,
+      "name": "gallery",
+      "status": "completed",
+      "conclusion": "skipped",
+      "run_id": 42026815106,
+      "logs_url": null,
+      "steps": null
+    }
+  ],
+  "difference_analysis": {
+    "revision": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+    "native_cli_source_digest": "d50ca5dc265b53d9efb97f9aa401892c3031565def3f4670d4f7cc5be5aa26ff",
+    "exact_controls_and_categorical_structure": true,
+    "numeric_tolerance": 2e-09,
+    "files": {
+      "freeform.pdf": {
+        "numeric_entries": 38,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "freeform.svg": {
+        "numeric_entries": 38,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "micrography.pdf": {
+        "numeric_entries": 142,
+        "maximum_absolute_delta": 3.3881317890172014e-21
+      },
+      "micrography.svg": {
+        "numeric_entries": 142,
+        "maximum_absolute_delta": 3.3881317890172014e-21
+      },
+      "decobrush.pdf": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "decobrush.svg": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      }
+    },
+    "pdf_raster_cross_host": {
+      "decobrush": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "micrography": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "freeform": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      }
+    },
+    "native_visual_review": "pending"
+  },
+  "archive_sha256": {
+    "pdfs": "b5bd3d637affa3650f36becc7ec22fe4a076b62097373ed176e09a762da878a6",
+    "portable": "33f01e9997281d73b47d4a0520c26e44d8d9d9444d0f01356bdf6ce3151af387"
+  }
+}

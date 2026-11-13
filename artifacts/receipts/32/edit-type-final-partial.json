@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "browser": "156.0.4314.58",
+  "source_digest": "1378303624c193e33d799d8d3e465a3f10ab6a5dca68738a56613d64a55c3952",
+  "editorcheck_sha256": "1a7dd667cb61a56beb683ae3704143e24005079a5d0df086f45744b1861e8a63",
+  "cases": {
+    "partial-packing": {
+      "status": "passed",
+      "source_digest": "1378303624c193e33d799d8d3e465a3f10ab6a5dca68738a56613d64a55c3952",
+      "instance_sha256": "ec3cc7fa6d0f6673c5a86f0b88e135c975bcd0ac3520aaa1356a45e65b36db3e",
+      "claims": [
+        "Native partial packing is shown explicitly rather than advertised as complete packing",
+        "Native placed/rejected/coverage and solver status are visible",
+        "Paint revision preserves partial construction and its status"
+      ],
+      "vector_structure": {
+        "paths": 3,
+        "texts": 0,
+        "rasters": 0,
+        "width": "6cm",
+        "height": "4cm",
+        "viewbox": "0 0 6 4",
+        "semantic_refs": 2,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "ec3cc7fa6d0f6673c5a86f0b88e135c975bcd0ac3520aaa1356a45e65b36db3e",
+        "pattern.pdf": "5860964070065079e4fac81116fa014bf77ef6de569f0a3cc821e6e6c95e7cc1",
+        "pattern.svg": "9dfef68d2239d7afaa7eca2174977587fec5a60f5dab8ef5ae731482d0624fb7",
+        "recipe.json": "6faa20725c2e52a472e492438e54d8eea84b256fe800a649bc9e68be96445e42",
+        "record.json": "eabe2839bf010ee1163c31c6c0cd2baf26f5535b477947dd5d84effe648a2737",
+        "scene.json": "d04d08720f4bf53b35efd976e5f568e949153992efa7b8ca44978e65ed8d3cf2",
+        "view.json": "d85ff931f178afa2993a115e702207b1a2c79274bd1672e9676de9a5755f15fb"
+      }
+    }
+  },
+  "errors": [],
+  "scope": "Actual DOM/worker tasks and exact downloaded vector bytes; visual review is a separate required evidence receipt."
+}

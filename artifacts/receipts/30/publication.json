@@ -1,0 +1,319 @@
+{
+  "stage": "30",
+  "revision": "9ab59175346f61362094610d5ad3bfad4ade6b50",
+  "parent": "3e49627f01651ede39c56f5c6e9ef41bcc0230fe",
+  "tree": "553151513acf2cab14ba8f947d05d9dd26a3125f",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "fe060f3895db4e06c3e3ee8c9a8dfe192637a06e97a7b56435a47d18b93c61d8",
+      "bytes": 9036
+    },
+    {
+      "path": "artifacts/receipts/29/acceptance.json",
+      "sha256": "317e88ec9fab86a2898bd0153a98b0497db22edc55d19715e411b34b967b8819",
+      "bytes": 5902
+    },
+    {
+      "path": "artifacts/receipts/29/book-view-crops.json",
+      "sha256": "af5bc23401e6f885816f99431c474fb4d8fbac8ed141c99d4e4240ed57345376",
+      "bytes": 1548
+    },
+    {
+      "path": "artifacts/receipts/29/ci-inline-current.json",
+      "sha256": "42f6d184fa479c173988f87081368aad2c4232c98e61b9a8945aa32329f1ac55",
+      "bytes": 3994
+    },
+    {
+      "path": "artifacts/receipts/29/ci-inline-final.json",
+      "sha256": "5e94de15442d92e1e3aa05d19cc4d5a7f27a21dcc58dfdb77a191689f5c83dc6",
+      "bytes": 4159
+    },
+    {
+      "path": "artifacts/receipts/29/common-native-verification.json",
+      "sha256": "ec2f2946dc22d6afc52bee0a5a386eaaf9455cc8c26a2b174655b3f6fb00f698",
+      "bytes": 7213
+    },
+    {
+      "path": "artifacts/receipts/29/diagnostic-native-rejected.json",
+      "sha256": "3b6cfd622c20cef38798e664496a47fdbb1729e29c5444815421cd519e585e89",
+      "bytes": 524
+    },
+    {
+      "path": "artifacts/receipts/29/diagnostics-publication.json",
+      "sha256": "d7b94775e6612e6106f02fe5c3faba3f4b2501a96a7ed71dd8afa684e5ff2721",
+      "bytes": 1582
+    },
+    {
+      "path": "artifacts/receipts/29/fixture-provenance.json",
+      "sha256": "e1a8e19ab3e1af5df85c4a718ca0d5deb4ed2478270132a2445d7c52c5091026",
+      "bytes": 1901
+    },
+    {
+      "path": "artifacts/receipts/29/inherited-b2ec-native-verification.json",
+      "sha256": "6bb97cc5526dc6bc2605ddf2d4d479bda59ccff36bed223b0abccbaf335392a5",
+      "bytes": 1854
+    },
+    {
+      "path": "artifacts/receipts/29/inherited-inline-native-verification.json",
+      "sha256": "8aed6f75f893cc5734e2656d153de936d0a6e54ed2b466f7570dcdf7cb422f4d",
+      "bytes": 1854
+    },
+    {
+      "path": "artifacts/receipts/29/initial-native-failure-excerpt.log",
+      "sha256": "ca1a01fc584807fba1013635e4694d6a6a3da3b39891c410be3de4429f1b4756",
+      "bytes": 13000
+    },
+    {
+      "path": "artifacts/receipts/29/inline-common-native-verification.json",
+      "sha256": "de5acd02aaf9f498cf1c49ba42757ce1711555aa3f65363f70753b2815ad7dbe",
+      "bytes": 8286
+    },
+    {
+      "path": "artifacts/receipts/29/inline-constraint-repair.json",
+      "sha256": "9de7de070ddad0daaafb5a8ab76413bfea97771b1e3fde61eccf4e73d4c26a5c",
+      "bytes": 627
+    },
+    {
+      "path": "artifacts/receipts/29/inline-final-head-and-pr.json",
+      "sha256": "f10076aa3f94f89f9e0416eee948a549119aae17aced2cd950df9be3dae78f5b",
+      "bytes": 291
+    },
+    {
+      "path": "artifacts/receipts/29/inline-packaged-cli-local.json",
+      "sha256": "2e841719318e300d0fc2066a3eaf38c5f89047ce296d165a21b278ba9a65fc21",
+      "bytes": 411
+    },
+    {
+      "path": "artifacts/receipts/29/inline-portable-native-verification.json",
+      "sha256": "0898c87e1ff234225c5b37de5e8404bf33ad5ffddd20207a159d8237e4de7adf",
+      "bytes": 4751
+    },
+    {
+      "path": "artifacts/receipts/29/inline-publication.json",
+      "sha256": "cb78b19684179022db77588d1ea5b92d0f7228d6a1a72e99951eb4f9f91eb4fb",
+      "bytes": 3911
+    },
+    {
+      "path": "artifacts/receipts/29/inline-source-archive.json",
+      "sha256": "d49d63e92bec2a5be73ee401cac1fa6625627bdb4a32660086669eb57763538c",
+      "bytes": 4749
+    },
+    {
+      "path": "artifacts/receipts/29/mandatory-gate-map.json",
+      "sha256": "f3e6ee2e00e111c753aca991a4ff40d5d10c14ceebf39b3a4a6bfb8d5f793aee",
+      "bytes": 6486
+    },
+    {
+      "path": "artifacts/receipts/29/mask-oracle-preflight.json",
+      "sha256": "85176067fe2ddabeed25f907d7cc54ed6772c176acbb5bf7caa0d61446ae135b",
+      "bytes": 525
+    },
+    {
+      "path": "artifacts/receipts/29/native-offset-diagnosis.json",
+      "sha256": "f77c4112b74087add6b0a800aa2bc582611e83f8e57ffc144b99bfd337238e72",
+      "bytes": 5298
+    },
+    {
+      "path": "artifacts/receipts/29/native-positive-9201.json",
+      "sha256": "3b4ec75b74d30fa3533a2d96cf798886f1ef8f19d6903a97ef5df1ffb624d3ab",
+      "bytes": 5642
+    },
+    {
+      "path": "artifacts/receipts/29/offset-native-failure-excerpt.log",
+      "sha256": "644c2dbe4eb48e41ac889a12e659fa0d4f51ef8abe86dc9a76b6a95d4545954a",
+      "bytes": 13000
+    },
+    {
+      "path": "artifacts/receipts/29/offset-native-rejected.json",
+      "sha256": "0f4c4d30525a5b9e69c5ed8b5d1c986c443179be58a5f9527d9715ae238297e4",
+      "bytes": 538
+    },
+    {
+      "path": "artifacts/receipts/29/offset-publication.json",
+      "sha256": "c6e6afbc3f894b23ac076fbb49cafa51ebf5e8b3678dfaeccc2d6d8a30f5b9f0",
+      "bytes": 3494
+    },
+    {
+      "path": "artifacts/receipts/29/packaged-cli-local.json",
+      "sha256": "ff8adc1bec046b5644db5e37b56e970475449fb10991524b4790c24def543cf0",
+      "bytes": 411
+    },
+    {
+      "path": "artifacts/receipts/29/pdf-parser-native-smoke.json",
+      "sha256": "8357da11e60cfa3e2d9ad79e0783bca3a266b7ea3eb081ae0510b98920c62e77",
+      "bytes": 294
+    },
+    {
+      "path": "artifacts/receipts/29/portable-native-verification.json",
+      "sha256": "3b867075bf6258cda8428447fa6cb8ac238300f4e8790ba17cd684a54c04f12d",
+      "bytes": 4751
+    },
+    {
+      "path": "artifacts/receipts/29/repair-native-failure-excerpt.log",
+      "sha256": "8bd835973f7c6272ed06ce952d83d2cfc1797ea83a5e6349fe7c6d0e648004b9",
+      "bytes": 11000
+    },
+    {
+      "path": "artifacts/receipts/29/repair-publication.json",
+      "sha256": "4404c63533fdd8b716c4f4b0b5cab43e7dd986e2a04975a272cbc95e033dbab9",
+      "bytes": 3822
+    },
+    {
+      "path": "artifacts/receipts/30/build-control-development.json",
+      "sha256": "cc3d63a9a869f8304df918f60a7a02f20d7a16ae8c951cac790f6d9c6092f4cd",
+      "bytes": 100386
+    },
+    {
+      "path": "artifacts/receipts/30/evidence-encoding.json",
+      "sha256": "329b9746aa44e8230e52073109f191a22863906a0880ea883e8f57b45f95f9b3",
+      "bytes": 4726
+    },
+    {
+      "path": "artifacts/receipts/30/local-verification.json",
+      "sha256": "1aa5c4eb6564f12a5d0e75340d41edaf5d375b309c636b866c3d3aa4db69d989",
+      "bytes": 1916
+    },
+    {
+      "path": "artifacts/receipts/30/lua-host-Lua-5.3.json",
+      "sha256": "4bf16060023ee72e1605757db918f13da7683158c48b4b350606fe22efdad6b7",
+      "bytes": 8397
+    },
+    {
+      "path": "artifacts/receipts/30/lua-host-Lua-5.4.json",
+      "sha256": "7d7075ec25618bdbc9dc0ee55066ac64986b14bb9a5a214ec7dd26ebde55fcb7",
+      "bytes": 8397
+    },
+    {
+      "path": "artifacts/receipts/30/raster-oracle-development.json",
+      "sha256": "d349139e08631e23f5cdb0d6f185fc331916de0cd317bee2288f1fc4af8e73c4",
+      "bytes": 1090
+    },
+    {
+      "path": "artifacts/receipts/30/record-adapter-Lua-5.3.json",
+      "sha256": "a69857a22492b80f5374a36b41201711a15cc535ee04a19f8358e8577f22f114",
+      "bytes": 10363
+    },
+    {
+      "path": "artifacts/receipts/30/record-adapter-Lua-5.4.json",
+      "sha256": "cd9ab162318fc9026448bbd30d8df570f54373b1fe6e1daf797fc776ffd3b768",
+      "bytes": 10363
+    },
+    {
+      "path": "artifacts/receipts/30/research.json",
+      "sha256": "af5704c1fc4fbbe64d991ecc9d8eb57175ccf763ddfd1a0a6f81b5e7a5f1608e",
+      "bytes": 2046
+    },
+    {
+      "path": "artifacts/receipts/30/shared-core-lua53.json",
+      "sha256": "51ac6344fd298b88672e2ebaa93d43b89c126cd5db9f1088f6a7205d24a078ef",
+      "bytes": 10820
+    },
+    {
+      "path": "artifacts/receipts/30/shared-core-lua54.json",
+      "sha256": "5564ae89cf12b47a9c9174b09cd806abe5fcf5d8d74c3abd17c2471148d66d09",
+      "bytes": 10820
+    },
+    {
+      "path": "artifacts/receipts/30/visibility-oracle-development.json",
+      "sha256": "6fcc78337131e05d3f2194322fcb4746dbd4e7da37a6e1a55cd4d8f41a950bc6",
+      "bytes": 856
+    },
+    {
+      "path": "docs/LUALATEX-PATTERNS.md",
+      "sha256": "2be09741e55b0defb3fa0f64e62cdf4225c4fb9b62af4f775a8f3c8efa0bc5e9",
+      "bytes": 7208
+    },
+    {
+      "path": "docs/XELATEX-PATTERNS.md",
+      "sha256": "63c82b1a5cb407fecd97500505cf3e01899d4d07220492665e2b5ce292324603",
+      "bytes": 7988
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "723f29cfb80f32e9da6d6be7b2d71f7453798aed589dbb2e161706d17fe82f43",
+      "bytes": 70871
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "debd8f58582f55e28efc58df10029d70a5c2bfc7def3723aa1bdb8e6901d4af6",
+      "bytes": 1591
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "851c691ab1864b76dd1a55e83ccfc28c00a8f96463f1909845980e067d470f79",
+      "bytes": 27169
+    },
+    {
+      "path": "florilegium-patterns-xetex.def",
+      "sha256": "41dbed1e03a1b839dadbbd385ac3155e4cf443cc3ab53246b4acf3c62432fda1",
+      "bytes": 4580
+    },
+    {
+      "path": "florilegium-patterns.def",
+      "sha256": "528679be991d00a93a401e8061988f480fc89213b12a614c036a52ca2f1d3178",
+      "bytes": 2207
+    },
+    {
+      "path": "florilegium-xe.lua",
+      "sha256": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+      "bytes": 7965
+    },
+    {
+      "path": "florilegium-xetex.def",
+      "sha256": "d431384f5cef0de411e7f7425f459b47711cf3181a77dc69e73155d7c1633991",
+      "bytes": 5075
+    },
+    {
+      "path": "fontreader.lua",
+      "sha256": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+      "bytes": 1460
+    },
+    {
+      "path": "pattern_xetex.lua",
+      "sha256": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+      "bytes": 12477
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "9d30118b2f7733a34b44484fd5ba4499613472b9259ffb341e67adb78ee29484",
+      "bytes": 14848
+    },
+    {
+      "path": "tools/build_statecheck.py",
+      "sha256": "88e8951bac74d8f1ed84946602f033b4e8a38c2de053f2aa26a17d7a67e0e271",
+      "bytes": 7274
+    },
+    {
+      "path": "tools/check-pattern-tex.lua",
+      "sha256": "6178fca229b99446d9c2c1ec02f03b3e5f2c2d553a227884cb35a9641dca85c8",
+      "bytes": 10001
+    },
+    {
+      "path": "tools/check-pattern-xetex.lua",
+      "sha256": "f3b749cf850755057eeb8541db5c98d81cefd99687054b6530a7f58b79166b6b",
+      "bytes": 6306
+    },
+    {
+      "path": "tools/pattern_dual_tex_consumer.py",
+      "sha256": "61f13a73a2ed41ca8f8d64427d6ed56dbeb9182e58dcd69ac88360e3924b561f",
+      "bytes": 10585
+    },
+    {
+      "path": "tools/pattern_tex_consumer.py",
+      "sha256": "43a425df433536b226577d92b7eabf18ebc0403cbfbb7101884238a09b6e13ff",
+      "bytes": 13494
+    },
+    {
+      "path": "tools/tex_build_consumer.py",
+      "sha256": "b6843059eabb1aa6118c51cc029881ffa87067d9e6ee9493d01920ea6e90d1a4",
+      "bytes": 14216
+    }
+  ],
+  "unchanged_parent_entries": 597,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42191451285,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

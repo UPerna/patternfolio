@@ -1,0 +1,137 @@
+{
+  "stage": "11",
+  "source_digest": "31a3f29f9f951f6de62bfec4391ecd3ab7efff60426b25d5018027976272a258",
+  "native_checks": 23,
+  "native_output_hashes": 22,
+  "native_local_differences": [
+    "displaced.instance",
+    "displaced.pdf",
+    "displaced.svg",
+    "parquet.instance",
+    "parquet.pdf",
+    "parquet.svg",
+    "rosette.instance",
+    "rosette.pdf",
+    "rosette.svg"
+  ],
+  "kit_hashes": 278,
+  "oracle": {
+    "stage": "11",
+    "source_digest": "31a3f29f9f951f6de62bfec4391ecd3ab7efff60426b25d5018027976272a258",
+    "fixtures": {
+      "square": {
+        "faces": 36,
+        "interior_contacts": 120,
+        "bends": 144,
+        "components": 24,
+        "closed_components": 0
+      },
+      "hexagonal": {
+        "faces": 49,
+        "interior_contacts": 240,
+        "bends": 294,
+        "components": 54,
+        "closed_components": 0
+      },
+      "mixed": {
+        "faces": 336,
+        "interior_contacts": 1838,
+        "bends": 2016,
+        "components": 178,
+        "closed_components": 0
+      },
+      "displaced": {
+        "faces": 98,
+        "interior_contacts": 506,
+        "bends": 588,
+        "components": 118,
+        "closed_components": 36
+      },
+      "rosette": {
+        "faces": 205,
+        "interior_contacts": 1056,
+        "bends": 1172,
+        "components": 116,
+        "closed_components": 0
+      },
+      "parquet": {
+        "faces": 36,
+        "interior_contacts": 120,
+        "bends": 144,
+        "components": 24,
+        "closed_components": 0
+      }
+    },
+    "gap_rays": 8,
+    "outputs": 22,
+    "raster": {
+      "square": {
+        "ink_pixels": [
+          1080,
+          1001
+        ],
+        "mean_normalized_error": 0.0025080402531382925
+      },
+      "hexagonal": {
+        "ink_pixels": [
+          1794,
+          1806
+        ],
+        "mean_normalized_error": 0.0038490648784766436
+      },
+      "mixed": {
+        "ink_pixels": [
+          3803,
+          4089
+        ],
+        "mean_normalized_error": 0.014828785049373286
+      },
+      "displaced": {
+        "ink_pixels": [
+          1748,
+          1776
+        ],
+        "mean_normalized_error": 0.008704222429712626
+      },
+      "rosette": {
+        "ink_pixels": [
+          2808,
+          2819
+        ],
+        "mean_normalized_error": 0.01005179007629988
+      },
+      "parquet": {
+        "ink_pixels": [
+          1020,
+          1034
+        ],
+        "mean_normalized_error": 0.0027675800960114687
+      },
+      "border": {
+        "ink_pixels": [
+          660,
+          616
+        ],
+        "mean_normalized_error": 0.008871148459383754
+      }
+    }
+  },
+  "visual_review": "Seven native PDF/SVG pairs accepted, including the planner border, rosette, mixed scaffold and displaced loops.",
+  "revision": "7751d8207e6f8d2ffe0cccd1481a37afd5b64285",
+  "tree": "17cf3accbb2504de1bb0bd0b239c8fa8ebb91523",
+  "run": 41820709607,
+  "jobs": {
+    "portable": {
+      "id": 126542820204,
+      "conclusion": "success"
+    },
+    "pdfs": {
+      "id": 126542819928,
+      "conclusion": "success"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "60aac269554e3ae3ac00ca98f321b418260f9724daff73c4ee11e56dc38a0928",
+    "portable": "281602c2eafb552246d7c1ab70bc4a5308161d4dd8415bd758a5068daa84a8fe"
+  }
+}

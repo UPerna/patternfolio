@@ -1,0 +1,337 @@
+{
+  "stage": "35",
+  "status": "passed",
+  "revision": "96390d9afce26246dcf6da878e33fcb95b2c1b28",
+  "run": 42331909848,
+  "browser": "151.0.7922.34",
+  "browser_source_digest": "8165b08b2b64e3aeb29fa950a2aa156c940a47f0084ab8129ac0cd6b31b960aa",
+  "editor_workflows": 13,
+  "output_cases": [
+    "border",
+    "border-monochrome",
+    "canvas",
+    "exemplar",
+    "invalid-edit-recovery",
+    "knot",
+    "maze",
+    "microgram",
+    "microgram-controls",
+    "page-controls",
+    "partial-packing",
+    "penrose",
+    "recovery",
+    "spectre",
+    "structural-refresh"
+  ],
+  "native_root_files": 87,
+  "native_source_digest": "24701c3006cdd84e0e4b3d8bac69ddfe77c466c66ad7958ca8236b697f923054",
+  "native_checks": [
+    {
+      "kind": "editor-revision",
+      "checks": 17,
+      "receipt_sha256": "4d39031725913b985e5d3e60f06a8255f0db8b6c2a75b964a6b2b8fe9a2f5be9",
+      "actual_lua": "Lua 5.3"
+    },
+    {
+      "kind": "editor-prepare",
+      "checks": 92,
+      "receipt_sha256": "a45950207a544537ab7faf9f63513b3eeae2caf62ebb8fe3b9dcdbed71a23ab9",
+      "actual_lua": "Lua 5.3"
+    }
+  ],
+  "vector_inspection": {
+    "status": "passed",
+    "source_digest": "8165b08b2b64e3aeb29fa950a2aa156c940a47f0084ab8129ac0cd6b31b960aa",
+    "cases": {
+      "border-monochrome": {
+        "physical_cm": [
+          10,
+          14
+        ],
+        "pdf_page_points": [
+          283.46456692913387,
+          396.8503937007874
+        ],
+        "pdf_operations": 4778,
+        "svg_elements": 1603,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "825dca2c704a77e9efbff1a522c9c02c650278c32ea974c0f3c86298331636e3",
+          "pattern.svg": "e3a999cc1b7956f6da59c944ac0295f4131902e18f58a04b43c082bc822e3fbe",
+          "pattern.pdf": "fc1510c4c0b3a79005130b303b8836cc17e142ef7543f4f41c26a6bcbf5fa321"
+        }
+      },
+      "border": {
+        "physical_cm": [
+          10,
+          14
+        ],
+        "pdf_page_points": [
+          283.46456692913387,
+          396.8503937007874
+        ],
+        "pdf_operations": 4778,
+        "svg_elements": 1603,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "86081a6276ab6b65503650a2c23daf713ab420dfe41acebcf67b3db669ee4ca4",
+          "pattern.svg": "aab562c28d9dbbc96feb691962f479adb4e2a7ba4b16602fd8a56a3cf2aa7648",
+          "pattern.pdf": "053292803d672ab76f63facdf820f49d2e7f6c52a65bad988780f7ccc88f7411"
+        }
+      },
+      "knot": {
+        "physical_cm": [
+          5.4,
+          5.5
+        ],
+        "pdf_page_points": [
+          153.0708661417323,
+          155.90551181102362
+        ],
+        "pdf_operations": 165,
+        "svg_elements": 38,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "2e63e3ccfcfaee9ac39ce32dfe96ad0f183731980cd57aa0f5706fad732c22df",
+          "pattern.svg": "db7abd28865f9cb3c6183e081413e56055fc80a9d3ef42d2fa4f89b5474a71e7",
+          "pattern.pdf": "b86cf6a2049a994ce96d29615508ede494fd2ef5c57a0a27cedd6a8339971c98"
+        }
+      },
+      "penrose": {
+        "physical_cm": [
+          2.3,
+          3.0
+        ],
+        "pdf_page_points": [
+          65.19685039370079,
+          85.03937007874015
+        ],
+        "pdf_operations": 1972,
+        "svg_elements": 485,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "db3572f77c79e610c8150ab5eb708fdd1784e24d87c9244b79de15395059a3e1",
+          "pattern.svg": "f957da2736509c00750c35c9ea028ff0dd40c878a9911cbca965b6d3b6ac0b0e",
+          "pattern.pdf": "d617e508c105d014e3c8074090f6a83b47f0424bae32722e731ec8ddb0b2d43e"
+        }
+      },
+      "spectre": {
+        "physical_cm": [
+          1.3499999999999996,
+          2.0999999999999996
+        ],
+        "pdf_page_points": [
+          38.26771653543306,
+          59.5275590551181
+        ],
+        "pdf_operations": 922,
+        "svg_elements": 188,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "bcdca6160aa519945fb56cd13e2cc0cf0ae1f1503c5594d9802eb5e567a61d4d",
+          "pattern.svg": "907df5234c59d42d31f1a705eb02f378887d4246094694026173a3aa30ca135d",
+          "pattern.pdf": "604b062dc1299831db19ea9e2433ae7529db83d8e33943114291735980410753"
+        }
+      },
+      "exemplar": {
+        "physical_cm": [
+          4,
+          1.5
+        ],
+        "pdf_page_points": [
+          113.38582677165354,
+          42.519685039370074
+        ],
+        "pdf_operations": 278,
+        "svg_elements": 8,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "a6aa17fbff7819a6786a12335e228ff71cc2fc2ade4e79873a569723dee02a9e",
+          "pattern.svg": "ec46275abcaae91823629c9f0bc4292242811c3f517a63e3ca99d12f729da226",
+          "pattern.pdf": "eb5eed60bea8cfe98627046cd5fb4d9ed0cd140977c0600d1a775455b9ab3bd3"
+        }
+      },
+      "microgram": {
+        "physical_cm": [
+          13,
+          7
+        ],
+        "pdf_page_points": [
+          368.503937007874,
+          198.4251968503937
+        ],
+        "pdf_operations": 10007,
+        "svg_elements": 1495,
+        "vector_only": true,
+        "searchable_text_characters": 351,
+        "sha256": {
+          "recipe.json": "862108931d1c58a56dab36fdf85bcb62a4e32681148a783d501f0b00e48a260d",
+          "pattern.svg": "40a59533cc9f2c2c9651c52dd18d15344d32b5c45e9b2a71434b7c1ba7583c87",
+          "pattern.pdf": "080cade796b44d929e4ea6801117379c94bb38af0566f5d030cbb18de528e330"
+        }
+      },
+      "maze": {
+        "physical_cm": [
+          10.559999999999999,
+          7.5600000000000005
+        ],
+        "pdf_page_points": [
+          299.33858267716533,
+          214.2992125984252
+        ],
+        "pdf_operations": 4842,
+        "svg_elements": 1106,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "f7c5314fb5204269b655ba806792e7ceb2c4d9717b3d2b2173cf63d97f8aa2da",
+          "pattern.svg": "ae2ecf1f4b16b0fa2d33571c475352c0928e523aeb7fa49f045a02476d3f2467",
+          "pattern.pdf": "8e93c2ccafb5b9debf0b5b730c8c7e63d7ce2aaf037a9cfb67c1dd4ba294ceea"
+        }
+      },
+      "recovery": {
+        "physical_cm": [
+          3.2,
+          2.8
+        ],
+        "pdf_page_points": [
+          90.70866141732284,
+          79.37007874015747
+        ],
+        "pdf_operations": 159,
+        "svg_elements": 51,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "ae139db64de4676d3b600cb844d4c54bcdd3a7efb334c887fd9243636cc78114",
+          "pattern.svg": "ec34da313a4f99a7e95e8197a015aea7de975e7115db473a161bfa39d8f826b9",
+          "pattern.pdf": "fdffd10f5453f882adcac0564f128c95615e9c2fbe26780b0d905ff8cf4589e2"
+        }
+      },
+      "structural-refresh": {
+        "physical_cm": [
+          3.2,
+          2.8
+        ],
+        "pdf_page_points": [
+          90.70866141732284,
+          79.37007874015747
+        ],
+        "pdf_operations": 159,
+        "svg_elements": 51,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "2c4dc1902a0330361ec712a3e11cb336d88272d08c3f1a4f96223c889b9c4d4d",
+          "pattern.svg": "0d80c8b0855abe1f1282f784a6ec5624b3de75caee363938e28e05f2a9af4acf",
+          "pattern.pdf": "96b996b1e6c1ac0d1fe7586cda74e74ea746f06d0231ad2d52dd0d5dbad11662"
+        }
+      },
+      "invalid-edit-recovery": {
+        "physical_cm": [
+          3.2,
+          2.8
+        ],
+        "pdf_page_points": [
+          90.70866141732284,
+          79.37007874015747
+        ],
+        "pdf_operations": 359,
+        "svg_elements": 92,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "b84bd5ba2e7562d472764644168438fadc75ac304998feb75d85bd4ea428ddd8",
+          "pattern.svg": "d08d492d3d348a6a9fd67a112191cd98cafb6e680505bc32d461272be83ff784",
+          "pattern.pdf": "3917b44a042540dba4b00293493f285c10f264b973af375eda6ca148b2d6f203"
+        }
+      },
+      "partial-packing": {
+        "physical_cm": [
+          6,
+          4
+        ],
+        "pdf_page_points": [
+          170.0787401574803,
+          113.38582677165354
+        ],
+        "pdf_operations": 34,
+        "svg_elements": 11,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "6faa20725c2e52a472e492438e54d8eea84b256fe800a649bc9e68be96445e42",
+          "pattern.svg": "9dfef68d2239d7afaa7eca2174977587fec5a60f5dab8ef5ae731482d0624fb7",
+          "pattern.pdf": "5860964070065079e4fac81116fa014bf77ef6de569f0a3cc821e6e6c95e7cc1"
+        }
+      },
+      "page-controls": {
+        "physical_cm": [
+          4,
+          3
+        ],
+        "pdf_page_points": [
+          113.38582677165354,
+          85.03937007874015
+        ],
+        "pdf_operations": 519,
+        "svg_elements": 171,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "7fff32eeabbf98dc2c0e4474a40a2a46150db97da359e2fc3e43662d71d6f613",
+          "pattern.svg": "e80fba288cd9bf3b427d1cc24203519fdce30d67d2a2988810b3eabb7b28c5c7",
+          "pattern.pdf": "dbc65e1efc1057e1cf998d716179958ee03285d5ed1e5a2e0ae8145a55e73567"
+        }
+      },
+      "microgram-controls": {
+        "physical_cm": [
+          13,
+          7
+        ],
+        "pdf_page_points": [
+          368.503937007874,
+          198.4251968503937
+        ],
+        "pdf_operations": 9917,
+        "svg_elements": 1483,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "b5693a65d08781961a9875ac3ffe0e726b61851f269ece5ec3b2868f8e107028",
+          "pattern.svg": "82cc3df2ce73fab68d8742ec6494fec0e66f8696943d1aaad8049e105958c223",
+          "pattern.pdf": "1b26ee75ffa68d4d16982f6ef1e8d363145d69ac697bd413db5117b7b2006bb4"
+        }
+      },
+      "canvas": {
+        "physical_cm": [
+          5.4,
+          5.5
+        ],
+        "pdf_page_points": [
+          153.0708661417323,
+          155.90551181102362
+        ],
+        "pdf_operations": 178,
+        "svg_elements": 51,
+        "vector_only": true,
+        "searchable_text_characters": null,
+        "sha256": {
+          "recipe.json": "e20744de9a10b87091b37916b9cff054f7f756ff7f8c7e8cbe064f0bffcd7805",
+          "pattern.svg": "ca8745efcb8365d191629544618cdd33096982058994aee1e6f1903d03dd6c4d",
+          "pattern.pdf": "ba7bbd004440565148eb385693c58a5019e1e2deb66ed8ae2aeb5e11c5374a9c"
+        }
+      }
+    },
+    "scope": "Independent XML/PDF syntax, physical units, vector-only resources, DeviceGray and searchable text; visual review remains separate"
+  },
+  "downloaded_vector_bytes_equal_native": true,
+  "visual_review": "pending actual CI screenshot inspection",
+  "scope": "New editor cases; inherited full22family/parity/adversarial/native/kit gates verified separately"
+}

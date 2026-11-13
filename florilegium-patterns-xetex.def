@@ -1,0 +1,70 @@
+%% Common pattern records for the established external no-shell-escape driver.
+\newif\ifflo@patternspending
+\newcount\flo@pinline
+\def\flo@pdeclarations{}
+\def\flo@patterninit{\global\flo@patternsactivetrue}
+\def\flo@pdeclare#1#2#3{\flo@patterninit\begingroup
+  \edef\flo@next{\endgroup\noexpand\g@addto@macro\noexpand\flo@pdeclarations{%
+    \noexpand\immediate\noexpand\write\noexpand\flo@out{#1{name=[==[#2]==],path=[==[#3]==]}}}}\flo@next}
+\newcommand\florilegiumpatterninput[2]{\flo@pdeclare{PINPUT}{#1}{#2}}
+\newcommand\florilegiumpatterndeclare[2]{\flo@pdeclare{PDECLARE}{#1}{#2}}
+\def\flo@pmark#1#2{\begingroup\edef\flo@parg{#2}%
+  \edef\flo@next{\endgroup\noexpand\flo@pmarkfrozen{#1}{\flo@parg}}\flo@next}
+\def\flo@pmarkfrozen#1#2{\pdfsavepos
+  \write\flo@out{PMARK{n=\number\ReadonlyShipoutCounter,kind=[==[#1]==],arg=#2,x=\the\pdflastxpos,y=\the\pdflastypos}}}
+\let\flo@legacyxemark\flo@mark
+\def\flo@mark#1#2{\flo@legacyxemark{#1}{#2}\ifflo@patternsactive\flo@pmark{#1}{#2}\fi}
+\NewDocumentCommand\florilegiumpatterninline{O{0pt} m}{\leavevmode\flo@patterninit
+  \global\advance\flo@pinline\@ne
+  \begingroup\edef\flo@pwidth{\number\dimexpr#1\relax}%
+  \ifnum\flo@pwidth<0
+    \PackageError{florilegium}{inline width must be nonnegative}{Use zero for natural width or a positive dimension.}%
+  \fi
+  \immediate\write\flo@out{PINLINE{id=\the\flo@pinline,name=[==[#2]==],width=\flo@pwidth}}%
+  \flo@pmark{pattern_inline}{{id=\the\flo@pinline,name=[==[#2]==]}}%
+  \ifcsname flo@pinline@\the\flo@pinline\endcsname
+    \ifnum\flo@pwidth>0
+      \includegraphics[width=#1]{\csname flo@pinline@\the\flo@pinline\endcsname.pdf}%
+    \else\includegraphics{\csname flo@pinline@\the\flo@pinline\endcsname.pdf}\fi
+  \else
+    \global\flo@patternspendingtrue
+    % A reported first-pass layout estimate; tools/build.py never accepts it.
+    \hbox{\vrule width0pt height1cm\ifnum\flo@pwidth>0\kern#1\else\kern1cm\fi}%
+  \fi\endgroup}
+\NewDocumentCommand\florilegiumpatterndivider{O{.75\linewidth} m}{\par\addvspace{.7\baselineskip}%
+  \noindent\makebox[\linewidth][c]{\florilegiumpatterninline[#1]{#2}}\par\addvspace{.7\baselineskip}}
+\pgfkeys{/florilegium/pattern/.is family,/florilegium/pattern,
+  region/.store in=\flo@pregion,spread/.store in=\flo@pspread,
+  protect-text/.store in=\flo@pprotect,padding/.store in=\flo@ppadding}
+\NewDocumentCommand\florilegiumpatternpage{O{} m}{\begingroup\flo@patterninit
+  \pgfkeys{/florilegium/pattern/.cd,region=outer,spread=none,protect-text=true,padding=3mm,#1}%
+  \flo@pmark{pattern_view}{{name=[==[#2]==],region=[==[\flo@pregion]==],spread=[==[\flo@pspread]==],
+    protect=[==[\flo@pprotect]==],padding=\number\dimexpr\flo@ppadding\relax}}\endgroup}
+\AddToHook{begindocument}[florilegium-patterns-external]{%
+  \immediate\write\flo@out{PHEADER{schema_version=1,adapter=[==[pattern-tex-v1]==],
+    engine=[==[XeTeX]==],version=\number\XeTeXversion,revision=[==[\XeTeXrevision]==]}}%
+  \ifflo@patternsactive
+    \ifdefined\flo@externalstale\else\InputIfFileExists{\jobname-patterns.tex}{}{}\fi%
+    \flo@pdeclarations
+  \fi}
+\DeclareHookRule{begindocument}{florilegium-patterns-external}{after}{florilegium}
+\def\flo@commonpage{%
+  \edef\flo@prec{PPAGE{n=\number\ReadonlyShipoutCounter,page=\number\value{page},label=[==[\thepage]==],
+    twoside=\if@twoside true\else false\fi,
+    paperwidth=\number\paperwidth,paperheight=\number\paperheight,
+    hoffset=\number\hoffset,voffset=\number\voffset,
+    oddsidemargin=\number\oddsidemargin,evensidemargin=\number\evensidemargin,textwidth=\number\textwidth,
+    topmargin=\number\topmargin,headheight=\number\headheight,headsep=\number\headsep,
+    textheight=\number\textheight,footskip=\number\footskip}}%
+  \edef\flo@next{\noexpand\write\flo@out{\flo@prec}}\flo@next
+  \ifcsname flo@ppage@\number\ReadonlyShipoutCounter\endcsname
+    \csname flo@ppage@\number\ReadonlyShipoutCounter\endcsname
+  \else\global\flo@patternspendingtrue\fi}
+\AddToHook{shipout/background}[florilegium-patterns-external]{\ifflo@patternsactive\flo@commonpage\fi}
+\AddToHook{enddocument/afterlastpage}[florilegium-patterns-external]{%
+  \immediate\write\flo@out{PEND{active=\ifflo@patternsactive true\else false\fi,
+    pending=\ifflo@patternspending true\else false\fi,inline_count=\the\flo@pinline,
+    shipped=\number\ReadonlyShipoutCounter}}%
+  \ifflo@patternspending\PackageWarningNoLine{florilegium}{Common pattern assets are missing; this is an incomplete pass. Use tools/build.py --engine xe}\fi}
+\DeclareHookRule{enddocument/afterlastpage}{florilegium-patterns-external}{before}{florilegium}
+\endinput

@@ -1,0 +1,7 @@
+{
+  "stage": "03",
+  "commit": "e9793c9efa8a8246175bc5921f7d3771ca69350b",
+  "status": "passed",
+  "hashes": 130,
+  "scope": "local extracted source ZIP manifest and new module/test/document presence; real extracted TeX builds remain CI gate"
+}

@@ -1,0 +1,49 @@
+{
+  "stage": "18",
+  "revision": "ca1fa55e87aec0265f405d461c63ee10db667703",
+  "parent": "d3fb59365faff5b73f87ba776ce8dd5f6c86c33f",
+  "tree": "7f63e6bd696325d33aa96f64da5c791c4d027273",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "01a742f40b821251378e2f569e65eb6d35b71692741697cc8c1d9cfe9e91b17d",
+      "bytes": 59
+    },
+    {
+      "path": "artifacts/receipts/18/package-repair.json",
+      "sha256": "7f6911f98a9c54de95b42e2423b30ce16dea37ca575df0c37933df0d47e4919d",
+      "bytes": 1049
+    },
+    {
+      "path": "artifacts/receipts/18/publication-initial.json",
+      "sha256": "f28c5c5189c294a9e80334c060b91c080c304c608087c1f28026be803877b843",
+      "bytes": 4122
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "00cb23578c882c1a499a69e7718873b621079f2e3e2e301f3b9f83d82dea6c2c",
+      "bytes": 52708
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "a17ef01dc4a7eaa0101b34f8d110599f6bd1860604fb3ed44ac85efba2ce1f68",
+      "bytes": 633
+    },
+    {
+      "path": "tools/package.py",
+      "sha256": "c486256551e55f8ff2340df35d6f9adba6cf42ae0adcf038b9fdcad00c26a1e5",
+      "bytes": 2586
+    },
+    {
+      "path": "tools/packagecheck.py",
+      "sha256": "130da8223c7b23272cb23ca321850f0a318aba515ca08d41da93146af2fe7b23",
+      "bytes": 2839
+    }
+  ],
+  "unchanged_parent_entries": 354,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41864673725,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

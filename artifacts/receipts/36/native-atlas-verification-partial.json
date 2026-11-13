@@ -1,0 +1,207 @@
+{
+  "stage": "36",
+  "status": "native_passed_browser_pending",
+  "revision": "8c1e33e289898de93c4f9f7c8733edd62a0a79d2",
+  "run": 42337399300,
+  "profiles": [
+    {
+      "id": "botanical-panel",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "periodic",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "celtic",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "islamic",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "freeform",
+      "local_native_presentation_svg": {
+        "byte_equal": false,
+        "coordinate_differences": 38,
+        "max_absolute_difference": 8.881784197001252e-16,
+        "absolute_ceiling": 1e-12
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "substitution",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "penrose",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "spectre",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "beenker",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "completion",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "tracery",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "escher",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "mosaic",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "stroke",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "maze",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "micrography",
+      "local_native_presentation_svg": {
+        "byte_equal": false,
+        "coordinate_differences": 142,
+        "max_absolute_difference": 3.3881317890172014e-21,
+        "absolute_ceiling": 1e-12
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "decobrush",
+      "local_native_presentation_svg": {
+        "byte_equal": false,
+        "coordinate_differences": 2,
+        "max_absolute_difference": 1.1102230246251565e-16,
+        "absolute_ceiling": 1e-12
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "gothic-spatial",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "inline",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "hat",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "botanical-authored",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    },
+    {
+      "id": "botanical-grown",
+      "local_native_presentation_svg": {
+        "byte_equal": true
+      },
+      "native_instance_preserved": true,
+      "native_view_preserved": true
+    }
+  ],
+  "native_atlas_manifest_files": 835,
+  "native_atlas_metadata_sha256": "f7c28e60d0a5350ac74c0cffb3b5c93b2ca384ec38c994dd7e5051e4599aeb6f",
+  "native_manifest_sha256": "5340d5201af7cd8715cd865b3bcf8c38986017d00f5518d7998a017f34bb6082",
+  "canonical_profiles_equal_current_cli": 22,
+  "presentation_instances_and_views_preserved": 22,
+  "native_local_presentation_byte_exact_profiles": 19,
+  "native_local_numeric_profiles": [
+    "freeform",
+    "micrography",
+    "decobrush"
+  ],
+  "collection_outputs_verified": 36,
+  "all_mandatory_evidence_rows": 46,
+  "independent_current_tool_link_and_geometry_check_passed": true
+}

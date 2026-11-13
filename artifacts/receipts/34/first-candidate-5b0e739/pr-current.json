@@ -1,0 +1,16 @@
+{
+  "url": "https://github.com/UPerna/florilegium/pull/2",
+  "number": 2,
+  "state": "open",
+  "merged": false,
+  "mergeable": true,
+  "draft": true,
+  "body": "The shared Lua pipeline provides 22 generator profiles, reproducible PDF/SVG exports, CLI workflows, both native TeX adapters, and a browser editor running the same core.\n\nStages 00-33 passed. Stage 33 was accepted at e883cf50e2367274d5aa1f0d41b62ff29690930a with all five required jobs and actual native/browser artifact verification.\n\nStage 34 candidate 5b0e739d2ac7905c555c3a40f2b3501233153df1 adds bounded byte-hash reuse, compensated packing validation, construction-object budget charges and synchronized floral editor seeds. It adds a 27-workload matrix, cancellation/resource checks and real browser responsiveness/cache/editor checks. Native authored/grown seed generation and exact replay pass in Lua 5.3 and 5.4. Earlier local measurements remain bound to their original source versions; the complete local sequence is being repeated against the published code.\n\nIndependent Git verification confirmed all 1,245 file objects, 26 binary assets, modes/history and 297 prior issued evidence hashes. Build 63/run 42318922466 is running for this exact revision; all five jobs and downloaded artifact checks remain mandatory before stage 34 acceptance. Stages 35-39 remain pending. Keep this PR draft; no merge, release or deployment has occurred. See docs/project/STATUS.md, STAGES.json and docs/validation/PERFORMANCE-34.md.",
+  "title": "Build the common pattern platform and botanical compatibility",
+  "base": "improve/layout-controls",
+  "base_sha": "879610d82637229f0f4c06f828fe3a6d68d6faf6",
+  "head": "pattern/common-platform",
+  "head_sha": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "created_at": "2026-11-02T15:21:19Z",
+  "updated_at": "2026-11-07T00:38:47Z"
+}

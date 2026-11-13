@@ -1,0 +1,12 @@
+{
+  "revision": "200db9a8bc209eb067f2d6e20c8b50dafb225cee",
+  "run": 42044636324,
+  "job": 127304153796,
+  "status": "rejected",
+  "book_build_and_convergence": "passed before placement assertion",
+  "native_adapter_checks": 35,
+  "placement_tolerance_cm": 0.01,
+  "measured_background_error_cm": 0.3000049503259804,
+  "cause": "Background picture origin inherits custom hoffset/voffset; cancel those offsets at placement",
+  "native_acceptance": "Unfinished; keep the physical measurement unchanged and rerun the consumer"
+}

@@ -1,0 +1,139 @@
+{
+  "stage": "24",
+  "revision": "27eef521f814e71a49ce38a5b333c29e2bb9e3be",
+  "parent": "24fe6eb72dc39ad70ff835a2f2a126c35a79f054",
+  "tree": "546d3bcf350a0bf46251fc510c78842ab6a4776b",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "f1f3fcef6444b89168050f959ca02f746fc8813f4a1be279b01a8ed6c871e742",
+      "bytes": 6209
+    },
+    {
+      "path": "Makefile",
+      "sha256": "3181797e7359faab768c020fc1c47bca4085e3dfbf845ab996222e46d108ec33",
+      "bytes": 6873
+    },
+    {
+      "path": "artifacts/receipts/23/ci-final.json",
+      "sha256": "dcf371386d0a2b8a0fcbae60b1748e79a08c1e83cef0c80baae1d4d4d7753fc7",
+      "bytes": 9110
+    },
+    {
+      "path": "artifacts/receipts/23/publication.json",
+      "sha256": "c89fb1934286398202658cd52f1486240c1c2950ada83ebe4cc3f561edc7bbb0",
+      "bytes": 3594
+    },
+    {
+      "path": "artifacts/receipts/24/local-parity.json",
+      "sha256": "0f81a0e28a4084e23854b06824acb9d1c752ed365a34db6d967926610f4b15a3",
+      "bytes": 915
+    },
+    {
+      "path": "artifacts/receipts/24/oracle.json",
+      "sha256": "bb4e4ecae9f97ab4fdd3aa78451da3066ea412077ec8e5518d8cff4db276f236",
+      "bytes": 2162
+    },
+    {
+      "path": "artifacts/receipts/24/receipt-Lua-5.3.json",
+      "sha256": "ae3500037780d0f49b41651a3d52f553bdf9d564f328579950a1bed4435b458f",
+      "bytes": 1220
+    },
+    {
+      "path": "artifacts/receipts/24/receipt-Lua-5.4.json",
+      "sha256": "3bd122345afc9464bcc363f48a217b08a0dad6d16bd4a3a2e58ca11bd2db2731",
+      "bytes": 1220
+    },
+    {
+      "path": "artifacts/receipts/24/source-reference.json",
+      "sha256": "da41468f1406e31296f906f47f490c63c5568678a21e9cd1640bed870c3ee4f7",
+      "bytes": 940
+    },
+    {
+      "path": "docs/fonts/README-PatternMicrography.md",
+      "sha256": "c597d320e217c5ccbda6c8cf87e52f653eac0db14068c52a871b81b9c3e788b7",
+      "bytes": 1610
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "0cb8439fe4c5ca11c8f68ed48a423b6c0207ad3df3e971bc4258798b938c1fd9",
+      "bytes": 58913
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "3ba387050349c5f72b68e9ef761c4a4776ff621977b81e8e47064f77e999f617",
+      "bytes": 552
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "95feeaf3fcb483a7723644daec5553661af48b8e8a21c0526f821d601b41e99b",
+      "bytes": 32531
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "5e9064590efdabf159e17ade33667a2886575499a5d68670586746e6f426fba8",
+      "bytes": 41028
+    },
+    {
+      "path": "docs/research/OPEN_OBLIGATIONS.json",
+      "sha256": "814912135d4486cf192c1d14012409b95529400fd4a1b63a9c3fe782cdf87816",
+      "bytes": 2698
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "b2df97179e8f06ec879045dedbdf101a2a95c918562cea078ab011b1e9a18c24",
+      "bytes": 7884
+    },
+    {
+      "path": "docs/validation/MICROGRAPHY.md",
+      "sha256": "375eb683426211c34b0079ec8618f4434b7652d95bab9503bff49533788f8093",
+      "bytes": 2498
+    },
+    {
+      "path": "docs/validation/fixtures/micrography-font.json",
+      "sha256": "13d3de43eed8d22e462ae87d757b58183976bfe4a892a50c68488900df3bef3c",
+      "bytes": 114070
+    },
+    {
+      "path": "pattern_draw.lua",
+      "sha256": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+      "bytes": 10628
+    },
+    {
+      "path": "pattern_micro_field.lua",
+      "sha256": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+      "bytes": 7350
+    },
+    {
+      "path": "pattern_micrography.lua",
+      "sha256": "11ea54854260d93912972d284802ddfe5be12f30ff17e8242a2581f0be487869",
+      "bytes": 13613
+    },
+    {
+      "path": "pattern_render.lua",
+      "sha256": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+      "bytes": 17337
+    },
+    {
+      "path": "tools/micrography_oracle.py",
+      "sha256": "1c161a4ebad8aed69943752b05bb1220211c8ba21e150f08a96cad504f18812c",
+      "bytes": 9854
+    },
+    {
+      "path": "tools/micrographycheck.lua",
+      "sha256": "2fdf7ee58319e1cf74b85cb8c39bbc8fa4be09f2122c93cc06f2216b94bc5366",
+      "bytes": 6055
+    },
+    {
+      "path": "tools/preparemicrofont.py",
+      "sha256": "7ccba6269622b01eca17be07fd8d5e056077868cb259c70963e4004983b8ab4a",
+      "bytes": 4117
+    }
+  ],
+  "unchanged_parent_entries": 413,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41908776000,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

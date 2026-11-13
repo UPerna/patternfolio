@@ -1,0 +1,18 @@
+{
+  "stage": "24",
+  "source": "R08",
+  "title": "Digital Micrography",
+  "url": "https://www.cs.ubc.ca/labs/imager/tr/2011/Micrography/micrography.pdf",
+  "sha256": "7906be137b7756c2c148141cf0a242116f52de34d03df3c93e16f7ec3d2fdd57",
+  "pages": 11,
+  "scope": "Sections 4.1–4.2 and 5–7, Figures 5–8",
+  "implementation": "Source signed labeling objective with exact Boolean enumeration, triangulated doubled-angle field and bounded monotone streamline ordering.",
+  "font": {
+    "source": "Latin Modern Math1.959",
+    "source_sha256": "6075562b771f8b82f0c179e363389684f2dd09de30038269e2628e504bd7be0f",
+    "derived_sha256": "9b9f100958cca036fcc3102719c91ba3804a362ebc215d5ecc16d6f38d9add69",
+    "prepared_with": "fontTools4.60.1",
+    "license": "GUST Font License / LPPL1.3c-or-later"
+  },
+  "redistribution": "Private full paper and original figures. Only original text and permitted derived font resource in the repository."
+}

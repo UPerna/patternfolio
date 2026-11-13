@@ -1,0 +1,18 @@
+{
+  "stage": "04",
+  "local_contract_checks": 61,
+  "local_replay_checks": 145,
+  "runtimes": [
+    "Lupa2.8 Lua5.3",
+    "Lupa2.8 Lua5.4"
+  ],
+  "numeric_locales_exercised": 3,
+  "oracle": "tools/determinism_oracle.py; independent hashlib and modular integer arithmetic",
+  "repaired_failure": "Initial Python test adapter returned a tuple as truthy userdata; enabled unpack_returned_tuples so mkdir failures return actual Lua nil/message. Product cache code was not weakened.",
+  "legacy_boundary": "Full grown-page visitor occupancy/shared RNG remains a stage08 migration obligation; old module bytes/fingerprints untouched.",
+  "unrun": [
+    "exact-revision Linux TeX CI until publication",
+    "browser parity until31"
+  ],
+  "golden_sha256": "a6db1cf5f591f5d8d4c340e16c66f830e73724a9726aaf35fd47b61f3045736d"
+}

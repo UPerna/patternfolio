@@ -1,0 +1,220 @@
+{
+  "revision": "cc23ebe635039e1495e212708ec41e8e8b3745a4",
+  "source_digest": "71066c24e6b541386c139936e472a179aa6a76df4aa871eb7bb9178d0d9379d2",
+  "ui_state": "Complete · structure generated and validated",
+  "badge": "complete · construction_preserved",
+  "native_packing_status": "partial_packing",
+  "placed": 1,
+  "rejected": 29,
+  "recipe": {
+    "definition": {
+      "assumptions": [
+        "Convex bounded panel and analytic layered color sampler",
+        "CPU samples of rotated weighted L1 pyramids, with artist-feature exclusion and Lloyd updates",
+        "Ordered rectangle scale projection with separating-axis grout and explicit rejected sites"
+      ],
+      "capabilities": [
+        "field"
+      ],
+      "family": "hausner-decorative-mosaic",
+      "id": "mosaic/hausner",
+      "kind": "definition",
+      "parameters": {
+        "aspect": {
+          "maximum": 3,
+          "minimum": 1,
+          "type": "number"
+        },
+        "avoid_steps": {
+          "maximum": 20,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "count": {
+          "maximum": 320,
+          "minimum": 1,
+          "required": true,
+          "type": "integer"
+        },
+        "exclusion": {
+          "maximum": 4,
+          "minimum": 0,
+          "type": "number"
+        },
+        "grout": {
+          "maximum": 0.4,
+          "minimum": 0,
+          "type": "number"
+        },
+        "guided": {
+          "type": "boolean"
+        },
+        "influence": {
+          "maximum": 4,
+          "minimum": 0.05,
+          "type": "number"
+        },
+        "iterations": {
+          "maximum": 48,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "min_scale": {
+          "maximum": 1,
+          "minimum": 0.05,
+          "type": "number"
+        },
+        "sample_step": {
+          "maximum": 0.5,
+          "minimum": 0.025,
+          "required": true,
+          "type": "number"
+        },
+        "size_variation": {
+          "maximum": 0.6,
+          "minimum": 0,
+          "type": "number"
+        },
+        "tile_size": {
+          "maximum": 4,
+          "minimum": 0.08,
+          "required": true,
+          "type": "number"
+        },
+        "tolerance": {
+          "maximum": 0.05,
+          "minimum": 0.0001,
+          "type": "number"
+        }
+      },
+      "schema_version": 1,
+      "transforms": {
+        "metric_constrained": true,
+        "reflection": false,
+        "uniform_scale": true
+      },
+      "units": "cm",
+      "version": "1"
+    },
+    "dependencies": {
+      "construction": {},
+      "renderer": {},
+      "style": {},
+      "view": {}
+    },
+    "design": {
+      "budget": {
+        "bytes": 67108864,
+        "objects": 50000,
+        "operations": 48000000
+      },
+      "constraints": {},
+      "definition_ref": {
+        "id": "mosaic/hausner",
+        "version": "1"
+      },
+      "document": {
+        "bounds": [
+          0,
+          0,
+          6,
+          4
+        ],
+        "protected_regions": [],
+        "unit": "cm"
+      },
+      "id": "mosaic/analytic",
+      "inputs": {
+        "features": [],
+        "image": {
+          "background": [
+            0.2,
+            0.39,
+            0.52
+          ],
+          "layers": [
+            {
+              "center": [
+                3,
+                2
+              ],
+              "color": [
+                0.87,
+                0.63,
+                0.26
+              ],
+              "extent": [
+                1.68,
+                1.29
+              ],
+              "shape": "ellipse"
+            },
+            {
+              "center": [
+                3.1,
+                2.09
+              ],
+              "color": [
+                0.97,
+                0.84,
+                0.56
+              ],
+              "extent": [
+                0.75,
+                0.6
+              ],
+              "shape": "ellipse"
+            }
+          ]
+        }
+      },
+      "kind": "specification",
+      "parameters": {
+        "aspect": 1.58,
+        "avoid_steps": 8,
+        "count": 30,
+        "exclusion": 0.14,
+        "grout": 0.022,
+        "guided": true,
+        "influence": 1.05,
+        "iterations": 18,
+        "min_scale": 1,
+        "sample_step": 0.12,
+        "size_variation": 0.13,
+        "tile_size": 2
+      },
+      "schema_version": 1,
+      "seed": 21,
+      "style": {
+        "output_profile": {
+          "mode": "source",
+          "schema_version": 1
+        }
+      }
+    },
+    "dimension": 2,
+    "id": "mosaic/analytic/recipe",
+    "kind": "recipe",
+    "schema_version": 1,
+    "view": {
+      "crop": [
+        0,
+        0,
+        6,
+        4
+      ],
+      "derived": false,
+      "protected_regions": [],
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "unit": "cm",
+      "validity": "construction_preserved"
+    }
+  }
+}

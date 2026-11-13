@@ -1,0 +1,11 @@
+# Five-family integration gate
+
+The fixture registers the asymmetric garden, Celtic strands, Islamic polygons in contact, Penrose P3, and Spectre in one registry. Each case executes a saved recipe and uses the common specification, instance, view and scene validators. The independent family acceptance suites remain part of native CI.
+
+The garden recipe plans adaptive construction within a convex five-sided region and checks conservative paint envelopes against the actual region and protected callout before lowering. Celtic, Penrose and Spectre use document recipes with view-only planning. The Islamic graph is constructed in a fixed world frame by its internal periodic scaffold. Its saved construction recipe runs before the public document planner interprets the result as a graph. A regression check compares the rendered direct and document-planned views.
+
+Palette controls operate in providers. Garden recoloring makes a new vector resource digest while preserving the source resource and its footprint. Penrose palette selection is independent of matching-arrow display. Celtic and Islamic stroke colors and Spectre lineage colors preserve construction identity. The fixture compares the resolved operation geometry across the color edits, including transform, clips, paint widths and semantic references.
+
+The standalone diagnostics mark actual plant attachments, Celtic crossings and shared Islamic contacts. Penrose draws matching arrows from shared edges. Spectre colors lineage while retaining the shared cubic seams and one leaf chirality. The same instance feeds overlapping document crops. The crop tests check the source digest and common painted identities.
+
+The two-page composition places three and two resolved panel plans, respectively. `pattern_render.compose_vectors` applies a uniform fit, scopes each panel’s clips and preserves its semantic references. It uses the existing segmented operation format for bounded rendering and accepts vector-only plans. PDF and SVG serialize the same composed operations. A native raster check compares page dimensions and paint, checks protected areas, and compares an unmasked Islamic witness to confirm the reservation removes real paint.

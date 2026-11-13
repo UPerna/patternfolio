@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "source_digest": "10f76287e8a293ae14b76702f968b8b05bec221575da9d93d66654d6035fd794",
+  "instance_sha256": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+  "claims": [
+    "World-anchored source instance unchanged after physical crop",
+    "Native planner context retained",
+    "View revision lineage records original source"
+  ],
+  "vector_structure": {
+    "paths": 161,
+    "texts": 0,
+    "rasters": 0,
+    "width": "2.2999999999999998cm",
+    "height": "3cm",
+    "viewbox": "0 0 2.2999999999999998 3",
+    "semantic_refs": 160,
+    "clips": 1
+  },
+  "assets_sha256": {
+    "instance.json": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+    "pattern.pdf": "d617e508c105d014e3c8074090f6a83b47f0424bae32722e731ec8ddb0b2d43e",
+    "pattern.svg": "f957da2736509c00750c35c9ea028ff0dd40c878a9911cbca965b6d3b6ac0b0e",
+    "recipe.json": "db3572f77c79e610c8150ab5eb708fdd1784e24d87c9244b79de15395059a3e1",
+    "record.json": "ef2ad6a0b3636a404ae0f9467d6645b6a34a8bc83b64089c0266f1acb4c1250b",
+    "scene.json": "e6025a2ae1d2ace651cb49f97d5cc30d16ef9a001eb1e31e6e1ac11ef6b39080",
+    "view.json": "c1e1026844cf9aead8bdfbc5dd8f940b7b996d7d956e6b950641639ec80c3f0a"
+  }
+}

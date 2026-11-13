@@ -1,0 +1,11 @@
+{
+  "kind": "browser",
+  "artifact_id": 13546312528,
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "job": 128192378615,
+  "sha256": "f076bbcc80632c1cdf1e7349367b7b05203219d513b1b44d9e5f848cef26a83c",
+  "archive_bytes": 4962190,
+  "verified_archive_sha256": "f076bbcc80632c1cdf1e7349367b7b05203219d513b1b44d9e5f848cef26a83c",
+  "safe_extraction": true
+}

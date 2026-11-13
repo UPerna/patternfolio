@@ -1,0 +1,101 @@
+{
+  "stage": "11",
+  "source_digest": "31a3f29f9f951f6de62bfec4391ecd3ab7efff60426b25d5018027976272a258",
+  "fixtures": {
+    "square": {
+      "faces": 36,
+      "interior_contacts": 120,
+      "bends": 144,
+      "components": 24,
+      "closed_components": 0
+    },
+    "hexagonal": {
+      "faces": 49,
+      "interior_contacts": 240,
+      "bends": 294,
+      "components": 54,
+      "closed_components": 0
+    },
+    "mixed": {
+      "faces": 336,
+      "interior_contacts": 1838,
+      "bends": 2016,
+      "components": 178,
+      "closed_components": 0
+    },
+    "displaced": {
+      "faces": 98,
+      "interior_contacts": 506,
+      "bends": 588,
+      "components": 118,
+      "closed_components": 36
+    },
+    "rosette": {
+      "faces": 205,
+      "interior_contacts": 1056,
+      "bends": 1172,
+      "components": 116,
+      "closed_components": 0
+    },
+    "parquet": {
+      "faces": 36,
+      "interior_contacts": 120,
+      "bends": 144,
+      "components": 24,
+      "closed_components": 0
+    }
+  },
+  "gap_rays": 8,
+  "outputs": 22,
+  "raster": {
+    "square": {
+      "ink_pixels": [
+        1080,
+        1011
+      ],
+      "mean_normalized_error": 0.002337037508606136
+    },
+    "hexagonal": {
+      "ink_pixels": [
+        1794,
+        1811
+      ],
+      "mean_normalized_error": 0.0036073267690914755
+    },
+    "mixed": {
+      "ink_pixels": [
+        3803,
+        4102
+      ],
+      "mean_normalized_error": 0.014407320167124087
+    },
+    "displaced": {
+      "ink_pixels": [
+        1748,
+        1776
+      ],
+      "mean_normalized_error": 0.008696205755029284
+    },
+    "rosette": {
+      "ink_pixels": [
+        2808,
+        2827
+      ],
+      "mean_normalized_error": 0.009583168284148676
+    },
+    "parquet": {
+      "ink_pixels": [
+        1020,
+        1046
+      ],
+      "mean_normalized_error": 0.0025959289439681597
+    },
+    "border": {
+      "ink_pixels": [
+        660,
+        608
+      ],
+      "mean_normalized_error": 0.013171802054154996
+    }
+  }
+}

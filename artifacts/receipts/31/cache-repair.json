@@ -1,0 +1,24 @@
+{
+  "status": "local_repair_passed_native_ci_pending",
+  "parent_candidate": "abdeebebaff70f32cc6bfdca32d60c7ebcce1e31",
+  "old_cache_sha256": "e2d4cae97446899e803cf9e5fd7288c805d30d36add4820254f73f0eaff653b4",
+  "new_cache_sha256": "deb688790ce9e59ef561026a069c37f9ef521660a26e1bd20a7115f45900f1ed",
+  "confirmed_defect": "Caller buffer mutation while put awaited WebCrypto could report saved then fail its subsequent cache read. Preserved actual counterexample is cache-mutation-rejected.json.",
+  "repair": "Capture private structuredClone synchronously before any validation/digest await or transaction. Regression mutates both original bytes and manifest; stored captured entry must remain unchanged/readable.",
+  "fresh_browser_source_digest": "b1d53687559ff3503bc5ff5411d9e0b8a7c6807cdc13149819c24887e85ae901",
+  "fresh_family_gate": "22generation/replay passed,20native30 byte comparisons+2independent local native numerical comparisons; all own replays byte exact. Fresh TeX-native CI binding still mandatory.",
+  "fresh_adversarial_checks": 32,
+  "cache_regression": {
+    "name": "immutable-cache-atomic-reuse-conflict-tamper",
+    "status": "passed",
+    "elapsed_ms": 10.699999988079071,
+    "evidence": {
+      "concurrent_one_reused": true,
+      "conflict_preserved_original": true,
+      "corrupt_read_rejected": true,
+      "bound_identity_rejected": true,
+      "caller_mutation_snapshot_preserved": true
+    }
+  },
+  "required_remaining": "Guarded repair-child publication/full Git+ZIP+bundle verification; five exact-head native/browser CI jobs and downloaded artifacts. Then accept31 and continue32\u201339."
+}

@@ -1,0 +1,71 @@
+{
+  "stage": "30",
+  "revision": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "parent": "818c88890f4fb2c33deb308eeebfc949c6e14870",
+  "tree": "fcbb022c7cc421d8d395fec1cfad233720e540b8",
+  "route": "independent ordinary Git fetch",
+  "changed_files": [
+    {
+      "path": "artifacts/receipts/30/byte-preserved-book-replay.json",
+      "sha256": "2fc2c0eb3b4dd199dc7e0338f89d396c720ba165dc436d92be3245ecfbdacf4f",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/byte-preserved-registration-controls.json",
+      "sha256": "d3a0efe2289e773da05ac42dbe6318cb86e9ace49849a50674ea16cb5edbacd3",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/cid-native-diagnosis.json",
+      "sha256": "9d69cb906d9f0afb78182fce500d88c5dd57534eecffee4f881ed527a4ca148a",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/cid-visibility-controls.json",
+      "sha256": "05c2b5576b0bf9736fda617f9372ecbdd4b74e26ab6395cf5969c168d1fce420",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/raster-oracle-byte-repair.json",
+      "sha256": "39542aa0cc63bd3db1b7fa0b33e90452c5f0a3d641a51cfea31e1501707890d7",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/research.json",
+      "sha256": "7fabc00ee1324e88b0445de1ba33ac7f3499e89e34175b711bc289a4201462eb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/XELATEX-PATTERNS.md",
+      "sha256": "b8c7a87b557ea8207012b1a8cc0ef7cc27ce5dff1e3e1a6a4bacc13cea19ad01",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "0bde257181f49c224340dc0528cace4849a8cccda7ae02eb06cdbdfa3f48bbcb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "22609c01414bd07dd39defeab8e115a733fbd480806fa2c64d828ebbca2c861a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "9f610c67b83abb2dd22f3adb51a2b31b1051cf858fc05e3125f122786e69f6f6",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/pattern_dual_tex_consumer.py",
+      "sha256": "dba9fe7876664fc34b8cdad901a3cbdcd108c189c360f9d4a9a97417b68cd8a4",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/tex_build_consumer.py",
+      "sha256": "5d473de7b90b382503379dca1231ed7630d2e0b3f5acfdead7e4ad6829021828",
+      "mode": "100644"
+    }
+  ],
+  "unchanged_parent_objects_and_modes": 657,
+  "native_acceptance": "pending exact-head CI and artifact verification"
+}

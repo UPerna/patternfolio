@@ -1,0 +1,274 @@
+{
+  "revision": "3e49627f01651ede39c56f5c6e9ef41bcc0230fe",
+  "run": 42122879206,
+  "job": 127579486728,
+  "archive_sha256": "9d10f77681a717390ad9bb9248d0874d4aa7f49ff3f8a1081831c6f18bf12e43",
+  "consumer_source_digest": "caee3d44d962707e176aee1599cf4785aa15c3dee9b796c516b26ef5fdef351e",
+  "verified_consumer_source_files": 104,
+  "core_checks": 42,
+  "verified_core_source_files": 99,
+  "verified_core_output_hashes": 15,
+  "host_fallback_regression": true,
+  "book_pages": 4,
+  "unique_generations": 6,
+  "physical_views": 4,
+  "verified_declaration_hashes": 30,
+  "placements": [
+    {
+      "pdf": "florilegium-pattern-652842d874618fc809ef74411c1277d2f9b15b96937c2bd37711b908d4348fa7.pdf",
+      "measured_cm": [
+        3.4272008333333335,
+        8.45742388888889,
+        5.427200833339445,
+        10.457423888895
+      ],
+      "expected_cm": [
+        3.4271887764429936,
+        8.457422656033796,
+        5.427188442848324,
+        10.457422322439127
+      ],
+      "maximum_absolute_error_cm": 1.239049112022883e-05,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-60830ddbda64ff09d53ae004aac1ac360019e63faa142addd0174cc5c19e2aae.pdf",
+      "measured_cm": [
+        5.544220277777778,
+        8.45742388888889,
+        7.5442202777838885,
+        10.457423888895
+      ],
+      "expected_cm": [
+        5.544224621772898,
+        8.457422656033796,
+        7.5442242881782295,
+        10.457422322439127
+      ],
+      "maximum_absolute_error_cm": 4.343995120059674e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-7a87b032e257af74425547acc0a2864cd933356b25d36bc9a703da73db3ef563.pdf",
+      "measured_cm": [
+        0.0,
+        8.650005277777778,
+        14.799999891058055,
+        12.350005250551112
+      ],
+      "expected_cm": [
+        0,
+        8.650000005172828,
+        14.799999891053893,
+        12.349999977936303
+      ],
+      "maximum_absolute_error_cm": 5.272614808760068e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-81570fd26e4594d81101d9c765d5d0fb2871ded24d67dbadd219a02c168db54e.pdf",
+      "measured_cm": [
+        0.3000022222222222,
+        8.9500075,
+        4.000002983312778,
+        12.650008261090555
+      ],
+      "expected_cm": [
+        0.29999949411846405,
+        8.949998718996468,
+        4.000000255221035,
+        12.64999948009904
+      ],
+      "maximum_absolute_error_cm": 8.781003531410647e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-ab2f263cafdcea7fb29a6a3a212cc130a9e83eb6d9250c27425151fe38e1370f.pdf",
+      "measured_cm": [
+        0.0,
+        8.650005277777778,
+        14.799999891058055,
+        12.350005250551112
+      ],
+      "expected_cm": [
+        0,
+        8.650000005172828,
+        14.799999891053893,
+        12.349999977936303
+      ],
+      "maximum_absolute_error_cm": 5.272614808760068e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-7a366ab03578d27ad3c4b74309e3014cebb77a83b42ca62780c21d086d8e73b5.pdf",
+      "measured_cm": [
+        5.499981944444444,
+        9.722767222222222,
+        8.500101944435974,
+        12.72288722221375
+      ],
+      "expected_cm": [
+        5.499999602811208,
+        9.72276321801734,
+        8.499999370561754,
+        12.722762985767886
+      ],
+      "maximum_absolute_error_cm": 0.00012423644586334603,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-1dad4a1320419ee5466480c44cce7098a22292e89c720dcaa969c160ad59c70d.pdf",
+      "measured_cm": [
+        0.3000022222222222,
+        8.9500075,
+        4.000002983312778,
+        12.650008261090555
+      ],
+      "expected_cm": [
+        0.29999949411846405,
+        8.949998718996468,
+        4.000000255221035,
+        12.64999948009904
+      ],
+      "maximum_absolute_error_cm": 8.781003531410647e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-85a011cec3544fc7368abb563d377fb08c462cfe4c1dc671597767dd63fb171e.pdf",
+      "measured_cm": [
+        6.900015833333334,
+        8.715868888888888,
+        9.9001358333425,
+        9.352073609455866
+      ],
+      "expected_cm": [
+        6.9000002809796115,
+        8.715874534555203,
+        9.900000048730158,
+        9.35205375868822
+      ],
+      "maximum_absolute_error_cm": 0.0001357846123415385,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-94bd9a2c584b5d2cc96cb1488249d1dad2a8a21c4915473a25dda9907868fc9c.pdf",
+      "measured_cm": [
+        4.300008333333334,
+        6.09981,
+        11.300118333335726,
+        8.385525536301122
+      ],
+      "expected_cm": [
+        4.2999997493394995,
+        6.099805024303933,
+        11.29999938618581,
+        8.385484524197892
+      ],
+      "maximum_absolute_error_cm": 0.00011894714991633748,
+      "tolerance_cm": 0.01
+    }
+  ],
+  "maximum_placement_error_cm": 0.0001357846123415385,
+  "placement_tolerance_cm": 0.01,
+  "mask_checks": [
+    {
+      "name": "penrose",
+      "protected": [
+        0,
+        0
+      ],
+      "control": [
+        4961,
+        1920
+      ]
+    },
+    {
+      "name": "hybrid",
+      "protected": [
+        0,
+        0
+      ],
+      "control": [
+        0,
+        28
+      ]
+    }
+  ],
+  "failure_cases": [
+    "inline-stroke-minimum",
+    "inline-text-minimum",
+    "unknown-asset",
+    "unknown-region",
+    "unknown-control",
+    "fully-protected",
+    "wrong-spread",
+    "late-declaration",
+    "missing-spread-partner",
+    "occupied-generated-file-preserved"
+  ],
+  "verified_failure_log_hashes": 10,
+  "load_orders": [
+    "order-0-0",
+    "order-0-1",
+    "order-1-0",
+    "order-1-1"
+  ],
+  "discarded_shipout_checked": true,
+  "pattern_receipt_converged": true,
+  "searchable_micrography_and_initial_folio": true,
+  "runtime": {
+    "pypdf": "6.12.1",
+    "Pillow": "12.2.0",
+    "lualatex": "This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)"
+  },
+  "visual_review": {
+    "result": "passed",
+    "method": "Rerendered the final native book with the same Poppler pdftoppm settings; all four pages pixel-identical to the independently reviewed b2ec book.",
+    "pages": 4,
+    "book_pdf_sha256": "87285f2c0f715c9205c27f61087eecb096bcc9fc99bbabc4321b71a5287b41b2",
+    "page_evidence": [
+      {
+        "page": 1,
+        "difference_bounds": null,
+        "sha256": "d75bc77d0671b5e51e55a9c342c839d4d20644dd4f63582d5fbf4426cd833c84"
+      },
+      {
+        "page": 2,
+        "difference_bounds": null,
+        "sha256": "a113e78e1eed1c4f01dd3aa0fad7828f0b4a94332eb0d2391b1829c7a29d8e59"
+      },
+      {
+        "page": 3,
+        "difference_bounds": null,
+        "sha256": "a17e32b69a394e125f6b2ee09ba344206a1ed58d2277e6b2faaa09bd1f8024ee"
+      },
+      {
+        "page": 4,
+        "difference_bounds": null,
+        "sha256": "0ad9ecf4e3bdabee14171f04253298cb0c049a384d8b957d45f4a72fbfbabd8d"
+      }
+    ],
+    "prior_visual_review": {
+      "pages": 4,
+      "book_pdf_sha256": "0741320e570a4840bb10d958c7e59a923fd7ff93a146f7f105133772f43e3767",
+      "png_sha256": {
+        "page-1.png": "d75bc77d0671b5e51e55a9c342c839d4d20644dd4f63582d5fbf4426cd833c84",
+        "page-2.png": "a113e78e1eed1c4f01dd3aa0fad7828f0b4a94332eb0d2391b1829c7a29d8e59",
+        "page-3.png": "a17e32b69a394e125f6b2ee09ba344206a1ed58d2277e6b2faaa09bd1f8024ee",
+        "page-4.png": "0ad9ecf4e3bdabee14171f04253298cb0c049a384d8b957d45f4a72fbfbabd8d"
+      },
+      "observations": [
+        "Contents and both upright searchable initials visible on page 1.",
+        "Page 2 hybrid, continued Penrose band, protected L callout and body have no overlapping ink.",
+        "Page 3 float and caption remain clear; band continues in the same construction frame.",
+        "Page 4 margin hybrid, divider and complete micrography are visible with clear surrounding text."
+      ],
+      "renderer": "Poppler pdftoppm, maximum page dimension 950 pixels",
+      "result": "passed"
+    }
+  },
+  "inherited_jobs": {
+    "portable": "passed",
+    "pdfs": "passed"
+  }
+}

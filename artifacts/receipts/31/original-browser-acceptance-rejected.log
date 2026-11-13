@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\EN33948\Documents\Codex\2026-11-02\goal-execute-the-attached-pattern-platform-2\work\review-stage31-browser.py", line 38, in <module>
+    cache=checks['immutable-cache-atomic-reuse-conflict-tamper']['evidence'];assert all(cache[k]for k in('concurrent_one_reused','conflict_preserved_original','corrupt_read_rejected','bound_identity_rejected','caller_mutation_snapshot_preserved'))
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\EN33948\Documents\Codex\2026-11-02\goal-execute-the-attached-pattern-platform-2\work\review-stage31-browser.py", line 38, in <genexpr>
+    cache=checks['immutable-cache-atomic-reuse-conflict-tamper']['evidence'];assert all(cache[k]for k in('concurrent_one_reused','conflict_preserved_original','corrupt_read_rejected','bound_identity_rejected','caller_mutation_snapshot_preserved'))
+                                                                                        ~~~~~^^^
+KeyError: 'caller_mutation_snapshot_preserved'

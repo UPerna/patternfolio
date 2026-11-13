@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "elapsed_ms": 64571.10000002384,
+  "code": "budget_exhausted",
+  "message": "Deterministic Lua instruction budget exhausted",
+  "stats": {
+    "hash_bytes": 16648476,
+    "hash_calls": 466,
+    "hash_instructions": 2874110000,
+    "instructions": 4000010000
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "pdfs",
+  "revision": "96390d9afce26246dcf6da878e33fcb95b2c1b28",
+  "run": 42331909848,
+  "job": 128280135492,
+  "artifact_id": 13558931674,
+  "artifact_name": "florilegium-pdfs",
+  "sha256": "2f6783d3c80b1e6df295e78589ec727bb01faf3b5ca54b067232ef0a61dbd707",
+  "size_in_bytes": 47481624,
+  "archive_bytes": 47481624,
+  "verified_archive_sha256": "2f6783d3c80b1e6df295e78589ec727bb01faf3b5ca54b067232ef0a61dbd707",
+  "safe_extraction": true
+}

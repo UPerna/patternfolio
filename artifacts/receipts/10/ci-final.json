@@ -1,0 +1,165 @@
+{
+  "stage": "10",
+  "source_digest": "7498a5e6ffdc07295bcfa7a858c0a39a53e868e77507226daf51bf9433040257",
+  "native_checks": 23,
+  "native_output_hashes": 16,
+  "native_local_differences": [],
+  "kit_hashes": 268,
+  "oracle": {
+    "stage": "10",
+    "source_digest": "7498a5e6ffdc07295bcfa7a858c0a39a53e868e77507226daf51bf9433040257",
+    "verified_branches": {
+      "closed": 8,
+      "border": 16,
+      "irregular": 20,
+      "botanical": 6
+    },
+    "outputs": 16,
+    "raster": {
+      "closed": {
+        "ink_pixels": [
+          5216,
+          5218
+        ],
+        "ink_bounds": [
+          [
+            54,
+            114,
+            246,
+            306
+          ],
+          [
+            54,
+            114,
+            246,
+            306
+          ]
+        ],
+        "mean_normalized_error": 0.0010372387638182845
+      },
+      "border": {
+        "ink_pixels": [
+          8123,
+          8123
+        ],
+        "ink_bounds": [
+          [
+            40,
+            39,
+            321,
+            321
+          ],
+          [
+            40,
+            39,
+            321,
+            320
+          ]
+        ],
+        "mean_normalized_error": 0.0015023904623577826
+      },
+      "irregular": {
+        "ink_pixels": [
+          8667,
+          8623
+        ],
+        "ink_bounds": [
+          [
+            35,
+            77,
+            270,
+            309
+          ],
+          [
+            35,
+            77,
+            270,
+            309
+          ]
+        ],
+        "mean_normalized_error": 0.0015083111433873962
+      },
+      "botanical": {
+        "ink_pixels": [
+          3098,
+          3099
+        ],
+        "ink_bounds": [
+          [
+            105,
+            104,
+            222,
+            305
+          ],
+          [
+            105,
+            104,
+            222,
+            305
+          ]
+        ],
+        "mean_normalized_error": 0.00061679980634229
+      },
+      "closed-narrow": {
+        "ink_pixels": [
+          4472,
+          4457
+        ],
+        "ink_bounds": [
+          [
+            54,
+            114,
+            246,
+            306
+          ],
+          [
+            54,
+            114,
+            246,
+            306
+          ]
+        ],
+        "mean_normalized_error": 0.001006122407810861
+      },
+      "closed-cropped": {
+        "ink_pixels": [
+          268,
+          270
+        ],
+        "ink_bounds": [
+          [
+            0,
+            0,
+            102,
+            102
+          ],
+          [
+            0,
+            0,
+            102,
+            102
+          ]
+        ],
+        "mean_normalized_error": 0.0006314816071244594
+      }
+    }
+  },
+  "visual_review": "Six native PDF/SVG pairs accepted. Enlarged irregular crossings inspected and legible. Open ports and attached stem/leaf visible.",
+  "revision": "c45310b2d7db36dd0d423a28407950140906c01a",
+  "tree": "9d629e4498588b349c0b18cbf6fe90ef5ea7fa27",
+  "run": 41817152170,
+  "jobs": {
+    "portable": {
+      "id": 126530682647,
+      "conclusion": "success"
+    },
+    "pdfs": {
+      "id": 126530682965,
+      "conclusion": "success"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "b850eb4511d9e3d153f064c95c0c9e2292fb8978ab212b87c022f56a0c7d568d",
+    "portable": "2467be0c970bdb9f20c985d8eb0b433420681aaf859a0ee7168593ecf4305036"
+  }
+}

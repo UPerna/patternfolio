@@ -1,0 +1,33 @@
+{
+  "stage": "07",
+  "revision": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "run": 41692959075,
+  "status": "portable success; pdfs pending",
+  "portable_checks": [
+    "enginecheck: 11 dual-engine documents, vector/text/metadata/mono/offset parity, cached animation, PDF assets, included auxiliary convergence, stale rebuilds and 6 rejected inputs passed",
+    "offsetcheck: 8 rendered physical and content-relative reservations passed",
+    "visualcheck: book-side placement, protected callout, overlapping barriers and full-page reservation passed",
+    "packagecheck: 223 file hashes, reproducible archive and extracted Lua/Xe template builds passed"
+  ],
+  "artifacts": [
+    {
+      "id": 13257064985,
+      "name": "florilegium-portable-kit",
+      "size_in_bytes": 12687666,
+      "url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13257064985",
+      "archive_download_url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13257064985/zip",
+      "expired": false,
+      "created_at": "2026-11-03T18:26:08Z",
+      "expires_at": "2027-02-01T18:21:05Z",
+      "updated_at": "2026-11-03T18:26:08Z",
+      "digest": "sha256:c4aeda2c191cdbbfb85ad645e9fdb16f5b4912ab39423f51a1d239fbe58d02ac",
+      "workflow_run": {
+        "id": 41692959075,
+        "repository_id": 1440218114,
+        "head_repository_id": 1440218114,
+        "head_branch": "pattern/common-platform",
+        "head_sha": "e5a7b99140e95a6e70a425e0605c89688468c2e3"
+      }
+    }
+  ]
+}

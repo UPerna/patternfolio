@@ -1,0 +1,16 @@
+{
+  "url": "https://github.com/UPerna/florilegium/pull/2",
+  "number": 2,
+  "state": "open",
+  "merged": false,
+  "mergeable": true,
+  "draft": true,
+  "body": "The shared Lua pipeline provides 22 generator profiles, reproducible PDF/SVG exports, CLI workflows, both native TeX adapters, and a browser editor running the same core.\n\nStages 00-33 passed. Stage 34 current candidate: 8a7f34fa3d84068d6ef98b0c8b3ecf84909abb5f. It includes bounded byte-hash reuse, compensated packing validation, construction-object budget charges, synchronized floral editor seeds, a 27-workload matrix and actual cancellation/resource/editor checks.\n\nThe first stage 34 candidate passed all four native jobs plus browser family/editor checks, then failed because the browser performance entrypoint used the wrong downloaded-artifact folder. That run remains rejected and preserved. The corrected entrypoint verifies all 27 recipes under build/performance before browser launch. Actual downloaded-artifact integration and missing-root controls pass. All 90 local timed executable inputs and the browser runner are byte-identical to the tested local sequence; provenance is retained rather than relabelled.\n\nIndependent Git verification confirmed all 1,423 file objects, 26 binary assets, modes/history and 297 prior issued evidence hashes. Fresh build 64/run 42325240115 must pass all five jobs and actual artifact reviews before stage 34 acceptance. Stages 35-39 remain pending. Keep this PR draft; no merge, release or deployment has occurred. See docs/project/STATUS.md, STAGES.json and docs/validation/PERFORMANCE-34.md.",
+  "title": "Build the common pattern platform and botanical compatibility",
+  "base": "improve/layout-controls",
+  "base_sha": "879610d82637229f0f4c06f828fe3a6d68d6faf6",
+  "head": "pattern/common-platform",
+  "head_sha": "8a7f34fa3d84068d6ef98b0c8b3ecf84909abb5f",
+  "created_at": "2026-11-02T15:21:19Z",
+  "updated_at": "2026-11-07T01:46:42Z"
+}

@@ -1,0 +1,55 @@
+{
+  "stage": "20",
+  "reviewed": "2026-11-04",
+  "sources": [
+    {
+      "id": "R04c",
+      "title": "Escherization",
+      "authors": [
+        "Craig S. Kaplan",
+        "David H. Salesin"
+      ],
+      "version": "SIGGRAPH 2000, pp.499–510",
+      "primary_url": "https://doi.org/10.1145/344779.345022",
+      "sha256": "5566dfbf23b8e61c606547c1732e4e7ff280f0fe9d2816caabd9a3e63b5353ab",
+      "sections": [
+        "§3 incidence symbols and Figs. 9–10 isohedral parameterization",
+        "§4 Arkin turning metric",
+        "§5 simulated annealing"
+      ],
+      "full_text_url": "https://grail.cs.washington.edu/wp-content/uploads/2015/08/kaplan_siggraph2000.pdf"
+    },
+    {
+      "id": "R04d",
+      "title": "Dihedral Escherization",
+      "authors": [
+        "Craig S. Kaplan",
+        "David H. Salesin"
+      ],
+      "version": "Graphics Interface 2004, pp.255–262",
+      "primary_url": "https://cs.uwaterloo.ca/~csk/publications/Papers/kaplan_salesin_2004.pdf",
+      "sha256": "5fa2d3c7d290e549bd8ea6e8cfa7a15ff3352ac4b2912c0268fe8c0fc4af9772",
+      "sections": [
+        "§3 split isohedral objective and shared path",
+        "§6 Penrose edge coupling and Fig. 6"
+      ]
+    },
+    {
+      "id": "R20",
+      "title": "Computer Graphics and Geometric Ornamental Design",
+      "authors": [
+        "Craig S. Kaplan"
+      ],
+      "version": "University of Washington PhD thesis, author-hosted full print version",
+      "primary_url": "https://cs.uwaterloo.ca/~csk/other/phd/kaplan_diss_full_print.pdf",
+      "sha256": "95f56de59e3abde2043f18fffd0d886e631620afb80d55a12b99701f45239fcf",
+      "sections": [
+        "§§4.3–4.5 IH41 p1 parallelogram and optimizer",
+        "§4.6.1 split isohedral",
+        "§4.6.4 Fig. 4.23 P3 quasivertices"
+      ]
+    }
+  ],
+  "implementation": "Original bounded code using published methods. The paper and thesis figures are kept private.",
+  "scope": "IH41 and split IH41, fixed target parity/order, bounded integer controls, active P3 quasivertices with four paired classes."
+}

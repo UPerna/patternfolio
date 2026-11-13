@@ -1,0 +1,110 @@
+{
+  "stage": "08",
+  "status": "passed",
+  "revision": "9041fafcdc5587126d75aecd8b03d6bcb1898412",
+  "tree": "71c37c2d95ab0095021abbaf0d17f4c708a106ef",
+  "parent": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "run": 41706823596,
+  "jobs": [
+    {
+      "id": 126164230358,
+      "name": "pdfs",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 126164230674,
+      "name": "portable",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 126164232745,
+      "name": "gallery",
+      "status": "completed",
+      "conclusion": "skipped"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 13267785818,
+      "name": "florilegium-portable-kit",
+      "size_in_bytes": 12733926,
+      "url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13267785818",
+      "archive_download_url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13267785818/zip",
+      "expired": false,
+      "created_at": "2026-11-03T19:57:56Z",
+      "expires_at": "2027-02-01T19:49:19Z",
+      "updated_at": "2026-11-03T19:57:56Z",
+      "digest": "sha256:425287f780bc7c64a1549a28b0245aebbb30179fde4cb7f976d9448e20b70f86",
+      "workflow_run": {
+        "id": 41706823596,
+        "repository_id": 1440218114,
+        "head_repository_id": 1440218114,
+        "head_branch": "pattern/common-platform",
+        "head_sha": "9041fafcdc5587126d75aecd8b03d6bcb1898412"
+      }
+    },
+    {
+      "id": 13265799827,
+      "name": "florilegium-pdfs",
+      "size_in_bytes": 15000121,
+      "url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13265799827",
+      "archive_download_url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13265799827/zip",
+      "expired": false,
+      "created_at": "2026-11-03T19:57:31Z",
+      "expires_at": "2027-02-01T19:49:19Z",
+      "updated_at": "2026-11-03T19:57:31Z",
+      "digest": "sha256:0e69455229809643e02b6ce6ab616d1e37039ff5749bc5b8f25ca14506792dd8",
+      "workflow_run": {
+        "id": 41706823596,
+        "repository_id": 1440218114,
+        "head_repository_id": 1440218114,
+        "head_branch": "pattern/common-platform",
+        "head_sha": "9041fafcdc5587126d75aecd8b03d6bcb1898412"
+      }
+    }
+  ],
+  "native_checks": [
+    "2026-11-03T19:51:48.1502603Z contractcheck: 61 checks passed; actual floral + graph + tiling examples; semantic-only text/strands/3D/field fixtures",
+    "2026-11-03T19:51:54.3645111Z replaycheck: numeric locales exercised 3; unavailable locales skipped explicitly",
+    "2026-11-03T19:51:54.3714022Z replaycheck: 145 checks passed; golden vectors, actual generation/replay, dependency mutations, failure records and atomic filesystem faults",
+    "2026-11-03T19:51:54.3978910Z determinism_oracle: independent Python hashlib, canonical-number and modular-integer vectors passed",
+    "2026-11-03T19:51:55.7968719Z geometrycheck: 91 analytical/adversarial checks passed; oracle corpus2000 orientations/500 segments/66 cubics/128 bounds, source 8447f01bdd11cb269ae237da72a40d684489ab67af5c8f2c926676d74ae6a058, cache a7d967138002eced3ca1599d81d795cdff3adf71460cd79ba4be01c561e8f4e0",
+    "2026-11-03T19:51:56.2097878Z geometry_oracle: Fraction checks passed; {'orientations': 2000, 'segments': 500, 'cubics': 66, 'bounds': 128} across 1 current-source reports",
+    "2026-11-03T19:52:01.0249718Z scenecheck: 56 checks passed; six actual PDF/SVG fixtures in build/scenes/712c4dcef20a2502f62350720d0a9402e7a441f2d04e23251dc673ac305b66ec",
+    "2026-11-03T19:52:03.0976806Z scene_oracle: six vector pairs, physical bounds, Unicode/order, dash/winding probes and strict protected ink passed 712c4dcef20a2502f62350720d0a9402e7a441f2d04e23251dc673ac305b66ec",
+    "2026-11-03T19:52:10.3935268Z florilegium: grew 3608 cells, 11 motifs, 1141 stem points, 646 KB; visitors: noneplannercheck: 82 checks passed; one immutable grid, standalone/facing/overlap PDF/SVG views; evidence build/planner/77842816a47a9287be3e8eeecff2823dbca88bd14621e803b18d1428e7b040ff",
+    "2026-11-03T19:52:12.4925514Z planner_oracle: exact comparisons, actual standalone/two-page coordinates, world overlap and strict protected ink passed 77842816a47a9287be3e8eeecff2823dbca88bd14621e803b18d1428e7b040ff",
+    "2026-11-03T19:54:57.8393181Z layoutcheck: 28 checks passed",
+    "2026-11-03T19:54:57.8496305Z botanicalcheck: 19 contract checks; authored/grown observed paths and asymmetric panel; build/botanical/17d56eb5b00671d8b1e34fa44eeeef32e2a80ba095674851dd0c5e4205814f11",
+    "2026-11-03T19:55:02.7416587Z botanical_oracle: exact attachment/containment, 645 independent paint envelopes and actual masked/unmasked PDF/SVG images passed 17d56eb5b00671d8b1e34fa44eeeef32e2a80ba095674851dd0c5e4205814f11",
+    "2026-11-03T19:55:10.0786483Z layoutcheck: 28 checks passed",
+    "2026-11-03T19:55:10.0887134Z spacecheck: clearance, detours, determinism and blocked corridors passed",
+    "2026-11-03T19:55:10.0960861Z initialcheck: missing reader, unreadable font, missing glyph and malformed bounds handled",
+    "2026-11-03T19:55:10.1128702Z backendcheck: standalone paths, resources, spread/fixed seeds, mono, controls and upright Arabic/Roman bodies passed",
+    "2026-11-03T19:55:51.7617028Z bookcheck: 9 cases passed; fallback initial remains searchable"
+  ],
+  "portable_checks": [
+    "2026-11-03T19:53:09.0380355Z enginecheck: 11 dual-engine documents, vector/text/metadata/mono/offset parity, cached animation, PDF assets, included auxiliary convergence, stale rebuilds and 6 rejected inputs passed",
+    "2026-11-03T19:53:17.6941097Z offsetcheck: 8 rendered physical and content-relative reservations passed",
+    "2026-11-03T19:54:05.4995592Z visualcheck: book-side placement, protected callout, overlapping barriers and full-page reservation passed",
+    "2026-11-03T19:54:29.1301086Z packagecheck: 239 file hashes, reproducible archive and extracted Lua/Xe template builds passed",
+    "2026-11-03T19:54:48.7268609Z botanical_enginecheck: florilegium xe 4 pixel-exact pages; 4 validated observations",
+    "2026-11-03T19:54:58.1417021Z botanical_enginecheck: florilegium lua 4 pixel-exact pages; 8 validated observations",
+    "2026-11-03T19:55:46.9554033Z botanical_enginecheck: florilegium-grow xe 6 pixel-exact pages; 6 validated observations",
+    "2026-11-03T19:56:09.5204512Z botanical_enginecheck: florilegium-grow lua 6 pixel-exact pages; 12 validated observations",
+    "2026-11-03T19:56:54.7865669Z botanical_enginecheck: showcase lua 3 pixel-exact pages; 6 validated observations",
+    "2026-11-03T19:57:09.5374092Z botanical_enginecheck: book-demo lua 2 pixel-exact pages; 4 validated observations",
+    "2026-11-03T19:57:19.1613821Z botanical_enginecheck: book-demo xe 2 pixel-exact pages; 2 validated observations",
+    "2026-11-03T19:57:21.8889656Z botanical_enginecheck: showcase xe 3 pixel-exact pages; 6 validated observations",
+    "2026-11-03T19:57:24.4103898Z botanical_enginecheck: asset-demo lua 1 pixel-exact pages; 0 validated observations",
+    "2026-11-03T19:57:25.9537537Z botanical_enginecheck: asset-demo xe 1 pixel-exact pages; 0 validated observations",
+    "2026-11-03T19:57:42.3085301Z botanical_enginecheck: folio-demo xe 4 pixel-exact pages; 4 validated observations",
+    "2026-11-03T19:57:48.3390599Z botanical_enginecheck: specimen lua 1 pixel-exact pages; 0 validated observations",
+    "2026-11-03T19:57:50.8136383Z botanical_enginecheck: folio-demo lua 4 pixel-exact pages; 8 validated observations",
+    "2026-11-03T19:57:53.1039717Z botanical_enginecheck: specimen xe 1 pixel-exact pages; 0 validated observations",
+    "2026-11-03T19:57:53.1048627Z botanical_enginecheck: 14 document/engine pairs; pixels and text exact"
+  ],
+  "visual_review": "Fresh Inkscape/Poppler panel, authored and grown pairs visually inspected; original crop intact and no unexpected missing ink. Native-local six PDF/SVG bytes equal; 624 numeric coordinate/residual differences across two legacy manifests, maximum3.552713678800501e-15cm, no nonnumeric differences."
+}

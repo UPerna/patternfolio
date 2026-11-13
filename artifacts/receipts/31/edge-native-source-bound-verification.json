@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "scope": "Current repaired Edge worker vs actual TeX-native source-identical CLI113; current-head native pdfs/browser CI still separately mandatory",
+  "browser_revision": "bd11eefd36d21104ad46cbdde2684401ec6ee9b8",
+  "native_artifact_revision": "abdeebebaff70f32cc6bfdca32d60c7ebcce1e31",
+  "native_artifact_run": 42214620480,
+  "native_artifact_id": 13503060130,
+  "identical_native_cli_source_digest": "d311039ba905e3b25a2477bf546db7a6c5a414bb1b7e2f8a63a2ba7d492ea1ca",
+  "browser_source_digest": "b1d53687559ff3503bc5ff5411d9e0b8a7c6807cdc13149819c24887e85ae901",
+  "browser": "156.0.4314.58",
+  "native_reference_sha256": "b47b1b626c6cda7507afca8a90ea9cf341aff6f1687933598c3612896f0ec77a",
+  "families": 22,
+  "native_byte_exact_families": [
+    "botanical-panel",
+    "periodic",
+    "celtic",
+    "islamic",
+    "freeform",
+    "substitution",
+    "penrose",
+    "spectre",
+    "beenker",
+    "completion",
+    "tracery",
+    "escher",
+    "mosaic",
+    "stroke",
+    "maze",
+    "gothic-spatial",
+    "inline",
+    "hat",
+    "botanical-authored",
+    "botanical-grown"
+  ],
+  "native_numerical_comparisons": {
+    "micrography": {
+      "numeric_values_compared": 92451,
+      "roundoff_differences": 3412,
+      "maximum_absolute_difference": 2.220446049250313e-15,
+      "maximum_fraction_of_roundoff_bound": 0.1969856468378289,
+      "bound": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b))); integer identities/text/order/topology/non-geometric fields exact"
+    },
+    "decobrush": {
+      "numeric_values_compared": 7431,
+      "roundoff_differences": 1,
+      "maximum_absolute_difference": 5.551115123125783e-17,
+      "maximum_fraction_of_roundoff_bound": 0.0078125,
+      "bound": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b))); integer identities/text/order/topology/non-geometric fields exact"
+    }
+  },
+  "all_own_replays_byte_exact": true,
+  "guarded_source_manifest": "stage31-cache-repair-expected-cli.json",
+  "fresh_same_revision_ci_acceptance": "Still pending42216668040 pdfs and dependent browser; this earlier-source-identical native artifact does not substitute for them."
+}

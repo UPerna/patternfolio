@@ -208,6 +208,7 @@ local function page_marks(box)
   end
   return out
 end
+M.page_marks = page_marks
 
 -- ---------------------------------------------------------------- initials
 -- \florilegiuminitial: a tile of side `side` (sp) whose top is the cap height

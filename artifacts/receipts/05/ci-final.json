@@ -1,0 +1,23 @@
+{
+  "stage": "05",
+  "head": "814d7723bdb0aed8fd1ef740876a04ab6f0e2820",
+  "tree": "bd281d0681c1a26231751eccf6a88b5fc3fb906d",
+  "run": 41489619229,
+  "conclusion": "success",
+  "required_jobs": {
+    "pdfs": "success",
+    "portable": "success"
+  },
+  "optional_gallery": "skipped",
+  "pdfs_job": 125428888613,
+  "portable_job": 125428889337,
+  "evidence": [
+    "2026-11-02T17:19:28.8510156Z contractcheck: 61 checks passed; actual floral + graph + tiling examples; semantic-only text/strands/3D/field fixtures",
+    "2026-11-02T17:19:32.6807068Z replaycheck: numeric locales exercised 3; unavailable locales skipped explicitly",
+    "2026-11-02T17:19:32.6865204Z replaycheck: 145 checks passed; golden vectors, actual generation/replay, dependency mutations, failure records and atomic filesystem faults",
+    "2026-11-02T17:19:34.1595057Z geometrycheck: 91 analytical/adversarial checks passed; oracle corpus2000 orientations/500 segments/66 cubics/128 bounds, source c5d6860ca235e818da8024cae058771be9fce1da064fb95bc03a0b01b86466dd, cache 777ba3387804dbf2a30603f78488b97bf1d4ddd07fbcef4cca0b413747e434cf",
+    "2026-11-02T17:19:34.7553496Z geometry_oracle: Fraction checks passed; {'orientations': 2000, 'segments': 500, 'cubics': 66, 'bounds': 128} across 1 current-source reports",
+    "2026-11-02T17:19:45.2303316Z layoutcheck: 28 checks passed",
+    "2026-11-02T17:20:38.1580017Z bookcheck: 9 cases passed; fallback initial remains searchable"
+  ]
+}

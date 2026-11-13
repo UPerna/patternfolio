@@ -1,0 +1,229 @@
+{
+  "stage": "27",
+  "revision": "d840207e204e1b268bedfd1a0a226ca12f4dff1c",
+  "parent": "a30898e35bd9cd9db3a33268ac4c4084a418a3da",
+  "tree": "7538734f3006f2b216c203cc2400b5e41a11d931",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "6e6deffba55896c7b2c7fbad4b3d5bf2101534b816f411ce5f0c001f5416baec",
+      "bytes": 6624
+    },
+    {
+      "path": "artifacts/receipts/26/ci-final.json",
+      "sha256": "095f678f9f240df5134b22f930d162454cef8fcc10c19a3843584d269fac9828",
+      "bytes": 2894
+    },
+    {
+      "path": "artifacts/receipts/26/publication.json",
+      "sha256": "16d1422916bd134937a2c4f21d11de2edc5b98466768437cd4913be5e47f4dc3",
+      "bytes": 3515
+    },
+    {
+      "path": "artifacts/receipts/27/oracle-local.json",
+      "sha256": "3d0ff4cc8e527637588660485b98a6e9f000b98e067b9212abe5e1672cfaa000",
+      "bytes": 261
+    },
+    {
+      "path": "artifacts/receipts/27/receipt-Lua-5.3.json",
+      "sha256": "fae4215757bde8e8acb2d5bf090f750cb7b8318923489f308b3d92a4c3a69963",
+      "bytes": 3120
+    },
+    {
+      "path": "artifacts/receipts/27/receipt-Lua-5.4.json",
+      "sha256": "fae4215757bde8e8acb2d5bf090f750cb7b8318923489f308b3d92a4c3a69963",
+      "bytes": 3120
+    },
+    {
+      "path": "artifacts/receipts/27/regressions-local.json",
+      "sha256": "cb38a9540a5e10694e50f95430af1c70c4184b1c6adb5f86367f1d4a9aacb2cc",
+      "bytes": 289
+    },
+    {
+      "path": "artifacts/receipts/27/source-reference.json",
+      "sha256": "c0767c036b851a272d25e3548912232acb5ac64999ee4b20ca73149d83f24c4d",
+      "bytes": 736
+    },
+    {
+      "path": "docs/design/ORIGINAL-COLLECTIONS.md",
+      "sha256": "187b3ffdc63fb766340ed8f802136049951557de471411705d4072b51b9e9b24",
+      "bytes": 7203
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "3ca1136329b6e246e5d7bb0e0c23528b654f0d045bd0547cb786cc98c907a8dd",
+      "bytes": 62203
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "0204196c89309c6532bb46b7c10c845b834e1d3824d57d592523d91241ef3a59",
+      "bytes": 716
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "cdc5d67bca45fe17cd5024b930daa6f279d850d1626f93ef5edc3175816fa871",
+      "bytes": 32866
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "412abc3afa8710fa1c64ea6085e17232525a73132ead30406dabca610e6b7ab8",
+      "bytes": 41189
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "db48416b6283886ed2ea8dd0b74a4dc69f1b6fd66be49b74de80e37f7a857f7b",
+      "bytes": 8634
+    },
+    {
+      "path": "examples/collections/compass-garden/collection-1.svg",
+      "sha256": "c3283978cec8b1dd14431a03590f6dd041854d435cc16d473b458688ad0fc237",
+      "bytes": 985931
+    },
+    {
+      "path": "examples/collections/compass-garden/collection-2.svg",
+      "sha256": "37fa884b109f8aa3ef86699c04ba833f2d7c72526a26c4e774dec6430b1c977f",
+      "bytes": 1099585
+    },
+    {
+      "path": "examples/collections/compass-garden/decorated.svg",
+      "sha256": "452c3467f46a16dd35ac25a71c310c93fe4cdb3343231eb9e2edd9f87f2d6e95",
+      "bytes": 494303
+    },
+    {
+      "path": "examples/collections/compass-garden/detail.svg",
+      "sha256": "79d226e8f321e080252b8e301dc36025b0486cc7ecf41d09a5d3a98780063320",
+      "bytes": 449931
+    },
+    {
+      "path": "examples/collections/compass-garden/divider.instance",
+      "sha256": "9ad99cae5be0ac604461342ed82be0535633b6ef343709bdc5ff37366795c637",
+      "bytes": 86986
+    },
+    {
+      "path": "examples/collections/compass-garden/divider.recipe",
+      "sha256": "cb3da822e99109edc3e692bc6edbfe96963bb1077c179ec0aacb4ab90437a495",
+      "bytes": 1126
+    },
+    {
+      "path": "examples/collections/compass-garden/flower.instance",
+      "sha256": "c3e4f0a33941b2de1b5f3135a3dbd3015fa2a6e41a25076f601188ceff2b4852",
+      "bytes": 180675
+    },
+    {
+      "path": "examples/collections/compass-garden/flower.recipe",
+      "sha256": "ed1f0a9528b31d3d77a8ac38c3695b8f57faa4a2895e230188b6813ccc4ff8cc",
+      "bytes": 1123
+    },
+    {
+      "path": "examples/collections/compass-garden/folio-two.instance",
+      "sha256": "22d3a1a1b7f2885071e18c512096c6ce291fc0f43365fc105e94f5d1c27dc76c",
+      "bytes": 211156
+    },
+    {
+      "path": "examples/collections/compass-garden/folio-two.recipe",
+      "sha256": "8e31a8674d632650568021ac0d56fd33aed27734953a9b6e4407af91e8453d2d",
+      "bytes": 115245
+    },
+    {
+      "path": "examples/collections/compass-garden/folio.instance",
+      "sha256": "5c8cfc55005332e5dc15335f3a21658958413852c5f5ec0558d381be2a4f890e",
+      "bytes": 211151
+    },
+    {
+      "path": "examples/collections/compass-garden/folio.recipe",
+      "sha256": "afa4c4f42ce40556fa2b0152c5d4bfe390a162ce53ec6c090fb857a221e2270a",
+      "bytes": 115236
+    },
+    {
+      "path": "examples/collections/compass-garden/hybrid.instance",
+      "sha256": "1b2ec2ca6174cbacf8185820868adfde4567736451a358d86956f573c47023bf",
+      "bytes": 4355
+    },
+    {
+      "path": "examples/collections/compass-garden/hybrid.recipe",
+      "sha256": "ff922eede908b08b2443b6b38e2b22a3ae1b884efadfd9ae882424aae70c0fe6",
+      "bytes": 1693
+    },
+    {
+      "path": "examples/collections/compass-garden/hybrid.svg",
+      "sha256": "fa147945e1d0ebaefcb48a17027054d2d52bdd38a6c6b30440430228c019690a",
+      "bytes": 81142
+    },
+    {
+      "path": "examples/collections/compass-garden/initial.instance",
+      "sha256": "b8a28bb3c6d1fed6b16464598bb6cb54793355ed6e391e249e0a6fa1c15abf5f",
+      "bytes": 211569
+    },
+    {
+      "path": "examples/collections/compass-garden/initial.recipe",
+      "sha256": "d22f15fb6ec35f4f192073abfe0756ed9219c12691e9c47196e2311c621f994c",
+      "bytes": 115226
+    },
+    {
+      "path": "examples/collections/compass-garden/leaf.instance",
+      "sha256": "01b49c3c349856f231ba0e83e40ce2078bd270c9a59fde9072e35a293adb2625",
+      "bytes": 96971
+    },
+    {
+      "path": "examples/collections/compass-garden/leaf.recipe",
+      "sha256": "c4a18f5c8f8effdc2f805a24656ae701081ff4008a699a1d98e1bbb23eb0a985",
+      "bytes": 1117
+    },
+    {
+      "path": "examples/collections/compass-garden/original-collection.json",
+      "sha256": "f89fe5ff7fcea8c4845719c755ba842bb6bdf6144a67c0c077c660dab1e7eec2",
+      "bytes": 8244
+    },
+    {
+      "path": "examples/collections/compass-garden/penrose.instance",
+      "sha256": "90db90aba0a1bd1c6b70cdc2449092efbf826b0aea9ced6bb76ec03a77f70117",
+      "bytes": 572372
+    },
+    {
+      "path": "examples/collections/compass-garden/penrose.recipe",
+      "sha256": "2717aaeb265279603cca4969aa897e6f8ad677ff7b5902089d00b6b9150cd139",
+      "bytes": 1368
+    },
+    {
+      "path": "examples/collections/compass-garden/spectre.instance",
+      "sha256": "1b68be3eeef51688aca0fc2f210595c4a43e95b71af6959a7d33f6234e4218ec",
+      "bytes": 670745
+    },
+    {
+      "path": "examples/collections/compass-garden/spectre.recipe",
+      "sha256": "b7e008d411d4ed539b664ac756bb9f374884da744b37a2ac4476a52059c320b1",
+      "bytes": 1631
+    },
+    {
+      "path": "pattern_collection.lua",
+      "sha256": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+      "bytes": 16978
+    },
+    {
+      "path": "pattern_collection_assets.lua",
+      "sha256": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+      "bytes": 4658
+    },
+    {
+      "path": "tools/collection_oracle.py",
+      "sha256": "4ab5ac7d5db68f6eacba5c05266a9d79eefbaf5843352133a08dcc83020e2bd7",
+      "bytes": 6648
+    },
+    {
+      "path": "tools/collectioncheck.lua",
+      "sha256": "5941a1e4152e07b03786954c6ae6efc1524374ef1d048239ba5983d9c7de3786",
+      "bytes": 9879
+    },
+    {
+      "path": "tools/package.py",
+      "sha256": "6616dbea60399c56de4e57d86c7a16f3b2ed5c22b740a98dbd4dd032f931711f",
+      "bytes": 2619
+    }
+  ],
+  "unchanged_parent_entries": 466,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42003202966,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "depth": 1,
+    "name": "Gamma",
+    "count": 8,
+    "digest": "8126067ec2d199469fa30b12ce7faf45f052d7b0bdd6826b35c71e186388e4b5"
+  },
+  {
+    "depth": 2,
+    "name": "Gamma",
+    "count": 62,
+    "digest": "92a9cbdf14ab6a10d7204c576844a7532bc32c4319d6831e653fb407375ee842"
+  },
+  {
+    "depth": 3,
+    "name": "Gamma",
+    "count": 488,
+    "digest": "c5f09d048e6d0bed51a70782b33ceee45d9eb3bfddb3a47bfc6f24a22fe36065"
+  },
+  {
+    "depth": 2,
+    "name": "Delta",
+    "count": 71,
+    "digest": "ca6aedcc682a5c3e327848ba547bb54aa7f1984cd5a5e27e7a6d4f2feaaee59d"
+  },
+  {
+    "depth": 2,
+    "name": "Sigma",
+    "count": 71,
+    "digest": "1da52d8901d2ec0c95f5da1e555ecf5af187583908fcab8d7ff307584fa315db"
+  }
+]

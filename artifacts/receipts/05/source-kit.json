@@ -1,0 +1,6 @@
+{
+  "commit": "ededcd38dcf83a163f0ca2816d12a5e8a9d37e80",
+  "hashes": 168,
+  "scope": "local archive manifest/presence; extracted engine builds remain exact CI gate",
+  "status": "passed"
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "Self-check on actual native book page with intentional PDF page clipping and foreground overpaint, without recompilation",
+  "book_pdf_sha256": "041315c25ce16c8e736f0f8689f78a779c0e53fbcbf86fcbec9c531cf3c3f6eb",
+  "oracle_script_sha256": "1da0ae5cdbdb7ababd73ab6ab0a16b08ffd7ef2c99bfa60c598f8b777b41f125",
+  "registration": {
+    "actual_form_matrix": [
+      0.75003,
+      0.0,
+      0.0,
+      0.75003,
+      195.591,
+      247.064
+    ],
+    "registration_matrix": [
+      1.333280002133248,
+      0,
+      0,
+      1.333280002133248,
+      -260.7775688972441,
+      -329.4054904470488
+    ],
+    "source_box_bp": [
+      0.0,
+      0.0,
+      113.38582677165354,
+      24.044570962536536
+    ],
+    "actual_book_page_paint_retained": true
+  },
+  "failures_rejected": {
+    "page-clip": {
+      "rejected": true,
+      "diagnostic": "('page-clip', (13, 18, 213, 41), (13, 18, 114, 41))"
+    },
+    "foreground-occlusion": {
+      "rejected": true,
+      "diagnostic": "('foreground-occlusion', (13, 18, 213, 41), (13, 18, 113, 39))"
+    }
+  }
+}

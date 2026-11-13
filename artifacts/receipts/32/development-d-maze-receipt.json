@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "source_digest": "7e74fe8470121a646fa6d2ca0f22d62f7d772357897bb31dd7f0172663245c03",
+  "instance_sha256": "edead93a4f93cffbb2b2fa84fb3535a9d937e923db1568df1631a8246cc820d4",
+  "claims": [
+    "Native radial tone field guides actual maze generation",
+    "Solution display follows native validated route",
+    "Showing solution preserves maze instance"
+  ],
+  "vector_structure": {
+    "paths": 368,
+    "texts": 0,
+    "rasters": 0,
+    "width": "10.559999999999999cm",
+    "height": "7.5600000000000005cm",
+    "viewbox": "0 0 10.559999999999999 7.5600000000000005",
+    "semantic_refs": 367,
+    "clips": 1
+  },
+  "assets_sha256": {
+    "instance.json": "edead93a4f93cffbb2b2fa84fb3535a9d937e923db1568df1631a8246cc820d4",
+    "pattern.pdf": "8e93c2ccafb5b9debf0b5b730c8c7e63d7ce2aaf037a9cfb67c1dd4ba294ceea",
+    "pattern.svg": "ae2ecf1f4b16b0fa2d33571c475352c0928e523aeb7fa49f045a02476d3f2467",
+    "recipe.json": "f7c5314fb5204269b655ba806792e7ceb2c4d9717b3d2b2173cf63d97f8aa2da",
+    "record.json": "58f018833ff9f75445c9966d89e8542fdf5cf43e060b735cb81dc2a91323006f",
+    "scene.json": "efd6d1977589002b0a1f87d8c88408ecb70d4e7b9f44ba85a8e094fae3af7c3b",
+    "view.json": "ae40e06e87648cd445bfddd4e00bbfce617b6354978c5fdc1433703a415dcd95"
+  }
+}

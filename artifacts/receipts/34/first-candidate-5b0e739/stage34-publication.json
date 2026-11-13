@@ -1,0 +1,2730 @@
+{
+  "parent": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "base_tree": "940292e92a885bf02adc8740011150f7c395e6e4",
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "mode": "100644",
+      "bytes": 11155,
+      "sha256": "fd24f0c4688882769dc9b08e72777da3a07e1b9d3f72e8a754937f25b7cdf547",
+      "git_sha": "8f5052d9a3130fb71a34b1ef595895fd5c93e301"
+    },
+    {
+      "path": "artifacts/receipts/33/acceptance.json",
+      "mode": "100644",
+      "bytes": 8447,
+      "sha256": "9b98ed7a737306c3c365081329a58548b1f6edec91cd50f4389023125b894bc9",
+      "git_sha": "b9efd1b05dab531edda3a45ff2e9b4a46cd37395"
+    },
+    {
+      "path": "artifacts/receipts/33/ci-current.json",
+      "mode": "100644",
+      "bytes": 12770,
+      "sha256": "086e2d31d2c2eaff52b29a3b1def1ebb5299abb4c56bb6ddc5b5a505d5847a54",
+      "git_sha": "3346d590a1a10355fb9df24ea2277767b5a030c0"
+    },
+    {
+      "path": "artifacts/receipts/33/ci-final.json",
+      "mode": "100644",
+      "bytes": 11612,
+      "sha256": "1cca2eef34d5284a254199e0c2830097ca13449603f0702f94da57b41c5b1986",
+      "git_sha": "db8ef11b33b06d2c46a36eb31261c39ae4f02de1"
+    },
+    {
+      "path": "artifacts/receipts/33/kit-evidence-scope.json",
+      "mode": "100644",
+      "bytes": 2409,
+      "sha256": "533f38911ffab1005389e4b685a23234aac1e36c2f47c660b13a68df76fa4629",
+      "git_sha": "e6fa00bbb8923a7a4ea37a691b8f96a3609886b7"
+    },
+    {
+      "path": "artifacts/receipts/33/live-log-resolution.json",
+      "mode": "100644",
+      "bytes": 172,
+      "sha256": "4a564b9080e30513da9a2bb65e8cb4168fdfcbeda842ef73d2e5de5cf6ef400a",
+      "git_sha": "ade63306152fc0c42b133e6d92e2adc0305e911c"
+    },
+    {
+      "path": "artifacts/receipts/33/live-log-unavailable.json",
+      "mode": "100644",
+      "bytes": 447,
+      "sha256": "066123e6d90c1e4d6fd2d6b6542256fdb9a760469df7b1ea6fcda511a21a5580",
+      "git_sha": "b7be2619a8696dd60509eef0303164846a0907f1"
+    },
+    {
+      "path": "artifacts/receipts/33/native-adversarial-partial.json",
+      "mode": "100644",
+      "bytes": 759,
+      "sha256": "ac72db0883ddb8911c902dd44cb5257bbc2bd60edff77e546f36929312df1288",
+      "git_sha": "6be9a1c568d4436401b2e6fe5f37eaddc42b6761"
+    },
+    {
+      "path": "artifacts/receipts/33/native-adversarial-verification.json",
+      "mode": "100644",
+      "bytes": 1317,
+      "sha256": "d1d057f772b4e9355396d627d8bca53ffc5f8229007158da9fd653891a3dac37",
+      "git_sha": "ef64b5684036b8ee76f0fbb1844019664e123572"
+    },
+    {
+      "path": "artifacts/receipts/33/native-dual-verification-stage33.json",
+      "mode": "100644",
+      "bytes": 27592,
+      "sha256": "5213953d375628d37b9de7f55dc3458023d9a271b7c7b07c6dd86fd2ec6c6988",
+      "git_sha": "e9649e8fafa6fff7e6736d2fc775a602665087f3"
+    },
+    {
+      "path": "artifacts/receipts/33/native-log-identity.json",
+      "mode": "100644",
+      "bytes": 336,
+      "sha256": "92e169af3f459c8e81fbd3fcf4d82ebbbbaa71294a641cad4884dd4133e5d071",
+      "git_sha": "367c741d34abf5c83413080acca172ae9caeefd6"
+    },
+    {
+      "path": "artifacts/receipts/33/native-pdfs-job.log",
+      "mode": "100644",
+      "bytes": 377374,
+      "sha256": "a9eb211313690a99382aba8d0120c12bd4e2520b7c6fe4db0df363016c1638d8",
+      "git_sha": "e5a5fb9cfde858e5f3a87275275ce7342f1782a2"
+    },
+    {
+      "path": "artifacts/receipts/33/pr-final.json",
+      "mode": "100644",
+      "bytes": 2435,
+      "sha256": "852b32b8fb8ce64c183d5c883590adffcf63ff8bc6bdc6d0f2822d35188e41f9",
+      "git_sha": "eb306ff158de07f42e50a65559f4633f26b99fe7"
+    },
+    {
+      "path": "artifacts/receipts/33/publication.json",
+      "mode": "100644",
+      "bytes": 4584,
+      "sha256": "bea79c2647c928731ca5dfeb6805f1294f80eafb2682b9292c1237ea6c2e1d5a",
+      "git_sha": "0a8c751a9e4ecede0c1724e7f144b65779e0b3ef"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-browser-artifact.json",
+      "mode": "100644",
+      "bytes": 400,
+      "sha256": "1cd69db168c87410ffe1f1982c3453dfbd183d3ecb5a16e2dca3b35fddec2a80",
+      "git_sha": "b776fdf47353c686b66aed9810a1c559a7749646"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-browser-verification.json",
+      "mode": "100644",
+      "bytes": 2719,
+      "sha256": "be04e1000a21221f4bfa052866ba448eefc53a5ad610bacab0eb598d31a0684e",
+      "git_sha": "a33fd91d30428e8211a00cecdff6c857e7e16ce3"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-common-artifact.json",
+      "mode": "100644",
+      "bytes": 399,
+      "sha256": "8681c79d63b5901342105d55f865de4c914f0f5f122c0f7787f6d53c6dfa69b5",
+      "git_sha": "1a401be0ea0d27a2af5786c077fecdf1ba27fee1"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-common-native-verification.json",
+      "mode": "100644",
+      "bytes": 6203,
+      "sha256": "9f664796e341dc677de14e33fa1bcc02b7042efee0caa59568a369a852ca5864",
+      "git_sha": "c46917a62de981a41dcd59917ea6fb206eeae965"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-dual-artifact.json",
+      "mode": "100644",
+      "bytes": 397,
+      "sha256": "2f7dc36daab749f2d1c673f3ff02e418aa360c7d42d6fc1795fdc73941a2505a",
+      "git_sha": "5dff4e865732dfcffebdcae2958f5d9ffc27d591"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-editor-verification.json",
+      "mode": "100644",
+      "bytes": 11535,
+      "sha256": "4161df40f0434071be5cf40885decb4d45d6f165540c634641c3ac03c0d11c7f",
+      "git_sha": "168e11db5bf98a1d9f3ded4c526015e350641c7a"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-inherited-native-verification.json",
+      "mode": "100644",
+      "bytes": 1854,
+      "sha256": "15128f9021cca46ab681f7c0d7081c5b7327f159bf6d5bafc17eedd8fa7965ea",
+      "git_sha": "90cc5a92623b9e6de16c9eddc88e3dea31cbe86e"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-pdfs-artifact.json",
+      "mode": "100644",
+      "bytes": 398,
+      "sha256": "9e055a4f2b509a6b205b97fbf81e8875c00b46ca2716c54e85616de495d6cc94",
+      "git_sha": "5535c797bfd69793e9f69c229e43c462247712cc"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-portable-artifact.json",
+      "mode": "100644",
+      "bytes": 402,
+      "sha256": "b527df9749e04e63c044854fc81e2e698bb6011c5c4a13cb7ff86387bedc6a03",
+      "git_sha": "30f91c84f9e8eb430bab5645802722792ca7f390"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-portable-verification.json",
+      "mode": "100644",
+      "bytes": 4411,
+      "sha256": "bf8ba9a40f3e68a808b9612ec1f911763c5f104c616ca186f4a9c61a2b79a44c",
+      "git_sha": "ed56e1170d9fc99e584f94ca62a66c8fcce5bf54"
+    },
+    {
+      "path": "artifacts/receipts/33/stage33-source-archive.json",
+      "mode": "100644",
+      "bytes": 4003,
+      "sha256": "6bef449e7875f0428a4e6f471f2ba60f93dfdf33f746ef4e01c4d2f613103cb1",
+      "git_sha": "73db833ff0fa69e720ef4d1359d6582791440697"
+    },
+    {
+      "path": "artifacts/receipts/33/visual-continuity.json",
+      "mode": "100644",
+      "bytes": 1627,
+      "sha256": "390b805b70b82c68402c0146dd08862d50f3acb67938a807ea155e78c6012f68",
+      "git_sha": "5886a7309fc508e90e0f365bdee132c57dc33ead"
+    },
+    {
+      "path": "artifacts/receipts/34/baseline-serial-periodic.json",
+      "mode": "100644",
+      "bytes": 2647,
+      "sha256": "0e63ade4ca268c797fd6d68465f0399cc43867790eb68bc445dbce39d8f039ae",
+      "git_sha": "c3cd91728954b405a4b8f3b20d1969c058348fc2"
+    },
+    {
+      "path": "artifacts/receipts/34/checkpoint-import.json",
+      "mode": "100644",
+      "bytes": 1657,
+      "sha256": "051948bb872edc62163d5e11b88c4eef81fd3dcafcbecad69c58547c1a6f8c9a",
+      "git_sha": "07078c7a4f27534c3fd3d98651352724cf31492c"
+    },
+    {
+      "path": "artifacts/receipts/34/experimental-cache-periodic.json",
+      "mode": "100644",
+      "bytes": 2649,
+      "sha256": "66d635f7f126b3e60390a213dc7df034fb1354291d34edd92fde3476032db311",
+      "git_sha": "8a49be710f9876a60ddaab3f434e01a0cdd26bdb"
+    },
+    {
+      "path": "artifacts/receipts/34/hardware.json",
+      "mode": "100644",
+      "bytes": 668,
+      "sha256": "53d241070ce57c00c7a687e749c7d03b646aaa0a3fda67bffc35fd5563182417",
+      "git_sha": "5185ae8e1a653474632e62a08bfa0341b25e7dd3"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/browser-before-floral-seed-fix.json",
+      "mode": "100644",
+      "bytes": 349756,
+      "sha256": "ba11589b0a6a6c66260f67830c77684befff90205fec856fa014c58f2fa1bba5",
+      "git_sha": "8c3e98d9e78cb695b84d38a9f400a039037a2be9"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/browser-before-floral-seed-fix.log",
+      "mode": "100644",
+      "bytes": 3528,
+      "sha256": "cad50e7afff58be3c988f2595700c1da0c87cbf5f6c1004471d11c2dfaf95e0e",
+      "git_sha": "1f129599e1343a95396d39538a05e92bd3b128b0"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/circle-60-fan.recipe.json",
+      "mode": "100644",
+      "bytes": 4712,
+      "sha256": "ed0ce150f76fee3d60139fe3b97dba8dcac244b2b8584a320cb1961162f369a6",
+      "git_sha": "9eb5e041236f2e5d01647c755cfd6154fcf56964"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/circle-packing-large-preflight3-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 1162,
+      "sha256": "e1b596874343fb40c87a9fdc10114ee95fafc14ac2c4aacbbda14aea426622be",
+      "git_sha": "c1d50a8fcb66c7d3486ea8ff3243aebef0a973d4"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/circle-packing-large-preflight4-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 1151,
+      "sha256": "6352dbe63a44f0c4b7b86e3028bd918738244dc347214ceae962e5a65f8f5b38",
+      "git_sha": "3df5f47877abea3fdf6a38367d20e472d5280e07"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/circle-packing-small-preflight-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 1200,
+      "sha256": "cbfc68d4face330bf69df35e652b3b4182a5121514faa81ebec2a7107d748983",
+      "git_sha": "1758583bc29965a2f25eed1cc05e61b525c9bbe4"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/scope.json",
+      "mode": "100644",
+      "bytes": 892,
+      "sha256": "66b72f1491afcb057a6ec9cb5c67a70b9de9297fc36447e87ed520f58c11ac86",
+      "git_sha": "664295db5d666ce8bd7fbf6ec3767cd96bc65ecc"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/text-tall-nonmonotone.recipe.json",
+      "mode": "100644",
+      "bytes": 119054,
+      "sha256": "8820415ca12393233753039b4423face7d301abb4ca198c840d30ba118ecf478",
+      "git_sha": "bd73d88103769ad12cf4a2c4528d3d1c5b9d1856"
+    },
+    {
+      "path": "artifacts/receipts/34/known-rejections/workloads-before-text-wide.lua.txt",
+      "mode": "100644",
+      "bytes": 5359,
+      "sha256": "a39dc93745aa04239ab6d493706e2a429d6ba483a3cc8135153a0b726d2e7e43",
+      "git_sha": "862861046c8c2ef21f00e1fa2f9a1040d93f1ed3"
+    },
+    {
+      "path": "artifacts/receipts/34/local-repetition-source-verification.json",
+      "mode": "100644",
+      "bytes": 18347,
+      "sha256": "2e9937f6b5f29c5de499cd186443276b059a58f02566caaf3cfc133836c1d332",
+      "git_sha": "89dcfad4132d96e2d02cc6cbe5ca000fd5042532"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements-current.json",
+      "mode": "100644",
+      "bytes": 93953,
+      "sha256": "737f22944091c70173c8201a98b2279605b9c70bca7c53338fae7543f49d6175",
+      "git_sha": "7f73b70fd1e18b0668aa4185cbf464ee6da7351a"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/browser-performance/receipt.json",
+      "mode": "100644",
+      "bytes": 349756,
+      "sha256": "ba11589b0a6a6c66260f67830c77684befff90205fec856fa014c58f2fa1bba5",
+      "git_sha": "8c3e98d9e78cb695b84d38a9f400a039037a2be9"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/browser-studio-performance/receipt.json",
+      "mode": "100644",
+      "bytes": 1001,
+      "sha256": "f9bcaf934104b08982ff8052418c2fe73a450d4314f48236645e12df879eb1b5",
+      "git_sha": "93e725e37a800eef406ca7b35a4d28c71594020b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/floral-editor-seed/receipt-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 8470,
+      "sha256": "ba8018516ba9867bcbc6e7062e8458b6581697ec72b593aba39071bbdeb92315",
+      "git_sha": "478bad102f47f9498acefb2a93b816e51a571c30"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/floral-editor-seed/receipt-Lua-5.4.json",
+      "mode": "100644",
+      "bytes": 8470,
+      "sha256": "bed3fcf183d1cac0f25d78b279c39f4bb178b561bf791ce91412e51a642a06e6",
+      "git_sha": "b713d4af15cf5384111ceabce451286f3debd04e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/hash-cache/receipt-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 1399,
+      "sha256": "2faab29adb47d563395970ef52b7ab2ddb539b5e72e94fa48d1e79d2eed2c9aa",
+      "git_sha": "da468dc8c06369abc089d8f2b1c4d52a53d6e330"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/hash-cache/receipt-Lua-5.4.json",
+      "mode": "100644",
+      "bytes": 1399,
+      "sha256": "7d7788d0018fc67ac0020d416168b46335fbd37ac68d383e41d8ef730043ef6c",
+      "git_sha": "8450bbbb1cf8bbed5ba395b160a117cd698259c5"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/packing-scale/receipt-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 14464,
+      "sha256": "c50171926a00f32970a37e96aee6ff8232c3ed387a7eb38b842c104c216de3e6",
+      "git_sha": "5b5bf39e99fa8b78f538d168e70663fcc85ad13c"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/packing-scale/receipt-Lua-5.4.json",
+      "mode": "100644",
+      "bytes": 14464,
+      "sha256": "7c839ddb3b47fb34c432712ca303e5709d057933ab74990868c7bf5d11793086",
+      "git_sha": "be099047355d65bcda1c470c057cd48a59b7d459"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance-bounds/receipt-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 17023,
+      "sha256": "a659d4962338329e1bb1935d56063d691f7b7cf3be11d17e5b2958abc64c7613",
+      "git_sha": "47dd6c69c09d8befa79c3d7b58d512a370511863"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance-bounds/receipt-Lua-5.4.json",
+      "mode": "100644",
+      "bytes": 17023,
+      "sha256": "df155f5ca762d7502765218471c8d162899f0f7d9d426d556f19a4f9812f9b49",
+      "git_sha": "e88a4fa61b14ccdc2934c4ef59647d085b755950"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 320,
+      "sha256": "48059270aeef5b550918c4701262bdf96c9b68ab763ea6e2bdbdb2f10b397d8b",
+      "git_sha": "a43571c28c81066427f0d90e9d4952e9509a582c"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 320,
+      "sha256": "b682aa49ae419b78c196c098ef338404981daa77a5c10533a9a83455178e6d22",
+      "git_sha": "84778749db0aeae2cf06f25729bbe4db29069b6e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 319,
+      "sha256": "40cacc75507bd1bd22abfee92db84ad0792eb6cb5506267cb1a476328662ab5e",
+      "git_sha": "a1abae73d51b896a33e5a8f8ddf5bb897061328b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 319,
+      "sha256": "2e616f88d5d7ded8801bbaf1163b544963b550186fcef5c600b205567e3f7ae1",
+      "git_sha": "baf80657fa124ca8b69e4a792d8faeca76f01318"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 315,
+      "sha256": "b41f2d0ad18c1e50921ecaf2bdbbac13eec6b7de276ac935f518c784fbb3f7de",
+      "git_sha": "c927603fbd0946fb566ba4c424c19735493e8156"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 315,
+      "sha256": "41ba02c0482e6bd870f7dd207f46d095f04ef0edc3fc106cd0e26b13ee803d9c",
+      "git_sha": "0da46c7afd49ccedbeb551513a11983f4042d368"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 325,
+      "sha256": "c089def896b1f25425727e10b88074c3c795f06ae2a3ed0051529b0a9da0bc4e",
+      "git_sha": "dfb23cb53f596f1c094592464faa0e98b858e236"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 325,
+      "sha256": "aac7e14cf4d84a338bb659d168f8559fc5a12963b489a47c128a9514b3780ad5",
+      "git_sha": "75d17700c272adef5d500007f2666444a73cd7e7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 327,
+      "sha256": "3f58d8d4d5491ea0ffc6dd662438646f505634a2ad1116c1c06a68e0179d58bc",
+      "git_sha": "98bf508c694d10f359bdf91c80809fb06ad3021b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 327,
+      "sha256": "b467a30b30c33299826407870690799d2092d2e265456dbfc8715bdd553b883e",
+      "git_sha": "4fb39adc11f4c81bcb6287980c7fcaef340700ba"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 324,
+      "sha256": "ccd26b0f38298d125725438d347d7c7dbad5595a61bdf8a89d773c6e061afaf0",
+      "git_sha": "52375e556b32c36a1d3bb1686b59eb744aa40402"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 324,
+      "sha256": "eeed30e2483f48f95e12f163acd73ee8bb6de3012952900c7bf5050ac19b3d2e",
+      "git_sha": "d7066dc91ace708841b63163da6f08dda4e76c6d"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-small-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/example-synthesis-small-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 324,
+      "sha256": "99d7271258c420b912c802f35e0dfe2f604d2892601e893d099054af6f2cd990",
+      "git_sha": "e53940bec1ab130dac24e9d0387d3c3c5081aae9"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 316,
+      "sha256": "0c15a5748824379d841b06ecdd3415842f2635774fb4ac6c8d50c8e7fb8d9205",
+      "git_sha": "e1a008adf7f92006840e337824a4b9508f524690"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 316,
+      "sha256": "4b908394f602195097a70e21b497209c9fdf3edea58a86b1b52111a8f3f8f998",
+      "git_sha": "18444ff765dc9c186175d5668ccc6340d6e9d461"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 319,
+      "sha256": "99c467105a83af2396b8c344e8a025c4c4e4ee3e207694cec0124c176d19017c",
+      "git_sha": "3ca4eaf45ca9d7d5efcff1732440222223b0741a"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 319,
+      "sha256": "c1e37df9dea5a9737633340b0e963ce93ee378e6e66ed36cfdb661ff1d565df4",
+      "git_sha": "831aa6507537fdf35f37f478731f66537e6d33fe"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "d35f6042bdf482fdd66d7964b5f8a8d4ea9f265d85bda148d25ced3dab1f9ea5",
+      "git_sha": "55b06340ddbf88f6330a1897ac14640356046e5a"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "e19fe3897b2e905539c44f9826614e28e2e8f50b076b204a050d97fd0de10a56",
+      "git_sha": "b4171d6e24b9ed6723e5f7485ad6e543303ca520"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-small-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-small-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 316,
+      "sha256": "3c513f5432c3dc5444eeb9640dbb184187a24648e9ac8fb68a5bc726a9bf0aea",
+      "git_sha": "d4beba021c4e0335cb6d799f31c3288b63b5bea3"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-small-scaled-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/floral-growth-small-scaled-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "1b62072f42d285b729c69cc97da44154dc327b1a7953c91456451a613037fba3",
+      "git_sha": "ce32fadeebccfc0556692d88b80a521558b55396"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "03089d29359a0242d05968987c32150a6a80e530c9e79a44f20d2e095cbc20fb",
+      "git_sha": "53e0266bf90326f615f52c54c95be25402eb98b0"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "139d439e8a4d2373b301b5418850274a41d6c94bb6ef6de25622eaead7397a77",
+      "git_sha": "7b3de38d0130e5f9c28292203edf3141f3edc988"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-large-scaled-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-large-scaled-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "c325601554adb31fd703ccaad1ce03ed39592b5bb82d09636187172f171b6c18",
+      "git_sha": "c7b0794680b5c01f15ae7b0064b15ea1aff34d3e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 315,
+      "sha256": "17f71f0913510adfd8d07ad75676af6493418aac098fe731c4b5420662a5371e",
+      "git_sha": "266afb7a81abb246b48e5b8ee9d1f748e7becf43"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 315,
+      "sha256": "7982548865779d74f4f4a4ae610ff750819a183cdc1571a8df73be623d58d499",
+      "git_sha": "196b4f5a3c52e26fb656251661a97ba070c47313"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-medium-scaled-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-medium-scaled-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 315,
+      "sha256": "e06e5533d73f394b023445b61a8d75a27a56649696265e9d5452a349ad7f3438",
+      "git_sha": "9be28340864ceb91d08333be85ece68ab8bfb2b1"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "bb7cd22851809648821a90cada455d070e9481feaba63a13ec987583f53b3e6f",
+      "git_sha": "4b4226c78e809d0861bf9930064bc768168f4d37"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "6e6e43abd96b797b06aa0dc39abc9b8eba27dae4c57a550bf5016762e453975b",
+      "git_sha": "9e0d7acdeda288f23139c54985c55179ac12931c"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-small-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 875,
+      "sha256": "758310ee630967c5dbdbade1dc17b9edad69bb90299fc4b5b6357201c59245c8",
+      "git_sha": "00586c46ca37dd2ba1bbcdc5666be83da15218c1"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-small-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-small-scaled-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/knot-topology-small-scaled-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 312,
+      "sha256": "78a9abb3491aa8340413ee5e50fd6150c35c55765d3fb3e5610d6f228be641c3",
+      "git_sha": "41b193167eb1761fbb642a3980d81b32bcf3fa6e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 316,
+      "sha256": "1438b1e1bb35369d9713e2416a3d4be2c44f10e87116bc754f4f01474968c986",
+      "git_sha": "b918c74df2a96ead9033171de26822226eea4cb2"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 316,
+      "sha256": "14a86d3b9d922a1387454ca12d629793a73a265983ab729a87d575a5f9a39575",
+      "git_sha": "ea029524993dc353606cde4ab3a3a771f5793ce2"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 318,
+      "sha256": "7f5e11eff9e9e926cc3d9a5abf7fecbf78cedea7f8d323de42098755605f2164",
+      "git_sha": "944947a0d18f78778b787ff3d781cc23d9ddcb09"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 318,
+      "sha256": "06e45f7f8679d5f876238a1bacf695389824c073a1a17c5b552da54d8208d4dc",
+      "git_sha": "75f33073806420e33fd07a36b4a9d6c9f1e3de24"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 315,
+      "sha256": "6d27e0d8c5a65ba75660922cae8cd0550b0481b1b5457b5b574d0b4232ecd861",
+      "git_sha": "e9d66f280cb18f120e890733856246eb10bd5150"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 315,
+      "sha256": "c3c1f5a98707f8534fd78b4854ce65d8937f4ea27237d3f9c856e60bb7a2ad8d",
+      "git_sha": "6a372d95a5fef53ffb062a3b6f11e5ae14af8f0d"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 315,
+      "sha256": "dfda468c434a7159a3d38ec0c3537e9e556e47019303991c074355d0e4ec8348",
+      "git_sha": "dd666fa9364b3bb54e20e924e2f5932c2af0dba6"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "993816113f585c76bec2db992c1b1ffa489b16e81285241f71f58fe9cebe2c55",
+      "git_sha": "85d46e080d7dabdbeb4c0611b304eed7cfe6af60"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "e9ba0ebb31c68aace32731c8a36bd2a7fd2b3dce9121c43d66ca03d753c5705c",
+      "git_sha": "bdc42e5e02c866abaa0a5db32fbc38f30a0fafc1"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 313,
+      "sha256": "c0b31f19dd392d1296226ddf73d657ed66c9bad507c8ecc240dd35488e1445cd",
+      "git_sha": "61a2b2206e8527d5aecae7ca0195139901e3fac5"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 313,
+      "sha256": "920cb7cc70589a018ecc8f8c10d708f5f6dfba784c5d873283d4d45ba1da3ef9",
+      "git_sha": "eb5b0efa417a493e23803fca1c34dffc38ed58b8"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "847e583aa75070e916358ce5572322f8183f583dfce0a0a05dee6ca675db919e",
+      "git_sha": "e038540af41d79730c12427d33101a4dd11d7b57"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "f55e524d627f4ad5f8c45e68c0616194b875f3250ddb2acde81e284a4bb95ea6",
+      "git_sha": "9916106979c387c65f93fa614ab46a25065bf183"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-small-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/optimization-small-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "84716cdfc7b48117c954d691154d89ba8355d389e9782b3cfa102d64c47e6e3f",
+      "git_sha": "9b0d18311f67af450062956e0d6d4da6ed134524"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/packing-large-before.json",
+      "mode": "100644",
+      "bytes": 9016,
+      "sha256": "54335ee8e8a460d0a73353193d289b051277c6fae34beea150ae29d0af19ddc0",
+      "git_sha": "a0e4a14d32cef1f6d4f7e0f21a457d6d8fdd7a22"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/packing-large-diagnosis.json",
+      "mode": "100644",
+      "bytes": 9144,
+      "sha256": "86f5d72af3e8b67d5459c4912c8f00e636eb6e2b5e594a1e720dfaeaa4be661f",
+      "git_sha": "79893740b311bd44416ed6bfbaa8f2202b0b8241"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/probe-micrography-profile-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 4291,
+      "sha256": "9cc42efac797f679f3168e479e7de63f62ae4208b4635509f2a9c6756f0a35b8",
+      "git_sha": "d15a12cd57e05abb6205aabab3eb08f70c55e308"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/probe-periodic-profile-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 3276,
+      "sha256": "24b75cc7c718184189b1a10c5781de20c8365a075a4ee4bf0ca4244acc483630",
+      "git_sha": "37bdf21bbb43e9074509d9852bd76baa66a0bec3"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/probe-periodic-timing-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 2648,
+      "sha256": "e40336d169e725794d9f0d71420f661ce0dfd547381d9deaec7e01b0ffbff68a",
+      "git_sha": "3d6f309fdc62f9976194657ad30ed40af1d5ca12"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 305,
+      "sha256": "3c2f212ac34a94dbb9855a68489e5e2fadc5de6cea2b803a75ac05317dc07ea5",
+      "git_sha": "3214acc542e2ae4d3a611872651dd6f374694cc0"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 304,
+      "sha256": "510590cd27255fc901afc5722c951e876c1b9fe34d658144d1a465617c1f0dfd",
+      "git_sha": "77eeb913c63195fe5f7be08ceb8754c801e07a2f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 307,
+      "sha256": "38424254715231d13fd495082c9d844b03164ec9aa69490ecf18b3597b12f617",
+      "git_sha": "bcd026cd518280cb2e70c81d9e954b1e2cfff9e0"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 307,
+      "sha256": "91bd7285e79c865fe8f10f4433fab6e9b0a4309a3f45c925ae03e59ec883ad02",
+      "git_sha": "6a4ad1e29606f76ad95d72595c09166b19f2e420"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 304,
+      "sha256": "bf8bb2423cf22f9a29820629ee9f51fb2b296f7d61faa39e2c6843e072c793c8",
+      "git_sha": "e2a2bf7966af98883149e76d4d09b59f2497d0e7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 304,
+      "sha256": "f457e41c220974441cce70cf9a3c14867e24d1476a3f9ca9e244d2383d0ccf2e",
+      "git_sha": "34e2c43fdfea24808ae0010de85cde119d642bd7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-small-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/projection-small-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 304,
+      "sha256": "f0daade659f995bb659c14d51cf58b0d5a88f375b919b80494249ee771751631",
+      "git_sha": "6b845aeb55540f29d064a3067146fe437ca8ca22"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/circle-packing-large.recipe",
+      "mode": "100644",
+      "bytes": 5800,
+      "sha256": "6f5e4eaf27c0451e9c69cecf94c492479860651e478784b1f9bef971aa18577d",
+      "git_sha": "32a75bfe350cc4557dd42223e95273132764bf7a"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/circle-packing-medium.recipe",
+      "mode": "100644",
+      "bytes": 3956,
+      "sha256": "4b58f5f3987f5bcbf98c7067fe595632f970bafeacfb54ed7bd08fde71621300",
+      "git_sha": "61833a83e316402a23b50058bc0c7950884f53a5"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/circle-packing-small.recipe",
+      "mode": "100644",
+      "bytes": 3496,
+      "sha256": "721d38ded09ac9482279d0aa4b8c7f5e50e9ae82bba14008f5fe4c2a88a07192",
+      "git_sha": "2cf9b9acfaaf315ac38c5eb6971ec76d2a1d6140"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/example-synthesis-large.recipe",
+      "mode": "100644",
+      "bytes": 4813,
+      "sha256": "0a8c056adb3b214f5720f746cd9c17516613456d4d1ab9b094de104e2a4fa402",
+      "git_sha": "2238f6b9febf09320f26c3a46c62b4fb61eb4099"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/example-synthesis-medium.recipe",
+      "mode": "100644",
+      "bytes": 4817,
+      "sha256": "737e425139d6e79a7e0e385950a5e33300e4529214540e277758fa32d91a61c6",
+      "git_sha": "c1510ef0e7d987a412e8a02a3b98487f1f1af9a1"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/example-synthesis-small.recipe",
+      "mode": "100644",
+      "bytes": 4811,
+      "sha256": "3df5531d0c5b1c6688340e0efacac82b7c3e7e55d2ea3820fbfb77505b503158",
+      "git_sha": "7b54c26c4692dbea3abf4500282a4e525abd9148"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/floral-growth-large.recipe",
+      "mode": "100644",
+      "bytes": 3463,
+      "sha256": "76c7b217a166c1fc5e6c129723b1576ef43577b0e8aa1d99702bd831589aa942",
+      "git_sha": "79144da98e06447bc80d5949947c09136036945c"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/floral-growth-medium.recipe",
+      "mode": "100644",
+      "bytes": 3295,
+      "sha256": "6a0677658d964e09d3316d4bdd8856c7457612547a0d77aa33da1ca44b45cfbb",
+      "git_sha": "b0afe289ffdb2201b5e882a3c7adef436beb5570"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/floral-growth-small.recipe",
+      "mode": "100644",
+      "bytes": 3486,
+      "sha256": "b992b980f5ae44a04f3cc2a0047d1c5cde15fdeb0e5497022c9c53dcda768abe",
+      "git_sha": "02a36d23d6b97dd65864a6859a3ecb92b92e64ab"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/knot-topology-large.recipe",
+      "mode": "100644",
+      "bytes": 8865,
+      "sha256": "29a380714b31e6534ae64e4fe7148f5e185801a422d0d16e4cae79c0ca0233e5",
+      "git_sha": "1bff883f020293ab43591278832892cfd70c1bc6"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/knot-topology-medium.recipe",
+      "mode": "100644",
+      "bytes": 4848,
+      "sha256": "26954f1ccf679129895d177acaa8f8bade339cd523115a8675042cb01b1ae9c4",
+      "git_sha": "5e48fde77718e62a04aa2f8692229b93ec296e4e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/knot-topology-small.recipe",
+      "mode": "100644",
+      "bytes": 3259,
+      "sha256": "479cb3f9cc5df70f519b33d4fb362f8b3527528e1dbf2d8b79541b2452fc2f67",
+      "git_sha": "b084854e9d070048dc88b8954fde0dd52deab194"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/mosaic-packing-large.recipe",
+      "mode": "100644",
+      "bytes": 4329,
+      "sha256": "6c161c4b4fc8721018491f787e74d2e735693032e880bdba0c9c6272e312746b",
+      "git_sha": "1421896b88c4639d5da49ea13538743d5964a7c9"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/mosaic-packing-medium.recipe",
+      "mode": "100644",
+      "bytes": 4332,
+      "sha256": "37e74a041e076064ce8da2e77635cf7c152871b2ce6939f9b9a54343ad95f15f",
+      "git_sha": "cf1c0eb10019d92a55b140ecd1cf25863c309df2"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/mosaic-packing-small.recipe",
+      "mode": "100644",
+      "bytes": 4342,
+      "sha256": "4b6dc7eb67c7078f1083cb8c6f07966328ce5a3140768ee77da27a5aa30d11c0",
+      "git_sha": "3c76c09d059470c5475bbe4e6ddfeca62399c535"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/optimization-large.recipe",
+      "mode": "100644",
+      "bytes": 4581,
+      "sha256": "944dfc76824133337b10e14409d49c04093d69ecfa6e761a9a67f17e14412ea8",
+      "git_sha": "2bc7e6ac4c171864e2319c87f596cac7dcc6b045"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/optimization-medium.recipe",
+      "mode": "100644",
+      "bytes": 4585,
+      "sha256": "c502bd7618b27c45c4a6a8920af1c83aab528cc4232d54ad7acce950d4c9c815",
+      "git_sha": "2795357e56c15b4f7d8ff29b40f00e3f38d428cd"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/optimization-small.recipe",
+      "mode": "100644",
+      "bytes": 4580,
+      "sha256": "81987e429e340ac6de59d6b3d6a670d8574a9b2ba69377b3f94c04a9322ca4a7",
+      "git_sha": "75ed8eafc7d201f4ffbbbcc368fade7be48fe4d5"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/projection-large.recipe",
+      "mode": "100644",
+      "bytes": 2595,
+      "sha256": "72dec95b36be0c6b093ac7051e8fbdb2ad8f16559f297bc5e9b627b160bae04b",
+      "git_sha": "8487c82833ab0a7f836db8ca36e5125dccbb18c6"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/projection-medium.recipe",
+      "mode": "100644",
+      "bytes": 2598,
+      "sha256": "818f898eed6f6a94ab36d257b62f1a8cf75fe1cb6506e6914d7a0317603f16c2",
+      "git_sha": "0f6198b60c6d76c544c944395fb79db444a1a499"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/projection-small.recipe",
+      "mode": "100644",
+      "bytes": 2595,
+      "sha256": "e9756642feecfe8e1de401b316e7c4f3220637ae85f4688b74588408e1729f12",
+      "git_sha": "702250594cb3400ea31119bc172567875123d41f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/substitution-large.recipe",
+      "mode": "100644",
+      "bytes": 2782,
+      "sha256": "c63df32e5e07c930ae283f7ac158161d486072b041173d70ab09cec85b3e06fe",
+      "git_sha": "3a4624021fbb6bbfff20e69e8dae48844a6b7e7f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/substitution-medium.recipe",
+      "mode": "100644",
+      "bytes": 2785,
+      "sha256": "6a9f691fb4344c9244631cbe1585470515f13cd8bf89287003323030412fd976",
+      "git_sha": "b8a234cc4491f703816a25ed93797ef26bc01dc4"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/substitution-small.recipe",
+      "mode": "100644",
+      "bytes": 2782,
+      "sha256": "c8730a6e3390ad7aef379f5c3519ef03fa54bb314104b1985b712c8dff0cdde8",
+      "git_sha": "a77311a5b579a1997807727457cff5e2ae7bd4cc"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/text-shaping-large.recipe",
+      "mode": "100644",
+      "bytes": 119054,
+      "sha256": "138a034f55691b046036363edf79d2c97b3b3a4f5d1eb8f64c303c2e86a06b6b",
+      "git_sha": "13cc272b69df81afa0c5418410280b913ca12581"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/text-shaping-medium.recipe",
+      "mode": "100644",
+      "bytes": 118082,
+      "sha256": "d9aaea9a4490d3ff6be1052189209453508998b2c071041c9a72d38c116c1636",
+      "git_sha": "4b1ff799e00c3f3e147674b4da53bf33af854bac"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/recipes/text-shaping-small.recipe",
+      "mode": "100644",
+      "bytes": 117798,
+      "sha256": "97bcde9377c5aec4a80ad4f01ec1f127fbc85f4733928a66e56f20330e1fa499",
+      "git_sha": "99534e35da24359a393b60b5ed1ec1e4e411fcd0"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-baseline.json",
+      "mode": "100644",
+      "bytes": 2648,
+      "sha256": "c90389f69a9aab7e6ebcf013ff0567b56b71a9464beeb78c14b886e2f6747236",
+      "git_sha": "c108e65c3fadd2d650440fe40e274a3bd988b57f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-baseline.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-baseline.stdout.log",
+      "mode": "100644",
+      "bytes": 232,
+      "sha256": "97f401b931f4b9cbe10a17c8ee131a268c66c2d97bb67fd113b7104553a9c4f4",
+      "git_sha": "51b28ed7e604a9faf037185c95f24a4eac32fb5b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-candidate.json",
+      "mode": "100644",
+      "bytes": 2649,
+      "sha256": "785a3ce82ddada7a6f6a36e1caf375a90a5d279cb98f04a7da0a80ee0f137815",
+      "git_sha": "79ee425f5b0c16f9c0b1d0de7e371045620c46f2"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 232,
+      "sha256": "c154812d5d89b1fab3eeb5f23b5c7d7b89152af3a8e5c11104b39cbf8243aae0",
+      "git_sha": "6410b2564dd613e417da235be4c7e82ccd6e453c"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-baseline.json",
+      "mode": "100644",
+      "bytes": 2649,
+      "sha256": "6fcabdee5abc00d43027cc113529a2285183b387f5f48fda8af43321ca6b44c6",
+      "git_sha": "7e40d3c482ebd886eac2f1d84ccf1e16dee4ceb1"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-baseline.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-baseline.stdout.log",
+      "mode": "100644",
+      "bytes": 232,
+      "sha256": "a4acc74dc1ca12dc77632b7b1b204eafbe1968d8108b148b67c1afff06317fc5",
+      "git_sha": "415817a8a9a3dde8541e05f86512e3d66c53f186"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-candidate.json",
+      "mode": "100644",
+      "bytes": 2647,
+      "sha256": "0ce19a014af51b3fe7328cc1d0122857e290eb5c2775c2d075d589fc83da4ce9",
+      "git_sha": "7b22e01237537e92bd18937f262ed99c8c2a119e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 232,
+      "sha256": "e0c53f89d4ee34b9d4c2c15a1605ee0700ebbb09f59d6d2f8d070f1bd2ce8c61",
+      "git_sha": "90b7a6d5831753c1c9138d905fae94e5a6e44b00"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-baseline.json",
+      "mode": "100644",
+      "bytes": 2649,
+      "sha256": "874ff78699b992201ad8792fd4f3df79e6f25c0f738c4a7b00f8ec725d09cc2e",
+      "git_sha": "70458c1eb3975b4390cfb401292e558d68181682"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-baseline.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-baseline.stdout.log",
+      "mode": "100644",
+      "bytes": 232,
+      "sha256": "5d8b33db5779d057a55f6721eb39bee9b7f443185e0829b9894dead3bba49427",
+      "git_sha": "02ec1df562b667e18b71d5dec4cb346434821440"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-candidate.json",
+      "mode": "100644",
+      "bytes": 2648,
+      "sha256": "e40336d169e725794d9f0d71420f661ce0dfd547381d9deaec7e01b0ffbff68a",
+      "git_sha": "3d6f309fdc62f9976194657ad30ed40af1d5ca12"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 232,
+      "sha256": "0d0efbde3cb5146fc50d5ff5b900e5a5d6e6778f3a02d6904f071ffdde0502f9",
+      "git_sha": "314fbf8592222a5c2cf6433ca3c678a35d3b115a"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/repetitions/summary.json",
+      "mode": "100644",
+      "bytes": 27502,
+      "sha256": "e7b12f47ca990d895edc037b84e4455db3cca26bebbc7714fda97ac82d5d9040",
+      "git_sha": "fde3a957c472b8b4dac79acf4dd1154224abce6b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-hex-preflight-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 5757,
+      "sha256": "8629c2d726a893580f4fb0968d0d0fc73594adb990eef49c634153131d54ff3b",
+      "git_sha": "f9ac63947503496d0df638b85555c71ea0296d48"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13821,
+      "sha256": "587153c6b80cd26d674cf9c6be5b0fb20cbfb525448e26001c7d4f3691b08107",
+      "git_sha": "41f101192237036840ec3fb9a502a4be4daeb191"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13822,
+      "sha256": "44aedb7b3ff5808d2dad8c11e9d40cc7a858eb057220284d580367d589d62182",
+      "git_sha": "51427050e8460a60de15a0d1a9d924b08a6d2b6c"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-preflight3-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 1162,
+      "sha256": "e1b596874343fb40c87a9fdc10114ee95fafc14ac2c4aacbbda14aea426622be",
+      "git_sha": "c1d50a8fcb66c7d3486ea8ff3243aebef0a973d4"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-preflight4-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 1151,
+      "sha256": "6352dbe63a44f0c4b7b86e3028bd918738244dc347214ceae962e5a65f8f5b38",
+      "git_sha": "3df5f47877abea3fdf6a38367d20e472d5280e07"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13796,
+      "sha256": "19c253235e9038a2a365f0d02d7beddd0ab9787c4a68b4772c1631f6b5f26323",
+      "git_sha": "809b70338f8876137a2220a983eba25b139f2ab9"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13800,
+      "sha256": "e02b6ef6e512d098ccf697317b443f276c198ffe69a651ae389a33e9cfe7bb3b",
+      "git_sha": "8d6994dca395f7af6ad5032e065e5b30be4c276f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13761,
+      "sha256": "249d04daaaf5437af5e6454ab39a3b2528aafaadb66afb01e8c887f001fa4812",
+      "git_sha": "94fea97a63c28fcc3a625c9aa0bcec57dcafb4ff"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13760,
+      "sha256": "58b1ff5480b89b3b6525fbc3b5093844d05ff02e5e867c1240249dbc7c46ceb0",
+      "git_sha": "ce02da59ae305eb80ab6acb4030c5f81ff392a52"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-preflight-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 1200,
+      "sha256": "cbfc68d4face330bf69df35e652b3b4182a5121514faa81ebec2a7107d748983",
+      "git_sha": "1758583bc29965a2f25eed1cc05e61b525c9bbe4"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-preflight2-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 5641,
+      "sha256": "2ebdc0248b756c5c87af4a600859415736acc56e63c3a32c834686e1cc686bb6",
+      "git_sha": "1a1c2a7953c47b5afbb24ff506c1e96389771c31"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/example-synthesis-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 11968,
+      "sha256": "53b3b05366ae09e7e862aee885b923cbbccfa227cc4c4301daea2b58e2444cd0",
+      "git_sha": "69021bd494f6882322829ecff0639c91f8f963aa"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/example-synthesis-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 11973,
+      "sha256": "bf2f6319b5fd0cdc2b9b469bde7359731c45b78f5d51d612d92f20ce0b8b0b2c",
+      "git_sha": "62c5f262682c4859385b145ccfd6ec0f863818de"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/example-synthesis-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 11966,
+      "sha256": "9fee67805fb446bc2b42c7ecb9232649d63657c657ffc39ba3734db9a7cdd167",
+      "git_sha": "06bb330ac925c36765f6d452b8029b9b7fe9007f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/example-synthesis-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 11974,
+      "sha256": "a1281d3a62e992fb61611893acfc79a5a27d598395e68c8c2cdacbf3f4514984",
+      "git_sha": "531a4612e7fe56c0712ecac44bceb632b23fb791"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/example-synthesis-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 11954,
+      "sha256": "4391acce2a84027c1b9ae5a8733f77428d1bb600c26a5327e4129bd39b467be3",
+      "git_sha": "f85c94ce294610da18fda484a6db4dea8a4190ac"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/example-synthesis-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 11955,
+      "sha256": "77d3a478c70dbb77caae9934e5efdf172c1cbc2fa93ae585c69b66145199a349",
+      "git_sha": "0d1e07b7793694bc3190d31f1aa0e1c736cc141a"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/example-synthesis-small-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 11955,
+      "sha256": "46aff2833178446221ff9d912e622c294ef2be8df0208a93a7d41e423be2562d",
+      "git_sha": "36568653cbd398ebcdf7adb0f18aec6fd0190e94"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/floral-growth-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12180,
+      "sha256": "5d01ec5709c2a9c4e264ba89ec919e17cba9cdf124c8e440be5541ea37979a31",
+      "git_sha": "4be603f03258bebdb2ce31a765705e4931b60706"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/floral-growth-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12179,
+      "sha256": "646c7b69d1e83dc8227c60bf53ca80cbd8a76965ad121796bc8e0197acabd77a",
+      "git_sha": "fd7ff0e5e5e93b111d1b3adfcfdef0924e016fd7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/floral-growth-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12169,
+      "sha256": "b55c4b938bceeac62248c73a8ad99d85bbe40e47f2c22ab17d689f0ab22d274d",
+      "git_sha": "bce51d33b861218998b0bcf4daa392d4c724ae6a"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/floral-growth-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12168,
+      "sha256": "d1427ec2b47e6c010fd9f45f502c0c88d3959be4540331cb5f797047184bf0a9",
+      "git_sha": "e024a2d67e7240fba316f3025a27759576f81b7f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12134,
+      "sha256": "a92992472403073754e10a823f4d9a3939f36ec897427163ad53eeeaa4a6e612",
+      "git_sha": "73b56285785e08ea970fd8507f0014145e20ddd7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12133,
+      "sha256": "0957a0c24475cd6ecb1adc64b4352b017a5efd1bd88a8d45f0b25ca84b55f5c6",
+      "git_sha": "39af2da3af03c3f22dc0f4faa9ec65897e84b313"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12173,
+      "sha256": "12e7e50289a7210f5b6b15b7f8ded98d7d15511b5ca8878a146d7c227c7d39bd",
+      "git_sha": "d91e517a5024e448e0b3337b487f6e16e0751ddd"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-scaled-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12134,
+      "sha256": "97f167c112ba7b2c412fc0a1c1d1d467a2362c7f1dee5ac93e0277f32c33ee3e",
+      "git_sha": "ec996dfda6c3df01ad647cdae028c64f2078cfba"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12119,
+      "sha256": "a9e0b1604d4c8773af51632a65c584e0b325165408f6f9fd8a98a019d7a9e91f",
+      "git_sha": "d1a6104a183535114033abf05a31c5e6bf55cefb"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12117,
+      "sha256": "10ce5519051bfd92bca809529cc7728a09a3ee4039acaa03342eba9d8beaf793",
+      "git_sha": "1bdb859b7362906dfa911aadecfbf6494f83bbdc"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-large-scaled-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12120,
+      "sha256": "afce7fe2294246dbbb62129d7a44c98e5a8ec075dab6dc9386d7b34ef96c3029",
+      "git_sha": "a4407f64ff949e369907e58c926f60dd8a7a5cfe"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12113,
+      "sha256": "0db9a3af747bb90258622493339335b2359ef419658f6e4484d3f420e6148d25",
+      "git_sha": "ace1bf36a608dd01e94cfbadfc56832555f13b8f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12110,
+      "sha256": "5dfc69c67eec334be70b1828fd54dcdbaff28f4c18040a467af95473c46a0e46",
+      "git_sha": "166b10c860129a06809315fe26062b874dce28e3"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-medium-scaled-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12112,
+      "sha256": "6ff0c8943b8f0d8d3b68b24964740c43adf5910a21d9519366a0e182735c34c9",
+      "git_sha": "494e2a14b3dbfd1465c2fed2a47f7df91df9bd8e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12095,
+      "sha256": "4970b8fefc343d9184a230850855c6bed0fd77b3f2bb4a37642fac2054d56459",
+      "git_sha": "2005bc6d876a5745175e093375ca3e598cafff0d"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12097,
+      "sha256": "ae741c3826131484ab704c9534a8b4040694e787400f87dc499c69274d629592",
+      "git_sha": "065b4e92fea9aa179322397012bd589fddcbfe82"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 9175,
+      "sha256": "cf65d8747da014ca66580435cd93427e3e0f453cc04dea8b6a47b39afeb69048",
+      "git_sha": "0ad9829ff5b7ae6fd7c5f6106e444f6ba2563f5b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-scaled-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12098,
+      "sha256": "39bfb815fef590261f4f7238a2856ca5dbbee711473e1f2b875970c4a53a7afa",
+      "git_sha": "0562b1762a553a573be3b66863c23fc15c8c14a7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 36756,
+      "sha256": "03f389620694dd6cb12b7293ceda5a968513bb037134caa7c93e1fc0776425d8",
+      "git_sha": "88d4dd3220186a750fe250537441df4277678f10"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 36764,
+      "sha256": "05253657ae1495ca8afeb65506865b3ae24a311451f9b0344101b71b6521de28",
+      "git_sha": "9de06fe7a77c0316ec600487759e4dcc30d6005d"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 26628,
+      "sha256": "2ebfbf672e29d847f10512751cfab23d31bca1380007de80a1a1fa0f04085541",
+      "git_sha": "800fdc4795fe4aecdd6eba71a28d8a9103a551e2"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 26633,
+      "sha256": "a649214f4919f9fa4430050f720ad020ad45170aed210e5e0b91048be1a6dcc2",
+      "git_sha": "f567347936ba286ae5ba114c99d9a8c3bedeaa15"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 16658,
+      "sha256": "80bd47b3238cccb4a5dac03ebae4f7a4b1c772330df9b8a6f20a44f96da82d39",
+      "git_sha": "209e3de738b5f8f7168b0c060d0d4cfa11eb92b0"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 16661,
+      "sha256": "6cbd4e4989df8c36fe9373d4ffbf291271239f490e8b292d49b1b0d8a6f720fc",
+      "git_sha": "396405571ece3abbbec299fba571d99da80fc699"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-small-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 16659,
+      "sha256": "1fadcf5d3f9a5d96528dc533d23440733aa957c84b48277b1f84308dd0c67cc3",
+      "git_sha": "4ac386075df91c3c96e326bee706c26368b24e8d"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/optimization-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 14093,
+      "sha256": "f7e0c5f60b1bf7a3b271ed9da5001ef6280ac51b31bc7d31a629528538b800e1",
+      "git_sha": "b9de37c340429b002e465741930609219ed70f62"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/optimization-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 14093,
+      "sha256": "bd6bf889ad67eeb12c447709dff577b13f03d6e5a553708aa59249f33e93b78d",
+      "git_sha": "792b5b8d1a3f03cd9397a4b618c8643003d08d22"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/optimization-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 14092,
+      "sha256": "a5e339569a737526eb14509d771909d82db15bfeab54bb24178e4f7e5771fb7b",
+      "git_sha": "62b01c5dd676b768a2252118fb3eabde0b38544b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/optimization-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 14093,
+      "sha256": "b24274d80f6d26591e0313d15d83779ff96e6cbf8e4bab13aaa47188742420f1",
+      "git_sha": "02339570c476a94b1e70a0baae7febc07e413deb"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/optimization-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 14079,
+      "sha256": "8ad32ea3800f855a5b0476742d40ab17718be2470fb0667d1c45f10c8909ac97",
+      "git_sha": "a0240e184182590ffc3485a6dd0cb35087d06250"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/optimization-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 14081,
+      "sha256": "5dddf7140bda9455ce178bfedda80bb707d97ac3d13c9eb1c5ef361581455828",
+      "git_sha": "c7054a3648762cf8c4dcf4e545e0694c862222f7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/optimization-small-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 14079,
+      "sha256": "42cf1f7a527a199f7e6d4907f6fa239d4aa411654a46f968b414c44054f2035b",
+      "git_sha": "933b5b3c45a8128ead587e912f42f8fccfc9ab42"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/projection-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12047,
+      "sha256": "48a635f575babe585232a6f32017315a80eafefdc11c5bf277e40c7c26603e70",
+      "git_sha": "aae810dd1329c2d69033c37c4b1763cc8bea07c7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/projection-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12048,
+      "sha256": "e0fa3babf57f4d18ede301c80a1c57429eee15893f9fe07a6317b5e0a34f8c46",
+      "git_sha": "d9f5064f916dfd5895964bf9ec97ad70af2ee6c7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/projection-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12035,
+      "sha256": "d486830265f532939514239f9e07587481f511156c369a96ffcca1b1c6aba528",
+      "git_sha": "fd9d5207a888251016659fcdba1f3a014c0f379d"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/projection-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12036,
+      "sha256": "7ce342d9910f49e5362a8e1c0a700f48b70d7f60d4a7212fd5430ce3f4fede3f",
+      "git_sha": "e772fef808f9232ee41925ee140ef7394f22ff9c"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/projection-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12024,
+      "sha256": "8030be0ff13981224e0444984f5aefde9356ad467688975779b6860c41610d60",
+      "git_sha": "865d903cf84a7180fd37564daeafa24be8133f6e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/projection-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12026,
+      "sha256": "dead590b5f01d96c63a4637fb0b24849cb0cf886a967f814908f5061b702d32b",
+      "git_sha": "407be033721290c9ec48a746c33fe329ea33f99b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/projection-small-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12024,
+      "sha256": "fd61a3fae9489aa94f9d299743a0d865dd7e464c87f0d232b5ef4d1e3fb8c79a",
+      "git_sha": "b410f163dc6639c6167c68f9ebb0ca80b713c49a"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/substitution-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12111,
+      "sha256": "569064ccacc72525473168f250a81338c8b9ae59ce2c1356c3306119c4f02e91",
+      "git_sha": "46462ec606a1cd3a4dbe740ee82c878e8d12c16f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/substitution-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12114,
+      "sha256": "cdcfaea73f8bf13194bb15e6cc0858b318cf884f4f42218ae43522c02d8debaa",
+      "git_sha": "3dc575cfe597d2ae15be1137c978462c94c5b3e7"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/substitution-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12090,
+      "sha256": "8827885074dea10bc800517d10b02f03672c2983a3536e6dbdf71a9e9c97ac56",
+      "git_sha": "97635b293833708c00b09fa66b45bcf947cad227"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/substitution-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12088,
+      "sha256": "10d63699ea55928959fb01de5793d35042bb16a87ad0e3639a0c7e3ffb602748",
+      "git_sha": "40364f33075a5c36d7efd0f3bbfc7cafea50c7c5"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/substitution-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12074,
+      "sha256": "bc4bd284d161fa444951135308a9bec30086af43312417464cf3e2f6119d3b66",
+      "git_sha": "e4b114d1c6bee2e69c2f397df0e8b3b6a62e671d"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/substitution-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12074,
+      "sha256": "29a210990f06213d05cef421f9a2451e3e7b03684411423680929a9fc229929a",
+      "git_sha": "5c1f13a27305144dd6136ea587d1231638fb8da8"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/substitution-small-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 12075,
+      "sha256": "f57c18e8dbb9c0d2e33c318081cbe513941474c9ba92f241337ba67cb3334f8a",
+      "git_sha": "70274b837465afb476893fd3d2bfd9220db80fb9"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/text-shaping-large-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 9235,
+      "sha256": "65f78ee3370b5444eed9b9740184cde84bea7e4aa41253a304c378a4ac277f72",
+      "git_sha": "1fe2c8f5a2ef4688922ec58852cde386fbfe3093"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/text-shaping-large-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13197,
+      "sha256": "c0f5db2e899373c50271cf942f2cb2e22faf3c4628fc2509f2f170228dfeee75",
+      "git_sha": "6100859b059c092d7004ff62e721f3a29a50fe4e"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/text-shaping-large-text-wide-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13198,
+      "sha256": "66b46fba49f8c6c065369c58d3f2b1d2143ecb0867780102aae2c6c1a1091afb",
+      "git_sha": "d9b863b0118f5f576cf46460447c66245c054e87"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/text-shaping-medium-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13176,
+      "sha256": "5e79f5543d5160b41311e9a50a2e0dc5f80035046e62150eacb2f947d4d82c81",
+      "git_sha": "a39c21c05b025081a41577b9d743ce524d8a46d8"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/text-shaping-medium-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13178,
+      "sha256": "758fa4a9e5a7441713af9dab0036ac062c20ec62f6d3bd63ac7a3d7c7bb46ba3",
+      "git_sha": "0d2863dbdca0727b76b609c2a7c1f30f675b42cd"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/text-shaping-small-matrix-v1-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13167,
+      "sha256": "c0fe75e001b98cc2522dff8e23853d5f45eac6a74f9b79763e2a4b1f9703c4a2",
+      "git_sha": "10dc5c96b3c5c35e4e130ee4a8026cb70a13c985"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/text-shaping-small-matrix-v2-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13169,
+      "sha256": "25972228fa9e3b71349fb501a49f643a34abe87584d75a803354df339a10277d",
+      "git_sha": "2d3be0a52eb92d650acc23685099a931b3ba7bcf"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/results/text-shaping-small-preflight-candidate-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 13169,
+      "sha256": "0c6a293768ab7163cd5b1706034db572788079b7bd250c5c5ea6e3bc3dad5b4a",
+      "git_sha": "ff0ca479596324f7cbb85ac602a830a682c41772"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 311,
+      "sha256": "696c40706a20557ed2773847d96f59492f6dd0c0b2ea1071d675344d1a0d4408",
+      "git_sha": "51e32566a07745c78e5d1c7e36b105e6bf44ae5f"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "1c1e53b846e0795eb4b59c0e9b4ed46b4f68ef503afd60ecb95e15e11eb8c2a9",
+      "git_sha": "5d172d2d0673d37e9b02706079774323feee9bad"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 313,
+      "sha256": "6d45e506222177372b365f30d7efa597d360aa1d72af8bf6dbfdda1d7f2e6cdb",
+      "git_sha": "97b3c6d0658895f78a74cef6f0c3fef913efc0be"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 313,
+      "sha256": "193d090c5fccd7e4f40bf9fc258161a1cac6804d1fdc15fc214d750a12f391e6",
+      "git_sha": "f7611ddf4a47aaf2e27a18cba194a2f5657e31c4"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 309,
+      "sha256": "e059743f3e48df86bbc299d8b6f175e1a931cfff1bcf6451be3a43e8f05ec019",
+      "git_sha": "86eae66b16dbc2dabf9e9a8691ff5d860472328b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 309,
+      "sha256": "255d617494142c4547dab44771239c6f5ea1ea5a044792e38d4bef8ef45fcd12",
+      "git_sha": "930c829c38a0c2340094c73e721ac94bfa33d2a4"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-small-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/substitution-small-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 309,
+      "sha256": "339d3aa4e77dcf93156fc4194b7b70b13c89314f4ca98152fdc053ad35f01369",
+      "git_sha": "b86633339f8bc7fa2ac60188bb9592bde6bd0015"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/summary-matrix-v1.json",
+      "mode": "100644",
+      "bytes": 641774,
+      "sha256": "38723dffa14bcdb28a14155fb0ec787f25f797e0d02ba60397ef2303d7066883",
+      "git_sha": "dff0c48422b888bd2c4c7403c5b3d64ca3946622"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/summary-matrix-v2.json",
+      "mode": "100644",
+      "bytes": 648763,
+      "sha256": "966504ed22ab537ad0565d0f021becb60ada744fd1d551d02ca2ba126cd90942",
+      "git_sha": "cf6727561d9fb6c195db928f4c1308d02fa820e1"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/summary-preflight.json",
+      "mode": "100644",
+      "bytes": 165814,
+      "sha256": "a3dc1c28e737ce7190ed9d231a3036aef7e93021b5d0b807919be81a36ccc16d",
+      "git_sha": "0c4b5a01eb156cb17a3281ecda7fea92dfb25d69"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/summary-scaled-preflight.json",
+      "mode": "100644",
+      "bytes": 81216,
+      "sha256": "7f88886fd6ff79e78286737d5d7f21cddd974784af73cea53245b082fff55c4f",
+      "git_sha": "0f482996a716a55c800248c91ac826cdd47e7de6"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/summary-text-wide-preflight.json",
+      "mode": "100644",
+      "bytes": 29352,
+      "sha256": "904e4cba55c564a0166cb24db4bd5b53a593330681ceb5808d029383f03c6ca1",
+      "git_sha": "f492c8da7e40b6ded497cee0425ecd35f0825562"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 921,
+      "sha256": "a5cb4c3de00ad0bcb742f0bcdc1ef1f845d7db244512c03c911a971bb7a45f65",
+      "git_sha": "237f1e3ef98118b28866e46bbed80fc7f1cabc13"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 313,
+      "sha256": "56e51b3107715a4cbc4de9d919025e22a05e9c1148f974eb9c4df3b6fc193fcc",
+      "git_sha": "cecccaa75edeca7f20c6bcde819a90fb5fe6945b"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-large-text-wide-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-large-text-wide-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 313,
+      "sha256": "46ff6420a0fb28253235d1d93f811feb2e0c7d8324eab1b3c2f11005c5efa58c",
+      "git_sha": "2974669faf9e046fa20948ec49ab49cc11ca4414"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 313,
+      "sha256": "5c02f10d9f3eef12803fa25f1584d8c0e82c4c349e6d1f71d0160b18056d2aca",
+      "git_sha": "c0a0859ecac18f2edd4c9da8e02d4d44a2d9a4ae"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 313,
+      "sha256": "61358ffb5d44b22d3d71b198bb874b3ea9526cc5c2780160f4437ab8afbe3a83",
+      "git_sha": "565383ec5dd253d5b82623d90e8918c906f240de"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v1-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v1-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "edbba9417e53105fc0da461fc82f5995a650b02b228ec82b0bc6cebfd0331f4d",
+      "git_sha": "d9738faf52e9f4b2e68a7219961fdbbe9579ca84"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v2-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v2-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "d7faf94bad408627236b4ac68db7ab0f507c8bba55d648059a0b4afb80115b39",
+      "git_sha": "22965df1f5ef2048aa9bfe05c7d78e024a2837cb"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-small-preflight-candidate.stderr.log",
+      "mode": "100644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/text-shaping-small-preflight-candidate.stdout.log",
+      "mode": "100644",
+      "bytes": 310,
+      "sha256": "afe6db39c6aa2396bb8837bf03ffbe2c05d91a4d4ef5e8b89f1391e20bec046b",
+      "git_sha": "4b2efd0160853de1c17d111739d0246f3382e185"
+    },
+    {
+      "path": "artifacts/receipts/34/measurements/performance/workloads.json",
+      "mode": "100644",
+      "bytes": 9277,
+      "sha256": "2fc30f1320430e604456516e4ea5422270813a9db25bbe7d69d473370e7812b9",
+      "git_sha": "a3ccc5addae593d585650b9a016009a6d4bd6caa"
+    },
+    {
+      "path": "artifacts/receipts/34/packing-normalization-before.json",
+      "mode": "100644",
+      "bytes": 18698,
+      "sha256": "ba370c418f77c68f02241b8f98466ab9be07cdafae28446786e23793a020e3c3",
+      "git_sha": "14640776c3ef50ff3f748d669151d5124e5f2151"
+    },
+    {
+      "path": "artifacts/receipts/34/packing-normalization-diagnosis.json",
+      "mode": "100644",
+      "bytes": 9144,
+      "sha256": "86f5d72af3e8b67d5459c4912c8f00e636eb6e2b5e594a1e720dfaeaa4be661f",
+      "git_sha": "79893740b311bd44416ed6bfbaa8f2202b0b8241"
+    },
+    {
+      "path": "artifacts/receipts/34/preliminary-probes/probe-micrography-profile-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 4291,
+      "sha256": "9cc42efac797f679f3168e479e7de63f62ae4208b4635509f2a9c6756f0a35b8",
+      "git_sha": "d15a12cd57e05abb6205aabab3eb08f70c55e308"
+    },
+    {
+      "path": "artifacts/receipts/34/preliminary-probes/probe-periodic-profile-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 3276,
+      "sha256": "24b75cc7c718184189b1a10c5781de20c8365a075a4ee4bf0ca4244acc483630",
+      "git_sha": "37bdf21bbb43e9074509d9852bd76baa66a0bec3"
+    },
+    {
+      "path": "artifacts/receipts/34/preliminary-probes/probe-periodic-timing-Lua-5.3.json",
+      "mode": "100644",
+      "bytes": 2644,
+      "sha256": "11cc544722ead876f3e5882916223c4e984dd349ba819257fd6da5c2c9502567",
+      "git_sha": "43307886f934962a98fe9da8a92655611e4946d7"
+    },
+    {
+      "path": "artifacts/receipts/34/profile-design.json",
+      "mode": "100644",
+      "bytes": 2122,
+      "sha256": "5b0c499f54ee3a33dc65363bf795e50c151d5546847a53f9c66983e870ac729d",
+      "git_sha": "74a687021c0eb5efdbfea47001edacdbe1e35279"
+    },
+    {
+      "path": "artifacts/receipts/34/resource-charging-before.json",
+      "mode": "100644",
+      "bytes": 1101,
+      "sha256": "5060723985196a7c6d09c66202f42d3402959e228d44d86870e8b01107104006",
+      "git_sha": "6b901579c7ad91c8c6323ad3a0e62b49f4128b10"
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "mode": "100644",
+      "bytes": 11838,
+      "sha256": "ab244e306b3840492dc9c74d9036f667567bbcfeeb002ab27d7aee36eb60c65c",
+      "git_sha": "f462d30254f1a74a1c36efc0e434eb763b30e143"
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "mode": "100644",
+      "bytes": 104227,
+      "sha256": "eb60e60cf7f22f2acd27a5eb2ec0655c9941318ce8d259fedfadb1adb8904499",
+      "git_sha": "3acd8c9b55d5a4ec53edba8ba4e684614396c1e0"
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "mode": "100644",
+      "bytes": 2176,
+      "sha256": "6b397b4a3bf322a935fe8275c517fa06bccda46c0d2f4d4f9f7ad8ac43a04503",
+      "git_sha": "3d0ef199a4e7aabf977553b5cfcafd6cafb62653"
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "mode": "100644",
+      "bytes": 31346,
+      "sha256": "17895c2dd596854ee56701af9c169624eefea74e8f59403b48bb4696fad7902a",
+      "git_sha": "28e0761f2e629d4116231cd50789d8c3c4d8cd8a"
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "mode": "100644",
+      "bytes": 15302,
+      "sha256": "6bd1903489c27e9c0e6c6f35bc52b125df26b9ee0d9856dbda28c586203867b9",
+      "git_sha": "74415401598982556cb544bba8ae33377307c320"
+    },
+    {
+      "path": "docs/validation/PERFORMANCE-34.md",
+      "mode": "100644",
+      "bytes": 7649,
+      "sha256": "6031adab0468c286e146010e199b127831732a3c089ce4256fe7a04eea247a56",
+      "git_sha": "a9b8bd1590a5e7bcbc2731fc5e2e91f6ad97fe81"
+    },
+    {
+      "path": "docs/validation/PERFORMANCE-MEASUREMENTS-34.md",
+      "mode": "100644",
+      "bytes": 5860,
+      "sha256": "a3d39ff43fcc9b0d1a54935a6c87528db7fc5ebf7d4f089332b83ebb615ed99a",
+      "git_sha": "6f30b648b8b60b6103ba9c5d04817b8e5369f192"
+    },
+    {
+      "path": "docs/validation/fixtures/hash-cache-v1.json",
+      "mode": "100644",
+      "bytes": 2009,
+      "sha256": "5c6e27fdda3b88ecb20efd753ef176bbd1307922f6fb6f6972749c37f1b4998e",
+      "git_sha": "0f38b63e7e3606205bb77a65ccbd1fbbb0cf10ec"
+    },
+    {
+      "path": "pattern_circle_packing.lua",
+      "mode": "100644",
+      "bytes": 11929,
+      "sha256": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+      "git_sha": "467d54531410c7634baf5878d1ff38240c77c043"
+    },
+    {
+      "path": "pattern_decobrush.lua",
+      "mode": "100644",
+      "bytes": 6543,
+      "sha256": "71527c77d500ef0a0a622adcb664e97e6f296513decc68fd99efbbfda22799aa",
+      "git_sha": "259315a23d68fec233a5d070da1c12037e7925d5"
+    },
+    {
+      "path": "pattern_editor.lua",
+      "mode": "100644",
+      "bytes": 4605,
+      "sha256": "06833da6dedc9d52e13acc4d64409cda49fd931557cf942e62400c324995f59c",
+      "git_sha": "c12f6ffc2ee2167a1595203c691be650e65c3550"
+    },
+    {
+      "path": "pattern_hash.lua",
+      "mode": "100644",
+      "bytes": 4571,
+      "sha256": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+      "git_sha": "a95578f4e1ebc6633eb42ddfab967a85ae6d0dab"
+    },
+    {
+      "path": "pattern_micrography.lua",
+      "mode": "100644",
+      "bytes": 17140,
+      "sha256": "835cec42327f5f786eb5cbc6d5a3e4698826867d098c09ab55c3a835f42a00a3",
+      "git_sha": "4e575337bdb73d967cf05e4562d79f59b97aaeb6"
+    },
+    {
+      "path": "pattern_mosaic.lua",
+      "mode": "100644",
+      "bytes": 8535,
+      "sha256": "3efaeb9bac3904ef15d30d47e4da82918a767cc49556d703de9c444bb879e5e6",
+      "git_sha": "7f4779c6d50318c428fb5969719415d65cec5cbc"
+    },
+    {
+      "path": "tools/browser-performance.cjs",
+      "mode": "100644",
+      "bytes": 9233,
+      "sha256": "bdea8fc70b8e368ec5ab5b7590cbc29b755bd53d97da3c977ac7eff8a4538375",
+      "git_sha": "44319a35f2987db9d402547084cbf232e8d20b6c"
+    },
+    {
+      "path": "tools/browser_ci.py",
+      "mode": "100644",
+      "bytes": 4837,
+      "sha256": "2a5c17322db5948e19b95192b9c333dcaa600a2c202670e9c9f051e18ed81c56",
+      "git_sha": "08cba691824922d078e64e4ce8b15ed461ad04a8"
+    },
+    {
+      "path": "tools/check-floral-editor-seed.lua",
+      "mode": "100644",
+      "bytes": 3067,
+      "sha256": "88edef1f2a0ff8d584cebb93a8e3bd56736408fe327fca4fa0054df20c3010a7",
+      "git_sha": "9d6501d77a0da4a78869410d59dc0245d844cb79"
+    },
+    {
+      "path": "tools/check-hash-cache.lua",
+      "mode": "100644",
+      "bytes": 4145,
+      "sha256": "ea61bf6f52a37346763e418e08fb14fdc0ddcb1c98856f9fd49dce2e7fe3e3d7",
+      "git_sha": "cc5303ed969619aa235b418af3c7e6e05ed74d38"
+    },
+    {
+      "path": "tools/check-packing-scale.lua",
+      "mode": "100644",
+      "bytes": 1826,
+      "sha256": "1d94cea191962197a327c9a17f7cbb9c135646a50ab02598afa0cfb7d631b71c",
+      "git_sha": "96966ab1ed63e2ebf382c715fa1d4f5f4b1aea19"
+    },
+    {
+      "path": "tools/check-performance-bounds.lua",
+      "mode": "100644",
+      "bytes": 2926,
+      "sha256": "23e4dcabfdf3dd4719af882293235490d18ee7f47b96c005e3bf823c9da85c4f",
+      "git_sha": "edc7632e0a7c2f0746f04eab7f0950ddb278d92a"
+    },
+    {
+      "path": "tools/perf_bench.py",
+      "mode": "100644",
+      "bytes": 5921,
+      "sha256": "86d73c62dc0f05c50f02fc3dceead9b97db02597c93263477a4df9aed2acf9d7",
+      "git_sha": "6491bd5c2e787d4d07084305115dc18ed66c38c5"
+    },
+    {
+      "path": "tools/perf_prepare.lua",
+      "mode": "100644",
+      "bytes": 1791,
+      "sha256": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+      "git_sha": "b5b79e69d83a31fd6779e970fb6f7046d578c396"
+    },
+    {
+      "path": "tools/perf_probe.lua",
+      "mode": "100644",
+      "bytes": 4130,
+      "sha256": "1be97ff662bb32864d688c27b2c8d67fe9ab8cb5dfe5902935a2d97ce2c4208a",
+      "git_sha": "70864a8c05d2ab6046ca33c61f547b7faeab150f"
+    },
+    {
+      "path": "tools/perf_run.lua",
+      "mode": "100644",
+      "bytes": 5493,
+      "sha256": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+      "git_sha": "a5c9588e3ad9b4dbfd5cb09e4cb0e65e661f6b7a"
+    },
+    {
+      "path": "tools/perf_workloads.lua",
+      "mode": "100644",
+      "bytes": 5380,
+      "sha256": "baf5f026844fc23bcd60306f76934e4596ab16fc92ce2c7a80017aee2c7a843d",
+      "git_sha": "8645692bd00af8965e6c935e5ccc46e3bf86845b"
+    }
+  ],
+  "protected_evidence_paths": [
+    "artifacts/receipts/29/book-view-crops.json",
+    "artifacts/receipts/29/ci-b2ec-final.json",
+    "artifacts/receipts/29/ci-inline-current.json",
+    "artifacts/receipts/29/ci-inline-final.json",
+    "artifacts/receipts/29/common-native-verification.json",
+    "artifacts/receipts/29/core-development-lua53.json",
+    "artifacts/receipts/29/core-development-lua54.json",
+    "artifacts/receipts/29/core-local-lua53.json",
+    "artifacts/receipts/29/core-local-lua54.json",
+    "artifacts/receipts/29/core-repair-lua53.json",
+    "artifacts/receipts/29/core-repair-lua54.json",
+    "artifacts/receipts/29/diagnostic-native-rejected.json",
+    "artifacts/receipts/29/diagnostics-publication.json",
+    "artifacts/receipts/29/fixture-provenance.json",
+    "artifacts/receipts/29/host-lookup-Lua-5.3.json",
+    "artifacts/receipts/29/host-lookup-Lua-5.4.json",
+    "artifacts/receipts/29/host-offset-Lua-5.3.json",
+    "artifacts/receipts/29/host-offset-Lua-5.4.json",
+    "artifacts/receipts/29/inherited-b2ec-native-verification.json",
+    "artifacts/receipts/29/inherited-inline-native-verification.json",
+    "artifacts/receipts/29/initial-native-failure-excerpt.log",
+    "artifacts/receipts/29/initial-native-rejected.json",
+    "artifacts/receipts/29/inline-common-native-verification.json",
+    "artifacts/receipts/29/inline-constraint-repair.json",
+    "artifacts/receipts/29/inline-core-lua53.json",
+    "artifacts/receipts/29/inline-core-lua54.json",
+    "artifacts/receipts/29/inline-final-head-and-pr.json",
+    "artifacts/receipts/29/inline-host-Lua-5.3.json",
+    "artifacts/receipts/29/inline-host-Lua-5.4.json",
+    "artifacts/receipts/29/inline-packaged-cli-local.json",
+    "artifacts/receipts/29/inline-portable-native-verification.json",
+    "artifacts/receipts/29/inline-publication.json",
+    "artifacts/receipts/29/inline-source-archive.json",
+    "artifacts/receipts/29/mandatory-gate-map.json",
+    "artifacts/receipts/29/mask-oracle-preflight.json",
+    "artifacts/receipts/29/native-offset-diagnosis.json",
+    "artifacts/receipts/29/native-positive-9201.json",
+    "artifacts/receipts/29/offset-native-failure-excerpt.log",
+    "artifacts/receipts/29/offset-native-rejected.json",
+    "artifacts/receipts/29/offset-publication.json",
+    "artifacts/receipts/29/packaged-cli-local.json",
+    "artifacts/receipts/29/pdf-parser-native-smoke.json",
+    "artifacts/receipts/29/planner-repair-Lua-5.3.json",
+    "artifacts/receipts/29/planner-repair-Lua-5.4.json",
+    "artifacts/receipts/29/portable-native-verification.json",
+    "artifacts/receipts/29/publication.json",
+    "artifacts/receipts/29/repair-native-failure-excerpt.log",
+    "artifacts/receipts/29/repair-publication.json",
+    "artifacts/receipts/30/actual-book-raster-replay.json",
+    "artifacts/receipts/30/build-control-development.json",
+    "artifacts/receipts/30/build-control-utf8-repair.json",
+    "artifacts/receipts/30/byte-preserved-book-replay.json",
+    "artifacts/receipts/30/byte-preserved-registration-controls.json",
+    "artifacts/receipts/30/byte-repair-bundle.json",
+    "artifacts/receipts/30/byte-repair-publication.json",
+    "artifacts/receipts/30/ci-repair-current.json",
+    "artifacts/receipts/30/ci-repair-final-known.json",
+    "artifacts/receipts/30/ci-stage30-byte-repair-current.json",
+    "artifacts/receipts/30/ci-stage30-fault-repair-current.json",
+    "artifacts/receipts/30/cid-native-diagnosis.json",
+    "artifacts/receipts/30/cid-visibility-controls.json",
+    "artifacts/receipts/30/empty-output-native-diagnosis.json",
+    "artifacts/receipts/30/evidence-encoding.json",
+    "artifacts/receipts/30/fault-repair-native-failure.log",
+    "artifacts/receipts/30/fault-repair-publication.json",
+    "artifacts/receipts/30/local-verification.json",
+    "artifacts/receipts/30/lua-host-Lua-5.3.json",
+    "artifacts/receipts/30/lua-host-Lua-5.4.json",
+    "artifacts/receipts/30/mandatory-gate-map.json",
+    "artifacts/receipts/30/native-dual-verification-stage30-byte-repair.json",
+    "artifacts/receipts/30/publication.json",
+    "artifacts/receipts/30/raster-oracle-byte-repair.json",
+    "artifacts/receipts/30/raster-oracle-development.json",
+    "artifacts/receipts/30/raster-registration-diagnosis.json",
+    "artifacts/receipts/30/record-adapter-Lua-5.3.json",
+    "artifacts/receipts/30/record-adapter-Lua-5.4.json",
+    "artifacts/receipts/30/registration-defect-controls.json",
+    "artifacts/receipts/30/repair-common-native-verification.json",
+    "artifacts/receipts/30/repair-native-failure.log",
+    "artifacts/receipts/30/repair-publication.json",
+    "artifacts/receipts/30/research.json",
+    "artifacts/receipts/30/shared-core-lua53.json",
+    "artifacts/receipts/30/shared-core-lua54.json",
+    "artifacts/receipts/30/stage30-byte-repair-common-artifact.json",
+    "artifacts/receipts/30/stage30-byte-repair-common-native-verification.json",
+    "artifacts/receipts/30/stage30-byte-repair-dual-artifact.json",
+    "artifacts/receipts/30/stage30-byte-repair-final-head-and-pr.json",
+    "artifacts/receipts/30/stage30-byte-repair-inherited-native-verification.json",
+    "artifacts/receipts/30/stage30-byte-repair-pdfs-artifact.json",
+    "artifacts/receipts/30/stage30-byte-repair-portable-artifact.json",
+    "artifacts/receipts/30/stage30-byte-repair-portable-verification.json",
+    "artifacts/receipts/30/stage30-byte-repair-source-archive.json",
+    "artifacts/receipts/30/stage30-byte-repair-visual-review.json",
+    "artifacts/receipts/30/stage30-fault-repair-common-artifact.json",
+    "artifacts/receipts/30/stage30-fault-repair-common-native-verification.json",
+    "artifacts/receipts/30/stage30-fault-repair-dual-artifact.json",
+    "artifacts/receipts/30/stage30-fault-repair-portable-artifact.json",
+    "artifacts/receipts/30/stage30-fault-repair-portable-verification.json",
+    "artifacts/receipts/30/stage30-fault-repair-source-archive.json",
+    "artifacts/receipts/30/stage30-initial-source-archive.json",
+    "artifacts/receipts/30/stage30-repair-common-artifact.json",
+    "artifacts/receipts/30/stage30-repair-dual-artifact.json",
+    "artifacts/receipts/30/stage30-repair-source-archive.json",
+    "artifacts/receipts/30/utf8-input-diagnosis.json",
+    "artifacts/receipts/30/visibility-oracle-development.json",
+    "artifacts/receipts/31/abde-local-browser-adversarial.json",
+    "artifacts/receipts/31/abde-local-browser-families.json",
+    "artifacts/receipts/31/abde-local-browser-runtime.json",
+    "artifacts/receipts/31/abde-source-kit-local.json",
+    "artifacts/receipts/31/adversarial-followup.json",
+    "artifacts/receipts/31/authored-fast-worker.json",
+    "artifacts/receipts/31/authored-profile.json",
+    "artifacts/receipts/31/authored-worker-development.json",
+    "artifacts/receipts/31/authored-worker-larger-profile.json",
+    "artifacts/receipts/31/browser-evaluation.json",
+    "artifacts/receipts/31/cache-development.json",
+    "artifacts/receipts/31/cache-mutation-rejected.json",
+    "artifacts/receipts/31/cache-repair-actual-native30-numerical-vectors.json",
+    "artifacts/receipts/31/cache-repair-adversarial.json",
+    "artifacts/receipts/31/cache-repair-ci-current.json",
+    "artifacts/receipts/31/cache-repair-families.json",
+    "artifacts/receipts/31/cache-repair-publication.json",
+    "artifacts/receipts/31/cache-repair-runtime.json",
+    "artifacts/receipts/31/cache-repair-source-kit-local.json",
+    "artifacts/receipts/31/candidate-receipt-aliases.json",
+    "artifacts/receipts/31/ci-current.json",
+    "artifacts/receipts/31/ci-final.json",
+    "artifacts/receipts/31/edge-native-source-bound-families.json",
+    "artifacts/receipts/31/edge-native-source-bound-runtime.json",
+    "artifacts/receipts/31/edge-native-source-bound-verification.json",
+    "artifacts/receipts/31/gate-map.json",
+    "artifacts/receipts/31/hash-host-probe.json",
+    "artifacts/receipts/31/inherited-stage30-research.json",
+    "artifacts/receipts/31/local-browser-adversarial.json",
+    "artifacts/receipts/31/local-browser-families.json",
+    "artifacts/receipts/31/local-browser-runtime.json",
+    "artifacts/receipts/31/local-numerical-decobrush.json",
+    "artifacts/receipts/31/local-numerical-micrography.json",
+    "artifacts/receipts/31/lua-submodule.json",
+    "artifacts/receipts/31/native-dual-verification-stage31-cache-repair.json",
+    "artifacts/receipts/31/native-dual-verification-stage31.json",
+    "artifacts/receipts/31/native-evaluation.json",
+    "artifacts/receipts/31/original-browser-acceptance-rejected.log",
+    "artifacts/receipts/31/original-linux-browser-diagnostic.json",
+    "artifacts/receipts/31/packages.json",
+    "artifacts/receipts/31/periodic-fast-worker.json",
+    "artifacts/receipts/31/periodic-worker-development.json",
+    "artifacts/receipts/31/pr-final.json",
+    "artifacts/receipts/31/publication.json",
+    "artifacts/receipts/31/research.json",
+    "artifacts/receipts/31/runtime-development.json",
+    "artifacts/receipts/31/source-kit-local.json",
+    "artifacts/receipts/31/stage30-checkpoint-import.json",
+    "artifacts/receipts/31/stage31-browser-artifact.json",
+    "artifacts/receipts/31/stage31-cache-repair-browser-artifact.json",
+    "artifacts/receipts/31/stage31-cache-repair-browser-verification.json",
+    "artifacts/receipts/31/stage31-cache-repair-common-artifact.json",
+    "artifacts/receipts/31/stage31-cache-repair-common-native-verification.json",
+    "artifacts/receipts/31/stage31-cache-repair-dual-artifact.json",
+    "artifacts/receipts/31/stage31-cache-repair-inherited-native-verification.json",
+    "artifacts/receipts/31/stage31-cache-repair-pdfs-artifact.json",
+    "artifacts/receipts/31/stage31-cache-repair-portable-artifact.json",
+    "artifacts/receipts/31/stage31-cache-repair-portable-verification.json",
+    "artifacts/receipts/31/stage31-cache-repair-source-archive.json",
+    "artifacts/receipts/31/stage31-common-artifact.json",
+    "artifacts/receipts/31/stage31-common-native-verification.json",
+    "artifacts/receipts/31/stage31-dual-artifact.json",
+    "artifacts/receipts/31/stage31-inherited-native-verification.json",
+    "artifacts/receipts/31/stage31-pdfs-artifact.json",
+    "artifacts/receipts/31/stage31-portable-artifact.json",
+    "artifacts/receipts/31/stage31-portable-verification.json",
+    "artifacts/receipts/31/stage31-source-archive.json",
+    "artifacts/receipts/32/browser-revision-development.json",
+    "artifacts/receipts/32/ci-before-final.json",
+    "artifacts/receipts/32/ci-current.json",
+    "artifacts/receipts/32/ci-final.json",
+    "artifacts/receipts/32/ci-first-candidate.json",
+    "artifacts/receipts/32/ci-visual-review.json",
+    "artifacts/receipts/32/cli-revision-local.json",
+    "artifacts/receipts/32/development-a-border-failure.json",
+    "artifacts/receipts/32/development-b-border-receipt.json",
+    "artifacts/receipts/32/development-b-knot-receipt.json",
+    "artifacts/receipts/32/development-b-penrose-receipt.json",
+    "artifacts/receipts/32/development-b-receipt.json",
+    "artifacts/receipts/32/development-b-spectre-receipt.json",
+    "artifacts/receipts/32/development-b-vector-inspection.json",
+    "artifacts/receipts/32/development-c-exemplar-receipt.json",
+    "artifacts/receipts/32/development-c-microgram-failure.json",
+    "artifacts/receipts/32/development-d-maze-receipt.json",
+    "artifacts/receipts/32/development-d-microgram-receipt.json",
+    "artifacts/receipts/32/development-d-receipt.json",
+    "artifacts/receipts/32/development-d-recovery-receipt.json",
+    "artifacts/receipts/32/development-d-vector-inspection.json",
+    "artifacts/receipts/32/development-e-canvas-failure.json",
+    "artifacts/receipts/32/development-e-recovery-receipt.json",
+    "artifacts/receipts/32/development-f-canvas-failure.json",
+    "artifacts/receipts/32/development-g-canvas-receipt.json",
+    "artifacts/receipts/32/development-g-receipt.json",
+    "artifacts/receipts/32/development-index.json",
+    "artifacts/receipts/32/edit-type-after.json",
+    "artifacts/receipts/32/edit-type-before.json",
+    "artifacts/receipts/32/edit-type-final-partial-vectors.json",
+    "artifacts/receipts/32/edit-type-final-partial.json",
+    "artifacts/receipts/32/edit-type-finding.json",
+    "artifacts/receipts/32/edit-type-local-core.json",
+    "artifacts/receipts/32/edit-type-publication.json",
+    "artifacts/receipts/32/edit-type-repair.json",
+    "artifacts/receipts/32/edit-type-source-kit-local.json",
+    "artifacts/receipts/32/edit-type-vectors.json",
+    "artifacts/receipts/32/local-editor-combined-vectors.json",
+    "artifacts/receipts/32/local-editor-combined.json",
+    "artifacts/receipts/32/local-editor-exemplar-geometry-vectors.json",
+    "artifacts/receipts/32/local-editor-exemplar-geometry.json",
+    "artifacts/receipts/32/local-editor-page-controls-vectors.json",
+    "artifacts/receipts/32/local-editor-page-controls.json",
+    "artifacts/receipts/32/local-editor.json",
+    "artifacts/receipts/32/local-evidence-archive.json",
+    "artifacts/receipts/32/native-dual-verification-stage32-edit-type-repair.json",
+    "artifacts/receipts/32/native-dual-verification-stage32-status-repair.json",
+    "artifacts/receipts/32/native-dual-verification-stage32.json",
+    "artifacts/receipts/32/partial-status-after.json",
+    "artifacts/receipts/32/partial-status-before.json",
+    "artifacts/receipts/32/partial-status-finding.json",
+    "artifacts/receipts/32/partial-status-repair.json",
+    "artifacts/receipts/32/partial-status-vectors.json",
+    "artifacts/receipts/32/pr-final.json",
+    "artifacts/receipts/32/pre-type-ci-current.json",
+    "artifacts/receipts/32/publication.json",
+    "artifacts/receipts/32/research.json",
+    "artifacts/receipts/32/revision-local.json",
+    "artifacts/receipts/32/source-kit-local.json",
+    "artifacts/receipts/32/stage31-checkpoint-import.json",
+    "artifacts/receipts/32/stage32-common-artifact.json",
+    "artifacts/receipts/32/stage32-common-native-verification.json",
+    "artifacts/receipts/32/stage32-dual-artifact.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-browser-artifact.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-browser-verification.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-common-artifact.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-common-native-verification.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-dual-artifact.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-editor-verification.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-inherited-native-verification.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-pdfs-artifact.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-portable-artifact.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-portable-verification.json",
+    "artifacts/receipts/32/stage32-edit-type-repair-source-archive.json",
+    "artifacts/receipts/32/stage32-portable-artifact.json",
+    "artifacts/receipts/32/stage32-portable-verification.json",
+    "artifacts/receipts/32/stage32-source-archive.json",
+    "artifacts/receipts/32/stage32-status-repair-common-artifact.json",
+    "artifacts/receipts/32/stage32-status-repair-common-native-verification.json",
+    "artifacts/receipts/32/stage32-status-repair-dual-artifact.json",
+    "artifacts/receipts/32/stage32-status-repair-inherited-native-verification.json",
+    "artifacts/receipts/32/stage32-status-repair-pdfs-artifact.json",
+    "artifacts/receipts/32/stage32-status-repair-portable-artifact.json",
+    "artifacts/receipts/32/stage32-status-repair-portable-verification.json",
+    "artifacts/receipts/32/stage32-status-repair-source-archive.json",
+    "artifacts/receipts/32/status-repair-publication.json",
+    "artifacts/receipts/32/status-repair-source-kit-local.json",
+    "artifacts/receipts/32/structural-refresh-before.json",
+    "artifacts/receipts/33/checkpoint-import.json",
+    "artifacts/receipts/33/ci-current.json",
+    "artifacts/receipts/33/ci-final.json",
+    "artifacts/receipts/33/confirmed-before.json",
+    "artifacts/receipts/33/cross-native-confirmed-before.json",
+    "artifacts/receipts/33/kit-evidence-scope.json",
+    "artifacts/receipts/33/live-log-resolution.json",
+    "artifacts/receipts/33/live-log-unavailable.json",
+    "artifacts/receipts/33/local-browser-adversarial.json",
+    "artifacts/receipts/33/local-cross-native32-Lua-5.4.json",
+    "artifacts/receipts/33/local-history/3e57d215cf8faa8bbd212eed353b518703ced52c6cb1fbf8bcb8af60b5c47a68-local-receipt-Lua-5.3.json",
+    "artifacts/receipts/33/local-history/3f7b0783dcc5625bb6ba21a8b1e34b80a7893bf589c90eb789fb1e91e8006ebe-local-independent-oracle.json",
+    "artifacts/receipts/33/local-history/ee1007b8de0404628e4aa38f79fc7926b6f32bc693fda8ce12de692dd232f3dd-local-browser-adversarial.json",
+    "artifacts/receipts/33/local-independent-oracle.json",
+    "artifacts/receipts/33/local-parity.json",
+    "artifacts/receipts/33/local-receipt-Lua-5.3.json",
+    "artifacts/receipts/33/local-receipt-Lua-5.4.json",
+    "artifacts/receipts/33/micrography-confirmed-before.json",
+    "artifacts/receipts/33/native-adversarial-partial.json",
+    "artifacts/receipts/33/native-adversarial-verification.json",
+    "artifacts/receipts/33/native-dual-verification-stage33.json",
+    "artifacts/receipts/33/native-log-identity.json",
+    "artifacts/receipts/33/native-pdfs-job.log",
+    "artifacts/receipts/33/pr-final.json",
+    "artifacts/receipts/33/publication.json",
+    "artifacts/receipts/33/stage33-browser-artifact.json",
+    "artifacts/receipts/33/stage33-browser-verification.json",
+    "artifacts/receipts/33/stage33-common-artifact.json",
+    "artifacts/receipts/33/stage33-common-native-verification.json",
+    "artifacts/receipts/33/stage33-dual-artifact.json",
+    "artifacts/receipts/33/stage33-editor-verification.json",
+    "artifacts/receipts/33/stage33-inherited-native-verification.json",
+    "artifacts/receipts/33/stage33-pdfs-artifact.json",
+    "artifacts/receipts/33/stage33-portable-artifact.json",
+    "artifacts/receipts/33/stage33-portable-verification.json",
+    "artifacts/receipts/33/stage33-source-archive.json",
+    "artifacts/receipts/33/visual-continuity.json"
+  ],
+  "status": "prepared_unpublished",
+  "expected_tree": "1a6c3aae3b4a15707351924e078e4a7160e2e18c",
+  "expected_tree_blobs": 1245
+}

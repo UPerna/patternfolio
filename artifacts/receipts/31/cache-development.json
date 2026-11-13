@@ -1,0 +1,33 @@
+{
+  "first": {
+    "digest": "0a4b74c00f93a1a0cce5d7566073dfb863d5b2b1f1802d8603c8c0bccaa91b95",
+    "reused": false
+  },
+  "reuse": {
+    "digest": "0a4b74c00f93a1a0cce5d7566073dfb863d5b2b1f1802d8603c8c0bccaa91b95",
+    "reused": true
+  },
+  "loaded_bytes": [
+    0,
+    255,
+    128,
+    1
+  ],
+  "conflict_rejected": true,
+  "concurrent": [
+    {
+      "digest": "0a4b74c00f93a1a0cce5d7566073dfb863d5b2b1f1802d8603c8c0bccaa91b95",
+      "reused": false
+    },
+    {
+      "digest": "0a4b74c00f93a1a0cce5d7566073dfb863d5b2b1f1802d8603c8c0bccaa91b95",
+      "reused": true
+    }
+  ],
+  "original_preserved": [
+    0,
+    255,
+    128,
+    1
+  ]
+}

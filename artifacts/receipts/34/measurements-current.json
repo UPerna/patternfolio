@@ -1,0 +1,2263 @@
+{
+  "stage": "34",
+  "status": "in_progress",
+  "scope": "Live working observations, not stage acceptance. Completed phase/source fingerprints and failures are retained; summary files can still advance.",
+  "files": [
+    {
+      "path": "measurements/performance/circle-packing-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v1-candidate.stdout.log",
+      "sha256": "48059270aeef5b550918c4701262bdf96c9b68ab763ea6e2bdbdb2f10b397d8b",
+      "bytes": 320
+    },
+    {
+      "path": "measurements/performance/circle-packing-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v2-candidate.stdout.log",
+      "sha256": "b682aa49ae419b78c196c098ef338404981daa77a5c10533a9a83455178e6d22",
+      "bytes": 320
+    },
+    {
+      "path": "measurements/performance/circle-packing-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-large-matrix-v3-candidate.stdout.log",
+      "sha256": "b9621abca6b5435ac0e6a13dd4c408a369d8e09faf3b58ad47d371ffd41e8a7a",
+      "bytes": 320
+    },
+    {
+      "path": "measurements/performance/circle-packing-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "40cacc75507bd1bd22abfee92db84ad0792eb6cb5506267cb1a476328662ab5e",
+      "bytes": 319
+    },
+    {
+      "path": "measurements/performance/circle-packing-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "2e616f88d5d7ded8801bbaf1163b544963b550186fcef5c600b205567e3f7ae1",
+      "bytes": 319
+    },
+    {
+      "path": "measurements/performance/circle-packing-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "c8b068a98c7e03cba6e931062659aac971977371688a19c61a3548d06426c1b6",
+      "bytes": 319
+    },
+    {
+      "path": "measurements/performance/circle-packing-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v1-candidate.stdout.log",
+      "sha256": "b41f2d0ad18c1e50921ecaf2bdbbac13eec6b7de276ac935f518c784fbb3f7de",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/circle-packing-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v2-candidate.stdout.log",
+      "sha256": "41ba02c0482e6bd870f7dd207f46d095f04ef0edc3fc106cd0e26b13ee803d9c",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/circle-packing-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/circle-packing-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/circle-packing-small-matrix-v3-candidate.stdout.log",
+      "sha256": "73e27f9cc01e952f145a64ccf7b875ee9dbeca7b99c6b775178b21dcfbc7d81a",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/example-synthesis-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v1-candidate.stdout.log",
+      "sha256": "c089def896b1f25425727e10b88074c3c795f06ae2a3ed0051529b0a9da0bc4e",
+      "bytes": 325
+    },
+    {
+      "path": "measurements/performance/example-synthesis-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v2-candidate.stdout.log",
+      "sha256": "aac7e14cf4d84a338bb659d168f8559fc5a12963b489a47c128a9514b3780ad5",
+      "bytes": 325
+    },
+    {
+      "path": "measurements/performance/example-synthesis-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-large-matrix-v3-candidate.stdout.log",
+      "sha256": "06a479db6699f30937cecb42788fe337d21155f3d57b12809bb619047669c5d0",
+      "bytes": 325
+    },
+    {
+      "path": "measurements/performance/example-synthesis-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "3f58d8d4d5491ea0ffc6dd662438646f505634a2ad1116c1c06a68e0179d58bc",
+      "bytes": 327
+    },
+    {
+      "path": "measurements/performance/example-synthesis-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "b467a30b30c33299826407870690799d2092d2e265456dbfc8715bdd553b883e",
+      "bytes": 327
+    },
+    {
+      "path": "measurements/performance/example-synthesis-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "62d96ce22b00cfe19457c527918b222b17c60e55af1534eb669921e255a60b9f",
+      "bytes": 327
+    },
+    {
+      "path": "measurements/performance/example-synthesis-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v1-candidate.stdout.log",
+      "sha256": "ccd26b0f38298d125725438d347d7c7dbad5595a61bdf8a89d773c6e061afaf0",
+      "bytes": 324
+    },
+    {
+      "path": "measurements/performance/example-synthesis-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v2-candidate.stdout.log",
+      "sha256": "eeed30e2483f48f95e12f163acd73ee8bb6de3012952900c7bf5050ac19b3d2e",
+      "bytes": 324
+    },
+    {
+      "path": "measurements/performance/example-synthesis-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-small-matrix-v3-candidate.stdout.log",
+      "sha256": "0b00ee0fb194a6e17c7c207f556320501b593d0767488c5662ae7b9d4745d27e",
+      "bytes": 324
+    },
+    {
+      "path": "measurements/performance/example-synthesis-small-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-small-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/example-synthesis-small-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/example-synthesis-small-preflight-candidate.stdout.log",
+      "sha256": "99d7271258c420b912c802f35e0dfe2f604d2892601e893d099054af6f2cd990",
+      "bytes": 324
+    },
+    {
+      "path": "measurements/performance/floral-growth-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v1-candidate.stdout.log",
+      "sha256": "0c15a5748824379d841b06ecdd3415842f2635774fb4ac6c8d50c8e7fb8d9205",
+      "bytes": 316
+    },
+    {
+      "path": "measurements/performance/floral-growth-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v2-candidate.stdout.log",
+      "sha256": "4b908394f602195097a70e21b497209c9fdf3edea58a86b1b52111a8f3f8f998",
+      "bytes": 316
+    },
+    {
+      "path": "measurements/performance/floral-growth-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-large-matrix-v3-candidate.stdout.log",
+      "sha256": "c58f7b2202eaa3250332cd7a536480eecdf1bb964ba0cb26ed6dddb058589d42",
+      "bytes": 316
+    },
+    {
+      "path": "measurements/performance/floral-growth-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "99c467105a83af2396b8c344e8a025c4c4e4ee3e207694cec0124c176d19017c",
+      "bytes": 319
+    },
+    {
+      "path": "measurements/performance/floral-growth-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "c1e37df9dea5a9737633340b0e963ce93ee378e6e66ed36cfdb661ff1d565df4",
+      "bytes": 319
+    },
+    {
+      "path": "measurements/performance/floral-growth-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "5db2c375e895cae8722c57196c42247e3d95d66ef3ab29860b46b4585d3d2234",
+      "bytes": 319
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v1-candidate.stdout.log",
+      "sha256": "d35f6042bdf482fdd66d7964b5f8a8d4ea9f265d85bda148d25ced3dab1f9ea5",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v2-candidate.stdout.log",
+      "sha256": "e19fe3897b2e905539c44f9826614e28e2e8f50b076b204a050d97fd0de10a56",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-matrix-v3-candidate.stdout.log",
+      "sha256": "c10d0d314acf8698f4b683cedb6392a3efad8de5db9fce4b18f1241e7bee1dd7",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-preflight-candidate.stdout.log",
+      "sha256": "3c513f5432c3dc5444eeb9640dbb184187a24648e9ac8fb68a5bc726a9bf0aea",
+      "bytes": 316
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-scaled-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-scaled-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/floral-growth-small-scaled-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/floral-growth-small-scaled-preflight-candidate.stdout.log",
+      "sha256": "1b62072f42d285b729c69cc97da44154dc327b1a7953c91456451a613037fba3",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/knot-topology-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v1-candidate.stdout.log",
+      "sha256": "03089d29359a0242d05968987c32150a6a80e530c9e79a44f20d2e095cbc20fb",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/knot-topology-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v2-candidate.stdout.log",
+      "sha256": "139d439e8a4d2373b301b5418850274a41d6c94bb6ef6de25622eaead7397a77",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/knot-topology-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-large-matrix-v3-candidate.stdout.log",
+      "sha256": "794cb90c46d1856e90ad22d19493fb725e3fda795c122d74db13787de7e14b97",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/knot-topology-large-scaled-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-large-scaled-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-large-scaled-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-large-scaled-preflight-candidate.stdout.log",
+      "sha256": "c325601554adb31fd703ccaad1ce03ed39592b5bb82d09636187172f171b6c18",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/knot-topology-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "17f71f0913510adfd8d07ad75676af6493418aac098fe731c4b5420662a5371e",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/knot-topology-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "7982548865779d74f4f4a4ae610ff750819a183cdc1571a8df73be623d58d499",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/knot-topology-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "7deae251026ed87a881b7f06828b57a0ab1c0da909a79365aad5e4f61251d872",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/knot-topology-medium-scaled-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-medium-scaled-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-medium-scaled-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-medium-scaled-preflight-candidate.stdout.log",
+      "sha256": "e06e5533d73f394b023445b61a8d75a27a56649696265e9d5452a349ad7f3438",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v1-candidate.stdout.log",
+      "sha256": "bb7cd22851809648821a90cada455d070e9481feaba63a13ec987583f53b3e6f",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v2-candidate.stdout.log",
+      "sha256": "6e6e43abd96b797b06aa0dc39abc9b8eba27dae4c57a550bf5016762e453975b",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-matrix-v3-candidate.stdout.log",
+      "sha256": "5686c1d2cf1d4cb0f2ed0ab2b44741cc8e65a37a1fde65e72d3606a8ecdf9ce0",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-preflight-candidate.stderr.log",
+      "sha256": "758310ee630967c5dbdbade1dc17b9edad69bb90299fc4b5b6357201c59245c8",
+      "bytes": 875
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-preflight-candidate.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-scaled-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-scaled-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/knot-topology-small-scaled-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/knot-topology-small-scaled-preflight-candidate.stdout.log",
+      "sha256": "78a9abb3491aa8340413ee5e50fd6150c35c55765d3fb3e5610d6f228be641c3",
+      "bytes": 312
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v1-candidate.stdout.log",
+      "sha256": "1438b1e1bb35369d9713e2416a3d4be2c44f10e87116bc754f4f01474968c986",
+      "bytes": 316
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v2-candidate.stdout.log",
+      "sha256": "14a86d3b9d922a1387454ca12d629793a73a265983ab729a87d575a5f9a39575",
+      "bytes": 316
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-large-matrix-v3-candidate.stdout.log",
+      "sha256": "734df06bfd089e93a7a37a3fdbe6884c58c81b489e3e22aaf6209ec9192b021f",
+      "bytes": 316
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "7f5e11eff9e9e926cc3d9a5abf7fecbf78cedea7f8d323de42098755605f2164",
+      "bytes": 318
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "06e45f7f8679d5f876238a1bacf695389824c073a1a17c5b552da54d8208d4dc",
+      "bytes": 318
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "aedce7639528015528d093820ac34075b3893ed9cd6882940cb556bdda0a3995",
+      "bytes": 318
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v1-candidate.stdout.log",
+      "sha256": "6d27e0d8c5a65ba75660922cae8cd0550b0481b1b5457b5b574d0b4232ecd861",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v2-candidate.stdout.log",
+      "sha256": "c3c1f5a98707f8534fd78b4854ce65d8937f4ea27237d3f9c856e60bb7a2ad8d",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-matrix-v3-candidate.stdout.log",
+      "sha256": "957d51072421fc35446659ceb8550800d9dc9592a320d4d6712db74f14777420",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-small-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/mosaic-packing-small-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/mosaic-packing-small-preflight-candidate.stdout.log",
+      "sha256": "dfda468c434a7159a3d38ec0c3537e9e556e47019303991c074355d0e4ec8348",
+      "bytes": 315
+    },
+    {
+      "path": "measurements/performance/optimization-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v1-candidate.stdout.log",
+      "sha256": "993816113f585c76bec2db992c1b1ffa489b16e81285241f71f58fe9cebe2c55",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/optimization-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v2-candidate.stdout.log",
+      "sha256": "e9ba0ebb31c68aace32731c8a36bd2a7fd2b3dce9121c43d66ca03d753c5705c",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/optimization-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-large-matrix-v3-candidate.stdout.log",
+      "sha256": "e99e527ab1c71028be4dfd7ccb52ec723835de515ab4e8b400363e378cb880fd",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/optimization-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "c0b31f19dd392d1296226ddf73d657ed66c9bad507c8ecc240dd35488e1445cd",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/optimization-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "920cb7cc70589a018ecc8f8c10d708f5f6dfba784c5d873283d4d45ba1da3ef9",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/optimization-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "33b4a4013d519fd199b5f142e9df86b627ce525ec9d2522c699aed4f771ec7a6",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/optimization-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v1-candidate.stdout.log",
+      "sha256": "847e583aa75070e916358ce5572322f8183f583dfce0a0a05dee6ca675db919e",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/optimization-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v2-candidate.stdout.log",
+      "sha256": "f55e524d627f4ad5f8c45e68c0616194b875f3250ddb2acde81e284a4bb95ea6",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/optimization-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-small-matrix-v3-candidate.stdout.log",
+      "sha256": "5f7adad723227a3fc9c4616227e78594f37d23bed33471daba093d0fcce189dc",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/optimization-small-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-small-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/optimization-small-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/optimization-small-preflight-candidate.stdout.log",
+      "sha256": "84716cdfc7b48117c954d691154d89ba8355d389e9782b3cfa102d64c47e6e3f",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/packing-large-before.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/packing-large-before.json",
+      "sha256": "54335ee8e8a460d0a73353193d289b051277c6fae34beea150ae29d0af19ddc0",
+      "bytes": 9016
+    },
+    {
+      "path": "measurements/performance/packing-large-diagnosis.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/packing-large-diagnosis.json",
+      "sha256": "86f5d72af3e8b67d5459c4912c8f00e636eb6e2b5e594a1e720dfaeaa4be661f",
+      "bytes": 9144
+    },
+    {
+      "path": "measurements/performance/probe-micrography-profile-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/probe-micrography-profile-Lua-5.3.json",
+      "sha256": "9cc42efac797f679f3168e479e7de63f62ae4208b4635509f2a9c6756f0a35b8",
+      "bytes": 4291
+    },
+    {
+      "path": "measurements/performance/probe-periodic-profile-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/probe-periodic-profile-Lua-5.3.json",
+      "sha256": "24b75cc7c718184189b1a10c5781de20c8365a075a4ee4bf0ca4244acc483630",
+      "bytes": 3276
+    },
+    {
+      "path": "measurements/performance/probe-periodic-timing-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/probe-periodic-timing-Lua-5.3.json",
+      "sha256": "c5c357532b84c52d3d3e233e0ce1ff5f4560a43d95a6efd5603a6915cecf22ad",
+      "bytes": 2648
+    },
+    {
+      "path": "measurements/performance/projection-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v1-candidate.stdout.log",
+      "sha256": "3c2f212ac34a94dbb9855a68489e5e2fadc5de6cea2b803a75ac05317dc07ea5",
+      "bytes": 305
+    },
+    {
+      "path": "measurements/performance/projection-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v2-candidate.stdout.log",
+      "sha256": "510590cd27255fc901afc5722c951e876c1b9fe34d658144d1a465617c1f0dfd",
+      "bytes": 304
+    },
+    {
+      "path": "measurements/performance/projection-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-large-matrix-v3-candidate.stdout.log",
+      "sha256": "4a84dcc4e4e628a0bfa6007df8a93ad3a6dadbb7b3e3cb700414b2b04ace0728",
+      "bytes": 305
+    },
+    {
+      "path": "measurements/performance/projection-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "38424254715231d13fd495082c9d844b03164ec9aa69490ecf18b3597b12f617",
+      "bytes": 307
+    },
+    {
+      "path": "measurements/performance/projection-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "91bd7285e79c865fe8f10f4433fab6e9b0a4309a3f45c925ae03e59ec883ad02",
+      "bytes": 307
+    },
+    {
+      "path": "measurements/performance/projection-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "d7103ea8a5992deac70dfd2d9795e2a277ee826fcad1617243ebee4e1896e7b6",
+      "bytes": 307
+    },
+    {
+      "path": "measurements/performance/projection-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v1-candidate.stdout.log",
+      "sha256": "bf8bb2423cf22f9a29820629ee9f51fb2b296f7d61faa39e2c6843e072c793c8",
+      "bytes": 304
+    },
+    {
+      "path": "measurements/performance/projection-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v2-candidate.stdout.log",
+      "sha256": "f457e41c220974441cce70cf9a3c14867e24d1476a3f9ca9e244d2383d0ccf2e",
+      "bytes": 304
+    },
+    {
+      "path": "measurements/performance/projection-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-small-matrix-v3-candidate.stdout.log",
+      "sha256": "ebf47ee014c93959cc6248237fc4400efc68fef002e0cb3f4d8563692e5ec4c6",
+      "bytes": 304
+    },
+    {
+      "path": "measurements/performance/projection-small-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-small-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/projection-small-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/projection-small-preflight-candidate.stdout.log",
+      "sha256": "f0daade659f995bb659c14d51cf58b0d5a88f375b919b80494249ee771751631",
+      "bytes": 304
+    },
+    {
+      "path": "measurements/performance/recipes/circle-packing-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/circle-packing-large.recipe",
+      "sha256": "6f5e4eaf27c0451e9c69cecf94c492479860651e478784b1f9bef971aa18577d",
+      "bytes": 5800
+    },
+    {
+      "path": "measurements/performance/recipes/circle-packing-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/circle-packing-medium.recipe",
+      "sha256": "4b58f5f3987f5bcbf98c7067fe595632f970bafeacfb54ed7bd08fde71621300",
+      "bytes": 3956
+    },
+    {
+      "path": "measurements/performance/recipes/circle-packing-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/circle-packing-small.recipe",
+      "sha256": "721d38ded09ac9482279d0aa4b8c7f5e50e9ae82bba14008f5fe4c2a88a07192",
+      "bytes": 3496
+    },
+    {
+      "path": "measurements/performance/recipes/example-synthesis-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/example-synthesis-large.recipe",
+      "sha256": "0a8c056adb3b214f5720f746cd9c17516613456d4d1ab9b094de104e2a4fa402",
+      "bytes": 4813
+    },
+    {
+      "path": "measurements/performance/recipes/example-synthesis-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/example-synthesis-medium.recipe",
+      "sha256": "737e425139d6e79a7e0e385950a5e33300e4529214540e277758fa32d91a61c6",
+      "bytes": 4817
+    },
+    {
+      "path": "measurements/performance/recipes/example-synthesis-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/example-synthesis-small.recipe",
+      "sha256": "3df5531d0c5b1c6688340e0efacac82b7c3e7e55d2ea3820fbfb77505b503158",
+      "bytes": 4811
+    },
+    {
+      "path": "measurements/performance/recipes/floral-growth-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/floral-growth-large.recipe",
+      "sha256": "76c7b217a166c1fc5e6c129723b1576ef43577b0e8aa1d99702bd831589aa942",
+      "bytes": 3463
+    },
+    {
+      "path": "measurements/performance/recipes/floral-growth-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/floral-growth-medium.recipe",
+      "sha256": "6a0677658d964e09d3316d4bdd8856c7457612547a0d77aa33da1ca44b45cfbb",
+      "bytes": 3295
+    },
+    {
+      "path": "measurements/performance/recipes/floral-growth-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/floral-growth-small.recipe",
+      "sha256": "b992b980f5ae44a04f3cc2a0047d1c5cde15fdeb0e5497022c9c53dcda768abe",
+      "bytes": 3486
+    },
+    {
+      "path": "measurements/performance/recipes/knot-topology-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/knot-topology-large.recipe",
+      "sha256": "29a380714b31e6534ae64e4fe7148f5e185801a422d0d16e4cae79c0ca0233e5",
+      "bytes": 8865
+    },
+    {
+      "path": "measurements/performance/recipes/knot-topology-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/knot-topology-medium.recipe",
+      "sha256": "26954f1ccf679129895d177acaa8f8bade339cd523115a8675042cb01b1ae9c4",
+      "bytes": 4848
+    },
+    {
+      "path": "measurements/performance/recipes/knot-topology-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/knot-topology-small.recipe",
+      "sha256": "479cb3f9cc5df70f519b33d4fb362f8b3527528e1dbf2d8b79541b2452fc2f67",
+      "bytes": 3259
+    },
+    {
+      "path": "measurements/performance/recipes/mosaic-packing-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/mosaic-packing-large.recipe",
+      "sha256": "6c161c4b4fc8721018491f787e74d2e735693032e880bdba0c9c6272e312746b",
+      "bytes": 4329
+    },
+    {
+      "path": "measurements/performance/recipes/mosaic-packing-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/mosaic-packing-medium.recipe",
+      "sha256": "37e74a041e076064ce8da2e77635cf7c152871b2ce6939f9b9a54343ad95f15f",
+      "bytes": 4332
+    },
+    {
+      "path": "measurements/performance/recipes/mosaic-packing-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/mosaic-packing-small.recipe",
+      "sha256": "4b6dc7eb67c7078f1083cb8c6f07966328ce5a3140768ee77da27a5aa30d11c0",
+      "bytes": 4342
+    },
+    {
+      "path": "measurements/performance/recipes/optimization-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/optimization-large.recipe",
+      "sha256": "944dfc76824133337b10e14409d49c04093d69ecfa6e761a9a67f17e14412ea8",
+      "bytes": 4581
+    },
+    {
+      "path": "measurements/performance/recipes/optimization-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/optimization-medium.recipe",
+      "sha256": "c502bd7618b27c45c4a6a8920af1c83aab528cc4232d54ad7acce950d4c9c815",
+      "bytes": 4585
+    },
+    {
+      "path": "measurements/performance/recipes/optimization-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/optimization-small.recipe",
+      "sha256": "81987e429e340ac6de59d6b3d6a670d8574a9b2ba69377b3f94c04a9322ca4a7",
+      "bytes": 4580
+    },
+    {
+      "path": "measurements/performance/recipes/projection-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/projection-large.recipe",
+      "sha256": "72dec95b36be0c6b093ac7051e8fbdb2ad8f16559f297bc5e9b627b160bae04b",
+      "bytes": 2595
+    },
+    {
+      "path": "measurements/performance/recipes/projection-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/projection-medium.recipe",
+      "sha256": "818f898eed6f6a94ab36d257b62f1a8cf75fe1cb6506e6914d7a0317603f16c2",
+      "bytes": 2598
+    },
+    {
+      "path": "measurements/performance/recipes/projection-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/projection-small.recipe",
+      "sha256": "e9756642feecfe8e1de401b316e7c4f3220637ae85f4688b74588408e1729f12",
+      "bytes": 2595
+    },
+    {
+      "path": "measurements/performance/recipes/substitution-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/substitution-large.recipe",
+      "sha256": "c63df32e5e07c930ae283f7ac158161d486072b041173d70ab09cec85b3e06fe",
+      "bytes": 2782
+    },
+    {
+      "path": "measurements/performance/recipes/substitution-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/substitution-medium.recipe",
+      "sha256": "6a9f691fb4344c9244631cbe1585470515f13cd8bf89287003323030412fd976",
+      "bytes": 2785
+    },
+    {
+      "path": "measurements/performance/recipes/substitution-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/substitution-small.recipe",
+      "sha256": "c8730a6e3390ad7aef379f5c3519ef03fa54bb314104b1985b712c8dff0cdde8",
+      "bytes": 2782
+    },
+    {
+      "path": "measurements/performance/recipes/text-shaping-large.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/text-shaping-large.recipe",
+      "sha256": "138a034f55691b046036363edf79d2c97b3b3a4f5d1eb8f64c303c2e86a06b6b",
+      "bytes": 119054
+    },
+    {
+      "path": "measurements/performance/recipes/text-shaping-medium.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/text-shaping-medium.recipe",
+      "sha256": "d9aaea9a4490d3ff6be1052189209453508998b2c071041c9a72d38c116c1636",
+      "bytes": 118082
+    },
+    {
+      "path": "measurements/performance/recipes/text-shaping-small.recipe",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/recipes/text-shaping-small.recipe",
+      "sha256": "97bcde9377c5aec4a80ad4f01ec1f127fbc85f4733928a66e56f20330e1fa499",
+      "bytes": 117798
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-1-baseline.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-baseline.json",
+      "sha256": "c90389f69a9aab7e6ebcf013ff0567b56b71a9464beeb78c14b886e2f6747236",
+      "bytes": 2648
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-1-baseline.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-baseline.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-1-baseline.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-baseline.stdout.log",
+      "sha256": "97f401b931f4b9cbe10a17c8ee131a268c66c2d97bb67fd113b7104553a9c4f4",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-1-candidate.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-candidate.json",
+      "sha256": "785a3ce82ddada7a6f6a36e1caf375a90a5d279cb98f04a7da0a80ee0f137815",
+      "bytes": 2649
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-1-candidate.stdout.log",
+      "sha256": "c154812d5d89b1fab3eeb5f23b5c7d7b89152af3a8e5c11104b39cbf8243aae0",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-2-baseline.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-baseline.json",
+      "sha256": "6fcabdee5abc00d43027cc113529a2285183b387f5f48fda8af43321ca6b44c6",
+      "bytes": 2649
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-2-baseline.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-baseline.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-2-baseline.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-baseline.stdout.log",
+      "sha256": "a4acc74dc1ca12dc77632b7b1b204eafbe1968d8108b148b67c1afff06317fc5",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-2-candidate.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-candidate.json",
+      "sha256": "0ce19a014af51b3fe7328cc1d0122857e290eb5c2775c2d075d589fc83da4ce9",
+      "bytes": 2647
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-2-candidate.stdout.log",
+      "sha256": "e0c53f89d4ee34b9d4c2c15a1605ee0700ebbb09f59d6d2f8d070f1bd2ce8c61",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-3-baseline.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-baseline.json",
+      "sha256": "874ff78699b992201ad8792fd4f3df79e6f25c0f738c4a7b00f8ec725d09cc2e",
+      "bytes": 2649
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-3-baseline.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-baseline.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-3-baseline.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-baseline.stdout.log",
+      "sha256": "5d8b33db5779d057a55f6721eb39bee9b7f443185e0829b9894dead3bba49427",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-3-candidate.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-candidate.json",
+      "sha256": "e40336d169e725794d9f0d71420f661ce0dfd547381d9deaec7e01b0ffbff68a",
+      "bytes": 2648
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions/periodic-3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/periodic-3-candidate.stdout.log",
+      "sha256": "0d0efbde3cb5146fc50d5ff5b900e5a5d6e6778f3a02d6904f071ffdde0502f9",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions/summary.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions/summary.json",
+      "sha256": "e7b12f47ca990d895edc037b84e4455db3cca26bebbc7714fda97ac82d5d9040",
+      "bytes": 27502
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-1-baseline.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-1-baseline.json",
+      "sha256": "4e88b2168d3604ff2595b33de0a809d029cb8919a8e023ccdf54fccf53e3a34d",
+      "bytes": 2647
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-1-baseline.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-1-baseline.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-1-baseline.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-1-baseline.stdout.log",
+      "sha256": "a9b3dbb92f73efa9274f47e1de73e931864a649f52aa7536af55a68973641f90",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-1-candidate.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-1-candidate.json",
+      "sha256": "0390aaf7d134a12ec25d898d678a153a68f50962448e78a0a2202325ebdacd47",
+      "bytes": 2648
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-1-candidate.stdout.log",
+      "sha256": "b72540d031aba703a061242fbaad84db568b8efc0496a48de5c9781671a51857",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-2-baseline.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-2-baseline.json",
+      "sha256": "6842049e3db4a831f859b09c90903dc24b592826f88f6d5f588aea11aa2b6b2d",
+      "bytes": 2647
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-2-baseline.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-2-baseline.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-2-baseline.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-2-baseline.stdout.log",
+      "sha256": "6ce207f17e118a36e3f2052af6bf03dcbb113010c2e2b6740d4548117de44826",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-2-candidate.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-2-candidate.json",
+      "sha256": "4cae9b0de44d3f0d2ba514a8e117453168e99d471f9ff4a2e6f934942f27f372",
+      "bytes": 2645
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-2-candidate.stdout.log",
+      "sha256": "97d5836e273a8bd7716576360c10541100b4d039cd1e4116daca93118820a936",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-3-baseline.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-3-baseline.json",
+      "sha256": "1670d4a4b36c6288f8c7d05c12e2e1d6d2b402c9e276ced63ee43058960364e5",
+      "bytes": 2647
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-3-baseline.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-3-baseline.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-3-baseline.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-3-baseline.stdout.log",
+      "sha256": "29a99870f14793c8bdcdbcbb7b43b261ca9e7197eeda2a31793e4652b572544f",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-3-candidate.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-3-candidate.json",
+      "sha256": "c5c357532b84c52d3d3e233e0ce1ff5f4560a43d95a6efd5603a6915cecf22ad",
+      "bytes": 2648
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/periodic-3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/periodic-3-candidate.stdout.log",
+      "sha256": "e5cfaa556873b23941f92ae2004a562de1465e3b4f51ce06085036e63b3e80e5",
+      "bytes": 232
+    },
+    {
+      "path": "measurements/performance/repetitions-post-seed-fix/summary.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/repetitions-post-seed-fix/summary.json",
+      "sha256": "985642f771c1f3d3c6f7cb77cc2a437595529297a6f13670a9adf3a0f68fe627",
+      "bytes": 27492
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-large-hex-preflight-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-hex-preflight-Lua-5.3.json",
+      "sha256": "8629c2d726a893580f4fb0968d0d0fc73594adb990eef49c634153131d54ff3b",
+      "bytes": 5757
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "587153c6b80cd26d674cf9c6be5b0fb20cbfb525448e26001c7d4f3691b08107",
+      "bytes": 13821
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "44aedb7b3ff5808d2dad8c11e9d40cc7a858eb057220284d580367d589d62182",
+      "bytes": 13822
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "cb8895478328613d76822f2007ee605f155c755fc577ab62cc44cc07765b2972",
+      "bytes": 13823
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-large-preflight3-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-preflight3-Lua-5.3.json",
+      "sha256": "e1b596874343fb40c87a9fdc10114ee95fafc14ac2c4aacbbda14aea426622be",
+      "bytes": 1162
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-large-preflight4-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-large-preflight4-Lua-5.3.json",
+      "sha256": "6352dbe63a44f0c4b7b86e3028bd918738244dc347214ceae962e5a65f8f5b38",
+      "bytes": 1151
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "19c253235e9038a2a365f0d02d7beddd0ab9787c4a68b4772c1631f6b5f26323",
+      "bytes": 13796
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "e02b6ef6e512d098ccf697317b443f276c198ffe69a651ae389a33e9cfe7bb3b",
+      "bytes": 13800
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "f9085e7de6d93d639b8e8060bc44669d1bf2e274ecd658c54df377361e943344",
+      "bytes": 13800
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "249d04daaaf5437af5e6454ab39a3b2528aafaadb66afb01e8c887f001fa4812",
+      "bytes": 13761
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "58b1ff5480b89b3b6525fbc3b5093844d05ff02e5e867c1240249dbc7c46ceb0",
+      "bytes": 13760
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "af7a8f17854bcb3f0347fb98c12430dd5f144c79fffea131605434bc4b8b1cff",
+      "bytes": 13761
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-small-preflight-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-preflight-Lua-5.3.json",
+      "sha256": "cbfc68d4face330bf69df35e652b3b4182a5121514faa81ebec2a7107d748983",
+      "bytes": 1200
+    },
+    {
+      "path": "measurements/performance/results/circle-packing-small-preflight2-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/circle-packing-small-preflight2-Lua-5.3.json",
+      "sha256": "2ebdc0248b756c5c87af4a600859415736acc56e63c3a32c834686e1cc686bb6",
+      "bytes": 5641
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "53b3b05366ae09e7e862aee885b923cbbccfa227cc4c4301daea2b58e2444cd0",
+      "bytes": 11968
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "bf2f6319b5fd0cdc2b9b469bde7359731c45b78f5d51d612d92f20ce0b8b0b2c",
+      "bytes": 11973
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "5d1a611ba21372053bf827cfbb3777ed7e30eec3928f0e2542326faaf134e9ca",
+      "bytes": 11974
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "9fee67805fb446bc2b42c7ecb9232649d63657c657ffc39ba3734db9a7cdd167",
+      "bytes": 11966
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "a1281d3a62e992fb61611893acfc79a5a27d598395e68c8c2cdacbf3f4514984",
+      "bytes": 11974
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "4bed3741815c5691c62a68736c43e89b31475346dea022d56979568dfe867811",
+      "bytes": 11970
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "4391acce2a84027c1b9ae5a8733f77428d1bb600c26a5327e4129bd39b467be3",
+      "bytes": 11954
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "77d3a478c70dbb77caae9934e5efdf172c1cbc2fa93ae585c69b66145199a349",
+      "bytes": 11955
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "e78db3d2e3e4675843f1cb99240439f11ea07d94fbd4aa167ea1efa352c8ff51",
+      "bytes": 11959
+    },
+    {
+      "path": "measurements/performance/results/example-synthesis-small-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/example-synthesis-small-preflight-candidate-Lua-5.3.json",
+      "sha256": "46aff2833178446221ff9d912e622c294ef2be8df0208a93a7d41e423be2562d",
+      "bytes": 11955
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "5d01ec5709c2a9c4e264ba89ec919e17cba9cdf124c8e440be5541ea37979a31",
+      "bytes": 12180
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "646c7b69d1e83dc8227c60bf53ca80cbd8a76965ad121796bc8e0197acabd77a",
+      "bytes": 12179
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "ed5fb60bec2ac53063201dffb340278f70ef6cf952d724b0b651348842316dd2",
+      "bytes": 12180
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "b55c4b938bceeac62248c73a8ad99d85bbe40e47f2c22ab17d689f0ab22d274d",
+      "bytes": 12169
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "d1427ec2b47e6c010fd9f45f502c0c88d3959be4540331cb5f797047184bf0a9",
+      "bytes": 12168
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "cde09319cda4ed6e211b20bc9dba42b03bbbadf1113c416e26f82d7f00ab8374",
+      "bytes": 12170
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "a92992472403073754e10a823f4d9a3939f36ec897427163ad53eeeaa4a6e612",
+      "bytes": 12134
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "0957a0c24475cd6ecb1adc64b4352b017a5efd1bd88a8d45f0b25ca84b55f5c6",
+      "bytes": 12133
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "b0cb8d8e64b931280ae1da098a26d7b9b9cf30b682680a24e1ff34d9f903fa3c",
+      "bytes": 12134
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-small-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-preflight-candidate-Lua-5.3.json",
+      "sha256": "12e7e50289a7210f5b6b15b7f8ded98d7d15511b5ca8878a146d7c227c7d39bd",
+      "bytes": 12173
+    },
+    {
+      "path": "measurements/performance/results/floral-growth-small-scaled-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/floral-growth-small-scaled-preflight-candidate-Lua-5.3.json",
+      "sha256": "97f167c112ba7b2c412fc0a1c1d1d467a2362c7f1dee5ac93e0277f32c33ee3e",
+      "bytes": 12134
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "a9e0b1604d4c8773af51632a65c584e0b325165408f6f9fd8a98a019d7a9e91f",
+      "bytes": 12119
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "10ce5519051bfd92bca809529cc7728a09a3ee4039acaa03342eba9d8beaf793",
+      "bytes": 12117
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "ace95c9c3da22b2ef211d50c588f7433c9ad872c8f28a6fdd6337a52eb51c1fd",
+      "bytes": 12117
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-large-scaled-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-large-scaled-preflight-candidate-Lua-5.3.json",
+      "sha256": "afce7fe2294246dbbb62129d7a44c98e5a8ec075dab6dc9386d7b34ef96c3029",
+      "bytes": 12120
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "0db9a3af747bb90258622493339335b2359ef419658f6e4484d3f420e6148d25",
+      "bytes": 12113
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "5dfc69c67eec334be70b1828fd54dcdbaff28f4c18040a467af95473c46a0e46",
+      "bytes": 12110
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "e03cc92fad7615834120bf0ec30f41b35d0dc105578627d6efcc4507daff9c76",
+      "bytes": 12112
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-medium-scaled-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-medium-scaled-preflight-candidate-Lua-5.3.json",
+      "sha256": "6ff0c8943b8f0d8d3b68b24964740c43adf5910a21d9519366a0e182735c34c9",
+      "bytes": 12112
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "4970b8fefc343d9184a230850855c6bed0fd77b3f2bb4a37642fac2054d56459",
+      "bytes": 12095
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "ae741c3826131484ab704c9534a8b4040694e787400f87dc499c69274d629592",
+      "bytes": 12097
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "24bff9c81ebbeb346950f63f4e5f8937d715a60d2846a6d97327cbea5493358b",
+      "bytes": 12096
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-small-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-preflight-candidate-Lua-5.3.json",
+      "sha256": "cf65d8747da014ca66580435cd93427e3e0f453cc04dea8b6a47b39afeb69048",
+      "bytes": 9175
+    },
+    {
+      "path": "measurements/performance/results/knot-topology-small-scaled-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/knot-topology-small-scaled-preflight-candidate-Lua-5.3.json",
+      "sha256": "39bfb815fef590261f4f7238a2856ca5dbbee711473e1f2b875970c4a53a7afa",
+      "bytes": 12098
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "03f389620694dd6cb12b7293ceda5a968513bb037134caa7c93e1fc0776425d8",
+      "bytes": 36756
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "05253657ae1495ca8afeb65506865b3ae24a311451f9b0344101b71b6521de28",
+      "bytes": 36764
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "e2d75ff798ff0f35d526c092db99037f866519c106392d580beb96df57edc716",
+      "bytes": 36762
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "2ebfbf672e29d847f10512751cfab23d31bca1380007de80a1a1fa0f04085541",
+      "bytes": 26628
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "a649214f4919f9fa4430050f720ad020ad45170aed210e5e0b91048be1a6dcc2",
+      "bytes": 26633
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "609fcc479fa84374b289cafbddfa8a1313fdc2e3ce1a7c995e371914ed7c167d",
+      "bytes": 26635
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "80bd47b3238cccb4a5dac03ebae4f7a4b1c772330df9b8a6f20a44f96da82d39",
+      "bytes": 16658
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "6cbd4e4989df8c36fe9373d4ffbf291271239f490e8b292d49b1b0d8a6f720fc",
+      "bytes": 16661
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "c80748204c95ebd7e81e608b7625a6e56782f2fa9814e0d9d1ac2b3419fdfd48",
+      "bytes": 16660
+    },
+    {
+      "path": "measurements/performance/results/mosaic-packing-small-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/mosaic-packing-small-preflight-candidate-Lua-5.3.json",
+      "sha256": "1fadcf5d3f9a5d96528dc533d23440733aa957c84b48277b1f84308dd0c67cc3",
+      "bytes": 16659
+    },
+    {
+      "path": "measurements/performance/results/optimization-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "f7e0c5f60b1bf7a3b271ed9da5001ef6280ac51b31bc7d31a629528538b800e1",
+      "bytes": 14093
+    },
+    {
+      "path": "measurements/performance/results/optimization-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "bd6bf889ad67eeb12c447709dff577b13f03d6e5a553708aa59249f33e93b78d",
+      "bytes": 14093
+    },
+    {
+      "path": "measurements/performance/results/optimization-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "d5be1e0afc2b2e6ae64b5de9b92634412673603cef0eb9faf00b95ca78184b98",
+      "bytes": 14093
+    },
+    {
+      "path": "measurements/performance/results/optimization-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "a5e339569a737526eb14509d771909d82db15bfeab54bb24178e4f7e5771fb7b",
+      "bytes": 14092
+    },
+    {
+      "path": "measurements/performance/results/optimization-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "b24274d80f6d26591e0313d15d83779ff96e6cbf8e4bab13aaa47188742420f1",
+      "bytes": 14093
+    },
+    {
+      "path": "measurements/performance/results/optimization-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "e6bb81e64c9015e3be783f2b2fcad66f214c50414b9fb4d6d66dd1bdfa5fdb31",
+      "bytes": 14094
+    },
+    {
+      "path": "measurements/performance/results/optimization-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "8ad32ea3800f855a5b0476742d40ab17718be2470fb0667d1c45f10c8909ac97",
+      "bytes": 14079
+    },
+    {
+      "path": "measurements/performance/results/optimization-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "5dddf7140bda9455ce178bfedda80bb707d97ac3d13c9eb1c5ef361581455828",
+      "bytes": 14081
+    },
+    {
+      "path": "measurements/performance/results/optimization-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "5bc10fa293bda09937075ef3dbaf91788dde71f469c23d4afe4df162ffcd891a",
+      "bytes": 14082
+    },
+    {
+      "path": "measurements/performance/results/optimization-small-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/optimization-small-preflight-candidate-Lua-5.3.json",
+      "sha256": "42cf1f7a527a199f7e6d4907f6fa239d4aa411654a46f968b414c44054f2035b",
+      "bytes": 14079
+    },
+    {
+      "path": "measurements/performance/results/projection-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "48a635f575babe585232a6f32017315a80eafefdc11c5bf277e40c7c26603e70",
+      "bytes": 12047
+    },
+    {
+      "path": "measurements/performance/results/projection-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "e0fa3babf57f4d18ede301c80a1c57429eee15893f9fe07a6317b5e0a34f8c46",
+      "bytes": 12048
+    },
+    {
+      "path": "measurements/performance/results/projection-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "24f88a368f8317b11392ac8436f01bc98b2beee853760097d2133a1530800390",
+      "bytes": 12048
+    },
+    {
+      "path": "measurements/performance/results/projection-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "d486830265f532939514239f9e07587481f511156c369a96ffcca1b1c6aba528",
+      "bytes": 12035
+    },
+    {
+      "path": "measurements/performance/results/projection-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "7ce342d9910f49e5362a8e1c0a700f48b70d7f60d4a7212fd5430ce3f4fede3f",
+      "bytes": 12036
+    },
+    {
+      "path": "measurements/performance/results/projection-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "0d41ad3d13c74a2b938d3e1288b6198f42da60059208c069b6bb86b9ce51108d",
+      "bytes": 12036
+    },
+    {
+      "path": "measurements/performance/results/projection-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "8030be0ff13981224e0444984f5aefde9356ad467688975779b6860c41610d60",
+      "bytes": 12024
+    },
+    {
+      "path": "measurements/performance/results/projection-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "dead590b5f01d96c63a4637fb0b24849cb0cf886a967f814908f5061b702d32b",
+      "bytes": 12026
+    },
+    {
+      "path": "measurements/performance/results/projection-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "98a18f387f2b7337bccfc86c67fc10b01288d9736cc3ddd771f92b925d5b15ac",
+      "bytes": 12025
+    },
+    {
+      "path": "measurements/performance/results/projection-small-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/projection-small-preflight-candidate-Lua-5.3.json",
+      "sha256": "fd61a3fae9489aa94f9d299743a0d865dd7e464c87f0d232b5ef4d1e3fb8c79a",
+      "bytes": 12024
+    },
+    {
+      "path": "measurements/performance/results/substitution-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "569064ccacc72525473168f250a81338c8b9ae59ce2c1356c3306119c4f02e91",
+      "bytes": 12111
+    },
+    {
+      "path": "measurements/performance/results/substitution-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "cdcfaea73f8bf13194bb15e6cc0858b318cf884f4f42218ae43522c02d8debaa",
+      "bytes": 12114
+    },
+    {
+      "path": "measurements/performance/results/substitution-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "fddab65830498d49272d240dfd19e371b7fc1900714fc4b2366bcf29df3ceb80",
+      "bytes": 12114
+    },
+    {
+      "path": "measurements/performance/results/substitution-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "8827885074dea10bc800517d10b02f03672c2983a3536e6dbdf71a9e9c97ac56",
+      "bytes": 12090
+    },
+    {
+      "path": "measurements/performance/results/substitution-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "10d63699ea55928959fb01de5793d35042bb16a87ad0e3639a0c7e3ffb602748",
+      "bytes": 12088
+    },
+    {
+      "path": "measurements/performance/results/substitution-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "e9163a3e1d45b243d907352c76419535c62661042c2aad9a983fc1830608d0c9",
+      "bytes": 12090
+    },
+    {
+      "path": "measurements/performance/results/substitution-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "bc4bd284d161fa444951135308a9bec30086af43312417464cf3e2f6119d3b66",
+      "bytes": 12074
+    },
+    {
+      "path": "measurements/performance/results/substitution-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "29a210990f06213d05cef421f9a2451e3e7b03684411423680929a9fc229929a",
+      "bytes": 12074
+    },
+    {
+      "path": "measurements/performance/results/substitution-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "d7bf8b8e8ae115e2e95dbb99dda310fff0088358ed0333f80b14183213e846c9",
+      "bytes": 12075
+    },
+    {
+      "path": "measurements/performance/results/substitution-small-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/substitution-small-preflight-candidate-Lua-5.3.json",
+      "sha256": "f57c18e8dbb9c0d2e33c318081cbe513941474c9ba92f241337ba67cb3334f8a",
+      "bytes": 12075
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-large-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-large-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "65f78ee3370b5444eed9b9740184cde84bea7e4aa41253a304c378a4ac277f72",
+      "bytes": 9235
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-large-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-large-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "c0f5db2e899373c50271cf942f2cb2e22faf3c4628fc2509f2f170228dfeee75",
+      "bytes": 13197
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-large-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-large-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "36e87f2ec39935b1686568ebef83739ab61e8dfc6bca25fa02f11f6664d4dd7d",
+      "bytes": 13196
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-large-text-wide-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-large-text-wide-preflight-candidate-Lua-5.3.json",
+      "sha256": "66b46fba49f8c6c065369c58d3f2b1d2143ecb0867780102aae2c6c1a1091afb",
+      "bytes": 13198
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-medium-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-medium-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "5e79f5543d5160b41311e9a50a2e0dc5f80035046e62150eacb2f947d4d82c81",
+      "bytes": 13176
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-medium-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-medium-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "758fa4a9e5a7441713af9dab0036ac062c20ec62f6d3bd63ac7a3d7c7bb46ba3",
+      "bytes": 13178
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-medium-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-medium-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "99df1bfaae243a9968ea71999d6825bc74dbe05121a2921585aa98aa02f9f67d",
+      "bytes": 13179
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-small-matrix-v1-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-small-matrix-v1-candidate-Lua-5.3.json",
+      "sha256": "c0fe75e001b98cc2522dff8e23853d5f45eac6a74f9b79763e2a4b1f9703c4a2",
+      "bytes": 13167
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-small-matrix-v2-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-small-matrix-v2-candidate-Lua-5.3.json",
+      "sha256": "25972228fa9e3b71349fb501a49f643a34abe87584d75a803354df339a10277d",
+      "bytes": 13169
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-small-matrix-v3-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-small-matrix-v3-candidate-Lua-5.3.json",
+      "sha256": "2cdf45998de6dbe3e5d3ba873aec85c4f0dfc4ab4db672538f3fae8b81c5b796",
+      "bytes": 13173
+    },
+    {
+      "path": "measurements/performance/results/text-shaping-small-preflight-candidate-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/results/text-shaping-small-preflight-candidate-Lua-5.3.json",
+      "sha256": "0c6a293768ab7163cd5b1706034db572788079b7bd250c5c5ea6e3bc3dad5b4a",
+      "bytes": 13169
+    },
+    {
+      "path": "measurements/performance/substitution-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v1-candidate.stdout.log",
+      "sha256": "696c40706a20557ed2773847d96f59492f6dd0c0b2ea1071d675344d1a0d4408",
+      "bytes": 311
+    },
+    {
+      "path": "measurements/performance/substitution-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v2-candidate.stdout.log",
+      "sha256": "1c1e53b846e0795eb4b59c0e9b4ed46b4f68ef503afd60ecb95e15e11eb8c2a9",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/substitution-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-large-matrix-v3-candidate.stdout.log",
+      "sha256": "760d0299c7a30f31712de7f2addce2b1cc87e957de7020a7aaf46ab6de6a4bf8",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/substitution-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "6d45e506222177372b365f30d7efa597d360aa1d72af8bf6dbfdda1d7f2e6cdb",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/substitution-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "193d090c5fccd7e4f40bf9fc258161a1cac6804d1fdc15fc214d750a12f391e6",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/substitution-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "9ce7b16f37178fe37d492dae1b04e31b56397211fbf8d2fbf9bd8bdad2697188",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/substitution-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v1-candidate.stdout.log",
+      "sha256": "e059743f3e48df86bbc299d8b6f175e1a931cfff1bcf6451be3a43e8f05ec019",
+      "bytes": 309
+    },
+    {
+      "path": "measurements/performance/substitution-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v2-candidate.stdout.log",
+      "sha256": "255d617494142c4547dab44771239c6f5ea1ea5a044792e38d4bef8ef45fcd12",
+      "bytes": 309
+    },
+    {
+      "path": "measurements/performance/substitution-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-small-matrix-v3-candidate.stdout.log",
+      "sha256": "d62abf2189109eba2584e2b15de08df7b99441d03ce68a8b8885cc6c6dc05454",
+      "bytes": 309
+    },
+    {
+      "path": "measurements/performance/substitution-small-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-small-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/substitution-small-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/substitution-small-preflight-candidate.stdout.log",
+      "sha256": "339d3aa4e77dcf93156fc4194b7b70b13c89314f4ca98152fdc053ad35f01369",
+      "bytes": 309
+    },
+    {
+      "path": "measurements/performance/summary-matrix-v1.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/summary-matrix-v1.json",
+      "sha256": "38723dffa14bcdb28a14155fb0ec787f25f797e0d02ba60397ef2303d7066883",
+      "bytes": 641774
+    },
+    {
+      "path": "measurements/performance/summary-matrix-v2.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/summary-matrix-v2.json",
+      "sha256": "966504ed22ab537ad0565d0f021becb60ada744fd1d551d02ca2ba126cd90942",
+      "bytes": 648763
+    },
+    {
+      "path": "measurements/performance/summary-matrix-v3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/summary-matrix-v3.json",
+      "sha256": "4c4d2392f6836f6af75d808ffb9123e5dfd3b22a4881f9c44be63f5be4c68ef5",
+      "bytes": 649081
+    },
+    {
+      "path": "measurements/performance/summary-preflight.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/summary-preflight.json",
+      "sha256": "a3dc1c28e737ce7190ed9d231a3036aef7e93021b5d0b807919be81a36ccc16d",
+      "bytes": 165814
+    },
+    {
+      "path": "measurements/performance/summary-scaled-preflight.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/summary-scaled-preflight.json",
+      "sha256": "7f88886fd6ff79e78286737d5d7f21cddd974784af73cea53245b082fff55c4f",
+      "bytes": 81216
+    },
+    {
+      "path": "measurements/performance/summary-text-wide-preflight.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/summary-text-wide-preflight.json",
+      "sha256": "904e4cba55c564a0166cb24db4bd5b53a593330681ceb5808d029383f03c6ca1",
+      "bytes": 29352
+    },
+    {
+      "path": "measurements/performance/text-shaping-large-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v1-candidate.stderr.log",
+      "sha256": "a5cb4c3de00ad0bcb742f0bcdc1ef1f845d7db244512c03c911a971bb7a45f65",
+      "bytes": 921
+    },
+    {
+      "path": "measurements/performance/text-shaping-large-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v1-candidate.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-large-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-large-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v2-candidate.stdout.log",
+      "sha256": "56e51b3107715a4cbc4de9d919025e22a05e9c1148f974eb9c4df3b6fc193fcc",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/text-shaping-large-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-large-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-large-matrix-v3-candidate.stdout.log",
+      "sha256": "b8c3821174bf0636766568d8c31e2aa0f5c8ae3e7abac3a1eca1574dc06b6715",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/text-shaping-large-text-wide-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-large-text-wide-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-large-text-wide-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-large-text-wide-preflight-candidate.stdout.log",
+      "sha256": "46ff6420a0fb28253235d1d93f811feb2e0c7d8324eab1b3c2f11005c5efa58c",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/text-shaping-medium-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-medium-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v1-candidate.stdout.log",
+      "sha256": "5c02f10d9f3eef12803fa25f1584d8c0e82c4c349e6d1f71d0160b18056d2aca",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/text-shaping-medium-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-medium-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v2-candidate.stdout.log",
+      "sha256": "61358ffb5d44b22d3d71b198bb874b3ea9526cc5c2780160f4437ab8afbe3a83",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/text-shaping-medium-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-medium-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-medium-matrix-v3-candidate.stdout.log",
+      "sha256": "5b61aa414f522dd8e6072918ebbe113a1c6e44716c4b0d76fd327f32ee2752ec",
+      "bytes": 313
+    },
+    {
+      "path": "measurements/performance/text-shaping-small-matrix-v1-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v1-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-small-matrix-v1-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v1-candidate.stdout.log",
+      "sha256": "edbba9417e53105fc0da461fc82f5995a650b02b228ec82b0bc6cebfd0331f4d",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/text-shaping-small-matrix-v2-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v2-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-small-matrix-v2-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v2-candidate.stdout.log",
+      "sha256": "d7faf94bad408627236b4ac68db7ab0f507c8bba55d648059a0b4afb80115b39",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/text-shaping-small-matrix-v3-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v3-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-small-matrix-v3-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-small-matrix-v3-candidate.stdout.log",
+      "sha256": "6a0005511d39e880542a4c7871d26263a40fa65926c04c900bf560ff1cd7c3cb",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/text-shaping-small-preflight-candidate.stderr.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-small-preflight-candidate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "measurements/performance/text-shaping-small-preflight-candidate.stdout.log",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/text-shaping-small-preflight-candidate.stdout.log",
+      "sha256": "afe6db39c6aa2396bb8837bf03ffbe2c05d91a4d4ef5e8b89f1391e20bec046b",
+      "bytes": 310
+    },
+    {
+      "path": "measurements/performance/workloads.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance/workloads.json",
+      "sha256": "2fc30f1320430e604456516e4ea5422270813a9db25bbe7d69d473370e7812b9",
+      "bytes": 9277
+    },
+    {
+      "path": "measurements/hash-cache/receipt-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/hash-cache/receipt-Lua-5.3.json",
+      "sha256": "2faab29adb47d563395970ef52b7ab2ddb539b5e72e94fa48d1e79d2eed2c9aa",
+      "bytes": 1399
+    },
+    {
+      "path": "measurements/hash-cache/receipt-Lua-5.4.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/hash-cache/receipt-Lua-5.4.json",
+      "sha256": "7d7788d0018fc67ac0020d416168b46335fbd37ac68d383e41d8ef730043ef6c",
+      "bytes": 1399
+    },
+    {
+      "path": "measurements/packing-scale/receipt-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/packing-scale/receipt-Lua-5.3.json",
+      "sha256": "c50171926a00f32970a37e96aee6ff8232c3ed387a7eb38b842c104c216de3e6",
+      "bytes": 14464
+    },
+    {
+      "path": "measurements/packing-scale/receipt-Lua-5.4.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/packing-scale/receipt-Lua-5.4.json",
+      "sha256": "7c839ddb3b47fb34c432712ca303e5709d057933ab74990868c7bf5d11793086",
+      "bytes": 14464
+    },
+    {
+      "path": "measurements/performance-bounds/receipt-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance-bounds/receipt-Lua-5.3.json",
+      "sha256": "a659d4962338329e1bb1935d56063d691f7b7cf3be11d17e5b2958abc64c7613",
+      "bytes": 17023
+    },
+    {
+      "path": "measurements/performance-bounds/receipt-Lua-5.4.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/performance-bounds/receipt-Lua-5.4.json",
+      "sha256": "df155f5ca762d7502765218471c8d162899f0f7d9d426d556f19a4f9812f9b49",
+      "bytes": 17023
+    },
+    {
+      "path": "measurements/browser-performance/receipt.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/browser-performance/receipt.json",
+      "sha256": "9a0129e5306b21f93d03e6986925e67610221b219491549f5d243d9e7e6275c3",
+      "bytes": 349276
+    },
+    {
+      "path": "measurements/browser-performance/studio-cancel.png",
+      "checkpoint_storage": "execution-stage34/visuals/measurements/browser-performance/studio-cancel.png",
+      "sha256": "cdbd598d0b0c9005b1512710ba5a94049a3d541a83d271fdcbb303969bc57f55",
+      "bytes": 79557
+    },
+    {
+      "path": "measurements/browser-studio-performance/receipt.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/browser-studio-performance/receipt.json",
+      "sha256": "f9bcaf934104b08982ff8052418c2fe73a450d4314f48236645e12df879eb1b5",
+      "bytes": 1001
+    },
+    {
+      "path": "measurements/browser-studio-performance/studio-cancel.png",
+      "checkpoint_storage": "execution-stage34/visuals/measurements/browser-studio-performance/studio-cancel.png",
+      "sha256": "cdbd598d0b0c9005b1512710ba5a94049a3d541a83d271fdcbb303969bc57f55",
+      "bytes": 79557
+    },
+    {
+      "path": "measurements/floral-editor-seed/receipt-Lua-5.3.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/floral-editor-seed/receipt-Lua-5.3.json",
+      "sha256": "ba8018516ba9867bcbc6e7062e8458b6581697ec72b593aba39071bbdeb92315",
+      "bytes": 8470
+    },
+    {
+      "path": "measurements/floral-editor-seed/receipt-Lua-5.4.json",
+      "checkpoint_storage": "artifacts/receipts/34/measurements/floral-editor-seed/receipt-Lua-5.4.json",
+      "sha256": "bed3fcf183d1cac0f25d78b279c39f4bb178b561bf791ce91412e51a642a06e6",
+      "bytes": 8470
+    }
+  ]
+}

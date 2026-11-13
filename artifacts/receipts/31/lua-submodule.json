@@ -1,0 +1,17 @@
+{
+  "name": "lua",
+  "path": "lua",
+  "sha": "be908a7d4d8130264ad67c5789169769f824c5d1",
+  "size": 0,
+  "url": "https://api.github.com/repos/ceifa/wasmoon/contents/lua?ref=87c783a8d0bf65afeda933fa47d8dc996be53bb3",
+  "html_url": "https://github.com/lua/lua/tree/be908a7d4d8130264ad67c5789169769f824c5d1",
+  "git_url": "https://api.github.com/repos/lua/lua/git/trees/be908a7d4d8130264ad67c5789169769f824c5d1",
+  "download_url": null,
+  "type": "submodule",
+  "submodule_git_url": "https://github.com/lua/lua",
+  "_links": {
+    "self": "https://api.github.com/repos/ceifa/wasmoon/contents/lua?ref=87c783a8d0bf65afeda933fa47d8dc996be53bb3",
+    "git": "https://api.github.com/repos/lua/lua/git/trees/be908a7d4d8130264ad67c5789169769f824c5d1",
+    "html": "https://github.com/lua/lua/tree/be908a7d4d8130264ad67c5789169769f824c5d1"
+  }
+}

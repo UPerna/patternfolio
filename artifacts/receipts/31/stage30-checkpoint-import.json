@@ -1,0 +1,13 @@
+{
+  "parent_revision": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "stage30_accepted_evidence_hashes_preserved": 57,
+  "divergent_inherited_evidence": [
+    {
+      "path": "artifacts/receipts/30/research.json",
+      "source_revision_sha256": "7fabc00ee1324e88b0445de1ba33ac7f3499e89e34175b711bc289a4201462eb",
+      "accepted_checkpoint_sha256": "28794a1b800ee19ac4e2abe92d8cbcce62914e66a0359bde56170d64b67bb8f9",
+      "preserved_source_bytes_as": "artifacts/receipts/31/inherited-stage30-research.json"
+    }
+  ],
+  "policy": "Preserve exact accepted checkpoint bytes. Retain differing published source-evidence versions under stage31 aliases; no receipt redigestion or loss."
+}

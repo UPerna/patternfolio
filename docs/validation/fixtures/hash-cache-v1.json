@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "independent_reference": "Python3.12.14 hashlib SHA256; exact byte construction described per vector",
+  "vectors": [
+    {
+      "name": "empty",
+      "text": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "abc",
+      "text": "abc",
+      "sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+    },
+    {
+      "name": "binary-all-bytes",
+      "kind": "all-bytes",
+      "repetitions": 257,
+      "sha256": "120c518a83325c66464701a6ee080302f332bc768ea3f60473b209f1bfb091df"
+    },
+    {
+      "name": "one-MiB",
+      "byte": 120,
+      "length": 1048576,
+      "id": 1,
+      "sha256": "bab908befa9e1a480bb87512ccf595aa7503c8f415ed330903951f9066fad163"
+    },
+    {
+      "name": "above-entry-cap",
+      "byte": 0,
+      "length": 2097153,
+      "id": 2,
+      "sha256": "4ba00ccdaa6ad6971cf3723bc6ba3c1a03d4514f37fe6b526b27bbf4656c95f1"
+    }
+  ],
+  "memory_pressure": [
+    {
+      "name": "byte-pressure-1",
+      "byte": 33,
+      "length": 1048576,
+      "id": 1,
+      "sha256": "c0ec07418cb33f1394aeb370c3e3ce65f7a42fa26bdd8e6d9701dda6590121a9"
+    },
+    {
+      "name": "byte-pressure-2",
+      "byte": 34,
+      "length": 1048576,
+      "id": 2,
+      "sha256": "f2172c51b3af738a86d89980e1f80faced455eeed84c360b9ab4742772000736"
+    },
+    {
+      "name": "byte-pressure-3",
+      "byte": 35,
+      "length": 1048576,
+      "id": 3,
+      "sha256": "8b30f5beda1e3a4fe8411bae24c93884240922804d4e41473422bbba4e9b5d5b"
+    },
+    {
+      "name": "byte-pressure-4",
+      "byte": 36,
+      "length": 1048576,
+      "id": 4,
+      "sha256": "a7e8eb095c4b3c58d529e063a19002cbfe3b602f43fcc543efb8890946200fb7"
+    },
+    {
+      "name": "byte-pressure-5",
+      "byte": 37,
+      "length": 1048576,
+      "id": 5,
+      "sha256": "9dc77ab8b3222153b21c960fbc5a751d28490589618962af0415af4f14894514"
+    }
+  ]
+}

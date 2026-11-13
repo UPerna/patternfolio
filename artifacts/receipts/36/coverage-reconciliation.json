@@ -1,0 +1,39 @@
+{
+  "stage": "36",
+  "status": "ledger_reconciled",
+  "ledger_sha256": "860fb2e76bfd7469cbc2ec71a0e054aee4020a1a03c15a15c13a71c99754bf25",
+  "mandatory_rows": 46,
+  "optional_unimplemented": 6,
+  "reconciled": [
+    {
+      "capability_id": "AU01",
+      "stage_owner": "32",
+      "status": "passed",
+      "evidence": "docs/research/CONTROL-AUDIT.md; artifacts/receipts/32/acceptance.json; artifacts/receipts/35/stage35-editor-verification.json",
+      "limitations": "The survey categories map to implemented controls and their scope. Current real browser evidence covers 13 workflows and native validation. The survey is not a requirement to implement its other interaction methods."
+    },
+    {
+      "capability_id": "PX01",
+      "stage_owner": "03",
+      "status": "passed",
+      "evidence": "artifacts/receipts/03/local-checks.json; artifacts/receipts/03/ci-final.json; artifacts/receipts/35/stage35-inherited-native-verification.json; docs/architecture/CONTRACTS.md",
+      "limitations": "Schema 1, named semantic capabilities, exact-source replay and validated planner input."
+    },
+    {
+      "capability_id": "PX02",
+      "stage_owner": "27",
+      "status": "passed",
+      "evidence": "artifacts/receipts/27/ci-final.json; artifacts/receipts/27/oracle-local.json; artifacts/receipts/35/stage35-common-native-verification.json; docs/design/ORIGINAL-COLLECTIONS.md",
+      "limitations": "Composition evidence covers named finite products with explicit placement, masks, ports and preserved instance semantics."
+    },
+    {
+      "capability_id": "PX03",
+      "stage_owner": "31",
+      "status": "passed",
+      "evidence": "artifacts/receipts/29/acceptance.json; artifacts/receipts/30/acceptance.json; artifacts/receipts/31/acceptance.json; artifacts/receipts/32/acceptance.json; artifacts/receipts/35/acceptance.json",
+      "limitations": "Both native engines and the same Lua code in the browser. Binary64 roundoff allowances are restricted to the named comparison profiles and do not replace structural checks."
+    }
+  ],
+  "evidence_paths_verified": 83,
+  "scope": "Four stale rows reconciled against owning-stage accepted evidence and the explicit control audit. No scope was reclassified. Optional extensions are still listed."
+}

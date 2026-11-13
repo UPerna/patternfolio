@@ -1,0 +1,11 @@
+{
+  "revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "run": 42318922466,
+  "job": 128238410271,
+  "artifact_id": 13553843215,
+  "artifact_name": "florilegium-pdfs",
+  "sha256": "996a8435359d92e6f5640cf55a763d0c7df9fda848dd618b32b385c92fd11e3f",
+  "archive_bytes": 34069176,
+  "verified_archive_sha256": "996a8435359d92e6f5640cf55a763d0c7df9fda848dd618b32b385c92fd11e3f",
+  "safe_extraction": true
+}

@@ -1,0 +1,19 @@
+{
+  "stage": "36",
+  "status": "in_progress",
+  "source_base_revision": "96390d9afce26246dcf6da878e33fcb95b2c1b28",
+  "base_tree": "122a3dce50a51bacf93b428ab164c0917478fb03",
+  "prerequisite": "35",
+  "protected_prior_evidence_hashes": 829,
+  "prior_acceptance_sha256": {
+    "29": "317e88ec9fab86a2898bd0153a98b0497db22edc55d19715e411b34b967b8819",
+    "30": "f0dcaa08d1e7e9f5c4895d5cef2dce080d509ed05f33a42f82241f8c036209e2",
+    "31": "7291d318d1f1ba98de674eb0fa41859805fcee09ed6d49965709c54bc8d41ed1",
+    "32": "79afd2600b3d8f5c8f4f3a62031ca5b185ef223a18ac300bf931bb3914a66777",
+    "33": "9b98ed7a737306c3c365081329a58548b1f6edec91cd50f4389023125b894bc9",
+    "34": "8a805a1672a8cb36f9a5a39b25e69605b39284fdb61a37b774bac2ce157c1fa9",
+    "35": "6205570a53b850279be2fd7cb8da21d7d0eb097cdba39894dcaf506e9f3947d0"
+  },
+  "inherited_published_aliases": [],
+  "next_action": "Begin stage 36 in a new isolated checkout at 96390d9afce26246dcf6da878e33fcb95b2c1b28. Read Prompt 36 and its prerequisites. Build a generated gallery with original canonical and polished versions for each profile, exact recipes and provenance; include the existing book collection, aperiodic spread, hybrid ornament, text, exemplar and projected Gothic examples. Reconcile the four pending mandatory coverage rows with the actual owning-stage evidence; repair any confirmed gaps. Verify newcomer workflows, linked assets, native and browser CI, and source publication. Continue 37–39 automatically. Preserve the draft PR and publication boundaries."
+}

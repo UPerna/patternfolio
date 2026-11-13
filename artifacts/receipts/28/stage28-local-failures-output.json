@@ -1,0 +1,1 @@
+{"checks": 19, "concurrent_destination_checked": true, "damaged_output_rebuilt": true, "hardlink_lock_checked": true, "junction_checked": true, "partial_batch_repaired": true, "signal_cancellation_checked": false, "symlink_checked": false, "timeout_checked": true, "unicode_paths_checked": true}

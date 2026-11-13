@@ -1,0 +1,47 @@
+{
+  "retrieved": "2026-11-06",
+  "sources": [
+    {
+      "url": "https://github.com/ceifa/wasmoon",
+      "version": "npm1.16.0; package source87c783a8d0bf65afeda933fa47d8dc996be53bb3",
+      "sections": "LuaFactory, engine options, Global memory tracing; dist API inspected",
+      "use": "Embed official Lua VM; allocation ceiling; source modules and binary-safe transport."
+    },
+    {
+      "url": "https://github.com/fengari-lua/fengari",
+      "version": "fengari-web npm0.1.4",
+      "sections": "Semantics/integers; strings; missing browser features",
+      "use": "Compact option evaluated in same real browser; actual int64 guard fails."
+    },
+    {
+      "url": "https://github.com/lua/lua/blob/be908a7d4d8130264ad67c5789169769f824c5d1/lua.h",
+      "version": "source Lua5.4.5",
+      "sections": "Version macros and exact copyright/MIT notice",
+      "use": "Pin upstream submodule source and preserve exact notice; binary reports Lua5.4 and is independently content-hashed."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Worker/terminate",
+      "version": "living documentation retrieved2026-11-06",
+      "sections": "Immediate termination",
+      "use": "Main-thread cancellation/watchdog abort; no partial result accepted."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
+      "version": "living documentation retrieved2026-11-06",
+      "sections": "Readwrite transactions, abort and complete",
+      "use": "Atomic immutable result cache; concrete behavior tests still pending."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm",
+      "version": "living documentation retrieved2026-11-06",
+      "sections": "Supported types and transferred buffers",
+      "use": "Versioned worker messages; bounded transferable byte chunks."
+    },
+    {
+      "url": "https://github.com/Daninet/hash-wasm",
+      "version": "npm4.12.0/git373b796205ab55fb4a657374dad6ea589bf75815",
+      "sections": "README createSHA256/IHasher update(Uint8Array); dist sha256 UMD; src/sha256.c notice",
+      "use": "Pinned synchronous binary-safe SHA acceleration after actual72%opcode profiling,24 boundary/binary/large vectors exercised through production worker callback; preserve MIT and C notice."
+    }
+  ]
+}

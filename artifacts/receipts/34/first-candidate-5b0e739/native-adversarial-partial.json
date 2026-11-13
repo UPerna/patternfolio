@@ -1,0 +1,18 @@
+{
+  "stage": "34",
+  "status": "native_passed_browser_controls_pending",
+  "revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "run": 42318922466,
+  "native_source_digest": "800a443972ab62619bf7a12057f99af342e05d5f2c4f6323ffb6f4b0d8425ced",
+  "native": [
+    {
+      "receipt_sha256": "c7111fec8ebbea093cbc2a8af6f63a5cedc14b06b399f4fe6f3db9051e412bde",
+      "actual_lua": "Lua 5.3",
+      "checks": 40,
+      "detected_corruptions": 8
+    }
+  ],
+  "independent_controlled_corruptions": 8,
+  "independent_oracle_sha256": "c7bc7f0c9ed43808b3e8a86440afda0487d8e1f1a8dc769fe8398a4797124612",
+  "scope": "Actual native artifacts and independent scratch-copy arithmetic rerun; browser checking-path controls remain mandatory and pending"
+}

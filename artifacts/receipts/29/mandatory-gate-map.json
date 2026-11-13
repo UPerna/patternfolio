@@ -1,0 +1,109 @@
+{
+  "stage": "29",
+  "revision": "3e49627f01651ede39c56f5c6e9ef41bcc0230fe",
+  "requirements": [
+    {
+      "requirement": "Preserve established commands and legacy layout behavior",
+      "evidence": [
+        "inline-portable-native-verification.json:botanical_engine_checks",
+        "inherited-inline-native-verification.json:documents"
+      ],
+      "observed": "Final native jobs pdfs, portable and patterns-luatex all passed at revision 3e49627f01651ede39c56f5c6e9ef41bcc0230fe. Final artifacts independently verified; seven legacy PDFs complete,44 CLI exports unchanged from stage28,82 planner and17 CLI core checks passed. Fresh branch and draft PR2 head match the tested revision.",
+      "status": "passed"
+    },
+    {
+      "requirement": "Actual semantic generators behind an opt-in recipe/view/inline/divider API",
+      "evidence": [
+        "inline-common-native-verification.json:core_checks",
+        "inline-common-native-verification.json:verified_declaration_hashes",
+        "inline-publication.json:verified_files"
+      ],
+      "observed": "42 adapter checks and actual LuaLaTeX book invoke pattern_recipe and fixed public CLI registry, retaining typed instances, views, scenes and records. Six unique semantic generations, four physical views, complete declaration hashes.",
+      "status": "passed"
+    },
+    {
+      "requirement": "Cache heavy generation outside repeated shipout",
+      "evidence": [
+        "inline-core-lua53.json:optimizer_at_shipout",
+        "inline-core-lua54.json:optimizer_at_shipout",
+        "inline-common-native-verification.json:unique_generations"
+      ],
+      "observed": "Both Lua versions reject unexpected registry generation during placement; aliases reuse the cached asset. Native book reports six generations.",
+      "status": "passed"
+    },
+    {
+      "requirement": "Actual physical geometry, protected content, headings, shipped identity and spread context",
+      "evidence": [
+        "inline-common-native-verification.json:placements",
+        "inline-common-native-verification.json:mask_checks",
+        "inline-common-native-verification.json:discarded_shipout_checked",
+        "inline-core-lua53.json:shipped_index_test"
+      ],
+      "observed": "Nine independent imported-Form measurements within unchanged 0.01 cm tolerance; custom 3 mm/-2 mm offsets, odd/even layout, logical 42 vs actual2, heading markers and discarded-page identity. Shared Penrose transform/frame checked between actual pages2/3.",
+      "status": "passed"
+    },
+    {
+      "requirement": "Searchable upright initials, folios and micrography",
+      "evidence": [
+        "inline-common-native-verification.json:searchable_micrography_and_initial_folio",
+        "inline-common-native-verification.json:placements"
+      ],
+      "observed": "Native Poppler and independent local pypdf recover the complete micrography reading sequence plus A/I; imported Form matrices remain positive and unrotated.",
+      "status": "passed"
+    },
+    {
+      "requirement": "Floats, included chapters, hyperlinks, load orders and convergence",
+      "evidence": [
+        "inline-common-native-verification.json:load_orders",
+        "inline-common-native-verification.json:pattern_receipt_converged",
+        "inline-common-native-verification.json:book_pages"
+      ],
+      "observed": "Four geometry/hyperref order combinations pass. Included chapter auxiliaries and pattern trace converge. Inline hybrid and right spread request travel to actual float page3.",
+      "status": "passed"
+    },
+    {
+      "requirement": "Constraints remain visible; unsupported input cannot compile with silently missing artwork",
+      "evidence": [
+        "inline-common-native-verification.json:failure_cases",
+        "inline-common-native-verification.json:verified_failure_log_hashes",
+        "inline-constraint-repair.json",
+        "inline-core-lua53.json:checks",
+        "inline-core-lua54.json:checks"
+      ],
+      "observed": "Ten native failures require nonzero compiler exits and complete case-specific log phrases, including 1sp stroke/text minima, unavailable region, unmatched spread and occupied generated files; existing bytes preserved. Shared planner thresholds and affine rounding guards retained.",
+      "status": "passed"
+    },
+    {
+      "requirement": "No shell escape and complete source kit",
+      "evidence": [
+        "inline-common-native-verification.json:runtime",
+        "inline-portable-native-verification.json:extracted_kit_smoke",
+        "inline-source-archive.json"
+      ],
+      "observed": "Native consumer commands explicitly use -no-shell-escape. All617 kit hashes checked, 616 files equal canonical Git; sole regenerated preview reviewed. Extracted public CLI generated/replayed identical instance/PDF/SVG. Canonical archive all625 blobs/modes and26 binary files verified.",
+      "status": "passed"
+    },
+    {
+      "requirement": "Required book, irregular protected callout, genuine botanical/knot hybrid and continuous aperiodic view",
+      "evidence": [
+        "inline-common-native-verification.json:visual_review",
+        "inline-common-native-verification.json:mask_checks",
+        "inline-core-lua53.json:outputs"
+      ],
+      "observed": "Four native pages pixel-identical to independently reviewed book; two actual L-shaped reservations contain zero pattern ink, controls demonstrate removed real Penrose ink; original hybrid botanical attachment and shared Penrose instance checked without topology alteration.",
+      "status": "passed"
+    },
+    {
+      "requirement": "Publish, independently verify exact revision and all native CI without crossing publication boundaries",
+      "evidence": [
+        "inline-publication.json",
+        "inline-source-archive.json",
+        "ci-inline-final.json",
+        "inline-final-head-and-pr.json"
+      ],
+      "observed": "Final native jobs pdfs, portable and patterns-luatex all passed at revision 3e49627f01651ede39c56f5c6e9ef41bcc0230fe. Final artifacts independently verified; seven legacy PDFs complete,44 CLI exports unchanged from stage28,82 planner and17 CLI core checks passed. Fresh branch and draft PR2 head match the tested revision.",
+      "status": "passed"
+    }
+  ],
+  "acceptance": "All mandatory stage29 gates passed, including independently verified final exact-head native CI and artifacts."
+}

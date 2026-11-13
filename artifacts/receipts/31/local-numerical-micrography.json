@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "family": "micrography",
+  "comparison": {
+    "numeric_values_compared": 92451,
+    "roundoff_differences": 3854,
+    "maximum_absolute_difference": 2.220446049250313e-15,
+    "maximum_fraction_of_roundoff_bound": 0.1969856468378289,
+    "bound": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b))); integer identities/text/order/topology/non-geometric fields exact"
+  },
+  "controlled_corruptions_detected": [
+    "drift",
+    "topology",
+    "text",
+    "ordering"
+  ],
+  "files": {
+    "actual": {
+      "instance.json": "d174675c8b07d4a431ef7b7b68a3c22b99c5991fbf139a5fb276c361a0f14f87",
+      "pattern.svg": "82cc3df2ce73fab68d8742ec6494fec0e66f8696943d1aaad8049e105958c223",
+      "pattern.pdf": "1b26ee75ffa68d4d16982f6ef1e8d363145d69ac697bd413db5117b7b2006bb4"
+    },
+    "native": {
+      "instance.json": "32bdd320b78ab296194b3046052150b9289afd20e63fcc29b9ca7ab42e939578",
+      "pattern.svg": "9117c26810c4eaa7d3d4cdf8f220e86d3e9be5719313329a36e3ae0cfb0c2017",
+      "pattern.pdf": "287ec34e839d43d8d1161da052b0acbfaac0fc142ed6e9eb78ca45c840579efe"
+    }
+  }
+}

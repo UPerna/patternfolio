@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "stage": "31",
+  "status": "in_progress",
+  "prerequisite": "Stage30 passed; a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "gates": [
+    {
+      "id": "runtime-selection",
+      "status": "local_passed",
+      "evidence": "runtime-development.json; pinned vendor manifests; BROWSER-RUNTIME.md"
+    },
+    {
+      "id": "same-core-worker-protocol",
+      "status": "local_passed",
+      "evidence": "pattern_browser.lua; web worker/client; local-browser-families.json"
+    },
+    {
+      "id": "all22-native-browser-parity",
+      "status": "local_passed_ci_pending",
+      "evidence": "local-browser-families.json explicitly labels development mixed native30/Lupa reference; fresh same-checkout native CI required"
+    },
+    {
+      "id": "cancel-stale-malformed-budgets",
+      "status": "local_passed",
+      "evidence": "local-browser-adversarial.json32 real-browser checks, with controlled injections labelled"
+    },
+    {
+      "id": "binary-sha-prng-canonical",
+      "status": "local_passed",
+      "evidence": "24binary SHA vectors via production worker callback;10goldenPRNG;canonicalUTF8/maxinteger vectors"
+    },
+    {
+      "id": "offline-solvers-cache",
+      "status": "local_passed",
+      "evidence": "Offline freshworkers; capabilities nativeprocess unavailable; all22stored-instance replay; IndexedDB conflict/concurrency/tamper/identity"
+    },
+    {
+      "id": "source-kit-consumer",
+      "status": "local_passed_ci_pending",
+      "evidence": "source-kit-local.json13rebuilt browser files exact; full native portable CI still required"
+    },
+    {
+      "id": "publication-parent-tree-rawbytes",
+      "status": "pending",
+      "evidence": "Guarded child a9, full independent normal Git tree/blob/mode/binary/source ZIP and retained receipt hash checks"
+    },
+    {
+      "id": "exact-head-native-ci",
+      "status": "pending",
+      "evidence": "pdfs,portable,patterns-luatex,patterns-dual,browser all required; current-source artifacts must be inspected"
+    }
+  ],
+  "next_action": "Publish guarded candidate, independently verify raw Git/archive, require all5native/browser jobs and current artifacts before accepting31; then immediately32\u201339."
+}

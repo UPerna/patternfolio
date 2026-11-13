@@ -1,0 +1,203 @@
+2026-11-05T11:53:51.5330963Z CLI core replay checks	17
+2026-11-05T11:56:49.9107125Z CLI family accepted botanical-panel
+2026-11-05T11:56:57.3020127Z CLI family accepted periodic
+2026-11-05T11:56:59.3032345Z CLI family accepted celtic
+2026-11-05T11:57:03.0395299Z CLI family accepted islamic
+2026-11-05T11:57:05.7655558Z CLI family accepted freeform
+2026-11-05T11:57:11.6988104Z CLI family accepted substitution
+2026-11-05T11:57:29.9804084Z CLI family accepted penrose
+2026-11-05T11:57:35.8601231Z CLI family accepted spectre
+2026-11-05T11:57:48.5240879Z CLI family accepted beenker
+2026-11-05T11:57:50.5516495Z CLI family accepted completion
+2026-11-05T11:57:52.5262309Z CLI family accepted tracery
+2026-11-05T11:57:56.8904609Z CLI family accepted escher
+2026-11-05T11:57:59.5030783Z CLI family accepted mosaic
+2026-11-05T11:58:02.0220249Z CLI family accepted stroke
+2026-11-05T11:58:07.0065747Z CLI family accepted maze
+2026-11-05T11:58:13.3167197Z CLI family accepted micrography
+2026-11-05T11:58:15.8731977Z CLI family accepted decobrush
+2026-11-05T11:58:17.9383154Z CLI family accepted gothic-spatial
+2026-11-05T11:58:20.4162259Z CLI family accepted inline
+2026-11-05T11:58:23.8161492Z CLI family accepted hat
+2026-11-05T12:01:07.0154644Z CLI family accepted botanical-authored
+2026-11-05T12:01:51.4531205Z CLI family accepted botanical-grown
+2026-11-05T12:02:23.8699976Z CLI consumer acceptance 22 families 20 failure checks
+2026-11-05T12:04:35.0652647Z ##[end-action id=__xu-cheng_latex-action.__run;outcome=success;conclusion=success;duration_ms=1523592]
+2026-11-05T12:04:38.2542355Z Error: EACCES: permission denied, open '/home/runner/work/florilegium/florilegium/build/cli/05c7ab78b07a2cce4ea7be8a7e65a46192b1696a5bace74ca73eb83003db022d/solver-cache/diagnostic.json'
+168674Z seed 1, spill 1, protected callout: last frame = page (1494 KB, 11.7 s of growth)
+2026-11-05T12:03:47.7811197Z 
+2026-11-05T12:03:47.7811715Z florilegium: grew 4464 cells, 12 motifs, 319 stem points, 790 KB; visitors: 1 snail, 1 bird
+2026-11-05T12:03:47.7812142Z florilegium: recorded 12 motifs, 58 events, 11.3 s of growth
+2026-11-05T12:03:47.7812480Z seed 1, spill 1, Arabic folio: last frame = page (790 KB, 11.3 s of growth)
+2026-11-05T12:03:48.5341824Z 
+2026-11-05T12:03:48.5342313Z florilegium: grew 4464 cells, 12 motifs, 298 stem points, 717 KB; visitors: 1 snail, 1 bird
+2026-11-05T12:03:48.5342764Z florilegium: recorded 12 motifs, 64 events, 11.1 s of growth
+2026-11-05T12:03:48.5343085Z seed 1, spill 1, upright Roman folio: last frame = page (717 KB, 11.1 s of growth)
+2026-11-05T12:03:49.8022902Z 
+2026-11-05T12:03:49.8023754Z florilegium: grew 4619 cells, 24 motifs, 383 stem points, 1404 KB; visitors: 2 butterfly, 1 snail
+2026-11-05T12:03:49.8024169Z florilegium: recorded 24 motifs, 111 events, 13.0 s of growth
+2026-11-05T12:03:49.8024485Z seed 1, spill 1, monochrome chapter: last frame = page (1404 KB, 13.0 s of growth)
+2026-11-05T12:03:52.0950673Z 
+2026-11-05T12:03:52.0951511Z florilegium: grew 4629 cells, 53 motifs, 502 stem points, 2835 KB; visitors: 2 butterfly, 2 bee
+2026-11-05T12:03:52.0951986Z florilegium: recorded 53 motifs, 248 events, 13.1 s of growth
+2026-11-05T12:03:52.0952280Z seed 6, spill 0, summer: last frame = page (2835 KB, 13.1 s of growth)
+2026-11-05T12:03:54.3144291Z 
+2026-11-05T12:03:54.3145442Z florilegium: grew 4629 cells, 69 motifs, 555 stem points, 2638 KB; visitors: 2 butterfly, 2 bee
+2026-11-05T12:03:54.3145958Z florilegium: recorded 69 motifs, 300 events, 13.1 s of growth
+2026-11-05T12:03:54.3146352Z seed 6, spill 0, spring: last frame = page (2638 KB, 13.1 s of growth)
+2026-11-05T12:03:56.7441310Z 
+2026-11-05T12:03:56.7442174Z florilegium: grew 4629 cells, 72 motifs, 568 stem points, 2919 KB; visitors: 2 butterfly, 2 bee
+2026-11-05T12:03:56.7442700Z florilegium: recorded 72 motifs, 301 events, 13.6 s of growth
+2026-11-05T12:03:56.7443104Z seed 6, spill 0, autumn, marks: last frame = page (2919 KB, 13.6 s of growth)
+2026-11-05T12:03:57.5569057Z 
+2026-11-05T12:03:57.5569874Z florilegium: grew 4629 cells, 13 motifs, 332 stem points, 712 KB; visitors: 2 butterfly
+2026-11-05T12:03:57.5570448Z florilegium: recorded 13 motifs, 58 events, 12.1 s of growth
+2026-11-05T12:03:57.5570868Z seed 6, spill 0, airy: last frame = page (712 KB, 12.1 s of growth)
+2026-11-05T12:03:58.8705973Z 
+2026-11-05T12:03:58.8706491Z florilegium: grew 4464 cells, 23 motifs, 326 stem points, 1512 KB; visitors: 1 butterfly, 1 bee
+2026-11-05T12:03:58.8706888Z florilegium: recorded 23 motifs, 109 events, 13.1 s of growth
+2026-11-05T12:03:58.8707243Z seed 6, spill 0, balanced, reserved whitespace: last frame = page (1512 KB, 13.1 s of growth)
+2026-11-05T12:04:00.0787944Z 
+2026-11-05T12:04:00.0788573Z florilegium: grew 4629 cells, 23 motifs, 393 stem points, 1339 KB; visitors: 1 butterfly, 1 bee
+2026-11-05T12:04:00.0789005Z florilegium: recorded 23 motifs, 118 events, 13.6 s of growth
+2026-11-05T12:04:00.0789355Z seed 6, spill 0, chapter composition: last frame = page (1339 KB, 13.6 s of growth)
+2026-11-05T12:04:01.3713147Z 
+2026-11-05T12:04:01.3714111Z florilegium: grew 4329 cells, 13 motifs, 1528 stem points, 623 KB; visitors: 1 butterfly, 1 bee
+2026-11-05T12:04:01.3714743Z florilegium: recorded 13 motifs, 56 events, 11.4 s of growth
+2026-11-05T12:04:01.3715693Z seed 6, spill 0, protected callout: last frame = page (623 KB, 11.4 s of growth)
+2026-11-05T12:04:02.0536908Z 
+2026-11-05T12:04:02.0537660Z florilegium: grew 4464 cells, 10 motifs, 305 stem points, 572 KB; visitors: none
+2026-11-05T12:04:02.0538178Z florilegium: recorded 10 motifs, 51 events, 11.0 s of growth
+2026-11-05T12:04:02.0538599Z seed 6, spill 0, Arabic folio: last frame = page (572 KB, 11.0 s of growth)
+2026-11-05T12:04:02.7030126Z 
+2026-11-05T12:04:02.7030950Z florilegium: grew 4464 cells, 10 motifs, 290 stem points, 650 KB; visitors: none
+2026-11-05T12:04:02.7031344Z florilegium: recorded 10 motifs, 61 events, 11.0 s of growth
+2026-11-05T12:04:02.7031667Z seed 6, spill 0, upright Roman folio: last frame = page (650 KB, 11.0 s of growth)
+2026-11-05T12:04:03.9169412Z 
+2026-11-05T12:04:03.9170017Z florilegium: grew 4629 cells, 23 motifs, 393 stem points, 1300 KB; visitors: 1 butterfly, 1 bee
+2026-11-05T12:04:03.9170533Z florilegium: recorded 23 motifs, 118 events, 13.6 s of growth
+2026-11-05T12:04:03.9170994Z seed 6, spill 0, monochrome chapter: last frame = page (1300 KB, 13.6 s of growth)
+2026-11-05T12:04:10.1000728Z 
+2026-11-05T12:04:10.1001687Z florilegium: grew 9082 cells, 138 motifs, 1021 stem points, 5815 KB; visitors: 2 butterfly, 2 bee
+2026-11-05T12:04:10.1002128Z florilegium: recorded 138 motifs, 569 events, 13.2 s of growth
+2026-11-05T12:04:10.1002466Z seed 6, spill 1, summer: last frame = page (5815 KB, 13.2 s of growth)
+2026-11-05T12:04:16.0758103Z 
+2026-11-05T12:04:16.0758966Z florilegium: grew 9082 cells, 159 motifs, 1110 stem points, 4989 KB; visitors: 1 butterfly, 2 bee
+2026-11-05T12:04:16.0759612Z florilegium: recorded 159 motifs, 629 events, 13.3 s of growth
+2026-11-05T12:04:16.0760111Z seed 6, spill 1, spring: last frame = page (4989 KB, 13.3 s of growth)
+2026-11-05T12:04:22.3418229Z 
+2026-11-05T12:04:22.3418843Z florilegium: grew 9082 cells, 142 motifs, 1037 stem points, 5450 KB; visitors: 2 butterfly, 2 bee
+2026-11-05T12:04:22.3419267Z florilegium: recorded 142 motifs, 579 events, 13.2 s of growth
+2026-11-05T12:04:22.3419629Z seed 6, spill 1, autumn, marks: last frame = page (5450 KB, 13.2 s of growth)
+2026-11-05T12:04:24.6497832Z 
+2026-11-05T12:04:24.6499273Z florilegium: grew 9082 cells, 26 motifs, 570 stem points, 1714 KB; visitors: 1 butterfly, 1 bee
+2026-11-05T12:04:24.6500021Z florilegium: recorded 26 motifs, 114 events, 11.5 s of growth
+2026-11-05T12:04:24.6500585Z seed 6, spill 1, airy: last frame = page (1714 KB, 11.5 s of growth)
+2026-11-05T12:04:26.1045638Z 
+2026-11-05T12:04:26.1046163Z florilegium: grew 4464 cells, 23 motifs, 326 stem points, 1512 KB; visitors: 1 butterfly, 1 bee
+2026-11-05T12:04:26.1046601Z florilegium: recorded 23 motifs, 109 events, 13.1 s of growth
+2026-11-05T12:04:27.4232180Z seed 6, spill 1, balanced, reserved whitespace: last frame = page (1512 KB, 13.1 s of growth)
+2026-11-05T12:04:27.4232647Z 
+2026-11-05T12:04:27.4232972Z florilegium: grew 4629 cells, 23 motifs, 393 stem points, 1339 KB; visitors: 1 butterfly, 1 bee
+2026-11-05T12:04:27.4233744Z florilegium: recorded 23 motifs, 118 events, 13.6 s of growth
+2026-11-05T12:04:27.4234285Z seed 6, spill 1, chapter composition: last frame = page (1339 KB, 13.6 s of growth)
+2026-11-05T12:04:30.3526138Z 
+2026-11-05T12:04:30.3526751Z florilegium: grew 8782 cells, 26 motifs, 1757 stem points, 1379 KB; visitors: 2 bee
+2026-11-05T12:04:30.3527347Z florilegium: recorded 26 motifs, 112 events, 11.9 s of growth
+2026-11-05T12:04:30.3527874Z seed 6, spill 1, protected callout: last frame = page (1379 KB, 11.9 s of growth)
+2026-11-05T12:04:31.1372476Z 
+2026-11-05T12:04:31.1373258Z florilegium: grew 4464 cells, 10 motifs, 305 stem points, 572 KB; visitors: none
+2026-11-05T12:04:31.1373896Z florilegium: recorded 10 motifs, 51 events, 11.0 s of growth
+2026-11-05T12:04:31.1374333Z seed 6, spill 1, Arabic folio: last frame = page (572 KB, 11.0 s of growth)
+2026-11-05T12:04:31.8355883Z 
+2026-11-05T12:04:31.8356447Z florilegium: grew 4464 cells, 10 motifs, 290 stem points, 650 KB; visitors: none
+2026-11-05T12:04:31.8357232Z florilegium: recorded 10 motifs, 61 events, 11.0 s of growth
+2026-11-05T12:04:31.8357567Z seed 6, spill 1, upright Roman folio: last frame = page (650 KB, 11.0 s of growth)
+2026-11-05T12:04:33.0873753Z 
+2026-11-05T12:04:33.0874594Z florilegium: grew 4629 cells, 23 motifs, 393 stem points, 1300 KB; visitors: 1 butterfly, 1 bee
+2026-11-05T12:04:33.0875134Z florilegium: recorded 23 motifs, 118 events, 13.6 s of growth
+2026-11-05T12:04:33.0875561Z seed 6, spill 1, monochrome chapter: last frame = page (1300 KB, 13.6 s of growth)
+2026-11-05T12:04:35.0652647Z ##[end-action id=__xu-cheng_latex-action.__run;outcome=success;conclusion=success;duration_ms=1523592]
+2026-11-05T12:04:35.0715273Z ##[group]Run actions/upload-artifact@v4
+2026-11-05T12:04:35.0715495Z with:
+2026-11-05T12:04:35.0715661Z   name: florilegium-pdfs
+2026-11-05T12:04:35.0716825Z   path: florilegium.pdf
+florilegium-grow.pdf
+showcase.pdf
+book-demo.pdf
+asset-demo.pdf
+folio-demo.pdf
+specimen.pdf
+build/scenes/
+build/planner/
+build/botanical/
+build/periodic/
+build/celtic/
+build/islamic/
+build/freeform/
+build/substitution/
+build/penrose/
+build/spectre/
+build/integration/
+build/beenker/
+build/hat/
+build/tracery/
+build/escher/
+build/mosaic/
+build/strokes/
+build/maze/
+build/micrography/
+build/decobrush/
+build/gothic/
+build/collection/
+build/cli-core/
+build/cli/
+
+2026-11-05T12:04:35.0718048Z   if-no-files-found: warn
+2026-11-05T12:04:35.0718239Z   compression-level: 6
+2026-11-05T12:04:35.0718403Z   overwrite: false
+2026-11-05T12:04:35.0718565Z   include-hidden-files: false
+2026-11-05T12:04:35.0718748Z ##[endgroup]
+2026-11-05T12:04:35.2000438Z (node:4412) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-05T12:04:35.2000933Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-05T12:04:35.3619426Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-11-05T12:04:35.3627083Z The least common ancestor is /home/runner/work/florilegium/florilegium. This will be the root directory of the artifact
+2026-11-05T12:04:35.3628251Z With the provided path, there will be 979 files uploaded
+2026-11-05T12:04:35.3628870Z Artifact name is valid!
+2026-11-05T12:04:35.3629416Z Root directory input is valid!
+2026-11-05T12:04:35.6808693Z Beginning upload of artifact content to blob storage
+2026-11-05T12:04:35.9486718Z (node:4412) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-05T12:04:36.4701501Z Uploaded bytes 8388608
+2026-11-05T12:04:36.9739911Z Uploaded bytes 16777216
+2026-11-05T12:04:37.8857182Z Uploaded bytes 25165824
+2026-11-05T12:04:38.2536383Z ##[error]An error has occurred while creating the zip file for upload
+2026-11-05T12:04:38.2542355Z Error: EACCES: permission denied, open '/home/runner/work/florilegium/florilegium/build/cli/05c7ab78b07a2cce4ea7be8a7e65a46192b1696a5bace74ca73eb83003db022d/solver-cache/diagnostic.json'
+2026-11-05T12:04:38.2567491Z /home/runner/work/_actions/actions/upload-artifact/v4/dist/upload/index.js:3811
+2026-11-05T12:04:38.2568440Z     throw new Error('An error has occurred during zip creation for the artifact');
+2026-11-05T12:04:38.2568922Z     ^
+2026-11-05T12:04:38.2569050Z 
+2026-11-05T12:04:38.2569218Z Error: An error has occurred during zip creation for the artifact
+2026-11-05T12:04:38.2569893Z     at Archiver.zipErrorCallback (/home/runner/work/_actions/actions/upload-artifact/v4/dist/upload/index.js:3811:11)
+2026-11-05T12:04:38.2570321Z     at Archiver.emit (node:events:526:24)
+2026-11-05T12:04:38.2570737Z     at Archiver.<anonymous> (/home/runner/work/_actions/actions/upload-artifact/v4/dist/upload/index.js:57606:12)
+2026-11-05T12:04:38.2571290Z     at __webpack_modules__.86454.module.exports.handleStuff (/home/runner/work/_actions/actions/upload-artifact/v4/dist/upload/index.js:69663:5)
+2026-11-05T12:04:38.2571735Z     at DeflateCRC32Stream.wrapper (node:events:639:12)
+2026-11-05T12:04:38.2571995Z     at DeflateCRC32Stream.emit (node:events:526:24)
+2026-11-05T12:04:38.2572262Z     at endReadableNT (node:internal/streams/readable:1783:12)
+2026-11-05T12:04:38.2572587Z     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2026-11-05T12:04:38.2572822Z 
+2026-11-05T12:04:38.2572889Z Node.js v24.22.1
+2026-11-05T12:04:38.2764836Z Post job cleanup.
+2026-11-05T12:04:38.3454468Z [command]/usr/bin/git version
+2026-11-05T12:04:38.3485908Z git version 2.56.0
+2026-11-05T12:04:38.3513203Z Temporarily overriding HOME='/home/runner/work/_temp/41091916-62ff-4a1d-b146-ee4fda6a4db7' before making global git config changes
+2026-11-05T12:04:38.3514603Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-05T12:04:38.3517906Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/florilegium/florilegium
+2026-11-05T12:04:38.3549737Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-05T12:04:38.3577494Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-05T12:04:38.3763758Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-05T12:04:38.3790587Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-05T12:04:38.3984458Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-05T12:04:38.4041979Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-05T12:04:38.4344284Z Cleaning up orphan processes
+2026-11-05T12:04:38.4611505Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

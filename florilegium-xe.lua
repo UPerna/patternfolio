@@ -2,8 +2,11 @@
 -- (MIT); settings, physical reservations, fallback and page labels share our core.
 local here=arg[0]:match("^(.*)[/\\][^/\\]*$") or "."
 package.path=here.."/?.lua;"..package.path
+kpse.set_program_name('luatex')
 local function main()
 local base=assert(arg[1],"usage: texlua florilegium-xe.lua <job base>")
+assert(arg[2]==nil or arg[2]=="--botanical-contracts","unsupported Xe renderer option")
+if arg[2]then require("pattern_botanical_legacy").install(function(_,d) print("botanical-contract: validated "..d.id)end)end
 local M,settings,writer=require("florilegium"),require("layout"),require("pdfwriter").new()
 local ink=M.ink
 ink.set_backend(writer.backend)
@@ -26,6 +29,7 @@ M.error=function(message) error(message,0) end
 M.initial_result=function(status) M.last_initial_status=status end
 M.number_text=function(label,box) writer:text(label,box[1]*ink.CM,box[2]*ink.CM) end
 
+local common,common_env=require('pattern_xetex').records()
 local items,pages,configurations={},{},{}
 local env={
   PAGE=function(t) t.kind="page";items[#items+1]=t;pages[t.n]=t end,
@@ -37,8 +41,10 @@ local env={
     p.marks=p.marks or {};p.marks[#p.marks+1]=t
   end,
 }
+for name,callback in pairs(common_env)do env[name]=callback end
 local f=assert(io.open(base..".flo","rb"))
-local source=f:read("a");f:close()
+local source=f:read(32*1024*1024+1);f:close()
+assert(source and #source<=32*1024*1024,'external records exceed the 32 MiB byte limit')
 -- Generated records are part of the trusted TeX source, like primitive Lua args.
 assert(load(source,"="..base..".flo","t",env))()
 table.sort(items,function(a,b) return a.id<b.id end)
@@ -140,7 +146,31 @@ out:write(string.format("\\csname flo@drawn\\endcsname{%d}{%s}\n",#items,md5.sum
 for id=1,#items do if statuses[id] then
   out:write(string.format("\\csname flo@initialstatus\\endcsname{%d}{%d}\n",id,statuses[id]))
 end end
-assert(out:close());assert(os.rename(base.."-flo.tex.tmp",base.."-flo.tex"))
+assert(out:close())
+local pending=assert(io.open(base..'-flo.tex.tmp','rb'));local metadata=pending:read('*a');pending:close()
+require('pattern_xetex').replace(base..'-flo.tex',metadata)
+local evidence=require('pattern_xetex').render(base,common,here)
+local H,P=require('pattern_hash'),require('pattern')
+local function hash_file(path)
+  local f=assert(io.open(path,'rb'));local bytes=f:read('*a');f:close();return H.sha256(bytes)
+end
+evidence.outputs[base..'-flo.tex']=hash_file(base..'-flo.tex')
+if #items>0 then evidence.outputs[base..'-flo.pdf']=hash_file(base..'-flo.pdf')end
+evidence.font_requests=P.array()
+evidence.font_results=P.array()
+local requested={}
+for _,item in ipairs(items)do if item.kind=='initial'then
+  evidence.font_results[#evidence.font_results+1]={drawing_id=item.id,font=item.font,status=statuses[item.id],fallback=item.fallback}
+  if not requested[item.font]then
+    requested[item.font]=true
+    local path=kpse.find_file(item.font,'opentype fonts') or kpse.find_file(item.font,'truetype fonts')
+    evidence.font_requests[#evidence.font_requests+1]={name=item.font,path=path or false}
+    if path then evidence.dependencies[path]=hash_file(path)end
+  end
+end end
+for path in pairs(package.loaded.fontreader and package.loaded.fontreader.sources or {})do evidence.dependencies[path]=hash_file(path)end
+evidence.schema_version=1;evidence.status='complete';evidence.record_sha256=H.sha256(source)
+require('pattern_xetex').replace(base..'-external.json',P.serialize(evidence))
 if capture then assert(capture:close()) end
 io.write(string.format("florilegium-xe: %d vector drawings rendered\n",#items))
 end

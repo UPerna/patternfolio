@@ -1,0 +1,14 @@
+{
+  "scope": "Supplemental Windows Lupa Lua5.3 pure-Lua-SHA256 probe, 256MiB Lua allocation cap, SVG only; not native TeX CI or release acceptance.",
+  "seconds": 198.69637269998202,
+  "exit_code": 0,
+  "stdout_sha256": "d8f93fb077f93510b76118b9218ef3c58266e8db784ae45983b174b28a54a8b9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "instance_unchanged": true,
+  "svg_equal_host_sha_variant": true,
+  "stage": "36",
+  "kind": "supplemental_local_probe",
+  "revision": "8c1e33e289898de93c4f9f7c8733edd62a0a79d2",
+  "profile": "botanical-authored/cached-presentation-SVG",
+  "actual_host": "Windows Lupa2.8 Lua5.3; generic trusted harness does not override the inner fallback CLI label"
+}

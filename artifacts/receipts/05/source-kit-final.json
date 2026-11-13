@@ -1,0 +1,6 @@
+{
+  "commit": "814d7723bdb0aed8fd1ef740876a04ab6f0e2820",
+  "hashes": 173,
+  "scope": "local archive manifest; extracted builds remain exact CI gate",
+  "status": "passed"
+}

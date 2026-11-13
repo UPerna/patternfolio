@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "source_digest": "7e74fe8470121a646fa6d2ca0f22d62f7d772357897bb31dd7f0172663245c03",
+  "instance_sha256": "ce0c22e842674d440269309b13dccb28a910eaf377e7b4affdfa063d050d16f5",
+  "claims": [
+    "Authored text shaped and placed by actual native Micrography family",
+    "Pinned font identity and unsupported custom loading displayed",
+    "Vector text is preserved in native output"
+  ],
+  "vector_structure": {
+    "paths": 349,
+    "texts": 7,
+    "rasters": 0,
+    "width": "13cm",
+    "height": "7cm",
+    "viewbox": "0 0 13 7",
+    "semantic_refs": 355,
+    "clips": 1
+  },
+  "assets_sha256": {
+    "instance.json": "ce0c22e842674d440269309b13dccb28a910eaf377e7b4affdfa063d050d16f5",
+    "pattern.pdf": "080cade796b44d929e4ea6801117379c94bb38af0566f5d030cbb18de528e330",
+    "pattern.svg": "40a59533cc9f2c2c9651c52dd18d15344d32b5c45e9b2a71434b7c1ba7583c87",
+    "recipe.json": "862108931d1c58a56dab36fdf85bcb62a4e32681148a783d501f0b00e48a260d",
+    "record.json": "eed0f171cb945a51a78c046f66f8c5fdf7c0a3d24f072db02629143340c39062",
+    "scene.json": "66ff5c6c37e6922281ec894c17799dce03d3f7f3f8dc92b544f31783ecef3877",
+    "view.json": "fcc45f66efe139bb7cfe9ade76d33d15fdd0e2c6e6141286358c7c0fa904ea74"
+  }
+}

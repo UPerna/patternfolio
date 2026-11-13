@@ -1,0 +1,1411 @@
+{
+  "stage": "35",
+  "status": "clean_integrity_passed_visual_pending",
+  "accepted_native_revision": "8a7f34fa3d84068d6ef98b0c8b3ecf84909abb5f",
+  "native_receipt_sha256": "cc2c5cd79bc8c8b9b65cee663b6082c87d02c4cfbb7e2d575a9d613e0dea746e",
+  "tool_sha256": "243814d6e1dd8a665d2493a540183c1a45d2327470edcea79da1bd57fd46f83c",
+  "profiles": [
+    {
+      "id": "botanical-panel",
+      "family": "botanical/asymmetric-garden",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        12.0,
+        11.0
+      ],
+      "pdf_size_cm": [
+        11.999999999999998,
+        11.0
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "ab661827ab76bbda015cd7d0fea4f251f01b676389ffba47f6f7185c0f0e1131",
+      "svg_sha256": "1415a92587e4191489f06017503cf2d35b4bd60337f6eaabd314c44999023304",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 662,
+      "svg_clip_paths": 17,
+      "pdf_operations": 12230,
+      "pdf_caps": [
+        1
+      ],
+      "pdf_joins": [
+        1
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.005291666666666667,
+        0.007055555555555556,
+        0.045861111111111116,
+        0.049388888888888885,
+        0.05185833333333333,
+        0.053269444444444446,
+        0.05432777777777778,
+        0.05468055555555556,
+        0.055386111111111115,
+        0.05573888888888889,
+        0.05644444444444445,
+        0.05750277777777778,
+        0.057855555555555556
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "0.10000000000000001",
+        "0.11",
+        "0.12",
+        "0.13",
+        "0.14000000000000001",
+        "0.14999999999999999",
+        "0.16",
+        "0.17000000000000001",
+        "0.17999999999999999",
+        "0.19",
+        "0.20000000000000001",
+        "0.20999999999999999",
+        "0.22",
+        "0.23000000000000001",
+        "0.23999999999999999",
+        "0.25",
+        "0.26000000000000001",
+        "0.27000000000000002",
+        "0.28000000000000003",
+        "0.28999999999999998",
+        "0.29999999999999999",
+        "0.31",
+        "0.32000000000000001",
+        "0.33000000000000002",
+        "0.34000000000000002",
+        "0.38",
+        "0.42999999999999999",
+        "0.44",
+        "0.47999999999999998",
+        "0.5",
+        "0.52000000000000002",
+        "0.54000000000000004",
+        "0.55000000000000004",
+        "0.56000000000000005",
+        "0.56999999999999995",
+        "0.57999999999999996",
+        "0.58999999999999997",
+        "0.59999999999999998",
+        "0.60999999999999999",
+        "0.62",
+        "0.63",
+        "0.64000000000000001",
+        "0.65000000000000002",
+        "0.66000000000000003",
+        "0.67000000000000004",
+        "0.68000000000000005",
+        "0.68999999999999995",
+        "0.69999999999999996",
+        "0.70999999999999996",
+        "0.71999999999999997",
+        "0.72999999999999998",
+        "0.73999999999999999",
+        "0.75",
+        "0.76000000000000001",
+        "0.77000000000000002",
+        "0.78000000000000003",
+        "0.79000000000000004",
+        "0.80000000000000004",
+        "0.81000000000000005",
+        "0.81999999999999995",
+        "0.82999999999999996",
+        "0.83999999999999997",
+        "0.84999999999999998",
+        "0.85999999999999999",
+        "0.87",
+        "0.88",
+        "0.89000000000000001",
+        "0.90000000000000002",
+        "1"
+      ]
+    },
+    {
+      "id": "periodic",
+      "family": "tiling/periodic",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        3.2,
+        2.8
+      ],
+      "pdf_size_cm": [
+        3.2000000000000006,
+        2.7999999999999994
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "96b996b1e6c1ac0d1fe7586cda74e74ea746f06d0231ad2d52dd0d5dbad11662",
+      "svg_sha256": "0d80c8b0855abe1f1282f784a6ec5624b3de75caee363938e28e05f2a9af4acf",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 13,
+      "svg_clip_paths": 2,
+      "pdf_operations": 159,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.016
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "celtic",
+      "family": "strand/celtic",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        5.4,
+        5.5
+      ],
+      "pdf_size_cm": [
+        5.4,
+        5.5
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "71dd4f0f1e210c06118584cf3a2259a8733c7b9d1ac9f0d22a22c069d6258cd1",
+      "svg_sha256": "aef7897a30b6c6dd56d9bfa8b0bd88c1b30a614f2e81bd266e29c820db705a01",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 12,
+      "svg_clip_paths": 1,
+      "pdf_operations": 164,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.085
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "islamic",
+      "family": "ornament/islamic-pic",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        5.4,
+        3.6
+      ],
+      "pdf_size_cm": [
+        5.4,
+        3.5999999999999996
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "a86be2ac288d0a1e08e6a3a9570827194f1f9c25218837d5984c4e738c020916",
+      "svg_sha256": "7d914794d7fc30c968e22500c21f381ab16800144afa64086409a28c47eef16b",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 74,
+      "svg_clip_paths": 2,
+      "pdf_operations": 962,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.024
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "freeform",
+      "family": "ornament/islamic-freeform",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        6.0,
+        6.0
+      ],
+      "pdf_size_cm": [
+        5.999999999999999,
+        5.999999999999999
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "fdda035e814aa3c6f809e2e2d3d1d93937aa64fb194e69b31a809af3f6703dae",
+      "svg_sha256": "b8a4297793994bf012fcc56eb85f5e0f3fbdd3656ddd00e75446178df1fd5886",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 281,
+      "svg_clip_paths": 1,
+      "pdf_operations": 3652,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.026
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "substitution",
+      "family": "tiling/finite-substitution",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        1.0,
+        1.25
+      ],
+      "pdf_size_cm": [
+        1.0,
+        1.25
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "129051b7dde58e3f031dd8963683026c47be7e184fa8914de21ed7ff438507f9",
+      "svg_sha256": "fef51be6be6d7467dda4dc0f5bf3d2fa0b0b0c909f2449164a7f8069c758c73e",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 66,
+      "svg_clip_paths": 1,
+      "pdf_operations": 893,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.016
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "penrose",
+      "family": "tiling/penrose-p3",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        2.5,
+        3.2
+      ],
+      "pdf_size_cm": [
+        2.5,
+        3.2000000000000006
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "c11d72d93a43d200bae35d3d6b7e02e866548416c51ce3e98294a131e080b6e8",
+      "svg_sha256": "14b4285f1d83cbbd29365dc6631fb9ff9796bbccfc7cea82b54da1f79855774f",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 187,
+      "svg_clip_paths": 1,
+      "pdf_operations": 2300,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.012
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "spectre",
+      "family": "tiling/spectre",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        1.5499999999999998,
+        2.3
+      ],
+      "pdf_size_cm": [
+        1.5499999999999998,
+        2.3
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "a84dc160e806a92f8a84d946cccbc2383609c766eb7e8d9cdc37c07ab75b6ea7",
+      "svg_sha256": "a41fbc9c0d05f39b6851387f0377cf11019f5274d893510845bcc0a7590efd75",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 71,
+      "svg_clip_paths": 1,
+      "pdf_operations": 1039,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.01
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "beenker",
+      "family": "tiling/ammann-beenker",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        3.5,
+        3.6
+      ],
+      "pdf_size_cm": [
+        3.5,
+        3.5999999999999996
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "438d168538af0c487263f922257ae402a057298fe4c9d4758f10ea47699dcb33",
+      "svg_sha256": "44c6e4816d0ec8d90c9515618a3b2d1f4c7e1a0ab4faf78437d7914e9128938c",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 213,
+      "svg_clip_paths": 1,
+      "pdf_operations": 2620,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.012
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "completion",
+      "family": "tiling/marked-square-completion",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        3.25,
+        2.7
+      ],
+      "pdf_size_cm": [
+        3.25,
+        2.7
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "e96f6ceedb90cfb8dd2c425c9741101b715158bb25f39ec1e39efea35c14af23",
+      "svg_sha256": "c605ca42af989c141dcedae3b1a2e60ea7fde14b93ee311fc07a62c945ad93e7",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 55,
+      "svg_clip_paths": 1,
+      "pdf_operations": 733,
+      "pdf_caps": [
+        0,
+        1
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.012,
+        0.055
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "tracery",
+      "family": "ornament/gothic-tracery",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        8.600000000000001,
+        12.100000000000001
+      ],
+      "pdf_size_cm": [
+        8.600000000000001,
+        12.100000000000001
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "308572f1e64ed060edc50c121cd9d7db486fbf6502b9439b79478142a53936e3",
+      "svg_sha256": "f3e042ddf9579528bdf72853c6c7049b75b633edbef2a2740e38c7414e017f71",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 15,
+      "svg_clip_paths": 1,
+      "pdf_operations": 254,
+      "pdf_caps": [
+        1
+      ],
+      "pdf_joins": [
+        1
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.069
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "escher",
+      "family": "tiling/escherization",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        4.199999999999999,
+        3.2
+      ],
+      "pdf_size_cm": [
+        4.199999999999999,
+        3.2000000000000006
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "acdf1c368bc0273f80a8300422ea81cc0e08b2e2ebe27f2d6ad80b502d7291e6",
+      "svg_sha256": "9b3d751e07ac75dd3d989d1a6b24107befd0767bccdecc4559d92bda4cbbde29",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 132,
+      "svg_clip_paths": 1,
+      "pdf_operations": 2244,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.014
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "mosaic",
+      "family": "mosaic/hausner",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        6.0,
+        4.0
+      ],
+      "pdf_size_cm": [
+        5.999999999999999,
+        4.0
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "bbcb172faa0dcae7363d323856f48302b76b1577e73d5ec86d86b5b7233c7f29",
+      "svg_sha256": "1e71574101c758e30748a042de6722d39bc235d91a01da5fe217ad63d838bd20",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 138,
+      "svg_clip_paths": 1,
+      "pdf_operations": 1519,
+      "pdf_caps": [],
+      "pdf_joins": [],
+      "pdf_stroke_width_cm_values": [],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "stroke",
+      "family": "stroke/fields-and-examples",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        6.0,
+        4.0
+      ],
+      "pdf_size_cm": [
+        5.999999999999999,
+        4.0
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "ffabd11bd8b78636f49de85de6bbdb834191bfe6668e3f317bb745b1cf858683",
+      "svg_sha256": "b06ba2c6dd007ad89ba514f4bb7f95e9ad0c16b1863d6af065dcb66712987dc3",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 45,
+      "svg_clip_paths": 1,
+      "pdf_operations": 1734,
+      "pdf_caps": [
+        1
+      ],
+      "pdf_joins": [
+        1
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.028
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "maze",
+      "family": "maze/image-guided",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        10.559999999999999,
+        7.5600000000000005
+      ],
+      "pdf_size_cm": [
+        10.559999999999999,
+        7.5600000000000005
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "dfc02d4f730c56e80eb409bb1fcd0181fa3634e17f5ab32648ebfd1acb99eba2",
+      "svg_sha256": "b7aad2106a061f69e6eb5e24e04cfd50e69b5682b25f92265ce5312ffc976ff4",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 367,
+      "svg_clip_paths": 1,
+      "pdf_operations": 4770,
+      "pdf_caps": [
+        1
+      ],
+      "pdf_joins": [
+        1
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.013,
+        0.013282304140013098,
+        0.013844950552187894,
+        0.01445667823115216,
+        0.015083922632032131,
+        0.015769956385724305,
+        0.016475045298326777,
+        0.01725151831080179,
+        0.01805177543836795,
+        0.018940090295101984,
+        0.019858660172338706,
+        0.020887888016069917,
+        0.021956473880441033,
+        0.023167216212614167,
+        0.02443055080447079,
+        0.025881432293837933,
+        0.02740492741212206,
+        0.02918409900826674,
+        0.031067696570765916,
+        0.03331456699156678,
+        0.03571964365921272,
+        0.03866938735307438,
+        0.041875911353943286,
+        0.04596070966671354,
+        0.050503958923806436,
+        0.056618587068757185,
+        0.06367512206653612,
+        0.07403402769995297,
+        0.08682299499714811,
+        0.10883343781675352,
+        0.14055126878636598,
+        0.22208014927179165,
+        0.431666666666665,
+        0.43166666666666587,
+        0.4316666666666663,
+        0.43166666666666653,
+        0.43166666666666675
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "micrography",
+      "family": "text/digital-micrography",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        13.0,
+        7.0
+      ],
+      "pdf_size_cm": [
+        13.0,
+        7.0
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "1ea46e68b0eb559a55bbc7385803fbde1ef75923707e50e0edf30164d8d658e2",
+      "svg_sha256": "b2deede0ccc349cec17a70b7fbdc7074237501a1dc3790cc671b585288f5284d",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 346,
+      "svg_clip_paths": 1,
+      "pdf_operations": 9917,
+      "pdf_caps": [],
+      "pdf_joins": [],
+      "pdf_stroke_width_cm_values": [],
+      "pdf_text": "A fine line follows the lift of the shore. Its small letters hold a \nquiet thought while the field guides each word. The page keeps \nevery mark in order, from the first word to the last. Along the \nbank the water folds back, and the light finds another way. Beyond \nthe bend a narrow path carries us past the reeds. Each step leaves \na quiet space for the next. We follow the curve until the river opens \nand the far bank comes into view.",
+      "svg_text_elements": 7,
+      "svg_opacities": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "id": "decobrush",
+      "family": "decoration/decobrush",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        4.0,
+        1.5
+      ],
+      "pdf_size_cm": [
+        4.0,
+        1.4999999999999998
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "69ffac10e5634b1800d21ccffb2a439a4ca0a85bd6d5a27f90e34573747fcb71",
+      "svg_sha256": "e9227f8d6c0c53cfe9a5a71788f33cba766f92f649e7151fd52a75e84376e492",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 2,
+      "svg_clip_paths": 1,
+      "pdf_operations": 286,
+      "pdf_caps": [],
+      "pdf_joins": [],
+      "pdf_stroke_width_cm_values": [],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "gothic-spatial",
+      "family": "gothic/spatial-ogee",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        9.0,
+        9.5
+      ],
+      "pdf_size_cm": [
+        9.0,
+        9.5
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "18bfefc400f9539d80f77216a69a9e5c9903cca1ef8747c3b2b72afee5f61e02",
+      "svg_sha256": "a5394305eaf92c4c7117a1a131dd4d84b82ee83f5e541d0f3a69e5112bf86993",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 6,
+      "svg_clip_paths": 1,
+      "pdf_operations": 381,
+      "pdf_caps": [
+        1
+      ],
+      "pdf_joins": [
+        1
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.018
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "inline",
+      "family": "collection/ornament",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        4.0,
+        4.0
+      ],
+      "pdf_size_cm": [
+        4.0,
+        4.0
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "9f606eb95f5d0240b6bd1c1a437dec4e609dd8bdc7c82aba589cd761393f4988",
+      "svg_sha256": "adc7261ac03aa9b1897d8d80f7d314e160876f69b91fd0129e3b0d98d77e441a",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 30,
+      "svg_clip_paths": 7,
+      "pdf_operations": 1072,
+      "pdf_caps": [
+        1
+      ],
+      "pdf_joins": [
+        1
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.007055555555555556,
+        0.007761111111111111,
+        0.01940277777777778
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "0.29999999999999999",
+        "0.65000000000000002",
+        "0.69999999999999996",
+        "0.84999999999999998",
+        "1"
+      ]
+    },
+    {
+      "id": "hat",
+      "family": "tiling/hat",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        4.5,
+        4.4
+      ],
+      "pdf_size_cm": [
+        4.5,
+        4.4
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "3f75830c1c7717bd86b9f5c684945d2c6702674d7a9803f5eda2b8f5714eec29",
+      "svg_sha256": "d76eaf30decb588b86512e10858557f354e66dd6ef5f7d28282411bef99a0865",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 240,
+      "svg_clip_paths": 1,
+      "pdf_operations": 3294,
+      "pdf_caps": [
+        0
+      ],
+      "pdf_joins": [
+        0
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.012
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "1"
+      ]
+    },
+    {
+      "id": "botanical-authored",
+      "family": "botanical/legacy-authored",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        21.0,
+        29.7
+      ],
+      "pdf_size_cm": [
+        20.999999999999996,
+        29.699999999999996
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "eba407109e1b5ba13f2bd3ed13d7b18790334fc8fe738647621c38fe6f3254d2",
+      "svg_sha256": "e4abcd3483755573bedc2082390dbe89d5ba6a20e9b8f7d8963c3713d1d9d2af",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 5295,
+      "svg_clip_paths": 1432,
+      "pdf_operations": 112552,
+      "pdf_caps": [
+        1
+      ],
+      "pdf_joins": [
+        1
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.005291666666666667,
+        0.005644444444444445,
+        0.00635,
+        0.006702777777777778,
+        0.007055555555555556,
+        0.007408333333333334,
+        0.007761111111111111,
+        0.00811388888888889,
+        0.008466666666666666,
+        0.008819444444444444,
+        0.009172222222222222,
+        0.009525,
+        0.009877777777777779,
+        0.010230555555555555,
+        0.010583333333333333,
+        0.010936111111111112,
+        0.01128888888888889,
+        0.011641666666666668,
+        0.011994444444444445,
+        0.012347222222222221,
+        0.0127,
+        0.013052777777777778,
+        0.013405555555555556,
+        0.013758333333333334,
+        0.014111111111111112,
+        0.014463888888888889,
+        0.014816666666666667,
+        0.015169444444444444,
+        0.015522222222222222,
+        0.015875,
+        0.01622777777777778,
+        0.01728611111111111,
+        0.018344444444444444,
+        0.01940277777777778,
+        0.019755555555555557,
+        0.02046111111111111,
+        0.024341666666666664,
+        0.02716388888888889,
+        0.029633333333333334,
+        0.03457222222222222,
+        0.035630555555555554,
+        0.04162777777777778,
+        0.042333333333333334,
+        0.04339166666666667,
+        0.04480277777777778,
+        0.04550833333333334,
+        0.04691944444444445,
+        0.04762500000000001,
+        0.04833055555555556,
+        0.04903611111111111,
+        0.05221111111111111,
+        0.05256388888888889,
+        0.05291666666666667,
+        0.05468055555555556,
+        0.05609166666666667,
+        0.05679722222222223,
+        0.057150000000000006,
+        0.05750277777777778,
+        0.05961944444444445,
+        0.06385277777777779,
+        0.06420555555555556,
+        0.06738055555555555,
+        0.06808611111111111,
+        0.06879166666666667,
+        0.06914444444444444,
+        0.07196666666666666,
+        0.07267222222222222,
+        0.07408333333333333,
+        0.07690555555555556,
+        0.07725833333333333,
+        0.07866944444444444,
+        0.08078611111111111,
+        0.08149166666666667,
+        0.08678333333333334,
+        0.0874888888888889,
+        0.08819444444444445,
+        0.09136944444444445,
+        0.09172222222222223,
+        0.09278055555555556,
+        0.09313333333333335,
+        0.0934861111111111,
+        0.09454444444444446,
+        0.09595555555555556,
+        0.10018888888888888,
+        0.10124722222222222,
+        0.10265833333333334,
+        0.11183055555555556,
+        0.11747500000000001
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "0.10000000000000001",
+        "0.11",
+        "0.12",
+        "0.13",
+        "0.14000000000000001",
+        "0.14999999999999999",
+        "0.16",
+        "0.17000000000000001",
+        "0.17999999999999999",
+        "0.19",
+        "0.20000000000000001",
+        "0.20999999999999999",
+        "0.22",
+        "0.23000000000000001",
+        "0.23999999999999999",
+        "0.25",
+        "0.26000000000000001",
+        "0.27000000000000002",
+        "0.28000000000000003",
+        "0.28999999999999998",
+        "0.29999999999999999",
+        "0.31",
+        "0.32000000000000001",
+        "0.33000000000000002",
+        "0.34000000000000002",
+        "0.34999999999999998",
+        "0.37",
+        "0.38",
+        "0.39000000000000001",
+        "0.40000000000000002",
+        "0.40999999999999998",
+        "0.41999999999999998",
+        "0.42999999999999999",
+        "0.44",
+        "0.45000000000000001",
+        "0.46000000000000002",
+        "0.46999999999999997",
+        "0.47999999999999998",
+        "0.48999999999999999",
+        "0.5",
+        "0.51000000000000001",
+        "0.52000000000000002",
+        "0.53000000000000003",
+        "0.54000000000000004",
+        "0.55000000000000004",
+        "0.56000000000000005",
+        "0.56999999999999995",
+        "0.57999999999999996",
+        "0.58999999999999997",
+        "0.59999999999999998",
+        "0.60999999999999999",
+        "0.62",
+        "0.63",
+        "0.64000000000000001",
+        "0.65000000000000002",
+        "0.66000000000000003",
+        "0.67000000000000004",
+        "0.68000000000000005",
+        "0.68999999999999995",
+        "0.69999999999999996",
+        "0.70999999999999996",
+        "0.71999999999999997",
+        "0.72999999999999998",
+        "0.73999999999999999",
+        "0.75",
+        "0.76000000000000001",
+        "0.77000000000000002",
+        "0.78000000000000003",
+        "0.79000000000000004",
+        "0.80000000000000004",
+        "0.81000000000000005",
+        "0.81999999999999995",
+        "0.82999999999999996",
+        "0.83999999999999997",
+        "0.84999999999999998",
+        "0.85999999999999999",
+        "0.87",
+        "0.88",
+        "0.89000000000000001",
+        "0.90000000000000002",
+        "1"
+      ]
+    },
+    {
+      "id": "botanical-grown",
+      "family": "botanical/legacy-grown",
+      "status": "integrity_passed_visual_pending",
+      "physical_size_cm": [
+        21.0,
+        29.7
+      ],
+      "pdf_size_cm": [
+        20.999999999999996,
+        29.699999999999996
+      ],
+      "pdf_svg_physical_tolerance_cm": 1e-06,
+      "pdf_sha256": "3e092fbf5b735aa390af1042cad795f4ba9ac59196d2144f378abe0efc1625d2",
+      "svg_sha256": "5fc636b0bcc8e9d0e67299a0f264aebfdd086612de24c81df1c421211f0cf356",
+      "pdf_rasters": 0,
+      "pdf_forms": 0,
+      "svg_paths": 1407,
+      "svg_clip_paths": 409,
+      "pdf_operations": 28809,
+      "pdf_caps": [
+        1
+      ],
+      "pdf_joins": [
+        1
+      ],
+      "pdf_stroke_width_cm_values": [
+        0.005291666666666667,
+        0.005644444444444445,
+        0.00635,
+        0.007055555555555556,
+        0.007761111111111111,
+        0.008819444444444444,
+        0.010583333333333333,
+        0.011994444444444445,
+        0.012347222222222221,
+        0.0127,
+        0.013052777777777778,
+        0.013405555555555556,
+        0.013758333333333334,
+        0.014463888888888889,
+        0.014816666666666667,
+        0.015169444444444444,
+        0.015522222222222222,
+        0.015875,
+        0.01728611111111111,
+        0.017638888888888888,
+        0.018344444444444444,
+        0.020108333333333332,
+        0.02046111111111111,
+        0.02081388888888889,
+        0.021519444444444445,
+        0.02257777777777778,
+        0.066675,
+        0.06879166666666667,
+        0.06985,
+        0.0762,
+        0.07725833333333333,
+        0.07866944444444444,
+        0.08960555555555556,
+        0.09031111111111112,
+        0.09172222222222223,
+        0.0934861111111111
+      ],
+      "pdf_text": "",
+      "svg_text_elements": 0,
+      "svg_opacities": [
+        "0.10000000000000001",
+        "0.11",
+        "0.12",
+        "0.13",
+        "0.14000000000000001",
+        "0.14999999999999999",
+        "0.16",
+        "0.17000000000000001",
+        "0.17999999999999999",
+        "0.19",
+        "0.20000000000000001",
+        "0.20999999999999999",
+        "0.22",
+        "0.23000000000000001",
+        "0.23999999999999999",
+        "0.25",
+        "0.26000000000000001",
+        "0.27000000000000002",
+        "0.28000000000000003",
+        "0.28999999999999998",
+        "0.29999999999999999",
+        "0.31",
+        "0.32000000000000001",
+        "0.34999999999999998",
+        "0.39000000000000001",
+        "0.40000000000000002",
+        "0.40999999999999998",
+        "0.41999999999999998",
+        "0.45000000000000001",
+        "0.46000000000000002",
+        "0.46999999999999997",
+        "0.48999999999999999",
+        "0.51000000000000001",
+        "0.52000000000000002",
+        "0.53000000000000003",
+        "0.54000000000000004",
+        "0.55000000000000004",
+        "0.56000000000000005",
+        "0.56999999999999995",
+        "0.57999999999999996",
+        "0.58999999999999997",
+        "0.60999999999999999",
+        "0.62",
+        "0.63",
+        "0.64000000000000001",
+        "0.65000000000000002",
+        "0.66000000000000003",
+        "0.67000000000000004",
+        "0.68000000000000005",
+        "0.68999999999999995",
+        "0.69999999999999996",
+        "0.70999999999999996",
+        "0.71999999999999997",
+        "0.72999999999999998",
+        "0.73999999999999999",
+        "0.75",
+        "0.76000000000000001",
+        "0.77000000000000002",
+        "0.78000000000000003",
+        "0.79000000000000004",
+        "0.80000000000000004",
+        "0.81999999999999995",
+        "0.82999999999999996",
+        "0.83999999999999997",
+        "0.84999999999999998",
+        "0.85999999999999999",
+        "0.87",
+        "0.88",
+        "0.89000000000000001",
+        "0.90000000000000002",
+        "1"
+      ]
+    }
+  ],
+  "renders": [
+    {
+      "id": "botanical-panel",
+      "png_sha256": "0e775b6d99c8e13595eb1c8cdd6842f5130d45b606ac4a992ac351a2e8c4608e",
+      "pixels": [
+        709,
+        650
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "periodic",
+      "png_sha256": "12a3f5b728ab8c3b4ba48aa0468a214277ae6cbcb2d19f116d3a75301b9fd563",
+      "pixels": [
+        189,
+        166
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "celtic",
+      "png_sha256": "9667f98e9175a61574e14a86459ce54f1304366fdf5ec480eb5eef483e0c95f5",
+      "pixels": [
+        319,
+        325
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "islamic",
+      "png_sha256": "fa8db41ac838e2f7aa7597572ae90b31c84472cf00c19ef35978ee6fd8d1c40d",
+      "pixels": [
+        319,
+        213
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "freeform",
+      "png_sha256": "cf9da2643d54580b6ec13918c5b1e4244aba8af5eb03be834bfcfe84017e9971",
+      "pixels": [
+        355,
+        355
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "substitution",
+      "png_sha256": "ca9f49b832954fea5b12aa507a63014b8b443dc09cacc4a060f13e7541a62998",
+      "pixels": [
+        60,
+        74
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "penrose",
+      "png_sha256": "ad17d80bc601d6df3cccaeddbef69e85782de6638d815d25815db60df9221949",
+      "pixels": [
+        148,
+        189
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "spectre",
+      "png_sha256": "462fca9bae15c99e084ca49b2a6ee253c350a97d1af9452297e3af7e099af8b2",
+      "pixels": [
+        92,
+        136
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "beenker",
+      "png_sha256": "94abdb6553696fd183bce5a5db6acc1c3f27348332f6389a1c7afa7ad4aff20f",
+      "pixels": [
+        207,
+        213
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "completion",
+      "png_sha256": "d42e818e377142a31e6a08e9a6c59e0f97be24a5da50edcc5fb0b9174c91c7f5",
+      "pixels": [
+        192,
+        160
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "tracery",
+      "png_sha256": "13d606eae3482ffba49cb70f37a8fda5c0c8b945070c179988daa19d12ed1114",
+      "pixels": [
+        508,
+        715
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "escher",
+      "png_sha256": "a2bad08e941d40f58e6823da441d4546af74e47bd746b45fb6752364006ba94e",
+      "pixels": [
+        249,
+        189
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "mosaic",
+      "png_sha256": "a00667791bd388aa6bfdc44418795a60530947f6253f0395425c2a260ee1c0e0",
+      "pixels": [
+        355,
+        237
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "stroke",
+      "png_sha256": "0a394795c60d72b400e9e3f6966a6d27a669d920e762d037de827e8c9f1aa4e1",
+      "pixels": [
+        355,
+        237
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "maze",
+      "png_sha256": "2c257198dfad5b1d2ddcc2afe01e8bc824a5d5baec6a806c64cf50c1e75827b9",
+      "pixels": [
+        624,
+        447
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "micrography",
+      "png_sha256": "26bd6fd69d979b5ba05d8c51c31a0548d4f27b83c7f9af067dbc81bfacd91730",
+      "pixels": [
+        768,
+        414
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "decobrush",
+      "png_sha256": "fb3f7f885904245a2e9908afaca284b1b7c50f3feadd9177e44524da247ca0d8",
+      "pixels": [
+        237,
+        89
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "gothic-spatial",
+      "png_sha256": "cb6d8fd3e842a5bd5b234be59133707be82d90b5e74e053f596dced8ca30314c",
+      "pixels": [
+        532,
+        562
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "inline",
+      "png_sha256": "3462adfc433e63b7e87cdd5aa2ae66cb26cc61af6c2bf2a0ab7826db4de66ba8",
+      "pixels": [
+        237,
+        237
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "hat",
+      "png_sha256": "0f33e9018bb1a15e7832d9746929af421be228aa2bd4df23e149c1a252cee758",
+      "pixels": [
+        266,
+        260
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "botanical-authored",
+      "png_sha256": "0603d1abdbc4b8b8f68dfeb758b846cba3a308ec40f02431d72195beac6108c4",
+      "pixels": [
+        1241,
+        1754
+      ],
+      "dpi": 150
+    },
+    {
+      "id": "botanical-grown",
+      "png_sha256": "7d90d2a9bbe35b5f213b7cffdebfd9ae108f98dcd81f825e6491c084f374f55f",
+      "pixels": [
+        1241,
+        1754
+      ],
+      "dpi": 150
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\v35\\contact\\clean-1.png",
+      "sha256": "904f7277fe669e1dced7d0d99fd6819fce1667c5f189f609ad77eed4d6131662",
+      "profiles": [
+        "botanical-panel",
+        "periodic",
+        "celtic",
+        "islamic",
+        "freeform",
+        "substitution"
+      ],
+      "purpose": "Overview only; full150dpi images and enlarged details reviewed separately"
+    },
+    {
+      "path": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\v35\\contact\\clean-2.png",
+      "sha256": "ef8f2c36ef68cca6e9af78d32fc552b6a77427a9e6eb8eea0dfe2d5fc146ab04",
+      "profiles": [
+        "penrose",
+        "spectre",
+        "beenker",
+        "completion",
+        "tracery",
+        "escher"
+      ],
+      "purpose": "Overview only; full150dpi images and enlarged details reviewed separately"
+    },
+    {
+      "path": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\v35\\contact\\clean-3.png",
+      "sha256": "11b0f92e6aa7ef07123acb73cace4cb1c5baf7f40b5162cea5e8a8756ebbbb42",
+      "profiles": [
+        "mosaic",
+        "stroke",
+        "maze",
+        "micrography",
+        "decobrush",
+        "gothic-spatial"
+      ],
+      "purpose": "Overview only; full150dpi images and enlarged details reviewed separately"
+    },
+    {
+      "path": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\v35\\contact\\clean-4.png",
+      "sha256": "9aed7fcd37bc7e050ae8430266e21b0fe37029728bccf1908b04c8343a41e40c",
+      "profiles": [
+        "inline",
+        "hat",
+        "botanical-authored",
+        "botanical-grown"
+      ],
+      "purpose": "Overview only; full150dpi images and enlarged details reviewed separately"
+    }
+  ],
+  "scope": "Read-only inspection/rasterization of actual accepted native PDF/SVG bytes. No source geometry or baseline regenerated. Office/physicalprint compatibility untested. Diagnostic/color/gray/background/pathological-crop passes remain mandatory."
+}

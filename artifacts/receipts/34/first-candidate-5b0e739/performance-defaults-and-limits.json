@@ -1,0 +1,43 @@
+{
+  "status": "measured_defaults_retained",
+  "revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "actual_browser": "156.0.4314.58",
+  "browser_defaults": {
+    "watchdog_ms": 300000,
+    "lua_allocation_limit_bytes": 268435456,
+    "instruction_limit": 16000000000,
+    "input_transport_limit_bytes": 33554432,
+    "output_transport_limit_bytes": 67108864
+  },
+  "sha_cache_defaults": {
+    "maximum_payload_bytes": 4194304,
+    "maximum_entries": 256,
+    "maximum_entry_bytes": 2097152
+  },
+  "largest_observed_browser_request": {
+    "workload": "text-shaping-large",
+    "phase": "warm-assets-generation",
+    "elapsed_ms": 42128.39999997616
+  },
+  "largest_reported_browser_lua_snapshot": {
+    "workload": "circle-packing-large",
+    "bytes": 32173115,
+    "scope": "Completion allocation snapshot, not peak or whole-process memory"
+  },
+  "largest_observed_browser_instruction_count": {
+    "workload": "text-shaping-large",
+    "instructions": 2061290000
+  },
+  "policy": "Retain tested canonical editor starting recipes and existing hard bounds. Use measured small/medium workload inputs as conservative starting points; increase one construction parameter at a time. Do not raise caps automatically, truncate topology, or present exhausted/invalid inputs as complete. A profile admission maximum is not a latency or convergence guarantee. Use saved-instance replay for repeated placement/style and preserve structural validation. No other-device performance inference.",
+  "known_geometry_rejections": [
+    "unit-spaced knot ribbon clearance",
+    "tall nonmonotone Micrography field",
+    "60-spoke packing ornament unmatched PIC rays at72degrees"
+  ],
+  "text_benchmark_characters": [
+    123,
+    433,
+    1394
+  ],
+  "native_ci": "Exact-current-head verification still required before acceptance."
+}

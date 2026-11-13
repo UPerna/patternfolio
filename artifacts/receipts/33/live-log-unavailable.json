@@ -1,0 +1,8 @@
+{
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "job": 128173724653,
+  "status": "live_log_unavailable_job_still_in_progress",
+  "error_code": "NOT_FOUND",
+  "explanation": "GitHub returns BlobNotFound for the running PDF job log. Completed native jobs/artifacts verified; this is not a failed acceptance check or a user-input blocker. Continue monitoring actual job completion, then inspect logs/artifacts."
+}

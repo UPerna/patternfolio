@@ -1,0 +1,11 @@
+{
+  "kind": "portable",
+  "artifact_id": 13544800339,
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "job": 128173725265,
+  "sha256": "091bc41441da349469c9a39e7e060f6e08946635e7ff5b4999199f372e9b5329",
+  "archive_bytes": 15341895,
+  "verified_archive_sha256": "091bc41441da349469c9a39e7e060f6e08946635e7ff5b4999199f372e9b5329",
+  "safe_extraction": true
+}

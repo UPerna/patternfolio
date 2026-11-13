@@ -1,0 +1,16 @@
+{
+  "micrography": {
+    "numeric_values_compared": 68072,
+    "roundoff_differences": 1346,
+    "maximum_absolute_difference": 2.220446049250313e-15,
+    "maximum_fraction_of_roundoff_bound": 0.13810036309986207,
+    "bound": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b))); integer identities/text/order/topology/non-geometric fields exact"
+  },
+  "decobrush": {
+    "numeric_values_compared": 1117,
+    "roundoff_differences": 0,
+    "maximum_absolute_difference": 0.0,
+    "maximum_fraction_of_roundoff_bound": 0.0,
+    "bound": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b))); integer identities/text/order/topology/non-geometric fields exact"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "stage": "07",
+  "revision": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "parent": "76cc324cd68f564f924f1e00729a19579eb4a78d",
+  "tree": "b80500be24cc4487340e206db409f80e8b63c992",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "b656412c829541f0a25a6b87b9ab4720f37f88bd86738d7f1a14dc3210980be1",
+      "bytes": 4009
+    },
+    {
+      "path": "Makefile",
+      "sha256": "ff9dc8dc442d1c2b15d363243174bb02e1536eb00804f33b3ddeaf9ae387e62f",
+      "bytes": 5424
+    },
+    {
+      "path": "README.md",
+      "sha256": "627be78df16f561b5470324d098ded47d1342544c6963fc26ae22c296cdaf888",
+      "bytes": 27217
+    },
+    {
+      "path": "artifacts/receipts/06/ci-final.json",
+      "sha256": "33b25da57cf9d3fd1fb45c02a9952f733af93f36c9dbb4754fad7bc8d4683a3b",
+      "bytes": 4400
+    },
+    {
+      "path": "artifacts/receipts/06/publication-followup.json",
+      "sha256": "60d0777845994a8bfbf2abe3e47fcd144fda8b0acdc3f150893e6080f37650d9",
+      "bytes": 2744
+    },
+    {
+      "path": "artifacts/receipts/06/scene-oracle-ci-final.json",
+      "sha256": "ac30f7bf3dfd2a6cd45db1340d949bb1a5ae72a5fb8c053608e7b0297ab32188",
+      "bytes": 3228
+    },
+    {
+      "path": "artifacts/receipts/06/source-kit-followup-local.json",
+      "sha256": "2f3bcc5c2fda0490c53d5137041f5a46ae448be3616e1f2d49a8a906405fcb01",
+      "bytes": 177
+    },
+    {
+      "path": "artifacts/receipts/06/visual-blend-rejection.json",
+      "sha256": "12ceb4bd97874de5d6d3cf06d21835da150ccb2471e3dcb6e0c0cb1a36826d59",
+      "bytes": 785
+    },
+    {
+      "path": "artifacts/receipts/07/oracle-local-pre-integration.json",
+      "sha256": "087f8d89bd0083de9529ff2b519769b3989029076338be0972958c176c35b997",
+      "bytes": 3747
+    },
+    {
+      "path": "artifacts/receipts/07/oracle-local.json",
+      "sha256": "dcf4c6a05de5a5a1612c57bf88dbb0c0f79edd93d6a3bcf63a064549eb64c489",
+      "bytes": 3880
+    },
+    {
+      "path": "artifacts/receipts/07/receipt-Lua-5.3-pre-integration.json",
+      "sha256": "282cb274cfa9435269d068830448c6c1714c1519bd358097e8dbfe3b307bfbb7",
+      "bytes": 109138
+    },
+    {
+      "path": "artifacts/receipts/07/receipt-Lua-5.3.json",
+      "sha256": "ecaf1e1aaa1ade38ed8808cd8fba9fa4c1f9d4e78fd1463270c432dcb000ae50",
+      "bytes": 135352
+    },
+    {
+      "path": "artifacts/receipts/07/receipt-Lua-5.4-pre-integration.json",
+      "sha256": "1cd69ebb5693b4579cb4214b011b3fa88e7a79caade5f29d4f470182ed9583d7",
+      "bytes": 109138
+    },
+    {
+      "path": "artifacts/receipts/07/receipt-Lua-5.4.json",
+      "sha256": "d8bd28a435525152515a3b59005ca60d10c69a05bb62cb72feb7a03c7a81c3d9",
+      "bytes": 135352
+    },
+    {
+      "path": "artifacts/receipts/07/single-page-compatibility.json",
+      "sha256": "5ab015cfe97d8af3addfe839990bedafc12de47456fed6b6f9e071f3272c6775",
+      "bytes": 2299
+    },
+    {
+      "path": "artifacts/receipts/07/verification-notes.json",
+      "sha256": "d6fe013f54005e8bc440b82e0bf05aa4fc9ce306bca7e404ad1b8ae3cb8f0791",
+      "bytes": 2331
+    },
+    {
+      "path": "docs/architecture/DOCUMENTS.md",
+      "sha256": "89790ab2cb6d1a481eb45319d8a854bd376810792e264357a4bb526622c1439c",
+      "bytes": 9447
+    },
+    {
+      "path": "docs/architecture/RECIPES.md",
+      "sha256": "36a73da4300e6e615b21db327288e7d978a343d64cbcd225c78eb5db6e502eff",
+      "bytes": 10575
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "a891db74bf7040b29684431ed86c7613ee0b144a6bd3bb011c52bf8e2d143c37",
+      "bytes": 5337
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "b1da302777f8b8e3c3527d4a4aae83c3a53edf22898d7e523634ea6c626f5224",
+      "bytes": 42827
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "569872878d4e999221d81eb041ed703da8ab40f5e55a12b4ce354b785ad96d67",
+      "bytes": 942
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "470097545b72d90a2a1fa34a8617f00dec02ebeaa57f59b8048ceac01935a56c",
+      "bytes": 21740
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "3634d8797416ac800d544ffffb969a24f8fd794bc23d691fda9c2535caa698d8",
+      "bytes": 4556
+    },
+    {
+      "path": "docs/validation/fixtures/scene-v1-digests.json",
+      "sha256": "969e213e781b52e9ea9607ecd61970bc53ed43bba4bc74a45a7662e078f75eaf",
+      "bytes": 1339
+    },
+    {
+      "path": "pattern_document.lua",
+      "sha256": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+      "bytes": 11351
+    },
+    {
+      "path": "pattern_planner.lua",
+      "sha256": "dd17bfba617ba0c742dcbece931178ea7bdf28bf25b177047159b5f746343b46",
+      "bytes": 30625
+    },
+    {
+      "path": "pattern_recipe.lua",
+      "sha256": "7c89fc6a2ed6d723d2d7c2b30a56397bde560c7b3a86664c3a5843d409426b93",
+      "bytes": 12126
+    },
+    {
+      "path": "pattern_registry.lua",
+      "sha256": "8efada078e01fe6083eb9fe9a207c5e8eaa6334cf54ffd9a36b5b5114075bf39",
+      "bytes": 5367
+    },
+    {
+      "path": "pattern_render.lua",
+      "sha256": "bfd06c2899e4de4a0fb18303eea026dd4dc235556193c39eda48d38658632c7d",
+      "bytes": 11872
+    },
+    {
+      "path": "tools/fixtures/planner-grid.lua",
+      "sha256": "1605784f820dcb9a5a9179393b858eb8f040fe512a5e86f8fcfba9eff668b9ef",
+      "bytes": 4212
+    },
+    {
+      "path": "tools/planner_oracle.py",
+      "sha256": "195c36e1bdd67041b0ed11257f5c1103faf614f1708cc180c9464d116ea4a385",
+      "bytes": 16601
+    },
+    {
+      "path": "tools/plannercheck.lua",
+      "sha256": "1278f8c368105385eead21870677f23136c7080a1df7dcf1a5120acefbe80127",
+      "bytes": 27552
+    },
+    {
+      "path": "tools/scenecheck.lua",
+      "sha256": "929f01076ddefe2848d9d2721e091a4cf83addae87fd6f0b42e0d0eb60fd1bd2",
+      "bytes": 9257
+    }
+  ],
+  "unchanged_parent_entries": 196,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41692959075,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

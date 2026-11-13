@@ -1,0 +1,15 @@
+{
+  "revision": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+  "native_run": 42026815106,
+  "family": "tiling/escherization",
+  "public_command": "replay --from native solver-cache",
+  "host": "Windows, Lua 5.3 through Lupa 2.8",
+  "parent_record": "build/443dd74f7c8dd4a76357f7b93d7a4c5f6bb45f7d31a790151dcfc0dbecde95bb",
+  "replay_record": "build/b777f71cecba50bc5ca4c3fa9ecf54c402817fc3b6b29bf168b746416b6ebaf4",
+  "unchanged_artifacts": {
+    "instance.json": "337034a7ef569dfad32f048f136b8227564f52614dfc861ed56ba4f54fb0016e",
+    "pattern.pdf": "acdf1c368bc0273f80a8300422ea81cc0e08b2e2ebe27f2d6ad80b502d7291e6",
+    "pattern.svg": "9b3d751e07ac75dd3d989d1a6b24107befd0767bccdecc4559d92bda4cbbde29"
+  },
+  "result": "The public CLI from the extracted native kit validates the native solver witness and replays its instance/PDF/SVG bytes exactly on Windows. Optimizer bypass is additionally checked by the independent 17-check shared core suite."
+}

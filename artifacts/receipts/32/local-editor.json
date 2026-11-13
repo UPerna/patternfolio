@@ -1,0 +1,44 @@
+{
+  "status": "passed-development-tasks_nativeCI-pending",
+  "sets": {
+    "combined": {
+      "receipt_sha256": "a89195c03c4b600425290c2c192bc53398197054d5658d1d5413d532c67f3218",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "cases": [
+        "border-monochrome",
+        "border",
+        "knot",
+        "penrose",
+        "spectre",
+        "exemplar",
+        "microgram",
+        "maze",
+        "recovery",
+        "canvas"
+      ],
+      "editorcheck_sha256": "a97d8477fcbeee19b9d1933f559694672d5e112fd5991abf270f856be9620a26"
+    },
+    "page-controls": {
+      "receipt_sha256": "b5983c64a3172c05b7ee3e108e08aec66d6e3e5d7bd7048d6fb0036660f2b4aa",
+      "source_digest": "71066c24e6b541386c139936e472a179aa6a76df4aa871eb7bb9178d0d9379d2",
+      "cases": [
+        "page-controls",
+        "microgram-controls"
+      ],
+      "editorcheck_sha256": "47f902753489ea1e1e3134273bd5a2d8dcd7159c875555b8d9469fa2329b075d"
+    },
+    "exemplar-geometry": {
+      "receipt_sha256": "bb29791240e42b3d194b7e39d90023fef9c74501517ec330d9901e65073f2f84",
+      "source_digest": "71066c24e6b541386c139936e472a179aa6a76df4aa871eb7bb9178d0d9379d2",
+      "cases": [
+        "exemplar"
+      ],
+      "editorcheck_sha256": "f480a54409a08d710eb4580c0c431c700dc7fa0c60dc4cd04a9fe8bb437ff9f4"
+    }
+  },
+  "scope": "Combined ten outputcases on source8b05; latest scoped page/view/font fixes and meaningful exemplar geometry separately verified on updatedsource. Full exact-published-head CI including all22core families+adversarial+all editorcases remains mandatory.",
+  "review_note": "Earlier exemplar fixture added ignored id fields, so its import proof was insufficient to prove changed synthesis. New exemplar-geometry fixture changes actual primitive thickness and asserts native SVG changes. Earlier records retained; no stage32acceptance was issued.",
+  "native_local_checks": "17revision+17oldCLIcore+78editor/planner/color/parser checks each under Lupa2.8 Lua5.3 and5.4; nativeTeXCI not yetrun",
+  "protected_prior_evidence": "All67issued31hashes imported raw plus105accepted29/30; neverredigest oroverwrite",
+  "visual_review": "Actual screenshots visually inspected: monochrome/palette border, open knot, Penrose/Spectre crop, imported narrowed exemplar synthesis, Micrography lettering, native maze route, periodic mobile and latest wrapped-font Micrography390px. Full per-family export-quality pass remains35."
+}

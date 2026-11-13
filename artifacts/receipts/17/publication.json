@@ -1,0 +1,104 @@
+{
+  "stage": "17",
+  "revision": "ab597994e2e0aeae9b6398e149bec480110a802d",
+  "parent": "ef4c249a6804f091ff3d11b5e2d458cb3abbbe0a",
+  "tree": "8ecb4223ffbcb95a542f96507ee8f0e0b156e3e0",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "ab83037115873b0f579e722bd2a2c872b052fb54ec785124d4c10aa5f608b8c2",
+      "bytes": 5393
+    },
+    {
+      "path": "Makefile",
+      "sha256": "2bdfd42e625702ff008bf7fb89631329ba01afc2bf5770116cf4d4a2b8077ae0",
+      "bytes": 6339
+    },
+    {
+      "path": "artifacts/receipts/16/ci-final.json",
+      "sha256": "9b42d162e59bf189963230d9945bec1422a6e61e85d4ca3589e2b0b6bd1d4bc7",
+      "bytes": 3948
+    },
+    {
+      "path": "artifacts/receipts/16/publication.json",
+      "sha256": "36a88cc28766476eedae21199b0143a88b174d849c5c4b837ada8c7e7bc50ac6",
+      "bytes": 3118
+    },
+    {
+      "path": "artifacts/receipts/17/oracle.json",
+      "sha256": "230e50cc43dc565f1d48877601b5465913d85ecd6a1dd9c335614e725863a574",
+      "bytes": 2715
+    },
+    {
+      "path": "artifacts/receipts/17/primary-recovery.json",
+      "sha256": "0e060052fa9e7c64a3e56cd0e03542fb98f39863b393180b6ce60caf472b3ea6",
+      "bytes": 738
+    },
+    {
+      "path": "artifacts/receipts/17/receipt-Lua-5.3.json",
+      "sha256": "d35619015ece11a380d0f0fa6f1207b2e93ad5f6be8a100ff1bf6b7e9d198b06",
+      "bytes": 2476
+    },
+    {
+      "path": "artifacts/receipts/17/receipt-Lua-5.4.json",
+      "sha256": "d35619015ece11a380d0f0fa6f1207b2e93ad5f6be8a100ff1bf6b7e9d198b06",
+      "bytes": 2476
+    },
+    {
+      "path": "docs/architecture/AMMANN_BEENKER.md",
+      "sha256": "f319e395c312b3f80bdf861dc402006e2afe07092dd95df441ba78e8cab8d45c",
+      "bytes": 3173
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "7c7beef972f7609baa00cbe373155dbf21b01cd3557d529496968d49edf86656",
+      "bytes": 51294
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "f4d3bb9e6be8762eaf6d510568bb62502580bb387a50ed4861d846300649fabc",
+      "bytes": 425
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "585c31d4d54d1bde7e11528fc037141140831da175439f4c9ab9d0b77cf22d85",
+      "bytes": 30460
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "d29e0e6c24aa5661cabcb63b186e416d2daa3e86e19421eeaca1423c590272fc",
+      "bytes": 39661
+    },
+    {
+      "path": "docs/research/OPEN_OBLIGATIONS.json",
+      "sha256": "f107ad01908b4bfa531541203e3396b787637da7cfee3df917ada06229a53b01",
+      "bytes": 2606
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "e1881b4880c566e925a241a5f3a521f6641a38896d50b50e58568b95051410cd",
+      "bytes": 24825
+    },
+    {
+      "path": "pattern_ammann_beenker.lua",
+      "sha256": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+      "bytes": 16296
+    },
+    {
+      "path": "tools/beenker_oracle.py",
+      "sha256": "a8262da5d2ff290a9302462fa98c1d3dbec0c90d1d51282a25f6945f5a450515",
+      "bytes": 10435
+    },
+    {
+      "path": "tools/beenkercheck.lua",
+      "sha256": "4d49c73abbb4b64ab1bd0c78d928a872927a6ee9dbc315315a693dad030b10c9",
+      "bytes": 6919
+    }
+  ],
+  "unchanged_parent_entries": 326,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41853811845,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

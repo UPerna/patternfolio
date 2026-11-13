@@ -1,0 +1,195 @@
+{
+  "stage": "07",
+  "source_digest": "5be36b4338c117ecb388de4c7832d7db7173decd0b3954a150940308007a99c6",
+  "status": "document_view_oracle_passed",
+  "rasterizers": "Inkscape/Poppler",
+  "exact_rational_comparisons": 516,
+  "route_segments": 53,
+  "world_overlap_semantic_objects": 56,
+  "overlap_max_channel_error": {
+    "pdf": 0,
+    "svg": 0
+  },
+  "fixtures": [
+    {
+      "name": "panel",
+      "dimensions": [
+        210,
+        150
+      ],
+      "mean_absolute_error": 0.00777383546010997,
+      "protected_ink": [
+        {
+          "physical_bounds": [
+            1.2,
+            1,
+            2,
+            1.8
+          ],
+          "pixel_box": [
+            59,
+            59,
+            103,
+            103
+          ],
+          "minimum_channel": [
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "name": "panel-full",
+      "dimensions": [
+        210,
+        150
+      ],
+      "mean_absolute_error": 0.003439028944911298,
+      "protected_ink": [
+        {
+          "physical_bounds": [
+            1.2,
+            1,
+            2,
+            1.8
+          ],
+          "pixel_box": [
+            59,
+            59,
+            103,
+            103
+          ],
+          "minimum_channel": [
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "name": "verso",
+      "dimensions": [
+        240,
+        180
+      ],
+      "mean_absolute_error": 0.007269184216896634,
+      "protected_ink": [
+        {
+          "physical_bounds": [
+            0.9000000000000001,
+            0.95,
+            1.6,
+            1.75
+          ],
+          "pixel_box": [
+            57,
+            77,
+            94,
+            120
+          ],
+          "minimum_channel": [
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "name": "recto",
+      "dimensions": [
+        240,
+        180
+      ],
+      "mean_absolute_error": 0.007244946744129751,
+      "protected_ink": [
+        {
+          "physical_bounds": [
+            0.4,
+            1.3,
+            1.2,
+            2.1
+          ],
+          "pixel_box": [
+            26,
+            56,
+            70,
+            100
+          ],
+          "minimum_channel": [
+            255,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "name": "overlap-a",
+      "dimensions": [
+        240,
+        120
+      ],
+      "mean_absolute_error": 0.0075904139433551196,
+      "protected_ink": []
+    },
+    {
+      "name": "overlap-b",
+      "dimensions": [
+        240,
+        120
+      ],
+      "mean_absolute_error": 0.0075904139433551196,
+      "protected_ink": []
+    }
+  ],
+  "book_pages": 2,
+  "independent_host_geometry_cases": 8,
+  "affine_decimal_comparisons": 3,
+  "recipe_replay": "actual saved source/scene/BuildRecord bytes verified; fixed view keys separate from adaptive construction keys",
+  "legacy_adaptation": [
+    {
+      "kind": "open",
+      "stats": {
+        "accents": 1,
+        "branches": 11,
+        "cells": 4608,
+        "fills": 0,
+        "motifs": 11,
+        "route_failures": 0,
+        "skipped": 0
+      },
+      "protected_ink": [],
+      "pdf_sha256": "bab09c7078c74e14c94cb2735cb59b779e65de75548e67b066a77023e2f5e107"
+    },
+    {
+      "kind": "reserved",
+      "stats": {
+        "accents": 1,
+        "branches": 11,
+        "cells": 3608,
+        "fills": 0,
+        "motifs": 11,
+        "route_failures": 1,
+        "skipped": 3
+      },
+      "protected_ink": [
+        {
+          "physical_bounds": [
+            1,
+            8,
+            5,
+            18
+          ],
+          "pixel_box": [
+            28,
+            302,
+            125,
+            553
+          ],
+          "minimum_channel": 255
+        }
+      ],
+      "pdf_sha256": "9a25b539038bc530926658dc13cf8acde623e788e420b905bed1ae64b1344a88"
+    }
+  ]
+}

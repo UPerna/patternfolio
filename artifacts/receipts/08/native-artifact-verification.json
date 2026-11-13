@@ -1,0 +1,58 @@
+{
+  "stage": "08",
+  "source_digest": "17d56eb5b00671d8b1e34fa44eeeef32e2a80ba095674851dd0c5e4205814f11",
+  "native_checks": 19,
+  "native_legacy_layout_pages": 12,
+  "maximum_size_bounds": 18,
+  "native_output_file_hashes": 12,
+  "native_local_byte_equal_outputs": [
+    "authored.pdf",
+    "authored.svg",
+    "grown.pdf",
+    "grown.svg",
+    "panel-unmasked.pdf",
+    "panel.instance",
+    "panel.pdf",
+    "panel.recipe",
+    "panel.scene",
+    "panel.svg"
+  ],
+  "example_engine_pairs": 14,
+  "pixel_exact_pages": 42,
+  "kit_hashes": 239,
+  "oracle": {
+    "stage": "08",
+    "source_digest": "17d56eb5b00671d8b1e34fa44eeeef32e2a80ba095674851dd0c5e4205814f11",
+    "rasterizers": "Inkscape/Poppler",
+    "checked_paths": 645,
+    "exact_placement_and_attachment_checks": "passed",
+    "unmasked_pdf_matches": "pixel exact",
+    "fixtures": [
+      {
+        "fixture": "panel",
+        "pixels": [
+          720,
+          660
+        ],
+        "mean_absolute_error": 0.002372111639268502
+      },
+      {
+        "fixture": "authored",
+        "pixels": [
+          1260,
+          1782
+        ],
+        "mean_absolute_error": 0.006119617984783803
+      },
+      {
+        "fixture": "grown",
+        "pixels": [
+          1260,
+          1782
+        ],
+        "mean_absolute_error": 0.0028254994062304637
+      }
+    ]
+  },
+  "visual_review": "Fresh native Inkscape/Poppler panel, authored and grown PDF/SVG contact sheets inspected; passes; preexisting authored crop confirmed."
+}

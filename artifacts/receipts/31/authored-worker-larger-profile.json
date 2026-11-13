@@ -1,0 +1,6 @@
+{
+  "elapsed_ms": 300003.89999997616,
+  "ok": false,
+  "code": "timeout",
+  "message": "Browser watchdog aborted; no result was accepted"
+}

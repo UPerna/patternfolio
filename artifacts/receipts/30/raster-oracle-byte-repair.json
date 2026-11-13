@@ -1,0 +1,38 @@
+{
+  "scope": "Raster oracle self-check using an actual accepted native stage29 micrography PDF; no new TeX compilation",
+  "source_pdf_sha256": "14181181ac27d705588b26100097c19279282cd8d5f5ffd18ec3dba8e00390d5",
+  "oracle_script_sha256": "dba9fe7876664fc34b8cdad901a3cbdcd108c189c360f9d4a9a97417b68cd8a4",
+  "unchanged_actual_ink_passed": {
+    "name": "unchanged actual native micrography",
+    "changed_colored_pixels": 0,
+    "union_colored_pixels": 9520,
+    "changed_fraction_limit": 0.005,
+    "ink_bounds": [
+      [
+        70,
+        7,
+        670,
+        234
+      ],
+      [
+        70,
+        7,
+        670,
+        234
+      ]
+    ],
+    "coverage_lua_to_xe": {
+      "components": 655,
+      "minimum_coverage": 1.0
+    },
+    "coverage_xe_to_lua": {
+      "components": 655,
+      "minimum_coverage": 1.0
+    }
+  },
+  "removed_glyph_pixels": 27,
+  "whole_ornament_changed_fraction": 0.0028361344537815125,
+  "whole_ornament_limit": 0.005,
+  "overall_ink_bounds_unchanged": true,
+  "missing_glyph_rejected_by_component_gate": true
+}

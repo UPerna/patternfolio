@@ -1,0 +1,63 @@
+{
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+  "wasmoon": {
+    "result": {
+      "canonical": "{\"integer\":9007199254740991,\"number\":0.10000000000000001,\"unicode\":\"Ω\"}",
+      "float_bytes": 8,
+      "lua": "Lua 5.4",
+      "maxinteger": "9223372036854775807",
+      "prng": [
+        16807,
+        282475249,
+        1622650073,
+        984943658,
+        1144108930,
+        470211272,
+        101027544,
+        1457850878,
+        1458777923,
+        2007237709
+      ],
+      "sha256_abc": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+    },
+    "startup_and_probe_ms": 48.59999996423721,
+    "memory_lua_bytes": 231475,
+    "memory_limit_lua_bytes": 134217728
+  },
+  "fengari": {
+    "status": 2,
+    "error": "[string \"package.preload[\"pattern\"]=function(...)...\"]:1161: pattern hashes require Lua int64/binary64; runtime parity is an explicit gate",
+    "probe_ms": 92.10000002384186
+  },
+  "sizes": {
+    "wasmoon": [
+      {
+        "file": "wasmoon-1.16.0/package/dist/index.js",
+        "bytes": 151652,
+        "gzip_bytes": 38945,
+        "sha256": "dc2dcf019449008bb224370052473dc760db28b3ba14fc604e1ca3e8646af35d"
+      },
+      {
+        "file": "wasmoon-1.16.0/package/dist/glue.wasm",
+        "bytes": 271581,
+        "gzip_bytes": 110637,
+        "sha256": "95f3f19ddb740125883bc41d5ec670cd0828e7b58c8bdad385323cbff497b55c"
+      }
+    ],
+    "fengari": [
+      {
+        "file": "fengari-web-0.1.4/package/dist/fengari-web.js",
+        "bytes": 219632,
+        "gzip_bytes": 69755,
+        "sha256": "fbea0ee4b2e38840f96b03eb7ee162ae391127df26fccd000a2b8756535c8186"
+      }
+    ]
+  },
+  "source_sha256": {
+    "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+    "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+    "pattern_hash.lua": "99c9347bdc7714fe8d224a478785d7a85127cc5a16b2bf6a5c40e0608be01861",
+    "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+    "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c"
+  }
+}

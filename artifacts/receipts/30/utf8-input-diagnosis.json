@@ -1,0 +1,9 @@
+{
+  "revision": "9ab59175346f61362094610d5ad3bfad4ade6b50",
+  "scope": "Actual Windows Python fls parser, not a TeX compilation",
+  "locale_encoding": "cp1252",
+  "source_sha256": "41926355285c5e2004596d79887ce18d7e09b6bc27a646414ee9b4a24f77f85d",
+  "source_in_recorded_inputs": false,
+  "recorded_inputs": {},
+  "driver_sha256": "9d30118b2f7733a34b44484fd5ba4499613472b9259ffb341e67adb78ee29484"
+}

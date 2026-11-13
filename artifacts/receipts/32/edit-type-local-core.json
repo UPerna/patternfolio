@@ -1,0 +1,53 @@
+{
+  "scope": "Local development Lua5.3/5.4; native TeX/browser/editor CI still pending",
+  "results": {
+    "lua53": {
+      "actual_lua": "Lua 5.3",
+      "actual_svg_changed": true,
+      "checks": 17,
+      "generator_bypassed": true,
+      "original_instance_sha256": "d6e63f7b6507e5f4841acab103b217bfe366b067c7b56b90ee8a7feadc1c9226",
+      "parent_record": "build/8fc14e3ff574441b5954cd0018f635d1e796124097bfecdd128eb4d9dc3e26cd",
+      "revised_instance_sha256": "d6e63f7b6507e5f4841acab103b217bfe366b067c7b56b90ee8a7feadc1c9226",
+      "revision_record": "build/daf9b315982e4cdc6c9658157af995bce82c6810614f3acf26eb67b66187bd66",
+      "scope": "Shared core revision contract; full editor/browser/CI acceptance remains stage32",
+      "source_digest": "a44cf1b2719571de77ce0267b871dc3a276a4641fc2ba6ed28d3d526ce9adbdd",
+      "native_editor_prepare": {
+        "actual_lua": "Lua 5.3",
+        "checks": 92,
+        "encoded_symbol_geometry_preserved": true,
+        "gray_paints": 29,
+        "native_document_plan_preserved": true,
+        "pdf_devicegray_verified": true,
+        "revised_instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+        "scope": "Shared editor planner/color API; complete UI/nativeCI acceptance remains pending",
+        "source_digest": "a44cf1b2719571de77ce0267b871dc3a276a4641fc2ba6ed28d3d526ce9adbdd",
+        "source_instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21"
+      }
+    },
+    "lua54": {
+      "actual_lua": "Lua 5.4",
+      "actual_svg_changed": true,
+      "checks": 17,
+      "generator_bypassed": true,
+      "original_instance_sha256": "d6e63f7b6507e5f4841acab103b217bfe366b067c7b56b90ee8a7feadc1c9226",
+      "parent_record": "build/332efb07d909addc736e53e1e8670864ae8ea5457de47cb1abd3ee572c2df3c3",
+      "revised_instance_sha256": "d6e63f7b6507e5f4841acab103b217bfe366b067c7b56b90ee8a7feadc1c9226",
+      "revision_record": "build/a372b09025213950fc11fdf694b3191e1ec57e632f078af937f80f18e0a753c9",
+      "scope": "Shared core revision contract; full editor/browser/CI acceptance remains stage32",
+      "source_digest": "a44cf1b2719571de77ce0267b871dc3a276a4641fc2ba6ed28d3d526ce9adbdd",
+      "native_editor_prepare": {
+        "actual_lua": "Lua 5.4",
+        "checks": 92,
+        "encoded_symbol_geometry_preserved": true,
+        "gray_paints": 29,
+        "native_document_plan_preserved": true,
+        "pdf_devicegray_verified": true,
+        "revised_instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+        "scope": "Shared editor planner/color API; complete UI/nativeCI acceptance remains pending",
+        "source_digest": "a44cf1b2719571de77ce0267b871dc3a276a4641fc2ba6ed28d3d526ce9adbdd",
+        "source_instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "R11",
+  "title": "DecoBrush: Drawing Structured Decorative Patterns by Example",
+  "sha256": "6ff6d7e05db6ef24e5c25bdf049aba339b5e2f61942df75e3ebbad0fcb382ce8",
+  "sections": [
+    "4.1",
+    "4.2",
+    "4.3",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5"
+  ],
+  "scope": "Independent implementation. The paper and its illustrations remain private. Fixture primitives are original."
+}

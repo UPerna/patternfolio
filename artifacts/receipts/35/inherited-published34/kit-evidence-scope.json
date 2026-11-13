@@ -1,0 +1,45 @@
+{
+  "revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "status": "scope_verified",
+  "source_kit_receipt_selection": "tools/package.py explicitly selects JSON-only receipt records",
+  "prior_issued_hashes_in_canonical_archive": 297,
+  "prior_json_receipts_inside_kit": 290,
+  "raw_non_json_receipts_outside_kit": [
+    {
+      "path": "artifacts/receipts/29/initial-native-failure-excerpt.log",
+      "sha256": "ca1a01fc584807fba1013635e4694d6a6a3da3b39891c410be3de4429f1b4756",
+      "preserved_in": "Verified canonical Git archive, full-history Git bundle and recovery checkpoint"
+    },
+    {
+      "path": "artifacts/receipts/29/offset-native-failure-excerpt.log",
+      "sha256": "644c2dbe4eb48e41ac889a12e659fa0d4f51ef8abe86dc9a76b6a95d4545954a",
+      "preserved_in": "Verified canonical Git archive, full-history Git bundle and recovery checkpoint"
+    },
+    {
+      "path": "artifacts/receipts/29/repair-native-failure-excerpt.log",
+      "sha256": "8bd835973f7c6272ed06ce952d83d2cfc1797ea83a5e6349fe7c6d0e648004b9",
+      "preserved_in": "Verified canonical Git archive, full-history Git bundle and recovery checkpoint"
+    },
+    {
+      "path": "artifacts/receipts/30/fault-repair-native-failure.log",
+      "sha256": "5229b0e5d26518b8359c7ded82ca26d90863af5310e9d9241d7696095ceb4781",
+      "preserved_in": "Verified canonical Git archive, full-history Git bundle and recovery checkpoint"
+    },
+    {
+      "path": "artifacts/receipts/30/repair-native-failure.log",
+      "sha256": "6cabfaaa88128b351c6c2993cb413c14cb6afd9a7b3a9c8245da395d0c925254",
+      "preserved_in": "Verified canonical Git archive, full-history Git bundle and recovery checkpoint"
+    },
+    {
+      "path": "artifacts/receipts/31/original-browser-acceptance-rejected.log",
+      "sha256": "365bd8a861d0197e4ba2926947e728bbfd7c5e99c5d5ac1c8cee7f5af2161418",
+      "preserved_in": "Verified canonical Git archive, full-history Git bundle and recovery checkpoint"
+    },
+    {
+      "path": "artifacts/receipts/33/native-pdfs-job.log",
+      "sha256": "a9eb211313690a99382aba8d0120c12bd4e2520b7c6fe4db0df363016c1638d8",
+      "preserved_in": "Verified canonical Git archive, full-history Git bundle and recovery checkpoint"
+    }
+  ],
+  "reviewer_correction": "Additional local reviewer initially assumed all historical raw logs were in the source-only kit. That assumption contradicted the existing explicit package extension list. All JSON receipts remain mandatory; every omitted raw log is verified against the full canonical recovery archive. No implementation or numerical threshold changed; full release packaging is stage37."
+}

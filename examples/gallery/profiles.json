@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "scope": "Original canonical fixtures with separately named presentation styles. The Lua renderer preserves each validated instance and document view.",
+  "profiles": [
+    {
+      "id": "botanical-panel",
+      "title": "Asymmetric garden",
+      "variant": "Copper garden",
+      "coverage": [
+        "FL02"
+      ],
+      "fill": [
+        0.26,
+        0.11,
+        0.09
+      ],
+      "stroke": [
+        0.23,
+        0.13,
+        0.11
+      ],
+      "note": "An original asymmetric panel guided by the adaptive botanical method. The empty center is reserved by the layout."
+    },
+    {
+      "id": "periodic",
+      "title": "Masked periodic repeat",
+      "variant": "Jade margin",
+      "coverage": [
+        "PX05"
+      ],
+      "fill": [
+        0.11,
+        0.39,
+        0.32
+      ],
+      "stroke": [
+        0.08,
+        0.22,
+        0.2
+      ],
+      "note": "A repeat in a fixed document frame. The compact fixture demonstrates that a protected region removes paint without reindexing tiles."
+    },
+    {
+      "id": "celtic",
+      "title": "Celtic strand",
+      "variant": "Jade ribbon",
+      "coverage": [
+        "CE01",
+        "CE02",
+        "CE03"
+      ],
+      "fill": [
+        0.15,
+        0.39,
+        0.35
+      ],
+      "stroke": [
+        0.09,
+        0.24,
+        0.19
+      ],
+      "note": "A planar strand with validated over and under crossings. The color treatment retains the strand graph and crossing assignment."
+    },
+    {
+      "id": "islamic",
+      "title": "Polygons in contact",
+      "variant": "Copper contacts",
+      "coverage": [
+        "IS01",
+        "IS02",
+        "IS03"
+      ],
+      "fill": [
+        0.34,
+        0.12,
+        0.06
+      ],
+      "stroke": [
+        0.36,
+        0.14,
+        0.07
+      ],
+      "note": "The linework comes from admitted polygon contacts. Unsupported ray configurations are reported, and the protected opening is explicit."
+    },
+    {
+      "id": "freeform",
+      "title": "Freeform star ornament",
+      "variant": "Plum stars",
+      "coverage": [
+        "FI01",
+        "FI02"
+      ],
+      "fill": [
+        0.26,
+        0.08,
+        0.19
+      ],
+      "stroke": [
+        0.27,
+        0.1,
+        0.21
+      ],
+      "note": "A finite arrangement of mixed star orders on a validated scaffold. The gallery view does not expand the supported circle-packing domain."
+    },
+    {
+      "id": "substitution",
+      "title": "Chair substitution",
+      "variant": "Slate steps",
+      "coverage": [
+        "PX06"
+      ],
+      "fill": [
+        0.1,
+        0.3,
+        0.42
+      ],
+      "stroke": [
+        0.08,
+        0.16,
+        0.28
+      ],
+      "note": "A compact finite chair patch with explicit substitution lineage. Enlarging the presentation does not add cells."
+    },
+    {
+      "id": "penrose",
+      "title": "Penrose P3",
+      "variant": "Plum rhombs",
+      "coverage": [
+        "PE01",
+        "PE02"
+      ],
+      "native_style": {
+        "palette": "plum"
+      },
+      "note": "Thin and thick rhombs come from the regular pentagrid. The fixed frame and global cell identities remain the same in both views."
+    },
+    {
+      "id": "spectre",
+      "title": "Spectre patch",
+      "variant": "Blue curved seams",
+      "coverage": [
+        "SP01",
+        "SP02"
+      ],
+      "fill": [
+        0.09,
+        0.26,
+        0.49
+      ],
+      "stroke": [
+        0.05,
+        0.14,
+        0.3
+      ],
+      "note": "A finite Spectre construction with matching curved seams. The source scope is distinct from the Hat and Tile(1,1)."
+    },
+    {
+      "id": "beenker",
+      "title": "Ammann–Beenker squares and rhombs",
+      "variant": "Deep teal window",
+      "coverage": [
+        "AB01"
+      ],
+      "fill": [
+        0.04,
+        0.35,
+        0.35
+      ],
+      "stroke": [
+        0.07,
+        0.19,
+        0.24
+      ],
+      "note": "A tetragrid window generates square and rhomb cells with stable world identities and explicit phase."
+    },
+    {
+      "id": "completion",
+      "title": "Bounded square completion",
+      "variant": "Indigo route",
+      "coverage": [
+        "BC01"
+      ],
+      "fill": [
+        0.16,
+        0.22,
+        0.46
+      ],
+      "stroke": [
+        0.09,
+        0.13,
+        0.33
+      ],
+      "note": "An explicitly bounded solve with marked edges and a constrained route. The fixture makes no unbounded tiling claim."
+    },
+    {
+      "id": "tracery",
+      "title": "Gothic tracery",
+      "variant": "Copper arch",
+      "coverage": [
+        "GT01",
+        "GT02"
+      ],
+      "fill": [
+        0.36,
+        0.19,
+        0.11
+      ],
+      "stroke": [
+        0.32,
+        0.14,
+        0.08
+      ],
+      "note": "A two-dimensional arch and foil construction using admitted parameters. This is separate from the spatial curve-network example."
+    },
+    {
+      "id": "escher",
+      "title": "Periodic Escherization",
+      "variant": "Blue-green tessellation",
+      "coverage": [
+        "ES01",
+        "ES02",
+        "ES03"
+      ],
+      "fill": [
+        0.09,
+        0.37,
+        0.39
+      ],
+      "stroke": [
+        0.05,
+        0.19,
+        0.25
+      ],
+      "note": "A verified periodic witness reused without an optimizer. It represents one admitted result; other Escherization profiles have separate evidence."
+    },
+    {
+      "id": "mosaic",
+      "title": "Partial mosaic",
+      "variant": "Terracotta grout study",
+      "coverage": [
+        "MO01",
+        "MO02"
+      ],
+      "fill": [
+        0.29,
+        0.12,
+        0.08
+      ],
+      "stroke": [
+        0.21,
+        0.1,
+        0.08
+      ],
+      "note": "Original field-guided tile placement with explicit partial-packing status. The open grout remains visible."
+    },
+    {
+      "id": "stroke",
+      "title": "Field-guided hatching",
+      "variant": "Indigo contour study",
+      "coverage": [
+        "HT01",
+        "HT02",
+        "HT03",
+        "HT04"
+      ],
+      "fill": [
+        0.1,
+        0.2,
+        0.41
+      ],
+      "stroke": [
+        0.06,
+        0.16,
+        0.34
+      ],
+      "note": "Hatching follows an analytic field. Stippling and example-driven synthesis are checked separately in the same family."
+    },
+    {
+      "id": "maze",
+      "title": "Tone-guided maze",
+      "variant": "Plum wall study",
+      "coverage": [
+        "MA01",
+        "MA02",
+        "MA03"
+      ],
+      "fill": [
+        0.21,
+        0.08,
+        0.22
+      ],
+      "stroke": [
+        0.21,
+        0.08,
+        0.22
+      ],
+      "note": "An analytic tone field controls spacing and weight. The finite maze and its solution keep their graph semantics through render changes."
+    },
+    {
+      "id": "micrography",
+      "title": "Micrography",
+      "variant": "Ink-blue text study",
+      "coverage": [
+        "MI01",
+        "MI02",
+        "MI03"
+      ],
+      "fill": [
+        0.03,
+        0.12,
+        0.26
+      ],
+      "stroke": [
+        0.03,
+        0.12,
+        0.26
+      ],
+      "note": "Original text and the pinned Latin Modern derivative form the rendered lines. Visible outlines accompany an ordered logical text layer."
+    },
+    {
+      "id": "decobrush",
+      "title": "DecoBrush exemplar synthesis",
+      "variant": "Copper brush silhouette",
+      "coverage": [
+        "DE01",
+        "DE02",
+        "DE03"
+      ],
+      "fill": [
+        0.31,
+        0.11,
+        0.08
+      ],
+      "stroke": [
+        0.27,
+        0.1,
+        0.09
+      ],
+      "note": "An original exemplar library guides the brush shape and its attached feature. The clean view preserves the open loop in the finite silhouette."
+    },
+    {
+      "id": "gothic-spatial",
+      "title": "Projected spatial ogees",
+      "variant": "Blueprint curves",
+      "coverage": [
+        "GM01",
+        "GM02"
+      ],
+      "fill": [
+        0.1,
+        0.25,
+        0.42
+      ],
+      "stroke": [
+        0.09,
+        0.24,
+        0.43
+      ],
+      "note": "A projection of the validated 3D curve network. Download the network alongside the view to retain its spatial geometry."
+    },
+    {
+      "id": "inline",
+      "title": "Inline garden divider",
+      "variant": "Blue-green divider",
+      "coverage": [
+        "PX02"
+      ],
+      "fill": [
+        0.06,
+        0.31,
+        0.28
+      ],
+      "stroke": [
+        0.1,
+        0.23,
+        0.22
+      ],
+      "note": "An original collection member with explicit physical placement and a preserved ornament instance."
+    },
+    {
+      "id": "hat",
+      "title": "Hat clusters",
+      "variant": "Slate cluster study",
+      "coverage": [
+        "HA01"
+      ],
+      "fill": [
+        0.12,
+        0.26,
+        0.42
+      ],
+      "stroke": [
+        0.06,
+        0.15,
+        0.29
+      ],
+      "note": "An admitted finite Hat cluster with its prototype labels and outline. Its hierarchy is kept separate from Spectre."
+    },
+    {
+      "id": "botanical-authored",
+      "title": "Authored floral margin",
+      "variant": "Copper page margin",
+      "coverage": [
+        "FL01"
+      ],
+      "fill": [
+        0.28,
+        0.11,
+        0.07
+      ],
+      "stroke": [
+        0.23,
+        0.11,
+        0.08
+      ],
+      "note": "The original authored layout is captured as a validated legacy scene. The revised paint is a separate gallery recipe."
+    },
+    {
+      "id": "botanical-grown",
+      "title": "Grown floral margin",
+      "variant": "Jade page margin",
+      "coverage": [
+        "FL01"
+      ],
+      "fill": [
+        0.07,
+        0.33,
+        0.26
+      ],
+      "stroke": [
+        0.06,
+        0.22,
+        0.17
+      ],
+      "note": "The legacy procedural growth instance keeps its seed and original spatial arrangement. The gallery revision changes paint only."
+    }
+  ]
+}

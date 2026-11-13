@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "semantic_paths": 18,
+  "near_integer_corruptions": 54,
+  "continuous_coordinate_controls": 5,
+  "nonfinite_controls": 3,
+  "bound_unchanged": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b)))",
+  "checks": [
+    {
+      "path": "/extensions/micrography/positions/0/line",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/positions/0/spans/0/0",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/field/triangles/0/0",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/field/labels/samples/0/label",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/field/labels/samples/0/node",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/field/labels/edges/0/0",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/field/iterations",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/field/labels/mask",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/field/unknown",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/matches/0/piece",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/matches/0/first",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/matches/0/last",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/matches/0/mesh/faces/0/0",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/seams/0/indices/0",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/seams/0/certificate/flow",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/grid/0/source/piece",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/width",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/decobrush/field/unknown",
+      "near_integer_corruptions_rejected": 3
+    },
+    {
+      "path": "/extensions/micrography/positions/0/glyphs/0/offset/0",
+      "legitimate_near_integer_coordinate_accepted": true,
+      "larger_drift_rejected": true
+    },
+    {
+      "path": "/extensions/micrography/field/vectors/0/0",
+      "legitimate_near_integer_coordinate_accepted": true,
+      "larger_drift_rejected": true
+    },
+    {
+      "path": "/extensions/micrography/streamlines/0/points/0/1",
+      "legitimate_near_integer_coordinate_accepted": true,
+      "larger_drift_rejected": true
+    },
+    {
+      "path": "/extensions/decobrush/contours/0/0/0",
+      "legitimate_near_integer_coordinate_accepted": true,
+      "larger_drift_rejected": true
+    },
+    {
+      "path": "/extensions/decobrush/field/grid/0/x",
+      "legitimate_near_integer_coordinate_accepted": true,
+      "larger_drift_rejected": true
+    }
+  ],
+  "test_sha256": "701ae82f9b4a7505e9e5fd5fd1a5bb04fce6ac0f98a5a808726c0cd88d3bbe5e"
+}

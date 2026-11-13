@@ -1,0 +1,7 @@
+{
+  "stage": "07",
+  "revision": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "archive_sha256": "7bee4617e1ac7d050a64accf49032a4c34c48d42a5d6078b4cca8db3d988cc98",
+  "verified_manifest_entries": 223,
+  "extracted_TeX_builds": "mandatory native CI pending"
+}

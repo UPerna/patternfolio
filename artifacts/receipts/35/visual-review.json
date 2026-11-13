@@ -1,0 +1,171 @@
+{
+  "stage": "35",
+  "status": "local_export_integrity_and_visible_review_passed_native_ci_pending",
+  "profiles": {
+    "botanical-panel": "Petal shading, leaf veins and thin joins are recognizable on white and tan. The center-quarter window contains only a sliver of nearby artwork.",
+    "periodic": "Two gold regions and their pale triangular marks are crisp. The central blank window is part of the masked fixture; sampled reserved interior is clear.",
+    "celtic": "The three visible strand crossings retain clear gaps and continuous overpasses on white, tan and gray.",
+    "islamic": "Contact lines meet at the visible neighboring polygons. The center crop preserves the authored opening and cuts the adjacent linework.",
+    "freeform": "The central star and smaller nearby stars remain distinct. Crop ends follow the selected boundary. The accepted native and local coordinate comparison is numerical.",
+    "substitution": "The compact finite patch covers the viewport; colored boundaries are continuous through right-angle joins.",
+    "penrose": "Acute tile junctions and rhomb seams are continuous in the selected details and the narrow view.",
+    "spectre": "The curved shared edge and matching tile boundaries stay closed in the shown crop.",
+    "beenker": "Square and rhomb seams meet at the illustrated vertices with no visible openings.",
+    "completion": "The marked grid and route use distinguishable line weights; the surrounding empty cells are intentional.",
+    "tracery": "Arch point, loop cusps and paired lower arcs are separated and legible; the cropped lobes end at the window.",
+    "escher": "Repeated angular boundaries line up through the shown multiple cells. The blue/ochre silhouette stays distinct in gray.",
+    "mosaic": "Tiles are individually separated by the dark grout. The sparse areas are the intended partial-packing result.",
+    "stroke": "Concentric line spacing and deliberate breaks are clear. No visible hatching clump in the inspected arc detail.",
+    "maze": "Weight changes and rounded ends are visible; the horizontal tie and narrow passages remain distinct.",
+    "micrography": "Continuous lines, individual glyphs and word spacing are readable in the physical 13 × 7 cm view and its enlargement. The text order is independently extracted.",
+    "decobrush": "The hollow central loop, solid stroke and attached lower detail retain their silhouette. The magnified crop exposes the intentionally polygonal outline.",
+    "gothic-spatial": "The projected curve intersections have no spurious gaps. The quarter window contains a limited subset of the finite network.",
+    "inline": "Paired leaves and the flower-shaped center separate from the divider stem at the inspected scale.",
+    "hat": "The colored outline and adjoining corners stay aligned at internal seams. Open patch borders remain visible.",
+    "botanical-authored": "Layered translucent petals, foliage and thin attached motifs remain distinct on both previews. The A4 central window is intentionally blank.",
+    "botanical-grown": "Small blossoms, stem joins and fine attached motifs are visible in the detail. The growth is concentrated to one side of the A4 center crop."
+  },
+  "reviewed_overviews": [
+    {
+      "path": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\v35\\contact\\clean-1.png",
+      "sha256": "904f7277fe669e1dced7d0d99fd6819fce1667c5f189f609ad77eed4d6131662",
+      "profiles": [
+        "botanical-panel",
+        "periodic",
+        "celtic",
+        "islamic",
+        "freeform",
+        "substitution"
+      ],
+      "purpose": "Overview only; full150dpi images and enlarged details reviewed separately"
+    },
+    {
+      "path": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\v35\\contact\\clean-2.png",
+      "sha256": "ef8f2c36ef68cca6e9af78d32fc552b6a77427a9e6eb8eea0dfe2d5fc146ab04",
+      "profiles": [
+        "penrose",
+        "spectre",
+        "beenker",
+        "completion",
+        "tracery",
+        "escher"
+      ],
+      "purpose": "Overview only; full150dpi images and enlarged details reviewed separately"
+    },
+    {
+      "path": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\v35\\contact\\clean-3.png",
+      "sha256": "11b0f92e6aa7ef07123acb73cace4cb1c5baf7f40b5162cea5e8a8756ebbbb42",
+      "profiles": [
+        "mosaic",
+        "stroke",
+        "maze",
+        "micrography",
+        "decobrush",
+        "gothic-spatial"
+      ],
+      "purpose": "Overview only; full150dpi images and enlarged details reviewed separately"
+    },
+    {
+      "path": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\v35\\contact\\clean-4.png",
+      "sha256": "9aed7fcd37bc7e050ae8430266e21b0fe37029728bccf1908b04c8343a41e40c",
+      "profiles": [
+        "inline",
+        "hat",
+        "botanical-authored",
+        "botanical-grown"
+      ],
+      "purpose": "Overview only; full150dpi images and enlarged details reviewed separately"
+    }
+  ],
+  "reviewed_details": [
+    {
+      "file": "contact/detail-1.png",
+      "sha256": "ff644b3cbc378063ba2a242e8d442258e8b536bc79fc3b91be4a4b71e885a484",
+      "profiles": [
+        "botanical-panel",
+        "periodic",
+        "celtic",
+        "islamic"
+      ]
+    },
+    {
+      "file": "contact/detail-2.png",
+      "sha256": "ab92cb1410ee345560dd60a271ade314338a2017ea9393941e1a1ae7297e7538",
+      "profiles": [
+        "freeform",
+        "substitution",
+        "penrose",
+        "spectre"
+      ]
+    },
+    {
+      "file": "contact/detail-3.png",
+      "sha256": "f00cfd79e825925c7bf200413c87e19dddf21263015c6f7c486139e4a9af79ed",
+      "profiles": [
+        "beenker",
+        "completion",
+        "tracery",
+        "escher"
+      ]
+    },
+    {
+      "file": "contact/detail-4.png",
+      "sha256": "ee8c1b3740654fdb190bf98eb9f78349d218561577c8ef137a6584c0fd972732",
+      "profiles": [
+        "mosaic",
+        "stroke",
+        "maze",
+        "micrography"
+      ]
+    },
+    {
+      "file": "contact/detail-5.png",
+      "sha256": "782fbc18317dbb2ab53c6fbaf990a72b2bd268606af23299b295fe20ef9ade48",
+      "profiles": [
+        "decobrush",
+        "gothic-spatial",
+        "inline",
+        "hat"
+      ]
+    },
+    {
+      "file": "contact/detail-6.png",
+      "sha256": "3176ed50fdc0dd1d85d26a4bcec16cc978f057a6ce767c9d3d9a9532dc9d9240",
+      "profiles": [
+        "botanical-authored",
+        "botanical-grown"
+      ]
+    }
+  ],
+  "objective": {
+    "native_base_clean_exports": 44,
+    "local_color_diagnostic_monochrome_pdfs": 66,
+    "local_svg_views": 88,
+    "local_clean_native_byte_exact_pairs": 19,
+    "local_clean_native_numeric_pairs": 3,
+    "svg_protected_interior_pixels": 32528,
+    "pdf_diagnostic_protected_white_pixels": 5512
+  },
+  "aesthetic_decision": "Early diagnostics put up to 256 marks near the first path cluster. The retained revised sample uses at most 64 evenly spaced operation indices and smaller marks. Clean exports and method fixtures stay unchanged.",
+  "scope": "Subjective observation of the actual finite examples and the indicated detail windows. Colored SVGs are alpha composites. No claim for Office import, physical print, arbitrary viewers, universal convergence or geometric proof from images.",
+  "visual_archive": {
+    "filename": "Florilegium_Stage35_Visual_Review.zip",
+    "sha256": "6e59d61e52f2549f15d848c135c68d5109a330170a4c322ca0df90adc247c240",
+    "bytes": 2726072,
+    "files": 18
+  },
+  "examples_archive": {
+    "filename": "Florilegium_Stage35_Export_Examples.zip",
+    "sha256": "226f5960c0c89db7c800d22770293abd7e43c1d5fde9e3800963c174387f477f",
+    "bytes": 2014318,
+    "files": 85
+  },
+  "evidence_sha256": {
+    "clean-integrity.json": "b374c61584fd7a224d8958cfcfb6875c2718e5eeaadc80fcd46d403dc946fcbd",
+    "export-variants-local.json": "5db2a5bf2cd8bbc4fa14c0abb2bbb0b27b107932dbeffd6692d755e04ef30be2",
+    "export-integrity-local.json": "1a8b6d6d7b543c8a3e7c670d58989b580e99c72cbc7a1308f6b638f00002166b",
+    "browser-alpha-local.json": "6731266b349f3a5d47e9dc4670e95c3a37ad3e06c8fa405967e9dd76ec858bb6",
+    "detail-audit-local.json": "6bb77da1e3d2a0997a0e5595bbd71e1aa51fd0c39ea2b9b733c3828b01b76e30"
+  },
+  "production_geometry_changed": false
+}

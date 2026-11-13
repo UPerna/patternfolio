@@ -1,0 +1,10 @@
+{
+  "status": "future_adversarial_review_note_not_an_accepted_claim",
+  "scope": "Stage33 independently challenge numerical comparator alongside integrated family validators",
+  "candidate_control": "Within whitelisted numerical field subtree, replace an integer-valued semantic label with a near-integer float (e.g.1->0.9999999999999999). Current comparator permits roundoff when either operand is float; existing family validation should reject invalid labels. Verify exact topology identities explicitly without incorrectly rejecting legitimate floating coordinates near integers. Add a controlled corruption and repair checking path if confirmed.",
+  "current_evidence": "All actual local/native comparisons have matching semantic integers and IDs; shared validators and same-instance replay pass. No claim that this unrun control has passed.",
+  "source_transport_review": {
+    "candidate_control": "Lua long-string transport can discard an initial newline and normalize literal CRLF in source strings. Verify raw source SHA provenance with leading-newline/CRLF trusted module fixtures, then fix transport if needed rather than normalizing/redigesting source.",
+    "current_observation": "Verified bd11 root Lua sources85 have no CR characters and none starts with newline; current shipped-source bytes are unaffected. This future-source control is not claimed passed."
+  }
+}

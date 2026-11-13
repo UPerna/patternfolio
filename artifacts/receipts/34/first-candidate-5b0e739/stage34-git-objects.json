@@ -1,0 +1,44 @@
+{
+  "commit": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "tree": "1a6c3aae3b4a15707351924e078e4a7160e2e18c",
+  "parent": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "expected_tree_blobs": 1245,
+  "tree_batches": [
+    {
+      "batch": 0,
+      "tree": "a94aafbb718b73e5e8915578c60d74a738cb74bb",
+      "files": 37
+    },
+    {
+      "batch": 1,
+      "tree": "b88a4abd6b029fe71c85e34427a73168ad470191",
+      "files": 147
+    },
+    {
+      "batch": 2,
+      "tree": "54deb751430af759091b986a685bf7c657e427db",
+      "files": 61
+    },
+    {
+      "batch": 3,
+      "tree": "743ec9ec143979fcf9fb71d7513e964d944d0a28",
+      "files": 47
+    },
+    {
+      "batch": 4,
+      "tree": "cbe2acd597c000dd472d5ea9a5c18e46b754248f",
+      "files": 1
+    },
+    {
+      "batch": 5,
+      "tree": "85eed032f8006eb99c8545a2b01e49c5498524cd",
+      "files": 3
+    },
+    {
+      "batch": 6,
+      "tree": "1a6c3aae3b4a15707351924e078e4a7160e2e18c",
+      "files": 50
+    }
+  ],
+  "publication_state": "ref_updated_independently_verified"
+}

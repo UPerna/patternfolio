@@ -1,0 +1,116 @@
+{
+  "stage": "06",
+  "source_digest": "cad26079ee23ce1e6c8103dce7940fbd11c7bb42a0aea2e4c620081052e47618",
+  "rasterizers": "Inkscape/Poppler",
+  "fixtures": [
+    {
+      "name": "floral",
+      "dimensions": [
+        240,
+        240
+      ],
+      "mean_absolute_error": 0.0021590187000726214,
+      "blurred_mean_absolute_error": 0.0015907770515613652,
+      "protected_regions": [],
+      "pdf_sha256": "c2bc91bfb0e8300b9c7c79beca3dfc6e9ea28ac405c866cd0469a1a63a852a44",
+      "svg_sha256": "58d887f013c87f9bad7a41a3e4ec119c95f2c3c96573d1a1116960efe72f6b98"
+    },
+    {
+      "name": "graph",
+      "dimensions": [
+        138,
+        78
+      ],
+      "mean_absolute_error": 0.004661264976695497,
+      "blurred_mean_absolute_error": 0.004502784639187026,
+      "protected_regions": [],
+      "pdf_sha256": "7ec18fb114d805772685c6045c85a5159a783b513ebeb792b9f056b9f7acdd43",
+      "svg_sha256": "5fcf8538ef55404e4173be15e39034d76e1d61902513b073fd53b787a9cbf8a0"
+    },
+    {
+      "name": "tiling",
+      "dimensions": [
+        138,
+        78
+      ],
+      "mean_absolute_error": 0.020184444395868095,
+      "blurred_mean_absolute_error": 0.019638932000398325,
+      "protected_regions": [],
+      "pdf_sha256": "e44f3ab515f6ef349993501cd3e1a0c51e4fee5d9b7f18ca23f0350670c353a0",
+      "svg_sha256": "c2069d5448e35e0d6bdf16da5f7384487cea8d40edfe0854d1997e739407621f"
+    },
+    {
+      "name": "clipstress",
+      "dimensions": [
+        360,
+        240
+      ],
+      "mean_absolute_error": 0.0034780016945049623,
+      "blurred_mean_absolute_error": 0.0032156257564754298,
+      "protected_regions": [
+        {
+          "bounds": [
+            2.5,
+            0.7,
+            3.5,
+            2.8
+          ],
+          "pixel_box": [
+            152,
+            75,
+            208,
+            196
+          ],
+          "minimum_channel": [
+            255,
+            255
+          ]
+        },
+        {
+          "bounds": [
+            3,
+            1.7,
+            4.3,
+            3.2
+          ],
+          "pixel_box": [
+            182,
+            50,
+            256,
+            136
+          ],
+          "minimum_channel": [
+            255,
+            255
+          ]
+        }
+      ],
+      "pdf_sha256": "4e75fa27c270bef854abf366243a7756f87d5c7470c87a7f0d35e0237884bece",
+      "svg_sha256": "21a795b9feb943d5415280ce96ccbce5f23c460e4a4d3438397ead3158bf56de"
+    },
+    {
+      "name": "mono",
+      "dimensions": [
+        180,
+        120
+      ],
+      "mean_absolute_error": 0.012830428467683369,
+      "blurred_mean_absolute_error": 0.01127323892519971,
+      "protected_regions": [],
+      "pdf_sha256": "2b343b829eb8b2af20bec59da2f2e7daa6a3b5ec4a6da68e65a09f92c190d19d",
+      "svg_sha256": "5e92df2ba97b3466e9f78aa810b3d42f9c18ab9b15df6d985dc93a9b89ee75e2"
+    },
+    {
+      "name": "text",
+      "dimensions": [
+        240,
+        180
+      ],
+      "mean_absolute_error": 0.00120079883805374,
+      "blurred_mean_absolute_error": 0.0009840232389251998,
+      "protected_regions": [],
+      "pdf_sha256": "6108f4ef0a855ad13eed51c57f836626f866155c4df126297dce51783eb16ed6",
+      "svg_sha256": "cc5bd6f95dc9d885b9023cadec9bed92233342b9f70026f2b890797339d12d3e"
+    }
+  ]
+}

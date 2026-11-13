@@ -1,0 +1,54 @@
+{
+  "retrieved": "2026-11-06",
+  "sources": [
+    {
+      "url": "https://ctan.math.illinois.edu/info/xetexref/xetex-reference.pdf",
+      "version": "2025-02-11",
+      "sections": "8.1 Geometry; 8.5 File handling",
+      "use": "XeTeX uses pdfsavepos/pdflastxpos/pdflastypos; Unicode and group-delimited filenames."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/latex3/latex2e/develop/base/ltshipout.dtx",
+      "version": "2026-10-13 v1.0r",
+      "sections": "Information counters; shipout/background",
+      "use": "Read-only actual shipped index after discard decision, and physical background picture placement."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/latex3/latex2e/develop/base/ltfiles.dtx",
+      "version": "2026-06-01 v1.2w",
+      "sections": "include and @include file handling",
+      "use": "Included chapters use separate auxiliary files; main aux alone cannot establish convergence."
+    },
+    {
+      "url": "https://tug.org/texinfohtml/web2c.html",
+      "version": "Web2c 2026",
+      "sections": "3.2 Common options, recorder",
+      "use": "Recorder captures opened input/output paths; jobname controls the fls basename."
+    },
+    {
+      "url": "https://tug.org/texinfohtml/kpathsea.html",
+      "version": "6.4.2/dev, January 2026",
+      "sections": "kpsewhich --format; supported file formats",
+      "use": "The explicit opentype fonts and truetype fonts format names match the existing Lua font lookup; no shell quoting is required in argument arrays."
+    },
+    {
+      "url": "https://pypdf.readthedocs.io/en/stable/user/extract-text.html",
+      "version": "documentation6.21.4",
+      "sections": "Using a visitor",
+      "use": "Text visitors expose decoded fragments and user/text matrices; fragments may combine operators, so hidden text is filtered at ContentStream operators before visible-initial verification."
+    },
+    {
+      "url": "https://pypdf.readthedocs.io/en/stable/user/cropping-and-transforming.html",
+      "version": "documentation6.21.4",
+      "sections": "Scaling the content only; explicit media/crop boxes",
+      "use": "Register actual page paint by inverse measured positive uniform Form transform while retaining clips and foreground occlusion; independent placement checks remain mandatory."
+    },
+    {
+      "url": "https://pypdf.readthedocs.io/en/stable/_modules/pypdf/generic/_base.html",
+      "version": "documentation6.21.4; native/local runtime versions separately recorded",
+      "sections": "TextStringObject.original_bytes; ByteStringObject.write_to_stream",
+      "use": "Preserve font character-code bytes when filtering invisible text; do not re-encode CID strings as Unicode. The actual native CID PDF reproduces the older parser/serializer behavior."
+    }
+  ],
+  "status": "Native consumers, book comparison and ten build cases passed at818c888 before false visibility rejection; exact-head byte repair native suite remains pending."
+}

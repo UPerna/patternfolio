@@ -1,0 +1,60 @@
+{
+  "source_revision": "b4b6bed11e73298191f844574b41d4bc56935e39",
+  "runtime": "Lupa2.8 Lua5.3 with Python hashlib development host",
+  "cases": [
+    {
+      "case": "micrography-boundary-label-corruption.json",
+      "sha256": "58f7313ece64bdf324da958b41389eaacae65166bc95b76b1faf4d3b10274042",
+      "bytes": 296898,
+      "seed": 24,
+      "family": "text/digital-micrography",
+      "version": "1",
+      "actual": {
+        "detected": false,
+        "diagnostic": "CORRUPTION ACCEPTED",
+        "name": "boundary-label"
+      }
+    },
+    {
+      "case": "micrography-near-integer-line-corruption.json",
+      "sha256": "bc8cc68be70f7f6c3bd1a6f2d88d92bc24507774703260c510629617274189d0",
+      "bytes": 296919,
+      "seed": 24,
+      "family": "text/digital-micrography",
+      "version": "1",
+      "actual": {
+        "detected": false,
+        "diagnostic": "CORRUPTION ACCEPTED",
+        "name": "near-integer-line"
+      }
+    },
+    {
+      "case": "micrography-near-integer-span-corruption.json",
+      "sha256": "a8eeb205baa39b1d6b7da9c5297d331c6f75fc940419a1d345f255d64e0594c3",
+      "bytes": 296963,
+      "seed": 24,
+      "family": "text/digital-micrography",
+      "version": "1",
+      "actual": {
+        "detected": true,
+        "diagnostic": ".\\pattern_micrography.lua:246: micrography-cluster-conservation",
+        "name": "near-integer-span"
+      }
+    },
+    {
+      "case": "micrography-triangle-reference-corruption.json",
+      "sha256": "35da42a9285855fee191abed2c2fee9a1173b94eb10c9a6de51ded96ca0b0e62",
+      "bytes": 296907,
+      "seed": 24,
+      "family": "text/digital-micrography",
+      "version": "1",
+      "actual": {
+        "detected": false,
+        "diagnostic": "CORRUPTION ACCEPTED",
+        "name": "triangle-reference"
+      }
+    }
+  ],
+  "original_probe_scope": "Actual family registry validation; crop tests subsequently rejected protected text correctly, before report completion",
+  "raw_fixture_directory": "work/stage33/build/adversarial-before-micrography-repair"
+}

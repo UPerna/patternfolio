@@ -1,0 +1,6 @@
+{
+  "elapsed_ms": 59355.40000003576,
+  "ok": false,
+  "code": "budget_exhausted",
+  "message": "Deterministic Lua instruction budget exhausted"
+}

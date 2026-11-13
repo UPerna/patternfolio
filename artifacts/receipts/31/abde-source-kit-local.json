@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "Local extracted source kit, all manifest files and browser assets byte exact; fresh native CI still pending",
+  "source_zip_sha256": "5a0c81884ed8ea8e0eb2d66b9354501436a53b11606ca5323bbc190ba595c2ca",
+  "browser_files": {
+    "assets.json": "d5587036061d5ae50ef7e4ca0cfbc25b3dabaea30ba849eb7764d34a632681e7",
+    "bundle.json": "9769448dadc81be879d55dba198e5b346330b1f5f878a6e7a6e4141f434afac6",
+    "cache.js": "e2d4cae97446899e803cf9e5fd7288c805d30d36add4820254f73f0eaff653b4",
+    "client.js": "05f29f0268696e3944b12fb927c371b9e4d7f23f3af1f46f9e96a553888f8b00",
+    "index.html": "0d618d4968b839f896ecfd0d6d4e83d968459e77a58c211499144f12a221f77a",
+    "runtime.wasm": "95f3f19ddb740125883bc41d5ec670cd0828e7b58c8bdad385323cbff497b55c",
+    "sha256.js": "ed7f5896b41aba98909ab143264c5b2ae5c81abf2e47f08dd2d1c0d02ce623de",
+    "wasmoon.js": "dc2dcf019449008bb224370052473dc760db28b3ba14fc604e1ca3e8646af35d",
+    "worker.js": "ff19cf5aa9a4c25744cc93cbb972b7e3540659272cd46c8f5a725472c84d3b2c",
+    "licenses/hash-wasm-MIT.txt": "c14dea172f72f2714284a0ac2ab1b00b5352a01409d58255a46227ffc541debd",
+    "licenses/LICENSE": "9ed9226c0138819a0859cf3c55a3414b4a186a17a4eaf4b5a51ceed7937615ac",
+    "licenses/LUA-LICENSE.txt": "b5412fd42e0763f0ee941a527e95f874a57597c26a87bfab41ec65000748c6ae",
+    "licenses/SHA256-C-LICENSE.txt": "a26eb88ba874fcfd93eaaeb7cf0ff7a2284f336f795de2fc57aa2880355e053a"
+  }
+}

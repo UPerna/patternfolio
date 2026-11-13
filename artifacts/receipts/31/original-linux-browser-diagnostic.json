@@ -1,0 +1,12 @@
+{
+  "status": "original_candidate_unaccepted_despite_green_ci",
+  "revision": "abdeebebaff70f32cc6bfdca32d60c7ebcce1e31",
+  "run": 42214620480,
+  "browser_job": 127895033618,
+  "browser": "Chromium151.0.7922.34 Linux",
+  "observed": "All22native-bound families and32original adversarial checks passed in actual Linux browser. Independent sourcekit/source/native-comparison binding audit reached cache mutation requirement, then rejected old evidence because caller_mutation_snapshot_preserved is absent.",
+  "acceptance_rejection_log_sha256": "365bd8a861d0197e4ba2926947e728bbfd7c5e99c5d5ac1c8cee7f5af2161418",
+  "current_required_revision": "bd11eefd36d21104ad46cbdde2684401ec6ee9b8",
+  "current_required_run": 42216668040,
+  "current_gate": "Current pdfs/browser jobs remain pending; no old-green substitution."
+}

@@ -1,0 +1,4 @@
+Measured actual workload	substitution-medium	cold-generation	2.267517
+Measured actual workload	substitution-medium	warm-generation	1.913888
+Measured actual workload	substitution-medium	validated-instance-replay	1.961593
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 15690585

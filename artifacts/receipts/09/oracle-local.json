@@ -1,0 +1,209 @@
+{
+  "stage": "09",
+  "source_digest": "0486f488b10f94f89672dbd40427936aa52d4a2c792d182be671dadfc98d54ee",
+  "proofs": {
+    "square": {
+      "unit_area": 1,
+      "paired_edges": 2,
+      "vertex_types": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "potential_overlaps_excluded": 24
+    },
+    "triangular": {
+      "unit_area": 1,
+      "paired_edges": 3,
+      "vertex_types": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "potential_overlaps_excluded": 98
+    },
+    "hexagonal": {
+      "unit_area": 1,
+      "paired_edges": 3,
+      "vertex_types": [
+        6,
+        6,
+        6
+      ],
+      "potential_overlaps_excluded": 24
+    },
+    "4.8.8": {
+      "unit_area": 1,
+      "paired_edges": 6,
+      "vertex_types": [
+        4,
+        8,
+        8
+      ],
+      "potential_overlaps_excluded": 98
+    },
+    "4.6.12": {
+      "unit_area": 1,
+      "paired_edges": 18,
+      "vertex_types": [
+        4,
+        6,
+        12
+      ],
+      "potential_overlaps_excluded": 894
+    }
+  },
+  "wallpaper_operations": {
+    "p1": 1,
+    "p2": 2,
+    "p3": 3,
+    "p4": 4,
+    "p4m": 8,
+    "p6": 6,
+    "p6m": 12
+  },
+  "patches": {
+    "square": {
+      "vertices": 169,
+      "edges": 312,
+      "cells": 144
+    },
+    "triangular": {
+      "vertices": 182,
+      "edges": 493,
+      "cells": 312
+    },
+    "hexagonal": {
+      "vertices": 418,
+      "edges": 599,
+      "cells": 182
+    },
+    "4.8.8": {
+      "vertices": 648,
+      "edges": 935,
+      "cells": 288
+    },
+    "4.6.12": {
+      "vertices": 2346,
+      "edges": 3437,
+      "cells": 1092
+    },
+    "4.6.12-overlap": {
+      "vertices": 2172,
+      "edges": 3179,
+      "cells": 1008
+    },
+    "common-a": {
+      "vertices": 2346,
+      "edges": 3437,
+      "cells": 1092
+    },
+    "common-b": {
+      "vertices": 2172,
+      "edges": 3179,
+      "cells": 1008
+    },
+    "masked-full": {
+      "vertices": 196,
+      "edges": 364,
+      "cells": 169
+    }
+  },
+  "shared": {
+    "cells": 1008,
+    "edges": 3179,
+    "vertices": 2172
+  },
+  "rasterizers": "local Poppler/librsvg",
+  "images": [
+    {
+      "fixture": "square",
+      "pixels": [
+        192,
+        168
+      ],
+      "mae": 0.001240079365079365
+    },
+    {
+      "fixture": "triangular",
+      "pixels": [
+        192,
+        168
+      ],
+      "mae": 0.0016328927404295052
+    },
+    {
+      "fixture": "hexagonal",
+      "pixels": [
+        192,
+        168
+      ],
+      "mae": 0.0010022353848946986
+    },
+    {
+      "fixture": "4.8.8",
+      "pixels": [
+        192,
+        168
+      ],
+      "mae": 0.0013435003631082061
+    },
+    {
+      "fixture": "4.6.12",
+      "pixels": [
+        192,
+        168
+      ],
+      "mae": 0.002686554946052495
+    },
+    {
+      "fixture": "4.6.12-overlap",
+      "pixels": [
+        192,
+        168
+      ],
+      "mae": 0.002356515522875817
+    },
+    {
+      "fixture": "common-a",
+      "pixels": [
+        108,
+        168
+      ],
+      "mae": 0.0025572471787068734
+    },
+    {
+      "fixture": "common-b",
+      "pixels": [
+        108,
+        168
+      ],
+      "mae": 0.0025572471787068734
+    },
+    {
+      "fixture": "masked-full",
+      "pixels": [
+        192,
+        168
+      ],
+      "mae": 0.0062818124935159255
+    }
+  ],
+  "world_paths_equal": 54,
+  "overlap_raster_comparison": {
+    "pdf": {
+      "different_viewports_peak": 0,
+      "different_viewports_changed_pixels": 0,
+      "same_world_window_peak": 0
+    },
+    "svg": {
+      "different_viewports_peak": 4,
+      "different_viewports_changed_pixels": 7,
+      "same_world_window_peak": 0
+    }
+  }
+}

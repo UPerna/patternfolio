@@ -1,0 +1,283 @@
+{
+  "stage": "35",
+  "revision": "96390d9afce26246dcf6da878e33fcb95b2c1b28",
+  "run": 42331909848,
+  "status": "passed",
+  "native_pdf_svg_profiles": [
+    {
+      "id": "botanical-panel",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "0b9ddce4f3673a32243d3a4167614e532584c705e04ccc41ab209cd2f096b129",
+        "diagnostic.pdf": "75bc3317bd85af0e10192dc047875df34527b19acc1ca07b249ec98e26c620af",
+        "diagnostic.svg": "53bb99eeb81e6ebe41dba85c37a0cd80af9e79344c9272086e405265b08f4333",
+        "monochrome.pdf": "a9ba196bc47a8e88fea4de200a17119ddb25b15c78e2cbf34fb1db411a2b934f",
+        "monochrome.svg": "70321b3c0d751061fa7bedcc4371c267119656610520e3091918a5a54c9959ae"
+      },
+      "native_assembly_manifest_sha256": "023249095c05377ca906cb8732a24084b19bf508894c9957ccb4a08678b26cf2"
+    },
+    {
+      "id": "periodic",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "d8700930c84c872176b5c1f18228fbefb19a04e52d9cabf65545d2ce5f38b20e",
+        "diagnostic.pdf": "1417f7f7d976c403f9b5b3898411066d776c4600986b286663e2d90178a0f293",
+        "diagnostic.svg": "19ccf849734fd733307946193bbf4e8858983a44aded6802bd80f9a259c7bdcb",
+        "monochrome.pdf": "fdffd10f5453f882adcac0564f128c95615e9c2fbe26780b0d905ff8cf4589e2",
+        "monochrome.svg": "ec34da313a4f99a7e95e8197a015aea7de975e7115db473a161bfa39d8f826b9"
+      },
+      "native_assembly_manifest_sha256": "1a0be51cd3f47d67d8789360e81047f79716dacfa94ae8e6716b49f9070a22b2"
+    },
+    {
+      "id": "celtic",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "7da376c7b3fca51a3fcdd98dd987192bab7250a72f334da86b157d66abcb1dc5",
+        "diagnostic.pdf": "2ed74a98163da49ef2222578084f84013ed8c897d7f6b347dc57b9ec1ada330e",
+        "diagnostic.svg": "6590ab3593eb09ce05881f3a4916fe6fe3e16ca19e5fd8a5be730f5acf20b5fb",
+        "monochrome.pdf": "4173991833d26afddc30da1ffdefc3c47eb9006106b18e1cfc2484c481d27fa3",
+        "monochrome.svg": "a22909caee1e5bfee1ba32e82ef66b7af866b6d2b2a8cae25bb1f908cd2e7c05"
+      },
+      "native_assembly_manifest_sha256": "5d8954e609689f13b76cdd0a70ba37254e25afadcfc5d8a220fd48c9c9829e6e"
+    },
+    {
+      "id": "islamic",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "deaf20c50b511974f62559bb41bb65d45394f33b6a46e7734e06e1af4625e2a0",
+        "diagnostic.pdf": "3b1d5ad0f5bebecc7d5b5f36202d25a91f0fb598fa399c8587170c330deea816",
+        "diagnostic.svg": "1449220f80979221a4960cc7382b1505e8cca520645737463c61c45e5fd469ef",
+        "monochrome.pdf": "3df8e86fb3b337d9c183f2a156bea85e788a44f13bd216718d95f2d538e256e5",
+        "monochrome.svg": "a9ddad7f9d2c9376e74394f021f9973a38a714c33d0ba53ec8d1589c8ed2ca78"
+      },
+      "native_assembly_manifest_sha256": "a3b24a6e8dbd22d0fb230fb3b4b592e71eebf25b529ef5eb4c807deae431352a"
+    },
+    {
+      "id": "freeform",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "810b4084c863d94a485ad290a4d7ee7dc34c877cd9ea5be7ec8cb41189fc999a",
+        "diagnostic.pdf": "d869d578f64496e011dd4dd4119d03e6289969c6572abdcf17f6fff69ae949f7",
+        "diagnostic.svg": "b605bd6239cc047586a994990b761648626eb0ee8824b202a2f20c5848806c30",
+        "monochrome.pdf": "bbff5f283489a1ead4a497f9e19a901d31b04df096c383b47a98eb69a2cb5589",
+        "monochrome.svg": "f45d9df658d1a450e79908531560d581f5a887a2ae71fcc8cb8db4f4ba8ce0e3"
+      },
+      "native_assembly_manifest_sha256": "c83316729c0a4726a2cd1ff51085566527d3f4446b7c715cd20b15e353ffeded"
+    },
+    {
+      "id": "substitution",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "15f24963cb87e1c89a40339c4392308a1c130f53a96dd027faa265fd61ead64d",
+        "diagnostic.pdf": "48514f84671b60911bcdc5be44abcd8ab9605e34c69d22036951f0a43a4b9426",
+        "diagnostic.svg": "df35815b6f7e6e832ecaa3e0daa6c3d01ed18afe758834e76a194e8444af5e26",
+        "monochrome.pdf": "626eaa4981a4d236c5177029a5ea5917cccb4fa8bc028112f6470e8b6a401edc",
+        "monochrome.svg": "f823ead71762b3088c02b66e0b7bc29dab5c01e57577e34f59b8cb40314287dc"
+      },
+      "native_assembly_manifest_sha256": "059dd72fd34ec10d1dfb1cc00d13f9971deced0aa56c45d4a9fe946054da4b07"
+    },
+    {
+      "id": "penrose",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "b930fb08dbd205790b7d18563bbbd0ed326bdb9d3033499f95d697bdf3ca0ff3",
+        "diagnostic.pdf": "cadc7a73498830cbeb3ca0309c1277ff2e10f6021151e2c1ae167db74b5aa0a6",
+        "diagnostic.svg": "cb07cc28347b132085498f588ee3deb0a1e4cc3e725dc2116aec6b4ab6119ee3",
+        "monochrome.pdf": "5598c173cda7f6bae9590ab2ee91f858e9f617c81a2d9fed2e989cf1f2443432",
+        "monochrome.svg": "cbcc60b5c57c0fdf0a18563a35616c982d06fcc57545d1b31798a6b2db2fc744"
+      },
+      "native_assembly_manifest_sha256": "a75e8918aa328046d6962e546d8340212ee8593075f9ecef384f9c83b2da7d21"
+    },
+    {
+      "id": "spectre",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "d3185f234a2f246d2f94efa2858894f4a5995b59b31cf4a8d786db5cb4b3d5e9",
+        "diagnostic.pdf": "de43a99795987c6e431fecb53722a426f726c1e5c2400d4728fb527e09bd4fd3",
+        "diagnostic.svg": "21095dc39ef868a20f145dc46c6b8ab2fdb036b529d4d2c5aa076f68d438bd21",
+        "monochrome.pdf": "3b3af6521666919d9bef720a17aa01fb92253fc2d43f314c25aa69c4d6309dda",
+        "monochrome.svg": "84a4218036ddb5c025e2d66b7de6f0f8c1e1f57e132ceadc464acd71bbab3f89"
+      },
+      "native_assembly_manifest_sha256": "0a3446cc7bf6633c8081feb84d8b675fee8acee9550f6e5cd19dc2b673855416"
+    },
+    {
+      "id": "beenker",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "9b400c5ae37e9d3e576e8e1b8830ae3a13bfd18a6d45ba4e0550791bbf6d2100",
+        "diagnostic.pdf": "1514a715b5e7456f6727f5fca2e6415a2e7ea58e7239ce0c8f2aee95437a153d",
+        "diagnostic.svg": "daa99f196f729e27376ee5f30d504fcdaa89f711ebdf179654d0c3c9f1a3579d",
+        "monochrome.pdf": "95e83abd4cdab82544a9326c891105c7f274511d0ceeccaa3e9994390ad38481",
+        "monochrome.svg": "6c38e5f559414631fc7fe2555e94f47d7419f1b81ff48dc854611517aaf2b86d"
+      },
+      "native_assembly_manifest_sha256": "8fa9f303c2f222220f8015a1f27ebb492e5c7abd9d0fb0f2e3d86b66bea1f983"
+    },
+    {
+      "id": "completion",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "117b8150902a1b953e99efdb191e2d385e03058a09829c9298fd9ac6820fcbe8",
+        "diagnostic.pdf": "7cca43787e068cbdcb230fd998b168dc3f3d76d68338f10f2c994796d9ea4c26",
+        "diagnostic.svg": "78e6d7c28e471f89220b92c4dc7298b0a30dce28fb1dedd3430a8c364dc8cdfd",
+        "monochrome.pdf": "350dbb3969dd3c6dde9a8ec09bb7fdd5ea3dfbd02b881be5e9a261372e792657",
+        "monochrome.svg": "beb0504a3435fafd273910cbddd43c88b2f1b97981b6afb137ce786c81432e1a"
+      },
+      "native_assembly_manifest_sha256": "7f20aebe30f041b80a1556668c9be94f6f2845458051f019c5271e5673ee4951"
+    },
+    {
+      "id": "tracery",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "7b12e1909ef51f1085e2770f9981dd1d3872aaf4c080e3b2232540633b1589aa",
+        "diagnostic.pdf": "823ca6ec072e5f5e390ec980f0cf2666a140a3fd96d36bf79a4d92db6bacb837",
+        "diagnostic.svg": "5e9e5ccc734e11b8719eed5e59010f666f7ea187d4b35e68cfcd0978260e460f",
+        "monochrome.pdf": "1a1295646570fecd4bc3798164f0d2b7bf5612b47a6112745020af09cc290350",
+        "monochrome.svg": "3455c0a838d3328773fa60de92d9118a3889ca13f3bf680d2e9af9b9e0b1fd52"
+      },
+      "native_assembly_manifest_sha256": "28ef399c4835b2e767696c1008be9d86efe6861f1608127c337c297d998db6e4"
+    },
+    {
+      "id": "escher",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "6cff3543356f59786083e1eaf024d8f7a43bd2659773f6c0b2e795a68cdbbcef",
+        "diagnostic.pdf": "ee96c9af0b3b2e48db6ee8683981017615f7c0b0a79398e5f50e297ea4c601ee",
+        "diagnostic.svg": "29039653d359c76dbb434d17b9ccfd4fdf8e1f25810d7464800e3586cde66d94",
+        "monochrome.pdf": "da7ba77356bc216e74ce8c1ea95cc9d85488cd4350a815dff857c1ee5a4c6474",
+        "monochrome.svg": "5e3c83b4e073b66bb9485aaba78c14f32a807a2c35a9defeab32ce2e35a083dc"
+      },
+      "native_assembly_manifest_sha256": "a671270a6913fa1bdb7ce47559f61c5cca6d06fe0653822c9dec6c5953e10fe0"
+    },
+    {
+      "id": "mosaic",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "21ba1da24f31b5cc2a86f8a5b2aa997f04e6dd1494992cfdf8b0b1c420307d57",
+        "diagnostic.pdf": "82c5b6faf33c996a7f78955a4bd697b0c7ccd9f3dd21b43c68e0980ad0697d0b",
+        "diagnostic.svg": "b0d1d9067b1d49e5c14d772214f616cb89643ecc19fc5551ffbff08656294b45",
+        "monochrome.pdf": "e6de4407420cd403f37fa0ac58f666610f14e186bfb2f348b118f80a8b4ebd52",
+        "monochrome.svg": "b1b9a341199b4012a3bb02efa9a444883564a73fd77cdeef0786de15cf6dd0b6"
+      },
+      "native_assembly_manifest_sha256": "5eab8533c6b6566713d2cd23317dd77cc9e696d8f61f86e57196e0df78ec2363"
+    },
+    {
+      "id": "stroke",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "bc48f148ab07026bdfff0d419b5f05f502284f78f6c0e1315f53aa3f7f4bbba2",
+        "diagnostic.pdf": "170e8fa9ee9faeea8b6831abedd3165555c0b2d74145d3706c8415b02de046fd",
+        "diagnostic.svg": "116293e91e84858faf2959d4d2d49e7a766ac00f5cea8e96e539cdd527b91481",
+        "monochrome.pdf": "1f6bb47e39011e2c17c816c04e17118e5734602e8124c693cd59d7212a409687",
+        "monochrome.svg": "574db78db5624935fb7d92cc9bb479df7b5c6d9d3c4572352120b743377f26ff"
+      },
+      "native_assembly_manifest_sha256": "65ea0aa7645012d89e03298b5453fb5c105bb608af203230201c322a9d9311b2"
+    },
+    {
+      "id": "maze",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "13f3994c35ef990baf9b763c3300599f7aa32996a33aabf48c4ae4b7ff545dbe",
+        "diagnostic.pdf": "69ff22d275a824030e02ff9952004375bad2916e5daad36e2ad5691218e04dd2",
+        "diagnostic.svg": "4f5a26bd1055405f367213825f71f5bd91d127ab4637fab9e3c325447b0b1dab",
+        "monochrome.pdf": "689bbf0a53962462da943953b216880eed243bc5dd8e777102973e960d7d156c",
+        "monochrome.svg": "38fdbc72368cf438e4b5061e4ba200ddec7dd4a0dcd1d9cde96c9b50e716bd08"
+      },
+      "native_assembly_manifest_sha256": "00ac4d37b3a91392c68ee5e40ea1d98214ba0718644ee060badd4a2a847ac023"
+    },
+    {
+      "id": "micrography",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "f16f94cad96ed989ea6169d35c00be0f14c015b2f28e64b081e2b695ea8ad063",
+        "diagnostic.pdf": "4f04a9dd013dff6cfeb5d64816666fa28d9ae012008750eb03ef74c794ce9f0a",
+        "diagnostic.svg": "961cd414a8bacd591ea56e24258e529b65188e19298bab2a1fd3f7a3a28d515c",
+        "monochrome.pdf": "15d4a698fa5761bdbcb1845433ebeea190abb9a400e865b333460e4c580c43a0",
+        "monochrome.svg": "f39de5e653ffbc4de0e0ef66246bb4745f3c44e769e1f0e4edda5ffafe385ea8"
+      },
+      "native_assembly_manifest_sha256": "c39a51ae9262c94942c782a7916b51cb7393bfadf55d51d3702b14a29be9f61c"
+    },
+    {
+      "id": "decobrush",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "25dc070e3c2da0f4f99cb03316ad88e97380670d87e0df29487ad736d9bbc8aa",
+        "diagnostic.pdf": "d9d5eedc40d35dea4f8d3775ba9cdf1d41c10632fff300379e3e86ca85b1426c",
+        "diagnostic.svg": "3a99278906a71c43acdafafead137e5651c9fad23af3d60f69ccda9f2547771a",
+        "monochrome.pdf": "642f4107c7b1167221cb10f5812cc9be1b9f52d1a709932b5265672c65f51acf",
+        "monochrome.svg": "a440dd7d8accdcc398dcdc834cdb1ec1d356a784552a2e79453d9239b86c6fa0"
+      },
+      "native_assembly_manifest_sha256": "89e3547dc7c5e54de02545abb0796740ef1958c34e3fc252770abf244bda4c6c"
+    },
+    {
+      "id": "gothic-spatial",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "5b62d53833d9f1b7fa0a7f7b2cf79f1997904042d6bd75efb325a671b86623b8",
+        "diagnostic.pdf": "dea4ee36c813cbbdc557d89af37984969b8d557ef05551435fafd3ca68e99428",
+        "diagnostic.svg": "796581283cba761df4f180709fd0e5f7dc2f1944e6ac1aa8e485ac32493b32f5",
+        "monochrome.pdf": "75e9e1cb6b90b3d78b409ff3c07061a73fb24a34197b18cc8f04f654894f5634",
+        "monochrome.svg": "39018df0ff38dfa32c68f7c26511f5281ad065d7506b948c9cf82b57c427acc6"
+      },
+      "native_assembly_manifest_sha256": "1fca0d2d58e8675a028254303752fa95916d898634aa4b4421fc7915f8564f0c"
+    },
+    {
+      "id": "inline",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "52b7d003f9dd64ce0cec24a041f66eb4ba69cd215fc06bd272b229ebcf747d0b",
+        "diagnostic.pdf": "ce767d6e553ff7b2f739e282e07f3a1ce7083a0cce7b975aa5f8fd615e1ac987",
+        "diagnostic.svg": "13715d019f9c91c0228bd0a65a8d70b6e258f420c0a81062593d8252bedd24ef",
+        "monochrome.pdf": "c23cee7bdcee8cc8fc3419479a20c02716b774ada15e8948e809ca3889cf87a1",
+        "monochrome.svg": "f5c46c8b7d1d01336b5e617060e02491cc38e521bce0c105d00159d3db11550b"
+      },
+      "native_assembly_manifest_sha256": "78f6a11639bcab1e83a265b8f9969bbdeb760035239a59b8f3bc40322b6cbd2e"
+    },
+    {
+      "id": "hat",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "c3bd8ff1bcb9ed272f71745c23d3cead5c44417413e8a779aeedec83c313fcd7",
+        "diagnostic.pdf": "407dd3a4b182b4e72d33dea954110bc5ff37ff85109e7af94b43d6455f8df011",
+        "diagnostic.svg": "40ac300e43b61448a810597ad154c1f5629f293ad3b9d273490234263fb998a6",
+        "monochrome.pdf": "f28d5011ecf99994961b701706d0585fc1ed63e50ef664528c90c3bb884c8dbb",
+        "monochrome.svg": "000eb94fab5b9e14399345e317b41867d7d5bcd3f01addd015cda5c8d61520b5"
+      },
+      "native_assembly_manifest_sha256": "1bf0801ee7c9fafe9a2ed906ceead091cbe195ed2545e8dbcfa0900055507ff8"
+    },
+    {
+      "id": "botanical-authored",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "0370de6dfc140352738d15d46fcb1047e48e809807c433a61a93ecae7d93d782",
+        "diagnostic.pdf": "fc4416fc6c4135f8b06e10755380151b007fdd2ec43c3788efb4174a489489d7",
+        "diagnostic.svg": "cf799721dac04137e0ac6118ce203f54e3332657b18d879d59f838b0328ac892",
+        "monochrome.pdf": "54f026a60177f85e9da099695a3d9774a23e61693c15a61221f0f8ccb8475a7d",
+        "monochrome.svg": "4839f20fae410825fc755cd6c3281f403a5cea187e07f4ca5c89f37a15d6a34b"
+      },
+      "native_assembly_manifest_sha256": "388cb1b76bf66565eef089ce8e5355d602ef6db6ae102da3519205d02dba667c"
+    },
+    {
+      "id": "botanical-grown",
+      "native_clean_pair_same_as_accepted34": true,
+      "derived_hashes": {
+        "crop.svg": "0edbc5ead6ae3837803b24bdd12c6319f6bd31d378046f09ce74a4961e0c7a8f",
+        "diagnostic.pdf": "547ac6c3f22473ee4c4261e2ee9b28ff37cd03af7494bf0d865b651c24ef8102",
+        "diagnostic.svg": "d59f7f153fd7962c3285163a411332ac4ba2d7bf6f102aff5c2d5b23b4b18549",
+        "monochrome.pdf": "0b8fe0bb4cc12f1c855c9b663c53a9d0bffbc6e27893942f08928b27ecfe86b5",
+        "monochrome.svg": "acf83a181b63f7117f62b22e8f897f69edef04c5a14e4327cfb1c3ff211a1f01"
+      },
+      "native_assembly_manifest_sha256": "937ce9c3e985c6b8a79a69a45d35ac354d871d2dac9700f17c10e57a1b7910d8"
+    }
+  ],
+  "native_pdfs": 66,
+  "native_svg_views": 88,
+  "native_clean_exports_equal": 44,
+  "variant_manifest_sha256": "b649ef107efff237b863d642d336800ec6951797113d7cd7a1c21ee47d7f1dc8",
+  "native_integrity_sha256": "00ba73857088c1c0f7a7a46ff145498b126a6f7e9c9e894a1602baed29019307",
+  "browser": "151.0.7922.34",
+  "browser_profile_count": 22,
+  "browser_view_count": 88,
+  "browser_monochrome_alpha_pixels_independently_compared": 13649600,
+  "browser_protected_samples": 97584,
+  "browser_manifest_sha256": "31d1eac693152ca6572da751745aabb1d647f85e9985ade233cd66a321adab92"
+}

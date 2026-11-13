@@ -1,0 +1,31 @@
+{
+  "stage": "08",
+  "status": "in_progress",
+  "parent": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "compatibility_smoke": {
+    "Lua5.3": "passed",
+    "Lua5.4": "passed",
+    "grown": {
+      "nodes": 192,
+      "measured_attachments": 98,
+      "scene_operations": 1082
+    },
+    "authored": {
+      "nodes": 548,
+      "measured_attachments": 267,
+      "scene_operations": 4293
+    },
+    "checks": [
+      "actual neutral drawing bytes equal unobserved composition",
+      "valid common scenes and PDF output",
+      "temporary functions restored on success/failure"
+    ]
+  },
+  "pending": [
+    "test formal validator/registry",
+    "host extras and public controls through adapters",
+    "nonrectangular recipe structural+visual acceptance",
+    "all legacy and common regressions",
+    "guarded publication and exact-head native CI"
+  ]
+}

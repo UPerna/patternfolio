@@ -1,0 +1,58 @@
+{
+  "stage": "08",
+  "status": "in_progress",
+  "parent": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "local_checks": {
+    "wrapped_layout": {
+      "lua53": {
+        "checks": 28,
+        "actual_pages": 12
+      },
+      "lua54": {
+        "checks": 28,
+        "actual_pages": 12
+      },
+      "upstream_pinned_paths": "all 3 passed per runtime"
+    },
+    "segmented_smoke": {
+      "lua53": "passed",
+      "lua54": "passed",
+      "grown": {
+        "observed_nodes": 192,
+        "measured_attachments": 98,
+        "recorded_operations": 1082,
+        "scene_symbols": 353
+      },
+      "authored": {
+        "observed_nodes": 548,
+        "measured_attachments": 267,
+        "recorded_operations": 4293,
+        "scene_symbols": 1156
+      },
+      "checks": [
+        "original unobserved and observed neutral paths exact",
+        "actual common PDF plans rendered",
+        "drawing state restored after injected failure"
+      ]
+    },
+    "panel_prototype": {
+      "placements": 7,
+      "attempts": 8,
+      "independently_checked_paint_envelopes": 1290,
+      "visual_review": "revised local PDF inspected",
+      "both_runtime_vector_bytes_equal": true
+    }
+  },
+  "repairs": [
+    "Kept 100000-object guard; recorded full watercolor operations as independent checked blocks and partitioned shared scene/plan paint",
+    "Corrected overly broad stage-local harness expectation to exactly 12 observed existing pages",
+    "Use uncapped clearance to select panel candidate; cap only actual motif radius",
+    "Keep full neutral bundle capture separate from lightweight observed native host painting"
+  ],
+  "pending": [
+    "current full local suite after explicit host color mode",
+    "source-bound formal geometry/raster and maximum-size bounds receipts",
+    "native old/new examples through LuaLaTeX and XeLaTeX",
+    "guarded publication/exact-head CI and fresh visual review"
+  ]
+}

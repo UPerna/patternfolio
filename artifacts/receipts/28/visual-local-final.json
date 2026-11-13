@@ -1,0 +1,66 @@
+{
+  "stage": "28",
+  "source_digest": "d50ca5dc265b53d9efb97f9aa401892c3031565def3f4670d4f7cc5be5aa26ff",
+  "host": "Windows canonical published CLI source",
+  "review": "Accepted all 22 PDF/SVG pairs. Checked botanical legacy strokes, strand crossings, tile boundaries/crops, solver-witness export, maze/stroke widths, searchable upright micrography and projected spatial curves. No new visible export defect. This review does not certify every construction in the literature.",
+  "native_byte_comparison": {
+    "exact_files": 38,
+    "audited_differences": {
+      "revision": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+      "native_cli_source_digest": "d50ca5dc265b53d9efb97f9aa401892c3031565def3f4670d4f7cc5be5aa26ff",
+      "exact_controls_and_categorical_structure": true,
+      "numeric_tolerance": 2e-09,
+      "files": {
+        "freeform.pdf": {
+          "numeric_entries": 38,
+          "maximum_absolute_delta": 8.881784197001252e-16
+        },
+        "freeform.svg": {
+          "numeric_entries": 38,
+          "maximum_absolute_delta": 8.881784197001252e-16
+        },
+        "micrography.pdf": {
+          "numeric_entries": 142,
+          "maximum_absolute_delta": 3.3881317890172014e-21
+        },
+        "micrography.svg": {
+          "numeric_entries": 142,
+          "maximum_absolute_delta": 3.3881317890172014e-21
+        },
+        "decobrush.pdf": {
+          "numeric_entries": 2,
+          "maximum_absolute_delta": 1.1102230246251565e-16
+        },
+        "decobrush.svg": {
+          "numeric_entries": 2,
+          "maximum_absolute_delta": 1.1102230246251565e-16
+        }
+      },
+      "pdf_raster_cross_host": {
+        "decobrush": {
+          "normalized_mean": 0.0,
+          "peak_channel_delta": 0
+        },
+        "micrography": {
+          "normalized_mean": 0.0,
+          "peak_channel_delta": 0
+        },
+        "freeform": {
+          "normalized_mean": 0.0,
+          "peak_channel_delta": 0
+        }
+      },
+      "native_visual_review": "pending"
+    }
+  },
+  "sheets": [
+    {
+      "file": "final-windows-contact-1.png",
+      "sha256": "257c481d919a38cbc8e9239b1af98f5bc46771b48f712d646ab1b8dd3f72aa62"
+    },
+    {
+      "file": "final-windows-contact-2.png",
+      "sha256": "b720a1381fa4a0997d6152269f644081f737bdfee33737b85873285b4a5fe128"
+    }
+  ]
+}

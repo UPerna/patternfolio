@@ -1,0 +1,163 @@
+{
+  "scope": "Development runtime selection and first actual worker family; not stage31 acceptance",
+  "browser": "Microsoft Edge156.0.4314.58 headless on Windows; actual UA recorded",
+  "primitive_browser": {
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+    "wasmoon": {
+      "result": {
+        "canonical": "{\"integer\":9007199254740991,\"number\":0.10000000000000001,\"unicode\":\"\u03a9\"}",
+        "float_bytes": 8,
+        "lua": "Lua 5.4",
+        "maxinteger": "9223372036854775807",
+        "prng": [
+          16807,
+          282475249,
+          1622650073,
+          984943658,
+          1144108930,
+          470211272,
+          101027544,
+          1457850878,
+          1458777923,
+          2007237709
+        ],
+        "sha256_abc": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+      },
+      "startup_and_probe_ms": 48.59999996423721,
+      "memory_lua_bytes": 231475,
+      "memory_limit_lua_bytes": 134217728
+    },
+    "fengari": {
+      "status": 2,
+      "error": "[string \"package.preload[\"pattern\"]=function(...)...\"]:1161: pattern hashes require Lua int64/binary64; runtime parity is an explicit gate",
+      "probe_ms": 92.10000002384186
+    },
+    "sizes": {
+      "wasmoon": [
+        {
+          "file": "wasmoon-1.16.0/package/dist/index.js",
+          "bytes": 151652,
+          "gzip_bytes": 38945,
+          "sha256": "dc2dcf019449008bb224370052473dc760db28b3ba14fc604e1ca3e8646af35d"
+        },
+        {
+          "file": "wasmoon-1.16.0/package/dist/glue.wasm",
+          "bytes": 271581,
+          "gzip_bytes": 110637,
+          "sha256": "95f3f19ddb740125883bc41d5ec670cd0828e7b58c8bdad385323cbff497b55c"
+        }
+      ],
+      "fengari": [
+        {
+          "file": "fengari-web-0.1.4/package/dist/fengari-web.js",
+          "bytes": 219632,
+          "gzip_bytes": 69755,
+          "sha256": "fbea0ee4b2e38840f96b03eb7ee162ae391127df26fccd000a2b8756535c8186"
+        }
+      ]
+    },
+    "source_sha256": {
+      "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+      "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+      "pattern_hash.lua": "99c9347bdc7714fe8d224a478785d7a85127cc5a16b2bf6a5c40e0608be01861",
+      "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+      "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c"
+    }
+  },
+  "native_primitive_comparison": {
+    "lua53": {
+      "canonical": "{\"integer\":9007199254740991,\"number\":0.10000000000000001,\"unicode\":\"\u03a9\"}",
+      "float_bytes": 8,
+      "lua": "Lua 5.3",
+      "maxinteger": "9223372036854775807",
+      "prng": [
+        16807,
+        282475249,
+        1622650073,
+        984943658,
+        1144108930,
+        470211272,
+        101027544,
+        1457850878,
+        1458777923,
+        2007237709
+      ],
+      "sha256_abc": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+    },
+    "lua54": {
+      "canonical": "{\"integer\":9007199254740991,\"number\":0.10000000000000001,\"unicode\":\"\u03a9\"}",
+      "float_bytes": 8,
+      "lua": "Lua 5.4",
+      "maxinteger": "9223372036854775807",
+      "prng": [
+        16807,
+        282475249,
+        1622650073,
+        984943658,
+        1144108930,
+        470211272,
+        101027544,
+        1457850878,
+        1458777923,
+        2007237709
+      ],
+      "sha256_abc": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+    }
+  },
+  "primitive_parity": true,
+  "selection": "Wasmoon1.16.0 provisional chosen; compact Fengari fails actual required int64 guard",
+  "periodic_worker": {
+    "elapsed_ms": 15484.099999964237,
+    "assets": [
+      {
+        "bytes": 715232,
+        "name": "instance.json",
+        "sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21"
+      },
+      {
+        "bytes": 3626,
+        "name": "pattern.pdf",
+        "sha256": "96b996b1e6c1ac0d1fe7586cda74e74ea746f06d0231ad2d52dd0d5dbad11662"
+      },
+      {
+        "bytes": 6370,
+        "name": "pattern.svg",
+        "sha256": "0d80c8b0855abe1f1282f784a6ec5624b3de75caee363938e28e05f2a9af4acf"
+      },
+      {
+        "bytes": 3482,
+        "name": "recipe.json",
+        "sha256": "0f7a9b9355b1a53b911ebac8628eea679d4792c10af6d2fcb8b696f9bf6383ab"
+      },
+      {
+        "bytes": 9876,
+        "name": "record.json",
+        "sha256": "0b421fb80565d82dc43afe6bc9e71913146725f5ca6d6c7a17f351dc8930e9cb"
+      },
+      {
+        "bytes": 5038,
+        "name": "scene.json",
+        "sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635"
+      },
+      {
+        "bytes": 8191,
+        "name": "view.json",
+        "sha256": "e56510429f77a4740571ac1285220ea13cd05f9f1082b8243e4bb92320710fcf"
+      }
+    ],
+    "stats": {
+      "instructions": 1066760000,
+      "lua_memory_bytes": 10576634
+    }
+  },
+  "periodic_native_reference": {
+    "revision": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+    "instance_pdf_svg_equal": true,
+    "sha256": {
+      "instance.json": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+      "pattern.pdf": "96b996b1e6c1ac0d1fe7586cda74e74ea746f06d0231ad2d52dd0d5dbad11662",
+      "pattern.svg": "0d80c8b0855abe1f1282f784a6ec5624b3de75caee363938e28e05f2a9af4acf"
+    }
+  },
+  "remaining": "All-family native/browser parity, instance roundtrips, worker cancellation/order/protocol/budgets/cache tests, source-kit consumption, publication and exact-head CI remain unrun."
+}

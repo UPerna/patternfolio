@@ -1,0 +1,169 @@
+{
+  "stage": "08",
+  "revision": "9041fafcdc5587126d75aecd8b03d6bcb1898412",
+  "parent": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "tree": "71c37c2d95ab0095021abbaf0d17f4c708a106ef",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "638122fdf62bfe0949cd1e77ddb9b2d42e5fbc2c1b9abe14fa295b82978cbd92",
+      "bytes": 4292
+    },
+    {
+      "path": "Makefile",
+      "sha256": "061df066a621c9215b4e12f3886eaaf0bc1afbe6e051bf762372b9fac1d76839",
+      "bytes": 5617
+    },
+    {
+      "path": "README.md",
+      "sha256": "5a008d1cf145feacd91cb06c9e2c825b36e3c6cb3b20e5f87a6c891fd03b626a",
+      "bytes": 27352
+    },
+    {
+      "path": "artifacts/receipts/07/ci-final.json",
+      "sha256": "0aca4e812e30e8238c51013ed214e5cef35fdfbfe80f9d431d36d6ffd0c1d5b1",
+      "bytes": 5524
+    },
+    {
+      "path": "artifacts/receipts/07/ci-portable.json",
+      "sha256": "ced5d50b4e42b559366524a7ac4ddae53d97cabe89ff3af245177eec3a39d03a",
+      "bytes": 1505
+    },
+    {
+      "path": "artifacts/receipts/07/oracle-ci.json",
+      "sha256": "c2a43707c0ab5c652fe5b8d8ffff9a5ded9560c2beb3236b5e1a08c7bef0f105",
+      "bytes": 3876
+    },
+    {
+      "path": "artifacts/receipts/07/publication.json",
+      "sha256": "d6ad9f69cd3dca1f0c2fb2ac7ef2741bd96ff36e222103b2275c6bbe056daf28",
+      "bytes": 6058
+    },
+    {
+      "path": "artifacts/receipts/07/source-kit-local.json",
+      "sha256": "ffed537f178f1b321bed50b0da6ee72199154ae24b98ccad4d31a4ff22653e48",
+      "bytes": 259
+    },
+    {
+      "path": "artifacts/receipts/08/local-compatibility.json",
+      "sha256": "51aec85cc7dd3d6fd286e44e0da42476a98a6b319649ab759505fd71c9e16733",
+      "bytes": 1913
+    },
+    {
+      "path": "artifacts/receipts/08/local-final.json",
+      "sha256": "b704739e73a1e7b2e950b6f9772345e917fb2e275912297eceba57ffb845c22f",
+      "bytes": 2463
+    },
+    {
+      "path": "artifacts/receipts/08/oracle-local.json",
+      "sha256": "7dc2c63d70957b6196d4d272702c5615fe3e92c27d3d291fb549cf7608ebfcfc",
+      "bytes": 720
+    },
+    {
+      "path": "artifacts/receipts/08/receipt-Lua-5.3.json",
+      "sha256": "54f868bdee857d661f910c558d35a9f47d1fea1e148b5e9a3b4f8064cef99274",
+      "bytes": 14051
+    },
+    {
+      "path": "artifacts/receipts/08/receipt-Lua-5.4.json",
+      "sha256": "f26c37258089734399359c72e36aafe20d1f606b68d223c4348a877808b68ec7",
+      "bytes": 14051
+    },
+    {
+      "path": "docs/architecture/BOTANICAL.md",
+      "sha256": "4394a67f0c8bf18f2ddc54e4228fc03faea447f3876bbbaa79d0ec5a4947b441",
+      "bytes": 5706
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "2bd2b46e04b568bee8e50d0dab510520cdbf5a78081a15011a6fd5f5c59ead9f",
+      "bytes": 5746
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "4dab35fc387d7cf607fe2930e795f188fc9d8023a58f09085bdf6193ef12079c",
+      "bytes": 45315
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "4a0fc8e6aa9818ed835e5cba38b22ac0e0d9da3831e91344a431f79ca179c09c",
+      "bytes": 2090
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "ebdc07ea4312e831139e0190038bf3029bdeea413dee1424858833d3423ba48b",
+      "bytes": 29263
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "fd7bd7ed492ba9f5776a3237fc6b1eda1894feb00464213935f30589503f55f0",
+      "bytes": 37698
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "aede6e1c4b929be3625c8c3da137641376c7f007c9510e6abf32837dcc6bf608",
+      "bytes": 22921
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "dfbf03c145c8f870207113723c6f124bf90650b23ae7b6975594fad71f36b57d",
+      "bytes": 5178
+    },
+    {
+      "path": "florilegium-xe.lua",
+      "sha256": "45d756aafcd864cc7094299d649b4615287d7d1c1d104ac5049f9a838d5623a2",
+      "bytes": 6284
+    },
+    {
+      "path": "ink.lua",
+      "sha256": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+      "bytes": 28932
+    },
+    {
+      "path": "pattern_botanical_legacy.lua",
+      "sha256": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+      "bytes": 14457
+    },
+    {
+      "path": "pattern_botanical_panel.lua",
+      "sha256": "e7382aa96d5e60e0b4576c8108ea78e78287c0e845ad8f24acccbe2cf5b6fbc3",
+      "bytes": 13076
+    },
+    {
+      "path": "pattern_planner.lua",
+      "sha256": "905ae726a2d49e3266c3779a6135415e387a3aa8c03110bbc6e107ce9a961edc",
+      "bytes": 30642
+    },
+    {
+      "path": "pattern_render.lua",
+      "sha256": "25740520900a51d33402a8982f8524d62cbae0d692f88642b58000d619a965f3",
+      "bytes": 13169
+    },
+    {
+      "path": "tools/botanical_enginecheck.py",
+      "sha256": "c53fc339093057aa133e3713b9033d06a7a117d6f06d13e7f126fff8db026812",
+      "bytes": 2715
+    },
+    {
+      "path": "tools/botanical_oracle.py",
+      "sha256": "6868741825734a405e7481a491ac5b903ba5671baa2ebf889d02da19174d9ea5",
+      "bytes": 7618
+    },
+    {
+      "path": "tools/botanicalcheck.lua",
+      "sha256": "54c8fb38a785837901d9cf19d04fbc7d62f6d08125153b9a14499dd5885a324b",
+      "bytes": 8703
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "8edc95c002d7b22520adf87175de7f2e330c4803d688b3f857d0660a73a95944",
+      "bytes": 6188
+    }
+  ],
+  "unchanged_parent_entries": 214,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41706823596,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

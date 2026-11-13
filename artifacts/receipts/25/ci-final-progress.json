@@ -1,0 +1,40 @@
+{
+  "run": {
+    "id": 41922300569,
+    "head_sha": "af18c263e2cf9fbc1eb8b5103d1dd47d1f2a65bf",
+    "status": "in_progress",
+    "conclusion": null
+  },
+  "jobs": [
+    {
+      "id": 126897608269,
+      "name": "pdfs",
+      "status": "in_progress",
+      "conclusion": null
+    },
+    {
+      "id": 126897608455,
+      "name": "portable",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 126897610680,
+      "name": "gallery",
+      "status": "completed",
+      "conclusion": "skipped"
+    }
+  ],
+  "portable_archive": {
+    "id": 13367848125,
+    "name": "florilegium-portable-kit",
+    "digest": "sha256:610fb3415471515ac6658bf2abc632b8ff35e0c1808ac3cc8349afc8d73c8057",
+    "workflow_run": {
+      "id": 41922300569,
+      "repository_id": 1440218114,
+      "head_repository_id": 1440218114,
+      "head_branch": "pattern/common-platform",
+      "head_sha": "af18c263e2cf9fbc1eb8b5103d1dd47d1f2a65bf"
+    }
+  }
+}

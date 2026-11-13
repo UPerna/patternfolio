@@ -1,0 +1,11 @@
+{
+  "kind": "common",
+  "artifact_id": 13544151390,
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "job": 128173725012,
+  "sha256": "5fbf7eea88086ab375bfeb9cef93c5fc2c5e831f1d04b420bb4a7b2815a68852",
+  "archive_bytes": 2561861,
+  "verified_archive_sha256": "5fbf7eea88086ab375bfeb9cef93c5fc2c5e831f1d04b420bb4a7b2815a68852",
+  "safe_extraction": true
+}

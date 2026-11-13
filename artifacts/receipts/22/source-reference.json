@@ -1,0 +1,18 @@
+{
+  "stage": "22",
+  "references": [
+    {
+      "id": "R10a",
+      "sha256": "42411b631777411e4520246ad73ea76dcf646f29b764805c3e772c33161ce309",
+      "url": "https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/pdf/stroke-pattern-analysis-and.pdf",
+      "scope": "Sections 2.1–2.3 and 3.1–3.3, Algorithm 1 and Figures 2–4"
+    },
+    {
+      "id": "R10b",
+      "sha256": "45a5aed3cb76492b1255b65bae31a6a1df91256eb99952a47ce9b1dc3a615fef",
+      "url": "https://arxiv.org/abs/cs/0607050v2",
+      "scope": "Sections 2.1–2.2 and 3.1–3.2, Figures 2–5"
+    }
+  ],
+  "redistribution": "Private primary papers. Code and example vectors independently authored."
+}

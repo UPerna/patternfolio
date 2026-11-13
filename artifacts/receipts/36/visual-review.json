@@ -1,0 +1,93 @@
+{
+  "stage": "36",
+  "status": "local_gallery_and_visible_review_passed_native_ci_pending",
+  "profiles": 22,
+  "generated_svg_images": 48,
+  "valid_local_atlas_links": 257,
+  "verified_manifest_entries": 835,
+  "views": [
+    "1440x1000 browser viewport",
+    "412x915 browser viewport"
+  ],
+  "actual_browser": "156.0.4314.58",
+  "reviewed_pdf_sheets": [
+    {
+      "file": "pdf-proof/sheet-1.png",
+      "sha256": "e6ca6b71bd2adcaf25353ea17983a5c3dd5fbf9cb0f880427c65cf9fd0c3e37f",
+      "profiles": [
+        "botanical-panel",
+        "periodic",
+        "celtic",
+        "islamic"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-2.png",
+      "sha256": "c8f0dd0bfb61c21a8ecfec9e9a79c8f21a5bedcce5c503ab2b2f330d1d1ba39e",
+      "profiles": [
+        "freeform",
+        "substitution",
+        "penrose",
+        "spectre"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-3.png",
+      "sha256": "5d8dfaeeda6aa3ec5b30a4f02c37ce0d79c7a42423444fd1aea62bcc097467e5",
+      "profiles": [
+        "beenker",
+        "completion",
+        "tracery",
+        "escher"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-4.png",
+      "sha256": "290787f368e1d7ba8d9f343b37c6ce08431525e6b40b6bd54d58cedbb53e679e",
+      "profiles": [
+        "mosaic",
+        "stroke",
+        "maze",
+        "micrography"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-5.png",
+      "sha256": "c699647219d2be4693cc04e1085f57199a20296f6d76cba0016813c528e711f4",
+      "profiles": [
+        "decobrush",
+        "gothic-spatial",
+        "inline",
+        "hat"
+      ]
+    },
+    {
+      "file": "pdf-proof/sheet-6.png",
+      "sha256": "3681046ad47f911b036374b91d95484bd2a5d0165e24c5a644ef32df60885846",
+      "profiles": [
+        "botanical-authored",
+        "botanical-grown"
+      ]
+    }
+  ],
+  "observations": [
+    "Canonical source colors remain available beside separate presentation palettes.",
+    "All 22 presentation instances and document views are byte-identical to their canonical parent. Independent SVG structure checks exclude paint and retain every path, transformation and clip.",
+    "The copper/jade/indigo variants retain visible petals, lettering, strand gaps, tile outlines and line-weight changes.",
+    "Compact method patches and partial mosaic status remain explicitly captioned. The gallery does not imply unbounded coverage or optimizer convergence.",
+    "The first browser preview had small narrow-screen images and an implicit favicon request. Larger previews and an explicit generated icon were inspected in the final gallery.",
+    "The six PDF contact sheets cover every canonical/presentation pair plus enlarged detail. The browser wide, collection and narrow text views were also inspected."
+  ],
+  "gallery_archive": {
+    "filename": "Florilegium_Stage36_Pattern_Atlas_Local.zip",
+    "sha256": "1d11808e32c451ebace347bf8936b5be74cbd59b0adb7fcf905b37337e341f85",
+    "bytes": 14620747
+  },
+  "source_files_sha256": {
+    "tools/make-gallery.py": "8d973574bd34c9d26e714fff69f96677f5371d74d26a9693943eba0429c8fb2c",
+    "tools/check-gallery.py": "490743008e3e97a3840c9f891076a1db70ed7368bb139d02f465ed3d4e4a5a66",
+    "tools/gallerycheck.cjs": "d0dc713c6a22bf1a733202daf06591aa0f7ba578ddc8c2f8294afbd25fbb1166",
+    "examples/gallery/profiles.json": "edda3391cc454bfe647a256b6e17f6f7874dbbb41b05f7c8ee8c40042a617a7b"
+  },
+  "scope": "Local functional host: Windows/Lupa2.8/hashlib; native TeX and Linux Chromium exact-head artifacts remain mandatory. Physical printing and untested devices are unclaimed."
+}

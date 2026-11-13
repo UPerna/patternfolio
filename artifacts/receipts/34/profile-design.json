@@ -1,0 +1,47 @@
+{
+  "status": "profiled_before_optimization",
+  "base_revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "hash_module_before_sha256": "99c9347bdc7714fe8d224a478785d7a85127cc5a16b2bf6a5c40e0608be01861",
+  "profiles": [
+    {
+      "file": "probe-micrography-profile-Lua-5.3.json",
+      "source_digest": "6d9f4afb5154d05f25d85068141d22fd8ac092babfc155bb45f3eeb203882af3",
+      "sample_count": 18489,
+      "top": [
+        {
+          "file": ".\\pattern_hash.lua",
+          "samples": 8991
+        },
+        {
+          "file": ".\\pattern.lua",
+          "samples": 4727
+        },
+        {
+          "file": ".\\pattern_micro_field.lua",
+          "samples": 2924
+        }
+      ]
+    },
+    {
+      "file": "probe-periodic-profile-Lua-5.3.json",
+      "source_digest": "6d9f4afb5154d05f25d85068141d22fd8ac092babfc155bb45f3eeb203882af3",
+      "sample_count": 20309,
+      "top": [
+        {
+          "file": ".\\pattern_hash.lua",
+          "samples": 16846
+        },
+        {
+          "file": ".\\pattern.lua",
+          "samples": 3326
+        },
+        {
+          "file": ".\\pattern_json.lua",
+          "samples": 73
+        }
+      ]
+    }
+  ],
+  "cautions": "First periodic profile ran alone. Subsequent micrography profile and periodic unprofiled exploratory runs overlapped; their timing is preliminary, not a controlled before/after comparison. An initial profile was stopped after cold/warm measurements to remove evidence-only extra SHA calls from instruction attribution. Corrected probe reads semantic digests from actual Build records. Profile timings include debug-hook overhead; formal comparisons must run serially without hooks. Owned historical stage32 QA browser closed after evidence preservation; remeasure baseline in this condition.",
+  "proposed_change": "Bounded FIFO reuse of immutable exact input-byte SHA256 values; retain original compression algorithm,64MiB input guard, output bytes and all geometry/structural validations. Confirm rawbyte cache/no-cache equality, eviction/memory limits, and all native/browser gates."
+}

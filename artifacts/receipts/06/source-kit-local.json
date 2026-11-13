@@ -1,0 +1,21 @@
+{
+  "stage": "06",
+  "revision": "07f3fdb3f44dc82707d2f0d9320eb652410e1130",
+  "hashes": 196,
+  "archive_sha256": "ff21844394620874b1cba6ef28d254566260bb5b66517432ae9a2ec8d57096e9",
+  "reproducible": true,
+  "new_scene_and_font_sources_present": [
+    "pattern_render.lua",
+    "pattern_draw.lua",
+    "pattern_ink.lua",
+    "pattern_bytes.lua",
+    "pattern_artifact.lua",
+    "tools/scenecheck.lua",
+    "tools/scene_oracle.py",
+    "tools/preparescenefont.py",
+    "docs/validation/fixtures/scene-font.json",
+    "docs/fonts/GUST-FONT-LICENSE.md",
+    "docs/fonts/LPPL-1.3c.md"
+  ],
+  "extracted_Lua_Xe_builds": "required CI pending"
+}

@@ -1,0 +1,103 @@
+{
+  "stage": "08",
+  "status": "in_progress",
+  "source_digest": "17d56eb5b00671d8b1e34fa44eeeef32e2a80ba095674851dd0c5e4205814f11",
+  "parent": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "each_runtime": {
+    "contracts": 61,
+    "replay": 145,
+    "geometry": 91,
+    "scenes": 56,
+    "planner": 82,
+    "botanical": 18
+  },
+  "wrapped_layout": {
+    "checks_per_runtime": 28,
+    "actual_pages_per_runtime": 12,
+    "pinned_defaults": 3
+  },
+  "maximum_size_probes": 18,
+  "exact_output_files": 12,
+  "independent_geometry": {
+    "orientations": 4000,
+    "segments": 1000,
+    "cubics": 132,
+    "bounds": 256
+  },
+  "raster_oracle": {
+    "stage": "08",
+    "source_digest": "17d56eb5b00671d8b1e34fa44eeeef32e2a80ba095674851dd0c5e4205814f11",
+    "rasterizers": "local Poppler/librsvg",
+    "checked_paths": 645,
+    "exact_placement_and_attachment_checks": "passed",
+    "unmasked_pdf_matches": "pixel exact",
+    "fixtures": [
+      {
+        "fixture": "panel",
+        "pixels": [
+          720,
+          660
+        ],
+        "mean_absolute_error": 0.0004449891067538126
+      },
+      {
+        "fixture": "authored",
+        "pixels": [
+          1260,
+          1782
+        ],
+        "mean_absolute_error": 0.0013353649228740007
+      },
+      {
+        "fixture": "grown",
+        "pixels": [
+          1260,
+          1782
+        ],
+        "mean_absolute_error": 0.0005399180913584205
+      }
+    ]
+  },
+  "native_original_vs_shared_crop": [
+    {
+      "mode": "authored",
+      "native_ink_bbox": [
+        0,
+        58,
+        872,
+        1772
+      ],
+      "shared_ink_bbox": [
+        0,
+        58,
+        872,
+        1772
+      ],
+      "normalized_mean_pixel_error": 0.0000021069241596958856,
+      "pixel_exact": false
+    },
+    {
+      "mode": "grown",
+      "native_ink_bbox": [
+        17,
+        67,
+        340,
+        1756
+      ],
+      "shared_ink_bbox": [
+        17,
+        67,
+        340,
+        1756
+      ],
+      "normalized_mean_pixel_error": 7.125933051858977e-7,
+      "pixel_exact": false
+    }
+  ],
+  "visual_review": "Actual current source local PDF/SVG pairs for panel/authored/grown inspected. Authored left media clipping is present in original native drawing; exact ink bounds retained.",
+  "pending": [
+    "guarded publication and independent Git verification",
+    "native Lua/Xe all shipped examples through both entrypoints; required exact-head CI",
+    "fresh CI artifact review"
+  ]
+}

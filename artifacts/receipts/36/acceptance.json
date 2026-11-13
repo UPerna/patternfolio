@@ -1,0 +1,83 @@
+{
+  "stage": "36",
+  "status": "passed",
+  "revision": "8c1e33e289898de93c4f9f7c8733edd62a0a79d2",
+  "parent": "96390d9afce26246dcf6da878e33fcb95b2c1b28",
+  "tree": "227d1a68edf61a8dc8d09f70d40883978bd3521a",
+  "run": 42337399300,
+  "native_jobs": {
+    "browser": 128310966950,
+    "patterns-dual": 128297318113,
+    "patterns-luatex": 128297318312,
+    "pdfs": 128297317797,
+    "portable": 128297318153
+  },
+  "evidence_sha256": {
+    "browser-gallery-local.json": "f1a9a2f5f402f2811e7052ec45ac3ba315bcd51e75da7197db093fecd701179a",
+    "checkpoint-import.json": "1d209b818d9ba9dd3185b3c0de12739f1cdabfd0558bfa2626cb858d78acb342",
+    "ci-final.json": "35d299527a8377b64e7879e39477787fe0e9365f095c4e4c7e26d851f85bd04e",
+    "ci-progress.json": "35d299527a8377b64e7879e39477787fe0e9365f095c4e4c7e26d851f85bd04e",
+    "coverage-reconciliation.json": "a7abb90120fbe66a804aaf27031497ea273b9fad9275ff67b57f179374cbf07a",
+    "gallery-local.json": "43e939ee606692aab50dcd04dfc7d02417bd47ccd8eb922cc3974f5480a9a84b",
+    "kit-evidence-scope.json": "eb570140c076b9fc4d1a9ae5b852e0725f0515933e36dd138cdb96c64f2d21b5",
+    "native-adversarial-partial.json": "be9211fd0287953d22a619b5f3ec04ba4a50d8fb4ed11c27d736124c2f69c54a",
+    "native-adversarial-verification.json": "efeaef7c5f188f6c77b3a864f02fa376f0df28952eaf990f5e35d20f1aa14088",
+    "native-atlas-package.json": "6dec7e892a3211039cff7af88facf714e1210907782c69b2f98dd4f47efed08f",
+    "native-atlas-verification-partial.json": "2251e94ceb55fab659fc81962d9bc534eadd6ec986b99e0804b3fb519ba4300f",
+    "native-atlas-verification.json": "fddd8b9c33ba6d1e7ea6b90c3dd833d580c73fba92058922201b8a190981ef9c",
+    "native-browser-performance-verification.json": "0db2be2cd1ebe051343aa82cb7f77337c92d40a692be1f7407cc6064b54f1bb8",
+    "native-dual-verification-stage36.json": "27044f4e6561fe9b9b774dd2a5761f8f4127eada35fe8447679b24e8343a5a1e",
+    "native-export-verification-partial.json": "54a49662da1fdc20b7947986e427a2c7c21323dca5e0e735daf2a1ad91c41bc9",
+    "native-export-verification.json": "d332a5443ad86e45225ee88e2ea325b8b2bbb1e2398346db51ce1b91462e48c2",
+    "native-pdfs-job-identity.json": "3698f1ed08386e620a28fcceeae5b4decd7d42fa7a0cd104ad2cb8a5ce0e9397",
+    "native-pdfs-job.log": "45b629b440a6d479cc51036305eb8c97edfe3260599742addb7a6508d94027ae",
+    "native-performance-verification.json": "1d68481c4955c861a3a0d50951cc24a732be53494f671e8a02670a17d8cf6d3b",
+    "pdf-gallery-local.json": "d2715a949cb1dc96a341dfa8827195ccc3b9510eae4f5ffcd0ce25f62fdf0de7",
+    "pr-final.json": "2241ad4c547b2a122cbef11176a0895fb26cd6ca0aeb916487ab8c49f92f9955",
+    "publication.json": "2aecd52dba90816606b8648e6ac4305050d786a5d686902fc5b6faf61923dd81",
+    "quickstart-local.json": "6ba86c334f9521f5517e51a5268435837e1bcf6496789ba5ead28ba40c14f96e",
+    "run-api-final.json": "6ef10e386e89eea831f0a4a5cc2fe84e332da1e89a2b6b71f535e534500b6919",
+    "run-api-progress.json": "0b0776e535fa4cc11d8448dffd9a7d7b1c0b8a1bf6450f6c52105e2ae10810c9",
+    "source-reference.json": "c4c3013d8f40d6a09e22eeb33d6e6e8bdbba1a59e24f3d6dc31f54f6ea2e393e",
+    "stage36-browser-artifact.json": "ffba5e1f5ace27cd3fcd0906955e2b407612ccac2305ed0bc3332b4fa15b896f",
+    "stage36-browser-verification.json": "28e804ec82155a75003a3a3519a1c65ded46ef65ba581241a1eea6ff0ba06ec4",
+    "stage36-common-artifact.json": "5dbf7690280e03a70a05e68696a01cbf709845852455d04de7a3a2af93bfe6ad",
+    "stage36-common-native-verification.json": "76d86900a562104c257de2fc658261cdb626ba9b54145518e60a432684987430",
+    "stage36-dual-artifact.json": "5b3c4ac777a41c8c57e05f88d448818d2c3ea9cc7687544eaabaec60a889ff0d",
+    "stage36-editor-verification.json": "08abeac31938183e96383315386084bc1fa1f3be4ad65b7a745698eced51176f",
+    "stage36-inherited-native-verification.json": "3264a73bcbaad6feea54ec5e5d65ba36b23877b8d47fb08021e0c81751c56eb9",
+    "stage36-pdfs-artifact.json": "5b11abc2baf88161d616771f5ba8807c6dc672b057866c55fcb951f2b9c77e46",
+    "stage36-portable-artifact.json": "49755f86e4888f1146fbd06036d75852d325538c3bac5215d2965fc0e2918de9",
+    "stage36-portable-verification.json": "10f803bba1dc74868c32516e4bbddda744bbe5769a68fbb976cb490915f7e9aa",
+    "stage36-source-archive.json": "51679d6a5b47ed2c87229d1f9bc5b612b1bea3107c731c29c3635a10f6c03f00",
+    "supplemental-sha-latency.json": "2a330464b59356073af2d08cc309f4d2074ff78c06e8a47c7a7f99c6fec31ca0",
+    "visual-review.json": "ef2fa22d21c0b4c73a2516a1df1ab6610ce34999041c4f923f2d2cbc63046e33"
+  },
+  "results": {
+    "canonical_presentation_pairs": 22,
+    "rendered_images": 48,
+    "native_manifest_entries": 835,
+    "browser_viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 412,
+        "height": 915
+      }
+    ],
+    "all_mandatory_capabilities": 46,
+    "optional_research_extensions": 6,
+    "reviewed_pdf_sheets": 6,
+    "quickstart_links": 80,
+    "same_host_exact_quickstart_replay": true,
+    "native_tex_engines": 2,
+    "browser_editor_workflows": 13,
+    "protected_prior_evidence_hashes": 829,
+    "preserved_binary_assets": 26,
+    "source_git_blobs": 1507
+  },
+  "limits": "Gallery samples are finite admitted examples, with source-method scope per caption. Local Windows Lupa source-path limitation is documented. Native Linux TeX and actual Chromium are separate evidence. Office, printing and untested devices remain unclaimed. No release, merge or deployment.",
+  "next_action": "Begin stage 37 in a fresh isolated checkout at 8c1e33e289898de93c4f9f7c8733edd62a0a79d2. Read Prompt 37, instructions and prerequisite records. Produce a reproducible source/browser/gallery release candidate with complete dependency/license/mode/hash records. Verify source-only reconstruction from a fresh path containing spaces, including CLI all22 examples, both native TeX adapters and browser import/export. Check current official dependency/action support and pin versions under the project policy; preserve every inherited release-required gate. Verify candidate own revision and actual artifacts, then continue stage 38 challenger review and stage 39 authorized branch/PR handover automatically. No merge, public tag/release or production deployment is authorized."
+}

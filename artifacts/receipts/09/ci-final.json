@@ -1,0 +1,235 @@
+{
+  "stage": "09",
+  "source_digest": "0486f488b10f94f89672dbd40427936aa52d4a2c792d182be671dadfc98d54ee",
+  "native_checks": 36,
+  "native_output_hashes": 39,
+  "native_local_differences": [],
+  "kit_hashes": 259,
+  "oracle": {
+    "stage": "09",
+    "source_digest": "0486f488b10f94f89672dbd40427936aa52d4a2c792d182be671dadfc98d54ee",
+    "proofs": {
+      "square": {
+        "unit_area": 1,
+        "paired_edges": 2,
+        "vertex_types": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "potential_overlaps_excluded": 24
+      },
+      "triangular": {
+        "unit_area": 1,
+        "paired_edges": 3,
+        "vertex_types": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "potential_overlaps_excluded": 98
+      },
+      "hexagonal": {
+        "unit_area": 1,
+        "paired_edges": 3,
+        "vertex_types": [
+          6,
+          6,
+          6
+        ],
+        "potential_overlaps_excluded": 24
+      },
+      "4.8.8": {
+        "unit_area": 1,
+        "paired_edges": 6,
+        "vertex_types": [
+          4,
+          8,
+          8
+        ],
+        "potential_overlaps_excluded": 98
+      },
+      "4.6.12": {
+        "unit_area": 1,
+        "paired_edges": 18,
+        "vertex_types": [
+          4,
+          6,
+          12
+        ],
+        "potential_overlaps_excluded": 894
+      }
+    },
+    "wallpaper_operations": {
+      "p1": 1,
+      "p2": 2,
+      "p3": 3,
+      "p4": 4,
+      "p4m": 8,
+      "p6": 6,
+      "p6m": 12
+    },
+    "patches": {
+      "square": {
+        "vertices": 169,
+        "edges": 312,
+        "cells": 144
+      },
+      "triangular": {
+        "vertices": 182,
+        "edges": 493,
+        "cells": 312
+      },
+      "hexagonal": {
+        "vertices": 418,
+        "edges": 599,
+        "cells": 182
+      },
+      "4.8.8": {
+        "vertices": 648,
+        "edges": 935,
+        "cells": 288
+      },
+      "4.6.12": {
+        "vertices": 2346,
+        "edges": 3437,
+        "cells": 1092
+      },
+      "4.6.12-overlap": {
+        "vertices": 2172,
+        "edges": 3179,
+        "cells": 1008
+      },
+      "common-a": {
+        "vertices": 2346,
+        "edges": 3437,
+        "cells": 1092
+      },
+      "common-b": {
+        "vertices": 2172,
+        "edges": 3179,
+        "cells": 1008
+      },
+      "masked-full": {
+        "vertices": 196,
+        "edges": 364,
+        "cells": 169
+      }
+    },
+    "shared": {
+      "cells": 1008,
+      "edges": 3179,
+      "vertices": 2172
+    },
+    "rasterizers": "Inkscape/Poppler",
+    "images": [
+      {
+        "fixture": "square",
+        "pixels": [
+          192,
+          168
+        ],
+        "mae": 0.002177879253553273
+      },
+      {
+        "fixture": "triangular",
+        "pixels": [
+          192,
+          168
+        ],
+        "mae": 0.001107034248884739
+      },
+      {
+        "fixture": "hexagonal",
+        "pixels": [
+          192,
+          168
+        ],
+        "mae": 0.0018606053532524121
+      },
+      {
+        "fixture": "4.8.8",
+        "pixels": [
+          192,
+          168
+        ],
+        "mae": 0.001128188543936093
+      },
+      {
+        "fixture": "4.6.12",
+        "pixels": [
+          192,
+          168
+        ],
+        "mae": 0.0023602438660649443
+      },
+      {
+        "fixture": "4.6.12-overlap",
+        "pixels": [
+          192,
+          168
+        ],
+        "mae": 0.00205492497925096
+      },
+      {
+        "fixture": "common-a",
+        "pixels": [
+          108,
+          168
+        ],
+        "mae": 0.002208331892427753
+      },
+      {
+        "fixture": "common-b",
+        "pixels": [
+          108,
+          168
+        ],
+        "mae": 0.002208331892427753
+      },
+      {
+        "fixture": "masked-full",
+        "pixels": [
+          192,
+          168
+        ],
+        "mae": 0.006451695261437908
+      }
+    ],
+    "world_paths_equal": 54,
+    "overlap_raster_comparison": {
+      "pdf": {
+        "different_viewports_peak": 0,
+        "different_viewports_changed_pixels": 0,
+        "same_world_window_peak": 0
+      },
+      "svg": {
+        "different_viewports_peak": 5,
+        "different_viewports_changed_pixels": 8,
+        "same_world_window_peak": 0
+      }
+    }
+  },
+  "visual_review": "All nine fresh native PDF/SVG pairs accepted; shared-window paints agree, protected fixture clear.",
+  "revision": "ac76ce9c75522f2a653b697ddd8d97cd3dc803bf",
+  "tree": "69c0032609f38fcfcd713adc5418d3fb336a9267",
+  "run": 41716688740,
+  "jobs": {
+    "pdfs": {
+      "id": 126198422437,
+      "conclusion": "success"
+    },
+    "portable": {
+      "id": 126198422667,
+      "conclusion": "success"
+    }
+  },
+  "artifact_ids": [
+    13271430459,
+    13270427538
+  ]
+}

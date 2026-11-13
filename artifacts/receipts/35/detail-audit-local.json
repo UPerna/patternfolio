@@ -1,0 +1,774 @@
+{
+  "stage": "35",
+  "status": "objective_checks_passed_visible_review_pending",
+  "pdf_renderer": "Poppler pdftoppm 26.07.0 / 150 dpi",
+  "svg_renderer": "156.0.4314.58",
+  "profiles": [
+    {
+      "id": "botanical-panel",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          709,
+          650
+        ],
+        "sha256": "ad7cfb0cff0316b0749be7082c4ff81f8b2b00eae74222ea404ef76f0a94e2ac",
+        "protected_pixels_white": 3752
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          709,
+          650
+        ],
+        "sha256": "9c0ea06668a8fe8cd3e77f002ba36fd4f87a9c1949deb86077947b031f39d9f4",
+        "protected_pixels_white": 3752
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.152327221438646,
+        0.3769230769230769,
+        0.4767277856135402,
+        0.7215384615384616
+      ]
+    },
+    {
+      "id": "periodic",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          189,
+          166
+        ],
+        "sha256": "97c8a4e6058ddc5262b1f5596ae93fff314e894a65f6faf5c6a73b1c4a72a06a",
+        "protected_pixels_white": 1085
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          189,
+          166
+        ],
+        "sha256": "a8d23d704e81754ea4ad17d0884b0a9398b9425aa3c94396dd1b617a252802ff",
+        "protected_pixels_white": 1085
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.13227513227513227,
+        0.35542168674698793,
+        0.291005291005291,
+        0.6746987951807228
+      ]
+    },
+    {
+      "id": "celtic",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          319,
+          325
+        ],
+        "sha256": "ce1bb897c6f8cf13f2ebb5c99fa6d6160e001c93351101861ee38eba5430a681",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          319,
+          325
+        ],
+        "sha256": "b080dd2c0c87e5bdd641bbd33e48c10bbd5f359f40ebaf9134ddeb3df64657bf",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.2507836990595611,
+        0.08615384615384615,
+        0.6865203761755486,
+        0.5076923076923077
+      ]
+    },
+    {
+      "id": "islamic",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          319,
+          213
+        ],
+        "sha256": "131025419f6fe1d7269c285d55668cd826cae878b20e35693b0bde4c0bb93263",
+        "protected_pixels_white": 675
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          319,
+          213
+        ],
+        "sha256": "f86074d605b4a4f9ca81307b3175e3eb5ab6d42d1f055d580a0db002c24ecbcc",
+        "protected_pixels_white": 675
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.0,
+        0.0,
+        0.5987460815047022,
+        0.6009389671361502
+      ]
+    },
+    {
+      "id": "freeform",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          355,
+          355
+        ],
+        "sha256": "c0c14a5b27db407c71c0fd588e6b56d106ce4f2dba6380bed79b91e2c27c0cc3",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          355,
+          355
+        ],
+        "sha256": "b2294a1d5d8baa55e93ca4ef0ec8a924b14eff012b9b9e3f25a83fa93370be7e",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": false,
+        "svg": false
+      },
+      "local_native_numeric_comparison": {
+        "svg_coordinate_differences": 38,
+        "svg_max_abs": 8.881784197001252e-16,
+        "pdf_coordinate_differences": 38,
+        "pdf_max_abs": 8.881784197001252e-16,
+        "comparison_ceiling": 1e-12
+      },
+      "detail_roi_normalized": [
+        0.30422535211267604,
+        0.5098591549295775,
+        0.504225352112676,
+        0.704225352112676
+      ]
+    },
+    {
+      "id": "substitution",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          60,
+          74
+        ],
+        "sha256": "7373b0c1d188ac9dc8a77cd777b0ff7873dbe216adae7577bf0b16d9e25fa5ff",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          60,
+          74
+        ],
+        "sha256": "52450a213a4888d3a0d691aac3655059473a5749c2a642b93104afee60272851",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.0,
+        0.0,
+        0.6,
+        0.5945945945945946
+      ]
+    },
+    {
+      "id": "penrose",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          148,
+          189
+        ],
+        "sha256": "771360ad5ad839398e209bd61232335ee6a854a1c8ae3b40b7f60659eaa6afe9",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          148,
+          189
+        ],
+        "sha256": "855b38e7a797266c6746d08de1f0c97dcdcaab3e5e7ec9d10af915d943680757",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.20270270270270271,
+        0.4021164021164021,
+        0.8040540540540541,
+        1.0
+      ]
+    },
+    {
+      "id": "spectre",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          92,
+          136
+        ],
+        "sha256": "370d8b1e8a92cbcb4907ffe1e273c0fcdc307ea2164aed5327336f96cd7bca7b",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          92,
+          136
+        ],
+        "sha256": "6be84535aad3f884f1fb7df5322e41d14186a001203e66d88fb1efaa25dd3f6f",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.0,
+        0.19852941176470587,
+        0.5978260869565217,
+        0.8014705882352942
+      ]
+    },
+    {
+      "id": "beenker",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          207,
+          213
+        ],
+        "sha256": "cf57a3e597ecb34b9bfb2a715b34e1fb109b4e6018b5e854478cb379092b45aa",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          207,
+          213
+        ],
+        "sha256": "e3455dc2daecf978ba2ab0679bd35aa08b7a968229a8bf78c057d0b305386ac5",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.2028985507246377,
+        0.39906103286384975,
+        0.8019323671497585,
+        1.0
+      ]
+    },
+    {
+      "id": "completion",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          192,
+          160
+        ],
+        "sha256": "37631901c0897542eed21539be1a1f702e41ea2d7b24e1c33679441f7b4f552a",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          192,
+          160
+        ],
+        "sha256": "dc70455436d2fae88a3e7f8ef3479baa9774e6c020c627534a12a7c12fdcdaf1",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.4791666666666667,
+        0.48125,
+        1.0,
+        0.975
+      ]
+    },
+    {
+      "id": "tracery",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          508,
+          715
+        ],
+        "sha256": "26826d5e44b1f8048175a7f154fa4a35c7060e9227f720e59e635e69c8dbac04",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          508,
+          715
+        ],
+        "sha256": "dab9b53caf50636c3fa07bad4acd9064bcbffa320119914226410dc69c97f6a0",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.21653543307086615,
+        0.0,
+        0.7834645669291339,
+        0.5734265734265734
+      ]
+    },
+    {
+      "id": "escher",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          249,
+          189
+        ],
+        "sha256": "978f448c47cb5c1e99848548c4dfdb4ae4cc07dbb6dc8ee10bf99abf08852d36",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          249,
+          189
+        ],
+        "sha256": "522ae59b8336019ca5c08536c45fcae64864c3e6e3703d6648160d8e9e5d14ef",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.0,
+        0.4021164021164021,
+        0.5983935742971888,
+        1.0
+      ]
+    },
+    {
+      "id": "mosaic",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          355,
+          237
+        ],
+        "sha256": "0eae2a505b80c0199097b4428163b604ca3482af30bb73f960d6f7db6435fb4d",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          355,
+          237
+        ],
+        "sha256": "ef996e6412320d7ae4a8e6d774f862988b4038d9e332cb00fe7e9117306bb5e8",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.0,
+        0.0,
+        0.5971830985915493,
+        0.5991561181434599
+      ]
+    },
+    {
+      "id": "stroke",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          355,
+          237
+        ],
+        "sha256": "8d4fbd738f6a63e1028f5ec68d3fff60a3aa77ff3684e90016eaf6275fda9d36",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          355,
+          237
+        ],
+        "sha256": "2ac1965853a2ca37498ed523118d1879c495829638bc0f16eedc6e242734ea71",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.0,
+        0.4008438818565401,
+        0.5971830985915493,
+        1.0
+      ]
+    },
+    {
+      "id": "maze",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          624,
+          447
+        ],
+        "sha256": "794d72a491798610c060a1249568141de9a9f9769f8f09c042fd940394b3fcf6",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          624,
+          447
+        ],
+        "sha256": "2db7e7eddc2bd5d9c721aa2b9a3a8dd5c058f4ac1f091a2fe3d37628229751f5",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.0,
+        0.0,
+        0.5801282051282052,
+        0.5906040268456376
+      ]
+    },
+    {
+      "id": "micrography",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          768,
+          414
+        ],
+        "sha256": "100d7fee1e4e0a8b691195123af7f796347d50d1d4aa6c8e42397630ca2ef243",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          768,
+          414
+        ],
+        "sha256": "2dc90cd0ca0da8ddf37da2830eaf9bc200543be0d18b08f8b3091a2c2f36e2a0",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": false,
+        "svg": false
+      },
+      "local_native_numeric_comparison": {
+        "svg_coordinate_differences": 142,
+        "svg_max_abs": 3.3881317890172014e-21,
+        "pdf_coordinate_differences": 142,
+        "pdf_max_abs": 3.3881317890172014e-21,
+        "comparison_ceiling": 1e-12
+      },
+      "detail_roi_normalized": [
+        0.2565104166666667,
+        0.28502415458937197,
+        0.74609375,
+        0.6280193236714976
+      ]
+    },
+    {
+      "id": "decobrush",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          237,
+          89
+        ],
+        "sha256": "6aaeb9db4d75d676775360442739fec13d2fa02cb69f340ab6255f6c0ed3c345",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          237,
+          89
+        ],
+        "sha256": "de7f4713f3a17553c8e24e9a1920936ded11774ce8663aef953b6e9d07f438a9",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": false,
+        "svg": false
+      },
+      "local_native_numeric_comparison": {
+        "svg_coordinate_differences": 2,
+        "svg_max_abs": 1.1102230246251565e-16,
+        "pdf_coordinate_differences": 2,
+        "pdf_max_abs": 1.1102230246251565e-16,
+        "comparison_ceiling": 1e-12
+      },
+      "detail_roi_normalized": [
+        0.2616033755274262,
+        0.4044943820224719,
+        0.6877637130801688,
+        0.7415730337078652
+      ]
+    },
+    {
+      "id": "gothic-spatial",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          532,
+          562
+        ],
+        "sha256": "bfdda3e0fb3195525469122a37c54a0022b41e6a0071e42de602254a4de1400c",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          532,
+          562
+        ],
+        "sha256": "95189acba348e366bf09faa7695dd9ad0c31140022ee4d68522218a9c1bb0871",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.2274436090225564,
+        0.5640569395017794,
+        0.5488721804511278,
+        0.8540925266903915
+      ]
+    },
+    {
+      "id": "inline",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          237,
+          237
+        ],
+        "sha256": "fbbe3c27ffd2be6a51798c67b4d42f488fa412473e9ae9d3ba59376c6e389cfc",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          237,
+          237
+        ],
+        "sha256": "eb51eec38585883a256d87f9577c1391be5b0e4ce17e47ae5755a6cf38f13d2e",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.2320675105485232,
+        0.5316455696202531,
+        0.7637130801687764,
+        0.6582278481012658
+      ]
+    },
+    {
+      "id": "hat",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          266,
+          260
+        ],
+        "sha256": "224103f263f1d45383281bc71d2419ce97bd0fa4c1dc3ca63d97b2d19662706a",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          266,
+          260
+        ],
+        "sha256": "8540207c0c850a3ac454d846a691d5c53e847b943ee9d2b7dc1a3d7188cdf552",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.24436090225563908,
+        0.24615384615384617,
+        0.7593984962406015,
+        0.7807692307692308
+      ]
+    },
+    {
+      "id": "botanical-authored",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "a083fbbbfab271934b665415db95812da4133ca5e0dca8ff8d73081fbf79ac46",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "672d908865bed446c15e9a3ebfe950f9e23a6769882aa2487d720a26edcd3a79",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.0,
+        0.42303306727480045,
+        0.41498791297340853,
+        1.0
+      ]
+    },
+    {
+      "id": "botanical-grown",
+      "diagnostic": {
+        "dpi": 150,
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "f8baaf03b876e9d2394550c18c3f5ab796b0c26b99374299ee7b6f86744a0ef5",
+        "protected_pixels_white": 0
+      },
+      "monochrome": {
+        "dpi": 150,
+        "pixels": [
+          1241,
+          1754
+        ],
+        "sha256": "51faf7b7e0abef0ae35f39f1bd659aa3fa1718e1b2c81e6f20d1586d85ce0e88",
+        "protected_pixels_white": 0
+      },
+      "clean_native_byte_equal": {
+        "pdf": true,
+        "svg": true
+      },
+      "detail_roi_normalized": [
+        0.064464141821112,
+        0.0,
+        0.21837228041901693,
+        0.5689851767388826
+      ]
+    }
+  ],
+  "sheets": [
+    {
+      "file": "contact/detail-1.png",
+      "sha256": "ff644b3cbc378063ba2a242e8d442258e8b536bc79fc3b91be4a4b71e885a484",
+      "profiles": [
+        "botanical-panel",
+        "periodic",
+        "celtic",
+        "islamic"
+      ]
+    },
+    {
+      "file": "contact/detail-2.png",
+      "sha256": "ab92cb1410ee345560dd60a271ade314338a2017ea9393941e1a1ae7297e7538",
+      "profiles": [
+        "freeform",
+        "substitution",
+        "penrose",
+        "spectre"
+      ]
+    },
+    {
+      "file": "contact/detail-3.png",
+      "sha256": "f00cfd79e825925c7bf200413c87e19dddf21263015c6f7c486139e4a9af79ed",
+      "profiles": [
+        "beenker",
+        "completion",
+        "tracery",
+        "escher"
+      ]
+    },
+    {
+      "file": "contact/detail-4.png",
+      "sha256": "ee8c1b3740654fdb190bf98eb9f78349d218561577c8ef137a6584c0fd972732",
+      "profiles": [
+        "mosaic",
+        "stroke",
+        "maze",
+        "micrography"
+      ]
+    },
+    {
+      "file": "contact/detail-5.png",
+      "sha256": "782fbc18317dbb2ab53c6fbaf990a72b2bd268606af23299b295fe20ef9ade48",
+      "profiles": [
+        "decobrush",
+        "gothic-spatial",
+        "inline",
+        "hat"
+      ]
+    },
+    {
+      "file": "contact/detail-6.png",
+      "sha256": "3176ed50fdc0dd1d85d26a4bcec16cc978f057a6ce767c9d3d9a9532dc9d9240",
+      "profiles": [
+        "botanical-authored",
+        "botanical-grown"
+      ]
+    }
+  ],
+  "source_integrity_sha256": "1a8b6d6d7b543c8a3e7c670d58989b580e99c72cbc7a1308f6b638f00002166b",
+  "browser_review_sha256": "6731266b349f3a5d47e9dc4670e95c3a37ad3e06c8fa405967e9dd76ec858bb6",
+  "scope": "White-background PDFs and transparent/colored composited SVGs. Color display and user zoom do not certify print or Office import. Crops are separate QA render views."
+}

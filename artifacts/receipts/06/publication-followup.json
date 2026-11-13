@@ -1,0 +1,79 @@
+{
+  "stage": "06",
+  "revision": "76cc324cd68f564f924f1e00729a19579eb4a78d",
+  "parent": "07f3fdb3f44dc82707d2f0d9320eb652410e1130",
+  "tree": "897ffca8f76f1c73628454e49a4bdc45712cd293",
+  "route": "normal Git fetch from origin independently of connector publication",
+  "verified_files": [
+    {
+      "path": "artifacts/receipts/06/ci-initial-visual-rejection.json",
+      "sha256": "d7b0e2844a74d76acf2f7dcb2e8911048e46dd490b9d84b8605dffbc1ea6a8e7",
+      "bytes": 3021
+    },
+    {
+      "path": "artifacts/receipts/06/oracle-local-followup.json",
+      "sha256": "7c3e5ee4bfbbb2e1095cac6f1a46a5a6e6e25828f801637a19b58f5b888024e6",
+      "bytes": 3242
+    },
+    {
+      "path": "artifacts/receipts/06/portable-ci.json",
+      "sha256": "db8dc343c94209fe56397aec829700c13bb9faa638430cd590e7937b62a6a998",
+      "bytes": 2235
+    },
+    {
+      "path": "artifacts/receipts/06/publication-initial.json",
+      "sha256": "efb78df204eed2db522c56f41f49af67b814e8d39c192f2a5e7910a38f2b7c9e",
+      "bytes": 6392
+    },
+    {
+      "path": "artifacts/receipts/06/receipt-Lua-5.3-followup.json",
+      "sha256": "3dc796bf0be5a6d06f9716a472c2b253583d419c82db7c04dc5d3ef6b12eff78",
+      "bytes": 7666
+    },
+    {
+      "path": "artifacts/receipts/06/receipt-Lua-5.4-followup.json",
+      "sha256": "3dc796bf0be5a6d06f9716a472c2b253583d419c82db7c04dc5d3ef6b12eff78",
+      "bytes": 7666
+    },
+    {
+      "path": "artifacts/receipts/06/source-kit-local.json",
+      "sha256": "f3450019758941eac719a3922f040f9bdc52b893b39e71361af303eaf601998a",
+      "bytes": 639
+    },
+    {
+      "path": "docs/architecture/SCENES.md",
+      "sha256": "8540cc61aa6b443537025a74563637b1964852f06c3c4e90dc6dcc814fb93c74",
+      "bytes": 7392
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "4776220b83a5d6667b6beb0bda5b237294aa6d8734cf13999a973760ddd4eecc",
+      "bytes": 40508
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "23320de7f69875e1a82962fa3a1d33075ea22bb8bec95f091a37707a0d8fd72c",
+      "bytes": 1077
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "e46e36d349718ad297f41fd761d0cd85a457c47f8cc217abfa4c8d8b7e271225",
+      "bytes": 20486
+    },
+    {
+      "path": "pattern_render.lua",
+      "sha256": "6030e912d0b024ebce96d5ae3c67abbf3bef4c73cf1a710daf75f762045d76c9",
+      "bytes": 11561
+    },
+    {
+      "path": "tools/scene_oracle.py",
+      "sha256": "6bde837bfe6964c66d8595d9bf22a4d2fec8239e00a7039099e9328e5ba8122f",
+      "bytes": 8167
+    }
+  ],
+  "unchanged_parent_entries": 196,
+  "binary_files": "all inherited Git object IDs/modes preserved",
+  "ci_run": 41505209725,
+  "ci_status": "in_progress",
+  "status": "publication verified; stage gate remains in_progress"
+}

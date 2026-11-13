@@ -1,0 +1,87 @@
+{
+  "stage": "30",
+  "policy": "Preserve exact issued checkpoint receipt bytes, including native line endings. Do not silently redigest or normalize stage29 evidence. Recipe LF attributes remain in force.",
+  "verified_stage29_evidence_files": 48,
+  "encoding_only_changes": [
+    {
+      "path": "artifacts/receipts/29/book-view-crops.json",
+      "parent_sha256": "5d6ce438fa147009fcf139f098f3a5551fbccf46e19f54cfeb3183e2fcc23bd6",
+      "issued_checkpoint_sha256": "af5bc23401e6f885816f99431c474fb4d8fbac8ed141c99d4e4240ed57345376"
+    },
+    {
+      "path": "artifacts/receipts/29/common-native-verification.json",
+      "parent_sha256": "5cba06397e3f6a35290f917411c211cd56b932c298721a9a4e1c5a8ed014ff36",
+      "issued_checkpoint_sha256": "ec2f2946dc22d6afc52bee0a5a386eaaf9455cc8c26a2b174655b3f6fb00f698"
+    },
+    {
+      "path": "artifacts/receipts/29/diagnostic-native-rejected.json",
+      "parent_sha256": "e8dc685a0ce4d1f0cfb06d402a27120f4a47cfa4ba1716724074d7726126200d",
+      "issued_checkpoint_sha256": "3b6cfd622c20cef38798e664496a47fdbb1729e29c5444815421cd519e585e89"
+    },
+    {
+      "path": "artifacts/receipts/29/diagnostics-publication.json",
+      "parent_sha256": "822f2c1964a8dc5b9476b04f3b2f216348acadcf6fd51e6895fc241b981905b1",
+      "issued_checkpoint_sha256": "d7b94775e6612e6106f02fe5c3faba3f4b2501a96a7ed71dd8afa684e5ff2721"
+    },
+    {
+      "path": "artifacts/receipts/29/fixture-provenance.json",
+      "parent_sha256": "5ad9114e113ead7904670b96367436aa8867b8502024a8096acf183d13191083",
+      "issued_checkpoint_sha256": "e1a8e19ab3e1af5df85c4a718ca0d5deb4ed2478270132a2445d7c52c5091026"
+    },
+    {
+      "path": "artifacts/receipts/29/inherited-b2ec-native-verification.json",
+      "parent_sha256": "205fe593af2901e85ccdaf5bf927e3fbc5c31127d88921e6ae99b672dd89146c",
+      "issued_checkpoint_sha256": "6bb97cc5526dc6bc2605ddf2d4d479bda59ccff36bed223b0abccbaf335392a5"
+    },
+    {
+      "path": "artifacts/receipts/29/inline-constraint-repair.json",
+      "parent_sha256": "3a9edd625129c7dd353d3e30b7247b0d2c9be49747c3247ed88f6c1425206ca4",
+      "issued_checkpoint_sha256": "9de7de070ddad0daaafb5a8ab76413bfea97771b1e3fde61eccf4e73d4c26a5c"
+    },
+    {
+      "path": "artifacts/receipts/29/mask-oracle-preflight.json",
+      "parent_sha256": "b06ede5e38c488649d77b69d3ec10854765054f05c6153382c049ebe065f4813",
+      "issued_checkpoint_sha256": "85176067fe2ddabeed25f907d7cc54ed6772c176acbb5bf7caa0d61446ae135b"
+    },
+    {
+      "path": "artifacts/receipts/29/native-offset-diagnosis.json",
+      "parent_sha256": "b130aa41d49efd21417c53415e114fd75b92048e269144cbc9491a86a710d3f3",
+      "issued_checkpoint_sha256": "f77c4112b74087add6b0a800aa2bc582611e83f8e57ffc144b99bfd337238e72"
+    },
+    {
+      "path": "artifacts/receipts/29/native-positive-9201.json",
+      "parent_sha256": "e1e69550f62f34ebdd8191ef7b6b37469bddc00adf2e0e19833e1bf5ffbdae00",
+      "issued_checkpoint_sha256": "3b4ec75b74d30fa3533a2d96cf798886f1ef8f19d6903a97ef5df1ffb624d3ab"
+    },
+    {
+      "path": "artifacts/receipts/29/offset-native-rejected.json",
+      "parent_sha256": "25c31a38e44b9721ad24e00dc0ef05a8107f3bd1f2b36bff9fbaa1a3bccb0202",
+      "issued_checkpoint_sha256": "0f4c4d30525a5b9e69c5ed8b5d1c986c443179be58a5f9527d9715ae238297e4"
+    },
+    {
+      "path": "artifacts/receipts/29/offset-publication.json",
+      "parent_sha256": "4479bb8474ab5c382ff60cf3a1936318ef56aea310ef28afb3aca4200b2bb5ba",
+      "issued_checkpoint_sha256": "c6e6afbc3f894b23ac076fbb49cafa51ebf5e8b3678dfaeccc2d6d8a30f5b9f0"
+    },
+    {
+      "path": "artifacts/receipts/29/packaged-cli-local.json",
+      "parent_sha256": "0a1382be5c2cb73817354830fe1df5c87ebaa429506e374d77cbf73eea544af6",
+      "issued_checkpoint_sha256": "ff8adc1bec046b5644db5e37b56e970475449fb10991524b4790c24def543cf0"
+    },
+    {
+      "path": "artifacts/receipts/29/pdf-parser-native-smoke.json",
+      "parent_sha256": "bc9d85577b56047237bcb9997e0e516d391b24302db8565e4d24d4d73b01d72d",
+      "issued_checkpoint_sha256": "8357da11e60cfa3e2d9ad79e0783bca3a266b7ea3eb081ae0510b98920c62e77"
+    },
+    {
+      "path": "artifacts/receipts/29/portable-native-verification.json",
+      "parent_sha256": "b3fcc5c61ce94721351b9dc1292bf99e9efc6d9c0ba74b610e12c2e7528022cd",
+      "issued_checkpoint_sha256": "3b867075bf6258cda8428447fa6cb8ac238300f4e8790ba17cd684a54c04f12d"
+    },
+    {
+      "path": "artifacts/receipts/29/repair-publication.json",
+      "parent_sha256": "d6789c1bd2f278761b51648a8ea9decf40a0fbee342ef86ab824b298ba9d804e",
+      "issued_checkpoint_sha256": "4404c63533fdd8b716c4f4b0b5cab43e7dd986e2a04975a272cbc95e033dbab9"
+    }
+  ]
+}

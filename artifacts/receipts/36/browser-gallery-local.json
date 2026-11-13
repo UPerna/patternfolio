@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "browser": "156.0.4314.58",
+  "pages": [
+    {
+      "label": "wide",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "images": 48,
+      "decoded": 48,
+      "panels": 22,
+      "width": 1440,
+      "images_sha256": {
+        "atlas": "d09e07da836e3b1dbf74003ad4fe5ff232ebb85644f31825ddf246b414eac602",
+        "collection": "1c1c469318c147c9d038f4d1f09220dd9476370b5a9dec2305a94874663fdc80",
+        "micrography": "4999922bfe002dff3d910d84987d541d96f891507e24dc32f60055624a2b88e1",
+        "botanical-panel": "ba24c65570d2486ef9bba813d23b86223a34b54320ccc31d5c6a99869fc5fd64",
+        "periodic": "9e35be0de823d4c058782027e450945394fba55e7c4906ec213457c57a1bef26",
+        "celtic": "13b502f3abc63d2b471943e6ab3333f0595b50ca883dc951c4fa17b0b13208a0",
+        "islamic": "b824843beb4709c6c47e7d3f703d81ff66d1c5c67b2e9a75fd7b3e783f6290c7",
+        "freeform": "a382fb242dec14fb5791b9afe734a0f1a183eaf70318e5c933f01fff62932ffd",
+        "substitution": "1375ede0f6eaf78175d633d873604307c938ffdaa4e9946b4914c7ae06ee48c4",
+        "penrose": "7841b1ba376489a21b81692e94e93eaabb6871d0a709fb550d8abb7621fa1ec8",
+        "spectre": "8536d8cf77033389af1152771935f479647863f47058fedbd2932f708612841e",
+        "beenker": "5c91c50a5bacdc3dcd23b567859fad531e21d18792e0f518ee69bef9a2cf6396",
+        "completion": "f6e7339084c954d0d2dc8566ca7f0cb36f0a7d787fc9d8dc5667652dd9a0496e",
+        "tracery": "6047b33d58f602be22c7a703a111a0697d64b24e7f16321d6a8f96c2c4bd2f1f",
+        "escher": "a3b9e2d33d4730f51daac3a6ed57644c3ffaf70423e097b57df82b6385b3878c",
+        "mosaic": "d9e719fed79b4de0e8b870217fc2d975a7f6d090655a9da492b34e5f3b3fa295",
+        "stroke": "6621522f022b70fa8bcd5dd9146eb90d5e7ec233d695287fc58cddd96cfb942e",
+        "maze": "e55c65fa6bed7a8e6fff313795f1ee5d52255dbf91c9198981a8ee5b2d98b8a0",
+        "decobrush": "8a95344fb7b5dc1ac107611ead350fe99fc0a75e2203fbb89340029070aa3c25",
+        "gothic-spatial": "64a2fac237aa7e5cece6c2a1d8ea592aa2e29f248cc102acc71053b93b23b846",
+        "inline": "0c6e89989fa82b0f42889fa558e29f42e3bfc2a5b834c31453dbc8c9445dc707",
+        "hat": "4762803e9066c6b8744fdc0c0ef307e47c6b737f5ada6c737e246c08173be853",
+        "botanical-authored": "4c1989af6a8dc9dc8d831c4598ea5ead19f266b39c58d943313d78ebba5ccdf6",
+        "botanical-grown": "e040328e6e8d7b160b491b8afecba258e332c457fe9d902ab544fdca613e6e49"
+      }
+    },
+    {
+      "label": "narrow",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "images": 48,
+      "decoded": 48,
+      "panels": 22,
+      "width": 412,
+      "images_sha256": {
+        "atlas": "b302c12cb29af2f6a2566821c37ee635846d80780837a4e9f45b262cbfe2bd66",
+        "collection": "43b2ce2872af439e4a997977f680f8135d8a7f5db8f63aa8ae7a1aba625a69fa",
+        "micrography": "ca4264022426c7cf221d4aa7cb5a5dfe2a67ecc39633d21ccfdf647660730c6f"
+      }
+    }
+  ]
+}

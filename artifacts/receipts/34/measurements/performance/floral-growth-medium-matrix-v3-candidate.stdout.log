@@ -1,0 +1,4 @@
+Measured actual workload	floral-growth-medium	cold-generation	14.550829
+Measured actual workload	floral-growth-medium	warm-generation	13.414106
+Measured actual workload	floral-growth-medium	validated-instance-replay	13.327468
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 16746473

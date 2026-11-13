@@ -1,0 +1,12 @@
+{
+  "status": "repaired_example_packaging",
+  "initial_filename": "Florilegium_Stage35_Export_Examples.zip",
+  "initial_sha256": "226f5960c0c89db7c800d22770293abd7e43c1d5fde9e3800963c174387f477f",
+  "complete_filename": "Florilegium_Stage35_Export_Examples_Complete.zip",
+  "complete_sha256": "f0c05721e567ab14b93951e7c118ae6df2cde141e99879daaf7cd1bca421bc0b",
+  "added_manifest_members": [
+    "gothic-spatial/network.json"
+  ],
+  "observed_failure": "Gothic replay rejected the first package because the optional spatial network exported by the CLI was listed in result.json but absent from the archive. Five other examples replayed exactly.",
+  "scope": "All manifest-declared outputs now present. The verified published source, recipes and render bytes are unchanged."
+}

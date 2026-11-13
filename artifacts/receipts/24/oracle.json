@@ -1,0 +1,77 @@
+{
+  "latin": {
+    "boundary_labels": 455,
+    "examined": 4096,
+    "energy": -12.853498535795229,
+    "all_aligned_energy": 0,
+    "minimum_representation_x": 0.9931446444280377,
+    "field_residual": 9.951950374897933e-11,
+    "triangles": 288,
+    "runs": 7,
+    "graphemes": 432,
+    "glyphs": 428,
+    "visible_glyphs": 345,
+    "minimum_line_gap_cm": 0.5348911966743227,
+    "maximum_curvature_per_cm": 3.6528318072709996e-05,
+    "maximum_glyph_rotation_rad": 0.05836583589221231,
+    "pdf_words": 84,
+    "pdf_extractor": "pypdf glyph stream and ToUnicode",
+    "svg_runs": 7,
+    "vector_glyph_paths": 345,
+    "mean_backend_error": 0.005697424703054298,
+    "ink_pixels": [
+      14848,
+      14553
+    ]
+  },
+  "combining": {
+    "boundary_labels": 455,
+    "examined": 1024,
+    "energy": -14.589642969980808,
+    "all_aligned_energy": 0,
+    "minimum_representation_x": 0.9547315190872958,
+    "field_residual": 9.915376852909219e-11,
+    "triangles": 288,
+    "runs": 6,
+    "graphemes": 350,
+    "glyphs": 345,
+    "visible_glyphs": 280,
+    "minimum_line_gap_cm": 0.4691076421023494,
+    "maximum_curvature_per_cm": 0.007356369208747283,
+    "maximum_glyph_rotation_rad": 0.09265573154032092,
+    "pdf_words": 66,
+    "pdf_extractor": "pypdf glyph stream and ToUnicode",
+    "svg_runs": 6,
+    "vector_glyph_paths": 280,
+    "mean_backend_error": 0.004444955065359477,
+    "ink_pixels": [
+      12591,
+      12410
+    ]
+  },
+  "greek": {
+    "boundary_labels": 455,
+    "examined": 4096,
+    "energy": -16.155715784310352,
+    "all_aligned_energy": 0,
+    "minimum_representation_x": 0.9931446444280377,
+    "field_residual": 9.951950374897933e-11,
+    "triangles": 288,
+    "runs": 6,
+    "graphemes": 213,
+    "glyphs": 213,
+    "visible_glyphs": 170,
+    "minimum_line_gap_cm": 0.5407039549675681,
+    "maximum_curvature_per_cm": 0.00018240659714333638,
+    "maximum_glyph_rotation_rad": 0.05844420494890016,
+    "pdf_words": 44,
+    "pdf_extractor": "pypdf glyph stream and ToUnicode",
+    "svg_runs": 6,
+    "vector_glyph_paths": 170,
+    "mean_backend_error": 0.003145014516223156,
+    "ink_pixels": [
+      15229,
+      14715
+    ]
+  }
+}

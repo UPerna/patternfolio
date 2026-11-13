@@ -1,0 +1,36 @@
+{
+  "status": "raw_history_preserved_current_paths_aligned_to_verified_published_repair",
+  "current_revision": "bd11eefd36d21104ad46cbdde2684401ec6ee9b8",
+  "previous_revision": "abdeebebaff70f32cc6bfdca32d60c7ebcce1e31",
+  "aliases": [
+    {
+      "current_path": "local-browser-families.json",
+      "historical_alias": "abde-local-browser-families.json",
+      "historical_sha256": "03c1124d42a878eadf6d62669650ac1e09082c97b992b804e11b3386dbc96a71",
+      "current_sha256": "d535478abb4c7900d4a047d33ffd41d198c42060a12d7722c8e5e7b34fa43b49",
+      "historical_matches_original_abde_publication": true
+    },
+    {
+      "current_path": "local-browser-runtime.json",
+      "historical_alias": "abde-local-browser-runtime.json",
+      "historical_sha256": "81ffdd0a7260ce14115961a71b03860a9c59af473e97f8e2b28fcbaef693e372",
+      "current_sha256": "e6009203c2d4984524a02c94916e4dd669f38449ac6fda729cf9688e3f81817d",
+      "historical_matches_original_abde_publication": true
+    },
+    {
+      "current_path": "local-browser-adversarial.json",
+      "historical_alias": "abde-local-browser-adversarial.json",
+      "historical_sha256": "a40bc5788bd49c576e868f4608502b8cc98583ac4ec0a7b207e7f496504f531c",
+      "current_sha256": "6eb7e2b30c16f09b91f243d556f39a30b7f1c6f3b3aecdfd4ccbe3b997dd5fae",
+      "historical_matches_original_abde_publication": true
+    },
+    {
+      "current_path": "source-kit-local.json",
+      "historical_alias": "abde-source-kit-local.json",
+      "historical_sha256": "567f7c771b9656148f91be64b7e4d1a78641d060130814ce07afe38efc2fd8a8",
+      "current_sha256": "cc82e797fc764386ce969746756ce5f24e7c68db790881fa2c140dd65086d14f",
+      "historical_matches_original_abde_publication": true
+    }
+  ],
+  "scope": "Unaccepted stage31 development candidate iterations only; accepted stage29/30 evidence remains unchanged."
+}

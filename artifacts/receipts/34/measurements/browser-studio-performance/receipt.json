@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "browser": "156.0.4314.58",
+  "node": "v24.22.1",
+  "workloads_sha256": "2fc30f1320430e604456516e4ea5422270813a9db25bbe7d69d473370e7812b9",
+  "cases": [],
+  "bounds": [],
+  "scope": "Actual shared Wasmoon Lua5.4 worker with pinned host SHA. Fresh worker for each generate/replay; warm means verified assets/client reused, not a persistent solver session. JavaScript heap and worker Lua memory are distinct. Heartbeats measure this browser main thread, not a mobile or Pi device.",
+  "runner_sha256": "fd995224c2997977541d7d55cb204aad78b14dea15a7c6cff5263d1050bde891",
+  "mode": "studio_only",
+  "source_digest": "8165b08b2b64e3aeb29fa950a2aa156c940a47f0084ab8129ac0cd6b31b960aa",
+  "studio": {
+    "status": "passed",
+    "family": "botanical-grown",
+    "edit_during_pending_ms": 15,
+    "cancel_during_pending_ms": 43,
+    "accepted_outputs": 0,
+    "native_host_design_seed_synchronized": true,
+    "seed": "102",
+    "state": "Cancelled · previous work preserved"
+  }
+}

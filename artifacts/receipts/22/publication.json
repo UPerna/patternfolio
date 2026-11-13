@@ -1,0 +1,64 @@
+{
+  "stage": "22",
+  "revision": "30c5a6c9f9ffe43d88d6087ac78e8e7ba87bc5db",
+  "parent": "48cdae7ce31478c30d77b356127c687068c5f541",
+  "tree": "30d214c0a62304b55bc2137c33e8d22a8d8e6db8",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": "artifacts/receipts/22/oracle.json",
+      "sha256": "82d9b1f5aa80ab1d328de83bbfed5ee9342706a35cb2709ae67e898cb61ed6f8",
+      "bytes": 15130
+    },
+    {
+      "path": "artifacts/receipts/22/publication-initial.json",
+      "sha256": "2a6d8f9389172bc37aeb2652f7d65b19f6fa83974dc6a85c412810c9f20df8ce",
+      "bytes": 3780
+    },
+    {
+      "path": "artifacts/receipts/22/receipt-Lua-5.3.json",
+      "sha256": "7db644f15bbc2ce72f4c16dc19e6d5dd6cc5b2c5d044bd4ca54c78744e716e01",
+      "bytes": 3211
+    },
+    {
+      "path": "artifacts/receipts/22/receipt-Lua-5.4.json",
+      "sha256": "7db644f15bbc2ce72f4c16dc19e6d5dd6cc5b2c5d044bd4ca54c78744e716e01",
+      "bytes": 3211
+    },
+    {
+      "path": "artifacts/receipts/22/replay-repair.json",
+      "sha256": "6d541c7047fd9c0a9ac297564a74403721c565f13bd263b49d8845929c74df12",
+      "bytes": 1014
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "5820de928ee926688e108869de4597fc13cce5273984b202e090408f8c2330e8",
+      "bytes": 56947
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "084ceeb3ecc1df48de09875df5f1f730a30cec3834cd43e1863630c49ea3222e",
+      "bytes": 600
+    },
+    {
+      "path": "docs/validation/STROKES.md",
+      "sha256": "3586c07274a84bd05e8a36c9eff550280013db475c8e0f86f0890bafd837c85a",
+      "bytes": 2446
+    },
+    {
+      "path": "pattern_stroke.lua",
+      "sha256": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+      "bytes": 11280
+    },
+    {
+      "path": "pattern_stroke_examples.lua",
+      "sha256": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+      "bytes": 12127
+    }
+  ],
+  "unchanged_parent_entries": 401,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41895823211,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

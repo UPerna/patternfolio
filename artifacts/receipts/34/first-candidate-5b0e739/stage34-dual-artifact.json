@@ -1,0 +1,11 @@
+{
+  "revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "run": 42318922466,
+  "job": 128238410517,
+  "artifact_id": 13551983221,
+  "artifact_name": "florilegium-common-dual",
+  "sha256": "a2d458cb19602e3a2904ba7ea8cec55b1ba3c4c9f4ec2704bb81264a196045bb",
+  "archive_bytes": 7119348,
+  "verified_archive_sha256": "a2d458cb19602e3a2904ba7ea8cec55b1ba3c4c9f4ec2704bb81264a196045bb",
+  "safe_extraction": true
+}

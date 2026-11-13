@@ -1,0 +1,24 @@
+{
+  "stage": "33",
+  "status": "passed",
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "actual_ci_screenshots_viewed": {
+    "microgram": "aec5e5402a76884bbd321ac0f4a9e42e9e918246ef49ead071002c03bcb382d4",
+    "partial-packing": "1f4e73a7fd11bd8348bfb42f29ea077a0effad5d314641b3749c6389f7a8f23f"
+  },
+  "observations": [
+    "Micrography text follows the native field with clean visible glyphs; complete status and controls remain legible.",
+    "Adversarial partial mosaic clearly reports1placed/29rejected/16.7percentcoverage; view/style editing preserves partial status."
+  ],
+  "unchanged_editor_and_renderer_source_sha256": {
+    "web/editor.js": "4a3186aa3792eb94c350e5a584c6f9158c5d0dd7a9dc564ce8cd85338fe2ebac",
+    "web/editor.css": "37f24127c5bb5c730cdcd585b809bd506e78b9114d70b408fe2b05b1243fe867",
+    "web/index.html": "bd6f6b2f00787d79c79dd8af9e554fefefdce432fa2d9b06a19d0f4f6dbdd89f",
+    "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+    "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+    "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c"
+  },
+  "reused_evidence": "All44native CLI PDF/SVG exports are byte-identical to visually accepted stage28; source-bound current15editor vector cases independently inspected. This is continuity evidence, not stage35 full per-family export/print visual review.",
+  "limits": "Actual pinned Linux Chromium screenshots and vector checks only; no physical print/Office/mobile-device claim."
+}

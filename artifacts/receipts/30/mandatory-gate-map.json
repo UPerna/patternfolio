@@ -1,0 +1,126 @@
+{
+  "stage": "30",
+  "revision": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "run": 42198761489,
+  "requirements": [
+    {
+      "requirement": "Shared engine, versioned external records, retained semantic identity",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json",
+        "stage30-byte-repair-source-archive.json"
+      ],
+      "observed": "Both native consumers and six original semantic scenes/instances agree; actual external record adapter119 checks and source/output hashes verified. No second geometry engine."
+    },
+    {
+      "requirement": "Safe paths, no shell escape and frozen source inputs",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json",
+        "build-control-utf8-repair.json"
+      ],
+      "observed": "Both native Unicode/space source cases executed;23 retained compiler-pass logs checked against no-shell argument policy; current common/dual input fingerprints verified."
+    },
+    {
+      "requirement": "Actual shipped pages, offsets, floats, spreads, reservations and upright lettering",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json",
+        "stage30-byte-repair-common-native-verification.json",
+        "stage30-byte-repair-visual-review.json"
+      ],
+      "observed": "18 independent physical placements within unchanged0.01cm; protected ink zero; four load orders per engine, discarded-page identity and travelling float verified; actual eight-page combined visual review passed."
+    },
+    {
+      "requirement": "Recipe, renderer, same-path font and generated-scene stale handling",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json"
+      ],
+      "observed": "Native recipe/font/renderer mutations rerendered; same final record bytes retained; changed generated scene rejected and preserved; temporary renderer source restored."
+    },
+    {
+      "requirement": "Included chapters and all relevant list auxiliaries converge or fail within bounds",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json"
+      ],
+      "observed": "Both actual native chapter-churn cases fail after3 passes with stable main aux and changing child aux; toc/lof/lot/out and both chapter auxiliaries verified."
+    },
+    {
+      "requirement": "First pass, old PDF and incomplete output never count as accepted",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json",
+        "empty-output-native-diagnosis.json",
+        "build-control-utf8-repair.json"
+      ],
+      "observed": "Native first-pass and zero-output cases fail in both engines, including seeded valid old PDFs. LuaTeX zero-byte artifact remains rejected. Separate synthetic-compiler fault checks exercise EOF truncation and list-only churn; these are not represented as native TeX runs."
+    },
+    {
+      "requirement": "Complete text, original scene/vector operations and physical coordinates agree",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json"
+      ],
+      "observed": "Native Poppler whole-book letters/reading-order comparison passed; original semantic scenes exact, physical vector differences bounded by2 TeX scaled points; independent pypdf promised micrography/A/I extraction passed."
+    },
+    {
+      "requirement": "Actual paint comparison retains glyphs, clipping and protected content",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json",
+        "raster-oracle-byte-repair.json",
+        "byte-preserved-registration-controls.json"
+      ],
+      "observed": "Eight native comparisons retain0.005 changed-pixel,1px bounds and component limits. Inverse measured-frame registration preserves original page bytes and page crop. Actual stream/page-edge/foreground clipping controls and a small missing glyph are rejected."
+    },
+    {
+      "requirement": "Missing-font diagnostics and visibly painted fallback",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json",
+        "stage30-byte-repair-visual-review.json",
+        "cid-visibility-controls.json"
+      ],
+      "observed": "Both actual native fallbacks have explicit missing-font diagnostics and visibly enlarged A. Original CID font codes preserved during hidden-text filtering; actual hidden CID A and hidden-A/visible-B ASCII controls fail."
+    },
+    {
+      "requirement": "Versioned build evidence and bounded convergence",
+      "status": "passed",
+      "evidence_paths": [
+        "native-dual-verification-stage30-byte-repair.json"
+      ],
+      "observed": "All12 native build cases passed;23 retained final-attempt pass logs independently hash-verified. Completed book comparison saved before later fault cases; failed cases retain failed status with no accepted pass."
+    },
+    {
+      "requirement": "Legacy documents and all standalone exports remain verified",
+      "status": "passed",
+      "evidence_paths": [
+        "stage30-byte-repair-portable-verification.json",
+        "stage30-byte-repair-inherited-native-verification.json"
+      ],
+      "observed": "All four mandatory native jobs passed at revision a9f29b0313668762acfdfa45e28d99ccaabb1bd5, run42198761489. Current artifacts independently verified: seven complete legacy PDFs,22 CLI families,44 unchanged exports,17 CLI core checks,82 planner checks, source-kit hashes and extracted CLI replay. Fresh branch and draft PR2 head match the candidate; no merge/release/deployment occurred."
+    },
+    {
+      "requirement": "Independent publication, current exact-head CI and draft boundary",
+      "status": "passed",
+      "evidence_paths": [
+        "byte-repair-publication.json",
+        "ci-stage30-byte-repair-current.json"
+      ],
+      "observed": "All four mandatory native jobs passed at revision a9f29b0313668762acfdfa45e28d99ccaabb1bd5, run42198761489. Current artifacts independently verified: seven complete legacy PDFs,22 CLI families,44 unchanged exports,17 CLI core checks,82 planner checks, source-kit hashes and extracted CLI replay. Fresh branch and draft PR2 head match the candidate; no merge/release/deployment occurred."
+    },
+    {
+      "requirement": "Hosted/native Windows limitations remain explicit",
+      "status": "passed",
+      "evidence_paths": [
+        "research.json",
+        "stage30-byte-repair-source-archive.json"
+      ],
+      "observed": "XELATEX-PATTERNS.md explicitly records hosted editors and native Windows TeX as untested. Local Windows Lua/protocol/path checks are distinguished from real Linux native TeX integration."
+    }
+  ],
+  "status": "passed",
+  "next_action": "Begin stage31 immediately; continue through39."
+}

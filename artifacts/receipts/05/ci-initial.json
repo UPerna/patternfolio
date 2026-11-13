@@ -1,0 +1,13 @@
+{
+  "head": "ededcd38dcf83a163f0ca2816d12a5e8a9d37e80",
+  "run": 41487649902,
+  "status": "completed",
+  "conclusion": "success",
+  "pdfs": "success",
+  "evidence": [
+    "2026-11-02T17:06:41.3105388Z contractcheck: 61 checks passed; actual floral + graph + tiling examples; semantic-only text/strands/3D/field fixtures",
+    "2026-11-02T17:06:44.5492835Z geometrycheck: 90 analytical/adversarial checks passed; oracle corpus2000 orientations/500 segments/64 cubics/128 bounds, source e7d7b17c0839ae43c1dcc5fae7aad050c5804e2c16677d6d17b4c5fc2053ba23, cache 712c0a78ac033d4e31fe6a40ca9db4697016cc430612cf82cbeed40e7d334b0e",
+    "2026-11-02T17:06:44.9272643Z geometry_oracle: Fraction checks passed; {'orientations': 2000, 'segments': 500, 'cubics': 64, 'bounds': 128} across 1 current-source reports"
+  ],
+  "scope": "Initial90-test publication; a follow-up interval-root oracle extension requires its own exact-head CI before05 passes."
+}

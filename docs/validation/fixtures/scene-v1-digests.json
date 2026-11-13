@@ -1,0 +1,31 @@
+{
+  "profile": "scene-render-v1",
+  "verified_revision": "76cc324cd68f564f924f1e00729a19579eb4a78d",
+  "verified_ci": 41505209725,
+  "fixtures": {
+    "floral": {
+      "pdf_sha256": "c2bc91bfb0e8300b9c7c79beca3dfc6e9ea28ac405c866cd0469a1a63a852a44",
+      "svg_sha256": "58d887f013c87f9bad7a41a3e4ec119c95f2c3c96573d1a1116960efe72f6b98"
+    },
+    "graph": {
+      "pdf_sha256": "7ec18fb114d805772685c6045c85a5159a783b513ebeb792b9f056b9f7acdd43",
+      "svg_sha256": "5fcf8538ef55404e4173be15e39034d76e1d61902513b073fd53b787a9cbf8a0"
+    },
+    "tiling": {
+      "pdf_sha256": "e44f3ab515f6ef349993501cd3e1a0c51e4fee5d9b7f18ca23f0350670c353a0",
+      "svg_sha256": "c2069d5448e35e0d6bdf16da5f7384487cea8d40edfe0854d1997e739407621f"
+    },
+    "clipstress": {
+      "pdf_sha256": "4e75fa27c270bef854abf366243a7756f87d5c7470c87a7f0d35e0237884bece",
+      "svg_sha256": "21a795b9feb943d5415280ce96ccbce5f23c460e4a4d3438397ead3158bf56de"
+    },
+    "mono": {
+      "pdf_sha256": "2b343b829eb8b2af20bec59da2f2e7daa6a3b5ec4a6da68e65a09f92c190d19d",
+      "svg_sha256": "5e92df2ba97b3466e9f78aa810b3d42f9c18ab9b15df6d985dc93a9b89ee75e2"
+    },
+    "text": {
+      "pdf_sha256": "6108f4ef0a855ad13eed51c57f836626f866155c4df126297dce51783eb16ed6",
+      "svg_sha256": "cc5bd6f95dc9d885b9023cadec9bed92233342b9f70026f2b890797339d12d3e"
+    }
+  }
+}

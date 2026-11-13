@@ -1,0 +1,139 @@
+{
+  "stage": "10",
+  "source_digest": "7498a5e6ffdc07295bcfa7a858c0a39a53e868e77507226daf51bf9433040257",
+  "verified_branches": {
+    "closed": 8,
+    "border": 16,
+    "irregular": 20,
+    "botanical": 6
+  },
+  "outputs": 16,
+  "raster": {
+    "closed": {
+      "ink_pixels": [
+        5216,
+        5223
+      ],
+      "ink_bounds": [
+        [
+          54,
+          114,
+          246,
+          306
+        ],
+        [
+          54,
+          114,
+          246,
+          306
+        ]
+      ],
+      "mean_normalized_error": 0.0009774166868393448
+    },
+    "border": {
+      "ink_pixels": [
+        8123,
+        8138
+      ],
+      "ink_bounds": [
+        [
+          40,
+          39,
+          321,
+          321
+        ],
+        [
+          40,
+          39,
+          321,
+          320
+        ]
+      ],
+      "mean_normalized_error": 0.001424604615508755
+    },
+    "irregular": {
+      "ink_pixels": [
+        8667,
+        8638
+      ],
+      "ink_bounds": [
+        [
+          35,
+          77,
+          270,
+          309
+        ],
+        [
+          35,
+          77,
+          270,
+          309
+        ]
+      ],
+      "mean_normalized_error": 0.0014254922133462439
+    },
+    "botanical": {
+      "ink_pixels": [
+        3098,
+        3101
+      ],
+      "ink_bounds": [
+        [
+          105,
+          104,
+          222,
+          305
+        ],
+        [
+          105,
+          104,
+          222,
+          305
+        ]
+      ],
+      "mean_normalized_error": 0.0005865710481723554
+    },
+    "closed-narrow": {
+      "ink_pixels": [
+        4472,
+        4465
+      ],
+      "ink_bounds": [
+        [
+          54,
+          114,
+          246,
+          306
+        ],
+        [
+          54,
+          114,
+          246,
+          306
+        ]
+      ],
+      "mean_normalized_error": 0.0009487109658678286
+    },
+    "closed-cropped": {
+      "ink_pixels": [
+        268,
+        271
+      ],
+      "ink_bounds": [
+        [
+          0,
+          0,
+          102,
+          102
+        ],
+        [
+          0,
+          0,
+          102,
+          102
+        ]
+      ],
+      "mean_normalized_error": 0.0005910245682279063
+    }
+  }
+}

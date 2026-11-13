@@ -1,0 +1,44 @@
+{
+  "stage": "29",
+  "revision": "b2ec1c6cfb2287545da3437bbd1f42df150276c7",
+  "parent": "9201a5731c494d111153d15c9937621529d18a02",
+  "tree": "3bb90b08b081751f022dd33c9fbc06719927efbe",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": "artifacts/receipts/29/diagnostic-native-rejected.json",
+      "sha256": "e8dc685a0ce4d1f0cfb06d402a27120f4a47cfa4ba1716724074d7726126200d",
+      "bytes": 514
+    },
+    {
+      "path": "artifacts/receipts/29/native-positive-9201.json",
+      "sha256": "e1e69550f62f34ebdd8191ef7b6b37469bddc00adf2e0e19833e1bf5ffbdae00",
+      "bytes": 5442
+    },
+    {
+      "path": "artifacts/receipts/29/offset-publication.json",
+      "sha256": "4479bb8474ab5c382ff60cf3a1936318ef56aea310ef28afb3aca4200b2bb5ba",
+      "bytes": 3395
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "50a55e516f9fba5ae02942217d7bf328f81698e94f3ca340f44a4d442a050809",
+      "bytes": 66467
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "700e0c71f0eec3692a4f1dcd74af3a87d1e5770566d884c941dafa5e808965b1",
+      "bytes": 1264
+    },
+    {
+      "path": "tools/pattern_tex_consumer.py",
+      "sha256": "c1398ca0c964d9be61b49d6cfabd237f88c60de2e176aa7b6258754bc36abef9",
+      "bytes": 12041
+    }
+  ],
+  "unchanged_parent_entries": 607,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42057793289,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

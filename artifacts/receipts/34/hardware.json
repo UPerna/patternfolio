@@ -1,0 +1,11 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "architecture": "AMD64",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "reported_processor": "AMD Ryzen 5 PRO 5675U with Radeon Graphics",
+  "logical_processors": 12,
+  "physical_memory_bytes": 15886311424,
+  "available_physical_memory_bytes_at_capture": 2241716224,
+  "methods": "Read-only Windows hardware registry, os.cpu_count and GlobalMemoryStatusEx; WMI unavailable (access denied), no elevation used.",
+  "scope": "Actual available Windows desktop/laptop environment; CPU power/thermal state and competing activity uncontrolled. No other-device performance inference."
+}

@@ -1,0 +1,10 @@
+{
+  "revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "run": 42318922466,
+  "status": "rejected_browser_artifact_path",
+  "native_jobs": "all4passed and actualartifacts reviewed",
+  "browser_core": "22families/34adversarial/13editorworkflows passed and actualartifacts reviewed",
+  "failure": "Performance runner referenced native-artifact/performance instead of native-artifact/build/performance;27performance inputs never reached browser runner.",
+  "repair": "Resolve and verify27actual recipes under build/performance before launching browser tests.",
+  "preservation": "Alloriginalworktrees,canonicalarchive,bundle,artifacts and localcurrent proofs retained; next source candidate uses a new isolated checkout."
+}

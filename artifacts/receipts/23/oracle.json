@@ -1,0 +1,235 @@
+{
+  "geometry": {
+    "directional": {
+      "cells": 330,
+      "passages": 329,
+      "closed_walls": 366,
+      "route_cells": 148,
+      "guide_edges": 0,
+      "preferred_removals": 308,
+      "limited_wall_widths": 15,
+      "ink_clearance_cm": 0.009625000000000022
+    },
+    "unguided": {
+      "cells": 330,
+      "passages": 329,
+      "closed_walls": 366,
+      "route_cells": 68,
+      "guide_edges": 0,
+      "preferred_removals": 167,
+      "limited_wall_widths": 15,
+      "ink_clearance_cm": null
+    },
+    "ribbon": {
+      "cells": 322,
+      "passages": 321,
+      "closed_walls": 358,
+      "route_cells": 128,
+      "guide_edges": 0,
+      "preferred_removals": 299,
+      "limited_wall_widths": 0,
+      "ink_clearance_cm": null
+    },
+    "perspective": {
+      "cells": 280,
+      "passages": 279,
+      "closed_walls": 313,
+      "route_cells": 100,
+      "guide_edges": 0,
+      "preferred_removals": 260,
+      "limited_wall_widths": 7,
+      "ink_clearance_cm": null
+    },
+    "spiral": {
+      "cells": 132,
+      "passages": 131,
+      "closed_walls": 131,
+      "route_cells": 12,
+      "guide_edges": 0,
+      "preferred_removals": 126,
+      "limited_wall_widths": 0,
+      "ink_clearance_cm": null
+    },
+    "vortex": {
+      "cells": 132,
+      "passages": 131,
+      "closed_walls": 131,
+      "route_cells": 24,
+      "guide_edges": 0,
+      "preferred_removals": 131,
+      "limited_wall_widths": 0,
+      "ink_clearance_cm": null
+    },
+    "random": {
+      "cells": 266,
+      "passages": 265,
+      "closed_walls": 298,
+      "route_cells": 32,
+      "guide_edges": 0,
+      "preferred_removals": 0,
+      "limited_wall_widths": 0,
+      "ink_clearance_cm": null
+    },
+    "guided": {
+      "cells": 330,
+      "passages": 329,
+      "closed_walls": 366,
+      "route_cells": 40,
+      "guide_edges": 39,
+      "preferred_removals": 308,
+      "limited_wall_widths": 15,
+      "ink_clearance_cm": 0.009625000000000022
+    },
+    "holed": {
+      "cells": 272,
+      "passages": 271,
+      "closed_walls": 322,
+      "route_cells": 50,
+      "guide_edges": 0,
+      "preferred_removals": 0,
+      "limited_wall_widths": 0,
+      "ink_clearance_cm": 0.21214395328931196
+    },
+    "aperiodic": {
+      "cells": 163,
+      "passages": 162,
+      "closed_walls": 194,
+      "route_cells": 34,
+      "guide_edges": 0,
+      "preferred_removals": 0,
+      "limited_wall_widths": 0,
+      "ink_clearance_cm": 0.16102404816664512
+    }
+  },
+  "renders": {
+    "directional": {
+      "mean_backend_error": 0.015511121722557345,
+      "dark_fraction": 0.11215401731135997,
+      "dimensions": [
+        676,
+        484
+      ],
+      "tone_darkness_bands": [
+        0.09978099135514218,
+        0.06491306507699957,
+        0.044760111470964814
+      ]
+    },
+    "unguided": {
+      "mean_backend_error": 0.014491959432313198,
+      "dark_fraction": 0.13173932710645997,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "ribbon": {
+      "mean_backend_error": 0.017408053576297097,
+      "dark_fraction": 0.1061543351753142,
+      "dimensions": [
+        676,
+        484
+      ],
+      "ribbon_darkness": [
+        0.20028184810836436,
+        0.02766672058065364
+      ]
+    },
+    "perspective": {
+      "mean_backend_error": 0.004713903263882696,
+      "dark_fraction": 0.11320541346765123,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "spiral": {
+      "mean_backend_error": 0.003387768134785823,
+      "dark_fraction": 0.02844271113501883,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "vortex": {
+      "mean_backend_error": 0.003327819056942874,
+      "dark_fraction": 0.03432625067240452,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "random": {
+      "mean_backend_error": 0.004255577481616149,
+      "dark_fraction": 0.06423602621155068,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "guided": {
+      "mean_backend_error": 0.015509815268145174,
+      "dark_fraction": 0.11213262262213311,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "holed": {
+      "mean_backend_error": 0.009506892965346276,
+      "dark_fraction": 0.056995452100347205,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "aperiodic": {
+      "mean_backend_error": 0.004502665167000831,
+      "dark_fraction": 0.046102498899701694,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "directional-solution": {
+      "mean_backend_error": 0.016913406763262792,
+      "dark_fraction": 0.12596276101520856,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "guided-solution": {
+      "mean_backend_error": 0.016335438522809973,
+      "dark_fraction": 0.11597144114626633,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "holed-solution": {
+      "mean_backend_error": 0.010135181674671596,
+      "dark_fraction": 0.06202320406865861,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "aperiodic-solution": {
+      "mean_backend_error": 0.00484885161458588,
+      "dark_fraction": 0.051179153014817354,
+      "dimensions": [
+        676,
+        484
+      ]
+    },
+    "crop": {
+      "mean_backend_error": 0.013745732933734456,
+      "dark_fraction": 0.08155119165549793,
+      "dimensions": [
+        262,
+        262
+      ]
+    }
+  }
+}

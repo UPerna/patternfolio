@@ -1,0 +1,104 @@
+{
+  "stage": "21",
+  "revision": "c4bea46d1d63b472bf9e0de3b35d09f4fae8ebfa",
+  "parent": "340bf32c0a7b7a15adf1f721e3a47d6ff1007249",
+  "tree": "dc1be2e02133e0f21cfe0b770b1944794183efba",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "0b16dada1a27ee61c5b81fea09df293bca0f8725922b29eb719a700f83d1a234",
+      "bytes": 5851
+    },
+    {
+      "path": "Makefile",
+      "sha256": "8007ed7b0a1859f2009d574ef1b7d27f6efc1cb301ae695278e7f45030b302bf",
+      "bytes": 6639
+    },
+    {
+      "path": "artifacts/receipts/20/ci-final.json",
+      "sha256": "00b5632e13fa854b74232c5f1f6b161e25e1e146b73b166b513403b2b7d0a262",
+      "bytes": 5380
+    },
+    {
+      "path": "artifacts/receipts/20/publication.json",
+      "sha256": "5bf97f1ca6c1c8dd2218639e9d6dac8f579456684b04ee100f28c77d36656769",
+      "bytes": 4283
+    },
+    {
+      "path": "artifacts/receipts/21/oracle.json",
+      "sha256": "5228c0b5eca0947b16893cee9d96acd18a52942ff3d841298134c72a18ac1161",
+      "bytes": 2024
+    },
+    {
+      "path": "artifacts/receipts/21/receipt-Lua-5.3.json",
+      "sha256": "8b6f69db0005a89a5be83980a67349184196982ba2eef48edb0133474a52a892",
+      "bytes": 1709
+    },
+    {
+      "path": "artifacts/receipts/21/receipt-Lua-5.4.json",
+      "sha256": "8b6f69db0005a89a5be83980a67349184196982ba2eef48edb0133474a52a892",
+      "bytes": 1709
+    },
+    {
+      "path": "artifacts/receipts/21/source-reference.json",
+      "sha256": "f0860d20299cdc06c68ef024d49ccc52fe75dd3b623cd520ed7fb53f75ad7b48",
+      "bytes": 696
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "dbf4ad6ff06aab65e4e4560f634f62c30080a5c0ad909c6a558466a32bffd856",
+      "bytes": 55476
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "907e4a4ddd93dcd6236391b9a7e019691d395b255052617b55d218b5ccf54f87",
+      "bytes": 508
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "a34ec1cf5256ead8f82010466ece489fb4f63440219ba125fe560c224d6d5d32",
+      "bytes": 31428
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "a2ae72ee202bea378e66bb810c5f5079d6e2a8d5c307086624b3e9003e507bd4",
+      "bytes": 40787
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "f8c3afb9b93684ca020e9219d2d5720d40e4c2c5cbb1f71ad7fed42044f7b488",
+      "bytes": 7129
+    },
+    {
+      "path": "docs/validation/MOSAIC.md",
+      "sha256": "ab1b491dc7b6c57fb352549d3843ec6e6b9a1c6d86e9544a8960204921d4cd73",
+      "bytes": 2318
+    },
+    {
+      "path": "pattern_mosaic.lua",
+      "sha256": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+      "bytes": 8426
+    },
+    {
+      "path": "pattern_mosaic_cpu.lua",
+      "sha256": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+      "bytes": 5619
+    },
+    {
+      "path": "tools/mosaic_oracle.py",
+      "sha256": "4f95dcf0c7032554e66a82cf2ab40b1d96a2d40349d4887e5233fbf1c619ac05",
+      "bytes": 9038
+    },
+    {
+      "path": "tools/mosaiccheck.lua",
+      "sha256": "3980d71cd113717d0c7665503a470a9418fdcaf5951fc8fefffb7222b1653048",
+      "bytes": 5711
+    }
+  ],
+  "unchanged_parent_entries": 379,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41885433200,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

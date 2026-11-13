@@ -1,0 +1,84 @@
+{
+  "actions": {
+    "actions/checkout": {
+      "sha": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "version": "v7.0.1"
+    },
+    "actions/download-artifact": {
+      "sha": "9000827ccba6bdab643e8b6fd33ac0654aef8333",
+      "version": "v8.0.2"
+    },
+    "actions/setup-node": {
+      "sha": "949feb2413d6458794dcd2491c4babbbce0c15c1",
+      "version": "v7.1.0"
+    },
+    "actions/upload-artifact": {
+      "sha": "cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+      "version": "v7.0.2"
+    },
+    "xu-cheng/latex-action": {
+      "sha": "e2f99d4b3685b0da93f97e1b86ad8fab81105098",
+      "version": "v3"
+    }
+  },
+  "native_ci_image": {
+    "action_input": "docker_image, supported by the exact latex-action action.yml; do not also set texlive_version",
+    "origin": "Digest from the actual accepted stage35 native job log, job128280135492, run42331909848. LuaHBTeX1.24.0/TeX Live2026 observed.",
+    "reference": "ghcr.io/xu-cheng/texlive-full@sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7"
+  },
+  "node": {
+    "linux_x64_archive_sha256": "48cc0e21e048790e54c0cf5749c2725005313d652651c40b7a21feb9697aaf75",
+    "local_preflight_node": "24.22.1; not relabeled as24.22.2",
+    "lts": "Krypton",
+    "manifest_sha256": "aec92ae945293821c22aed4c37b97741688254bac353b861fc9fb25b81ce4567",
+    "primary_manifest_url": "https://nodejs.org/dist/v24.22.2/SHASUMS256.txt",
+    "release_date": "2026-10-27",
+    "version": "24.22.2"
+  },
+  "optional_solver_policy": "Ordinary Escher examples use verified cached witnesses. New external optimization is optional and follows the pinned solver/input records in docs/architecture/ESCHERIZATION.md. No undeclared solver process is launched by replay.",
+  "policy": "Preserve tested generator and vendor versions. Pin CI actions and the native TeX image by immutable identity. Record the actual distro QA package versions in current CI receipts. This is not a universal OS lock.",
+  "references": {
+    "actions": "Official release pages and exact tagged README/action.yml, plus Git ref resolution; see the stage37 source-reference receipt.",
+    "native_image": "Accepted stage35 job128280135492/run42331909848 log digest; confirm actual candidate runtime in its own CI.",
+    "runtime_components": "docs/research/SOURCES.md, docs/fonts and web/vendor license notices."
+  },
+  "requirements": {
+    "browser_qa": {
+      "node": "24.22.2",
+      "playwright": "1.62.1",
+      "pypdf": "6.10.0"
+    },
+    "lua_numeric": "Lua5.3 or tested5.4, int64/binary64, named finite comparison tolerances",
+    "native_tex": "TeX Live texlua, LuaLaTeX, XeLaTeX, latexmk and the documented full font/package profile",
+    "python": ">=3.11",
+    "verification": [
+      "Poppler pdfinfo/pdftotext/pdfimages/pdftoppm",
+      "Pillow",
+      "pypdf"
+    ]
+  },
+  "reviewed": "2026-11-07",
+  "schema_version": 1,
+  "vendored_sha256": {
+    "docs/fonts/GUST-FONT-LICENSE.md": "2bd69affc3da00715116f713f57eab9707e96daf3562ad0215987b15b9c16f73",
+    "docs/fonts/LPPL-1.3c.md": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66",
+    "docs/research/licenses/HATVIZ-BSD-3-Clause.txt": "a5690b1ca33c5d13194d9a68b9c276c8ee042dcae671332a4a72d7f6038057eb",
+    "docs/validation/fixtures/micrography-font.json": "13d3de43eed8d22e462ae87d757b58183976bfe4a892a50c68488900df3bef3c",
+    "docs/validation/fixtures/scene-font.json": "938eda59e05dbd5bc756d047aa0c3c57ee86233035842d2fefdcbe859fe5ad37",
+    "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+    "web/vendor/hash-wasm-4.12.0/LICENSE": "c14dea172f72f2714284a0ac2ab1b00b5352a01409d58255a46227ffc541debd",
+    "web/vendor/hash-wasm-4.12.0/SHA256-C-LICENSE.txt": "a26eb88ba874fcfd93eaaeb7cf0ff7a2284f336f795de2fc57aa2880355e053a",
+    "web/vendor/hash-wasm-4.12.0/sha256.js": "ed7f5896b41aba98909ab143264c5b2ae5c81abf2e47f08dd2d1c0d02ce623de",
+    "web/vendor/wasmoon-1.16.0/LICENSE": "9ed9226c0138819a0859cf3c55a3414b4a186a17a4eaf4b5a51ceed7937615ac",
+    "web/vendor/wasmoon-1.16.0/LUA-LICENSE.txt": "b5412fd42e0763f0ee941a527e95f874a57597c26a87bfab41ec65000748c6ae",
+    "web/vendor/wasmoon-1.16.0/glue.wasm.base64": "9c19e278b8a7d9c87a5f952ef55dbd28bdd7ee72d8d7f0742d3bd40edcbec03d",
+    "web/vendor/wasmoon-1.16.0/index.js": "dc2dcf019449008bb224370052473dc760db28b3ba14fc604e1ca3e8646af35d"
+  },
+  "vendored_versions": {
+    "dkjson": "2.11",
+    "font_preparation_optional": "fontTools4.60.1, original source and notices pinned in docs/fonts",
+    "font_source": "Latin Modern Math1.959; renamed bounded derivative resources",
+    "hash-wasm": "4.12.0",
+    "wasmoon": "1.16.0"
+  }
+}

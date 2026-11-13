@@ -1,0 +1,30 @@
+{
+  "stage": "30",
+  "status": "local checks passed; native acceptance unrun",
+  "shared_adapter_checks_per_lua": 42,
+  "shared_adapter_source_digest": "49c15e929cfc4b7fa5a3a537f4071a189dd5f531f36976c5acd5bfddb6b92fdf",
+  "external_record_assertions_per_lua": 119,
+  "external_scope": "includes semantic record behavior, source/output hashes, occupied-file and metadata rollback checks",
+  "lua_versions": [
+    "5.3",
+    "5.4"
+  ],
+  "actual_lua_host_fallback": "passed both versions",
+  "build_control_digest": "2307b7d09ddf4d37a726fa6879873bf8555dd867beab6a7afe09d7862265d87a",
+  "raster_oracle": "Unchanged actual native micrography accepted; removed glyph component rejected despite unchanged ink bounds and 0.0028361344537815125 global ink difference.",
+  "visibility_oracle": "Painted A accepted; hidden A and mixed hidden-A/visible-B rejected.",
+  "python_syntax": "passed",
+  "diff_check": "passed",
+  "native_tex": "unrun; requires exact published CI",
+  "source_snapshot": {
+    "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+    "florilegium-patterns-xetex.def": "41dbed1e03a1b839dadbbd385ac3155e4cf443cc3ab53246b4acf3c62432fda1",
+    "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+    "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+    "tools/build.py": "9d30118b2f7733a34b44484fd5ba4499613472b9259ffb341e67adb78ee29484",
+    "tools/pattern_tex_consumer.py": "43a425df433536b226577d92b7eabf18ebc0403cbfbb7101884238a09b6e13ff",
+    "tools/pattern_dual_tex_consumer.py": "61f13a73a2ed41ca8f8d64427d6ed56dbeb9182e58dcd69ac88360e3924b561f",
+    "tools/tex_build_consumer.py": "b6843059eabb1aa6118c51cc029881ffa87067d9e6ee9493d01920ea6e90d1a4",
+    ".github/workflows/build.yml": "fe060f3895db4e06c3e3ee8c9a8dfe192637a06e97a7b56435a47d18b93c61d8"
+  }
+}

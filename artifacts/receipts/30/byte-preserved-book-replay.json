@@ -1,0 +1,679 @@
+{
+  "source_scenes_and_instances": [
+    "hybrid",
+    "initial",
+    "folio",
+    "divider",
+    "penrose",
+    "micrography"
+  ],
+  "drawing_numeric_differences": [
+    {
+      "path": "page/1/inline/0/0",
+      "absolute_difference": 3.861252722003883e-07
+    },
+    {
+      "path": "page/1/inline/0/1",
+      "absolute_difference": 9.22410375636673e-07
+    },
+    {
+      "path": "page/1/inline/0/2",
+      "absolute_difference": 3.861252722003883e-07
+    },
+    {
+      "path": "page/1/inline/0/3",
+      "absolute_difference": 9.22410375636673e-07
+    },
+    {
+      "path": "page/1/inline/1/0",
+      "absolute_difference": 3.861252722003883e-07
+    },
+    {
+      "path": "page/1/inline/1/1",
+      "absolute_difference": 9.22410375636673e-07
+    },
+    {
+      "path": "page/1/inline/1/2",
+      "absolute_difference": 3.861252722003883e-07
+    },
+    {
+      "path": "page/1/inline/1/3",
+      "absolute_difference": 9.22410375636673e-07
+    },
+    {
+      "path": "page/3/penrose/clip/protected_regions/3/bounds/0",
+      "absolute_difference": 3.861252722003883e-07
+    },
+    {
+      "path": "page/3/penrose/clip/protected_regions/3/bounds/1",
+      "absolute_difference": 3.8612527575310196e-07
+    },
+    {
+      "path": "page/3/penrose/clip/protected_regions/3/bounds/2",
+      "absolute_difference": 3.861252722003883e-07
+    },
+    {
+      "path": "page/3/penrose/clip/protected_regions/3/bounds/3",
+      "absolute_difference": 1.5015982590682597e-07
+    },
+    {
+      "path": "page/3/inline/0/0",
+      "absolute_difference": 1.1798272137042431e-07
+    },
+    {
+      "path": "page/3/inline/0/1",
+      "absolute_difference": 1.5015982590682597e-07
+    },
+    {
+      "path": "page/3/inline/0/2",
+      "absolute_difference": 1.179827204822459e-07
+    },
+    {
+      "path": "page/3/inline/0/3",
+      "absolute_difference": 1.5015982590682597e-07
+    },
+    {
+      "path": "page/4/inline/0/0",
+      "absolute_difference": 1.1798272225860273e-07
+    },
+    {
+      "path": "page/4/inline/0/1",
+      "absolute_difference": 9.22410375636673e-07
+    },
+    {
+      "path": "page/4/inline/0/2",
+      "absolute_difference": 1.1798272225860273e-07
+    },
+    {
+      "path": "page/4/inline/0/3",
+      "absolute_difference": 9.22410375636673e-07
+    },
+    {
+      "path": "page/4/inline/1/0",
+      "absolute_difference": 3.861252722003883e-07
+    },
+    {
+      "path": "page/4/inline/1/1",
+      "absolute_difference": 9.224103747484946e-07
+    },
+    {
+      "path": "page/4/inline/1/2",
+      "absolute_difference": 3.861252722003883e-07
+    },
+    {
+      "path": "page/4/inline/1/3",
+      "absolute_difference": 9.22410375636673e-07
+    }
+  ],
+  "coordinate_tolerance_cm": 1.0725702011553896e-06,
+  "actual_book_raster_checks": [
+    {
+      "name": "actual-page/1/inline/initial",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 2796,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          56,
+          69,
+          143,
+          164
+        ],
+        [
+          56,
+          69,
+          143,
+          164
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 1,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 1,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            97.149,
+            239.738
+          ],
+          "registration_matrix": [
+            2.0,
+            0,
+            0,
+            2.0,
+            -194.298,
+            -479.476
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            113.38582677165354
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "57431ea68962f65c50dae94af1cb57fb78cea33e0d4a6756ccd006222b2104d1",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            97.1485,
+            239.73799999999994
+          ],
+          "registration_matrix": [
+            2.0,
+            0,
+            0,
+            2.0,
+            -194.297,
+            -479.4759999999999
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            113.38582677165354
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "ab1d9e87f2feab01db0b9dc1fd881b2a8c428e35ee8df487d5c861682d925383",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actual-page/1/inline/folio",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 956,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          63,
+          95,
+          121,
+          164
+        ],
+        [
+          63,
+          95,
+          121,
+          164
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            157.159,
+            239.738
+          ],
+          "registration_matrix": [
+            2.0,
+            0,
+            0,
+            2.0,
+            -314.318,
+            -479.476
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            113.38582677165354
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "57431ea68962f65c50dae94af1cb57fb78cea33e0d4a6756ccd006222b2104d1",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            157.1595,
+            239.73799999999994
+          ],
+          "registration_matrix": [
+            2.0,
+            0,
+            0,
+            2.0,
+            -314.319,
+            -479.4759999999999
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            113.38582677165354
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "ab1d9e87f2feab01db0b9dc1fd881b2a8c428e35ee8df487d5c861682d925383",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actual-page/2/background",
+      "changed_colored_pixels": 10,
+      "union_colored_pixels": 68556,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          0,
+          490,
+          840,
+          701
+        ],
+        [
+          0,
+          490,
+          840,
+          701
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      }
+    },
+    {
+      "name": "actual-page/3/background",
+      "changed_colored_pixels": 10,
+      "union_colored_pixels": 72912,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          0,
+          490,
+          840,
+          701
+        ],
+        [
+          0,
+          490,
+          840,
+          701
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      }
+    },
+    {
+      "name": "actual-page/3/inline/hybrid",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 2869,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          99,
+          42,
+          341,
+          288
+        ],
+        [
+          99,
+          42,
+          341,
+          288
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 3,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 3,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.50002,
+            0.0,
+            0.0,
+            0.50002,
+            155.905,
+            275.606
+          ],
+          "registration_matrix": [
+            1.9999200031998718,
+            0,
+            0,
+            1.9999200031998718,
+            -311.79752809887606,
+            -551.1899524019038
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            170.0787401574803,
+            170.0787401574803
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "641892a130070c5772b4f1ab8d24d36632c519e46a74b4d45d49fc87507ab99e",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.50002,
+            0.0,
+            0.0,
+            0.50002,
+            155.90567812,
+            275.60604659999996
+          ],
+          "registration_matrix": [
+            1.9999200031998718,
+            0,
+            0,
+            1.9999200031998718,
+            -311.7988842846286,
+            -551.190045598176
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            170.0787401574803,
+            170.0787401574803
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "03d77393857e5cd3fef9a087d381696cdbf43306a15c95c730388889e83f2fef",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actual-page/4/background",
+      "changed_colored_pixels": 3,
+      "union_colored_pixels": 1125,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          78,
+          535,
+          146,
+          651
+        ],
+        [
+          78,
+          535,
+          146,
+          651
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 1,
+        "minimum_coverage": 1.0
+      }
+    },
+    {
+      "name": "actual-page/4/inline/divider",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 614,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          13,
+          18,
+          213,
+          41
+        ],
+        [
+          13,
+          18,
+          213,
+          41
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 3,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 3,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.75003,
+            0.0,
+            0.0,
+            0.75003,
+            195.591,
+            247.064
+          ],
+          "registration_matrix": [
+            1.333280002133248,
+            0,
+            0,
+            1.333280002133248,
+            -260.7775688972441,
+            -329.4054904470488
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            24.044570962536536
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "6f9ebd45738bbab9c17ce35a4646eb960d0e35abfead4d7c923a393d02127d31",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.75003,
+            0.0,
+            0.0,
+            0.75003,
+            195.59095773,
+            247.06446366999992
+          ],
+          "registration_matrix": [
+            1.333280002133248,
+            0,
+            0,
+            1.333280002133248,
+            -260.77751253949845,
+            -329.4061086489873
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            24.044570962536536
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "494ea62631433f58e1dc64f5a58948494efb447804f472976d46828ce24089b7",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actual-page/4/inline/micrography",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 9520,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          70,
+          7,
+          670,
+          234
+        ],
+        [
+          70,
+          7,
+          670,
+          234
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 655,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 655,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.53847,
+            0.0,
+            0.0,
+            0.53847,
+            121.89000000000001,
+            172.908
+          ],
+          "registration_matrix": [
+            1.8571136739279812,
+            0,
+            0,
+            1.8571136739279812,
+            -226.36358571508165,
+            -321.10981113153935
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            368.503937007874,
+            120.32599116370575
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "6f9ebd45738bbab9c17ce35a4646eb960d0e35abfead4d7c923a393d02127d31",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.53847,
+            0.0,
+            0.0,
+            0.53847,
+            121.8902683,
+            172.90834303999992
+          ],
+          "registration_matrix": [
+            1.8571136739279812,
+            0,
+            0,
+            1.8571136739279812,
+            -226.36408397868033,
+            -321.1104481958139
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            368.503937007874,
+            120.32599116370575
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "494ea62631433f58e1dc64f5a58948494efb447804f472976d46828ce24089b7",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    }
+  ],
+  "complete_extracted_letters_and_reading_order_equal": true,
+  "font_isolation": "Shared inline PDF/font bytes compare exactly. Black native TeX body text is excluded from color raster comparisons; its full extracted letter sequence is compared separately.",
+  "scope": "Replay of byte-verified actual native818c888 books; local text extraction uses pypdf because Windows blocks pdftotext. Native original Poppler text comparison passed before the raster failure; exact-head revised CI must repeat Poppler independently.",
+  "oracle_script_sha256": "dba9fe7876664fc34b8cdad901a3cbdcd108c189c360f9d4a9a97417b68cd8a4"
+}

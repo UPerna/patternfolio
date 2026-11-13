@@ -1,0 +1,118 @@
+e.tex))
+2026-11-05T14:25:07.7704755Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+2026-11-05T14:25:07.7705582Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.te
+2026-11-05T14:25:07.7712795Z x
+2026-11-05T14:25:07.7713780Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
+2026-11-05T14:25:07.7780344Z s.code.tex)
+2026-11-05T14:25:07.7780704Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.te
+2026-11-05T14:25:07.7839520Z x)
+2026-11-05T14:25:07.7839778Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
+2026-11-05T14:25:07.7860593Z kzlibrarytopaths.code.tex)))
+2026-11-05T14:25:07.7938275Z (/opt/texlive/texdir/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+2026-11-05T14:25:07.7983310Z (./florilegium-luatex.def) (./florilegium-patterns.def))
+2026-11-05T14:25:07.7983715Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
+2026-11-05T14:25:07.8058853Z kzlibrarycalc.code.tex)
+2026-11-05T14:25:07.8077041Z (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-luatex.def)
+2026-11-05T14:25:07.8081754Z (./folio-demo.aux)
+2026-11-05T14:25:07.8082295Z *geometry* driver: auto-detecting
+2026-11-05T14:25:07.8082534Z *geometry* detected driver: luatex
+2026-11-05T14:25:07.8100209Z (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+2026-11-05T14:25:07.8100524Z [Loading MPS to PDF converter (version 2006.09.02).]
+2026-11-05T14:25:07.8132772Z ) (/opt/texlive/texdir/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+2026-11-05T14:25:07.8145428Z (/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+2026-11-05T14:25:07.8159615Z (/opt/texlive/texdir/texmf-dist/tex/latex/grfext/grfext.sty
+2026-11-05T14:25:07.8174922Z (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+2026-11-05T14:25:07.8184899Z (/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+2026-11-05T14:25:07.8199890Z (/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+2026-11-05T14:25:07.8221505Z (/opt/texlive/texdir/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+2026-11-05T14:25:07.8253163Z (/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
+2026-11-05T14:25:08.1349577Z (/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+2026-11-05T14:25:08.1349984Z florilegium: grew 4086 cells, 12 motifs, 1457 stem points, 750 KB; visitors: 1 
+2026-11-05T14:25:08.4427080Z snail [14{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+2026-11-05T14:25:08.4427452Z florilegium: grew 4464 cells, 12 motifs, 292 stem points, 701 KB; visitors: 1 s
+2026-11-05T14:25:08.8011977Z nail [15] (/opt/texlive/texdir/texmf-dist/tex/latex/lm/t1lmtt.fd)
+2026-11-05T14:25:08.8012428Z florilegium: grew 4528 cells, 23 motifs, 413 stem points, 1551 KB; visitors: no
+2026-11-05T14:25:09.2506335Z ne [38]
+2026-11-05T14:25:09.2506713Z florilegium: grew 4528 cells, 23 motifs, 412 stem points, 1549 KB; visitors: no
+2026-11-05T14:25:09.4422228Z ne [39] (./folio-demo.aux))
+2026-11-05T14:25:09.4422552Z  418 words of node memory still in use:
+2026-11-05T14:25:09.4423005Z    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 49 glue_spec
+2026-11-05T14:25:09.4423433Z , 5 attribute_list, 2 write nodes
+2026-11-05T14:25:09.4423708Z    avail lists: 2:250,3:151,4:14,5:180,6:24,7:2782,9:152,10:6,11:186
+2026-11-05T14:25:09.4429029Z {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</opt/texlive/texd
+2026-11-05T14:25:09.4448202Z ir/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></opt/texlive/texdir/texmf-dist/
+2026-11-05T14:25:09.4468617Z fonts/type1/public/lm/lmr10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/pub
+2026-11-05T14:25:09.4486770Z lic/lm/lmr9.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/lm/lmri10.pf
+2026-11-05T14:25:09.4530665Z b></opt/texlive/texdir/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+2026-11-05T14:25:09.4531117Z Output written on folio-demo.pdf (4 pages, 1100808 bytes).
+2026-11-05T14:25:09.4591582Z Transcript written on folio-demo.log.
+2026-11-05T14:25:09.5144134Z Latexmk: Getting log file 'folio-demo.log'
+2026-11-05T14:25:09.5152933Z Latexmk: Examining 'folio-demo.fls'
+2026-11-05T14:25:09.5179260Z Latexmk: Examining 'folio-demo.log'
+2026-11-05T14:25:09.5464459Z Latexmk: Log file says output to 'folio-demo.pdf'
+2026-11-05T14:25:09.5540301Z Latexmk: All targets (folio-demo.pdf) are up-to-date
+2026-11-05T14:25:09.5541246Z 
+2026-11-05T14:25:09.5568602Z [1;34mRun post compile commands[0m
+2026-11-05T14:25:38.7604188Z Shared TeX adapter checks	35	ec3712ba10c5fad9da84842e5a3dc3fd88dcd51e83460f5a9176819fb0d507de
+2026-11-05T14:25:39.9770501Z LuaLaTeX host fallback lookup/declaration regression passed
+2026-11-05T14:26:39.3224349Z Traceback (most recent call last):
+2026-11-05T14:26:39.3228047Z   File "/home/runner/work/florilegium/florilegium/tools/pattern_tex_consumer.py", line 141, in <module>
+2026-11-05T14:26:39.3230788Z     if __name__=='__main__':main()
+2026-11-05T14:26:39.3231373Z                             ~~~~^^
+2026-11-05T14:26:39.3231930Z   File "/home/runner/work/florilegium/florilegium/tools/pattern_tex_consumer.py", line 53, in main
+2026-11-05T14:26:39.3232445Z     measured.append(placement(found,book/(output['prefix']+'.pdf'),output['crop']))
+2026-11-05T14:26:39.3232932Z                     ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-05T14:26:39.3233541Z   File "/home/runner/work/florilegium/florilegium/tools/pattern_tex_pdf.py", line 68, in placement
+2026-11-05T14:26:39.3234207Z     assert error<=tolerance,(source.name,row['bounds_cm'],expected,error)
+2026-11-05T14:26:39.3234553Z            ^^^^^^^^^^^^^^^^
+2026-11-05T14:26:39.3235932Z AssertionError: ('florilegium-pattern-9fb2c35607dc02760182e2dc99798c843d241c0919abbcef5d337c7e23b8a693.pdf', [0.3000022222222222, 8.849995, 15.10000211328028, 12.549994972773334], [0, 8.650000005172828, 14.799999891053893, 12.349999977936303], 0.30000222222638584)
+2026-11-05T14:26:39.4617484Z ##[error]Process completed with exit code 1.
+2026-11-05T14:26:39.4628163Z ##[end-action id=__xu-cheng_latex-action.__run;outcome=failure;conclusion=failure;duration_ms=150467]
+2026-11-05T14:26:39.4675220Z ##[group]Run for folder in build/pattern-tex build/pattern-luatex-host build/pattern-luatex; do
+2026-11-05T14:26:39.4675614Z [36;1mfor folder in build/pattern-tex build/pattern-luatex-host build/pattern-luatex; do[0m
+2026-11-05T14:26:39.4675902Z [36;1m  if [ -d "$folder" ]; then sudo chmod -R a+rX "$folder"; fi[0m
+2026-11-05T14:26:39.4676091Z [36;1mdone[0m
+2026-11-05T14:26:39.4693221Z shell: /usr/bin/bash -e {0}
+2026-11-05T14:26:39.4693364Z ##[endgroup]
+2026-11-05T14:26:39.4942128Z ##[group]Run actions/upload-artifact@v4
+2026-11-05T14:26:39.4942283Z with:
+2026-11-05T14:26:39.4942404Z   name: florilegium-common-luatex
+2026-11-05T14:26:39.4942615Z   path: build/pattern-tex/
+build/pattern-luatex-host/
+build/pattern-luatex/
+
+2026-11-05T14:26:39.4942835Z   if-no-files-found: warn
+2026-11-05T14:26:39.4942965Z   compression-level: 6
+2026-11-05T14:26:39.4943251Z   overwrite: false
+2026-11-05T14:26:39.4943442Z   include-hidden-files: false
+2026-11-05T14:26:39.4943583Z ##[endgroup]
+2026-11-05T14:26:39.6072210Z (node:2390) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-05T14:26:39.6072858Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-05T14:26:39.6252327Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-11-05T14:26:39.6254504Z The least common ancestor is /home/runner/work/florilegium/florilegium/build. This will be the root directory of the artifact
+2026-11-05T14:26:39.6255094Z With the provided path, there will be 86 files uploaded
+2026-11-05T14:26:39.6259183Z Artifact name is valid!
+2026-11-05T14:26:39.6259697Z Root directory input is valid!
+2026-11-05T14:26:39.9309682Z Beginning upload of artifact content to blob storage
+2026-11-05T14:26:40.0795184Z (node:2390) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-05T14:26:40.4733622Z Uploaded bytes 1323700
+2026-11-05T14:26:40.5203706Z Finished uploading artifact content to blob storage!
+2026-11-05T14:26:40.5204557Z SHA256 digest of uploaded artifact zip is 266dd1631d11ad11af290b9adc2bceaedf80b1ced2004040e2e916f966b10a86
+2026-11-05T14:26:40.5205611Z Finalizing artifact upload
+2026-11-05T14:26:41.3745698Z Artifact florilegium-common-luatex.zip successfully finalized. Artifact ID 13424252638
+2026-11-05T14:26:41.3746179Z Artifact florilegium-common-luatex has been successfully uploaded! Final size is 1323700 bytes. Artifact ID is 13424252638
+2026-11-05T14:26:41.3750900Z Artifact download URL: https://github.com/UPerna/florilegium/actions/runs/42044636324/artifacts/13424252638
+2026-11-05T14:26:41.3942151Z Post job cleanup.
+2026-11-05T14:26:41.4486501Z [command]/usr/bin/git version
+2026-11-05T14:26:41.4547832Z git version 2.56.0
+2026-11-05T14:26:41.4570464Z Temporarily overriding HOME='/home/runner/work/_temp/a8178f46-88c7-47fa-bb94-9c3678b49bbf' before making global git config changes
+2026-11-05T14:26:41.4571325Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-05T14:26:41.4573832Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/florilegium/florilegium
+2026-11-05T14:26:41.4604233Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-05T14:26:41.4630997Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-05T14:26:41.4827894Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-05T14:26:41.4852304Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-05T14:26:41.5057123Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-05T14:26:41.5096382Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-05T14:26:41.5401963Z Cleaning up orphan processes
+2026-11-05T14:26:41.5687708Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

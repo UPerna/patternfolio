@@ -1,0 +1,8 @@
+{
+  "revision": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "file": "Florilegium_Stage30_Byte_Repair_Publication.bundle",
+  "sha256": "7b23dfdad1bb80b4eb07d3a36ced353f940d1befad1a6438f28c9d84d581bd8b",
+  "bytes": 28384585,
+  "git_bundle_verify": "passed; complete history",
+  "bundle_ref": "refs/heads/pattern-platform-checkpoint"
+}

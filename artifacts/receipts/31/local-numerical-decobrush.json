@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "family": "decobrush",
+  "comparison": {
+    "numeric_values_compared": 7431,
+    "roundoff_differences": 14,
+    "maximum_absolute_difference": 1.1102230246251565e-16,
+    "maximum_fraction_of_roundoff_bound": 0.015625,
+    "bound": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b))); integer identities/text/order/topology/non-geometric fields exact"
+  },
+  "controlled_corruptions_detected": [
+    "drift",
+    "topology",
+    "text",
+    "ordering"
+  ],
+  "files": {
+    "actual": {
+      "instance.json": "2c88b90860a30e68d14a249e29e45968c58ef7337f8f8582591d9f33bab88b6a",
+      "pattern.svg": "e9227f8d6c0c53cfe9a5a71788f33cba766f92f649e7151fd52a75e84376e492",
+      "pattern.pdf": "69ffac10e5634b1800d21ccffb2a439a4ca0a85bd6d5a27f90e34573747fcb71"
+    },
+    "native": {
+      "instance.json": "857b7b33b0407f0276ff695d44fe1be8bc16b8cd8c00f54f587c565a3820d077",
+      "pattern.svg": "a976a1a77a77d5a919b0f3bd322e01dd037d5aa52566dd9cae626c7625b78b04",
+      "pattern.pdf": "967c6ae83984f8f1b703fdc0334ebd8f4827c877346557bf09e5670d663f5b16"
+    }
+  }
+}

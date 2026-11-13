@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "Repaired cache source kit; every manifest file and all rebuilt browser assets exact; final native CI still pending",
+  "source_zip_sha256": "c541428fd03189d3ba2f5bcd6b4bad0cbf4d97f5ac010308c0548eacfbc93899",
+  "browser_files": {
+    "assets.json": "3a26590660be5b2b63a3fdf665f7877029a880ee417767647bf72feefc8d02e1",
+    "bundle.json": "e5f9328ae9bbecc0afc9fb908c9bd62b2fb892c3c91e669faa8198e2f907be93",
+    "cache.js": "deb688790ce9e59ef561026a069c37f9ef521660a26e1bd20a7115f45900f1ed",
+    "client.js": "05f29f0268696e3944b12fb927c371b9e4d7f23f3af1f46f9e96a553888f8b00",
+    "index.html": "0d618d4968b839f896ecfd0d6d4e83d968459e77a58c211499144f12a221f77a",
+    "runtime.wasm": "95f3f19ddb740125883bc41d5ec670cd0828e7b58c8bdad385323cbff497b55c",
+    "sha256.js": "ed7f5896b41aba98909ab143264c5b2ae5c81abf2e47f08dd2d1c0d02ce623de",
+    "wasmoon.js": "dc2dcf019449008bb224370052473dc760db28b3ba14fc604e1ca3e8646af35d",
+    "worker.js": "ff19cf5aa9a4c25744cc93cbb972b7e3540659272cd46c8f5a725472c84d3b2c",
+    "licenses/hash-wasm-MIT.txt": "c14dea172f72f2714284a0ac2ab1b00b5352a01409d58255a46227ffc541debd",
+    "licenses/LICENSE": "9ed9226c0138819a0859cf3c55a3414b4a186a17a4eaf4b5a51ceed7937615ac",
+    "licenses/LUA-LICENSE.txt": "b5412fd42e0763f0ee941a527e95f874a57597c26a87bfab41ec65000748c6ae",
+    "licenses/SHA256-C-LICENSE.txt": "a26eb88ba874fcfd93eaaeb7cf0ff7a2284f336f795de2fc57aa2880355e053a"
+  },
+  "source_digest": "b1d53687559ff3503bc5ff5411d9e0b8a7c6807cdc13149819c24887e85ae901"
+}

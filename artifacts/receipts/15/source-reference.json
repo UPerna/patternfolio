@@ -1,0 +1,25 @@
+{
+  "stage": "15",
+  "source": "R15",
+  "primary": "https://escholarship.org/uc/item/4xn41982",
+  "authors": [
+    "David Smith",
+    "Joseph Samuel Myers",
+    "Craig S. Kaplan",
+    "Chaim Goodman-Strauss"
+  ],
+  "paper_license": "CC BY 4.0",
+  "primary_sha256": "1a1c2123c63f7fe25efb0107ef5a3d1a8ad9d32b1e67a7d597b4723456c01be0",
+  "sections": [
+    "2 and Lemma 2.1",
+    "2.2",
+    "4",
+    "5",
+    "Figures 2.1, 2.2, 5.1, and 5.3"
+  ],
+  "reference_app": "https://cs.uwaterloo.ca/~csk/spectre/app.html",
+  "reference_js_sha256": "d4d7758f268e2e5f3f56deb771f6f783e519f5351b46f8e6e05c0f629d2f6df1",
+  "reference_retrieval": "2026-11-04",
+  "reference_js_reuse_license": "unverified; no code or artwork redistributed",
+  "comparison": "Five original hierarchy-coordinate hashes compared to author reference privately and independently reconstructed."
+}

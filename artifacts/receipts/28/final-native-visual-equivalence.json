@@ -1,0 +1,8 @@
+{
+  "revision": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+  "run": 42026815106,
+  "compared_run": 42025446905,
+  "export_files_compared_byte_for_byte": 44,
+  "reused_review_images": 44,
+  "review": "Both native contact sheets were visually inspected. The final run exports have exactly the same bytes as the reviewed superseded run; no raster was reused across differing source output bytes."
+}

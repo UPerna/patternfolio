@@ -1,0 +1,10 @@
+{
+  "sha256": "da6dee9f86aeaa00a77599ca9954ac92cfc524bfe1950562f14300434ccb0af6",
+  "revision": "b4b6bed11e73298191f844574b41d4bc56935e39",
+  "run": 42254490411,
+  "job": 128017952467,
+  "artifact_id": 13523071392,
+  "archive_bytes": 7119596,
+  "verified_archive_sha256": "da6dee9f86aeaa00a77599ca9954ac92cfc524bfe1950562f14300434ccb0af6",
+  "safe_extraction": true
+}

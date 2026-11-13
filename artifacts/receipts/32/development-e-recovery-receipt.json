@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+  "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+  "claims": [
+    "Undo/redo keeps validated instances",
+    "Refresh preserves unapplied draft, history and accepted instance",
+    "Portable workspace output bytes checked against native replay",
+    "Forged vector with matching attacker digest rejected by native replay",
+    "Malformed import preserves previous work",
+    "New edit supersedes running generation and delayed recipe import",
+    "Fresh native worker renders while network is offline",
+    "Keyboard navigation and 390px responsive layout"
+  ],
+  "vector_structure": {
+    "paths": 13,
+    "texts": 0,
+    "rasters": 0,
+    "width": "3.2000000000000002cm",
+    "height": "2.7999999999999998cm",
+    "viewbox": "0 0 3.2000000000000002 2.7999999999999998",
+    "semantic_refs": 11,
+    "clips": 2
+  },
+  "assets_sha256": {
+    "instance.json": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+    "pattern.pdf": "fdffd10f5453f882adcac0564f128c95615e9c2fbe26780b0d905ff8cf4589e2",
+    "pattern.svg": "ec34da313a4f99a7e95e8197a015aea7de975e7115db473a161bfa39d8f826b9",
+    "recipe.json": "589991dbbf93cf300221a81e825268f24a4a964a34221bb9fbe91798ee103ec3",
+    "record.json": "74216ceda8782acac4e80a4fb144cdf4c218745537211d0a78af592964b67ced",
+    "scene.json": "5eb6bf6493c01201ef268b0d15bdfa9a653dd3f9f812892865f7eacb0759baba",
+    "view.json": "e56510429f77a4740571ac1285220ea13cd05f9f1082b8243e4bb92320710fcf"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "stage": "19",
+  "source_digest": "b3605c6a22dbfaeff9b4fc1152b0a37dd107bc77426bd3eacee705f91550b45b",
+  "native_checks": 17,
+  "native_output_hashes": 36,
+  "native_local_differences": [
+    "edited.instance",
+    "edited.pdf",
+    "edited.svg",
+    "join-detail-diagnostic.pdf",
+    "join-detail-diagnostic.svg",
+    "narrow-diagnostic.pdf",
+    "narrow-diagnostic.scene",
+    "narrow-diagnostic.svg",
+    "narrow.instance",
+    "narrow.pdf",
+    "narrow.scene",
+    "narrow.svg",
+    "rose-diagnostic.pdf",
+    "rose-diagnostic.scene",
+    "rose-diagnostic.svg",
+    "rose.instance",
+    "rose.pdf",
+    "rose.scene",
+    "rose.svg",
+    "rosette-diagnostic.pdf",
+    "rosette-diagnostic.scene",
+    "rosette-diagnostic.svg",
+    "rosette.instance"
+  ],
+  "kit_hashes": 365,
+  "oracle": {
+    "geometry": {
+      "prototype": {
+        "vertices": 9,
+        "edges": 11,
+        "arcs": 6,
+        "contacts": 0,
+        "contact_max_residual": 0,
+        "foil_rings": 0,
+        "noncrossing_bands": 3,
+        "max_cubic_relative_radial_error": 3.537376964679595e-07
+      },
+      "rosette": {
+        "vertices": 25,
+        "edges": 36,
+        "arcs": 29,
+        "contacts": 4,
+        "contact_max_residual": 4.884981308350689e-15,
+        "foil_rings": 1,
+        "noncrossing_bands": 4,
+        "max_cubic_relative_radial_error": 3.5223703919210604e-06
+      },
+      "narrow": {
+        "vertices": 23,
+        "edges": 33,
+        "arcs": 26,
+        "contacts": 4,
+        "contact_max_residual": 1.3322676295501878e-15,
+        "foil_rings": 1,
+        "noncrossing_bands": 4,
+        "max_cubic_relative_radial_error": 4.029935912119409e-06
+      },
+      "rose": {
+        "vertices": 42,
+        "edges": 54,
+        "arcs": 54,
+        "contacts": 0,
+        "contact_max_residual": 0,
+        "foil_rings": 7,
+        "noncrossing_bands": 1,
+        "max_cubic_relative_radial_error": 1.9876987770728327e-06
+      },
+      "edited": {
+        "vertices": 25,
+        "edges": 36,
+        "arcs": 29,
+        "contacts": 4,
+        "contact_max_residual": 5.329070518200751e-15,
+        "foil_rings": 1
+      }
+    },
+    "renders": {
+      "prototype": {
+        "mean_backend_error": 0.0006417388660890712,
+        "size": [
+          430,
+          630
+        ],
+        "left_jamb_pixels_at_127dpi": [
+          6,
+          6
+        ]
+      },
+      "prototype-diagnostic": {
+        "mean_backend_error": 0.0026243675764879596,
+        "size": [
+          430,
+          630
+        ]
+      },
+      "rosette": {
+        "mean_backend_error": 0.0010559368087038777,
+        "size": [
+          430,
+          605
+        ]
+      },
+      "rosette-diagnostic": {
+        "mean_backend_error": 0.0029245872479301154,
+        "size": [
+          430,
+          605
+        ]
+      },
+      "narrow": {
+        "mean_backend_error": 0.0014084898520811834,
+        "size": [
+          250,
+          380
+        ]
+      },
+      "narrow-diagnostic": {
+        "mean_backend_error": 0.005398844169246647,
+        "size": [
+          250,
+          380
+        ]
+      },
+      "rose": {
+        "mean_backend_error": 0.0026615199171429885,
+        "size": [
+          430,
+          430
+        ]
+      },
+      "rose-diagnostic": {
+        "mean_backend_error": 0.002730244576648038,
+        "size": [
+          430,
+          430
+        ]
+      },
+      "edited": {
+        "mean_backend_error": 0.0013950121787455452,
+        "size": [
+          430,
+          605
+        ]
+      },
+      "join-detail": {
+        "mean_backend_error": 0.0011273856209150326,
+        "size": [
+          200,
+          200
+        ]
+      },
+      "join-detail-diagnostic": {
+        "mean_backend_error": 0.0014346405228758171,
+        "size": [
+          200,
+          200
+        ],
+        "centered_tangent_marker_pixels": [
+          96,
+          96
+        ]
+      }
+    }
+  },
+  "visual_review": "Accepted eleven native PDF/SVG pairs including paired bays, tangent rosettes, the recursive rose and the centered tangent detail.",
+  "revision": "890657c64fd2a458dbae463b8a1c1b3c4ed256ec",
+  "tree": "cad3fcde083cc6d1b2a9a90c068fd516268c29ee",
+  "run": 41871687021,
+  "jobs": {
+    "portable": {
+      "id": 126720169128,
+      "conclusion": "success"
+    },
+    "pdfs": {
+      "id": 126720168090,
+      "conclusion": "success"
+    }
+  },
+  "difference_analysis": {
+    "analysis": "Categorical JSON, graph, path command and SVG attributes agree. Checked all differing numeric values with physical bounds.",
+    "files": {
+      "edited.instance": {
+        "numeric_entries": 8,
+        "maximum_absolute_delta": 1.7763568394002505e-15
+      },
+      "edited.pdf": {
+        "numeric_entries": 6,
+        "maximum_absolute_delta": 1.7763568394002505e-15
+      },
+      "edited.svg": {
+        "numeric_entries": 6,
+        "maximum_absolute_delta": 1.7763568394002505e-15
+      },
+      "join-detail-diagnostic.pdf": {
+        "numeric_entries": 10,
+        "maximum_absolute_delta": 1.7763568394002505e-15
+      },
+      "join-detail-diagnostic.svg": {
+        "numeric_entries": 10,
+        "maximum_absolute_delta": 1.7763568394002505e-15
+      },
+      "narrow-diagnostic.pdf": {
+        "numeric_entries": 51,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "narrow-diagnostic.scene": {
+        "numeric_entries": 51,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "narrow-diagnostic.svg": {
+        "numeric_entries": 51,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "narrow.instance": {
+        "numeric_entries": 21,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "narrow.pdf": {
+        "numeric_entries": 49,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "narrow.scene": {
+        "numeric_entries": 49,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "narrow.svg": {
+        "numeric_entries": 49,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "rose-diagnostic.pdf": {
+        "numeric_entries": 12,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "rose-diagnostic.scene": {
+        "numeric_entries": 12,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "rose-diagnostic.svg": {
+        "numeric_entries": 12,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "rose.instance": {
+        "numeric_entries": 1,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "rose.pdf": {
+        "numeric_entries": 18,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "rose.scene": {
+        "numeric_entries": 18,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "rose.svg": {
+        "numeric_entries": 18,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "rosette-diagnostic.pdf": {
+        "numeric_entries": 10,
+        "maximum_absolute_delta": 1.7763568394002505e-15
+      },
+      "rosette-diagnostic.scene": {
+        "numeric_entries": 10,
+        "maximum_absolute_delta": 1.7763568394002505e-15
+      },
+      "rosette-diagnostic.svg": {
+        "numeric_entries": 10,
+        "maximum_absolute_delta": 1.7763568394002505e-15
+      },
+      "rosette.instance": {
+        "numeric_entries": 6,
+        "maximum_absolute_delta": 4.440892098500626e-16
+      }
+    },
+    "pdf_raster_cross_host": {
+      "edited-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "join-detail-diagnostic-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "join-detail-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "narrow-diagnostic-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "narrow-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "prototype-diagnostic-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "prototype-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "rose-diagnostic-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "rose-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "rosette-diagnostic-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "rosette-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      }
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "b107fcffcb97138598038e01d3f40b56625815c3442595506e80b0df1e331bde",
+    "portable": "d9647ca788d830dfea29f18b81d6661b410bf9c016d7ecd8e4084e7f4b9a2c3c"
+  }
+}

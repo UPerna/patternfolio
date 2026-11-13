@@ -1,0 +1,9 @@
+{
+  "scope": "Independent parser smoke on accepted prior native asset-demo.pdf, not the unrun new book",
+  "run": 42026815106,
+  "imported_forms": 8,
+  "asset": "examples/assets/leaf.pdf",
+  "measured_width_cm": 4.500306875458333,
+  "requested_width_cm": 4.5,
+  "tolerance_cm": 0.01
+}

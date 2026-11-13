@@ -1,0 +1,12 @@
+{
+  "stage": "25",
+  "revision": "f2b4ff790c8919a97b60e1d47d9604e46b3ccdce",
+  "parent": "27eef521f814e71a49ce38a5b333c29e2bb9e3be",
+  "tree": "44636a28f03ff502841a3a7e0bed98d6654ee327",
+  "ci_run": 41919421379,
+  "route": "Independent GitHub commit and full tree readback, exact Git-object reconstruction and local bundle verification",
+  "ordinary_git_fetch": "Succeeded after network permission was restored. Tracking ref and tree matched exact reconstruction.",
+  "verified_files": 27,
+  "unchanged_parent_entries": 431,
+  "bundle_sha256": "5e8a05785b924820a997a52ccb7dc90993f98b6237bf62cd1a6406549ca68be5"
+}

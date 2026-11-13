@@ -1,0 +1,20 @@
+{
+  "revision": "818c88890f4fb2c33deb308eeebfc949c6e14870",
+  "run": 42195933816,
+  "job": 127819066990,
+  "native_failure": "Visibility oracle failed on an actually painted native LuaTeX initial after ten earlier native build cases completed. Xe fallback case remained unrun.",
+  "source_pdf_sha256": "ac18c2e489db88e939e104af7652a790006c2d7997bc3aac651b9d776e5b5ff8",
+  "old_helper_sha256": "a3da4c889a21772c29300fee99b9c886178c901b36d7a6c815248612371cc80b",
+  "old_failure_reproduced": "Fallback has a searchable label but no visible enlarged initial",
+  "new_painted_initial": [
+    {
+      "text": "A",
+      "effective_size_pt": 61.161742850399996,
+      "visibility": "painted text operators only"
+    }
+  ],
+  "cause": "Filtering ContentStream operations reserialized autodetected TextStringObject CID bytes: original 00 1B became 1B, losing font decoding. Preserve original_bytes as ByteStringObject for retained text-show operands. No production renderer change.",
+  "actual_rendered_png_sha256": "590373d91712eff2646a62e620b116cecba65ed2be0cff31aff280c92ca0c23e",
+  "visual_review": "Actual native PDF raster inspected: a large bold A is visibly painted beside lphabet.",
+  "registration_repair": "Wrap original decoded page bytes rather than reserialize text operators; retain original CropBox as an explicit clip and verify written page bytes exactly. All original placement/raster/component bounds remain unchanged."
+}

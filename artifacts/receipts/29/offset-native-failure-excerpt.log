@@ -1,0 +1,129 @@
+mf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+2026-11-05T15:27:06.3997680Z (/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+2026-11-05T15:27:06.4021654Z (/opt/texlive/texdir/texmf-dist/tex/latex/grfext/grfext.sty
+2026-11-05T15:27:06.4035761Z (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+2026-11-05T15:27:06.4047013Z (/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+2026-11-05T15:27:06.4063145Z (/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+2026-11-05T15:27:06.4086039Z (/opt/texlive/texdir/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+2026-11-05T15:27:06.4119551Z (/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
+2026-11-05T15:27:06.7454113Z (/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+2026-11-05T15:27:06.7454697Z florilegium: grew 4086 cells, 12 motifs, 1457 stem points, 750 KB; visitors: 1 
+2026-11-05T15:27:07.0750850Z snail [14{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+2026-11-05T15:27:07.0751490Z florilegium: grew 4464 cells, 12 motifs, 292 stem points, 701 KB; visitors: 1 s
+2026-11-05T15:27:07.4711653Z nail [15] (/opt/texlive/texdir/texmf-dist/tex/latex/lm/t1lmtt.fd)
+2026-11-05T15:27:07.4712128Z florilegium: grew 4528 cells, 23 motifs, 413 stem points, 1551 KB; visitors: no
+2026-11-05T15:27:07.9533184Z ne [38]
+2026-11-05T15:27:07.9533512Z florilegium: grew 4528 cells, 23 motifs, 412 stem points, 1549 KB; visitors: no
+2026-11-05T15:27:08.1503548Z ne [39] (./folio-demo.aux))
+2026-11-05T15:27:08.1512451Z  418 words of node memory still in use:
+2026-11-05T15:27:08.1512854Z    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 49 glue_spec
+2026-11-05T15:27:08.1513240Z , 5 attribute_list, 2 write nodes
+2026-11-05T15:27:08.1513545Z    avail lists: 2:250,3:151,4:14,5:180,6:24,7:2782,9:152,10:6,11:186
+2026-11-05T15:27:08.1513994Z {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</opt/texlive/texd
+2026-11-05T15:27:08.1531633Z ir/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></opt/texlive/texdir/texmf-dist/
+2026-11-05T15:27:08.1554929Z fonts/type1/public/lm/lmr10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/pub
+2026-11-05T15:27:08.1574081Z lic/lm/lmr9.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/lm/lmri10.pf
+2026-11-05T15:27:08.1620249Z b></opt/texlive/texdir/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+2026-11-05T15:27:08.1620789Z Output written on folio-demo.pdf (4 pages, 1100808 bytes).
+2026-11-05T15:27:08.1688847Z Transcript written on folio-demo.log.
+2026-11-05T15:27:08.2373933Z Latexmk: Getting log file 'folio-demo.log'
+2026-11-05T15:27:08.2382737Z Latexmk: Examining 'folio-demo.fls'
+2026-11-05T15:27:08.2415305Z Latexmk: Examining 'folio-demo.log'
+2026-11-05T15:27:08.2705943Z Latexmk: Log file says output to 'folio-demo.pdf'
+2026-11-05T15:27:08.2785049Z Latexmk: All targets (folio-demo.pdf) are up-to-date
+2026-11-05T15:27:08.2785939Z 
+2026-11-05T15:27:08.2817596Z [1;34mRun post compile commands[0m
+2026-11-05T15:27:39.1017098Z Shared TeX adapter checks	35	7669cbeaf5ef3882cff0153e7a90790ea63e0bcc84e40fb32e641bc47048df46
+2026-11-05T15:27:40.4282789Z LuaLaTeX host fallback lookup/declaration regression passed
+2026-11-05T15:29:05.7418188Z Traceback (most recent call last):
+2026-11-05T15:29:05.7420482Z   File "/home/runner/work/florilegium/florilegium/tools/pattern_tex_consumer.py", line 117, in main
+2026-11-05T15:29:05.7421064Z     try:build(path,output_dir=case/'out')
+2026-11-05T15:29:05.7421324Z         ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-05T15:29:05.7421708Z   File "/home/runner/work/florilegium/florilegium/tools/build.py", line 81, in build
+2026-11-05T15:29:05.7422201Z     raise RuntimeError(f"{executable} failed; see {logfile}\n{tail}")
+2026-11-05T15:29:05.7423198Z RuntimeError: lualatex failed; see /home/runner/work/florilegium/florilegium/build/pattern-luatex/d664aead55ec3531f4b32c9d08220e031f4f5fc4f115a1022c9d78cdf4e6ae63/unknown-asset/out/source.pass-1.log
+2026-11-05T15:29:05.7425860Z (/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))/home/r
+2026-11-05T15:29:05.7426376Z unner/work/florilegium/florilegium/pattern_tex.lua:6: pattern-tex: unknown asse
+2026-11-05T15:29:05.7427017Z t missing
+2026-11-05T15:29:05.7427176Z stack traceback:
+2026-11-05T15:29:05.7427355Z 	[C]: in function 'assert'
+2026-11-05T15:29:05.7427673Z 	/home/runner/work/florilegium/florilegium/pattern_tex.lua:6: in upvalue 'need'
+2026-11-05T15:29:05.7427946Z 
+2026-11-05T15:29:05.7428132Z 	/home/runner/work/florilegium/florilegium/pattern_tex.lua:71: in method 'asset
+2026-11-05T15:29:05.7428451Z '
+2026-11-05T15:29:05.7428711Z 	/home/runner/work/florilegium/florilegium/pattern_tex.lua:74: in method 'plan'
+2026-11-05T15:29:05.7428974Z 
+2026-11-05T15:29:05.7429179Z 	...e/runner/work/florilegium/florilegium/pattern_luatex.lua:74: in function 'p
+2026-11-05T15:29:05.7429519Z attern_luatex.use'
+2026-11-05T15:29:05.7433154Z 	[\directlua]:1: in main chunk.
+2026-11-05T15:29:05.7433527Z \florilegiumpatterninline code ...expr #1\relax )}
+2026-11-05T15:29:05.7433958Z                                                   
+2026-11-05T15:29:05.7434439Z l.1 ... failure.\florilegiumpatterninline{missing}
+2026-11-05T15:29:05.7434943Z                                                   \end{document}
+2026-11-05T15:29:05.7435314Z  538 words of node memory still in use:
+2026-11-05T15:29:05.7435735Z    3 hlist, 1 rule, 1 local_par, 1 dir, 2 glue, 3 kern, 17 glyph, 7 attribute, 
+2026-11-05T15:29:05.7436250Z 48 glue_spec, 7 attribute_list, 1 temp, 1 write, 1 pdf_colorstack nodes
+2026-11-05T15:29:05.7436832Z    avail lists: 2:15,3:2,4:1,5:5,9:2
+2026-11-05T15:29:05.7437417Z !  ==> Fatal error occurred, no output PDF file produced!
+2026-11-05T15:29:05.7438025Z Transcript written on source.log.
+2026-11-05T15:29:05.7438390Z 
+2026-11-05T15:29:05.7438769Z During handling of the above exception, another exception occurred:
+2026-11-05T15:29:05.7439150Z 
+2026-11-05T15:29:05.7439351Z Traceback (most recent call last):
+2026-11-05T15:29:05.7439932Z   File "/home/runner/work/florilegium/florilegium/tools/pattern_tex_consumer.py", line 141, in <module>
+2026-11-05T15:29:05.7440786Z     if __name__=='__main__':main()
+2026-11-05T15:29:05.7441119Z                             ~~~~^^
+2026-11-05T15:29:05.7441605Z   File "/home/runner/work/florilegium/florilegium/tools/pattern_tex_consumer.py", line 119, in main
+2026-11-05T15:29:05.7442241Z     assert message.lower() in str(error).lower(),(name,str(error));negative.append(name)
+2026-11-05T15:29:05.7442711Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-11-05T15:29:05.7446578Z AssertionError: ('unknown-asset', "lualatex failed; see /home/runner/work/florilegium/florilegium/build/pattern-luatex/d664aead55ec3531f4b32c9d08220e031f4f5fc4f115a1022c9d78cdf4e6ae63/unknown-asset/out/source.pass-1.log\n(/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))/home/r\nunner/work/florilegium/florilegium/pattern_tex.lua:6: pattern-tex: unknown asse\nt missing\nstack traceback:\n\t[C]: in function 'assert'\n\t/home/runner/work/florilegium/florilegium/pattern_tex.lua:6: in upvalue 'need'\n\n\t/home/runner/work/florilegium/florilegium/pattern_tex.lua:71: in method 'asset\n'\n\t/home/runner/work/florilegium/florilegium/pattern_tex.lua:74: in method 'plan'\n\n\t...e/runner/work/florilegium/florilegium/pattern_luatex.lua:74: in function 'p\nattern_luatex.use'\n\t[\\directlua]:1: in main chunk.\n\\florilegiumpatterninline code ...expr #1\\relax )}\n                                                  \nl.1 ... failure.\\florilegiumpatterninline{missing}\n                                                  \\end{document}\n 538 words of node memory still in use:\n   3 hlist, 1 rule, 1 local_par, 1 dir, 2 glue, 3 kern, 17 glyph, 7 attribute, \n48 glue_spec, 7 attribute_list, 1 temp, 1 write, 1 pdf_colorstack nodes\n   avail lists: 2:15,3:2,4:1,5:5,9:2\n!  ==> Fatal error occurred, no output PDF file produced!\nTranscript written on source.log.")
+2026-11-05T15:29:05.9047624Z ##[error]Process completed with exit code 1.
+2026-11-05T15:29:05.9057201Z ##[end-action id=__xu-cheng_latex-action.__run;outcome=failure;conclusion=failure;duration_ms=215725]
+2026-11-05T15:29:05.9096226Z ##[group]Run for folder in build/pattern-tex build/pattern-luatex-host build/pattern-luatex; do
+2026-11-05T15:29:05.9096624Z [36;1mfor folder in build/pattern-tex build/pattern-luatex-host build/pattern-luatex; do[0m
+2026-11-05T15:29:05.9096909Z [36;1m  if [ -d "$folder" ]; then sudo chmod -R a+rX "$folder"; fi[0m
+2026-11-05T15:29:05.9097093Z [36;1mdone[0m
+2026-11-05T15:29:05.9113731Z shell: /usr/bin/bash -e {0}
+2026-11-05T15:29:05.9113878Z ##[endgroup]
+2026-11-05T15:29:05.9383832Z ##[group]Run actions/upload-artifact@v4
+2026-11-05T15:29:05.9384007Z with:
+2026-11-05T15:29:05.9384132Z   name: florilegium-common-luatex
+2026-11-05T15:29:05.9384353Z   path: build/pattern-tex/
+build/pattern-luatex-host/
+build/pattern-luatex/
+
+2026-11-05T15:29:05.9384582Z   if-no-files-found: warn
+2026-11-05T15:29:05.9384717Z   compression-level: 6
+2026-11-05T15:29:05.9384842Z   overwrite: false
+2026-11-05T15:29:05.9384965Z   include-hidden-files: false
+2026-11-05T15:29:05.9385106Z ##[endgroup]
+2026-11-05T15:29:06.0528135Z (node:2425) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-05T15:29:06.0528806Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-05T15:29:06.0829888Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-11-05T15:29:06.0832220Z The least common ancestor is /home/runner/work/florilegium/florilegium/build. This will be the root directory of the artifact
+2026-11-05T15:29:06.0832775Z With the provided path, there will be 196 files uploaded
+2026-11-05T15:29:06.0836708Z Artifact name is valid!
+2026-11-05T15:29:06.0836983Z Root directory input is valid!
+2026-11-05T15:29:06.3831784Z Beginning upload of artifact content to blob storage
+2026-11-05T15:29:06.6142117Z (node:2425) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-05T15:29:06.9534339Z Uploaded bytes 1862663
+2026-11-05T15:29:07.0463869Z Finished uploading artifact content to blob storage!
+2026-11-05T15:29:07.0464444Z SHA256 digest of uploaded artifact zip is ca73dc84899e05fc8b0f3d81ccfdbaaf54e2ec1040e561d6e89f77a20e7dfe04
+2026-11-05T15:29:07.0465657Z Finalizing artifact upload
+2026-11-05T15:29:07.5288501Z Artifact florilegium-common-luatex.zip successfully finalized. Artifact ID 13428157533
+2026-11-05T15:29:07.5289254Z Artifact florilegium-common-luatex has been successfully uploaded! Final size is 1862663 bytes. Artifact ID is 13428157533
+2026-11-05T15:29:07.5294223Z Artifact download URL: https://github.com/UPerna/florilegium/actions/runs/42054812019/artifacts/13428157533
+2026-11-05T15:29:07.5484471Z Post job cleanup.
+2026-11-05T15:29:07.6079496Z [command]/usr/bin/git version
+2026-11-05T15:29:07.6113230Z git version 2.56.0
+2026-11-05T15:29:07.6136046Z Temporarily overriding HOME='/home/runner/work/_temp/2bd48f74-d8a6-445f-8dc6-60ebd454a9bd' before making global git config changes
+2026-11-05T15:29:07.6137041Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-05T15:29:07.6197274Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/florilegium/florilegium
+2026-11-05T15:29:07.6199882Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-05T15:29:07.6233651Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-05T15:29:07.6454541Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-05T15:29:07.6491131Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-05T15:29:07.6696361Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-05T15:29:07.6734818Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-05T15:29:07.7057295Z Cleaning up orphan processes
+2026-11-05T15:29:07.7323659Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

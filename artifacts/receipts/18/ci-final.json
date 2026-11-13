@@ -1,0 +1,194 @@
+{
+  "stage": "18",
+  "source_digest": "aa86a0e5d8b3c0d9a5ddeaa008b8373a3179c7f1cb838eb24d6e5a7c3d8518f3",
+  "native_checks": 22,
+  "native_output_hashes": 30,
+  "native_local_differences": [],
+  "kit_hashes": 354,
+  "oracle": {
+    "hat": {
+      "whole": {
+        "leaves": 169,
+        "kites": 1352,
+        "hierarchy_nodes": 75,
+        "reflected": 22
+      },
+      "detail": {
+        "leaves": 25,
+        "kites": 200,
+        "hierarchy_nodes": 11,
+        "reflected": 3
+      },
+      "crop-a": {
+        "leaves": 80,
+        "kites": 640,
+        "hierarchy_nodes": 75,
+        "reflected": 11
+      },
+      "crop-b": {
+        "leaves": 87,
+        "kites": 696,
+        "hierarchy_nodes": 75,
+        "reflected": 12
+      }
+    },
+    "reference_clusters": 12,
+    "shared": 35,
+    "bounded": {
+      "occupied": 19,
+      "path_vertices": 17,
+      "statuses": {
+        "completion": {
+          "algorithm": "finite-marked-square-search-v1",
+          "assignment_sha256": "c8b84d1669e70a913065ba9d868702f025068310f3e131921abb9ff28716b1ac",
+          "node_limit": 20000,
+          "nodes": 19,
+          "order": "row-major, fixed oriented tile order",
+          "problem_sha256": "6207e4668a99e93c253299fd5ade614294aa8bbf6851dddddca59f6961640392",
+          "route": "searched",
+          "seed": 18,
+          "status": "complete"
+        },
+        "replay": {
+          "algorithm": "finite-marked-square-search-v1",
+          "assignment_sha256": "c8b84d1669e70a913065ba9d868702f025068310f3e131921abb9ff28716b1ac",
+          "node_limit": 0,
+          "nodes": 0,
+          "order": "row-major, fixed oriented tile order",
+          "problem_sha256": "6207e4668a99e93c253299fd5ade614294aa8bbf6851dddddca59f6961640392",
+          "route": "replayed",
+          "seed": 18,
+          "status": "complete"
+        },
+        "unsatisfiable": {
+          "algorithm": "finite-marked-square-search-v1",
+          "node_limit": 20000,
+          "nodes": 7,
+          "order": "row-major, fixed oriented tile order",
+          "problem_sha256": "834975ccfcc6c44971e68cb254b832c0f7b34573d7d9d950156791ca6ed702d8",
+          "route": "searched",
+          "seed": 18,
+          "status": "unsatisfiable"
+        },
+        "unknown": {
+          "algorithm": "finite-marked-square-search-v1",
+          "node_limit": 0,
+          "nodes": 0,
+          "order": "row-major, fixed oriented tile order",
+          "problem_sha256": "6207e4668a99e93c253299fd5ade614294aa8bbf6851dddddca59f6961640392",
+          "route": "searched",
+          "seed": 18,
+          "status": "unknown"
+        },
+        "timeout": {
+          "algorithm": "finite-marked-square-search-v1",
+          "deadline_ms": 2,
+          "node_limit": 20000,
+          "nodes": 1,
+          "order": "row-major, fixed oriented tile order",
+          "problem_sha256": "6207e4668a99e93c253299fd5ade614294aa8bbf6851dddddca59f6961640392",
+          "route": "searched",
+          "seed": 18,
+          "status": "timeout"
+        }
+      }
+    },
+    "renders": {
+      "whole": {
+        "dimensions": [
+          560,
+          550
+        ],
+        "mean_backend_error": 0.0077019140989729225,
+        "ink_pixels": [
+          151406,
+          151604
+        ]
+      },
+      "detail-kites": {
+        "dimensions": [
+          225,
+          220
+        ],
+        "mean_backend_error": 0.011667049580775071,
+        "ink_pixels": [
+          22644,
+          22698
+        ]
+      },
+      "crop-a": {
+        "dimensions": [
+          260,
+          250
+        ],
+        "mean_backend_error": 0.011755977878330819,
+        "ink_pixels": [
+          55211,
+          55253
+        ]
+      },
+      "crop-b": {
+        "dimensions": [
+          260,
+          220
+        ],
+        "mean_backend_error": 0.01308444170208876,
+        "ink_pixels": [
+          57052,
+          57051
+        ]
+      },
+      "common-a": {
+        "dimensions": [
+          95,
+          110
+        ],
+        "mean_backend_error": 0.012352253181974544,
+        "ink_pixels": [
+          10450,
+          10450
+        ]
+      },
+      "common-b": {
+        "dimensions": [
+          95,
+          110
+        ],
+        "mean_backend_error": 0.012352253181974544,
+        "ink_pixels": [
+          10450,
+          10450
+        ]
+      },
+      "completion": {
+        "dimensions": [
+          163,
+          135
+        ],
+        "mean_backend_error": 0.011007421070374678,
+        "ink_pixels": [
+          1972,
+          2659
+        ]
+      }
+    }
+  },
+  "visual_review": "Accepted seven native PDF/SVG pairs including the full Hat cluster, kite detail, overlapping crops and marked-square completion.",
+  "revision": "ca1fa55e87aec0265f405d461c63ee10db667703",
+  "tree": "7f63e6bd696325d33aa96f64da5c791c4d027273",
+  "run": 41864673725,
+  "jobs": {
+    "portable": {
+      "id": 126695715887,
+      "conclusion": "success"
+    },
+    "pdfs": {
+      "id": 126695715315,
+      "conclusion": "success"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "8244eb2000afb4553ab216052e95a948dab741e79f34edd8b7c68a8b128e45f6",
+    "portable": "812e649174f2395261b396017963b7e4ac6eeb9b16bd1699f83b12c08c7432ab"
+  }
+}

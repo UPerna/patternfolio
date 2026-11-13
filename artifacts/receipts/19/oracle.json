@@ -1,0 +1,139 @@
+{
+  "geometry": {
+    "prototype": {
+      "vertices": 9,
+      "edges": 11,
+      "arcs": 6,
+      "contacts": 0,
+      "contact_max_residual": 0,
+      "foil_rings": 0,
+      "noncrossing_bands": 3,
+      "max_cubic_relative_radial_error": 3.537376964679595e-07
+    },
+    "rosette": {
+      "vertices": 25,
+      "edges": 36,
+      "arcs": 29,
+      "contacts": 4,
+      "contact_max_residual": 4.884981308350689e-15,
+      "foil_rings": 1,
+      "noncrossing_bands": 4,
+      "max_cubic_relative_radial_error": 3.5223703919210604e-06
+    },
+    "narrow": {
+      "vertices": 23,
+      "edges": 33,
+      "arcs": 26,
+      "contacts": 4,
+      "contact_max_residual": 1.3322676295501878e-15,
+      "foil_rings": 1,
+      "noncrossing_bands": 4,
+      "max_cubic_relative_radial_error": 4.029935911987399e-06
+    },
+    "rose": {
+      "vertices": 42,
+      "edges": 54,
+      "arcs": 54,
+      "contacts": 0,
+      "contact_max_residual": 0,
+      "foil_rings": 7,
+      "noncrossing_bands": 1,
+      "max_cubic_relative_radial_error": 1.987698777239366e-06
+    },
+    "edited": {
+      "vertices": 25,
+      "edges": 36,
+      "arcs": 29,
+      "contacts": 4,
+      "contact_max_residual": 5.329070518200751e-15,
+      "foil_rings": 1
+    }
+  },
+  "renders": {
+    "prototype": {
+      "mean_backend_error": 0.0005710232413378789,
+      "size": [
+        430,
+        630
+      ],
+      "left_jamb_pixels_at_127dpi": [
+        6,
+        6
+      ]
+    },
+    "prototype-diagnostic": {
+      "mean_backend_error": 0.0025534685881243107,
+      "size": [
+        430,
+        630
+      ]
+    },
+    "rosette": {
+      "mean_backend_error": 0.000960948874392476,
+      "size": [
+        430,
+        605
+      ]
+    },
+    "rosette-diagnostic": {
+      "mean_backend_error": 0.002821484337216211,
+      "size": [
+        430,
+        605
+      ]
+    },
+    "narrow": {
+      "mean_backend_error": 0.0012700928792569659,
+      "size": [
+        250,
+        380
+      ]
+    },
+    "narrow-diagnostic": {
+      "mean_backend_error": 0.005248668730650155,
+      "size": [
+        250,
+        380
+      ]
+    },
+    "rose": {
+      "mean_backend_error": 0.0025196025408540917,
+      "size": [
+        430,
+        430
+      ]
+    },
+    "rose-diagnostic": {
+      "mean_backend_error": 0.002573869641601007,
+      "size": [
+        430,
+        430
+      ]
+    },
+    "edited": {
+      "mean_backend_error": 0.0011979564328774626,
+      "size": [
+        430,
+        605
+      ]
+    },
+    "join-detail": {
+      "mean_backend_error": 0.0010514705882352941,
+      "size": [
+        200,
+        200
+      ]
+    },
+    "join-detail-diagnostic": {
+      "mean_backend_error": 0.0013368627450980391,
+      "size": [
+        200,
+        200
+      ],
+      "centered_tangent_marker_pixels": [
+        96,
+        96
+      ]
+    }
+  }
+}

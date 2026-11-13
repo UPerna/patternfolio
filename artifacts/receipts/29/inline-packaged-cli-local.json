@@ -1,0 +1,12 @@
+{
+  "revision": "3e49627f01651ede39c56f5c6e9ef41bcc0230fe",
+  "commands": [
+    "capabilities",
+    "validate",
+    "generate",
+    "replay"
+  ],
+  "kit_sha256": "0b1ed2135ae6dfb461e910a65837d05b51bc5f287a66b073a3e328fc431d4170",
+  "runtime": "Lua 5.3 via Lupa 2.8",
+  "result": "The extracted native source kit generated and replayed the periodic consumer with identical instance/PDF/SVG bytes."
+}

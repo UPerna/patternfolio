@@ -1,0 +1,9 @@
+{
+  "revision": "c4729e2901bdfcaf6f10e09e2571a0c0ea034ae9",
+  "run": 42041129505,
+  "job": 127291906300,
+  "native_core_checks": 32,
+  "consumer_status": "Failed before recipe read completed; no book acceptance",
+  "error": "resolve returned the successful assert message as a second value, interpreted as read byte limit",
+  "next_action": "Fix lookup to return exactly one path. Retain source print requirements when fitting views. Rerun shared and native consumer checks on an ordinary child commit."
+}

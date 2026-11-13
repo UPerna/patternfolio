@@ -1,0 +1,13 @@
+{
+  "kind": "browser",
+  "revision": "96390d9afce26246dcf6da878e33fcb95b2c1b28",
+  "run": 42331909848,
+  "job": 128288199849,
+  "artifact_id": 13558913569,
+  "artifact_name": "florilegium-browser",
+  "sha256": "d708625a29a85ad674bd46a02bd741650226f399a9a164fbf496fb2b26a39338",
+  "size_in_bytes": 16225422,
+  "archive_bytes": 16225422,
+  "verified_archive_sha256": "d708625a29a85ad674bd46a02bd741650226f399a9a164fbf496fb2b26a39338",
+  "safe_extraction": true
+}

@@ -1,0 +1,16 @@
+{
+  "stage": "33",
+  "base_revision": "b4b6bed11e73298191f844574b41d4bc56935e39",
+  "prerequisite": "32 passed",
+  "protected_prior_evidence_hashes": 260,
+  "stage32_acceptance_sha256": "79afd2600b3d8f5c8f4f3a62031ca5b185ef223a18ac300bf931bb3914a66777",
+  "inherited_aliases": [
+    {
+      "path": "artifacts/receipts/32/ci-current.json",
+      "alias": "artifacts/receipts/33/inherited-published/32/ci-current.json",
+      "sha256": "a7605d0006fa2c449cf418de7f881d0f7dc2ff75f54f5c1a7d9d2cc141f7d836"
+    }
+  ],
+  "status": "started",
+  "next_action": "Stage33: claim-by-claim falsification with independent analytical checks and controlled corruptions; reproduce numerical semantic-label and raw Lua transport findings first, then bounded family-aware adversarial/metamorphic corpus. Resolve release blockers, run all exact-revision native/browser/source-kit gates and verify publication before continuing34\u201339. Preserve all issued evidence, dirty worktrees, and publication boundary39. No delegation or independent-reviewer claim."
+}

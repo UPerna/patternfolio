@@ -1,0 +1,11 @@
+{
+  "revision": "ef55779a121317ccd9a909c5d4e84b94d368122a",
+  "source_digest": "a12ec1ef1bb32d9e732ed2914a47d4171578794b1ca72a3576e093f818690687",
+  "entered_region_draft": "false",
+  "observed": {
+    "state": "Complete · existing structure preserved",
+    "error": "",
+    "regionDraft": "[\n  {\n    \"bounds\": [\n      1.25,\n      0.9,\n      1.85,\n      1.55\n    ],\n    \"role\": \"protected_content\"\n  }\n]"
+  },
+  "issue": "Invalid false-valued edit was ignored, then draft replaced by canonical previous regions."
+}

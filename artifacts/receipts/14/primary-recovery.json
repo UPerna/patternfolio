@@ -1,0 +1,19 @@
+{
+  "stage": "14",
+  "ids": [
+    "R19a",
+    "R19b"
+  ],
+  "author": "N. G. de Bruijn",
+  "date": "1981-03-20",
+  "part_i_pages": "39-52",
+  "part_ii_pages": "53-66",
+  "combined_scan_pages": 29,
+  "retrieved": "2026-11-04",
+  "primary_scan": "https://pure.tue.nl/ws/files/4344195/597566.pdf",
+  "readable_full_text": "https://new.math.uiuc.edu/oldnew/quasicrystals/papers/debruijnPenrose.pdf",
+  "scan_sha256": "36bfa9d8108fdcef7226177d52132f1e110989d6959a337f7d08fe8d40a60d28",
+  "read": "Part I sections 2, 4, 5, 7 and Fig. 1; Part II sections 9-10. Part II title checked in original scan.",
+  "source_scope": "Regular pentagrid P3, arrow conventions and lifted lineage. P2 optional.",
+  "archival_path": "work/research/debruijn-1981-i-ii.pdf"
+}

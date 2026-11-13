@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "scope": "Single-agent independent arithmetic/checking code; not independent human or swarm review",
+  "precision_digits": 76,
+  "instance_sha256": {
+    "periodic": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+    "penrose": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+    "micrography": "32bdd320b78ab296194b3046052150b9289afd20e63fcc29b9ca7ab42e939578",
+    "spectre": "a154b6bddcde8c38c357892707727ce3086f21a8a7cd3b2b7b971251d4242c4e"
+  },
+  "results": {
+    "periodic": {
+      "cells": 169,
+      "edges": 364,
+      "vertices": 196,
+      "rational_nonzero_polygon_area": true,
+      "closed_boundaries": true
+    },
+    "penrose": {
+      "counts": {
+        "thick": 375,
+        "thin": 240
+      },
+      "red_edges": 644,
+      "green_edges": 647,
+      "query_cuts": 122,
+      "area_error": "5.7E-72",
+      "tested_overlap_pairs": 2997,
+      "unit_areas": {
+        "thick": "0.951056516295153572116439333379382143405698634125750222447305644430153170085",
+        "thin": "0.587785252292473129168705954639072768597652437643145991072272480757278474165"
+      }
+    },
+    "micrography": {
+      "independent_signed_label_optimization": {
+        "boundary_labels": 455,
+        "examined": 4096,
+        "energy": -12.853498535795229,
+        "all_aligned_energy": 0,
+        "minimum_representation_x": 0.9931446444280377,
+        "field_residual": 9.951950374897933e-11,
+        "triangles": 288
+      },
+      "independent_layout_geometry": {
+        "runs": 7,
+        "graphemes": 432,
+        "glyphs": 428,
+        "visible_glyphs": 345,
+        "minimum_line_gap_cm": 0.5348911966743227,
+        "maximum_curvature_per_cm": 3.6528318072709996e-05,
+        "maximum_glyph_rotation_rad": 0.05836583589221231
+      },
+      "exact_triangle_orientation": 288,
+      "line_references": 7
+    },
+    "spectre": {
+      "leaves": 40,
+      "edges": 340,
+      "query_cuts": 33,
+      "curved": true,
+      "root_complex": {
+        "root_boundary_edges": 160,
+        "root_shared_edges": 354,
+        "hull_pairs": 711,
+        "maximum_cubic_signed_area_error": "2.1E-73"
+      },
+      "lineage_count": 11
+    }
+  },
+  "controlled_corruptions_detected": [
+    {
+      "case": "micrography-boundary-label-corruption.json",
+      "diagnostic": "AssertionError",
+      "sha256": "b3b583bb4aef1cb8e67931c452d2a905218aafb7595adf841f34fe84ebe8dcf0"
+    },
+    {
+      "case": "micrography-near-integer-line-corruption.json",
+      "diagnostic": "line reference",
+      "sha256": "ac73566093ce77600160a4745db6220a00979135d541bf2374cb6d7b6ffe4a12"
+    },
+    {
+      "case": "micrography-near-integer-span-corruption.json",
+      "diagnostic": "grapheme span",
+      "sha256": "4c6e418d8a166b3dfc5fb445845a69194662055424a42384c87724a40c95a0ce"
+    },
+    {
+      "case": "micrography-triangle-reference-corruption.json",
+      "diagnostic": "triangle reference",
+      "sha256": "4307027151f5019bdaa01a0110ebe52693fdddc0eb4fbbb8b07558a508a330ac"
+    },
+    {
+      "case": "penrose-matching-class-corruption.json",
+      "diagnostic": "AssertionError",
+      "sha256": "6ae0e5740bb7c65cdebca08dae211baad24db7699ba767148e87c35570994c1c"
+    },
+    {
+      "case": "periodic-duplicate-cell-corruption.json",
+      "diagnostic": "duplicate cell",
+      "sha256": "1ca258f67dd1b2f7f947662cc3be9bd2466d236fda10e2418efafe507681703a"
+    },
+    {
+      "case": "spectre-corrupt-hierarchy-corruption.json",
+      "diagnostic": "AssertionError",
+      "sha256": "e652c2f4fdc73cfe83bc9b333157b04c53168d2408f832e6e6ddf882d265412e"
+    },
+    {
+      "case": "spectre-illicit-reflection-corruption.json",
+      "diagnostic": "AssertionError",
+      "sha256": "aa8af837195446c67d9cd77199780f9cdf4cb5b37c17bc9f2853e31e720cf959"
+    }
+  ],
+  "test_sha256": "69264860923bb5828243158206d89a022d1008c6c89fc6fe1ce50f96efaba150"
+}

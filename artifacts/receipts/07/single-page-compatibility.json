@@ -1,0 +1,78 @@
+{
+  "stage": "07",
+  "previous_revision": "76cc324cd68f564f924f1e00729a19579eb4a78d",
+  "checks": [
+    {
+      "runtime": "lua53",
+      "fixture": "floral",
+      "sha256": "c2bc91bfb0e8300b9c7c79beca3dfc6e9ea28ac405c866cd0469a1a63a852a44",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "graph",
+      "sha256": "7ec18fb114d805772685c6045c85a5159a783b513ebeb792b9f056b9f7acdd43",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "tiling",
+      "sha256": "e44f3ab515f6ef349993501cd3e1a0c51e4fee5d9b7f18ca23f0350670c353a0",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "clipstress",
+      "sha256": "4e75fa27c270bef854abf366243a7756f87d5c7470c87a7f0d35e0237884bece",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "mono",
+      "sha256": "2b343b829eb8b2af20bec59da2f2e7daa6a3b5ec4a6da68e65a09f92c190d19d",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua53",
+      "fixture": "text",
+      "sha256": "6108f4ef0a855ad13eed51c57f836626f866155c4df126297dce51783eb16ed6",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "floral",
+      "sha256": "c2bc91bfb0e8300b9c7c79beca3dfc6e9ea28ac405c866cd0469a1a63a852a44",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "graph",
+      "sha256": "7ec18fb114d805772685c6045c85a5159a783b513ebeb792b9f056b9f7acdd43",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "tiling",
+      "sha256": "e44f3ab515f6ef349993501cd3e1a0c51e4fee5d9b7f18ca23f0350670c353a0",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "clipstress",
+      "sha256": "4e75fa27c270bef854abf366243a7756f87d5c7470c87a7f0d35e0237884bece",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "mono",
+      "sha256": "2b343b829eb8b2af20bec59da2f2e7daa6a3b5ec4a6da68e65a09f92c190d19d",
+      "status": "byte-identical"
+    },
+    {
+      "runtime": "lua54",
+      "fixture": "text",
+      "sha256": "6108f4ef0a855ad13eed51c57f836626f866155c4df126297dce51783eb16ed6",
+      "status": "byte-identical"
+    }
+  ]
+}

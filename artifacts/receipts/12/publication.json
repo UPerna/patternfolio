@@ -1,0 +1,104 @@
+{
+  "stage": "12",
+  "revision": "e84897bb13b311c934de906965f024f7e6364d45",
+  "parent": "7751d8207e6f8d2ffe0cccd1481a37afd5b64285",
+  "tree": "b9a1984424ce880061533942eddfb27a6c6d6ebd",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "4284a1058f6e6d34fae569597a6b2898f7240ecc5d501afb047baa5519f18a25",
+      "bytes": 4771
+    },
+    {
+      "path": "Makefile",
+      "sha256": "8218c171221a68a64f752e6772b395db7ef8ee7c960251030629dfbd40d360f3",
+      "bytes": 5931
+    },
+    {
+      "path": "artifacts/receipts/11/ci-final.json",
+      "sha256": "ab1bf2780561e436371be6cf9f2f320c5da6d96552d5e85b09d80014133ab7c4",
+      "bytes": 3270
+    },
+    {
+      "path": "artifacts/receipts/11/native-local-parity.json",
+      "sha256": "c39e432dca96d14aa3c1964381a626af98abf20ec5fd09954b7146f19d26624c",
+      "bytes": 1839
+    },
+    {
+      "path": "artifacts/receipts/11/publication.json",
+      "sha256": "e045a984f4ff8729019b4476962bcc92e6435160bce0152233105599e100b73d",
+      "bytes": 2965
+    },
+    {
+      "path": "artifacts/receipts/12/oracle.json",
+      "sha256": "855aafca98986b24d34e3dc80388575e76793b6f94734747f3552b90dbc58a4a",
+      "bytes": 2677
+    },
+    {
+      "path": "artifacts/receipts/12/receipt-Lua-5.3.json",
+      "sha256": "12c0b5ba3b7817a808a49623e099af98885ce4236d9d0a696f384a9258883469",
+      "bytes": 18438
+    },
+    {
+      "path": "artifacts/receipts/12/receipt-Lua-5.4.json",
+      "sha256": "b41b5089cba76d429f946b5ded5246c38b5f697ff5b853e22b9d59e36b4da797",
+      "bytes": 18438
+    },
+    {
+      "path": "docs/architecture/FREEFORM.md",
+      "sha256": "3629cdfada79ebf33fd6799610e394d47d0a760e8003206b1ab4d6d2b17b74de",
+      "bytes": 3074
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "053d16c914ad335da790dec41a8ac01dfce3665a29691e93a3fa95ab989560b9",
+      "bytes": 48114
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "49cc483f63d617c80cae565316c50faab4c9725f20ade5ef27f1c7308870670b",
+      "bytes": 377
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "cc6850e701a926a317f3eb65878ac6bb985dd2c2e353d8fa812e729a9bf1a83c",
+      "bytes": 38560
+    },
+    {
+      "path": "pattern_circle_packing.lua",
+      "sha256": "0f06a019cd50016011bbe7460ad9f9022a6190d6c6512ad3ace3d96ff7ad3032",
+      "bytes": 11472
+    },
+    {
+      "path": "pattern_freeform.lua",
+      "sha256": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+      "bytes": 12521
+    },
+    {
+      "path": "pattern_islamic.lua",
+      "sha256": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+      "bytes": 17226
+    },
+    {
+      "path": "pattern_recipe.lua",
+      "sha256": "4608bb8d42ebaad6ba62bded96c79ffe079699811541a971fb31dc152c1fa47e",
+      "bytes": 12230
+    },
+    {
+      "path": "tools/freeform_oracle.py",
+      "sha256": "77bcfd6ecebfda62e66594fc1416e5f9ca65f3f7b6be49a4806925257c827d08",
+      "bytes": 12127
+    },
+    {
+      "path": "tools/freeformcheck.lua",
+      "sha256": "fb918b0b3fd3ac0bd4559104c199d9e4d3d5df378e2388ad9d450ce6d398db4a",
+      "bytes": 6556
+    }
+  ],
+  "unchanged_parent_entries": 277,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41825693056,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

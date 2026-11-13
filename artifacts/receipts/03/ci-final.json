@@ -1,0 +1,21 @@
+{
+  "stage": "03",
+  "head": "e9793c9efa8a8246175bc5921f7d3771ca69350b",
+  "run": 41470769063,
+  "status": "completed",
+  "conclusion": "success",
+  "required_jobs": {
+    "pdfs": "success",
+    "portable": "success"
+  },
+  "optional_gallery": "skipped",
+  "pdfs_job": 125363418158,
+  "pdfs_evidence": [
+    "2026-11-02T15:24:42.6254946Z contractcheck: 61 checks passed; actual floral + graph + tiling examples; semantic-only text/strands/3D/field fixtures",
+    "2026-11-02T15:24:51.8442927Z layoutcheck: 28 checks passed",
+    "2026-11-02T15:24:51.8555268Z spacecheck: clearance, detours, determinism and blocked corridors passed",
+    "2026-11-02T15:24:51.8645652Z initialcheck: missing reader, unreadable font, missing glyph and malformed bounds handled",
+    "2026-11-02T15:24:51.8855092Z backendcheck: standalone paths, resources, spread/fixed seeds, mono, controls and upright Arabic/Roman bodies passed",
+    "2026-11-02T15:25:40.5143888Z bookcheck: 9 cases passed; fallback initial remains searchable"
+  ]
+}

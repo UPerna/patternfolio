@@ -1,0 +1,10 @@
+{
+  "revision": "b4b6bed11e73298191f844574b41d4bc56935e39",
+  "runtime": "Windows Lupa2.8 Lua5.4 / Python hashlib development SHA host",
+  "status": "confirmed_preexisting_cross_native_rejection",
+  "actual_error": "micrography-field-reconstruction",
+  "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\run-lua-fast33.py\", line 34, in <module>\r\n    lua.execute(b'''\r\n  File \"lupa/lua54.pyx\", line 466, in lupa.lua54.LuaRuntime.execute\r\n  File \"lupa/lua54.pyx\", line 1897, in lupa.lua54.run_lua\r\n  File \"lupa/lua54.pyx\", line 1911, in lupa.lua54.call_lua\r\n  File \"lupa/lua54.pyx\", line 1938, in lupa.lua54.execute_lua_call\r\n  File \"lupa/lua54.pyx\", line 1819, in lupa.lua54.raise_lua_error\r\nlupa.lua54.LuaError: .\\pattern_micrography.lua:234: micrography-field-reconstruction\r\nstack traceback:\r\n\t[C]: in function 'assert'\r\n\t.\\pattern_micrography.lua:234: in field 'validate'\r\n\t.\\pattern_registry.lua:58: in method 'validate'\r\n\t...e-the-attached-pattern-platform-2\\work\\cross-micro33.lua:5: in main chunk\r\n\t[C]: in function 'dofile'\r\n\t[string \"<python>\"]:12: in main chunk\r\n",
+  "native_instance_sha256": "96d8887df900c2d02cfd4bf6b2c09cabdd32cbd79fe0025d8ee4adf925217142",
+  "validator_sha256": "11ea54854260d93912972d284802ddfe5be12f30ff17e8242a2581f0be487869",
+  "fix": "Explicit continuous field-sample leaves use unchanged32epsilon/1e-10 bound; labels/references and all unknown fields exact. Actual native instance now validates under current Lua5.4; browser cross-host control is running."
+}

@@ -1,0 +1,4 @@
+Measured	periodic	cold-generation	2.761800
+Measured	periodic	warm-generation	1.543679
+Measured	periodic	validated-instance-replay	1.734033
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 51089753

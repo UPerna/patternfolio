@@ -1,0 +1,303 @@
+{
+  "status": "passed",
+  "browser": "156.0.4314.58",
+  "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+  "editorcheck_sha256": "a97d8477fcbeee19b9d1933f559694672d5e112fd5991abf270f856be9620a26",
+  "cases": {
+    "border-monochrome": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "e13a423658abeda38aa1ed4d4fd0e5a3fd0f7bb5d9c8d2fc963a83b55b870a55",
+      "claims": [
+        "Real grayscale vector print output before palette revision"
+      ],
+      "vector_structure": {
+        "paths": 401,
+        "texts": 0,
+        "rasters": 0,
+        "width": "10cm",
+        "height": "14cm",
+        "viewbox": "0 0 10 14",
+        "semantic_refs": 399,
+        "clips": 2
+      },
+      "assets_sha256": {
+        "instance.json": "e13a423658abeda38aa1ed4d4fd0e5a3fd0f7bb5d9c8d2fc963a83b55b870a55",
+        "pattern.pdf": "fc1510c4c0b3a79005130b303b8836cc17e142ef7543f4f41c26a6bcbf5fa321",
+        "pattern.svg": "e3a999cc1b7956f6da59c944ac0295f4131902e18f58a04b43c082bc822e3fbe",
+        "recipe.json": "825dca2c704a77e9efbff1a522c9c02c650278c32ea974c0f3c86298331636e3",
+        "record.json": "7749f7c3c80cc18cdd1f037b297d707da56412cb0e79143d77f724cdde3401bd",
+        "scene.json": "a147a699cf99e3b86b1ca206378834d65c7b1e521d86da169779b166eb93a44e",
+        "view.json": "65829f2ceb11ef6c435c672cfe087c0f99690a8c8727adf6d3c6c8d8debcb294"
+      }
+    },
+    "border": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "e13a423658abeda38aa1ed4d4fd0e5a3fd0f7bb5d9c8d2fc963a83b55b870a55",
+      "claims": [
+        "Native 10×14cm planned page with protected center",
+        "True monochrome then palette native vector output",
+        "Paint changes preserve generated instance"
+      ],
+      "vector_structure": {
+        "paths": 401,
+        "texts": 0,
+        "rasters": 0,
+        "width": "10cm",
+        "height": "14cm",
+        "viewbox": "0 0 10 14",
+        "semantic_refs": 399,
+        "clips": 2
+      },
+      "assets_sha256": {
+        "instance.json": "e13a423658abeda38aa1ed4d4fd0e5a3fd0f7bb5d9c8d2fc963a83b55b870a55",
+        "pattern.pdf": "053292803d672ab76f63facdf820f49d2e7f6c52a65bad988780f7ccc88f7411",
+        "pattern.svg": "aab562c28d9dbbc96feb691962f479adb4e2a7ba4b16602fd8a56a3cf2aa7648",
+        "recipe.json": "86081a6276ab6b65503650a2c23daf713ab420dfe41acebcf67b3db669ee4ca4",
+        "record.json": "a70e30daede5e6edc1053d91ece74580e7d0ab739dce41c75519285f0df3e014",
+        "scene.json": "d780f67856a4b2f0eb24123138d0f4def7a451b523f7b92316ff77a9b9453812",
+        "view.json": "65829f2ceb11ef6c435c672cfe087c0f99690a8c8727adf6d3c6c8d8debcb294"
+      }
+    },
+    "knot": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "948fe0bb419a1f923ac41457e1b5a26af5bdd7ec69b9cbb1deeae1a1e62a2c28",
+      "claims": [
+        "Authored open sector changes native strand topology",
+        "Actual scaffold vertices/edges and crossing pins exposed",
+        "Generated topology validated by native family"
+      ],
+      "vector_structure": {
+        "paths": 12,
+        "texts": 0,
+        "rasters": 0,
+        "width": "5.4000000000000004cm",
+        "height": "5.5cm",
+        "viewbox": "0 0 5.4000000000000004 5.5",
+        "semantic_refs": 11,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "948fe0bb419a1f923ac41457e1b5a26af5bdd7ec69b9cbb1deeae1a1e62a2c28",
+        "pattern.pdf": "b86cf6a2049a994ce96d29615508ede494fd2ef5c57a0a27cedd6a8339971c98",
+        "pattern.svg": "db7abd28865f9cb3c6183e081413e56055fc80a9d3ef42d2fa4f89b5474a71e7",
+        "recipe.json": "ba2f358f24464b336206eb6083d4e69024e39d08082c0c1612cbfcb09c2eec2c",
+        "record.json": "1eb011c8cfdc1cc1f80cbb5b7c136058b345a824d95a1f115c76e16ca53352a9",
+        "scene.json": "66014ad85a2734e529c617e954110b192951c0840247776856add5839c31a504",
+        "view.json": "e2ad46935ca26f7d6b714eb16c10925dfaba75a5487d3a0c1dc34f807102f38e"
+      }
+    },
+    "penrose": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+      "claims": [
+        "World-anchored source instance unchanged after physical crop",
+        "Native planner context retained",
+        "View revision lineage records original source"
+      ],
+      "vector_structure": {
+        "paths": 161,
+        "texts": 0,
+        "rasters": 0,
+        "width": "2.2999999999999998cm",
+        "height": "3cm",
+        "viewbox": "0 0 2.2999999999999998 3",
+        "semantic_refs": 160,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+        "pattern.pdf": "d617e508c105d014e3c8074090f6a83b47f0424bae32722e731ec8ddb0b2d43e",
+        "pattern.svg": "f957da2736509c00750c35c9ea028ff0dd40c878a9911cbca965b6d3b6ac0b0e",
+        "recipe.json": "db3572f77c79e610c8150ab5eb708fdd1784e24d87c9244b79de15395059a3e1",
+        "record.json": "abc1800b62f5b6b782de3c945db7812bb406920996495cf7539fd069526ed6a8",
+        "scene.json": "e6025a2ae1d2ace651cb49f97d5cc30d16ef9a001eb1e31e6e1ac11ef6b39080",
+        "view.json": "c1e1026844cf9aead8bdfbc5dd8f940b7b996d7d956e6b950641639ec80c3f0a"
+      }
+    },
+    "spectre": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "a154b6bddcde8c38c357892707727ce3086f21a8a7cd3b2b7b971251d4242c4e",
+      "claims": [
+        "World-anchored source instance unchanged after physical crop",
+        "Native planner context retained",
+        "View revision lineage records original source"
+      ],
+      "vector_structure": {
+        "paths": 62,
+        "texts": 0,
+        "rasters": 0,
+        "width": "1.3499999999999996cm",
+        "height": "2.0999999999999996cm",
+        "viewbox": "0 0 1.3499999999999996 2.0999999999999996",
+        "semantic_refs": 61,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "a154b6bddcde8c38c357892707727ce3086f21a8a7cd3b2b7b971251d4242c4e",
+        "pattern.pdf": "604b062dc1299831db19ea9e2433ae7529db83d8e33943114291735980410753",
+        "pattern.svg": "907df5234c59d42d31f1a705eb02f378887d4246094694026173a3aa30ca135d",
+        "recipe.json": "bcdca6160aa519945fb56cd13e2cc0cf0ae1f1503c5594d9802eb5e567a61d4d",
+        "record.json": "ed1c60405b13b66db7f6e2cd7cf5d9f411de4f50b9bd6eb724711a1a6a9a4461",
+        "scene.json": "c95896c19a22e730f1027b5f70e9afe3c5a7389e7bf409d4d4adb111a5696dc6",
+        "view.json": "882e8e3b17bc4c9f40dcc5d8a28ced554bb1dd5b6f66f08b58d6f04e4739ca72"
+      }
+    },
+    "exemplar": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "2c2068231411ef1ecda53337f50cb8cf0afa582bd6b9a4aaf96534f53a6bfe30",
+      "claims": [
+        "User-selected JSON exemplar library imported and natively validated",
+        "Actual DecoBrush synthesis uses imported start/middle/finish pieces"
+      ],
+      "vector_structure": {
+        "paths": 2,
+        "texts": 0,
+        "rasters": 0,
+        "width": "4cm",
+        "height": "1.5cm",
+        "viewbox": "0 0 4 1.5",
+        "semantic_refs": 1,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "2c2068231411ef1ecda53337f50cb8cf0afa582bd6b9a4aaf96534f53a6bfe30",
+        "pattern.pdf": "69ffac10e5634b1800d21ccffb2a439a4ca0a85bd6d5a27f90e34573747fcb71",
+        "pattern.svg": "b2a786ceec0deb635ae964b04791ea66185bd3aa1d7991e28c1547055754f986",
+        "recipe.json": "bd343d9c6fb1e08f72052d57fc7f9c774adbd2ae5c7482e94843eb291b7a3fb7",
+        "record.json": "1efcc4dc64935892114e1125f5d3d10da854a537cf99fe419cf145e964c2187c",
+        "scene.json": "f4df4e93cb1cc8a1ebefa241717900a2cfb5811f4fcf76ca7e6cc9eb0b107d0e",
+        "view.json": "0ff38641e45c7a00754613233870f028eae19c3190d7f32831bd2f7a6f7de76b"
+      }
+    },
+    "microgram": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "ce0c22e842674d440269309b13dccb28a910eaf377e7b4affdfa063d050d16f5",
+      "claims": [
+        "Authored text shaped and placed by actual native Micrography family",
+        "Pinned font identity and unsupported custom loading displayed",
+        "Vector text is preserved in native output"
+      ],
+      "vector_structure": {
+        "paths": 349,
+        "texts": 7,
+        "rasters": 0,
+        "width": "13cm",
+        "height": "7cm",
+        "viewbox": "0 0 13 7",
+        "semantic_refs": 355,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "ce0c22e842674d440269309b13dccb28a910eaf377e7b4affdfa063d050d16f5",
+        "pattern.pdf": "080cade796b44d929e4ea6801117379c94bb38af0566f5d030cbb18de528e330",
+        "pattern.svg": "40a59533cc9f2c2c9651c52dd18d15344d32b5c45e9b2a71434b7c1ba7583c87",
+        "recipe.json": "862108931d1c58a56dab36fdf85bcb62a4e32681148a783d501f0b00e48a260d",
+        "record.json": "1acb4ee9f03e6eaad919ad5a70b46103c6d528b5343515f94434f9f8daa06c26",
+        "scene.json": "66ff5c6c37e6922281ec894c17799dce03d3f7f3f8dc92b544f31783ecef3877",
+        "view.json": "fcc45f66efe139bb7cfe9ade76d33d15fdd0e2c6e6141286358c7c0fa904ea74"
+      }
+    },
+    "maze": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "edead93a4f93cffbb2b2fa84fb3535a9d937e923db1568df1631a8246cc820d4",
+      "claims": [
+        "Native radial tone field guides actual maze generation",
+        "Solution display follows native validated route",
+        "Showing solution preserves maze instance"
+      ],
+      "vector_structure": {
+        "paths": 368,
+        "texts": 0,
+        "rasters": 0,
+        "width": "10.559999999999999cm",
+        "height": "7.5600000000000005cm",
+        "viewbox": "0 0 10.559999999999999 7.5600000000000005",
+        "semantic_refs": 367,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "edead93a4f93cffbb2b2fa84fb3535a9d937e923db1568df1631a8246cc820d4",
+        "pattern.pdf": "8e93c2ccafb5b9debf0b5b730c8c7e63d7ce2aaf037a9cfb67c1dd4ba294ceea",
+        "pattern.svg": "ae2ecf1f4b16b0fa2d33571c475352c0928e523aeb7fa49f045a02476d3f2467",
+        "recipe.json": "f7c5314fb5204269b655ba806792e7ceb2c4d9717b3d2b2173cf63d97f8aa2da",
+        "record.json": "28cf88aeefd70c14a4a0f55cb1094d6f3ce3c594a1ccdf1b3d720a6c1549dfc5",
+        "scene.json": "efd6d1977589002b0a1f87d8c88408ecb70d4e7b9f44ba85a8e094fae3af7c3b",
+        "view.json": "ae40e06e87648cd445bfddd4e00bbfce617b6354978c5fdc1433703a415dcd95"
+      }
+    },
+    "recovery": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+      "claims": [
+        "Undo/redo keeps validated instances",
+        "Refresh preserves unapplied draft, history and accepted instance",
+        "Portable workspace output bytes checked against native replay",
+        "Forged vector with matching attacker digest rejected by native replay",
+        "Malformed import preserves previous work",
+        "New edit supersedes running generation and delayed recipe import",
+        "Fresh native worker renders while network is offline",
+        "Keyboard navigation and 390px responsive layout"
+      ],
+      "vector_structure": {
+        "paths": 13,
+        "texts": 0,
+        "rasters": 0,
+        "width": "3.2000000000000002cm",
+        "height": "2.7999999999999998cm",
+        "viewbox": "0 0 3.2000000000000002 2.7999999999999998",
+        "semantic_refs": 11,
+        "clips": 2
+      },
+      "assets_sha256": {
+        "instance.json": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+        "pattern.pdf": "fdffd10f5453f882adcac0564f128c95615e9c2fbe26780b0d905ff8cf4589e2",
+        "pattern.svg": "ec34da313a4f99a7e95e8197a015aea7de975e7115db473a161bfa39d8f826b9",
+        "recipe.json": "589991dbbf93cf300221a81e825268f24a4a964a34221bb9fbe91798ee103ec3",
+        "record.json": "74216ceda8782acac4e80a4fb144cdf4c218745537211d0a78af592964b67ced",
+        "scene.json": "5eb6bf6493c01201ef268b0d15bdfa9a653dd3f9f812892865f7eacb0759baba",
+        "view.json": "e56510429f77a4740571ac1285220ea13cd05f9f1082b8243e4bb92320710fcf"
+      }
+    },
+    "canvas": {
+      "status": "passed",
+      "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+      "instance_sha256": "167c42ae0fa61eee27d59867783137495edf3410d385795b7466db7508a97b4e",
+      "claims": [
+        "Guide point drag under zoom preserves intended world coordinates",
+        "Native regeneration changes scaffold geometry",
+        "Protected rectangle drawn under zoom uses physical coordinates",
+        "Mask revision preserves source instance"
+      ],
+      "vector_structure": {
+        "paths": 13,
+        "texts": 0,
+        "rasters": 0,
+        "width": "5.4000000000000004cm",
+        "height": "5.5cm",
+        "viewbox": "0 0 5.4000000000000004 5.5",
+        "semantic_refs": 11,
+        "clips": 2
+      },
+      "assets_sha256": {
+        "instance.json": "167c42ae0fa61eee27d59867783137495edf3410d385795b7466db7508a97b4e",
+        "pattern.pdf": "86f9a4bd2c2b39934fef11d5d96d369c81702129afcfcf7349dd3fd03d43d116",
+        "pattern.svg": "ce9c25fc9c29b66faa8b15a6c0965027346d38c1ad3f376520021b7b19e08e0c",
+        "recipe.json": "7428dc88246155074aae0594689dff6547900847d30454ba606acbeab32cffa6",
+        "record.json": "f2d560a241a1bc4143edef1c760d35760de3a3d3c74084724c67dc8f916e4354",
+        "scene.json": "2b899e0636e17e64312ffabd525b686067185e7ec491ab017df61e4d5eb544a7",
+        "view.json": "5c16507aa387fe4ba8e4c35a38c39b7d0c0e917dd88386154cc4a83557823d30"
+      }
+    }
+  },
+  "errors": [],
+  "scope": "Actual DOM/worker tasks and exact downloaded vector bytes; visual review is a separate required evidence receipt."
+}

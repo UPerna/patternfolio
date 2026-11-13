@@ -1,0 +1,8 @@
+{
+  "status": "repaired_and_verified",
+  "incident": "New stage34 local publication receipt was initially written to the prior stage33 namespace by an adapted helper. Published Git source was unaffected.",
+  "restoration": "Exact issued33 bytes restored from independently verified5B canonical archive, also matched against preserved development checkout. New34 receipt preserved in correct namespace. Helper target corrected.",
+  "restored_issued_sha256": "bea79c2647c928731ca5dfeb6805f1294f80eafb2682b9292c1237ea6c2e1d5a",
+  "new34_receipt_sha256": "739760007d05f0059ae12f2c9508579bb7f134125e14e7f516cc4d008c9455cc",
+  "prior_issued_hashes_verified_in_checkpoint_and_checkout": 297
+}

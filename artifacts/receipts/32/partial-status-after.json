@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "browser": "156.0.4314.58",
+  "source_digest": "a12ec1ef1bb32d9e732ed2914a47d4171578794b1ca72a3576e093f818690687",
+  "editorcheck_sha256": "e360468d94e711cbf6fe4079fd3d281b5e9b8e0a136e4cfc871560f7b04585e4",
+  "cases": {
+    "partial-packing": {
+      "status": "passed",
+      "source_digest": "a12ec1ef1bb32d9e732ed2914a47d4171578794b1ca72a3576e093f818690687",
+      "instance_sha256": "ec3cc7fa6d0f6673c5a86f0b88e135c975bcd0ac3520aaa1356a45e65b36db3e",
+      "claims": [
+        "Native partial packing is shown explicitly rather than advertised as complete packing",
+        "Native placed/rejected/coverage and solver status are visible",
+        "Paint revision preserves partial construction and its status"
+      ],
+      "vector_structure": {
+        "paths": 3,
+        "texts": 0,
+        "rasters": 0,
+        "width": "6cm",
+        "height": "4cm",
+        "viewbox": "0 0 6 4",
+        "semantic_refs": 2,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "ec3cc7fa6d0f6673c5a86f0b88e135c975bcd0ac3520aaa1356a45e65b36db3e",
+        "pattern.pdf": "5860964070065079e4fac81116fa014bf77ef6de569f0a3cc821e6e6c95e7cc1",
+        "pattern.svg": "9dfef68d2239d7afaa7eca2174977587fec5a60f5dab8ef5ae731482d0624fb7",
+        "recipe.json": "6faa20725c2e52a472e492438e54d8eea84b256fe800a649bc9e68be96445e42",
+        "record.json": "97de28cd9f861023b07e436be0087fe8c6709ada7378ab12481069ce5e72f4cc",
+        "scene.json": "d04d08720f4bf53b35efd976e5f568e949153992efa7b8ca44978e65ed8d3cf2",
+        "view.json": "d85ff931f178afa2993a115e702207b1a2c79274bd1672e9676de9a5755f15fb"
+      }
+    },
+    "exemplar": {
+      "status": "passed",
+      "source_digest": "a12ec1ef1bb32d9e732ed2914a47d4171578794b1ca72a3576e093f818690687",
+      "instance_sha256": "340eb2aa1f731ca3c2b95244c42606c341c7cf53e6fc1e7a1fdbfcd189e31809",
+      "claims": [
+        "User-selected JSON exemplar library imported and natively validated",
+        "Authored primitive thickness change alters actual synthesized vector",
+        "Actual DecoBrush synthesis uses imported start/middle/finish pieces"
+      ],
+      "vector_structure": {
+        "paths": 2,
+        "texts": 0,
+        "rasters": 0,
+        "width": "4cm",
+        "height": "1.5cm",
+        "viewbox": "0 0 4 1.5",
+        "semantic_refs": 1,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "340eb2aa1f731ca3c2b95244c42606c341c7cf53e6fc1e7a1fdbfcd189e31809",
+        "pattern.pdf": "eb5eed60bea8cfe98627046cd5fb4d9ed0cd140977c0600d1a775455b9ab3bd3",
+        "pattern.svg": "ec46275abcaae91823629c9f0bc4292242811c3f517a63e3ca99d12f729da226",
+        "recipe.json": "a6aa17fbff7819a6786a12335e228ff71cc2fc2ade4e79873a569723dee02a9e",
+        "record.json": "969d073f2a217e08d198c005624047952bd0e85b040feffd801a02b933b945ab",
+        "scene.json": "92a7e92a5714300ce18f7d513e4ce9c31799bec8566b7f3f152813aedac626dc",
+        "view.json": "3bfdab71e8a1094f5da8b079934bd72f8f63506399b972a77e5e955b068b3e71"
+      }
+    },
+    "microgram": {
+      "status": "passed",
+      "source_digest": "a12ec1ef1bb32d9e732ed2914a47d4171578794b1ca72a3576e093f818690687",
+      "instance_sha256": "ce0c22e842674d440269309b13dccb28a910eaf377e7b4affdfa063d050d16f5",
+      "claims": [
+        "Authored text shaped and placed by actual native Micrography family",
+        "Pinned font identity and unsupported custom loading displayed",
+        "Vector text is preserved in native output"
+      ],
+      "vector_structure": {
+        "paths": 349,
+        "texts": 7,
+        "rasters": 0,
+        "width": "13cm",
+        "height": "7cm",
+        "viewbox": "0 0 13 7",
+        "semantic_refs": 355,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "ce0c22e842674d440269309b13dccb28a910eaf377e7b4affdfa063d050d16f5",
+        "pattern.pdf": "080cade796b44d929e4ea6801117379c94bb38af0566f5d030cbb18de528e330",
+        "pattern.svg": "40a59533cc9f2c2c9651c52dd18d15344d32b5c45e9b2a71434b7c1ba7583c87",
+        "recipe.json": "862108931d1c58a56dab36fdf85bcb62a4e32681148a783d501f0b00e48a260d",
+        "record.json": "a9bde668944718ff313ed68a095c4485b102a4ebd23fe15d5078ffefbcabf16c",
+        "scene.json": "66ff5c6c37e6922281ec894c17799dce03d3f7f3f8dc92b544f31783ecef3877",
+        "view.json": "fcc45f66efe139bb7cfe9ade76d33d15fdd0e2c6e6141286358c7c0fa904ea74"
+      }
+    }
+  },
+  "errors": [],
+  "scope": "Actual DOM/worker tasks and exact downloaded vector bytes; visual review is a separate required evidence receipt."
+}

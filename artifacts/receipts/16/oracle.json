@@ -1,0 +1,158 @@
+{
+  "semantics": {
+    "attachments": 14,
+    "crossings": 10,
+    "pic_contacts": 164,
+    "penrose_cells": 224,
+    "spectre_cells": 62
+  },
+  "render": {
+    "botanical": {
+      "mean_backend_error": 0.0005096098237274708,
+      "ink_pixels": [
+        5990,
+        5991
+      ],
+      "dimensions": [
+        600,
+        550
+      ]
+    },
+    "botanical-diagnostic": {
+      "mean_backend_error": 0.0004942602495543672,
+      "ink_pixels": [
+        5947,
+        6069
+      ],
+      "dimensions": [
+        600,
+        550
+      ]
+    },
+    "celtic": {
+      "mean_backend_error": 0.002137893092141458,
+      "ink_pixels": [
+        7079,
+        6986
+      ],
+      "dimensions": [
+        270,
+        275
+      ]
+    },
+    "celtic-diagnostic": {
+      "mean_backend_error": 0.0022703549657798025,
+      "ink_pixels": [
+        6889,
+        6930
+      ],
+      "dimensions": [
+        270,
+        275
+      ]
+    },
+    "islamic": {
+      "mean_backend_error": 0.003341402404583232,
+      "ink_pixels": [
+        2654,
+        2610
+      ],
+      "dimensions": [
+        270,
+        180
+      ]
+    },
+    "islamic-diagnostic": {
+      "mean_backend_error": 0.0032666290110008336,
+      "ink_pixels": [
+        2654,
+        2610
+      ],
+      "dimensions": [
+        270,
+        180
+      ]
+    },
+    "penrose": {
+      "mean_backend_error": 0.011947494553376906,
+      "ink_pixels": [
+        36000,
+        36000
+      ],
+      "dimensions": [
+        225,
+        160
+      ]
+    },
+    "penrose-diagnostic": {
+      "mean_backend_error": 0.017074546114742194,
+      "ink_pixels": [
+        15189,
+        15061
+      ],
+      "dimensions": [
+        225,
+        160
+      ]
+    },
+    "spectre": {
+      "mean_backend_error": 0.007144963484832766,
+      "ink_pixels": [
+        80466,
+        80397
+      ],
+      "dimensions": [
+        385,
+        378
+      ]
+    },
+    "spectre-diagnostic": {
+      "mean_backend_error": 0.0060821724874012455,
+      "ink_pixels": [
+        80466,
+        80400
+      ],
+      "dimensions": [
+        385,
+        378
+      ]
+    },
+    "composition-1": {
+      "mean_backend_error": 0.0007505045751633987,
+      "ink_pixels": [
+        19433,
+        19263
+      ],
+      "dimensions": [
+        1000,
+        750
+      ]
+    },
+    "composition-2": {
+      "mean_backend_error": 0.0028827694989106757,
+      "ink_pixels": [
+        212024,
+        212044
+      ],
+      "dimensions": [
+        1000,
+        750
+      ]
+    },
+    "islamic-unmasked": {
+      "mean_backend_error": 0.0034705075445816184,
+      "ink_pixels": [
+        2760,
+        2712
+      ],
+      "dimensions": [
+        270,
+        180
+      ]
+    }
+  },
+  "protected_probe_unmasked_ink": [
+    105,
+    105
+  ]
+}

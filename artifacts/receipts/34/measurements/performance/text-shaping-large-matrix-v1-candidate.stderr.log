@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\EN33948\Documents\Codex\2026-11-02\goal-execute-the-attached-pattern-platform-2\work\run-lua-profile34.py", line 17, in <module>
+    lua.execute(b'''
+  File "lupa/lua53.pyx", line 466, in lupa.lua53.LuaRuntime.execute
+  File "lupa/lua53.pyx", line 1897, in lupa.lua53.run_lua
+  File "lupa/lua53.pyx", line 1911, in lupa.lua53.call_lua
+  File "lupa/lua53.pyx", line 1938, in lupa.lua53.execute_lua_call
+  File "lupa/lua53.pyx", line 1819, in lupa.lua53.raise_lua_error
+lupa.lua53.LuaError: tools/perf_run.lua:52: {"accepted_outputs":0,"diagnostics":[".\\pattern_micro_field.lua:200: micrography-field-not-horizontal-monotone"],"elapsed_seconds":3.7878784000058658,"phase":"cold-generation","status":"failed"}
+stack traceback:
+	[C]: in function 'assert'
+	tools/perf_run.lua:52: in main chunk
+	[C]: in function 'dofile'
+	[string "<python>"]:6: in main chunk

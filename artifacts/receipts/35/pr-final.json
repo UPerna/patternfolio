@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/UPerna/florilegium/pull/2",
+  "number": 2,
+  "state": "open",
+  "merged": false,
+  "draft": true,
+  "base": "improve/layout-controls",
+  "base_sha": "879610d82637229f0f4c06f828fe3a6d68d6faf6",
+  "head": "pattern/common-platform",
+  "head_sha": "96390d9afce26246dcf6da878e33fcb95b2c1b28",
+  "updated_at": "2026-11-07T03:55:23Z",
+  "body": "Adds the common Lua pattern platform while preserving the historical floral delivery. The five durable contracts now support 22 public profiles, a shared PDF/SVG renderer, CLI replay, both TeX adapters, and a browser studio using the same Lua generators.\n\nStage 35 adds native diagnostics, monochrome proofs and narrow crop exports for every profile. It retains the original method fixtures and all 44 accepted clean vector exports. The browser checks transparency and protected interiors, and the review separates visible appearance from structural validation. Office import and physical printing remain untested.\n\nVerified revision `96390d9afce26246dcf6da878e33fcb95b2c1b28`, tree `122a3dce50a51bacf93b428ab164c0917478fb03`: [build 65](https://github.com/UPerna/florilegium/actions/runs/42331909848) passed all five required jobs. The actual artifacts independently verify 66 native PDFs, 88 SVG views, 22 same-runtime browser replays, both native engine placements, 13 editor workflows, bounded failures, and 27 workloads per runtime. The exact source kit and original history were retained.\n\nThis is a draft candidate. Gallery, release packaging, final challenge and handover are still in progress.",
+  "title": "Build the common pattern platform and botanical compatibility"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "source_digest": "10f76287e8a293ae14b76702f968b8b05bec221575da9d93d66654d6035fd794",
+  "instance_sha256": "948fe0bb419a1f923ac41457e1b5a26af5bdd7ec69b9cbb1deeae1a1e62a2c28",
+  "claims": [
+    "Authored open sector changes native strand topology",
+    "Actual scaffold vertices/edges and crossing pins exposed",
+    "Generated topology validated by native family"
+  ],
+  "vector_structure": {
+    "paths": 12,
+    "texts": 0,
+    "rasters": 0,
+    "width": "5.4000000000000004cm",
+    "height": "5.5cm",
+    "viewbox": "0 0 5.4000000000000004 5.5",
+    "semantic_refs": 11,
+    "clips": 1
+  },
+  "assets_sha256": {
+    "instance.json": "948fe0bb419a1f923ac41457e1b5a26af5bdd7ec69b9cbb1deeae1a1e62a2c28",
+    "pattern.pdf": "b86cf6a2049a994ce96d29615508ede494fd2ef5c57a0a27cedd6a8339971c98",
+    "pattern.svg": "db7abd28865f9cb3c6183e081413e56055fc80a9d3ef42d2fa4f89b5474a71e7",
+    "recipe.json": "ba2f358f24464b336206eb6083d4e69024e39d08082c0c1612cbfcb09c2eec2c",
+    "record.json": "c08f1b8fe87d78889882d04078ea7ef01c90a6bcbc93fc2f1c505522af6c72e2",
+    "scene.json": "66014ad85a2734e529c617e954110b192951c0840247776856add5839c31a504",
+    "view.json": "e2ad46935ca26f7d6b714eb16c10925dfaba75a5487d3a0c1dc34f807102f38e"
+  }
+}

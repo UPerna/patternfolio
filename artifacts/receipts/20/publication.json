@@ -1,0 +1,129 @@
+{
+  "stage": "20",
+  "revision": "340bf32c0a7b7a15adf1f721e3a47d6ff1007249",
+  "parent": "890657c64fd2a458dbae463b8a1c1b3c4ed256ec",
+  "tree": "1c1b98153440b6a1afbfec02813f1fa8da663e4b",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "0898d476b56f8e86d394ae9dab59b43e991793a605ee4b2f11aa72c93a272cc7",
+      "bytes": 5735
+    },
+    {
+      "path": "Makefile",
+      "sha256": "4d77f86288d2c784a46ab0b4a4ba3a8f22e904d018135661758391889bf27ce9",
+      "bytes": 6563
+    },
+    {
+      "path": "artifacts/receipts/19/ci-final.json",
+      "sha256": "81dca465d569f7e950df8fde3e7e1f094c6b3da0da6914b33455f5ef9ce41db8",
+      "bytes": 8811
+    },
+    {
+      "path": "artifacts/receipts/19/publication.json",
+      "sha256": "397b3701e70fbfb87dd209a69b8f65846c8014bdb7ced0c5868758d345e3480d",
+      "bytes": 3484
+    },
+    {
+      "path": "artifacts/receipts/20/oracle.json",
+      "sha256": "c17241ee5c03f798c3afb9aefdd0262a38c08215361df1c04f8fcfb3908aa2da",
+      "bytes": 2482
+    },
+    {
+      "path": "artifacts/receipts/20/receipt-Lua-5.3.json",
+      "sha256": "b1c8293daaccd5fbd97ae17037864563110d97c60fc5056849c0ba883fc044b8",
+      "bytes": 3079
+    },
+    {
+      "path": "artifacts/receipts/20/receipt-Lua-5.4.json",
+      "sha256": "b1c8293daaccd5fbd97ae17037864563110d97c60fc5056849c0ba883fc044b8",
+      "bytes": 3079
+    },
+    {
+      "path": "artifacts/receipts/20/source-reference.json",
+      "sha256": "b73e5d29fdbec885a70348865276b759261c37b44c692834fdd8ba529bb725ac",
+      "bytes": 2061
+    },
+    {
+      "path": "docs/architecture/ESCHERIZATION.md",
+      "sha256": "2116724808654d206cba1a14657996685ae5d7603a5493dc75fec78251730921",
+      "bytes": 3058
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "1a5ad7e2059a6bbfdeda8416f3a7378d612cfb1a1153f115964fa13140bd464e",
+      "bytes": 54536
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "03d3f58382aa340f2cd4da03a54a79f3d759c52fcf4c76e7a1d72a20fbde5d21",
+      "bytes": 445
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "e9d57f8a4881f3ff85aefc04888a898243ef0855e154d692d1d07f0322c17dcd",
+      "bytes": 31125
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "ffd7ea0c20b1a9dc56673367c90d411b8219e794e8801c1bfa18a0dd8076fc15",
+      "bytes": 40722
+    },
+    {
+      "path": "docs/research/OPEN_OBLIGATIONS.json",
+      "sha256": "aac02d23134412733fd517b1ae62785f39da526b9f7d244dbec584f7fded569c",
+      "bytes": 2648
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "cd5c786cdfff3c4cda4b96d1b07233a0dd1a7c19205445aa7b5adba9fc1ee455",
+      "bytes": 24992
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "560a5b08fdd5bec8a4d607325d957ea1ee05731f8d903036c2cb680852c1c58f",
+      "bytes": 6903
+    },
+    {
+      "path": "docs/validation/fixtures/escher-targets.json",
+      "sha256": "653f3522ed8b37692581bf28ea340ccb507dda5f9bc688c7bb7638037c7c36e0",
+      "bytes": 851
+    },
+    {
+      "path": "pattern_escher.lua",
+      "sha256": "63dff0c1e4f4ee795d74bdf6f8248ac25ce953a5c29ae469c4ac094e2cebdae4",
+      "bytes": 13203
+    },
+    {
+      "path": "pattern_escher_metric.lua",
+      "sha256": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+      "bytes": 3696
+    },
+    {
+      "path": "pattern_escher_p3.lua",
+      "sha256": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+      "bytes": 9640
+    },
+    {
+      "path": "pattern_escher_periodic.lua",
+      "sha256": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+      "bytes": 6987
+    },
+    {
+      "path": "tools/escher_oracle.py",
+      "sha256": "46805bea21e59910319dee37cd8ea30e0fdf86134339dd0d8a50ea09bbb33603",
+      "bytes": 11966
+    },
+    {
+      "path": "tools/eschercheck.lua",
+      "sha256": "7ee716cafa53c89da22e192d73c7937f4c6c57d58c24e47dfd17dc229f7bab85",
+      "bytes": 7748
+    }
+  ],
+  "unchanged_parent_entries": 363,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41879093437,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

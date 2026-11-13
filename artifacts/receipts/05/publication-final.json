@@ -1,0 +1,17 @@
+{
+  "stage": "05",
+  "commit": "814d7723bdb0aed8fd1ef740876a04ab6f0e2820",
+  "tree": "bd281d0681c1a26231751eccf6a88b5fc3fb906d",
+  "parent": "ededcd38dcf83a163f0ca2816d12a5e8a9d37e80",
+  "branch": "pattern/common-platform",
+  "pull_request": "https://github.com/UPerna/florilegium/pull/2",
+  "method": "atomic Git objects + expected-head ref update; independent native Git fetch",
+  "ci_run": 41489619229,
+  "ci_status": "pending",
+  "initial_ci": {
+    "commit": "ededcd38dcf83a163f0ca2816d12a5e8a9d37e80",
+    "run": 41487649902,
+    "conclusion": "success"
+  },
+  "scope": "Only tests/receipts/docs follow-up; geometry modules unchanged"
+}

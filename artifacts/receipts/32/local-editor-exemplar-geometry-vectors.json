@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "source_digest": "71066c24e6b541386c139936e472a179aa6a76df4aa871eb7bb9178d0d9379d2",
+  "cases": {
+    "exemplar": {
+      "physical_cm": [
+        4,
+        1.5
+      ],
+      "pdf_page_points": [
+        113.38582677165354,
+        42.519685039370074
+      ],
+      "pdf_operations": 278,
+      "svg_elements": 8,
+      "vector_only": true,
+      "searchable_text_characters": null,
+      "sha256": {
+        "recipe.json": "a6aa17fbff7819a6786a12335e228ff71cc2fc2ade4e79873a569723dee02a9e",
+        "pattern.svg": "ec46275abcaae91823629c9f0bc4292242811c3f517a63e3ca99d12f729da226",
+        "pattern.pdf": "eb5eed60bea8cfe98627046cd5fb4d9ed0cd140977c0600d1a775455b9ab3bd3"
+      }
+    }
+  },
+  "scope": "Independent XML/PDF syntax, physical units, vector-only resources, DeviceGray and searchable text; visual review remains separate"
+}

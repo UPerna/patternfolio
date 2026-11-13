@@ -1,0 +1,30 @@
+{
+  "stage": "06",
+  "revision": "07f3fdb3f44dc82707d2f0d9320eb652410e1130",
+  "run_id": 41502953750,
+  "job_id": 125474850485,
+  "conclusion": "success",
+  "verification_lines": [
+    "2026-11-02T18:41:32.7754535Z   extra_system_packages: python3 py3-pillow poppler-utils inkscape",
+    "2026-11-02T18:41:32.7859650Z   INPUT_EXTRA_SYSTEM_PACKAGES: python3 py3-pillow poppler-utils inkscape",
+    "2026-11-02T18:43:14.2714133Z \u001b[1;34mInstall inkscape by apk\u001b[0m",
+    "2026-11-02T18:43:15.5472531Z (68/73) Installing libinkscape_base (1.4.2-r8)",
+    "2026-11-02T18:43:15.6642398Z (69/73) Installing inkscape (1.4.2-r8)",
+    "2026-11-02T18:43:15.8628877Z (70/73) Installing inkscape-minwaita (1.4.2-r8)",
+    "2026-11-02T18:43:15.8871364Z (71/73) Installing inkscape-icon-theme-multicolor (1.4.2-r8)",
+    "2026-11-02T18:43:15.9519050Z (72/73) Installing inkscape-icon-theme-hicolor (1.4.2-r8)",
+    "2026-11-02T18:43:16.0722547Z (73/73) Installing inkscape-icon-theme-tango (1.4.2-r8)",
+    "2026-11-02T18:43:23.3551706Z This is LuaHBTeX, Version 1.24.0 (TeX Live 2026) ",
+    "2026-11-02T18:43:25.8610581Z This is LuaHBTeX, Version 1.24.0 (TeX Live 2026) ",
+    "2026-11-02T18:44:37.0313406Z enginecheck: 11 dual-engine documents, vector/text/metadata/mono/offset parity, cached animation, PDF assets, included auxiliary convergence, stale rebuilds and 6 rejected inputs passed",
+    "2026-11-02T18:44:42.5867539Z offsetcheck: 8 rendered physical and content-relative reservations passed",
+    "2026-11-02T18:45:07.2947234Z exportcheck: {\"inline_bytes\": 996019, \"reused_bytes\": 23955, \"reduction_percent\": 97.6, \"mean_pixel_error\": 0.0553, \"svg_paths\": 535, \"boundary_cases\": 35}",
+    "2026-11-02T18:45:12.6310565Z visualcheck: book-side placement, protected callout, overlapping barriers and full-page reservation passed",
+    "2026-11-02T18:45:27.3647078Z packagecheck: 196 file hashes, reproducible archive and extracted Lua/Xe template builds passed"
+  ],
+  "artifact": {
+    "id": 13170106882,
+    "sha256": "8e33b1a52165b65dcd72cdc8fedddb2dea08c32c7f0a09fab4b1b0e9baf88042"
+  },
+  "scope": "Exact-head portable CI: both legacy TeX adapters and196 source-kit hashes; scene/main pdfs job still pending"
+}

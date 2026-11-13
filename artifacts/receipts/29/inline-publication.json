@@ -1,0 +1,109 @@
+{
+  "stage": "29",
+  "revision": "3e49627f01651ede39c56f5c6e9ef41bcc0230fe",
+  "parent": "b2ec1c6cfb2287545da3437bbd1f42df150276c7",
+  "tree": "a48ba6e98584bc7d5dfd4686ff5f7e64ac121017",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": "artifacts/receipts/29/ci-b2ec-final.json",
+      "sha256": "8cbb19d31cd58eb3fd69933be04f664e57d36a242dffd4ed8d12d31026e1eb5d",
+      "bytes": 4159
+    },
+    {
+      "path": "artifacts/receipts/29/common-native-verification.json",
+      "sha256": "5cba06397e3f6a35290f917411c211cd56b932c298721a9a4e1c5a8ed014ff36",
+      "bytes": 6969
+    },
+    {
+      "path": "artifacts/receipts/29/diagnostics-publication.json",
+      "sha256": "822f2c1964a8dc5b9476b04f3b2f216348acadcf6fd51e6895fc241b981905b1",
+      "bytes": 1538
+    },
+    {
+      "path": "artifacts/receipts/29/inherited-b2ec-native-verification.json",
+      "sha256": "205fe593af2901e85ccdaf5bf927e3fbc5c31127d88921e6ae99b672dd89146c",
+      "bytes": 1798
+    },
+    {
+      "path": "artifacts/receipts/29/inline-constraint-repair.json",
+      "sha256": "3a9edd625129c7dd353d3e30b7247b0d2c9be49747c3247ed88f6c1425206ca4",
+      "bytes": 611
+    },
+    {
+      "path": "artifacts/receipts/29/inline-core-lua53.json",
+      "sha256": "a224e3839a32c185e1891b1705386246535eeee825658611a0acbab4d431eb11",
+      "bytes": 10536
+    },
+    {
+      "path": "artifacts/receipts/29/inline-core-lua54.json",
+      "sha256": "6695243dfdf970914f66298b060b91e395c72dbc69638304aadecf94328e0e2f",
+      "bytes": 10536
+    },
+    {
+      "path": "artifacts/receipts/29/inline-host-Lua-5.3.json",
+      "sha256": "9328a158aff434d0bd57db4d03067c9b6c4c548c9ffd11d4449c660e86d8107a",
+      "bytes": 8210
+    },
+    {
+      "path": "artifacts/receipts/29/inline-host-Lua-5.4.json",
+      "sha256": "9f92a7b0a2c245e68ad3687be5f2ed53e822c282e569eaf62690eb60887dfe23",
+      "bytes": 8210
+    },
+    {
+      "path": "artifacts/receipts/29/packaged-cli-local.json",
+      "sha256": "0a1382be5c2cb73817354830fe1df5c87ebaa429506e374d77cbf73eea544af6",
+      "bytes": 399
+    },
+    {
+      "path": "artifacts/receipts/29/portable-native-verification.json",
+      "sha256": "b3fcc5c61ce94721351b9dc1292bf99e9efc6d9c0ba74b610e12c2e7528022cd",
+      "bytes": 4606
+    },
+    {
+      "path": "docs/LUALATEX-PATTERNS.md",
+      "sha256": "4cf55c3dd0eb29b2168b1ae127797a3346b8f1dd17c38bd9b67beeaf5ec1e982",
+      "bytes": 7087
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "da5399d9d64a46238df46087468faaa115b4925d5b5b64e3e4f922702675e9a4",
+      "bytes": 67235
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "c04354315cddbf65dca893e034f8dd85092a93f3ebd0d7fbd2357b3c2e04fa6b",
+      "bytes": 1750
+    },
+    {
+      "path": "pattern_luatex.lua",
+      "sha256": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+      "bytes": 8727
+    },
+    {
+      "path": "pattern_tex.lua",
+      "sha256": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+      "bytes": 13471
+    },
+    {
+      "path": "tools/check-pattern-tex.lua",
+      "sha256": "d257624426355dc117ef00c3a091b0c5d69276691dc0c10a95ad00c19dc3cc53",
+      "bytes": 9991
+    },
+    {
+      "path": "tools/pattern_tex_consumer.py",
+      "sha256": "a395f0fdf315082231604a4a1cfd3526c39003b29a44602c2a885453d3bb271d",
+      "bytes": 12581
+    },
+    {
+      "path": "tools/tex-inline-constraints.lua",
+      "sha256": "3ea82ae83fbcec3db6976b80cba20da4ddcab4438af2370c773f6c0ec9962153",
+      "bytes": 1528
+    }
+  ],
+  "unchanged_parent_entries": 606,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42122879206,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

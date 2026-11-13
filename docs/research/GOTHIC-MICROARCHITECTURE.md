@@ -1,0 +1,23 @@
+# Gothic microarchitecture
+
+`gothic/spatial-ogee@1` implements a bounded, editable form of the spatial reconstruction in Segall, Ren, Schwarz and Sorkine-Hornung, *Computational Modeling of Gothic Microarchitecture*, SIGGRAPH 2025. See §§4.2–4.4, §5, and the supplemental derivation of the biarc. The primary paper was inspected at SHA-256 `56ee0c365808c8dd152d5d3a332a4ff7c3e32a2030b0b0d930be8991b10f751e`. [Paper](https://segaviv.github.io/papers/gothic_microarchitecture/gothic.pdf)
+
+The reference repository was inspected at `c48eae8ed972e127c2bd2a3adb430ad27aff7612`. The lift, 3D embedding, replica and height-fitting files guide the division between planar construction, side constraints and spatial evaluation. The authors distribute that code under CC BY-NC 4.0. The provider is an independent Lua implementation with original fixtures. [Reference repository](https://github.com/llorz/SIG25_goldschmiedrisse/tree/c48eae8ed972e127c2bd2a3adb430ad27aff7612)
+
+## Reconstruction and editing
+
+Register `pattern_gothic_microarchitecture` with the pattern registry and execute a dimension-3 Recipe. The specification supplies an ordered `units` array. Each unit supplies a compass `radius`, vertical straightedge abscissae `start` and `finish`, an end `height` above its base, and replica transforms `{tx, ty, sx, sy}` in the compass frame. Here each sign is ±1. A ground unit supplies its base `origin` in cm. A nested unit supplies a preceding `parent` index and optional `parent_replica` index and shares that replica's terminal vertex.
+
+The top graph records the center, circle, two straightedges and selected circle-line intersections. Intersect replica circles and filter candidates to their selected arcs. An interior equal-parameter crossing on the basic arc nearest the chart midpoint sets the side profile's point of reverse curvature. Equal-parameter crossings share one network vertex. A top-view crossing at different parameters carries both heights and keeps its two vertices separate. The base mark fixes the basic ground height. Nested bases derive their height from the supporting vertex.
+
+For span (L), rise (H>L), and join fraction (t), the side biarc meets at ((tL,tH)). With (R=(L^2+H^2)/(2L)), its centers are ((tR,0)) and ((L-(1-t)R,H)). The two circles have opposite signed curvature, a common tangent at the join and vertical tangents at the ends. The selected compass abscissa gives the side profile's horizontal coordinate, implementing the projection-based form of Equation 1. The point is reconstructed as the top coordinates and the corresponding side height. Adjusting the end height recomputes the side profile and all dependent nested supports.
+
+The versioned JSON export from `export(instance)` includes the 3D frame, analytic construction, shared vertex IDs and sampled curve chains. For each sample segment the implementation bounds the top and side circle's deviation from their respective same-abscissa chords by evaluating the tangent-slope extrema. Their Euclidean combination bounds the 3D deviation. The default tolerance is 0.004 cm. The acceptance fixture uses 0.003 cm.
+
+## Document views and scope
+
+Views use a row-major affine 4×4 orthographic camera with orthonormal axes. The first two rows produce cm coordinates and the third produces depth increasing toward the viewer. `all_curves` retains complete projected paths in construction order. `depth_sorted` retains every sampled segment and paints far to near by midpoint depth, with a stable order for ties. Overlapping strokes follow the selected paint order. This is a wire representation without opaque surfaces, occlusion masks or visibility guarantees between depth-order transitions. PDF and SVG use the same 2D scene contract, and the 3D source remains available to every view.
+
+The supported compass chart has one upper-branch circular arc per unit and axis-aligned sign/translation replica transforms. It requires a valid interior primary crossing and a strictly monotone side chart. Coincident replica circles and ambiguous junctions are diagnosed. Layer nesting uses terminal supports. Freehand parsing, arbitrary arc chains and rotations, global coupled height fitting, historical sheet replication, mesh generation and fabrication checks are outside this profile. The optional R17 architectural morphogenesis study remains separate.
+
+Run `texlua tools/gothiccheck.lua` and `python3 tools/gothic_oracle.py` from the source root. The harness exercises top, front, oblique and edited oblique views and invalid side/crossing/camera inputs. The independent checker tests circle and biarc constraints, 3D junctions, separated depths, nested supports, chord tolerances and every camera-projected operation.

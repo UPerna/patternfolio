@@ -1,0 +1,184 @@
+{
+  "stage": "16",
+  "source_digest": "6ebc22491cabf3a68e9891ed554ff3b401da47a1eeb9ee42aa1a117d9a064101",
+  "native_checks": 62,
+  "native_output_hashes": 35,
+  "native_local_differences": [],
+  "kit_hashes": 328,
+  "oracle": {
+    "semantics": {
+      "attachments": 14,
+      "crossings": 10,
+      "pic_contacts": 164,
+      "penrose_cells": 224,
+      "spectre_cells": 62
+    },
+    "render": {
+      "botanical": {
+        "mean_backend_error": 0.0005262547039017627,
+        "ink_pixels": [
+          5990,
+          5969
+        ],
+        "dimensions": [
+          600,
+          550
+        ]
+      },
+      "botanical-diagnostic": {
+        "mean_backend_error": 0.0005107427213309567,
+        "ink_pixels": [
+          5947,
+          6049
+        ],
+        "dimensions": [
+          600,
+          550
+        ]
+      },
+      "celtic": {
+        "mean_backend_error": 0.002256974978543606,
+        "ink_pixels": [
+          7079,
+          6981
+        ],
+        "dimensions": [
+          270,
+          275
+        ]
+      },
+      "celtic-diagnostic": {
+        "mean_backend_error": 0.0024230100569969854,
+        "ink_pixels": [
+          6889,
+          6913
+        ],
+        "dimensions": [
+          270,
+          275
+        ]
+      },
+      "islamic": {
+        "mean_backend_error": 0.0035798972538260846,
+        "ink_pixels": [
+          2654,
+          2610
+        ],
+        "dimensions": [
+          270,
+          180
+        ]
+      },
+      "islamic-diagnostic": {
+        "mean_backend_error": 0.0034136205922698296,
+        "ink_pixels": [
+          2654,
+          2610
+        ],
+        "dimensions": [
+          270,
+          180
+        ]
+      },
+      "penrose": {
+        "mean_backend_error": 0.013730718954248365,
+        "ink_pixels": [
+          36000,
+          36000
+        ],
+        "dimensions": [
+          225,
+          160
+        ]
+      },
+      "penrose-diagnostic": {
+        "mean_backend_error": 0.01853340595497458,
+        "ink_pixels": [
+          15189,
+          8355
+        ],
+        "dimensions": [
+          225,
+          160
+        ]
+      },
+      "spectre": {
+        "mean_backend_error": 0.007106151102416275,
+        "ink_pixels": [
+          80466,
+          80541
+        ],
+        "dimensions": [
+          385,
+          378
+        ]
+      },
+      "spectre-diagnostic": {
+        "mean_backend_error": 0.006113143349371174,
+        "ink_pixels": [
+          80466,
+          80546
+        ],
+        "dimensions": [
+          385,
+          378
+        ]
+      },
+      "composition-1": {
+        "mean_backend_error": 0.000800887145969499,
+        "ink_pixels": [
+          19433,
+          19222
+        ],
+        "dimensions": [
+          1000,
+          750
+        ]
+      },
+      "composition-2": {
+        "mean_backend_error": 0.003339762962962963,
+        "ink_pixels": [
+          212024,
+          211921
+        ],
+        "dimensions": [
+          1000,
+          750
+        ]
+      },
+      "islamic-unmasked": {
+        "mean_backend_error": 0.0037188735576535142,
+        "ink_pixels": [
+          2760,
+          2712
+        ],
+        "dimensions": [
+          270,
+          180
+        ]
+      }
+    },
+    "protected_probe_unmasked_ink": [
+      105,
+      105
+    ]
+  },
+  "visual_review": "Accepted five standalone and five diagnostic pairs, two composed pages, and the unmasked witness. Verified the protected content probes.",
+  "revision": "ef4c249a6804f091ff3d11b5e2d458cb3abbbe0a",
+  "tree": "11494257da1f60b1cffc00354d2a79eefe160867",
+  "run": 41847845060,
+  "jobs": {
+    "portable": {
+      "id": 126635954364,
+      "conclusion": "success"
+    },
+    "pdfs": {
+      "id": 126635953791,
+      "conclusion": "success"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "973bc9a19e6992f6d6bdf492bce4551bf9c4875530084e1847dee77a05e69dfa",
+    "portable": "ec02de65981cda240d9a190a7867dbf11385c602c19971654c3505c782e80e34"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "resolved",
+  "run": 42299628203,
+  "job": 128173724653,
+  "completed": "success",
+  "log": "native-pdfs-job.log",
+  "identity": "native-log-identity.json"
+}

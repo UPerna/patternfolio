@@ -1,0 +1,13 @@
+{
+  "stage": "21",
+  "source": "R07",
+  "title": "Simulating Decorative Mosaics",
+  "author": "Alejo Hausner",
+  "year": 2001,
+  "url": "https://web.tecgraf.puc-rio.br/~scuri/inf1378/pub/hausner.pdf",
+  "sha256": "cc0778b1457d7f0db4cf2ea31e1caf0095743762883de2e1a7b3e9770eb8465a",
+  "sections": ["3 Our Approach", "4 Direction Field", "5 Tile Variations", "6 Edge Avoidance"],
+  "figures": [1, 5, 6, 7, 8],
+  "implementation": "Independent CPU lower-envelope sampling of oriented anisotropic Manhattan pyramids, Lloyd updates and source exclusion/recovery phases. Bounded convex vector packing projection.",
+  "redistribution": "Private paper. Synthetic image and panel fixtures are original."
+}

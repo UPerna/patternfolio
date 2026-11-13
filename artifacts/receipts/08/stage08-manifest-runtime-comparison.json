@@ -1,0 +1,40 @@
+{
+  "numeric_differences": 624,
+  "largest_absolute_numeric_difference": 3.552713678800501e-15,
+  "nonnumeric_differences": [],
+  "nonnumeric_count": 0,
+  "numeric_sample": [
+    [
+      "authored.manifest/structures/growth/nodes/4/sampled_points/26/0",
+      1.1102230246251565e-16
+    ],
+    [
+      "authored.manifest/structures/growth/nodes/65/sampled_points/4/0",
+      2.220446049250313e-16
+    ],
+    [
+      "authored.manifest/structures/growth/nodes/67/sampled_points/1/0",
+      2.220446049250313e-16
+    ],
+    [
+      "authored.manifest/structures/growth/nodes/67/sampled_points/2/0",
+      2.220446049250313e-16
+    ],
+    [
+      "authored.manifest/structures/growth/nodes/67/sampled_points/3/0",
+      2.220446049250313e-16
+    ],
+    [
+      "authored.manifest/structures/growth/nodes/67/sampled_points/4/0",
+      2.220446049250313e-16
+    ],
+    [
+      "authored.manifest/structures/growth/nodes/67/sampled_points/5/0",
+      2.220446049250313e-16
+    ],
+    [
+      "authored.manifest/structures/growth/nodes/67/sampled_points/6/0",
+      4.440892098500626e-16
+    ]
+  ]
+}

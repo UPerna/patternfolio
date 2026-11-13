@@ -1,0 +1,259 @@
+{
+  "stage": "29",
+  "revision": "c4729e2901bdfcaf6f10e09e2571a0c0ea034ae9",
+  "parent": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+  "tree": "7c6990534bcb547de44ce01e6a17771b120de4fd",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "9effdb2e3e900cc3bf284a62cda5d4a708e93c3719f0b16fe634b042cf387ff2",
+      "bytes": 7753
+    },
+    {
+      "path": "artifacts/receipts/28/all-family-batch-progress.json",
+      "sha256": "a8d3d3c1ad217bc073fbd7c0fcb8a7813c7b3b9718d574b327e3a031d47f5b9b",
+      "bytes": 8006
+    },
+    {
+      "path": "artifacts/receipts/28/ci-final.json",
+      "sha256": "8b9237a51deddacacae4f5d8023c3d5e0a9c7b62806155cccf23d1bdbe168542",
+      "bytes": 6538
+    },
+    {
+      "path": "artifacts/receipts/28/consumer-final-windows.json",
+      "sha256": "95ea2093204d93b70b3e82037f61d7cea02768be633967ae7a0ea6de6fbef57d",
+      "bytes": 15196
+    },
+    {
+      "path": "artifacts/receipts/28/final-native-cache-replay-windows.json",
+      "sha256": "81c15e2982652df7efccfc55f232bdf221cde97875f958e3840e97529a160128",
+      "bytes": 953
+    },
+    {
+      "path": "artifacts/receipts/28/final-native-visual-equivalence.json",
+      "sha256": "08d6ad0cd87b153aaa285a8ce5ae4c97b9047a1c6040d039bd9a893ca1ebf6aa",
+      "bytes": 397
+    },
+    {
+      "path": "artifacts/receipts/28/final-packaged-cli-local.json",
+      "sha256": "a56cf6bc78a0d3b7228296881f099c4f2822e0f8e288db22f89cb49e5e8fc7f4",
+      "bytes": 399
+    },
+    {
+      "path": "artifacts/receipts/28/final-portable.json",
+      "sha256": "c7129bea9bdf2af1d89c9a96571ebbb9aaf29d9db2fc405f268e79036988eb08",
+      "bytes": 255
+    },
+    {
+      "path": "artifacts/receipts/28/final-publication.json",
+      "sha256": "bb22095ded0a68d93ad7dfc6c0e32f3bedc2c31be21a12edccb3cbc89d597896",
+      "bytes": 800
+    },
+    {
+      "path": "artifacts/receipts/28/final-source-archive.json",
+      "sha256": "f7ac6d1bc09e2d667942dd5cd64e359d1546af9a8d0bdc164d7c6dd960e6a2d4",
+      "bytes": 384
+    },
+    {
+      "path": "artifacts/receipts/28/packaged-cli-local.json",
+      "sha256": "5b2f85c0bd1119fb8e2d3e9679ff99b75221355dda3fa3f5fab3291454dbf0cc",
+      "bytes": 399
+    },
+    {
+      "path": "artifacts/receipts/28/portable.json",
+      "sha256": "65f1f24106ad5c157245f50f99a52e3f729e43c572675a4a95d1e4d104e1aade",
+      "bytes": 255
+    },
+    {
+      "path": "artifacts/receipts/28/publication.json",
+      "sha256": "2acec3e264aedeb5a35d5658483f65944daf42081d82d037563be8510c2bcb55",
+      "bytes": 8701
+    },
+    {
+      "path": "artifacts/receipts/28/repair-publication.json",
+      "sha256": "52f1ebad2bda65d5ef5d1a6025555c97021083c3a72b41b6ac7bb66572ce53d8",
+      "bytes": 1348
+    },
+    {
+      "path": "artifacts/receipts/28/stage28-local-all-families.json",
+      "sha256": "6f24dfe25026c3c40a77d40db9244065c1f3278c68df321e223bd82b688c2205",
+      "bytes": 11985
+    },
+    {
+      "path": "artifacts/receipts/28/stage28-local-failures-output.json",
+      "sha256": "59325c2833a12f6e0866eb5459846fe036e884e378c7a2a7567056db5484a04f",
+      "bytes": 296
+    },
+    {
+      "path": "artifacts/receipts/28/superseded-native-pass.json",
+      "sha256": "1244588876393bdfe404c531acb042a15e3ac4a15e14f7b4826982d401b88e13",
+      "bytes": 1847
+    },
+    {
+      "path": "artifacts/receipts/28/visual-local-final.json",
+      "sha256": "9b30e225e286226a736a91016663dfa4810883b895f1814dffc4360f52364cfc",
+      "bytes": 2321
+    },
+    {
+      "path": "artifacts/receipts/29/core-development-lua53.json",
+      "sha256": "44c872349d202120b84b0f597234a7d5818e7964c40cca10d3cd371e74494825",
+      "bytes": 9317
+    },
+    {
+      "path": "artifacts/receipts/29/core-development-lua54.json",
+      "sha256": "5531116082fddbfcc91c3ad1253c2b82fa7595b9075b74cb4d5e1f73cf05365c",
+      "bytes": 9317
+    },
+    {
+      "path": "artifacts/receipts/29/core-local-lua53.json",
+      "sha256": "2390d562861314ef34d8eeb4272bc809e6113288dd52f70feaceb42ea858315c",
+      "bytes": 10434
+    },
+    {
+      "path": "artifacts/receipts/29/core-local-lua54.json",
+      "sha256": "3a1e23a7bff170a4c874ab263df1c83f733372cf5945f2865e87b0acfa3f090f",
+      "bytes": 10434
+    },
+    {
+      "path": "artifacts/receipts/29/fixture-provenance.json",
+      "sha256": "5ad9114e113ead7904670b96367436aa8867b8502024a8096acf183d13191083",
+      "bytes": 1864
+    },
+    {
+      "path": "artifacts/receipts/29/pdf-parser-native-smoke.json",
+      "sha256": "bc9d85577b56047237bcb9997e0e516d391b24302db8565e4d24d4d73b01d72d",
+      "bytes": 285
+    },
+    {
+      "path": "docs/LUALATEX-PATTERNS.md",
+      "sha256": "7eba8a7e771a74d23e758ddd3fa3f61abb450c28848595b7f77353dbee624f58",
+      "bytes": 6700
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "9cd8d84fdfee83b2ab465a2ce6c899da99e4658c053eae3a14b6f830b60df7ab",
+      "bytes": 7192
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "037b2b7c6e668e9f9f6e88f9e67b3c24e5da7d950261e8f3bfd23b41f75972f7",
+      "bytes": 65253
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "d8fcdd6ffe8669e4f6e2c03ec3e1cf7b01a49a46a27f5a95af22aab0b52ea39f",
+      "bytes": 1132
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "f8dadc4056479313e7f3c523a8a8f887171ace635926de0982dd374ce990349e",
+      "bytes": 25819
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "65fd972c267fffee6993a1d695d7d8daf3266089501c68730b8e958ce62e264b",
+      "bytes": 9631
+    },
+    {
+      "path": "examples/patterns/book.tex",
+      "sha256": "3a56c571ad7a9725f80977a253fed385f4f0834d1f3f0001dc8f7bb664e47675",
+      "bytes": 947
+    },
+    {
+      "path": "examples/patterns/chapter-one.tex",
+      "sha256": "a7435f17a2f0299b41c0420ac43e1f6a5f2da176a45ad77a89b2e0eb259281a2",
+      "bytes": 1287
+    },
+    {
+      "path": "examples/patterns/chapter-two.tex",
+      "sha256": "bba23fbdb89aed09ff2519e4e2d96b5c0a1186331c382f1f9582b60bcfb504a7",
+      "bytes": 459
+    },
+    {
+      "path": "examples/patterns/divider.recipe",
+      "sha256": "cb3da822e99109edc3e692bc6edbfe96963bb1077c179ec0aacb4ab90437a495",
+      "bytes": 1126
+    },
+    {
+      "path": "examples/patterns/folio-two.recipe",
+      "sha256": "8e31a8674d632650568021ac0d56fd33aed27734953a9b6e4407af91e8453d2d",
+      "bytes": 115245
+    },
+    {
+      "path": "examples/patterns/folio.recipe",
+      "sha256": "afa4c4f42ce40556fa2b0152c5d4bfe390a162ce53ec6c090fb857a221e2270a",
+      "bytes": 115236
+    },
+    {
+      "path": "examples/patterns/hybrid.recipe",
+      "sha256": "ff922eede908b08b2443b6b38e2b22a3ae1b884efadfd9ae882424aae70c0fe6",
+      "bytes": 1693
+    },
+    {
+      "path": "examples/patterns/initial.recipe",
+      "sha256": "d22f15fb6ec35f4f192073abfe0756ed9219c12691e9c47196e2311c621f994c",
+      "bytes": 115226
+    },
+    {
+      "path": "examples/patterns/micrography.recipe",
+      "sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+      "bytes": 116368
+    },
+    {
+      "path": "examples/patterns/penrose.recipe",
+      "sha256": "2717aaeb265279603cca4969aa897e6f8ad677ff7b5902089d00b6b9150cd139",
+      "bytes": 1368
+    },
+    {
+      "path": "florilegium-patterns.def",
+      "sha256": "97ca9748bd7ae1046a5a7e39c3898a8724ac1d590dab66e4c47fcc7d753278d3",
+      "bytes": 2698
+    },
+    {
+      "path": "florilegium.lua",
+      "sha256": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+      "bytes": 13915
+    },
+    {
+      "path": "florilegium.sty",
+      "sha256": "c7dd74d73264414cae91730c5e8d2650775f07372e310653237df84512e19535",
+      "bytes": 8396
+    },
+    {
+      "path": "pattern_luatex.lua",
+      "sha256": "7ab27306880d56417148332fd73a9ee259cf6494765764310995ddffd006be10",
+      "bytes": 8547
+    },
+    {
+      "path": "pattern_tex.lua",
+      "sha256": "c59c63551659244e7519fd20367583a050af962622aaad985ad73ddcb7fe7371",
+      "bytes": 11735
+    },
+    {
+      "path": "tools/check-pattern-tex.lua",
+      "sha256": "b4acfa80722f3d70af58540a94fb5e472706a58432c105a42ce4e8f1ef5ba903",
+      "bytes": 7672
+    },
+    {
+      "path": "tools/pattern_tex_consumer.py",
+      "sha256": "beb5b1f228aa2259537db73ed25face74f4a6009d48785dc38f8c4863c6b1dff",
+      "bytes": 10904
+    },
+    {
+      "path": "tools/pattern_tex_pdf.py",
+      "sha256": "91a3b4d1184e0267cf8e1a5789246994aedcd8e1b9f811612a27ede3950830ed",
+      "bytes": 3956
+    },
+    {
+      "path": "tools/tex-mask-control.lua",
+      "sha256": "ae195f0941cf350b3c79c5ee6bd9ce136ac5f1a39fc935ee1d3cbb2a46a818ca",
+      "bytes": 1653
+    }
+  ],
+  "unchanged_parent_entries": 545,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42041129505,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

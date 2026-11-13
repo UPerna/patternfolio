@@ -1,0 +1,19 @@
+{
+  "analysis": "Categorical JSON, path commands and SVG attributes agree. Checked all differing numeric values with physical bounds.",
+  "exact_controls_and_categorical_structure": true,
+  "files": {
+    "branched-edit.instance": {
+      "numeric_entries": 1,
+      "maximum_absolute_delta": 6.938893903907228e-18
+    },
+    "branched.instance": {
+      "numeric_entries": 1,
+      "maximum_absolute_delta": 6.938893903907228e-18
+    },
+    "floral.instance": {
+      "numeric_entries": 1,
+      "maximum_absolute_delta": 6.938893903907228e-18
+    }
+  },
+  "pdf_raster_cross_host": {}
+}

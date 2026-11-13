@@ -1,0 +1,11 @@
+{
+  "stage": "05",
+  "commit": "ededcd38dcf83a163f0ca2816d12a5e8a9d37e80",
+  "tree": "13c04807e0f9959f10296333236b8d5f4016f7f1",
+  "parent": "e7e7e32e90b151e7d51e02ad4582207d6ad52174",
+  "branch": "pattern/common-platform",
+  "pull_request": "https://github.com/UPerna/florilegium/pull/2",
+  "method": "atomic Git objects + expected-head ref update; independent native Git fetch",
+  "ci_run": 41487649902,
+  "ci_status": "pending"
+}

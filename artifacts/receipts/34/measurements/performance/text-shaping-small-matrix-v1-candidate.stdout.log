@@ -1,0 +1,4 @@
+Measured actual workload	text-shaping-small	cold-generation	6.688183
+Measured actual workload	text-shaping-small	warm-generation	6.247303
+Measured actual workload	text-shaping-small	validated-instance-replay	4.946874
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 32254567

@@ -1,0 +1,13 @@
+{
+  "kind": "portable",
+  "revision": "8c1e33e289898de93c4f9f7c8733edd62a0a79d2",
+  "run": 42337399300,
+  "job": 128297318153,
+  "artifact_id": 13560641178,
+  "artifact_name": "florilegium-portable-kit",
+  "sha256": "3708696f2819a7ed6c5cf2d8a16361897a6ed0feb4547e74f563450c23292367",
+  "size_in_bytes": 16546918,
+  "archive_bytes": 16546918,
+  "verified_archive_sha256": "3708696f2819a7ed6c5cf2d8a16361897a6ed0feb4547e74f563450c23292367",
+  "safe_extraction": true
+}

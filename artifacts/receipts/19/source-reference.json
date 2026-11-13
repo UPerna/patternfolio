@@ -1,0 +1,20 @@
+{
+  "stage": "19",
+  "source": "R06",
+  "version": "VAST 2004, pp. 193–201",
+  "doi": "10.2312/VAST/VAST04/193-201",
+  "url": "https://diglib.eg.org/bitstreams/e8aaa442-6eff-470f-9c38-76f5189226d3/download",
+  "sha256": "78f969f977965bf45b9378ef5b0c731e23c3e7784935c59ab1411f6d76823ee5",
+  "retrieved": "2026-11-02",
+  "reviewed": "2026-11-04",
+  "sections": [
+    "§2.1 and Fig. 2: excess and two-circle pointed arch",
+    "§2.2 and Fig. 5: paired bays and springline offset",
+    "§2.3 and Fig. 6: tangent crown ellipse",
+    "§2.4 and Fig. 7: concentric offsets and recomputed intersections",
+    "§2.5 and Figs. 8–11: rounded foil tangencies",
+    "§§3.6–3.7: appearance separation and profile scope"
+  ],
+  "implementation": "Original Lua analytic 2D graphs and vector profiles. No source code or figures reused.",
+  "scope": "Rounded foil and dependent recursive circular grammar, actual planar arch/circle bands, bounded strokes for foil profiles. The full 3D mesh and pointed foil variant remain outside this 2D profile."
+}

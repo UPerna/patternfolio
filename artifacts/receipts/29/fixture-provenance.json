@@ -1,0 +1,37 @@
+[
+  {
+    "path": "examples/patterns/divider.recipe",
+    "sha256": "cb3da822e99109edc3e692bc6edbfe96963bb1077c179ec0aacb4ab90437a495",
+    "origin": "accepted native stage 27 collection recipe, run 42003202966, source revision d840207e204e1b268bedfd1a0a226ca12f4dff1c"
+  },
+  {
+    "path": "examples/patterns/folio-two.recipe",
+    "sha256": "8e31a8674d632650568021ac0d56fd33aed27734953a9b6e4407af91e8453d2d",
+    "origin": "accepted native stage 27 collection recipe, run 42003202966, source revision d840207e204e1b268bedfd1a0a226ca12f4dff1c"
+  },
+  {
+    "path": "examples/patterns/folio.recipe",
+    "sha256": "afa4c4f42ce40556fa2b0152c5d4bfe390a162ce53ec6c090fb857a221e2270a",
+    "origin": "accepted native stage 27 collection recipe, run 42003202966, source revision d840207e204e1b268bedfd1a0a226ca12f4dff1c"
+  },
+  {
+    "path": "examples/patterns/hybrid.recipe",
+    "sha256": "ff922eede908b08b2443b6b38e2b22a3ae1b884efadfd9ae882424aae70c0fe6",
+    "origin": "accepted native stage 27 collection recipe, run 42003202966, source revision d840207e204e1b268bedfd1a0a226ca12f4dff1c"
+  },
+  {
+    "path": "examples/patterns/initial.recipe",
+    "sha256": "d22f15fb6ec35f4f192073abfe0756ed9219c12691e9c47196e2311c621f994c",
+    "origin": "accepted native stage 27 collection recipe, run 42003202966, source revision d840207e204e1b268bedfd1a0a226ca12f4dff1c"
+  },
+  {
+    "path": "examples/patterns/micrography.recipe",
+    "sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+    "origin": "published CLI recipe at d891f8ec5d3130966565081cbcfc1bc7a24c1a67"
+  },
+  {
+    "path": "examples/patterns/penrose.recipe",
+    "sha256": "2717aaeb265279603cca4969aa897e6f8ad677ff7b5902089d00b6b9150cd139",
+    "origin": "accepted native stage 27 collection recipe, run 42003202966, source revision d840207e204e1b268bedfd1a0a226ca12f4dff1c"
+  }
+]

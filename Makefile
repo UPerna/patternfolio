@@ -13,6 +13,52 @@ all: florilegium.pdf florilegium-grow.pdf showcase.pdf
 florilegium.pdf florilegium-grow.pdf showcase.pdf specimen.pdf: $(HOSTS)
 
 check:
+	$(RUN) texlua tools/contractcheck.lua
+	$(RUN) texlua tools/replaycheck.lua
+	$(RUN) python3 tools/determinism_oracle.py
+	$(RUN) texlua tools/geometrycheck.lua
+	$(RUN) python3 tools/geometry_oracle.py
+	$(RUN) texlua tools/scenecheck.lua
+	$(RUN) python3 tools/scene_oracle.py
+	$(RUN) texlua tools/plannercheck.lua
+	$(RUN) python3 tools/planner_oracle.py
+	$(RUN) texlua tools/botanicalcheck.lua --legacy-layout
+	$(RUN) python3 tools/botanical_oracle.py
+	$(RUN) texlua tools/periodiccheck.lua
+	$(RUN) python3 tools/periodic_oracle.py
+	$(RUN) texlua tools/celticcheck.lua
+	$(RUN) python3 tools/celtic_oracle.py
+	$(RUN) texlua tools/islamiccheck.lua
+	$(RUN) python3 tools/islamic_oracle.py
+	$(RUN) texlua tools/freeformcheck.lua
+	$(RUN) python3 tools/freeform_oracle.py
+	$(RUN) texlua tools/substitutioncheck.lua
+	$(RUN) python3 tools/substitution_oracle.py
+	$(RUN) texlua tools/penrosecheck.lua
+	$(RUN) python3 tools/penrose_oracle.py
+	$(RUN) texlua tools/spectrecheck.lua
+	$(RUN) python3 tools/spectre_oracle.py
+	$(RUN) texlua tools/integrationcheck.lua
+	$(RUN) python3 tools/integration_oracle.py
+	$(RUN) texlua tools/beenkercheck.lua
+	$(RUN) python3 tools/beenker_oracle.py
+	$(RUN) texlua tools/hatcheck.lua
+	$(RUN) python3 tools/hat_oracle.py
+	$(RUN) texlua tools/tracerycheck.lua
+	$(RUN) python3 tools/tracery_oracle.py
+	$(RUN) texlua tools/eschercheck.lua
+	$(RUN) python3 tools/escher_oracle.py
+	$(RUN) texlua tools/mosaiccheck.lua
+	$(RUN) python3 tools/mosaic_oracle.py
+	$(RUN) texlua tools/strokecheck.lua
+	$(RUN) python3 tools/stroke_oracle.py
+	$(RUN) texlua tools/mazecheck.lua
+	$(RUN) python3 tools/maze_oracle.py
+	$(RUN) texlua tools/micrographycheck.lua
+	$(RUN) python3 tools/micrography_oracle.py
+	$(RUN) texlua tools/check-deco-integration.lua
+	$(RUN) texlua tools/decocheck.lua
+	$(RUN) python3 tools/deco_oracle.py
 	$(RUN) texlua tools/layoutcheck.lua
 	$(RUN) texlua tools/spacecheck.lua
 	$(RUN) texlua tools/initialcheck.lua
@@ -20,6 +66,9 @@ check:
 	$(RUN) python3 tools/layoutsmoke.py
 	$(RUN) python3 tools/bookcheck.py
 	$(RUN) texlua tools/animcheck.lua $(CHECK_SEEDS)
+
+botanical-engine-check:
+	$(RUN) python3 tools/botanical_enginecheck.py
 
 engine-check:
 	$(RUN) python3 tools/enginecheck.py
@@ -115,4 +164,5 @@ preview: florilegium.pdf florilegium-grow.pdf showcase.pdf
 clean:
 	rm -rf build *.aux *.log *.out *.synctex.gz
 
-.PHONY: all check engine-check offset-check folio-preview xe source-package export-check visual-check book-preview layout-preview gallery animation preview postscript clean
+.PHONY: all check botanical-engine-check engine-check offset-check folio-preview xe source-package export-check visual-check book-preview layout-preview gallery animation preview postscript clean
+

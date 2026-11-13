@@ -1,0 +1,6 @@
+{
+  "status": "retained_counterexamples_and_rejections",
+  "high_valence_fan": "60spokes/61circles: independent analytic circle packing valid; former accumulated-angular-residual false rejection fixed with compensated addition and unchanged tolerances. Full ornamental PIC pairing at contact angle72 still rejects with pic-unmatched-ray, accepted_outputs0. This is retained as a geometric-admissibility rejection, not a completed ornament.",
+  "representative_solver_scaling": "Use triangular hexagonal disks with7/19/61circles and many coupled interior radii, rather than a single high-valence center. The61circle case is not reduced in size.",
+  "initial_small_failure": "Initial fixture requested tile continuation options on an adaptive non-tiling profile; native planner correctly rejected. Fixture options corrected to match actual capability; no production tolerance changed."
+}

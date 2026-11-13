@@ -1,0 +1,17 @@
+{
+  "stage": "36",
+  "retrieved": "2026-11-07",
+  "source_id": "R13",
+  "version": "Gieseke et al., CGF40(2),585\u2013609(2021), DOI10.1111/cgf.142658",
+  "sections": [
+    "3 taxonomy",
+    "4 creative means",
+    "5 design features",
+    "7 analysis",
+    "8 discussion"
+  ],
+  "primary_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.142658",
+  "author_pdf_url": "https://cs.purdue.edu/homes/bbenes/papers/Gieseke21CGF.pdf",
+  "access_note": "Web tool rejected the 11.4MB author PDF; publisher full text and author publication records confirm the taxonomy. Existing source ledger retained.",
+  "implementation": "Explicit audit of implemented controls, reach and edit timing; no new method or claim to all survey systems."
+}

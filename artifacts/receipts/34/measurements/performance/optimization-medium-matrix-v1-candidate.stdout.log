@@ -1,0 +1,4 @@
+Measured actual workload	optimization-medium	cold-generation	3.484702
+Measured actual workload	optimization-medium	warm-generation	2.788346
+Measured actual workload	optimization-medium	validated-instance-replay	1.895775
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 19063902

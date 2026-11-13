@@ -1,0 +1,18 @@
+{
+  "file": "beenker-1982.pdf",
+  "url": "https://pure.tue.nl/ws/files/4269555/253166.pdf",
+  "sha256": "d1d4f0085af05dc0a76c429d0efa37e8fed41c697f94694161e3dbb2eacb0abc",
+  "bytes": 2616789,
+  "pages": 68,
+  "verified_title": "Algebraic theory of non-periodic",
+  "retrieved": "2026-11-04",
+  "status": "retrieved and reviewed",
+  "sections": [
+    "§2.2, equations (2.1)–(2.5) and Fig. 2.2",
+    "§2.3, equations (2.6)–(2.9) and Theorem 2.1",
+    "§4.3, Theorem 4.3",
+    "§§5.1–5.3, Theorems 5.1–5.2 and Figs. 5.2–5.5"
+  ],
+  "source_case": "Four families of lines, regular tetragrid dual and chosen coherent singular limits",
+  "scope": "Original code. The publisher PDF and its artwork stay outside the repository."
+}

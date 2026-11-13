@@ -1,0 +1,104 @@
+{
+  "status": "partial-development-evidence",
+  "source_guard": "Each receipt binds its own actual browser/source; historical runs do not claim current edited bridge bytes",
+  "sets": [
+    {
+      "path": "artifacts/receipts/32/development-a-border-failure.json",
+      "sha256": "86ff02ffdfacb11efaf66d92d27c4e148b66c4c1ce87c1ff590f97d4c0af78c3",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-a"
+    },
+    {
+      "path": "artifacts/receipts/32/development-b-receipt.json",
+      "sha256": "f8577fe72588a92dbf5e009a621b772c772c7e84d6b54d6d65898f576007892d",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-b"
+    },
+    {
+      "path": "artifacts/receipts/32/development-b-vector-inspection.json",
+      "sha256": "175f23d26f2f45725a7b5fbfc85fb9f38435081482460bd19f39c6fc11121d2f",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-b"
+    },
+    {
+      "path": "artifacts/receipts/32/development-b-border-receipt.json",
+      "sha256": "db50b7b84b42865bd26ad416face8fbdbc00e4ddf0f7d5a2e44a1b40e4c1850b",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-b"
+    },
+    {
+      "path": "artifacts/receipts/32/development-b-knot-receipt.json",
+      "sha256": "6ac66345386921cf461af7ec44a9d41339ba67c8f72d8ecb7feaab93ef242a34",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-b"
+    },
+    {
+      "path": "artifacts/receipts/32/development-b-penrose-receipt.json",
+      "sha256": "de69186421a6eb7fb9ddb9fe7a7f8716ac49e9337638a4842eaf93a4b29fbda0",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-b"
+    },
+    {
+      "path": "artifacts/receipts/32/development-b-spectre-receipt.json",
+      "sha256": "d11ddffa047b4efea009c0f4e8d5e361338c27f69625e7741dd38abf5a47cae9",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-b"
+    },
+    {
+      "path": "artifacts/receipts/32/development-c-microgram-failure.json",
+      "sha256": "4233032e82d62fcb6a0bac174cd95a38d3a3b8080216b1fa230c373af1c8b815",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-c"
+    },
+    {
+      "path": "artifacts/receipts/32/development-c-exemplar-receipt.json",
+      "sha256": "d339aec5ce034f5f5538ed25d71dbe2d2e444a0121ebccbe005a123d9037aa1a",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-c"
+    },
+    {
+      "path": "artifacts/receipts/32/development-d-receipt.json",
+      "sha256": "2001fdb89d1fc509ddeae50fbef05f6a9820cb871755034203d0141672fa1fd0",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-d"
+    },
+    {
+      "path": "artifacts/receipts/32/development-d-vector-inspection.json",
+      "sha256": "4f89c300c4c35e6189a1f1aa15ee3e196b5b4e955d121a533d75481afb3db88d",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-d"
+    },
+    {
+      "path": "artifacts/receipts/32/development-d-maze-receipt.json",
+      "sha256": "e6f2ae3f54c77a3636192abe460ffed963577c4a38bed7d13359d6d4afde98d1",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-d"
+    },
+    {
+      "path": "artifacts/receipts/32/development-d-microgram-receipt.json",
+      "sha256": "3b50fb29dd36c85efbc601b91c803d372fb6e4e508d6d9bfba33262679391227",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-d"
+    },
+    {
+      "path": "artifacts/receipts/32/development-d-recovery-receipt.json",
+      "sha256": "a37dceb8525537ceb5ae51c238cf5b2d1a7502c15243d3f65e9dd1afd2e9ce4c",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-d"
+    },
+    {
+      "path": "artifacts/receipts/32/development-e-canvas-failure.json",
+      "sha256": "dd71c0e60a2ed7621fcae08b27bd5ccdac24d30c473f7eaa43308f93081ffb95",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-e"
+    },
+    {
+      "path": "artifacts/receipts/32/development-e-recovery-receipt.json",
+      "sha256": "3b604cf9ff89e08f529a231e6b0cec84481efdbebbae1939490e11e2e7bc41f9",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-e"
+    },
+    {
+      "path": "artifacts/receipts/32/development-f-canvas-failure.json",
+      "sha256": "767f0ee8372500a09d09075d109ba0476bc468b5fe4e1ac84c07bda7dc7f4334",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-f"
+    },
+    {
+      "path": "artifacts/receipts/32/development-g-receipt.json",
+      "sha256": "880338b410ae3e57a050a87df6df84686d8d7927109698279aea01f81cf8c278",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-g"
+    },
+    {
+      "path": "artifacts/receipts/32/development-g-canvas-receipt.json",
+      "sha256": "afeb60cdea1539e2964b0dc11abef4b701093bac17fa21d6f79b76753fd82910",
+      "development_directory": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage32\\build\\editor-development-g"
+    }
+  ],
+  "ongoing_final_run": "session95947 build/editor-final-development; poll before claiming complete",
+  "working_changes_after_final_run_started": "helper long-digest wrapping; preserve unchanged crop/mask fields; rebuild and retest affected UI before native CI",
+  "archive": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\outputs\\Florilegium_Stage32_Editor_Development_Evidence.zip"
+}

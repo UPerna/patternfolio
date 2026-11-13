@@ -1,0 +1,84 @@
+{
+  "stage": "07",
+  "status": "passed",
+  "revision": "e5a7b99140e95a6e70a425e0605c89688468c2e3",
+  "tree": "b80500be24cc4487340e206db409f80e8b63c992",
+  "parent": "76cc324cd68f564f924f1e00729a19579eb4a78d",
+  "run": 41692959075,
+  "jobs": [
+    {
+      "id": 126115987576,
+      "name": "pdfs",
+      "conclusion": "success"
+    },
+    {
+      "id": 126115987902,
+      "name": "portable",
+      "conclusion": "success"
+    }
+  ],
+  "native_checks": [
+    "2026-11-03T18:24:05.3528441Z contractcheck: 61 checks passed; actual floral + graph + tiling examples; semantic-only text/strands/3D/field fixtures",
+    "2026-11-03T18:24:13.8288821Z replaycheck: numeric locales exercised 3; unavailable locales skipped explicitly",
+    "2026-11-03T18:24:13.8389816Z replaycheck: 145 checks passed; golden vectors, actual generation/replay, dependency mutations, failure records and atomic filesystem faults",
+    "2026-11-03T18:24:13.8759465Z determinism_oracle: independent Python hashlib, canonical-number and modular-integer vectors passed",
+    "2026-11-03T18:24:15.8249922Z geometrycheck: 91 analytical/adversarial checks passed; oracle corpus2000 orientations/500 segments/66 cubics/128 bounds, source 045bd018b195b5ccf9f8e38c2d5f0bc782700d0f90a1a64eeec725405762f074, cache b38546fd5aab9e8061c32b12b1d024a2fef122202b69975400a87cd22eeefe7f",
+    "2026-11-03T18:24:16.4506024Z geometry_oracle: Fraction checks passed; {'orientations': 2000, 'segments': 500, 'cubics': 66, 'bounds': 128} across 1 current-source reports",
+    "2026-11-03T18:24:23.1100589Z scenecheck: 56 checks passed; six actual PDF/SVG fixtures in build/scenes/f0da9c5d7d110303bbaa0be7f034948abd4c892d911d173d29ddc744122ed25b",
+    "2026-11-03T18:24:25.9856003Z scene_oracle: six vector pairs, physical bounds, Unicode/order, dash/winding probes and strict protected ink passed f0da9c5d7d110303bbaa0be7f034948abd4c892d911d173d29ddc744122ed25b",
+    "2026-11-03T18:24:35.7094869Z florilegium: grew 3608 cells, 11 motifs, 1141 stem points, 646 KB; visitors: noneplannercheck: 82 checks passed; one immutable grid, standalone/facing/overlap PDF/SVG views; evidence build/planner/5be36b4338c117ecb388de4c7832d7db7173decd0b3954a150940308007a99c6",
+    "2026-11-03T18:24:38.6158203Z planner_oracle: exact comparisons, actual standalone/two-page coordinates, world overlap and strict protected ink passed 5be36b4338c117ecb388de4c7832d7db7173decd0b3954a150940308007a99c6",
+    "2026-11-03T18:24:48.5839609Z layoutcheck: 28 checks passed",
+    "2026-11-03T18:24:48.5968407Z spacecheck: clearance, detours, determinism and blocked corridors passed",
+    "2026-11-03T18:24:48.6068803Z initialcheck: missing reader, unreadable font, missing glyph and malformed bounds handled",
+    "2026-11-03T18:24:48.6288352Z backendcheck: standalone paths, resources, spread/fixed seeds, mono, controls and upright Arabic/Roman bodies passed",
+    "2026-11-03T18:25:40.8310060Z bookcheck: 9 cases passed; fallback initial remains searchable"
+  ],
+  "portable_checks": [
+    "2026-11-03T18:24:49.2806686Z enginecheck: 11 dual-engine documents, vector/text/metadata/mono/offset parity, cached animation, PDF assets, included auxiliary convergence, stale rebuilds and 6 rejected inputs passed",
+    "2026-11-03T18:24:57.6932397Z offsetcheck: 8 rendered physical and content-relative reservations passed",
+    "2026-11-03T18:25:43.5520138Z visualcheck: book-side placement, protected callout, overlapping barriers and full-page reservation passed",
+    "2026-11-03T18:26:06.5993329Z packagecheck: 223 file hashes, reproducible archive and extracted Lua/Xe template builds passed"
+  ],
+  "artifacts": [
+    {
+      "id": 13258705971,
+      "name": "florilegium-pdfs",
+      "size_in_bytes": 10845712,
+      "url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13258705971",
+      "archive_download_url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13258705971/zip",
+      "expired": false,
+      "created_at": "2026-11-03T18:27:55Z",
+      "expires_at": "2027-02-01T18:21:05Z",
+      "updated_at": "2026-11-03T18:27:55Z",
+      "digest": "sha256:870e7d6f19ee87a6fffe11404af0b8ccbb2ca490f4d384c033197b7fed6c4d0d",
+      "workflow_run": {
+        "id": 41692959075,
+        "repository_id": 1440218114,
+        "head_repository_id": 1440218114,
+        "head_branch": "pattern/common-platform",
+        "head_sha": "e5a7b99140e95a6e70a425e0605c89688468c2e3"
+      }
+    },
+    {
+      "id": 13257064985,
+      "name": "florilegium-portable-kit",
+      "size_in_bytes": 12687666,
+      "url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13257064985",
+      "archive_download_url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13257064985/zip",
+      "expired": false,
+      "created_at": "2026-11-03T18:26:08Z",
+      "expires_at": "2027-02-01T18:21:05Z",
+      "updated_at": "2026-11-03T18:26:08Z",
+      "digest": "sha256:c4aeda2c191cdbbfb85ad645e9fdb16f5b4912ab39423f51a1d239fbe58d02ac",
+      "workflow_run": {
+        "id": 41692959075,
+        "repository_id": 1440218114,
+        "head_repository_id": 1440218114,
+        "head_branch": "pattern/common-platform",
+        "head_sha": "e5a7b99140e95a6e70a425e0605c89688468c2e3"
+      }
+    }
+  ],
+  "visual_review": "Fresh native six PDF/SVG document-view pairs and pinned-style legacy open/reserved pages inspected; protected ink clear, overlap exact, native/local12 vector inputs identical. Legacy reserved route_failures1 remains explicit."
+}

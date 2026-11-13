@@ -1,0 +1,55 @@
+{
+  "stage": "35",
+  "status": "started",
+  "base_revision": "8a7f34fa3d84068d6ef98b0c8b3ecf84909abb5f",
+  "prerequisite": "34passed",
+  "stage34_run": 42325240115,
+  "protected_prior_evidence_hashes": 789,
+  "acceptance_sha256": {
+    "29": "317e88ec9fab86a2898bd0153a98b0497db22edc55d19715e411b34b967b8819",
+    "30": "f0dcaa08d1e7e9f5c4895d5cef2dce080d509ed05f33a42f82241f8c036209e2",
+    "31": "7291d318d1f1ba98de674eb0fa41859805fcee09ed6d49965709c54bc8d41ed1",
+    "32": "79afd2600b3d8f5c8f4f3a62031ca5b185ef223a18ac300bf931bb3914a66777",
+    "33": "9b98ed7a737306c3c365081329a58548b1f6edec91cd50f4389023125b894bc9",
+    "34": "8a805a1672a8cb36f9a5a39b25e69605b39284fdb61a37b774bac2ce157c1fa9"
+  },
+  "inherited_aliases": [
+    {
+      "path": "artifacts/receipts/34/ci-current.json",
+      "alias": "artifacts/receipts/35/inherited-published34/ci-current.json",
+      "inherited_sha256": "f2bf48fddf2dfcbf945de398a7aaca28264b24d314ee83ca0215891be4d2a8af",
+      "issued_sha256": "5a4071008ec7c2cc0b1ed9fd0ec39568ba30203153770022dea905cc6fca59d8"
+    },
+    {
+      "path": "artifacts/receipts/34/kit-evidence-scope.json",
+      "alias": "artifacts/receipts/35/inherited-published34/kit-evidence-scope.json",
+      "inherited_sha256": "9b8ee7559dea2b0900b7e4928fe31470069fe969f50b1439a1df8b53f78a8a70",
+      "issued_sha256": "7cb5d876d0a5ca6060f6d80f881eb4a9b8b7eb66b6bb94577068a00f2d0bacf0"
+    },
+    {
+      "path": "artifacts/receipts/34/native-adversarial-partial.json",
+      "alias": "artifacts/receipts/35/inherited-published34/native-adversarial-partial.json",
+      "inherited_sha256": "cd1778ef187ac313c3046a6cb23fd199684a280aac0bfd9494a6e263ba4efc78",
+      "issued_sha256": "6d2d36a46e3ad077492a09e1f1fe7e0036e5e4680ad99d4d24e244ae79c69813"
+    },
+    {
+      "path": "artifacts/receipts/34/native-adversarial-verification.json",
+      "alias": "artifacts/receipts/35/inherited-published34/native-adversarial-verification.json",
+      "inherited_sha256": "ebca94c063f337d68650a4fa49435c6037ef31684b5aac6453bbafd3faafcb20",
+      "issued_sha256": "fa5880726e61a254802da705defead2f8f9cb10978bd0c6d431eccf0258ac436"
+    },
+    {
+      "path": "artifacts/receipts/34/native-performance-verification.json",
+      "alias": "artifacts/receipts/35/inherited-published34/native-performance-verification.json",
+      "inherited_sha256": "3b22289e7493d79aea632494d019b417644d533c79bdb74e039e6ff96f33ac4c",
+      "issued_sha256": "9152c98805cd34e073f0e788c6c8767b8cc5a2df6cd49df889aad4ba6480f7a2"
+    },
+    {
+      "path": "artifacts/receipts/34/pr-current.json",
+      "alias": "artifacts/receipts/35/inherited-published34/pr-current.json",
+      "inherited_sha256": "eb5fc1c629acbf05ed1b0bb053d1d2a09fd9c7adb5a82c09bcf5340837088adf",
+      "issued_sha256": "18ea4a39e595c72dee29cfd61f3e8bec5179f7fd48f7ddd83181adbea1a99741"
+    }
+  ],
+  "next_action": "Stage35 in_progress from accepted34 8a7f34fa3d84068d6ef98b0c8b3ecf84909abb5f/build64/run42325240115,all5currentCI/artifact gates passed. Preserve789prior issued hashes and allsource/worktrees. Conduct separate export-integrity and visible-quality passes in bounded batches across every22implemented generatorprofile and renderer. Verify physicalunits/canvas/bleed/trim/clips/transparency/monochrome/fonts/searchability/caps/joins/reusableassets and vector-only raster absence. Render contact sheets and enlarged details for boundaries/crossings/petals/visitors/tile seams/hatching/text/3D intersections; review realphysicalsize,color/gray,white/colored backgrounds,pathological crops. Use actual structural/alpha-boundary checks plus visible inspection,not averageimageerror alone. Repair demonstrateddefects withoutchanging source-method fixtures; separatelyname aesthetic variants and recheck affectedbatches. Include clean+diagnostic downloadableexamples/exactreplayrecipes for everyprofile; no Office/physicalprint claims withoutactualtests. Preserve existingnative/browser/source/publication qualitygates and all789issued hashes. Publishwithlease,independentGit/mode/binary/history verification and all5exact-headCI/actualartifacts before36. Continue36-39automatically; no merge/release/deployment before39."
+}

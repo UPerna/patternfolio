@@ -1,0 +1,88 @@
+{
+  "measurements": [
+    {
+      "engine": "lua",
+      "source_pdf_sha256": "080aeb3cec5210c5749de0a458aaa5d7886384b056bc0d09b31acc71dd2d6dae",
+      "actual_form": {
+        "file": "",
+        "content_sha256": "61f59823f60c55e9ff9a5fdc6656ed3ea361d334f19c78e8d7deaf838156d43b",
+        "bounds_cm": [
+          6.900015833333334,
+          8.715868888888888,
+          9.9001358333425,
+          9.352073609455866
+        ],
+        "matrix": [
+          0.75003,
+          0.0,
+          0.0,
+          0.75003,
+          195.591,
+          247.064
+        ]
+      },
+      "source_box_bp": [
+        0.0,
+        0.0,
+        113.38582677165354,
+        24.044570962536536
+      ]
+    },
+    {
+      "engine": "xe",
+      "source_pdf_sha256": "080aeb3cec5210c5749de0a458aaa5d7886384b056bc0d09b31acc71dd2d6dae",
+      "actual_form": {
+        "file": "",
+        "content_sha256": "61f59823f60c55e9ff9a5fdc6656ed3ea361d334f19c78e8d7deaf838156d43b",
+        "bounds_cm": [
+          6.9000143421416675,
+          8.715885246136109,
+          9.900134342097916,
+          9.352089966623709
+        ],
+        "matrix": [
+          0.75003,
+          0.0,
+          0.0,
+          0.75003,
+          195.59095773,
+          247.06446366999992
+        ]
+      },
+      "source_box_bp": [
+        0.0,
+        0.0,
+        113.38582677165354,
+        24.044570962536536
+      ]
+    }
+  ],
+  "registered_actual_book_paint": {
+    "name": "actual divider book paint measured-frame registration",
+    "changed_colored_pixels": 0,
+    "union_colored_pixels": 614,
+    "changed_fraction_limit": 0.005,
+    "ink_bounds": [
+      [
+        13,
+        18,
+        213,
+        41
+      ],
+      [
+        13,
+        18,
+        213,
+        41
+      ]
+    ],
+    "coverage_lua_to_xe": {
+      "components": 3,
+      "minimum_coverage": 1.0
+    },
+    "coverage_xe_to_lua": {
+      "components": 3,
+      "minimum_coverage": 1.0
+    }
+  }
+}

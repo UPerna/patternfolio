@@ -1,0 +1,10 @@
+{
+  "revision": "9201a5731c494d111153d15c9937621529d18a02",
+  "run": 42054812019,
+  "job": 127340177399,
+  "status": "rejected at failure-log matcher",
+  "actual_unknown_asset": "compiler rejected correctly",
+  "cause": "TeX terminal line wrapping split asset into asse/newline/t",
+  "repair": "Match complete phrases across whitespace in the full failed-pass log; require nonzero compiler outcome and exact case-specific diagnostics",
+  "native_negative_suite": "Not yet complete; rerun on repaired exact head"
+}

@@ -1,0 +1,76 @@
+{
+  "stage": "30",
+  "revision": "6be6efcb7286a1beadb4c1c5a56f2ad115f2f6a1",
+  "parent": "9ab59175346f61362094610d5ad3bfad4ade6b50",
+  "tree": "cba40571aa4c2d008e6fab04f61e0728195c6596",
+  "route": "independent ordinary Git fetch",
+  "changed_files": [
+    {
+      "path": "artifacts/receipts/30/actual-book-raster-replay.json",
+      "sha256": "ca89fab7152d9824ab30a0e309b5951ebc039c3f18b141c85d8e8c33f5f50a85",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/build-control-utf8-repair.json",
+      "sha256": "58a9fefb4c849a991563cbcb7bd3932626ae5599dd09b5999b27c913b209de65",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/raster-registration-diagnosis.json",
+      "sha256": "b0d3de87ab622dd4928cfc15db76cb921b5e1a5602914d61a55e973592c546f3",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/registration-defect-controls.json",
+      "sha256": "a1286b9e8088af8e2d782d675549275c0ea42b2ae998e972b93dda818f214fa9",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/research.json",
+      "sha256": "bba730224633ceeaef6b78b4fbcd52dfc015dec634c271d70e099b95cd616f7c",
+      "mode": "100644"
+    },
+    {
+      "path": "artifacts/receipts/30/utf8-input-diagnosis.json",
+      "sha256": "5be49264598313f231f295d2be8b097fec5db95862e55e9c19c535e7f49c75d4",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/XELATEX-PATTERNS.md",
+      "sha256": "74720b07a0e5505f0eb33b3e9bb4d7b2ec1fd5050556f0143354866c66166076",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "630b2f3a8bfc9e8d1f0760c787f4ad2c7d632f3d14438346bf0f67afaefae0ea",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "d634d518c3401d991b8d62e2537688d94e4c0dbaba7136dfae3650c1fc12e900",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "eb79764fe77cea52b2a87a66107d9358839149b188222b588ad199f8a192822d",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "209e825529e641175c85e4c90a679418eec32c482fc6c282784f77f00078d24b",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/build_statecheck.py",
+      "sha256": "b152d30698cf1625c7d9382ea7aa87715ac33058248d95e7ddcd17343983be21",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/pattern_dual_tex_consumer.py",
+      "sha256": "1da0ae5cdbdb7ababd73ab6ab0a16b08ffd7ef2c99bfa60c598f8b777b41f125",
+      "mode": "100644"
+    }
+  ],
+  "unchanged_parent_objects_and_modes": 650,
+  "native_acceptance": "pending exact-head CI and artifact verification"
+}

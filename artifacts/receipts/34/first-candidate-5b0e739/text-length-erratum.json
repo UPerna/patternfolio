@@ -1,0 +1,21 @@
+{
+  "status": "corrected_working_document_and_final_measurement_report",
+  "scope": "Narrative text-length counts in the published prepublication report were copied incorrectly; exact recipes, hashes, actual generation and raw object counts were correct. No input or threshold changed. Corrected prose is preserved for the next source checkpoint.",
+  "actual_ascii_text_lengths": {
+    "small": {
+      "characters": 123,
+      "recipe_sha256": "97bcde9377c5aec4a80ad4f01ec1f127fbc85f4733928a66e56f20330e1fa499"
+    },
+    "medium": {
+      "characters": 433,
+      "recipe_sha256": "d9aaea9a4490d3ff6be1052189209453508998b2c071041c9a72d38c116c1636"
+    },
+    "large": {
+      "characters": 1394,
+      "recipe_sha256": "138a034f55691b046036363edf79d2c97b3b3a4f5d1eb8f64c303c2e86a06b6b"
+    }
+  },
+  "corrected_path": "docs/validation/PERFORMANCE-34.md",
+  "publication_revision_with_original_prose": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "next_source_stage": "35"
+}

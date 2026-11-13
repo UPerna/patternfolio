@@ -1,0 +1,28 @@
+{
+  "scope": "Actual native child PDFs; parent book placement failed separately",
+  "revision": "200db9a8bc209eb067f2d6e20c8b50dafb225cee",
+  "rows": [
+    {
+      "name": "penrose",
+      "protected_colored_pixels": [
+        0,
+        0
+      ],
+      "control_colored_pixels": [
+        4961,
+        1920
+      ]
+    },
+    {
+      "name": "hybrid",
+      "protected_colored_pixels": [
+        0,
+        0
+      ],
+      "control_colored_pixels": [
+        0,
+        28
+      ]
+    }
+  ]
+}

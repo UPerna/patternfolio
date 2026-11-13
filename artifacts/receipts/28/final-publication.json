@@ -1,0 +1,24 @@
+{
+  "stage": "28",
+  "revision": "d891f8ec5d3130966565081cbcfc1bc7a24c1a67",
+  "parent": "549e4770397132f2770de2f9efe3d4043e3cd04d",
+  "tree": "992f9e5dc1d179b4e1fe68d9e962be5e79bfd7be",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "f988b27910bd04de1ac7c4386c40b1ff6791dfb83086317326f88b192ea2e4b9",
+      "bytes": 81
+    },
+    {
+      "path": "docs/CLI.md",
+      "sha256": "cce25596f20869a749daef0bb98e2fc4dcdc3b841a20f15b8b29e7c7d58b19a0",
+      "bytes": 8779
+    }
+  ],
+  "unchanged_parent_entries": 551,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42026815106,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

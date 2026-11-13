@@ -1,0 +1,2763 @@
+{
+  "status": "failed",
+  "label": "preflight",
+  "scope": "Serial actual shared Lua core; each fresh process measures generation/warm generation/validated replay plus real PDF/SVG serialization. No concurrent benchmark children.",
+  "timeout_seconds_per_workload": 300,
+  "source_files": {
+    "candidate": {
+      "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+      "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+      "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+      "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+      "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+      "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+      "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+      "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+      "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+      "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+      "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+      "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+      "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+      "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+      "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+      "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+      "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+      "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+      "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+      "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+      "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+      "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+      "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+      "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+      "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+      "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+      "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+      "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+      "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+      "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+      "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+      "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+      "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+      "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+      "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+      "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+      "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+      "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+      "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+      "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+      "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+      "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+      "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+      "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+      "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+      "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+      "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+      "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+      "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+      "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+      "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+      "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+      "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+      "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+      "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+      "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+      "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+      "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+      "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+      "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+      "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+      "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+      "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+      "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+      "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+      "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+      "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+      "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+      "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+      "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+      "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+      "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+      "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+      "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+      "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+      "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+      "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+      "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+      "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+      "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+      "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+      "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+      "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+      "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+      "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+      "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+      "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+      "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+      "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757",
+      "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1"
+    }
+  },
+  "results": [
+    {
+      "id": "floral-growth-small",
+      "class": "floral-growth",
+      "size": "small",
+      "measurements": {
+        "candidate": {
+          "status": "passed",
+          "returncode": 0,
+          "whole_child_wall_seconds": 98.9959159999853,
+          "stdout_sha256": "3c513f5432c3dc5444eeb9640dbb184187a24648e9ac8fb68a5bc726a9bf0aea",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "receipt": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage34\\build\\performance\\results\\floral-growth-small-preflight-candidate-Lua-5.3.json",
+          "receipt_sha256": "12e7e50289a7210f5b6b15b7f8ded98d7d15511b5ca8878a146d7c227c7d39bd",
+          "data": {
+            "actual_lua": "Lua 5.3",
+            "bootstrap_loading_source_verification_seconds": 0.7675825000042096,
+            "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+            "measurement_clock": "Python time.perf_counter wall seconds",
+            "phases": [
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 2133083,
+                    "objects": 176,
+                    "operations": 468
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 256,
+                  "evictions": 1337,
+                  "hits": 66,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 1595,
+                  "oversized_bypasses": 2,
+                  "payload_bytes": 985192
+                },
+                "generation_validation_hash_seconds": 23.00823480001418,
+                "instance_bytes": 1821026,
+                "instance_sha256": "2d6c5805ab94421feb7777f3abd80a007b57e63b06b934f9c4e00c963b79cc19",
+                "lua_bytes_after_before_collection": 51056104,
+                "lua_bytes_after_full_collection": 18579767,
+                "lua_bytes_before": 1652820,
+                "object_counts": {
+                  "growth": {
+                    "nodes": 177,
+                    "roots": 1
+                  },
+                  "legacy": {
+                    "chunks": 30,
+                    "drawing_operations": 946
+                  }
+                },
+                "pdf_bytes": 1721504,
+                "phase": "cold-generation",
+                "scene_bytes": 2133083,
+                "scene_sha256": "910b37db233d0964109f6187fa5f737f5fc4799276c6164b84df29435e8f89e9",
+                "svg_bytes": 1939128,
+                "total_seconds": 32.34729070001049,
+                "vector_serialization_seconds": 9.33905589999631
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 2133083,
+                    "objects": 176,
+                    "operations": 468
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 256,
+                  "evictions": 2838,
+                  "hits": 131,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 3098,
+                  "oversized_bypasses": 4,
+                  "payload_bytes": 985192
+                },
+                "generation_validation_hash_seconds": 23.557626299967524,
+                "instance_bytes": 1821026,
+                "instance_sha256": "2d6c5805ab94421feb7777f3abd80a007b57e63b06b934f9c4e00c963b79cc19",
+                "lua_bytes_after_before_collection": 88806651,
+                "lua_bytes_after_full_collection": 28843220,
+                "lua_bytes_before": 12962938,
+                "object_counts": {
+                  "growth": {
+                    "nodes": 177,
+                    "roots": 1
+                  },
+                  "legacy": {
+                    "chunks": 30,
+                    "drawing_operations": 946
+                  }
+                },
+                "pdf_bytes": 1721504,
+                "phase": "warm-generation",
+                "scene_bytes": 2133083,
+                "scene_sha256": "910b37db233d0964109f6187fa5f737f5fc4799276c6164b84df29435e8f89e9",
+                "svg_bytes": 1939128,
+                "total_seconds": 32.874849000014365,
+                "vector_serialization_seconds": 9.317222700046841
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 2133083,
+                    "objects": 0,
+                    "operations": 292
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 256,
+                  "evictions": 4344,
+                  "hits": 167,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 4606,
+                  "oversized_bypasses": 6,
+                  "payload_bytes": 985192
+                },
+                "generation_validation_hash_seconds": 22.33079070004169,
+                "instance_bytes": 1821026,
+                "instance_sha256": "2d6c5805ab94421feb7777f3abd80a007b57e63b06b934f9c4e00c963b79cc19",
+                "lua_bytes_after_before_collection": 94662186,
+                "lua_bytes_after_full_collection": 27276522,
+                "lua_bytes_before": 13957548,
+                "object_counts": {
+                  "growth": {
+                    "nodes": 177,
+                    "roots": 1
+                  },
+                  "legacy": {
+                    "chunks": 30,
+                    "drawing_operations": 946
+                  }
+                },
+                "pdf_bytes": 1721504,
+                "phase": "validated-instance-replay",
+                "scene_bytes": 2133083,
+                "scene_sha256": "910b37db233d0964109f6187fa5f737f5fc4799276c6164b84df29435e8f89e9",
+                "svg_bytes": 1939128,
+                "total_seconds": 32.44711010000901,
+                "vector_serialization_seconds": 10.116319399967324
+              }
+            ],
+            "schema_version": 1,
+            "scope": "One fresh runtime, no instruction profiling hooks. Lua memory snapshots distinguish transient allocations and full collection; these are not whole-process memory or exact per-phase peaks. Measurements stay outside recipe/instance/scene hashes.",
+            "semantic_cold_warm_replay_equal": true,
+            "source_digest": "cf915acd01b1e0da2ba0ef7b0ad5f3c9ba1e2971f048993ce5de9b33a2ba2c1c",
+            "source_files_sha256": {
+              "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+              "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+              "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+              "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+              "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+              "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+              "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+              "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+              "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+              "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+              "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+              "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+              "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+              "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+              "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+              "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+              "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+              "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+              "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+              "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+              "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+              "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+              "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+              "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+              "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+              "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+              "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+              "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+              "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+              "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+              "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+              "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+              "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+              "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+              "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+              "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+              "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+              "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+              "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+              "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+              "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+              "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+              "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+              "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+              "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+              "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+              "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+              "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+              "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+              "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+              "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+              "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+              "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+              "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+              "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+              "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+              "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+              "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+              "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+              "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+              "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+              "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+              "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+              "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+              "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+              "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+              "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+              "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+              "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+              "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+              "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+              "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+              "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+              "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+              "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+              "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+              "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+              "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+              "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+              "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+              "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+              "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+              "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+              "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+              "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+              "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+              "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+              "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+              "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+              "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757"
+            },
+            "status": "passed",
+            "workload": {
+              "class": "floral-growth",
+              "definition": {
+                "id": "botanical/legacy-grown",
+                "version": "1"
+              },
+              "family": "botanical-grown",
+              "id": "floral-growth-small",
+              "recipe_bytes": 3463,
+              "recipe_path": "recipes/floral-growth-small.recipe",
+              "recipe_sha256": "0b1863c823ef1c38d205873a07f3a1d179a2e2e4f3c3a6c6990758b2412cec3f",
+              "seed": 7,
+              "size": "small",
+              "size_index": 1
+            }
+          },
+          "error_tail": null
+        }
+      }
+    },
+    {
+      "id": "knot-topology-small",
+      "class": "knot-topology",
+      "size": "small",
+      "measurements": {
+        "candidate": {
+          "status": "failed",
+          "returncode": 1,
+          "whole_child_wall_seconds": 1.3616633999627084,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stderr_sha256": "758310ee630967c5dbdbade1dc17b9edad69bb90299fc4b5b6357201c59245c8",
+          "receipt": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage34\\build\\performance\\results\\knot-topology-small-preflight-candidate-Lua-5.3.json",
+          "receipt_sha256": "cf65d8747da014ca66580435cd93427e3e0f453cc04dea8b6a47b39afeb69048",
+          "data": {
+            "actual_lua": "Lua 5.3",
+            "bootstrap_loading_source_verification_seconds": 0.9289992999983951,
+            "failure": {
+              "accepted_outputs": 0,
+              "diagnostics": [
+                "knot-ribbon-clearance: 4/12"
+              ],
+              "elapsed_seconds": 0.1887843000004068,
+              "phase": "cold-generation",
+              "status": "failed"
+            },
+            "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+            "measurement_clock": "Python time.perf_counter wall seconds",
+            "phases": [],
+            "schema_version": 1,
+            "scope": "One fresh runtime, no instruction profiling hooks. Lua memory snapshots distinguish transient allocations and full collection; these are not whole-process memory or exact per-phase peaks. Measurements stay outside recipe/instance/scene hashes.",
+            "semantic_cold_warm_replay_equal": false,
+            "source_digest": "cf915acd01b1e0da2ba0ef7b0ad5f3c9ba1e2971f048993ce5de9b33a2ba2c1c",
+            "source_files_sha256": {
+              "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+              "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+              "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+              "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+              "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+              "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+              "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+              "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+              "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+              "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+              "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+              "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+              "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+              "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+              "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+              "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+              "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+              "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+              "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+              "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+              "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+              "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+              "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+              "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+              "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+              "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+              "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+              "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+              "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+              "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+              "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+              "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+              "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+              "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+              "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+              "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+              "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+              "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+              "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+              "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+              "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+              "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+              "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+              "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+              "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+              "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+              "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+              "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+              "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+              "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+              "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+              "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+              "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+              "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+              "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+              "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+              "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+              "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+              "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+              "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+              "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+              "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+              "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+              "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+              "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+              "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+              "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+              "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+              "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+              "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+              "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+              "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+              "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+              "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+              "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+              "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+              "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+              "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+              "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+              "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+              "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+              "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+              "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+              "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+              "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+              "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+              "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+              "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+              "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+              "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757"
+            },
+            "status": "failed",
+            "workload": {
+              "class": "knot-topology",
+              "definition": {
+                "id": "strand/celtic",
+                "version": "1"
+              },
+              "family": "celtic",
+              "id": "knot-topology-small",
+              "recipe_bytes": 3295,
+              "recipe_path": "recipes/knot-topology-small.recipe",
+              "recipe_sha256": "eb126f0f633eb1f2141dfeb364d1ea01ac7c3cedda4f5127aba7cac142d95683",
+              "seed": 12,
+              "size": "small",
+              "size_index": 1
+            }
+          },
+          "error_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\run-lua-profile34.py\", line 17, in <module>\r\n    lua.execute(b'''\r\n  File \"lupa/lua53.pyx\", line 466, in lupa.lua53.LuaRuntime.execute\r\n  File \"lupa/lua53.pyx\", line 1897, in lupa.lua53.run_lua\r\n  File \"lupa/lua53.pyx\", line 1911, in lupa.lua53.call_lua\r\n  File \"lupa/lua53.pyx\", line 1938, in lupa.lua53.execute_lua_call\r\n  File \"lupa/lua53.pyx\", line 1819, in lupa.lua53.raise_lua_error\r\nlupa.lua53.LuaError: tools/perf_run.lua:52: {\"accepted_outputs\":0,\"diagnostics\":[\"knot-ribbon-clearance: 4/12\"],\"elapsed_seconds\":0.1887843000004068,\"phase\":\"cold-generation\",\"status\":\"failed\"}\r\nstack traceback:\r\n\t[C]: in function 'assert'\r\n\ttools/perf_run.lua:52: in main chunk\r\n\t[C]: in function 'dofile'\r\n\t[string \"<python>\"]:6: in main chunk\r\n"
+        }
+      }
+    },
+    {
+      "id": "substitution-small",
+      "class": "substitution",
+      "size": "small",
+      "measurements": {
+        "candidate": {
+          "status": "passed",
+          "returncode": 0,
+          "whole_child_wall_seconds": 2.3246301999897696,
+          "stdout_sha256": "339d3aa4e77dcf93156fc4194b7b70b13c89314f4ca98152fdc053ad35f01369",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "receipt": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage34\\build\\performance\\results\\substitution-small-preflight-candidate-Lua-5.3.json",
+          "receipt_sha256": "f57c18e8dbb9c0d2e33c318081cbe513941474c9ba92f241337ba67cb3334f8a",
+          "data": {
+            "actual_lua": "Lua 5.3",
+            "bootstrap_loading_source_verification_seconds": 0.7627932999748737,
+            "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+            "measurement_clock": "Python time.perf_counter wall seconds",
+            "phases": [
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 27416,
+                    "objects": 187,
+                    "operations": 368
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 104,
+                  "evictions": 0,
+                  "hits": 4,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 104,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1180545
+                },
+                "generation_validation_hash_seconds": 0.5089698000228964,
+                "instance_bytes": 92717,
+                "instance_sha256": "e011efeb6d07b92d731b7df96e7b792c121d387617fc2a015755dc54a71afae2",
+                "lua_bytes_after_before_collection": 9542851,
+                "lua_bytes_after_full_collection": 4077627,
+                "lua_bytes_before": 1655028,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 16,
+                    "edges": 80,
+                    "hierarchy": 5,
+                    "vertices": 65
+                  }
+                },
+                "pdf_bytes": 13356,
+                "phase": "cold-generation",
+                "scene_bytes": 27416,
+                "scene_sha256": "b91117994e3cce1efcb804a70e724137eaa05f878a9d41de6e08f224905559fa",
+                "svg_bytes": 35671,
+                "total_seconds": 0.5434371000155807,
+                "vector_serialization_seconds": 0.034467299992684275
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 27416,
+                    "objects": 187,
+                    "operations": 368
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 104,
+                  "evictions": 0,
+                  "hits": 20,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 104,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1180545
+                },
+                "generation_validation_hash_seconds": 0.3112944000167772,
+                "instance_bytes": 92717,
+                "instance_sha256": "e011efeb6d07b92d731b7df96e7b792c121d387617fc2a015755dc54a71afae2",
+                "lua_bytes_after_before_collection": 13410068,
+                "lua_bytes_after_full_collection": 5601022,
+                "lua_bytes_before": 3449150,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 16,
+                    "edges": 80,
+                    "hierarchy": 5,
+                    "vertices": 65
+                  }
+                },
+                "pdf_bytes": 13356,
+                "phase": "warm-generation",
+                "scene_bytes": 27416,
+                "scene_sha256": "b91117994e3cce1efcb804a70e724137eaa05f878a9d41de6e08f224905559fa",
+                "svg_bytes": 35671,
+                "total_seconds": 0.3419626000104472,
+                "vector_serialization_seconds": 0.030668199993669987
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 27416,
+                    "objects": 0,
+                    "operations": 96
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 110,
+                  "evictions": 0,
+                  "hits": 35,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 110,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1211999
+                },
+                "generation_validation_hash_seconds": 0.3570612999610603,
+                "instance_bytes": 92717,
+                "instance_sha256": "e011efeb6d07b92d731b7df96e7b792c121d387617fc2a015755dc54a71afae2",
+                "lua_bytes_after_before_collection": 17034755,
+                "lua_bytes_after_full_collection": 5612304,
+                "lua_bytes_before": 3582974,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 16,
+                    "edges": 80,
+                    "hierarchy": 5,
+                    "vertices": 65
+                  }
+                },
+                "pdf_bytes": 13356,
+                "phase": "validated-instance-replay",
+                "scene_bytes": 27416,
+                "scene_sha256": "b91117994e3cce1efcb804a70e724137eaa05f878a9d41de6e08f224905559fa",
+                "svg_bytes": 35671,
+                "total_seconds": 0.39253909996477887,
+                "vector_serialization_seconds": 0.035477800003718585
+              }
+            ],
+            "schema_version": 1,
+            "scope": "One fresh runtime, no instruction profiling hooks. Lua memory snapshots distinguish transient allocations and full collection; these are not whole-process memory or exact per-phase peaks. Measurements stay outside recipe/instance/scene hashes.",
+            "semantic_cold_warm_replay_equal": true,
+            "source_digest": "cf915acd01b1e0da2ba0ef7b0ad5f3c9ba1e2971f048993ce5de9b33a2ba2c1c",
+            "source_files_sha256": {
+              "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+              "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+              "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+              "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+              "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+              "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+              "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+              "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+              "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+              "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+              "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+              "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+              "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+              "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+              "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+              "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+              "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+              "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+              "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+              "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+              "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+              "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+              "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+              "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+              "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+              "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+              "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+              "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+              "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+              "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+              "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+              "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+              "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+              "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+              "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+              "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+              "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+              "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+              "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+              "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+              "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+              "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+              "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+              "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+              "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+              "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+              "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+              "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+              "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+              "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+              "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+              "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+              "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+              "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+              "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+              "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+              "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+              "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+              "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+              "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+              "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+              "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+              "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+              "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+              "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+              "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+              "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+              "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+              "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+              "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+              "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+              "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+              "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+              "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+              "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+              "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+              "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+              "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+              "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+              "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+              "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+              "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+              "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+              "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+              "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+              "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+              "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+              "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+              "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+              "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757"
+            },
+            "status": "passed",
+            "workload": {
+              "class": "substitution",
+              "definition": {
+                "id": "tiling/finite-substitution",
+                "version": "1"
+              },
+              "family": "substitution",
+              "id": "substitution-small",
+              "recipe_bytes": 2782,
+              "recipe_path": "recipes/substitution-small.recipe",
+              "recipe_sha256": "c8730a6e3390ad7aef379f5c3519ef03fa54bb314104b1985b712c8dff0cdde8",
+              "seed": 13,
+              "size": "small",
+              "size_index": 1
+            }
+          },
+          "error_tail": null
+        }
+      }
+    },
+    {
+      "id": "projection-small",
+      "class": "projection",
+      "size": "small",
+      "measurements": {
+        "candidate": {
+          "status": "passed",
+          "returncode": 0,
+          "whole_child_wall_seconds": 5.249232499976642,
+          "stdout_sha256": "f0daade659f995bb659c14d51cf58b0d5a88f375b919b80494249ee771751631",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "receipt": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage34\\build\\performance\\results\\projection-small-preflight-candidate-Lua-5.3.json",
+          "receipt_sha256": "fd61a3fae9489aa94f9d299743a0d865dd7e464c87f0d232b5ef4d1e3fb8c79a",
+          "data": {
+            "actual_lua": "Lua 5.3",
+            "bootstrap_loading_source_verification_seconds": 0.7754322999971919,
+            "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+            "measurement_clock": "Python time.perf_counter wall seconds",
+            "phases": [
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 43604,
+                    "objects": 503,
+                    "operations": 2484
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 104,
+                  "evictions": 0,
+                  "hits": 4,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 104,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1770547
+                },
+                "generation_validation_hash_seconds": 1.654741800040938,
+                "instance_bytes": 371100,
+                "instance_sha256": "159f98f62aae8163570e74e0a6a3fdb3f3f5d8f18e5a1fc64221b89268fd0dee",
+                "lua_bytes_after_before_collection": 16946155,
+                "lua_bytes_after_full_collection": 6859789,
+                "lua_bytes_before": 1697094,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 112,
+                    "edges": 251,
+                    "vertices": 140
+                  }
+                },
+                "pdf_bytes": 24717,
+                "phase": "cold-generation",
+                "scene_bytes": 43604,
+                "scene_sha256": "2bfcb9d2f927fdc7445ee4a8cbbf3aeded9189cdb11b640449b5f9e1e48e8ff8",
+                "svg_bytes": 52836,
+                "total_seconds": 1.7023543000104837,
+                "vector_serialization_seconds": 0.04761249996954575
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 43604,
+                    "objects": 503,
+                    "operations": 2484
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 104,
+                  "evictions": 0,
+                  "hits": 20,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 104,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1770547
+                },
+                "generation_validation_hash_seconds": 1.0641765000182204,
+                "instance_bytes": 371100,
+                "instance_sha256": "159f98f62aae8163570e74e0a6a3fdb3f3f5d8f18e5a1fc64221b89268fd0dee",
+                "lua_bytes_after_before_collection": 18178657,
+                "lua_bytes_after_full_collection": 10410910,
+                "lua_bytes_before": 6037250,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 112,
+                    "edges": 251,
+                    "vertices": 140
+                  }
+                },
+                "pdf_bytes": 24717,
+                "phase": "warm-generation",
+                "scene_bytes": 43604,
+                "scene_sha256": "2bfcb9d2f927fdc7445ee4a8cbbf3aeded9189cdb11b640449b5f9e1e48e8ff8",
+                "svg_bytes": 52836,
+                "total_seconds": 1.1099238999886438,
+                "vector_serialization_seconds": 0.04574739997042343
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 43604,
+                    "objects": 0,
+                    "operations": 118
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 110,
+                  "evictions": 0,
+                  "hits": 35,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 110,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1803521
+                },
+                "generation_validation_hash_seconds": 1.2747402000240982,
+                "instance_bytes": 371100,
+                "instance_sha256": "159f98f62aae8163570e74e0a6a3fdb3f3f5d8f18e5a1fc64221b89268fd0dee",
+                "lua_bytes_after_before_collection": 16265329,
+                "lua_bytes_after_full_collection": 10288663,
+                "lua_bytes_before": 6302218,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 112,
+                    "edges": 251,
+                    "vertices": 140
+                  }
+                },
+                "pdf_bytes": 24717,
+                "phase": "validated-instance-replay",
+                "scene_bytes": 43604,
+                "scene_sha256": "2bfcb9d2f927fdc7445ee4a8cbbf3aeded9189cdb11b640449b5f9e1e48e8ff8",
+                "svg_bytes": 52836,
+                "total_seconds": 1.3401419000001624,
+                "vector_serialization_seconds": 0.06540169997606426
+              }
+            ],
+            "schema_version": 1,
+            "scope": "One fresh runtime, no instruction profiling hooks. Lua memory snapshots distinguish transient allocations and full collection; these are not whole-process memory or exact per-phase peaks. Measurements stay outside recipe/instance/scene hashes.",
+            "semantic_cold_warm_replay_equal": true,
+            "source_digest": "cf915acd01b1e0da2ba0ef7b0ad5f3c9ba1e2971f048993ce5de9b33a2ba2c1c",
+            "source_files_sha256": {
+              "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+              "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+              "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+              "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+              "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+              "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+              "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+              "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+              "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+              "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+              "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+              "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+              "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+              "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+              "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+              "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+              "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+              "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+              "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+              "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+              "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+              "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+              "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+              "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+              "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+              "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+              "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+              "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+              "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+              "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+              "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+              "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+              "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+              "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+              "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+              "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+              "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+              "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+              "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+              "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+              "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+              "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+              "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+              "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+              "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+              "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+              "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+              "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+              "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+              "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+              "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+              "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+              "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+              "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+              "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+              "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+              "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+              "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+              "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+              "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+              "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+              "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+              "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+              "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+              "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+              "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+              "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+              "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+              "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+              "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+              "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+              "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+              "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+              "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+              "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+              "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+              "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+              "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+              "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+              "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+              "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+              "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+              "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+              "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+              "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+              "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+              "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+              "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+              "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+              "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757"
+            },
+            "status": "passed",
+            "workload": {
+              "class": "projection",
+              "definition": {
+                "id": "tiling/penrose-p3",
+                "version": "1"
+              },
+              "family": "penrose",
+              "id": "projection-small",
+              "recipe_bytes": 2595,
+              "recipe_path": "recipes/projection-small.recipe",
+              "recipe_sha256": "e9756642feecfe8e1de401b316e7c4f3220637ae85f4688b74588408e1729f12",
+              "seed": 14,
+              "size": "small",
+              "size_index": 1
+            }
+          },
+          "error_tail": null
+        }
+      }
+    },
+    {
+      "id": "optimization-small",
+      "class": "optimization",
+      "size": "small",
+      "measurements": {
+        "candidate": {
+          "status": "passed",
+          "returncode": 0,
+          "whole_child_wall_seconds": 6.075096399988979,
+          "stdout_sha256": "84716cdfc7b48117c954d691154d89ba8355d389e9782b3cfa102d64c47e6e3f",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "receipt": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage34\\build\\performance\\results\\optimization-small-preflight-candidate-Lua-5.3.json",
+          "receipt_sha256": "42cf1f7a527a199f7e6d4907f6fa239d4aa411654a46f968b414c44054f2035b",
+          "data": {
+            "actual_lua": "Lua 5.3",
+            "bootstrap_loading_source_verification_seconds": 0.8585778999840841,
+            "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+            "measurement_clock": "Python time.perf_counter wall seconds",
+            "phases": [
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 46101,
+                    "objects": 495,
+                    "operations": 175599
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 107,
+                  "evictions": 0,
+                  "hits": 12,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 107,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1581102
+                },
+                "generation_validation_hash_seconds": 1.898845599964261,
+                "instance_bytes": 271892,
+                "instance_sha256": "d701cfe6776fd43a58c3aa37e643403e8b9dbff2821352b075de614eacf3999a",
+                "lua_bytes_after_before_collection": 36490534,
+                "lua_bytes_after_full_collection": 11304927,
+                "lua_bytes_before": 1864600,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 112,
+                    "edges": 247,
+                    "vertices": 136
+                  }
+                },
+                "pdf_bytes": 23519,
+                "phase": "cold-generation",
+                "scene_bytes": 46101,
+                "scene_sha256": "f3c78f457b21c7e9c8699377fc023acda9275d00284c441e3d3268db4757cc89",
+                "solver": {
+                  "accepted": 21,
+                  "algorithm": "turning-l2-anneal-v1",
+                  "baseline": 0.4688491286598515,
+                  "baseline_errors": [
+                    0.44219177967209244,
+                    0.4688491286598515
+                  ],
+                  "budget": 24,
+                  "errors": [
+                    0.4382919108854598,
+                    0.4660929423833547
+                  ],
+                  "evaluations": 25,
+                  "improvements": 1,
+                  "invalid_proposals": 0,
+                  "objective": "max-of-two-turning-L2",
+                  "route": "annealed",
+                  "score": 0.4660929423833547,
+                  "seed": 20,
+                  "status": "improved",
+                  "target_assignment": [
+                    "west",
+                    "east"
+                  ],
+                  "targets_sha256": "5a2719d8f384f3c506568fd3e3b1fcbccd8931ef71823d3c19e70dce5d76994d",
+                  "temperature": {
+                    "finish": 0.004,
+                    "law": "geometric",
+                    "start": 0.18
+                  },
+                  "witness_sha256": "5b37d854753d4579e554bf8944c39f1069f616dd021f8f36733247ae1f9e1acc"
+                },
+                "svg_bytes": 53346,
+                "total_seconds": 1.9726457999786362,
+                "vector_serialization_seconds": 0.07380020001437515
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 46101,
+                    "objects": 495,
+                    "operations": 175599
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 107,
+                  "evictions": 0,
+                  "hits": 38,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 107,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1581102
+                },
+                "generation_validation_hash_seconds": 1.3867332999943756,
+                "instance_bytes": 271892,
+                "instance_sha256": "d701cfe6776fd43a58c3aa37e643403e8b9dbff2821352b075de614eacf3999a",
+                "lua_bytes_after_before_collection": 23058560,
+                "lua_bytes_after_full_collection": 18810110,
+                "lua_bytes_before": 10010268,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 112,
+                    "edges": 247,
+                    "vertices": 136
+                  }
+                },
+                "pdf_bytes": 23519,
+                "phase": "warm-generation",
+                "scene_bytes": 46101,
+                "scene_sha256": "f3c78f457b21c7e9c8699377fc023acda9275d00284c441e3d3268db4757cc89",
+                "solver": {
+                  "accepted": 21,
+                  "algorithm": "turning-l2-anneal-v1",
+                  "baseline": 0.4688491286598515,
+                  "baseline_errors": [
+                    0.44219177967209244,
+                    0.4688491286598515
+                  ],
+                  "budget": 24,
+                  "errors": [
+                    0.4382919108854598,
+                    0.4660929423833547
+                  ],
+                  "evaluations": 25,
+                  "improvements": 1,
+                  "invalid_proposals": 0,
+                  "objective": "max-of-two-turning-L2",
+                  "route": "annealed",
+                  "score": 0.4660929423833547,
+                  "seed": 20,
+                  "status": "improved",
+                  "target_assignment": [
+                    "west",
+                    "east"
+                  ],
+                  "targets_sha256": "5a2719d8f384f3c506568fd3e3b1fcbccd8931ef71823d3c19e70dce5d76994d",
+                  "temperature": {
+                    "finish": 0.004,
+                    "law": "geometric",
+                    "start": 0.18
+                  },
+                  "witness_sha256": "5b37d854753d4579e554bf8944c39f1069f616dd021f8f36733247ae1f9e1acc"
+                },
+                "svg_bytes": 53346,
+                "total_seconds": 1.507174699974712,
+                "vector_serialization_seconds": 0.12044139998033643
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 46101,
+                    "objects": 0,
+                    "operations": 135
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 113,
+                  "evictions": 0,
+                  "hits": 59,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 113,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1612874
+                },
+                "generation_validation_hash_seconds": 1.2204079000512138,
+                "instance_bytes": 271892,
+                "instance_sha256": "d701cfe6776fd43a58c3aa37e643403e8b9dbff2821352b075de614eacf3999a",
+                "lua_bytes_after_before_collection": 60170907,
+                "lua_bytes_after_full_collection": 18808056,
+                "lua_bytes_before": 11069076,
+                "object_counts": {
+                  "tiling": {
+                    "cells": 112,
+                    "edges": 247,
+                    "vertices": 136
+                  }
+                },
+                "pdf_bytes": 23519,
+                "phase": "validated-instance-replay",
+                "scene_bytes": 46101,
+                "scene_sha256": "f3c78f457b21c7e9c8699377fc023acda9275d00284c441e3d3268db4757cc89",
+                "solver": {
+                  "accepted": 21,
+                  "algorithm": "turning-l2-anneal-v1",
+                  "baseline": 0.4688491286598515,
+                  "baseline_errors": [
+                    0.44219177967209244,
+                    0.4688491286598515
+                  ],
+                  "budget": 24,
+                  "errors": [
+                    0.4382919108854598,
+                    0.4660929423833547
+                  ],
+                  "evaluations": 25,
+                  "improvements": 1,
+                  "invalid_proposals": 0,
+                  "objective": "max-of-two-turning-L2",
+                  "route": "annealed",
+                  "score": 0.4660929423833547,
+                  "seed": 20,
+                  "status": "improved",
+                  "target_assignment": [
+                    "west",
+                    "east"
+                  ],
+                  "targets_sha256": "5a2719d8f384f3c506568fd3e3b1fcbccd8931ef71823d3c19e70dce5d76994d",
+                  "temperature": {
+                    "finish": 0.004,
+                    "law": "geometric",
+                    "start": 0.18
+                  },
+                  "witness_sha256": "5b37d854753d4579e554bf8944c39f1069f616dd021f8f36733247ae1f9e1acc"
+                },
+                "svg_bytes": 53346,
+                "total_seconds": 1.2945896000019275,
+                "vector_serialization_seconds": 0.07418169995071366
+              }
+            ],
+            "schema_version": 1,
+            "scope": "One fresh runtime, no instruction profiling hooks. Lua memory snapshots distinguish transient allocations and full collection; these are not whole-process memory or exact per-phase peaks. Measurements stay outside recipe/instance/scene hashes.",
+            "semantic_cold_warm_replay_equal": true,
+            "source_digest": "cf915acd01b1e0da2ba0ef7b0ad5f3c9ba1e2971f048993ce5de9b33a2ba2c1c",
+            "source_files_sha256": {
+              "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+              "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+              "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+              "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+              "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+              "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+              "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+              "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+              "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+              "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+              "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+              "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+              "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+              "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+              "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+              "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+              "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+              "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+              "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+              "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+              "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+              "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+              "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+              "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+              "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+              "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+              "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+              "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+              "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+              "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+              "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+              "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+              "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+              "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+              "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+              "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+              "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+              "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+              "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+              "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+              "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+              "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+              "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+              "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+              "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+              "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+              "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+              "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+              "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+              "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+              "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+              "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+              "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+              "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+              "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+              "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+              "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+              "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+              "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+              "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+              "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+              "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+              "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+              "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+              "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+              "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+              "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+              "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+              "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+              "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+              "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+              "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+              "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+              "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+              "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+              "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+              "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+              "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+              "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+              "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+              "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+              "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+              "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+              "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+              "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+              "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+              "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+              "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+              "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+              "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757"
+            },
+            "status": "passed",
+            "workload": {
+              "class": "optimization",
+              "definition": {
+                "id": "tiling/escherization",
+                "version": "1"
+              },
+              "family": "escher",
+              "id": "optimization-small",
+              "recipe_bytes": 4580,
+              "recipe_path": "recipes/optimization-small.recipe",
+              "recipe_sha256": "81987e429e340ac6de59d6b3d6a670d8574a9b2ba69377b3f94c04a9322ca4a7",
+              "seed": 20,
+              "size": "small",
+              "size_index": 1
+            }
+          },
+          "error_tail": null
+        }
+      }
+    },
+    {
+      "id": "mosaic-packing-small",
+      "class": "mosaic-packing",
+      "size": "small",
+      "measurements": {
+        "candidate": {
+          "status": "passed",
+          "returncode": 0,
+          "whole_child_wall_seconds": 1.6047692999709398,
+          "stdout_sha256": "dfda468c434a7159a3d38ec0c3537e9e556e47019303991c074355d0e4ec8348",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "receipt": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage34\\build\\performance\\results\\mosaic-packing-small-preflight-candidate-Lua-5.3.json",
+          "receipt_sha256": "1fadcf5d3f9a5d96528dc533d23440733aa957c84b48277b1f84308dd0c67cc3",
+          "data": {
+            "actual_lua": "Lua 5.3",
+            "bootstrap_loading_source_verification_seconds": 0.8508208999992348,
+            "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+            "measurement_clock": "Python time.perf_counter wall seconds",
+            "phases": [
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 8568,
+                    "objects": 0,
+                    "operations": 51025
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 105,
+                  "evictions": 0,
+                  "hits": 9,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 105,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 991136
+                },
+                "generation_validation_hash_seconds": 0.17611989995930344,
+                "instance_bytes": 13809,
+                "instance_sha256": "740b923b901203b0baea32d7d26fbede3e75ae0293a86bb42c62b6c90246427d",
+                "lua_bytes_after_before_collection": 5085879,
+                "lua_bytes_after_full_collection": 2656694,
+                "lua_bytes_before": 1691623,
+                "object_counts": {
+                  "field": {
+                    "samples": 24
+                  }
+                },
+                "pdf_bytes": 6415,
+                "phase": "cold-generation",
+                "scene_bytes": 8568,
+                "scene_sha256": "d3b7b8e79723d8674d1cb96244a33c2b347a2aa7d1901c3ed29f4563b4ad11d9",
+                "solver": {
+                  "algorithm": "hausner-l1-cpu-v1",
+                  "evaluations": 5,
+                  "final_energy": 2.693791133340522,
+                  "history": [
+                    {
+                      "empty_regions": 0,
+                      "energy": 3.424192314744198,
+                      "max_motion": 0.5922321415206905,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.963447285652741,
+                      "max_motion": 0.49087281835090363,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.7534071620356957,
+                      "max_motion": 0.137720900309341,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.7042464059242417,
+                      "max_motion": 0.16411268238680182,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    }
+                  ],
+                  "initial": [
+                    [
+                      4.2,
+                      0.3529411765
+                    ],
+                    [
+                      4.44,
+                      1.7647058824
+                    ],
+                    [
+                      3.96,
+                      3.6470588235
+                    ],
+                    [
+                      5.4,
+                      1.7647058824
+                    ],
+                    [
+                      4.92,
+                      0.8235294118
+                    ],
+                    [
+                      2.52,
+                      2.2352941176
+                    ],
+                    [
+                      0.6,
+                      3.8823529412
+                    ],
+                    [
+                      5.64,
+                      2.2352941176
+                    ],
+                    [
+                      2.28,
+                      0.8235294118
+                    ],
+                    [
+                      3,
+                      3.4117647059
+                    ],
+                    [
+                      5.64,
+                      3.6470588235
+                    ],
+                    [
+                      3.48,
+                      2.9411764706
+                    ],
+                    [
+                      3,
+                      1.7647058824
+                    ],
+                    [
+                      0.84,
+                      2.2352941176
+                    ],
+                    [
+                      2.76,
+                      1.7647058824
+                    ],
+                    [
+                      2.76,
+                      1.2941176471
+                    ],
+                    [
+                      2.52,
+                      1.0588235294
+                    ],
+                    [
+                      3.96,
+                      0.3529411765
+                    ],
+                    [
+                      5.16,
+                      1.0588235294
+                    ],
+                    [
+                      5.16,
+                      0.5882352941
+                    ],
+                    [
+                      3,
+                      0.5882352941
+                    ],
+                    [
+                      1.32,
+                      1.7647058824
+                    ],
+                    [
+                      3.24,
+                      1.7647058824
+                    ],
+                    [
+                      0.36,
+                      2
+                    ]
+                  ],
+                  "route": "sampled_lloyd",
+                  "samples": 425,
+                  "status": "iteration_budget",
+                  "witness_sha256": "13637ab632ad167a93e30feb6b6cd0752ee7fec06f26bc433c786175e4f4efb4"
+                },
+                "svg_bytes": 9371,
+                "total_seconds": 0.18695959995966405,
+                "vector_serialization_seconds": 0.010839700000360608
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 8568,
+                    "objects": 0,
+                    "operations": 51025
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 105,
+                  "evictions": 0,
+                  "hits": 30,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 105,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 991136
+                },
+                "generation_validation_hash_seconds": 0.1179765000124462,
+                "instance_bytes": 13809,
+                "instance_sha256": "740b923b901203b0baea32d7d26fbede3e75ae0293a86bb42c62b6c90246427d",
+                "lua_bytes_after_before_collection": 7986294,
+                "lua_bytes_after_full_collection": 3247075,
+                "lua_bytes_before": 2452466,
+                "object_counts": {
+                  "field": {
+                    "samples": 24
+                  }
+                },
+                "pdf_bytes": 6415,
+                "phase": "warm-generation",
+                "scene_bytes": 8568,
+                "scene_sha256": "d3b7b8e79723d8674d1cb96244a33c2b347a2aa7d1901c3ed29f4563b4ad11d9",
+                "solver": {
+                  "algorithm": "hausner-l1-cpu-v1",
+                  "evaluations": 5,
+                  "final_energy": 2.693791133340522,
+                  "history": [
+                    {
+                      "empty_regions": 0,
+                      "energy": 3.424192314744198,
+                      "max_motion": 0.5922321415206905,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.963447285652741,
+                      "max_motion": 0.49087281835090363,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.7534071620356957,
+                      "max_motion": 0.137720900309341,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.7042464059242417,
+                      "max_motion": 0.16411268238680182,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    }
+                  ],
+                  "initial": [
+                    [
+                      4.2,
+                      0.3529411765
+                    ],
+                    [
+                      4.44,
+                      1.7647058824
+                    ],
+                    [
+                      3.96,
+                      3.6470588235
+                    ],
+                    [
+                      5.4,
+                      1.7647058824
+                    ],
+                    [
+                      4.92,
+                      0.8235294118
+                    ],
+                    [
+                      2.52,
+                      2.2352941176
+                    ],
+                    [
+                      0.6,
+                      3.8823529412
+                    ],
+                    [
+                      5.64,
+                      2.2352941176
+                    ],
+                    [
+                      2.28,
+                      0.8235294118
+                    ],
+                    [
+                      3,
+                      3.4117647059
+                    ],
+                    [
+                      5.64,
+                      3.6470588235
+                    ],
+                    [
+                      3.48,
+                      2.9411764706
+                    ],
+                    [
+                      3,
+                      1.7647058824
+                    ],
+                    [
+                      0.84,
+                      2.2352941176
+                    ],
+                    [
+                      2.76,
+                      1.7647058824
+                    ],
+                    [
+                      2.76,
+                      1.2941176471
+                    ],
+                    [
+                      2.52,
+                      1.0588235294
+                    ],
+                    [
+                      3.96,
+                      0.3529411765
+                    ],
+                    [
+                      5.16,
+                      1.0588235294
+                    ],
+                    [
+                      5.16,
+                      0.5882352941
+                    ],
+                    [
+                      3,
+                      0.5882352941
+                    ],
+                    [
+                      1.32,
+                      1.7647058824
+                    ],
+                    [
+                      3.24,
+                      1.7647058824
+                    ],
+                    [
+                      0.36,
+                      2
+                    ]
+                  ],
+                  "route": "sampled_lloyd",
+                  "samples": 425,
+                  "status": "iteration_budget",
+                  "witness_sha256": "13637ab632ad167a93e30feb6b6cd0752ee7fec06f26bc433c786175e4f4efb4"
+                },
+                "svg_bytes": 9371,
+                "total_seconds": 0.1274643000215292,
+                "vector_serialization_seconds": 0.009487800009083003
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 8568,
+                    "objects": 0,
+                    "operations": 25
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 111,
+                  "evictions": 0,
+                  "hits": 49,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 111,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1024140
+                },
+                "generation_validation_hash_seconds": 0.15916999999899417,
+                "instance_bytes": 13809,
+                "instance_sha256": "740b923b901203b0baea32d7d26fbede3e75ae0293a86bb42c62b6c90246427d",
+                "lua_bytes_after_before_collection": 9096227,
+                "lua_bytes_after_full_collection": 3345131,
+                "lua_bytes_before": 2510474,
+                "object_counts": {
+                  "field": {
+                    "samples": 24
+                  }
+                },
+                "pdf_bytes": 6415,
+                "phase": "validated-instance-replay",
+                "scene_bytes": 8568,
+                "scene_sha256": "d3b7b8e79723d8674d1cb96244a33c2b347a2aa7d1901c3ed29f4563b4ad11d9",
+                "solver": {
+                  "algorithm": "hausner-l1-cpu-v1",
+                  "evaluations": 5,
+                  "final_energy": 2.693791133340522,
+                  "history": [
+                    {
+                      "empty_regions": 0,
+                      "energy": 3.424192314744198,
+                      "max_motion": 0.5922321415206905,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.963447285652741,
+                      "max_motion": 0.49087281835090363,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.7534071620356957,
+                      "max_motion": 0.137720900309341,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    },
+                    {
+                      "empty_regions": 0,
+                      "energy": 2.7042464059242417,
+                      "max_motion": 0.16411268238680182,
+                      "phase": "feature-exclusion",
+                      "samples": 425
+                    }
+                  ],
+                  "initial": [
+                    [
+                      4.2,
+                      0.3529411765
+                    ],
+                    [
+                      4.44,
+                      1.7647058824
+                    ],
+                    [
+                      3.96,
+                      3.6470588235
+                    ],
+                    [
+                      5.4,
+                      1.7647058824
+                    ],
+                    [
+                      4.92,
+                      0.8235294118
+                    ],
+                    [
+                      2.52,
+                      2.2352941176
+                    ],
+                    [
+                      0.6,
+                      3.8823529412
+                    ],
+                    [
+                      5.64,
+                      2.2352941176
+                    ],
+                    [
+                      2.28,
+                      0.8235294118
+                    ],
+                    [
+                      3,
+                      3.4117647059
+                    ],
+                    [
+                      5.64,
+                      3.6470588235
+                    ],
+                    [
+                      3.48,
+                      2.9411764706
+                    ],
+                    [
+                      3,
+                      1.7647058824
+                    ],
+                    [
+                      0.84,
+                      2.2352941176
+                    ],
+                    [
+                      2.76,
+                      1.7647058824
+                    ],
+                    [
+                      2.76,
+                      1.2941176471
+                    ],
+                    [
+                      2.52,
+                      1.0588235294
+                    ],
+                    [
+                      3.96,
+                      0.3529411765
+                    ],
+                    [
+                      5.16,
+                      1.0588235294
+                    ],
+                    [
+                      5.16,
+                      0.5882352941
+                    ],
+                    [
+                      3,
+                      0.5882352941
+                    ],
+                    [
+                      1.32,
+                      1.7647058824
+                    ],
+                    [
+                      3.24,
+                      1.7647058824
+                    ],
+                    [
+                      0.36,
+                      2
+                    ]
+                  ],
+                  "route": "sampled_lloyd",
+                  "samples": 425,
+                  "status": "iteration_budget",
+                  "witness_sha256": "13637ab632ad167a93e30feb6b6cd0752ee7fec06f26bc433c786175e4f4efb4"
+                },
+                "svg_bytes": 9371,
+                "total_seconds": 0.16925959999207407,
+                "vector_serialization_seconds": 0.0100895999930799
+              }
+            ],
+            "schema_version": 1,
+            "scope": "One fresh runtime, no instruction profiling hooks. Lua memory snapshots distinguish transient allocations and full collection; these are not whole-process memory or exact per-phase peaks. Measurements stay outside recipe/instance/scene hashes.",
+            "semantic_cold_warm_replay_equal": true,
+            "source_digest": "cf915acd01b1e0da2ba0ef7b0ad5f3c9ba1e2971f048993ce5de9b33a2ba2c1c",
+            "source_files_sha256": {
+              "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+              "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+              "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+              "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+              "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+              "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+              "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+              "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+              "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+              "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+              "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+              "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+              "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+              "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+              "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+              "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+              "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+              "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+              "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+              "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+              "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+              "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+              "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+              "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+              "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+              "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+              "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+              "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+              "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+              "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+              "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+              "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+              "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+              "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+              "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+              "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+              "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+              "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+              "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+              "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+              "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+              "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+              "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+              "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+              "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+              "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+              "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+              "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+              "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+              "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+              "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+              "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+              "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+              "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+              "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+              "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+              "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+              "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+              "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+              "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+              "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+              "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+              "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+              "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+              "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+              "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+              "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+              "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+              "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+              "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+              "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+              "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+              "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+              "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+              "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+              "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+              "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+              "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+              "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+              "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+              "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+              "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+              "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+              "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+              "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+              "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+              "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+              "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+              "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+              "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757"
+            },
+            "status": "passed",
+            "workload": {
+              "class": "mosaic-packing",
+              "definition": {
+                "id": "mosaic/hausner",
+                "version": "1"
+              },
+              "family": "mosaic",
+              "id": "mosaic-packing-small",
+              "recipe_bytes": 4342,
+              "recipe_path": "recipes/mosaic-packing-small.recipe",
+              "recipe_sha256": "4b6dc7eb67c7078f1083cb8c6f07966328ce5a3140768ee77da27a5aa30d11c0",
+              "seed": 21,
+              "size": "small",
+              "size_index": 1
+            }
+          },
+          "error_tail": null
+        }
+      }
+    },
+    {
+      "id": "text-shaping-small",
+      "class": "text-shaping",
+      "size": "small",
+      "measurements": {
+        "candidate": {
+          "status": "passed",
+          "returncode": 0,
+          "whole_child_wall_seconds": 16.754241699993145,
+          "stdout_sha256": "afe6db39c6aa2396bb8837bf03ffbe2c05d91a4d4ef5e8b89f1391e20bec046b",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "receipt": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage34\\build\\performance\\results\\text-shaping-small-preflight-candidate-Lua-5.3.json",
+          "receipt_sha256": "0c6a293768ab7163cd5b1706034db572788079b7bd250c5c5ea6e3bc3dad5b4a",
+          "data": {
+            "actual_lua": "Lua 5.3",
+            "bootstrap_loading_source_verification_seconds": 1.4878148999996483,
+            "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+            "measurement_clock": "Python time.perf_counter wall seconds",
+            "phases": [
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 127571,
+                    "objects": 0,
+                    "operations": 1260560
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 105,
+                  "evictions": 0,
+                  "hits": 12,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 105,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1953839
+                },
+                "generation_validation_hash_seconds": 5.226258799957577,
+                "instance_bytes": 198532,
+                "instance_sha256": "ea0986cbcd9dc6d8891b50d9c990368a84c483eaf5ff298e18380ac534048a75",
+                "lua_bytes_after_before_collection": 63946609,
+                "lua_bytes_after_full_collection": 21543569,
+                "lua_bytes_before": 5975673,
+                "object_counts": {
+                  "field": {
+                    "samples": 169
+                  },
+                  "micrography": {
+                    "graphemes": 123,
+                    "streamlines": 2
+                  },
+                  "text": {
+                    "reading_order": 2,
+                    "runs": 2
+                  }
+                },
+                "pdf_bytes": 135000,
+                "phase": "cold-generation",
+                "scene_bytes": 127571,
+                "scene_sha256": "ecf0b1909a3d4980a4f18ff8a98b3dbf10b10f498e16c74b6d16a9450d8c864c",
+                "solver": {
+                  "algorithm": "micrography-signed-boundary-rosy-v1",
+                  "examined": 4096,
+                  "field_iterations": 1839,
+                  "field_residual": 9.951953150455495e-11,
+                  "graphemes": 123,
+                  "labels": 455,
+                  "objective": -17.645646236702284,
+                  "search": "bounded-exact-binary-labels",
+                  "status": "complete",
+                  "streamlines": 2,
+                  "words_placed": 24,
+                  "words_total": 24
+                },
+                "svg_bytes": 92390,
+                "total_seconds": 5.4932734000030905,
+                "vector_serialization_seconds": 0.26701460004551336
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 127571,
+                    "objects": 0,
+                    "operations": 1260560
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 105,
+                  "evictions": 0,
+                  "hits": 36,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 105,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1953839
+                },
+                "generation_validation_hash_seconds": 4.293063099961728,
+                "instance_bytes": 198532,
+                "instance_sha256": "ea0986cbcd9dc6d8891b50d9c990368a84c483eaf5ff298e18380ac534048a75",
+                "lua_bytes_after_before_collection": 97419208,
+                "lua_bytes_after_full_collection": 31778302,
+                "lua_bytes_before": 16217537,
+                "object_counts": {
+                  "field": {
+                    "samples": 169
+                  },
+                  "micrography": {
+                    "graphemes": 123,
+                    "streamlines": 2
+                  },
+                  "text": {
+                    "reading_order": 2,
+                    "runs": 2
+                  }
+                },
+                "pdf_bytes": 135000,
+                "phase": "warm-generation",
+                "scene_bytes": 127571,
+                "scene_sha256": "ecf0b1909a3d4980a4f18ff8a98b3dbf10b10f498e16c74b6d16a9450d8c864c",
+                "solver": {
+                  "algorithm": "micrography-signed-boundary-rosy-v1",
+                  "examined": 4096,
+                  "field_iterations": 1839,
+                  "field_residual": 9.951953150455495e-11,
+                  "graphemes": 123,
+                  "labels": 455,
+                  "objective": -17.645646236702284,
+                  "search": "bounded-exact-binary-labels",
+                  "status": "complete",
+                  "streamlines": 2,
+                  "words_placed": 24,
+                  "words_total": 24
+                },
+                "svg_bytes": 92390,
+                "total_seconds": 4.571440299972892,
+                "vector_serialization_seconds": 0.27837720001116395
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 127571,
+                    "objects": 0,
+                    "operations": 630281
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 111,
+                  "evictions": 0,
+                  "hits": 59,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 111,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1984419
+                },
+                "generation_validation_hash_seconds": 4.272468000010122,
+                "instance_bytes": 198532,
+                "instance_sha256": "ea0986cbcd9dc6d8891b50d9c990368a84c483eaf5ff298e18380ac534048a75",
+                "lua_bytes_after_before_collection": 48045009,
+                "lua_bytes_after_full_collection": 32092036,
+                "lua_bytes_before": 18318993,
+                "object_counts": {
+                  "field": {
+                    "samples": 169
+                  },
+                  "micrography": {
+                    "graphemes": 123,
+                    "streamlines": 2
+                  },
+                  "text": {
+                    "reading_order": 2,
+                    "runs": 2
+                  }
+                },
+                "pdf_bytes": 135000,
+                "phase": "validated-instance-replay",
+                "scene_bytes": 127571,
+                "scene_sha256": "ecf0b1909a3d4980a4f18ff8a98b3dbf10b10f498e16c74b6d16a9450d8c864c",
+                "solver": {
+                  "algorithm": "micrography-signed-boundary-rosy-v1",
+                  "examined": 4096,
+                  "field_iterations": 1839,
+                  "field_residual": 9.951953150455495e-11,
+                  "graphemes": 123,
+                  "labels": 455,
+                  "objective": -17.645646236702284,
+                  "search": "bounded-exact-binary-labels",
+                  "status": "complete",
+                  "streamlines": 2,
+                  "words_placed": 24,
+                  "words_total": 24
+                },
+                "svg_bytes": 92390,
+                "total_seconds": 4.629034099983983,
+                "vector_serialization_seconds": 0.35656609997386113
+              }
+            ],
+            "schema_version": 1,
+            "scope": "One fresh runtime, no instruction profiling hooks. Lua memory snapshots distinguish transient allocations and full collection; these are not whole-process memory or exact per-phase peaks. Measurements stay outside recipe/instance/scene hashes.",
+            "semantic_cold_warm_replay_equal": true,
+            "source_digest": "cf915acd01b1e0da2ba0ef7b0ad5f3c9ba1e2971f048993ce5de9b33a2ba2c1c",
+            "source_files_sha256": {
+              "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+              "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+              "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+              "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+              "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+              "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+              "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+              "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+              "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+              "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+              "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+              "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+              "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+              "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+              "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+              "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+              "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+              "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+              "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+              "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+              "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+              "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+              "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+              "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+              "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+              "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+              "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+              "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+              "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+              "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+              "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+              "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+              "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+              "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+              "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+              "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+              "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+              "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+              "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+              "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+              "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+              "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+              "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+              "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+              "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+              "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+              "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+              "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+              "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+              "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+              "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+              "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+              "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+              "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+              "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+              "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+              "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+              "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+              "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+              "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+              "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+              "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+              "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+              "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+              "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+              "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+              "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+              "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+              "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+              "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+              "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+              "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+              "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+              "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+              "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+              "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+              "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+              "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+              "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+              "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+              "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+              "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+              "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+              "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+              "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+              "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+              "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+              "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+              "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+              "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757"
+            },
+            "status": "passed",
+            "workload": {
+              "class": "text-shaping",
+              "definition": {
+                "id": "text/digital-micrography",
+                "version": "1"
+              },
+              "family": "micrography",
+              "id": "text-shaping-small",
+              "recipe_bytes": 117798,
+              "recipe_path": "recipes/text-shaping-small.recipe",
+              "recipe_sha256": "97bcde9377c5aec4a80ad4f01ec1f127fbc85f4733928a66e56f20330e1fa499",
+              "seed": 24,
+              "size": "small",
+              "size_index": 1
+            }
+          },
+          "error_tail": null
+        }
+      }
+    },
+    {
+      "id": "example-synthesis-small",
+      "class": "example-synthesis",
+      "size": "small",
+      "measurements": {
+        "candidate": {
+          "status": "passed",
+          "returncode": 0,
+          "whole_child_wall_seconds": 1.729666500003077,
+          "stdout_sha256": "99d7271258c420b912c802f35e0dfe2f604d2892601e893d099054af6f2cd990",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "receipt": "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage34\\build\\performance\\results\\example-synthesis-small-preflight-candidate-Lua-5.3.json",
+          "receipt_sha256": "46aff2833178446221ff9d912e622c294ef2be8df0208a93a7d41e423be2562d",
+          "data": {
+            "actual_lua": "Lua 5.3",
+            "bootstrap_loading_source_verification_seconds": 0.7866458999924362,
+            "host": "Lupa2.8/lua53/Windows/pure-Lua-SHA256",
+            "measurement_clock": "Python time.perf_counter wall seconds",
+            "phases": [
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 4345,
+                    "objects": 0,
+                    "operations": 8229
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 103,
+                  "evictions": 0,
+                  "hits": 8,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 103,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1009604
+                },
+                "generation_validation_hash_seconds": 0.2872338999877684,
+                "instance_bytes": 28034,
+                "instance_sha256": "0fac7e81eca5b84754d9cd227e222a316cefb7a6ac31b11bf04db9b8fbe2b83e",
+                "lua_bytes_after_before_collection": 3357495,
+                "lua_bytes_after_full_collection": 2649702,
+                "lua_bytes_before": 1751630,
+                "object_counts": {
+                  "field": {
+                    "samples": 13
+                  }
+                },
+                "pdf_bytes": 4069,
+                "phase": "cold-generation",
+                "scene_bytes": 4345,
+                "scene_sha256": "86723d54e605b6576d4a865b8c1ba0bae96f0daa67d72ea5f80bd8536418706e",
+                "svg_bytes": 3807,
+                "total_seconds": 0.29351310001220554,
+                "vector_serialization_seconds": 0.006279200024437159
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 4345,
+                    "objects": 0,
+                    "operations": 8229
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 103,
+                  "evictions": 0,
+                  "hits": 26,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 103,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1009604
+                },
+                "generation_validation_hash_seconds": 0.21619790000841022,
+                "instance_bytes": 28034,
+                "instance_sha256": "0fac7e81eca5b84754d9cd227e222a316cefb7a6ac31b11bf04db9b8fbe2b83e",
+                "lua_bytes_after_before_collection": 6827206,
+                "lua_bytes_after_full_collection": 3242402,
+                "lua_bytes_before": 2571448,
+                "object_counts": {
+                  "field": {
+                    "samples": 13
+                  }
+                },
+                "pdf_bytes": 4069,
+                "phase": "warm-generation",
+                "scene_bytes": 4345,
+                "scene_sha256": "86723d54e605b6576d4a865b8c1ba0bae96f0daa67d72ea5f80bd8536418706e",
+                "svg_bytes": 3807,
+                "total_seconds": 0.21981899999082088,
+                "vector_serialization_seconds": 0.0036210999824106693
+              },
+              {
+                "budgets": {
+                  "cancelled": false,
+                  "limits": {
+                    "bytes": 67108864,
+                    "objects": 100000,
+                    "operations": 48000000
+                  },
+                  "spent": {
+                    "bytes": 4345,
+                    "objects": 0,
+                    "operations": 1
+                  }
+                },
+                "byte_hash_cache": {
+                  "entries": 109,
+                  "evictions": 0,
+                  "hits": 44,
+                  "implementation": "pure-lua-sha256-byte-fifo-v1",
+                  "maximum_entries": 256,
+                  "maximum_entry_bytes": 2097152,
+                  "maximum_payload_bytes": 4194304,
+                  "misses": 109,
+                  "oversized_bypasses": 0,
+                  "payload_bytes": 1039200
+                },
+                "generation_validation_hash_seconds": 0.15097529999911785,
+                "instance_bytes": 28034,
+                "instance_sha256": "0fac7e81eca5b84754d9cd227e222a316cefb7a6ac31b11bf04db9b8fbe2b83e",
+                "lua_bytes_after_before_collection": 11660488,
+                "lua_bytes_after_full_collection": 3417468,
+                "lua_bytes_before": 2574248,
+                "object_counts": {
+                  "field": {
+                    "samples": 13
+                  }
+                },
+                "pdf_bytes": 4069,
+                "phase": "validated-instance-replay",
+                "scene_bytes": 4345,
+                "scene_sha256": "86723d54e605b6576d4a865b8c1ba0bae96f0daa67d72ea5f80bd8536418706e",
+                "svg_bytes": 3807,
+                "total_seconds": 0.15525449998676777,
+                "vector_serialization_seconds": 0.004279199987649918
+              }
+            ],
+            "schema_version": 1,
+            "scope": "One fresh runtime, no instruction profiling hooks. Lua memory snapshots distinguish transient allocations and full collection; these are not whole-process memory or exact per-phase peaks. Measurements stay outside recipe/instance/scene hashes.",
+            "semantic_cold_warm_replay_equal": true,
+            "source_digest": "cf915acd01b1e0da2ba0ef7b0ad5f3c9ba1e2971f048993ce5de9b33a2ba2c1c",
+            "source_files_sha256": {
+              "authored.lua": "580aada625dcbde607eae5883d1f30400cbe2bd44c98e19ebb786f6a09c9c33e",
+              "flora.lua": "d1ac3820f5507c2f8294d6e078e27a7045dee370f8f3298680c7ce0d38762274",
+              "florilegium-xe.lua": "d0967d94e3d1060d875b1efc8044d196c079bf59904e4a84c7adb3cb3b455f8f",
+              "florilegium.lua": "582b9b04173cbc5a016f8d4390b44a04df6d66149866f01292c34757c044e968",
+              "folio.lua": "f71b7d4686ade66a05988e8804ad88b5e62e045462067b1fb4f659285bd5f03d",
+              "fontreader.lua": "e60b4b716797bccc9f209131e067942fac9feca4e0f26726c8cb84f9c77c6550",
+              "grow.lua": "0695abd44e273085037dd2af8a0543562544826dd5694a86e2d07c047f29fb26",
+              "initial.lua": "66521c70ac65ff2025b2c5f8c23433ec11ae1d76305e95ea6d8beb16eb332802",
+              "ink.lua": "4f6a42acf1e0111110374491b3aa8a60f4f92792306e904ce5c74474356c09e3",
+              "layout.lua": "5efdd77e591ded4a69b58e7c462e7d9948a0d976ea0cc69c56a16879e591be02",
+              "numeral.lua": "67bd18b7c299391725c1b155d825b5e61c293cf12497ff3cffd378a44f1f3e07",
+              "pattern.lua": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+              "pattern_ammann_beenker.lua": "70d552286d17f95e3161b5a9544dff3d6633d3558b5067b69dc18b1b5f8fa143",
+              "pattern_aperiodic.lua": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+              "pattern_artifact.lua": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+              "pattern_botanical_legacy.lua": "b607ee3e582e36b2bd8aeac08e9e35331ea53583d67d90d75b9cc9c43832f31f",
+              "pattern_botanical_panel.lua": "158edcd9ccb757e0e9d6e42e931a7a6185f5a4367390911682761cb24570fad9",
+              "pattern_bounded_tiles.lua": "6823aebb4c7639947a1c8ba7c99fabb0a51cf8f0817c1eadffa098eea075280e",
+              "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+              "pattern_browser.lua": "ecb3ab7ee09dd847a08d98eba8400bc489441296f4bbb8baf11331c87675e304",
+              "pattern_bytes.lua": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+              "pattern_celtic.lua": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+              "pattern_circle_packing.lua": "1fcc7d2eace5cda53878604fa5611ccc1a96202a08a9f26f093a3a6233d14cad",
+              "pattern_cli_core.lua": "e03109d36c3f92914ec1c0ee7945c2767507dcd6a57d1798d58b86e31f3b8bff",
+              "pattern_collection.lua": "5a3adbb5117aa58a92fb0128c0ffd99acafc632f7ca2b4ac4cb24116a21c5af8",
+              "pattern_collection_assets.lua": "9a6bc5ac3a4d1ba58ca67de33b4abcf345037045e4856c88c2260d899e46bed6",
+              "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+              "pattern_deco_arap.lua": "8706d7de0b661f71b2755bfc9b7ce0d9e6d44192178875bf978b4e20bd61eb19",
+              "pattern_deco_cut.lua": "72a0efa92511d20ecce0e569a39d0ca9f70c0e988d6a8c39b298d1a2c265068d",
+              "pattern_deco_field.lua": "92944b311e9b644c12547da32e5a237e1a8374c3e509481023d2d6336d852f7a",
+              "pattern_deco_match.lua": "68db779b564b7454b8fc7cc941cf686dfbebf0c4e49efe8df4c69eae17043a6c",
+              "pattern_deco_mesh.lua": "38b89cb49db59bdf704d55cba7e6a57a5c084a276d7e2ac9edb5387616723e47",
+              "pattern_deco_refine.lua": "402ddb27dedfb6beed026f197922fe840d035cc8eea3d9d168fbf2ab8a0e208e",
+              "pattern_deco_sdf.lua": "3d7c5e970466fe529eac03f86cfaa8071704ff855191dcf00a0eddf40fd585e1",
+              "pattern_deco_vector.lua": "e76e9d62be61bd4043312c219aed9a8477fd89a1b596a831ea890758f0e81ae9",
+              "pattern_decobrush.lua": "9256a6c75e59aa10477ff071c13801f55799976081b1ceb7a00f5af70467eb4e",
+              "pattern_document.lua": "d383251e9ba865c04b61f8c3f019bfa11d71cde79e16431b020f5f0e8132bc0d",
+              "pattern_draw.lua": "a2014ef59745a3b9d0023d534061884673f10a20108791f8df24c8ae85f6fd14",
+              "pattern_editor.lua": "30b9e601b69dcd8d5a433a8db6e2cf19a18c0be0bd907545421a27172e501bca",
+              "pattern_escher.lua": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+              "pattern_escher_metric.lua": "51695e1b817ac967d5b92b0c61b27dadb2f0d713229fb2b4b05e91f9698bccb3",
+              "pattern_escher_p3.lua": "bb82c4b8306208523e602c516dd2e843e2c0cb12d46449954d8295ab6f4ee806",
+              "pattern_escher_periodic.lua": "1feb4dd424a2521a500253a675e9acffb1769f78813e703227923eeba009a893",
+              "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+              "pattern_examples.lua": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+              "pattern_freeform.lua": "864b35c396048aed8656681b60059109e877e0f1e7f483ebe233b020ff055afe",
+              "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+              "pattern_gothic_geometry.lua": "060265b84988036b898e78e0e1b82ab5f7f5c548f089d99bbdda8bf5490f70ae",
+              "pattern_gothic_microarchitecture.lua": "fe45125c694eb18fadafda4e76ee9db727a2d2e59608fca623f07cf66fa3755f",
+              "pattern_hash.lua": "ba1b1b6ed5e4c3ece61defabc6b15e507571f1b37a7535732497c4919dbde2f7",
+              "pattern_hat.lua": "8d20bb877d7c8b66d2efe06465dc75c360407d93a64d53135bb305fdd73ea910",
+              "pattern_hat_rules.lua": "efa2e4145c69d2c0bd617169cbe2bc60f235f2e8df134b8a448c9d3dcf5ffaf7",
+              "pattern_ink.lua": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+              "pattern_islamic.lua": "071fdc635788a2fe03cad77d01f9885db278b212522621e40770d907717f07bd",
+              "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+              "pattern_luatex.lua": "350bc08ad9b7b836c75a122249cc7956e63a6c055ab8cac87eb19c666af15cb4",
+              "pattern_maze.lua": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+              "pattern_maze_chart.lua": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+              "pattern_maze_graph.lua": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+              "pattern_micro_field.lua": "316a45539e7bdf1017dd6d444120c84cd2642014e2330100d57ead0a27608f7e",
+              "pattern_micrography.lua": "e20c364fdddc18c025020033b47afc940d892554d0fe17ecc504d7cfa3cf3b65",
+              "pattern_mosaic.lua": "529d164762786b13da9650a39129d9c7bf584cb2ee580b321e8e954dde400e1d",
+              "pattern_mosaic_cpu.lua": "dd3971af13367a1202463bf33ee84ca605554094fd54b079dd84a8d2ba325e09",
+              "pattern_output_style.lua": "9e37beb500904b8190ee7d967577c73dca8686bc46c6cbfd6f0de90ebc142294",
+              "pattern_parse.lua": "b3ba021e9fd613d84b82e0f6a4ac5d3eb3d4c1761cc4b396b019c69f34f8dc86",
+              "pattern_penrose.lua": "0a9c598c709444c0ce30e84c3cb8d32efa6ee9d845f16a4018b9b459572a7cfb",
+              "pattern_periodic.lua": "aac1f0d41c4fea875b0bcbd731c43b61b917a6dfc1f90c40516499aceea1c3ae",
+              "pattern_periodic_templates.lua": "7ee17146c91bc4ed4497b3fd442c982551174aba9585be888b7f3077b43fdf23",
+              "pattern_planner.lua": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+              "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+              "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+              "pattern_recipe.lua": "d3587dcaa6c6187fb066a75ce3a163e4516f4e2a1c6205fa16dd42d83d7a9fe1",
+              "pattern_registry.lua": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+              "pattern_render.lua": "5e545af670675a833780fa086a8703ef40ce0731b80734b0e342646aea658e90",
+              "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+              "pattern_spectre.lua": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+              "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+              "pattern_stroke.lua": "e3de230fcabd3f06129974e16b5aff6dea1fe5c90f2e33dce1766afdf1f8ae5f",
+              "pattern_stroke_examples.lua": "d8d45b627029487386a802d291278b14590602549cea139d7cf680893283e01a",
+              "pattern_stroke_field.lua": "b4ad6124957193664e14fbbdb92bc9b40b870030df23a102f282da2d3af411c2",
+              "pattern_tex.lua": "84e984b9fe489d1fa59a6c8b489958e78696cb9237a53e3b30ab41a281111c80",
+              "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+              "pattern_tracery.lua": "1b61a3040485cb26212b6231025396ea52bbda2b16c2473df8a5f0824be95e78",
+              "pattern_wallpaper.lua": "becdbb188ed6ac860b57089b614086a3b3841850036acbf5ed9b0a9cefebef38",
+              "pattern_xetex.lua": "0115005efaf14775232c41cdcde32b25c51057f223cdf027e36b1077e590ba99",
+              "pdfwriter.lua": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+              "space.lua": "8ee794f856ad72fb7b0700605052f6c1cec3f8284c985b7e4b50b6d287a7ee9f",
+              "tools/perf_prepare.lua": "b5c51319119c3f666e9251db3be07bf47508a8ccb61d02ba8f814277deb172c1",
+              "tools/perf_run.lua": "17a923c6cab0730ff865867ff15b9c2bad85d2535fa05608842f242e56f26b1d",
+              "tools/perf_workloads.lua": "42100274df3e859588de0893cf422f81d996b58e3663498b19d3077d8881e757"
+            },
+            "status": "passed",
+            "workload": {
+              "class": "example-synthesis",
+              "definition": {
+                "id": "decoration/decobrush",
+                "version": "1"
+              },
+              "family": "decobrush",
+              "id": "example-synthesis-small",
+              "recipe_bytes": 4811,
+              "recipe_path": "recipes/example-synthesis-small.recipe",
+              "recipe_sha256": "3df5531d0c5b1c6688340e0efacac82b7c3e7e55d2ea3820fbfb77505b503158",
+              "seed": 25,
+              "size": "small",
+              "size_index": 1
+            }
+          },
+          "error_tail": null
+        }
+      }
+    }
+  ]
+}

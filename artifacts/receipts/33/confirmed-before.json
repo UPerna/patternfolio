@@ -1,0 +1,100 @@
+{
+  "source_revision": "b4b6bed11e73298191f844574b41d4bc56935e39",
+  "scope": "Controlled falsification of comparator and actual production luaString evaluated by Lua5.3/5.4; not a browser execution claim",
+  "transport": [
+    {
+      "runtime": "lua53",
+      "case": "initial-newline",
+      "exact": false,
+      "expected_sha256": "8e4eeb7bf36906e2cce07dfbda571c84fcf5350634fccef23712cb627a235b34",
+      "actual_sha256": "1ed8ba7703b8b02e0e6cb58619557328e7dc3efe8974c4bbfb142f03303c4182"
+    },
+    {
+      "runtime": "lua53",
+      "case": "crlf",
+      "exact": false,
+      "expected_sha256": "35f0671c1e233e4645a5daa1fe8bbad14fe8ec935401733bb6bfb3a95cf9e16d",
+      "actual_sha256": "71194dedc02e465d911f39c9131b0f655adbfb8759cd9d55176ba04c9197541b"
+    },
+    {
+      "runtime": "lua53",
+      "case": "literal-cr",
+      "exact": false,
+      "expected_sha256": "91336d1f849df05e00fac9568cd2e6fce2d813291615293bf805f4f589ca2062",
+      "actual_sha256": "a613bbdf10416ca788dfc56cc5788673bec38cd6a294a0496f03082e6bcd3b8a"
+    },
+    {
+      "runtime": "lua53",
+      "case": "delimiters",
+      "exact": false,
+      "expected_sha256": "554dfd1dd2a352ac52c3656b63c02131f868957f0357782732cd5c9a665d32b2",
+      "actual_sha256": "4936b080b9f6598e1a2f9571794e69986e7906ecce842056eb1cfd8050f956c5"
+    },
+    {
+      "runtime": "lua54",
+      "case": "initial-newline",
+      "exact": false,
+      "expected_sha256": "8e4eeb7bf36906e2cce07dfbda571c84fcf5350634fccef23712cb627a235b34",
+      "actual_sha256": "1ed8ba7703b8b02e0e6cb58619557328e7dc3efe8974c4bbfb142f03303c4182"
+    },
+    {
+      "runtime": "lua54",
+      "case": "crlf",
+      "exact": false,
+      "expected_sha256": "35f0671c1e233e4645a5daa1fe8bbad14fe8ec935401733bb6bfb3a95cf9e16d",
+      "actual_sha256": "71194dedc02e465d911f39c9131b0f655adbfb8759cd9d55176ba04c9197541b"
+    },
+    {
+      "runtime": "lua54",
+      "case": "literal-cr",
+      "exact": false,
+      "expected_sha256": "91336d1f849df05e00fac9568cd2e6fce2d813291615293bf805f4f589ca2062",
+      "actual_sha256": "a613bbdf10416ca788dfc56cc5788673bec38cd6a294a0496f03082e6bcd3b8a"
+    },
+    {
+      "runtime": "lua54",
+      "case": "delimiters",
+      "exact": false,
+      "expected_sha256": "554dfd1dd2a352ac52c3656b63c02131f868957f0357782732cd5c9a665d32b2",
+      "actual_sha256": "4936b080b9f6598e1a2f9571794e69986e7906ecce842056eb1cfd8050f956c5"
+    }
+  ],
+  "corruptions": [
+    {
+      "path": "/extensions/micrography/positions/0/line",
+      "expected": 1,
+      "corrupt": 0.9999999999999999,
+      "detected": false
+    },
+    {
+      "path": "/extensions/micrography/positions/0/spans/0/0",
+      "expected": 1,
+      "corrupt": 0.9999999999999999,
+      "detected": false
+    },
+    {
+      "path": "/extensions/micrography/field/triangles/0/0",
+      "expected": 1,
+      "corrupt": 0.9999999999999999,
+      "detected": false
+    },
+    {
+      "path": "/extensions/micrography/field/labels/samples/0/label",
+      "expected": 1,
+      "corrupt": 0.9999999999999999,
+      "detected": false
+    },
+    {
+      "path": "/extensions/decobrush/field/matches/0/piece",
+      "expected": 1,
+      "corrupt": 0.9999999999999999,
+      "detected": false
+    },
+    {
+      "path": "/extensions/decobrush/field/seams/0/indices/0",
+      "expected": 1,
+      "corrupt": 0.9999999999999999,
+      "detected": false
+    }
+  ]
+}

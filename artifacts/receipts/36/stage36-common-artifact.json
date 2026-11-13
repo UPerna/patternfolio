@@ -1,0 +1,13 @@
+{
+  "kind": "common",
+  "revision": "8c1e33e289898de93c4f9f7c8733edd62a0a79d2",
+  "run": 42337399300,
+  "job": 128297318312,
+  "artifact_id": 13560307154,
+  "artifact_name": "florilegium-common-luatex",
+  "sha256": "20e8b5a0d7b15f6bc52b90a00bdeb207b7f0f25a4f90ef9faf87af747cc6b812",
+  "size_in_bytes": 2561522,
+  "archive_bytes": 2561522,
+  "verified_archive_sha256": "20e8b5a0d7b15f6bc52b90a00bdeb207b7f0f25a4f90ef9faf87af747cc6b812",
+  "safe_extraction": true
+}

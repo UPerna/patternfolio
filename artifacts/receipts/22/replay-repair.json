@@ -1,0 +1,29 @@
+{
+  "stage": "22",
+  "initial_publication": "48cdae7ce31478c30d77b356127c687068c5f541",
+  "ci_run": 41891140280,
+  "native_jobs": {
+    "portable": 126788534912,
+    "pdfs": 126788535247
+  },
+  "conclusion": "Both native jobs succeeded. Cross-platform replay evidence rejected the initial candidate.",
+  "observed": {
+    "causal_first_different_zero_based_decision": 55,
+    "windows": {
+      "selected": 11,
+      "score": 0.3912504644962967,
+      "matched": 51
+    },
+    "linux": {
+      "selected": 10,
+      "score": 0.39125046449629663,
+      "matched": 50
+    },
+    "group": "Effectively tied pair distances selected different declaration IDs."
+  },
+  "archives": {
+    "pdfs": "764a1a5ee3aefa1a29356781ac112a09df73dfff1df95637b2106b78c1fc7775",
+    "portable": "44f1dda8f329cf664077943f29e042b357bcdcea1cd1b03dc11c4cd0360a97dd"
+  },
+  "repair": "Rank near-equal distances and match scores in fixed 10^-9 bins and break ties by declaration order. Derive stable instance IDs from construction inputs."
+}

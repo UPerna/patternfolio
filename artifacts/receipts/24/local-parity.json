@@ -1,0 +1,32 @@
+{
+  "analysis": "Categorical JSON, graph, path command and SVG attributes agree. Checked all differing numeric values with physical bounds. Failure text differs only by Windows/Linux path separators.",
+  "exact_controls_and_categorical_structure": true,
+  "files": {
+    "latin.instance": {
+      "numeric_entries": 2066,
+      "maximum_absolute_delta": 2.220446049250313e-15
+    },
+    "latin.pdf": {
+      "numeric_entries": 424,
+      "maximum_absolute_delta": 2.220446049250313e-15
+    },
+    "latin.svg": {
+      "numeric_entries": 922,
+      "maximum_absolute_delta": 2.220446049250313e-15
+    }
+  },
+  "pdf_raster_cross_host": {
+    "combining-pdf.png": {
+      "normalized_mean": 0.0,
+      "peak_channel_delta": 0
+    },
+    "greek-pdf.png": {
+      "normalized_mean": 0.0,
+      "peak_channel_delta": 0
+    },
+    "latin-pdf.png": {
+      "normalized_mean": 0.0,
+      "peak_channel_delta": 0
+    }
+  }
+}

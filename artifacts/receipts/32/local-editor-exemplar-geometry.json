@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "browser": "156.0.4314.58",
+  "source_digest": "71066c24e6b541386c139936e472a179aa6a76df4aa871eb7bb9178d0d9379d2",
+  "editorcheck_sha256": "f480a54409a08d710eb4580c0c431c700dc7fa0c60dc4cd04a9fe8bb437ff9f4",
+  "cases": {
+    "exemplar": {
+      "status": "passed",
+      "source_digest": "71066c24e6b541386c139936e472a179aa6a76df4aa871eb7bb9178d0d9379d2",
+      "instance_sha256": "340eb2aa1f731ca3c2b95244c42606c341c7cf53e6fc1e7a1fdbfcd189e31809",
+      "claims": [
+        "User-selected JSON exemplar library imported and natively validated",
+        "Authored primitive thickness change alters actual synthesized vector",
+        "Actual DecoBrush synthesis uses imported start/middle/finish pieces"
+      ],
+      "vector_structure": {
+        "paths": 2,
+        "texts": 0,
+        "rasters": 0,
+        "width": "4cm",
+        "height": "1.5cm",
+        "viewbox": "0 0 4 1.5",
+        "semantic_refs": 1,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "340eb2aa1f731ca3c2b95244c42606c341c7cf53e6fc1e7a1fdbfcd189e31809",
+        "pattern.pdf": "eb5eed60bea8cfe98627046cd5fb4d9ed0cd140977c0600d1a775455b9ab3bd3",
+        "pattern.svg": "ec46275abcaae91823629c9f0bc4292242811c3f517a63e3ca99d12f729da226",
+        "recipe.json": "a6aa17fbff7819a6786a12335e228ff71cc2fc2ade4e79873a569723dee02a9e",
+        "record.json": "ccea475015fb419e617027d72bfdbc20ed9e06ae59e1d9732f6ad7ca74e9f892",
+        "scene.json": "92a7e92a5714300ce18f7d513e4ce9c31799bec8566b7f3f152813aedac626dc",
+        "view.json": "3bfdab71e8a1094f5da8b079934bd72f8f63506399b972a77e5e955b068b3e71"
+      }
+    }
+  },
+  "errors": [],
+  "scope": "Actual DOM/worker tasks and exact downloaded vector bytes; visual review is a separate required evidence receipt."
+}

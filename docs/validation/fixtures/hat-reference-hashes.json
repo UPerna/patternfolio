@@ -1,0 +1,98 @@
+[
+  {
+    "root": "H",
+    "depth": 1,
+    "count": 4,
+    "reflected": 1,
+    "hash": "d3ca4ec14816c465357d7f989deb28491d58c11dde4452c635ece5f1ea4bcf33",
+    "maxError": 2.220446049250313e-15
+  },
+  {
+    "root": "T",
+    "depth": 1,
+    "count": 1,
+    "reflected": 0,
+    "hash": "6abae161df6ceb0b1b82f4b336a3c632033cc6ba60d5aebcde33bc7128f4cfa9",
+    "maxError": 0
+  },
+  {
+    "root": "P",
+    "depth": 1,
+    "count": 2,
+    "reflected": 0,
+    "hash": "01a36133d601a03756d423e077fb93233d4097a9fd07fe49a9d3c78d5e05e500",
+    "maxError": 4.440892098500626e-16
+  },
+  {
+    "root": "F",
+    "depth": 1,
+    "count": 2,
+    "reflected": 0,
+    "hash": "8f5c4984551251cb82cfb609ecf934ddd00b1de213e51956becefe03be3310d0",
+    "maxError": 4.440892098500626e-16
+  },
+  {
+    "root": "H",
+    "depth": 2,
+    "count": 25,
+    "reflected": 3,
+    "hash": "3a544f13c36ec7a2c9cd144bb9bf6fa77d404a8a365bee59c2824dd291b7f7f5",
+    "maxError": 1.2434497875801753e-14
+  },
+  {
+    "root": "T",
+    "depth": 2,
+    "count": 4,
+    "reflected": 1,
+    "hash": "845e95adba13fb1a0d6fcb63ba43ca27e3656eca48ca2af63fe193d995e900f5",
+    "maxError": 5.329070518200751e-15
+  },
+  {
+    "root": "P",
+    "depth": 2,
+    "count": 14,
+    "reflected": 2,
+    "hash": "c2cb5fd8595216cb6b55cb5e962309239e87f4068f8da4f9a7bb0008a1bd8330",
+    "maxError": 3.552713678800501e-15
+  },
+  {
+    "root": "F",
+    "depth": 2,
+    "count": 16,
+    "reflected": 2,
+    "hash": "f90c37ad77f1d0ba627c9bf7afd33663658b9e9749e751bf90d2a64b3d70d610",
+    "maxError": 3.552713678800501e-15
+  },
+  {
+    "root": "H",
+    "depth": 3,
+    "count": 169,
+    "reflected": 22,
+    "hash": "857bc492a33cfab03c2646195f0e6c53bb506959c2651b6e7ffe7c2a7e620f9e",
+    "maxError": 3.552713678800501e-14
+  },
+  {
+    "root": "T",
+    "depth": 3,
+    "count": 25,
+    "reflected": 3,
+    "hash": "257138357ce46894b7989d6cb4e6c6e16c010cdc5cdd85c4959c27af5e4771ee",
+    "maxError": 2.1316282072803006e-14
+  },
+  {
+    "root": "P",
+    "depth": 3,
+    "count": 96,
+    "reflected": 12,
+    "hash": "d2d1d22bb3effe3446dcf1af81b1755be74507c5c4def1a494eb0b15b4842ff4",
+    "maxError": 2.842170943040401e-14
+  },
+  {
+    "root": "F",
+    "depth": 3,
+    "count": 112,
+    "reflected": 14,
+    "hash": "7fb8f2a1da878506f3f87e7c6619ce9f7761e27663cac00b9f6b136afeec9ac3",
+    "maxError": 7.815970093361102e-14
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "branch_head": "3e49627f01651ede39c56f5c6e9ef41bcc0230fe",
+  "pr_head": "3e49627f01651ede39c56f5c6e9ef41bcc0230fe",
+  "draft": true,
+  "pr_number": 2,
+  "pr_url": "https://github.com/UPerna/florilegium/pull/2",
+  "branch": "pattern/common-platform",
+  "base": "improve/layout-controls"
+}

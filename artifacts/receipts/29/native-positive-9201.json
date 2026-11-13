@@ -1,0 +1,200 @@
+{
+  "revision": "9201a5731c494d111153d15c9937621529d18a02",
+  "run": 42054812019,
+  "job": 127340177399,
+  "status": "Positive native gates passed; full job remains rejected because failure diagnostic was line-wrapped",
+  "book_pages": 4,
+  "placements": [
+    {
+      "pdf": "florilegium-pattern-5e71ff562f715610642dee770c4c44e0717ed8fa033a71f02b8283cb79698782.pdf",
+      "measured_cm": [
+        3.4272008333333335,
+        8.45742388888889,
+        5.427200833339445,
+        10.457423888895
+      ],
+      "expected_cm": [
+        3.4271887764429936,
+        8.457422656033796,
+        5.427188442848324,
+        10.457422322439127
+      ],
+      "maximum_absolute_error_cm": 1.239049112022883e-05,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-da98921de3af782899444064b43c6bf2f0f66dfc520da23c70c4d85532d03f40.pdf",
+      "measured_cm": [
+        5.544220277777778,
+        8.45742388888889,
+        7.5442202777838885,
+        10.457423888895
+      ],
+      "expected_cm": [
+        5.544224621772898,
+        8.457422656033796,
+        7.5442242881782295,
+        10.457422322439127
+      ],
+      "maximum_absolute_error_cm": 4.343995120059674e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-cfd835a00e1b2f0709a3c3a17fc859bac2544ffa270eaa97bb688f05f9ec9ad0.pdf",
+      "measured_cm": [
+        0.0,
+        8.650005277777778,
+        14.799999891058055,
+        12.350005250551112
+      ],
+      "expected_cm": [
+        0,
+        8.650000005172828,
+        14.799999891053893,
+        12.349999977936303
+      ],
+      "maximum_absolute_error_cm": 5.272614808760068e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-b828a0f3a80990bdbace0b7f0edc29601db75eacb6d6e2564445ed2bc25b5064.pdf",
+      "measured_cm": [
+        0.3000022222222222,
+        8.9500075,
+        4.000002983312778,
+        12.650008261090555
+      ],
+      "expected_cm": [
+        0.29999949411846405,
+        8.949998718996468,
+        4.000000255221035,
+        12.64999948009904
+      ],
+      "maximum_absolute_error_cm": 8.781003531410647e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-b3838715539a2996781ac722eeaf91ba583517250ae13d36fb8788203cd1742d.pdf",
+      "measured_cm": [
+        0.0,
+        8.650005277777778,
+        14.799999891058055,
+        12.350005250551112
+      ],
+      "expected_cm": [
+        0,
+        8.650000005172828,
+        14.799999891053893,
+        12.349999977936303
+      ],
+      "maximum_absolute_error_cm": 5.272614808760068e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-3250b82f6b688da6d170fce233ed4b23257886f94cc9da401f16c60864ea152f.pdf",
+      "measured_cm": [
+        5.499981944444444,
+        9.722767222222222,
+        8.500101944435974,
+        12.72288722221375
+      ],
+      "expected_cm": [
+        5.499999602811208,
+        9.72276321801734,
+        8.499999370561754,
+        12.722762985767886
+      ],
+      "maximum_absolute_error_cm": 0.00012423644586334603,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-07f2b1714e40b7c3477e40483f637b15d38f93a65b3960f3798e732d59245853.pdf",
+      "measured_cm": [
+        0.3000022222222222,
+        8.9500075,
+        4.000002983312778,
+        12.650008261090555
+      ],
+      "expected_cm": [
+        0.29999949411846405,
+        8.949998718996468,
+        4.000000255221035,
+        12.64999948009904
+      ],
+      "maximum_absolute_error_cm": 8.781003531410647e-06,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-344dcb2753cd0b75b0a4f47e5acdc4f8b71e655d86163c9abb9e689b91895938.pdf",
+      "measured_cm": [
+        6.900015833333334,
+        8.715868888888888,
+        9.9001358333425,
+        9.352073609455866
+      ],
+      "expected_cm": [
+        6.9000002809796115,
+        8.715874534555203,
+        9.900000048730158,
+        9.35205375868822
+      ],
+      "maximum_absolute_error_cm": 0.0001357846123415385,
+      "tolerance_cm": 0.01
+    },
+    {
+      "pdf": "florilegium-pattern-4f7ca895526b899de6fdd92c6f50f7fcfb9db16a5bb2b968c00c85686c570e32.pdf",
+      "measured_cm": [
+        4.300008333333334,
+        6.09981,
+        11.300118333335726,
+        8.385525536301122
+      ],
+      "expected_cm": [
+        4.2999997493394995,
+        6.099805024303933,
+        11.29999938618581,
+        8.385484524197892
+      ],
+      "maximum_absolute_error_cm": 0.00011894714991633748,
+      "tolerance_cm": 0.01
+    }
+  ],
+  "maximum_placement_error_cm": 0.0001357846123415385,
+  "placement_tolerance_cm": 0.01,
+  "masks": [
+    {
+      "name": "penrose",
+      "protected_colored_pixels": [
+        0,
+        0
+      ],
+      "control_colored_pixels": [
+        4961,
+        1920
+      ]
+    },
+    {
+      "name": "hybrid",
+      "protected_colored_pixels": [
+        0,
+        0
+      ],
+      "control_colored_pixels": [
+        0,
+        28
+      ]
+    }
+  ],
+  "searchable_text_local_pypdf": true,
+  "load_orders": [
+    "order-0-0",
+    "order-0-1",
+    "order-1-0",
+    "order-1-1"
+  ],
+  "discarded_shipout_identity": true,
+  "unknown_asset_compile": "correctly rejected",
+  "diagnostic_matcher_regression": "passed; unrelated errors do not match",
+  "log_sha256": "1f18f9ceea32c079517ddffff39c369c8fc4641187d255a1592b1b956a5f7e9a",
+  "native_artifact_sha256": "ca73dc84899e05fc8b0f3d81ccfdbaaf54e2ec1040e561d6e89f77a20e7dfe04"
+}

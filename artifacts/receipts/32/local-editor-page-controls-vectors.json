@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "source_digest": "71066c24e6b541386c139936e472a179aa6a76df4aa871eb7bb9178d0d9379d2",
+  "cases": {
+    "page-controls": {
+      "physical_cm": [
+        4,
+        3
+      ],
+      "pdf_page_points": [
+        113.38582677165354,
+        85.03937007874015
+      ],
+      "pdf_operations": 519,
+      "svg_elements": 171,
+      "vector_only": true,
+      "searchable_text_characters": null,
+      "sha256": {
+        "recipe.json": "7fff32eeabbf98dc2c0e4474a40a2a46150db97da359e2fc3e43662d71d6f613",
+        "pattern.svg": "e80fba288cd9bf3b427d1cc24203519fdce30d67d2a2988810b3eabb7b28c5c7",
+        "pattern.pdf": "dbc65e1efc1057e1cf998d716179958ee03285d5ed1e5a2e0ae8145a55e73567"
+      }
+    },
+    "microgram-controls": {
+      "physical_cm": [
+        13,
+        7
+      ],
+      "pdf_page_points": [
+        368.503937007874,
+        198.4251968503937
+      ],
+      "pdf_operations": 9917,
+      "svg_elements": 1483,
+      "vector_only": true,
+      "searchable_text_characters": null,
+      "sha256": {
+        "recipe.json": "b5693a65d08781961a9875ac3ffe0e726b61851f269ece5ec3b2868f8e107028",
+        "pattern.svg": "82cc3df2ce73fab68d8742ec6494fec0e66f8696943d1aaad8049e105958c223",
+        "pattern.pdf": "1b26ee75ffa68d4d16982f6ef1e8d363145d69ac697bd413db5117b7b2006bb4"
+      }
+    }
+  },
+  "scope": "Independent XML/PDF syntax, physical units, vector-only resources, DeviceGray and searchable text; visual review remains separate"
+}

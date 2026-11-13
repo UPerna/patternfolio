@@ -1,0 +1,69 @@
+{
+  "base.instance": {
+    "numeric_values_different": 607,
+    "max_abs_difference": 3.0531133177191805e-15
+  },
+  "mixed.instance": {
+    "numeric_values_different": 805,
+    "max_abs_difference": 2.886579864025407e-15
+  },
+  "panel.instance": {
+    "numeric_values_different": 731,
+    "max_abs_difference": 4.6074255521944e-15
+  },
+  "panel-replay.instance": {
+    "numeric_values_different": 731,
+    "max_abs_difference": 4.6074255521944e-15
+  },
+  "panel-replay.scene": {
+    "numeric_values_different": 696,
+    "max_abs_difference": 2.220446049250313e-15
+  },
+  "panel.recipe": {
+    "numeric_values_different": 18,
+    "max_abs_difference": 1.5543122344752192e-15
+  },
+  "tolerances.json": {
+    "numeric_values_different": 75,
+    "max_abs_difference": 2.55351295663786e-15
+  },
+  "base.pdf": {
+    "raster_mean_normalized_error": 0.0,
+    "raster_bbox": null
+  },
+  "base.svg": {
+    "raster_mean_normalized_error": 0.00014954006293875572,
+    "raster_bbox": [
+      98,
+      86,
+      262,
+      274
+    ]
+  },
+  "mixed.pdf": {
+    "raster_mean_normalized_error": 0.0,
+    "raster_bbox": null
+  },
+  "mixed.svg": {
+    "raster_mean_normalized_error": 0.00014428508028725893,
+    "raster_bbox": [
+      58,
+      155,
+      212,
+      304
+    ]
+  },
+  "panel.pdf": {
+    "raster_mean_normalized_error": 0.0,
+    "raster_bbox": null
+  },
+  "panel.svg": {
+    "raster_mean_normalized_error": 0.00010699588477366255,
+    "raster_bbox": [
+      85,
+      160,
+      205,
+      277
+    ]
+  }
+}

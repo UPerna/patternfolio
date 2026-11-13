@@ -1,0 +1,133 @@
+{
+  "geometry": {
+    "offset": {
+      "cells": 253,
+      "visible_cells": 116,
+      "area_residual": "2E-74",
+      "candidate_overlap_pairs": 462,
+      "ties": 0,
+      "eightfold_disk_tiles": 0
+    },
+    "noncentral": {
+      "cells": 188,
+      "visible_cells": 87,
+      "area_residual": "3E-74",
+      "candidate_overlap_pairs": 344,
+      "ties": 0,
+      "eightfold_disk_tiles": 0
+    },
+    "extended": {
+      "cells": 555,
+      "visible_cells": 359,
+      "area_residual": "3.1E-72",
+      "candidate_overlap_pairs": 1589,
+      "ties": 0,
+      "eightfold_disk_tiles": 0
+    },
+    "centered": {
+      "cells": 340,
+      "visible_cells": 236,
+      "area_residual": "1.2E-72",
+      "candidate_overlap_pairs": 1056,
+      "ties": 0,
+      "eightfold_disk_tiles": 64
+    },
+    "zero-plus": {
+      "cells": 225,
+      "visible_cells": 91,
+      "area_residual": "2E-74",
+      "candidate_overlap_pairs": 361,
+      "ties": 64,
+      "eightfold_disk_tiles": 0
+    },
+    "zero-minus": {
+      "cells": 225,
+      "visible_cells": 91,
+      "area_residual": "1E-74",
+      "candidate_overlap_pairs": 360,
+      "ties": 64,
+      "eightfold_disk_tiles": 0
+    },
+    "spread": {
+      "cells": 458,
+      "visible_cells": 282,
+      "area_residual": "1.3E-72",
+      "candidate_overlap_pairs": 1255,
+      "ties": 0,
+      "eightfold_disk_tiles": 0
+    }
+  },
+  "render": {
+    "offset": {
+      "mean_backend_error": 0.012285751633986928,
+      "dimensions": [
+        250,
+        200
+      ]
+    },
+    "noncentral": {
+      "mean_backend_error": 0.013166535947712419,
+      "dimensions": [
+        175,
+        200
+      ]
+    },
+    "extended": {
+      "mean_backend_error": 0.012827803714078224,
+      "dimensions": [
+        450,
+        350
+      ]
+    },
+    "centered": {
+      "mean_backend_error": 0.013131968046477848,
+      "dimensions": [
+        300,
+        300
+      ]
+    },
+    "zero-plus": {
+      "mean_backend_error": 0.018913333333333334,
+      "dimensions": [
+        200,
+        200
+      ]
+    },
+    "zero-minus": {
+      "mean_backend_error": 0.018698006535947713,
+      "dimensions": [
+        200,
+        200
+      ]
+    },
+    "common-a": {
+      "mean_backend_error": 0.012755660130718953,
+      "dimensions": [
+        100,
+        125
+      ]
+    },
+    "common-b": {
+      "mean_backend_error": 0.012755660130718953,
+      "dimensions": [
+        100,
+        125
+      ]
+    },
+    "spread-1": {
+      "mean_backend_error": 0.014148438634713142,
+      "dimensions": [
+        175,
+        180
+      ]
+    },
+    "spread-2": {
+      "mean_backend_error": 0.014488432410001037,
+      "dimensions": [
+        175,
+        180
+      ]
+    }
+  },
+  "shared": 253
+}

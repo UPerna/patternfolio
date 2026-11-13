@@ -1,0 +1,89 @@
+{
+  "stage": "11",
+  "revision": "7751d8207e6f8d2ffe0cccd1481a37afd5b64285",
+  "parent": "c45310b2d7db36dd0d423a28407950140906c01a",
+  "tree": "17cf3accbb2504de1bb0bd0b239c8fa8ebb91523",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "eea1558541b6dd04abc7d68fb2a14a3e9805a01d13f252a6cf1197cd4e397695",
+      "bytes": 4649
+    },
+    {
+      "path": "Makefile",
+      "sha256": "c737c0291977067dfee0c721b6f50e16bd3bf7f71d969fcbe6909e9f3f53d635",
+      "bytes": 5851
+    },
+    {
+      "path": "artifacts/receipts/10/ci-final.json",
+      "sha256": "dde574105c2635650cf0e3eba8502e2fa7e2b934137e7606343aed0efca41a68",
+      "bytes": 3341
+    },
+    {
+      "path": "artifacts/receipts/10/publication.json",
+      "sha256": "451d8fb85dc1403a7e2cda09ed28bbdc477d27405c1c6da964035711114199ac",
+      "bytes": 2784
+    },
+    {
+      "path": "artifacts/receipts/10/remote-tree.json",
+      "sha256": "08a6f86b2e63fa3d546b99024091994767fb3a56432749b400ae3384697d2d70",
+      "bytes": 489
+    },
+    {
+      "path": "artifacts/receipts/11/oracle.json",
+      "sha256": "3ad4d120bdaf4f305bf14766cc17dbc9c9a99c35f5280f564aa37daef680f25b",
+      "bytes": 2016
+    },
+    {
+      "path": "artifacts/receipts/11/receipt-Lua-5.3.json",
+      "sha256": "2b5828419b52083e8bd948d7ab5d02afdcae22d5e34855b9b898b55a57137ac6",
+      "bytes": 7160
+    },
+    {
+      "path": "artifacts/receipts/11/receipt-Lua-5.4.json",
+      "sha256": "316473be9b57c785d83e76eb837b4e4ecc4f1a26800c80e0ee5197d8795614c2",
+      "bytes": 7160
+    },
+    {
+      "path": "docs/architecture/ISLAMIC-PIC.md",
+      "sha256": "d34a965e93c7e2fac3cf68a3b9b01fa44f839da85695c8a864ff108a520d6af2",
+      "bytes": 3391
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "82ca7164d988bcc695cce2e449c24352001f04bb547c23d658aadadc96445466",
+      "bytes": 47482
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "093c0188f7652959a7365cb3782e2edeb35abfe5d6ae3e538f9aba2952be0719",
+      "bytes": 399
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "59eb40057715900252a73436d4a4f45dcfa2acee66058c72a7f0af5d6f9fc8c7",
+      "bytes": 38390
+    },
+    {
+      "path": "pattern_islamic.lua",
+      "sha256": "eeae04e8c097ab1618bebc38c96d72ada61fd8508fc37d29f6251decc57d2bc9",
+      "bytes": 16837
+    },
+    {
+      "path": "tools/islamic_oracle.py",
+      "sha256": "bf0a925e64f84666718ecc5bd346fc54680351affc34e70addfdef93212a517e",
+      "bytes": 13282
+    },
+    {
+      "path": "tools/islamiccheck.lua",
+      "sha256": "6bd41806622a7ef7b2809466b736cd0860c9a13dc71cfba1653b2970fdf25596",
+      "bytes": 6391
+    }
+  ],
+  "unchanged_parent_entries": 269,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41820709607,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

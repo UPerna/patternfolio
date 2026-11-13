@@ -1,0 +1,21 @@
+{
+  "stage": "04",
+  "head": "e7e7e32e90b151e7d51e02ad4582207d6ad52174",
+  "run": 41476967379,
+  "conclusion": "success",
+  "required_jobs": {
+    "pdfs": "success",
+    "portable": "success"
+  },
+  "optional_gallery": "skipped",
+  "pdfs_job": 125384988194,
+  "pdfs_evidence": [
+    "2026-11-02T16:01:59.4450369Z contractcheck: 61 checks passed; actual floral + graph + tiling examples; semantic-only text/strands/3D/field fixtures",
+    "2026-11-02T16:02:00.3775048Z replaycheck runtime: Lua 5.3; texlua/124; LuaFileSystem 1.7.0; int64/binary64",
+    "2026-11-02T16:02:03.0340933Z replaycheck: numeric locales exercised 3; unavailable locales skipped explicitly",
+    "2026-11-02T16:02:03.0394688Z replaycheck: 145 checks passed; golden vectors, actual generation/replay, dependency mutations, failure records and atomic filesystem faults",
+    "2026-11-02T16:02:03.0751744Z determinism_oracle: independent Python hashlib, canonical-number and modular-integer vectors passed",
+    "2026-11-02T16:02:13.1212699Z layoutcheck: 28 checks passed",
+    "2026-11-02T16:03:05.6747451Z bookcheck: 9 cases passed; fallback initial remains searchable"
+  ]
+}

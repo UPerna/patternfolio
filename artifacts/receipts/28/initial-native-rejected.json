@@ -1,0 +1,16 @@
+{
+  "stage": "28",
+  "rejected_revision": "9f5af38a5d2f41392560ce15d9023bd84d2513a4",
+  "rejected_run": 42020681071,
+  "pdf_job": 127222375508,
+  "portable_job": 127222375802,
+  "native_core_checks": 17,
+  "native_families": 22,
+  "native_failure_checks": 20,
+  "build_and_tests": "passed",
+  "artifact_upload": "failed: EACCES reading copied solver-cache/diagnostic.json",
+  "cause": "copytree preserved private 0600 container file modes in exported CI evidence",
+  "repair": "copytree uses copyfile for exported evidence; private CLI outputs retain their existing permissions",
+  "targeted_check": "copy from a private-mode file preserves content and creates readable export with standard permissions; POSIX mode assertion runs on POSIX",
+  "next_action": "Publish the evidence-copy permission repair as a fast-forward child of 9f5af38, independently fetch/verify it, rerun both native jobs, inspect artifacts and replay the native solver-cache on Windows. Stage 28 remains in progress until all gates pass; then start stage 29."
+}

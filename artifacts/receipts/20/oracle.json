@@ -1,0 +1,124 @@
+{
+  "geometry": {
+    "periodic": {
+      "area_residual_cm2": 1.7763568394002505e-15,
+      "nearby_polygon_pairs": 89,
+      "coupled_edges": 127,
+      "cells": 72,
+      "baseline": [
+        0.4364066607427483
+      ],
+      "optimized": [
+        0.32924197830374957
+      ]
+    },
+    "split": {
+      "area_residual_cm2": 1.7763568394002505e-15,
+      "nearby_polygon_pairs": 157,
+      "coupled_edges": 262,
+      "cells": 144,
+      "baseline": [
+        0.44219177967209294,
+        0.46884912865985906
+      ],
+      "optimized": [
+        0.2718483705686349,
+        0.2723981885682603
+      ]
+    },
+    "penrose": {
+      "area_residual_cm2": 0.0,
+      "nearby_polygon_pairs": 415,
+      "coupled_edges": 1156,
+      "cells": 224,
+      "baseline": [
+        0.462383958213119,
+        0.46504198426499976
+      ],
+      "optimized": [
+        0.20138674909534965,
+        0.3082953488713688
+      ]
+    },
+    "penrose-offset": {
+      "area_residual_cm2": 0.0,
+      "nearby_polygon_pairs": 424,
+      "coupled_edges": 1258,
+      "cells": 247,
+      "baseline": [
+        0.462383958213119,
+        0.46504198426499976
+      ],
+      "optimized": [
+        0.20138674909534965,
+        0.3082953488713688
+      ]
+    }
+  },
+  "renders": {
+    "periodic": {
+      "mean_backend_error": 0.0031320028011204482,
+      "dimensions": [
+        210,
+        160
+      ]
+    },
+    "periodic-baseline": {
+      "mean_backend_error": 0.015014005602240896,
+      "dimensions": [
+        210,
+        160
+      ]
+    },
+    "split": {
+      "mean_backend_error": 0.004714713663243075,
+      "dimensions": [
+        210,
+        160
+      ]
+    },
+    "split-baseline": {
+      "mean_backend_error": 0.021578742608154376,
+      "dimensions": [
+        210,
+        160
+      ]
+    },
+    "penrose": {
+      "mean_backend_error": 0.007276833696441541,
+      "dimensions": [
+        225,
+        160
+      ]
+    },
+    "penrose-baseline": {
+      "mean_backend_error": 0.004925562817719681,
+      "dimensions": [
+        225,
+        160
+      ]
+    },
+    "penrose-offset": {
+      "mean_backend_error": 0.007211951447245565,
+      "dimensions": [
+        210,
+        180
+      ]
+    },
+    "common-a": {
+      "mean_backend_error": 0.007159949437046184,
+      "dimensions": [
+        145,
+        115
+      ]
+    },
+    "common-b": {
+      "mean_backend_error": 0.007159949437046184,
+      "dimensions": [
+        145,
+        115
+      ]
+    }
+  },
+  "shared_edges": 947
+}

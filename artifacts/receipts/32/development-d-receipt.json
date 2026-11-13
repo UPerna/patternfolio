@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "browser": "156.0.4314.58",
+  "source_digest": "7e74fe8470121a646fa6d2ca0f22d62f7d772357897bb31dd7f0172663245c03",
+  "editorcheck_sha256": "740ae3d9670db2a8eceb9e04376bdb7c8908087366cad42de12f3307c327d704",
+  "cases": {
+    "microgram": {
+      "status": "passed",
+      "source_digest": "7e74fe8470121a646fa6d2ca0f22d62f7d772357897bb31dd7f0172663245c03",
+      "instance_sha256": "ce0c22e842674d440269309b13dccb28a910eaf377e7b4affdfa063d050d16f5",
+      "claims": [
+        "Authored text shaped and placed by actual native Micrography family",
+        "Pinned font identity and unsupported custom loading displayed",
+        "Vector text is preserved in native output"
+      ],
+      "vector_structure": {
+        "paths": 349,
+        "texts": 7,
+        "rasters": 0,
+        "width": "13cm",
+        "height": "7cm",
+        "viewbox": "0 0 13 7",
+        "semantic_refs": 355,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "ce0c22e842674d440269309b13dccb28a910eaf377e7b4affdfa063d050d16f5",
+        "pattern.pdf": "080cade796b44d929e4ea6801117379c94bb38af0566f5d030cbb18de528e330",
+        "pattern.svg": "40a59533cc9f2c2c9651c52dd18d15344d32b5c45e9b2a71434b7c1ba7583c87",
+        "recipe.json": "862108931d1c58a56dab36fdf85bcb62a4e32681148a783d501f0b00e48a260d",
+        "record.json": "eed0f171cb945a51a78c046f66f8c5fdf7c0a3d24f072db02629143340c39062",
+        "scene.json": "66ff5c6c37e6922281ec894c17799dce03d3f7f3f8dc92b544f31783ecef3877",
+        "view.json": "fcc45f66efe139bb7cfe9ade76d33d15fdd0e2c6e6141286358c7c0fa904ea74"
+      }
+    },
+    "maze": {
+      "status": "passed",
+      "source_digest": "7e74fe8470121a646fa6d2ca0f22d62f7d772357897bb31dd7f0172663245c03",
+      "instance_sha256": "edead93a4f93cffbb2b2fa84fb3535a9d937e923db1568df1631a8246cc820d4",
+      "claims": [
+        "Native radial tone field guides actual maze generation",
+        "Solution display follows native validated route",
+        "Showing solution preserves maze instance"
+      ],
+      "vector_structure": {
+        "paths": 368,
+        "texts": 0,
+        "rasters": 0,
+        "width": "10.559999999999999cm",
+        "height": "7.5600000000000005cm",
+        "viewbox": "0 0 10.559999999999999 7.5600000000000005",
+        "semantic_refs": 367,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "edead93a4f93cffbb2b2fa84fb3535a9d937e923db1568df1631a8246cc820d4",
+        "pattern.pdf": "8e93c2ccafb5b9debf0b5b730c8c7e63d7ce2aaf037a9cfb67c1dd4ba294ceea",
+        "pattern.svg": "ae2ecf1f4b16b0fa2d33571c475352c0928e523aeb7fa49f045a02476d3f2467",
+        "recipe.json": "f7c5314fb5204269b655ba806792e7ceb2c4d9717b3d2b2173cf63d97f8aa2da",
+        "record.json": "58f018833ff9f75445c9966d89e8542fdf5cf43e060b735cb81dc2a91323006f",
+        "scene.json": "efd6d1977589002b0a1f87d8c88408ecb70d4e7b9f44ba85a8e094fae3af7c3b",
+        "view.json": "ae40e06e87648cd445bfddd4e00bbfce617b6354978c5fdc1433703a415dcd95"
+      }
+    },
+    "recovery": {
+      "status": "passed",
+      "source_digest": "7e74fe8470121a646fa6d2ca0f22d62f7d772357897bb31dd7f0172663245c03",
+      "instance_sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+      "claims": [
+        "Undo/redo keeps validated instances",
+        "Refresh preserves unapplied draft and accepted instance",
+        "Portable workspace output bytes checked against native replay",
+        "Malformed import preserves previous work",
+        "New edit supersedes running generation",
+        "Keyboard navigation and 390px responsive layout"
+      ],
+      "vector_structure": {
+        "paths": 13,
+        "texts": 0,
+        "rasters": 0,
+        "width": "3.2000000000000002cm",
+        "height": "2.7999999999999998cm",
+        "viewbox": "0 0 3.2000000000000002 2.7999999999999998",
+        "semantic_refs": 11,
+        "clips": 2
+      },
+      "assets_sha256": {
+        "instance.json": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+        "pattern.pdf": "607e9e791a43cf486b90d63425cedc30486fb7edcaae20d3626897db5c8c9039",
+        "pattern.svg": "2c44df24a01946d3f8aa24aeed429212e6f0f7f959cfbb374f467bb1817b88a2",
+        "recipe.json": "e678f9d32f90d657440d596b89be915bd99d5c4280b43248862a4cc072611aed",
+        "record.json": "c7ea336330db626b5879ab6db56ee316f37a9fede19ce385e88e2bde5f86b02a",
+        "scene.json": "9003a48f393f3289337f0261f4f7a4c90e9e5bfb198fc14f4957058617fcee1b",
+        "view.json": "e56510429f77a4740571ac1285220ea13cd05f9f1082b8243e4bb92320710fcf"
+      }
+    }
+  },
+  "errors": [],
+  "scope": "Actual DOM/worker tasks and exact downloaded vector bytes; visual review is a separate required evidence receipt."
+}

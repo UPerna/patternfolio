@@ -1,0 +1,74 @@
+Actual browser performance passed floral-growth-small
+Actual browser performance passed floral-growth-medium
+Actual browser performance passed floral-growth-large
+Actual browser performance passed knot-topology-small
+Actual browser performance passed knot-topology-medium
+Actual browser performance passed knot-topology-large
+Actual browser performance passed circle-packing-small
+Actual browser performance passed circle-packing-medium
+Actual browser performance passed circle-packing-large
+Actual browser performance passed substitution-small
+Actual browser performance passed substitution-medium
+Actual browser performance passed substitution-large
+Actual browser performance passed projection-small
+Actual browser performance passed projection-medium
+Actual browser performance passed projection-large
+Actual browser performance passed optimization-small
+Actual browser performance passed optimization-medium
+Actual browser performance passed optimization-large
+Actual browser performance passed mosaic-packing-small
+Actual browser performance passed mosaic-packing-medium
+Actual browser performance passed mosaic-packing-large
+Actual browser performance passed text-shaping-small
+Actual browser performance passed text-shaping-medium
+Actual browser performance passed text-shaping-large
+Actual browser performance passed example-synthesis-small
+Actual browser performance passed example-synthesis-medium
+Actual browser performance passed example-synthesis-large
+Actual browser bounds passed floral-growth-large
+Actual browser bounds passed knot-topology-large
+Actual browser bounds passed circle-packing-large
+Actual browser bounds passed substitution-large
+Actual browser bounds passed projection-large
+Actual browser bounds passed optimization-large
+Actual browser bounds passed mosaic-packing-large
+Actual browser bounds passed text-shaping-large
+Actual browser bounds passed example-synthesis-large
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('#cancel')[22m
+[2m    - locator resolved to <button hidden="" id="cancel">Cancel</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is not visible[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    57 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is not visible[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+    at main (C:\Users\EN33948\Documents\Codex\2026-11-02\goal-execute-the-attached-pattern-platform-2\work\stage34\tools\browser-performance.cjs:76:64) {
+  log: [
+    "  - waiting for locator('#cancel')",
+    '    - locator resolved to <button hidden="" id="cancel">Cancel</button>',
+    '  - attempting click action',
+    '    2 × waiting for element to be visible, enabled and stable',
+    '      - element is not visible',
+    '    - retrying click action',
+    '    - waiting 20ms',
+    '    2 × waiting for element to be visible, enabled and stable',
+    '      - element is not visible',
+    '    - retrying click action',
+    '      - waiting 100ms',
+    '    57 × waiting for element to be visible, enabled and stable',
+    '       - element is not visible',
+    '     - retrying click action',
+    '       - waiting 500ms'
+  ],
+  name: 'TimeoutError'
+}

@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "source_digest": "7e74fe8470121a646fa6d2ca0f22d62f7d772357897bb31dd7f0172663245c03",
+  "cases": {
+    "microgram": {
+      "physical_cm": [
+        13,
+        7
+      ],
+      "pdf_page_points": [
+        368.503937007874,
+        198.4251968503937
+      ],
+      "pdf_operations": 10007,
+      "svg_elements": 1495,
+      "vector_only": true,
+      "searchable_text_characters": 351,
+      "sha256": {
+        "recipe.json": "862108931d1c58a56dab36fdf85bcb62a4e32681148a783d501f0b00e48a260d",
+        "pattern.svg": "40a59533cc9f2c2c9651c52dd18d15344d32b5c45e9b2a71434b7c1ba7583c87",
+        "pattern.pdf": "080cade796b44d929e4ea6801117379c94bb38af0566f5d030cbb18de528e330"
+      }
+    },
+    "maze": {
+      "physical_cm": [
+        10.559999999999999,
+        7.5600000000000005
+      ],
+      "pdf_page_points": [
+        299.33858267716533,
+        214.2992125984252
+      ],
+      "pdf_operations": 4842,
+      "svg_elements": 1106,
+      "vector_only": true,
+      "searchable_text_characters": null,
+      "sha256": {
+        "recipe.json": "f7c5314fb5204269b655ba806792e7ceb2c4d9717b3d2b2173cf63d97f8aa2da",
+        "pattern.svg": "ae2ecf1f4b16b0fa2d33571c475352c0928e523aeb7fa49f045a02476d3f2467",
+        "pattern.pdf": "8e93c2ccafb5b9debf0b5b730c8c7e63d7ce2aaf037a9cfb67c1dd4ba294ceea"
+      }
+    },
+    "recovery": {
+      "physical_cm": [
+        3.2,
+        2.8
+      ],
+      "pdf_page_points": [
+        90.70866141732284,
+        79.37007874015747
+      ],
+      "pdf_operations": 159,
+      "svg_elements": 51,
+      "vector_only": true,
+      "searchable_text_characters": null,
+      "sha256": {
+        "recipe.json": "e678f9d32f90d657440d596b89be915bd99d5c4280b43248862a4cc072611aed",
+        "pattern.svg": "2c44df24a01946d3f8aa24aeed429212e6f0f7f959cfbb374f467bb1817b88a2",
+        "pattern.pdf": "607e9e791a43cf486b90d63425cedc30486fb7edcaae20d3626897db5c8c9039"
+      }
+    }
+  },
+  "scope": "Independent XML/PDF syntax, physical units, vector-only resources, DeviceGray and searchable text; visual review remains separate"
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "10",
+  "revision": "c45310b2d7db36dd0d423a28407950140906c01a",
+  "tree": "9d629e4498588b349c0b18cbf6fe90ef5ea7fa27",
+  "parent": "ac76ce9c75522f2a653b697ddd8d97cd3dc803bf",
+  "changed_git_entries_verified": 14,
+  "inherited_git_entries_verified": 260,
+  "ci_run": 41817152170,
+  "native_jobs": {
+    "portable": 126530682647,
+    "pdfs": 126530682965
+  },
+  "status": "in_progress",
+  "route": "GitHub Git objects verified against independently computed local blob hashes"
+}

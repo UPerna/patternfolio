@@ -1,0 +1,109 @@
+{
+  "stage": "23",
+  "revision": "24fe6eb72dc39ad70ff835a2f2a126c35a79f054",
+  "parent": "30c5a6c9f9ffe43d88d6087ac78e8e7ba87bc5db",
+  "tree": "c3a531418ad25535fe5f2bb334bb79248095914d",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "2be559bf1a619fad6704bf7d9430d508f3d66e4150fcfe7930c9c188dbaeb181",
+      "bytes": 6078
+    },
+    {
+      "path": "Makefile",
+      "sha256": "eae872fbcf48c6ec76063ff5baec410db1545a45a6cd21c77700426e08197a63",
+      "bytes": 6787
+    },
+    {
+      "path": "artifacts/receipts/22/ci-final.json",
+      "sha256": "4e77dcb28d07da99debfc2aad92b9be0eaa0e35f5611ebbf86ec1f35a00092de",
+      "bytes": 21027
+    },
+    {
+      "path": "artifacts/receipts/22/publication.json",
+      "sha256": "67c89c7af5069f84c78c46b76687cdd85da90f2b84514ff56cdc5fb70d103b70",
+      "bytes": 2180
+    },
+    {
+      "path": "artifacts/receipts/23/oracle.json",
+      "sha256": "a7baa6d7535763a2db2411a715911a0b6566a9dba4ff2093d51a6d7b55f5a2d9",
+      "bytes": 5355
+    },
+    {
+      "path": "artifacts/receipts/23/receipt-Lua-5.3.json",
+      "sha256": "e146ffbc84ef946c909a9a701c08d422518749e9468553d9001fe461055d06d8",
+      "bytes": 4464
+    },
+    {
+      "path": "artifacts/receipts/23/receipt-Lua-5.4.json",
+      "sha256": "e146ffbc84ef946c909a9a701c08d422518749e9468553d9001fe461055d06d8",
+      "bytes": 4464
+    },
+    {
+      "path": "artifacts/receipts/23/source-reference.json",
+      "sha256": "c7a1dc4ad128f16b338353ef21a6c1d23e091da78ce69d386188af5d5b7b5654",
+      "bytes": 566
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "32c24202a49deb6a7b0427437f38c44d17fccf6f51f657b45131dbe84ccfafed",
+      "bytes": 57910
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "0b3c76e013d1da00dc3daf92ed287638e10a2a7edd8d1daa5a997231cce4c5f2",
+      "bytes": 532
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "e61b02ac4601424e1911bba4f43039730dc1c5edec31224342e6d992567c0635",
+      "bytes": 32242
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "9e51aeaf224574e481ed9584f90f73df560216d44b9a95437ea39fef37533e7a",
+      "bytes": 41094
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "5e5fcc46efa389cbb7cbd55e79016ff903e9b6d4acfe53219ef43f43de93f060",
+      "bytes": 7612
+    },
+    {
+      "path": "docs/validation/MAZE.md",
+      "sha256": "bc269e28b8dfddfbf03779eb45fd1a24f662f59af4795175c57603fde24bf54a",
+      "bytes": 2793
+    },
+    {
+      "path": "pattern_maze.lua",
+      "sha256": "96189efa161e8549d780088951c3ff53c4e160e3e8a0c3d370fa02bd91b509dc",
+      "bytes": 10393
+    },
+    {
+      "path": "pattern_maze_chart.lua",
+      "sha256": "ad02369181b81b013c7187075693dc5d86e04cfcf2db4172e69e26e30c9e483c",
+      "bytes": 4761
+    },
+    {
+      "path": "pattern_maze_graph.lua",
+      "sha256": "625d273fd883c85a671393c1a5eadae2d610a9be87cb5e661eb491640b57c265",
+      "bytes": 8249
+    },
+    {
+      "path": "tools/maze_oracle.py",
+      "sha256": "6848b3ab2d7f92a566d1729906d761a185e4570120584f3fccb98f2422e00c49",
+      "bytes": 11845
+    },
+    {
+      "path": "tools/mazecheck.lua",
+      "sha256": "7caa24c837cd214cc4cd15d1689fdc868e0b0ea4f0addb7108932a6311bebc9d",
+      "bytes": 5923
+    }
+  ],
+  "unchanged_parent_entries": 404,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41900860345,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

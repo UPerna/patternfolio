@@ -1,0 +1,56 @@
+{
+  "revision": "bd11eefd36d21104ad46cbdde2684401ec6ee9b8",
+  "run": 42216668040,
+  "job": 127888300178,
+  "archive_sha256": "e6e064d029e642bc14f3072dc0147aedf3e37549a19fe1c4ce78129decea5dc7",
+  "native_cli_source_digest": "d311039ba905e3b25a2477bf546db7a6c5a414bb1b7e2f8a63a2ba7d492ea1ca",
+  "verified_cli_source_files": 113,
+  "families": 22,
+  "verified_export_hashes": 44,
+  "exports_identical_to_visually_accepted_stage28": true,
+  "core_checks": 17,
+  "planner_checks": 82,
+  "failure_checks": {
+    "checks": 20,
+    "symlink_checked": true,
+    "signal_cancellation_checked": true,
+    "junction_checked": false,
+    "timeout_checked": true,
+    "hardlink_lock_checked": true,
+    "partial_batch_repaired": true,
+    "damaged_output_rebuilt": true,
+    "unicode_paths_checked": true,
+    "concurrent_destination_checked": true
+  },
+  "documents": {
+    "florilegium": {
+      "sha256": "27c3d4fa38eefb33f7b9455b4b46bc25e16969944c65a0fc9cedb32c268acf15",
+      "pages": 4
+    },
+    "florilegium-grow": {
+      "sha256": "ac6f136ce043c84a14c2e39dc1fa4350b7e28be3768ee57ecea2e811e9c42c0f",
+      "pages": 6
+    },
+    "showcase": {
+      "sha256": "bd30fcaba93149b66281b4fe2631f43e08349ceb6f08ccf5e984f9423e065f02",
+      "pages": 3
+    },
+    "book-demo": {
+      "sha256": "7c7c5bc7a7060fcb6b45b6e88d5defdb40fa0793b09f87f54f0ba10eb9819ea4",
+      "pages": 2
+    },
+    "asset-demo": {
+      "sha256": "e3011edb7707d5eef4e9ed4dd5622d8227a9ea5fdf7df664896644bcb5e4e2eb",
+      "pages": 1
+    },
+    "folio-demo": {
+      "sha256": "38816984a7f71c750de71defd6b5d02a609e2159131024844f6e62871b4c732e",
+      "pages": 4
+    },
+    "specimen": {
+      "sha256": "73d4072b4104c99f16ce7358ebb54d3847f5e8e0639ab4c4aec7ab6040a80a06",
+      "pages": 1
+    }
+  },
+  "solver_cache_outputs_verified": 8
+}

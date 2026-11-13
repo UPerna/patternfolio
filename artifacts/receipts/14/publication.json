@@ -1,0 +1,104 @@
+{
+  "stage": "14",
+  "revision": "580053a163b33ab2bf7dd4284fcb66f13021fcbb",
+  "parent": "5fc7a9ee535e36614fc640d682fcfbfbffcbe08c",
+  "tree": "fbdbb980f4d982ab711c40c878b17c889921be90",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "02e68fef86ef6df1731be15f57e91a4359967f67ddf7f523233361478f88c0bc",
+      "bytes": 5024
+    },
+    {
+      "path": "Makefile",
+      "sha256": "9111282c5caf40e99594516999bbdeaeba040df912b21379b3a52f7db9f9fe9d",
+      "bytes": 6097
+    },
+    {
+      "path": "artifacts/receipts/13/ci-final.json",
+      "sha256": "3653f6b9fcaa02e5b27b7407e597afa028faf357b34f767dc4a239c18df1b614",
+      "bytes": 2207
+    },
+    {
+      "path": "artifacts/receipts/13/publication.json",
+      "sha256": "28b30714a92f7f0e9469243435ff8b22defaf8e2750257f55f703b62aacb7595",
+      "bytes": 3477
+    },
+    {
+      "path": "artifacts/receipts/14/oracle.json",
+      "sha256": "3c1bcc9adac5fbfbfefba4fae176b4bd5483004104cdc39a45161c926eaa4d98",
+      "bytes": 4622
+    },
+    {
+      "path": "artifacts/receipts/14/primary-recovery.json",
+      "sha256": "7d3de6986ce674222f3f49a074c723cfc30105b08eb0dda7446c16fc90fd7b71",
+      "bytes": 750
+    },
+    {
+      "path": "artifacts/receipts/14/receipt-Lua-5.3.json",
+      "sha256": "9f35aa21bb539f01334a93567d03b1f6eb5ffb041d2972b287062cf420a68e3b",
+      "bytes": 15798
+    },
+    {
+      "path": "artifacts/receipts/14/receipt-Lua-5.4.json",
+      "sha256": "263b4bad4df28441a06c0b8b799648eae92f24729ca93cd28bce2650d63604e5",
+      "bytes": 15798
+    },
+    {
+      "path": "docs/architecture/PENROSE-P3.md",
+      "sha256": "60bb99b87a56471faa73fc325250a11141f35633a38a4246214f066bca461a78",
+      "bytes": 3407
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "f06fdf721e3a9065285bea1234118eab1835c206c4d00b2cdbe674cfc887a170",
+      "bytes": 49429
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "b8f998a0a9f1bbab01a82b74e8b3720ca235d69a9da4ac6bb9426f5ea5feed9b",
+      "bytes": 454
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "6e5918efff34c38e2cc81dbf3fbeeb634aeaf5bd8a1d46e4f1328e34a9ec1f0b",
+      "bytes": 30314
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "06f54d9ac65338062f2ff52ceebb6670c8e7135618eff912ab9916c7f407b85e",
+      "bytes": 39126
+    },
+    {
+      "path": "docs/research/OPEN_OBLIGATIONS.json",
+      "sha256": "6c0a3538e3d7a0efec0173f53ce73107602eaf8c1e05f01f42db4863018716d7",
+      "bytes": 2442
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "3176d130dcbcc3ca4e5661d921c5e58afd54f27df1f9378bcd31fd26467451b7",
+      "bytes": 24622
+    },
+    {
+      "path": "pattern_penrose.lua",
+      "sha256": "5e974eab840b40b8fbbc73f904db56625480330c7a8063d9b33651325f31c938",
+      "bytes": 17591
+    },
+    {
+      "path": "tools/penrose_oracle.py",
+      "sha256": "4ba601a6cbeb108ca1eeb38fc7b24735c72847f130e5afafe6e6f029a872ac21",
+      "bytes": 14203
+    },
+    {
+      "path": "tools/penrosecheck.lua",
+      "sha256": "d566bb2a8bb70adbdb75e47881bf980e1d56dca0aa50ef6d678bbf3fb6945236",
+      "bytes": 8014
+    }
+  ],
+  "unchanged_parent_entries": 297,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41834634936,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

@@ -1,0 +1,214 @@
+{
+  "stage": "20",
+  "source_digest": "7ac40d69966d82ec32236e5debb1638632be6a67ad00e207b133e9fe9afeba88",
+  "native_checks": 20,
+  "native_output_hashes": 34,
+  "native_local_differences": [
+    "solver-failures.json",
+    "split-solver.json",
+    "split.instance"
+  ],
+  "kit_hashes": 379,
+  "oracle": {
+    "geometry": {
+      "periodic": {
+        "area_residual_cm2": 1.7763568394002505e-15,
+        "nearby_polygon_pairs": 89,
+        "coupled_edges": 127,
+        "cells": 72,
+        "baseline": [
+          0.43640666074274426
+        ],
+        "optimized": [
+          0.3292419783037509
+        ]
+      },
+      "split": {
+        "area_residual_cm2": 1.7763568394002505e-15,
+        "nearby_polygon_pairs": 157,
+        "coupled_edges": 262,
+        "cells": 144,
+        "baseline": [
+          0.442191779672093,
+          0.46884912865985906
+        ],
+        "optimized": [
+          0.271848370568635,
+          0.2723981885682603
+        ]
+      },
+      "penrose": {
+        "area_residual_cm2": 0.0,
+        "nearby_polygon_pairs": 415,
+        "coupled_edges": 1156,
+        "cells": 224,
+        "baseline": [
+          0.462383958213119,
+          0.46504198426499976
+        ],
+        "optimized": [
+          0.20138674909534965,
+          0.3082953488713688
+        ]
+      },
+      "penrose-offset": {
+        "area_residual_cm2": 0.0,
+        "nearby_polygon_pairs": 424,
+        "coupled_edges": 1258,
+        "cells": 247,
+        "baseline": [
+          0.462383958213119,
+          0.46504198426499976
+        ],
+        "optimized": [
+          0.20138674909534965,
+          0.3082953488713688
+        ]
+      }
+    },
+    "renders": {
+      "periodic": {
+        "mean_backend_error": 0.00449354186118892,
+        "dimensions": [
+          210,
+          160
+        ]
+      },
+      "periodic-baseline": {
+        "mean_backend_error": 0.016195922813569873,
+        "dimensions": [
+          210,
+          160
+        ]
+      },
+      "split": {
+        "mean_backend_error": 0.005391767818238406,
+        "dimensions": [
+          210,
+          160
+        ]
+      },
+      "split-baseline": {
+        "mean_backend_error": 0.02212822906940554,
+        "dimensions": [
+          210,
+          160
+        ]
+      },
+      "penrose": {
+        "mean_backend_error": 0.007862999273783587,
+        "dimensions": [
+          225,
+          160
+        ]
+      },
+      "penrose-baseline": {
+        "mean_backend_error": 0.005418591140159768,
+        "dimensions": [
+          225,
+          160
+        ]
+      },
+      "penrose-offset": {
+        "mean_backend_error": 0.007798699726804302,
+        "dimensions": [
+          210,
+          180
+        ]
+      },
+      "common-a": {
+        "mean_backend_error": 0.007736131934032983,
+        "dimensions": [
+          145,
+          115
+        ]
+      },
+      "common-b": {
+        "mean_backend_error": 0.007736131934032983,
+        "dimensions": [
+          145,
+          115
+        ]
+      }
+    },
+    "shared_edges": 947
+  },
+  "visual_review": "Accepted nine native PDF/SVG pairs including periodic, split and P3 baseline/optimized views and exact common viewport.",
+  "difference_analysis": {
+    "analysis": "Categorical JSON, graph, path command and SVG attributes agree. Checked all differing numeric values with physical bounds. Failure text differs only by Windows/Linux path separators.",
+    "exact_controls_and_categorical_structure": true,
+    "files": {
+      "solver-failures.json": {
+        "numeric_entries": 0,
+        "maximum_absolute_delta": 0.0
+      },
+      "split-solver.json": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 5.551115123125783e-17
+      },
+      "split.instance": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 5.551115123125783e-17
+      }
+    },
+    "pdf_raster_cross_host": {
+      "common-a-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "common-b-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "penrose-baseline-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "penrose-offset-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "penrose-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "periodic-baseline-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "periodic-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "split-baseline-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "split-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      }
+    }
+  },
+  "revision": "340bf32c0a7b7a15adf1f721e3a47d6ff1007249",
+  "tree": "1c1b98153440b6a1afbfec02813f1fa8da663e4b",
+  "run": 41879093437,
+  "jobs": {
+    "pdfs": {
+      "id": 126746606627,
+      "conclusion": "success"
+    },
+    "portable": {
+      "id": 126746607261,
+      "conclusion": "success"
+    },
+    "gallery": {
+      "id": 126746609477,
+      "conclusion": "skipped"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "8bf7e2f3123ed5f7041fa201e2718369100fc16b43c5ba31de023eedf719f8e7",
+    "portable": "4145cb1b4e8f1301fd461c4bc41e69d881a0736a973ae87a409f08f7acf0484e"
+  }
+}

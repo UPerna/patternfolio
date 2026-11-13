@@ -1,0 +1,24 @@
+\chapter[Shared constructions]{Shared constructions}\label{chap:shared}
+\florilegiumpatternpage[region=page,spread=left,padding=0pt]{penrose}
+\florilegiumpatternpage[region=outer,padding=3mm]{hybrid}
+\florilegiumreserve[0pt]{.7cm}{9cm}{.6cm}{3cm}
+\florilegiumreserve[0pt]{1.3cm}{9cm}{1.2cm}{.6cm}
+\AddToHookNext{shipout/foreground}{%
+  \put(\dimexpr1cm-\hoffset\relax,\dimexpr9.3cm-\paperheight+\voffset\relax){\rotatebox{90}{\small Callout}}%
+  \put(\dimexpr1.4cm-\hoffset\relax,\dimexpr9.2cm-\paperheight+\voffset\relax){\small Note}}
+\florilegiuminitial{S}hared constructions keep their identities when the page view changes.
+The margin hybrid joins a botanical port to a real Celtic strand construction.
+The L-shaped callout uses two protected rectangles; its source topology stays intact.
+The aperiodic band continues onto the following physical page.
+
+\section[Travelling objects]{Travelling objects}
+The figure is deliberately sent to a float page. Its inline asset, protection marker,
+and right-hand spread view travel with the float. See Figure~\ref{fig:hybrid}.
+
+\begin{figure}[p]
+  \florilegiumpatternpage[region=page,spread=right,padding=0pt]{penrose}
+  \begin{florilegiumprotect}[2mm]
+    \centering\florilegiumpatterninline[3cm]{hybrid}
+    \caption{A protected floating hybrid}\label{fig:hybrid}
+  \end{florilegiumprotect}
+\end{figure}

@@ -1,0 +1,62 @@
+{
+  "stage": "06",
+  "revision": "07f3fdb3f44dc82707d2f0d9320eb652410e1130",
+  "run_id": 41502953750,
+  "jobs": [
+    {
+      "id": 125474849632,
+      "name": "pdfs",
+      "conclusion": "success"
+    },
+    {
+      "id": 125474850485,
+      "name": "portable",
+      "conclusion": "success"
+    },
+    {
+      "id": 125474853079,
+      "name": "gallery",
+      "conclusion": "skipped"
+    }
+  ],
+  "verification_lines": [
+    "2026-11-02T18:44:06.6391039Z contractcheck: 61 checks passed; actual floral + graph + tiling examples; semantic-only text/strands/3D/field fixtures",
+    "2026-11-02T18:44:14.8270846Z replaycheck: numeric locales exercised 3; unavailable locales skipped explicitly",
+    "2026-11-02T18:44:14.8369157Z replaycheck: 145 checks passed; golden vectors, actual generation/replay, dependency mutations, failure records and atomic filesystem faults",
+    "2026-11-02T18:44:14.8728226Z determinism_oracle: independent Python hashlib, canonical-number and modular-integer vectors passed",
+    "2026-11-02T18:44:16.7545737Z geometrycheck: 91 analytical/adversarial checks passed; oracle corpus2000 orientations/500 segments/66 cubics/128 bounds, source f80e395ccdf9d134ec3c9b36d368cb595b9f8c9415856639100dc1f2307b3048, cache deebcd8e0deab72bd1b3bfed981b666b41d9ef73af2778bd4b6797f35abd6e9c",
+    "2026-11-02T18:44:17.3586971Z geometry_oracle: Fraction checks passed; {'orientations': 2000, 'segments': 500, 'cubics': 66, 'bounds': 128} across 1 current-source reports",
+    "2026-11-02T18:44:23.0149544Z scenecheck: 44 checks passed; six actual PDF/SVG fixtures in build/scenes/8234d27ad31be92eb0975f6159f91d567ca6d01be372663e86573aa0d3323019",
+    "2026-11-02T18:44:25.7759627Z scene_oracle: six vector pairs, physical bounds, Unicode/order, dash/winding probes and strict protected ink passed 8234d27ad31be92eb0975f6159f91d567ca6d01be372663e86573aa0d3323019",
+    "2026-11-02T18:44:35.6593160Z layoutcheck: 28 checks passed",
+    "2026-11-02T18:44:35.6721159Z spacecheck: clearance, detours, determinism and blocked corridors passed",
+    "2026-11-02T18:44:35.6820383Z initialcheck: missing reader, unreadable font, missing glyph and malformed bounds handled",
+    "2026-11-02T18:44:35.7038401Z backendcheck: standalone paths, resources, spread/fixed seeds, mono, controls and upright Arabic/Roman bodies passed",
+    "2026-11-02T18:45:27.6078579Z bookcheck: 9 cases passed; fallback initial remains searchable"
+  ],
+  "stage_gate": "not passed: subsequent visual review found clipped multiply mismatch",
+  "visual_mismatch": {
+    "fixture": "clipstress",
+    "world_point_cm": [
+      0.9,
+      1
+    ],
+    "PDF": [
+      90,
+      81,
+      98
+    ],
+    "SVG_Inkscape": [
+      177,
+      94,
+      101
+    ],
+    "expected_sRGB": [
+      91,
+      82,
+      99
+    ],
+    "cause": "blend inside long-lived clipped ancestors lost its page backdrop in Inkscape1.4.2",
+    "required_repair": "one clipped paint per outer blend/opacity group; add independent analytic interior color probes"
+  }
+}

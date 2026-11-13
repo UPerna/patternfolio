@@ -1,0 +1,34 @@
+{
+  "stage": "08",
+  "source_digest": "17d56eb5b00671d8b1e34fa44eeeef32e2a80ba095674851dd0c5e4205814f11",
+  "rasterizers": "local Poppler/librsvg",
+  "checked_paths": 645,
+  "exact_placement_and_attachment_checks": "passed",
+  "unmasked_pdf_matches": "pixel exact",
+  "fixtures": [
+    {
+      "fixture": "panel",
+      "pixels": [
+        720,
+        660
+      ],
+      "mean_absolute_error": 0.0004449891067538126
+    },
+    {
+      "fixture": "authored",
+      "pixels": [
+        1260,
+        1782
+      ],
+      "mean_absolute_error": 0.0013353649228740007
+    },
+    {
+      "fixture": "grown",
+      "pixels": [
+        1260,
+        1782
+      ],
+      "mean_absolute_error": 0.0005399180913584205
+    }
+  ]
+}

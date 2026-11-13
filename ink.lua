@@ -136,7 +136,9 @@ local function build_ramp()
 end
 
 -- set the hue from the document color `ink` (r,g,b in 0..1)
+local ink_rgb
 function M.set_ink(r, g, b)
+  ink_rgb={r,g,b}
   local _, C, h = rgb_to_oklch(r, g, b)
   hue, chroma_k = h, math.max(0.15, math.min(1.3, C / REF_C))
   build_ramp()
@@ -212,6 +214,8 @@ function M.to_page(x, y) return (T[1] * x + T[3] * y + T[5]) / CM, (T[2] * x + T
 -- only the pieces it wants, in their original order.
 local layers, cur = {}, 5
 local tags, tag, recording = {}, nil, false
+-- Optional neutral capture. Disabled on all existing drawing paths by default.
+local capture, vector_layers, vector_path, vector_points
 local page_transform
 function M.set_page_transform(t) page_transform = t end
 local page_clip, element_bounds
@@ -230,21 +234,32 @@ function M.end_element(tx,rects)
       for k,v in pairs(layers) do
         local n=tx.lengths[k]
         if n==nil then layers[k],tags[k]=nil,nil else for i=#v,n+1,-1 do v[i]=nil;tags[k][i]=nil end end
+        if capture and vector_layers[k] then
+          if n==nil then vector_layers[k]=nil else for i=#vector_layers[k],n+1,-1 do vector_layers[k][i]=nil end end
+        end
       end
       return false
     end
   end end
   return true
 end
-local function put(s)
+local function put(s, neutral)
   local b = layers[cur]
   if not b then b = {} layers[cur] = b tags[cur] = {} end
   b[#b + 1] = s
+  if capture then
+    assert(neutral~=nil,"unrepresented operation in neutral ink capture")
+    if neutral.op=="path" and capture.semantic_ref then neutral.semantic_ref=capture.semantic_ref() end
+    vector_layers[cur]=vector_layers[cur] or {};vector_layers[cur][#b]=neutral
+  end
   if recording then tags[cur][#b] = tag end
 end
 function M.layer(n) local old = cur cur = n return old end
 function M.tag(t) local old = tag tag = t return old end
-function M.record(on) recording = on tag = nil end
+function M.record(on)
+  assert(not capture or not on,"legacy animation recording requires its own semantic migration")
+  recording = on tag = nil
+end
 
 -- Default LuaTeX sink. Standalone PDF and XeTeX replace the sink, not the paths.
 M.backend = {
@@ -282,19 +297,49 @@ local function P(x, y)
     b.minx,b.maxx=math.min(b.minx,px),math.max(b.maxx,px)
     b.miny,b.maxy=math.min(b.miny,py),math.max(b.maxy,py)
   end
+  if capture then
+    local function rounded(n) return assert(tonumber((fmt("%.1f",n):gsub(",","."))))/CM end
+    vector_points[#vector_points+1]={rounded(px),rounded(py)}
+  end
   return fmt("%.1f %.1f", px, py)
+end
+
+local function vector_sequence(sequence)
+  if not capture then return end
+  local points=vector_points;vector_points={};local at=1
+  for _,op in ipairs(sequence) do
+    local n=op=="Z" and 0 or op=="C" and 3 or 1
+    local command={op};for _=1,n do local p=assert(points[at],"neutral point arity");command[#command+1]=p[1];command[#command+1]=p[2];at=at+1 end
+    vector_path[#vector_path+1]=command
+  end
+  assert(at==#points+1,"unexpected neutral control points")
+end
+local function vector_command(first,rest,arity,closed)
+  if not capture then return end
+  local sequence={first};local used=first=="C" and 3 or 1
+  while used<#vector_points do assert(rest,"unexpected neutral path points");sequence[#sequence+1]=rest;used=used+arity end
+  if closed then sequence[#sequence+1]="Z" end
+  vector_sequence(sequence)
+end
+local function neutral_path(paint)
+  if not capture then return nil end
+  assert(#vector_points==0,"unconsumed neutral control points")
+  local commands=vector_path;vector_path={}
+  if #commands==0 then return false end -- a legacy no-op remains a no-op
+  return {op="path",commands=commands,paint=paint}
 end
 
 -- path construction: polyline or smooth (Catmull-Rom as Béziers) through points {{x,y},...}
 local path = {}
-function M.moveto(x, y) path[#path + 1] = P(x, y) .. " m" end
-function M.lineto(x, y) path[#path + 1] = P(x, y) .. " l" end
-function M.curveto(x1, y1, x2, y2, x3, y3) path[#path + 1] = P(x1, y1) .. " " .. P(x2, y2) .. " " .. P(x3, y3) .. " c" end
-function M.close() path[#path + 1] = "h" end
+function M.moveto(x, y) path[#path + 1] = P(x, y) .. " m";vector_command("M") end
+function M.lineto(x, y) path[#path + 1] = P(x, y) .. " l";vector_command("L") end
+function M.curveto(x1, y1, x2, y2, x3, y3) path[#path + 1] = P(x1, y1) .. " " .. P(x2, y2) .. " " .. P(x3, y3) .. " c";vector_command("C") end
+function M.close() path[#path + 1] = "h";if capture then vector_path[#vector_path+1]={"Z"} end end
 function M.poly(pts, closed)
   path[#path + 1] = P(pts[1][1], pts[1][2]) .. " m"
   for i = 2, #pts do path[#path + 1] = P(pts[i][1], pts[i][2]) .. " l" end
   if closed then path[#path + 1] = "h" end
+  vector_command("M","L",1,closed)
 end
 function M.smooth(pts, closed, tension)
   local n = #pts
@@ -312,6 +357,7 @@ function M.smooth(pts, closed, tension)
       P(p2[1] - (p3[1] - p1[1]) * k, p2[2] - (p3[2] - p1[2]) * k) .. " " .. P(p2[1], p2[2]) .. " c"
   end
   if closed then path[#path + 1] = "h" end
+  vector_command("M","C",3,closed)
 end
 function M.circle(x, y, r)
   local k = 0.5523 * r
@@ -319,6 +365,7 @@ function M.circle(x, y, r)
     P(x - k, y + r) .. " " .. P(x - r, y + k) .. " " .. P(x - r, y) .. " c " ..
     P(x - r, y - k) .. " " .. P(x - k, y - r) .. " " .. P(x, y - r) .. " c " ..
     P(x + k, y - r) .. " " .. P(x + r, y - k) .. " " .. P(x + r, y) .. " c h"
+  vector_command("M","C",3,true)
 end
 local function take() local s = concat(path, " ") path = {} return s end
 
@@ -327,6 +374,9 @@ function M.set_color_mode(mode)
   assert(mode=="color" or mode=="mono", "invalid color mode")
   color_mode=mode
 end
+function M.palette_snapshot()
+  return {ink={ink_rgb[1],ink_rgb[2],ink_rgb[3]},accent={accent[1],accent[2],accent[3]},lift=lift,color_mode=color_mode}
+end
 local function rgb(c, stroke)
   local r,g,b=c[1],c[2],c[3]
   if color_mode=="mono" then
@@ -334,24 +384,48 @@ local function rgb(c, stroke)
   end
   return fmt(stroke and "%.3f %.3f %.3f RG" or "%.3f %.3f %.3f rg", r,g,b)
 end
+local function neutral_paint(c,w,op,mult,dash)
+  if not capture then return nil end
+  local function rounded(n,d) return assert(tonumber((fmt("%."..d.."f",n):gsub(",",".")))) end
+  local color
+  if color_mode=="mono" then color={rounded(0.2126*c[1]+0.7152*c[2]+0.0722*c[3],3)}
+  else color={rounded(c[1],3),rounded(c[2],3),rounded(c[3],3)} end
+  local alpha=math.min(1,floor((op or 1)*100+0.5)/100)
+  assert(alpha>=0,"negative captured opacity")
+  local paint={color_space=color_mode=="mono" and "gray" or "rgb",opacity=alpha,blend=mult and "multiply" or "normal",fill_rule="nonzero"}
+  if w then
+    paint.stroke=color;paint.stroke_width=rounded(w,2)/CM;paint.cap="round";paint.join="round";paint.miter_limit=10
+    if dash then
+      local list,phase=dash:match("^%[([^%]]*)%]%s*([%d.+-]+)$");assert(list and tonumber(phase),"unsupported legacy dash spelling")
+      local array={};for token in list:gmatch("%S+") do local n=assert(tonumber(token));assert(n>=0,"negative dash");array[#array+1]=n/CM end
+      paint.dash={array=setmetatable(array,{__jsontype="array"}),phase=tonumber(phase)/CM}
+    end
+  else paint.fill=color end
+  return paint
+end
 
 -- paint the current path. opacity < 1 or mult=true wraps it in its own graphics state
 function M.fill(c, op, mult)
+  local neutral=neutral_path(neutral_paint(c,nil,op,mult))
   local g = gs(op or 1, mult)
-  if g then put("q /" .. g .. " gs " .. rgb(c) .. " " .. take() .. " f Q")
-  else put(rgb(c) .. " " .. take() .. " f") end
+  if g then put("q /" .. g .. " gs " .. rgb(c) .. " " .. take() .. " f Q",neutral)
+  else put(rgb(c) .. " " .. take() .. " f",neutral) end
 end
 -- dash: a PDF dash array, e.g. "[2 2] 0"
 function M.stroke(c, w, op, mult, dash)
+  local neutral=neutral_path(neutral_paint(c,w,op,mult,dash))
   if element_bounds then element_bounds.pad=math.max(element_bounds.pad,w/2+0.1) end
   local g = gs(op or 1, mult)
   local s = rgb(c, true) .. fmt(" %.2f w ", w) .. (dash and dash .. " d " or "") .. take() .. " S"
-  if g then put("q /" .. g .. " gs " .. s .. " Q") else put("q " .. s .. " Q") end
+  if g then put("q /" .. g .. " gs " .. s .. " Q",neutral) else put("q " .. s .. " Q",neutral) end
 end
 -- clip to the current path until the matching unclip()
-function M.clip() put("q " .. take() .. " W n") end
-function M.unclip() put("Q") end
-function M.discard() path = {} end
+function M.clip()
+  local neutral=neutral_path();if capture then assert(neutral,"empty legacy clip unsupported in primitive capture");neutral.op="push_clip";neutral.fill_rule="nonzero" end
+  put("q " .. take() .. " W n",neutral)
+end
+function M.unclip() put("Q",capture and {op="pop_clip"} or nil) end
+function M.discard() path = {};if capture then vector_path,vector_points={},{} end end
 -- paint the whole of the current clip (inside a clip(), cheaper than repeating the path)
 function M.flood(c, x0, y0, x1, y1)
   M.poly({ { x0, y0 }, { x1, y0 }, { x1, y1 }, { x0, y1 } }, true)
@@ -381,6 +455,11 @@ local function sorted_keys()
 end
 function M.flush()
   local parts = {}
+  if capture then
+    assert(not page_transform and not page_clip,"legacy page transforms/clips require an explicit Document view")
+    for _,k in ipairs(sorted_keys()) do for _,op in ipairs(vector_layers[k] or {}) do if op then capture.operations[#capture.operations+1]=op end end end
+    vector_layers={}
+  end
   for _, k in ipairs(sorted_keys()) do parts[#parts + 1] = concat(layers[k], "\n") end
   layers, tags = {}, {}
   return literal(parts)
@@ -388,12 +467,14 @@ end
 
 -- hand over what was recorded instead of writing it: { keys, layers, tags }
 function M.take_recording()
+  assert(not capture,"legacy recording replay is outside primitive capture")
   local rec = { keys = sorted_keys(), layers = layers, tags = tags }
   layers, tags, recording, tag = {}, {}, false, nil
   return rec
 end
 -- write one frame of a recording: the untagged pieces and those keep(tag) accepts
 function M.emit(rec, keep)
+  assert(not capture,"legacy recording replay is outside primitive capture")
   local parts = {}
   for _, k in ipairs(rec.keys) do
     local L, T, out = rec.layers[k], rec.tags[k], {}
@@ -460,6 +541,7 @@ function M.taper(x0, y0, x1, y1, x2, y2, x3, y3, w0, w1)
     P(x1 + n1x * h1, y1 + n1y * h1) .. " " .. P(x2 + n2x * h2, y2 + n2y * h2) .. " " .. P(x3 + n3x * h3, y3 + n3y * h3) .. " c " ..
     P(x3 - n3x * h3, y3 - n3y * h3) .. " l " ..
     P(x2 - n2x * h2, y2 - n2y * h2) .. " " .. P(x1 - n1x * h1, y1 - n1y * h1) .. " " .. P(x0 - n0x * h0, y0 - n0y * h0) .. " c h"
+  vector_sequence({"M","C","L","C","Z"})
 end
 
 -- Catmull-Rom samples through control points {{x,y},...}, `per` per segment
@@ -532,4 +614,39 @@ function M.blob(rng, x, y, rx, ry, rough, n)
 end
 
 M.CM = CM
+-- Capture the existing primitive mathematics as neutral cm operations. The
+-- temporary sink/state is restored even when the callback fails. This is a
+-- primitive bridge, not a migration of page growth or animation semantics.
+function M.capture(fn, options)
+  assert(type(fn)=="function" and not capture,"capture requires a callback and cannot nest")
+  options=options or {};for key in pairs(options)do assert(key=="semantic_ref","unsupported capture option "..tostring(key))end
+  assert(options.semantic_ref==nil or type(options.semantic_ref)=="function","capture semantic source must be a callback")
+  local saved={T=T,stack=stack,layers=layers,cur=cur,tags=tags,tag=tag,recording=recording,
+    page_transform=page_transform,page_clip=page_clip,element_bounds=element_bounds,
+    path=path,backend=M.backend,gs_known=gs_known,color_mode=color_mode,ramp=ramp,
+    hue=hue,chroma_k=chroma_k,lift=lift,accent=accent,accent_ramp=accent_ramp,accent_key=accent_key,ink_rgb=ink_rgb}
+  capture={operations={},semantic_ref=options.semantic_ref};vector_layers,vector_path,vector_points={},{},{}
+  T,stack,layers,cur,tags,tag,recording={CM,0,0,CM,0,0},{},{},5,{},nil,false
+  page_transform,page_clip,element_bounds,path=nil,nil,nil,{}
+  M.backend={literal=function()end,extgs=function()end};gs_known={}
+  ramp={};build_ramp();accent={accent[1],accent[2],accent[3]};accent_ramp,accent_key=nil,nil
+  local ok,err=pcall(function()
+    fn();assert(#path==0,"capture ended with an unpainted path");M.flush()
+    local depth=0
+    for _,op in ipairs(capture.operations) do
+      if op.op=="push_clip" then depth=depth+1 elseif op.op=="pop_clip" then depth=depth-1 end
+      assert(depth>=0,"capture clipping crosses layer order")
+    end
+    assert(depth==0,"capture has an unbalanced clip stack")
+  end)
+  local operations=capture.operations
+  T,stack,layers,cur,tags,tag,recording=saved.T,saved.stack,saved.layers,saved.cur,saved.tags,saved.tag,saved.recording
+  page_transform,page_clip,element_bounds,path=saved.page_transform,saved.page_clip,saved.element_bounds,saved.path
+  M.backend,gs_known,color_mode=saved.backend,saved.gs_known,saved.color_mode
+  ramp,hue,chroma_k,lift,accent,accent_ramp,accent_key=saved.ramp,saved.hue,saved.chroma_k,saved.lift,saved.accent,saved.accent_ramp,saved.accent_key
+  ink_rgb=saved.ink_rgb
+  capture,vector_layers,vector_path,vector_points=nil,nil,nil,nil
+  assert(ok,err)
+  return operations,{operation="ink-neutral-capture-v1",unit="cm",coordinate_quantization_bp=0.1,color_digits=3,stroke_width_digits=2,count=#operations}
+end
 return M

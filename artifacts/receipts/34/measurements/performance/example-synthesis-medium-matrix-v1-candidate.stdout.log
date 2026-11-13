@@ -1,0 +1,4 @@
+Measured actual workload	example-synthesis-medium	cold-generation	1.121152
+Measured actual workload	example-synthesis-medium	warm-generation	0.955043
+Measured actual workload	example-synthesis-medium	validated-instance-replay	0.438637
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 6473610

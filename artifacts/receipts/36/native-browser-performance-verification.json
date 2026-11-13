@@ -1,0 +1,31 @@
+{
+  "stage": "36",
+  "status": "passed",
+  "revision": "8c1e33e289898de93c4f9f7c8733edd62a0a79d2",
+  "native_cache_checks": 1245,
+  "native_packing_checks": 15,
+  "independent_hashlib_vectors": 10,
+  "native_bounds_checks": 54,
+  "native_workloads": 27,
+  "native_phases": 81,
+  "browser_workloads": 27,
+  "browser_bounds_checks": 54,
+  "browser_studio": {
+    "status": "passed",
+    "family": "botanical-grown",
+    "edit_during_pending_ms": 16,
+    "cancel_during_pending_ms": 23,
+    "accepted_outputs": 0,
+    "native_host_design_seed_synchronized": true,
+    "seed": "102",
+    "state": "Cancelled \u00b7 previous work preserved"
+  },
+  "actual_browser": "151.0.7922.34",
+  "maximum_observed_main_thread_gap_ms": 60.39999999990687,
+  "source_guards_checked": true,
+  "actual_artifact_sha256": {
+    "native_matrix": "0f0c2991e2233e7e68f023b3cb4299637c348586a0eae9ea84a1b189ef2dc6e1",
+    "browser": "54b6c3e72bae3a6ac65b04f31ca71f6c85ddff5e34557a8796c6e3412f161bde"
+  },
+  "floral_editor_seed_checks": 12
+}

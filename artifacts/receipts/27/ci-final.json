@@ -1,0 +1,75 @@
+{
+  "source_digest": "f67cf7990782c134ac14ebbef847cdbeef1ebcd2f639a2ffdb376bbab946bb50",
+  "native_checks": 39,
+  "native_output_hashes": 36,
+  "kit_hashes": 502,
+  "oracle": {
+    "source_digest": "f67cf7990782c134ac14ebbef847cdbeef1ebcd2f639a2ffdb376bbab946bb50",
+    "members": 9,
+    "paired_edges": 314,
+    "detail_annotations": 62,
+    "searchable_text": "A\nI\n\fA\nII",
+    "pages": 2,
+    "pdf_extractor": "Poppler pdftotext -raw"
+  },
+  "native_local_differences": [],
+  "visual_review": "Accepted the six native PDF/SVG pairs. Gutter alignment, matched ports, upright/searchable labels and hierarchy leaders checked.",
+  "revision": "d840207e204e1b268bedfd1a0a226ca12f4dff1c",
+  "tree": "7538734f3006f2b216c203cc2400b5e41a11d931",
+  "run": 42003202966,
+  "jobs": [
+    {
+      "id": 127163360164,
+      "name": "portable",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 127163360486,
+      "name": "pdfs",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 127163362548,
+      "name": "gallery",
+      "status": "completed",
+      "conclusion": "skipped"
+    }
+  ],
+  "difference_analysis": {
+    "analysis": "Categorical JSON, path commands and SVG attributes agree. Checked all differing numeric values with physical bounds.",
+    "exact_controls_and_categorical_structure": true,
+    "files": {},
+    "pdf_raster_cross_host": {
+      "collection-1-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "collection-2-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "decorated-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "detail-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "hybrid-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "inline-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      }
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "e9fc26a314b679f764d9c53babf0e0181bebdec551ed542269726a35bd8cc50f",
+    "portable": "005292da673d5b0fe0dd626c067b3564ea3914d8def3696808c98dea27f34f48"
+  }
+}

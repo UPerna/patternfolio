@@ -1,0 +1,9 @@
+{
+  "source_digest": "0410fe01cab3d9334958eb3083a718279fa9a0a4c9dbddd74558a841cf6a884d",
+  "junctions": 4,
+  "separate_depth_crossings": 2,
+  "nested_supports": 2,
+  "spatial_samples": 635,
+  "chord_probes": 3125,
+  "projected_samples": 1878
+}

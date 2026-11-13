@@ -1,0 +1,58 @@
+{
+  "retrieved": "2026-11-07",
+  "method": "Official release pages and raw tagged README/action.yml, independently resolved with git ls-remote over HTTPS/OpenSSL.",
+  "actions": {
+    "actions/checkout": {
+      "version": "v7.0.1",
+      "sha": "3d3c42e5aac5ba805825da76410c181273ba90b1"
+    },
+    "actions/setup-node": {
+      "version": "v7.1.0",
+      "sha": "949feb2413d6458794dcd2491c4babbbce0c15c1"
+    },
+    "actions/upload-artifact": {
+      "version": "v7.0.2",
+      "sha": "cf430e030ddbb5b0abf93d22962f4752f3646cd9"
+    },
+    "actions/download-artifact": {
+      "version": "v8.0.2",
+      "sha": "9000827ccba6bdab643e8b6fd33ac0654aef8333"
+    },
+    "xu-cheng/latex-action": {
+      "version": "v3",
+      "sha": "e2f99d4b3685b0da93f97e1b86ad8fab81105098"
+    }
+  },
+  "tex_image": {
+    "reference": "ghcr.io/xu-cheng/texlive-full@sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7",
+    "origin": "Digest from the actual accepted stage35 native job log, job128280135492, run42331909848. LuaHBTeX1.24.0/TeX Live2026 observed.",
+    "action_input": "docker_image, supported by the exact latex-action action.yml; do not also set texlive_version"
+  },
+  "artifact_contract": {
+    "upload_archive": true,
+    "download_skip_decompress": false,
+    "download_digest_mismatch": "error",
+    "permissions": "GitHub outer artifact modes are not preserved; the nested source ZIP stores canonical Git modes and is independently verified/extracted.",
+    "paths": "Multiple upload paths use their least common ancestor. Native artifact retains build/ while the browser artifact starts at its leaf folders. Preserve these verified paths."
+  },
+  "runner_policy": "Node24-based actions on supported GitHub-hosted runners. contents:read; persist-credentials:false; ordinary pull_request event; no unsafe PR checkout, publishing token or registry authentication. Explicit head ref and package-manager-cache:false.",
+  "node": {
+    "version": "24.22.2",
+    "lts": "Krypton",
+    "release_date": "2026-10-27",
+    "primary_manifest_url": "https://nodejs.org/dist/v24.22.2/SHASUMS256.txt",
+    "manifest_sha256": "aec92ae945293821c22aed4c37b97741688254bac353b861fc9fb25b81ce4567",
+    "linux_x64_archive_sha256": "48cc0e21e048790e54c0cf5749c2725005313d652651c40b7a21feb9697aaf75",
+    "local_preflight_node": "24.22.1; not relabeled as24.22.2"
+  },
+  "stage": "37",
+  "status": "official_dependencies_reviewed",
+  "source_urls": {
+    "actions/checkout": "https://github.com/actions/checkout/tree/3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "actions/setup-node": "https://github.com/actions/setup-node/tree/949feb2413d6458794dcd2491c4babbbce0c15c1",
+    "actions/upload-artifact": "https://github.com/actions/upload-artifact/tree/cf430e030ddbb5b0abf93d22962f4752f3646cd9",
+    "actions/download-artifact": "https://github.com/actions/download-artifact/tree/9000827ccba6bdab643e8b6fd33ac0654aef8333",
+    "xu-cheng/latex-action": "https://github.com/xu-cheng/latex-action/tree/e2f99d4b3685b0da93f97e1b86ad8fab81105098"
+  },
+  "scope": "Actual released action inputs reviewed; vendor bytes hashed; exact pinned CI remains required before stage37 acceptance."
+}

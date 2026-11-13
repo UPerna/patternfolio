@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "botanical-panel",
+      "command": "generate",
+      "recipe": "botanical-panel.recipe"
+    },
+    {
+      "id": "periodic",
+      "command": "generate",
+      "recipe": "periodic.recipe"
+    },
+    {
+      "id": "celtic",
+      "command": "generate",
+      "recipe": "celtic.recipe"
+    },
+    {
+      "id": "islamic",
+      "command": "generate",
+      "recipe": "islamic.recipe"
+    },
+    {
+      "id": "freeform",
+      "command": "generate",
+      "recipe": "freeform.recipe"
+    },
+    {
+      "id": "substitution",
+      "command": "generate",
+      "recipe": "substitution.recipe"
+    },
+    {
+      "id": "penrose",
+      "command": "generate",
+      "recipe": "penrose.recipe"
+    },
+    {
+      "id": "spectre",
+      "command": "generate",
+      "recipe": "spectre.recipe"
+    },
+    {
+      "id": "beenker",
+      "command": "generate",
+      "recipe": "beenker.recipe"
+    },
+    {
+      "id": "completion",
+      "command": "generate",
+      "recipe": "completion.recipe"
+    },
+    {
+      "id": "tracery",
+      "command": "generate",
+      "recipe": "tracery.recipe"
+    },
+    {
+      "id": "escher",
+      "command": "generate",
+      "recipe": "escher.recipe"
+    },
+    {
+      "id": "mosaic",
+      "command": "generate",
+      "recipe": "mosaic.recipe"
+    },
+    {
+      "id": "stroke",
+      "command": "generate",
+      "recipe": "stroke.recipe"
+    },
+    {
+      "id": "maze",
+      "command": "generate",
+      "recipe": "maze.recipe"
+    },
+    {
+      "id": "micrography",
+      "command": "generate",
+      "recipe": "micrography.recipe"
+    },
+    {
+      "id": "decobrush",
+      "command": "generate",
+      "recipe": "decobrush.recipe"
+    },
+    {
+      "id": "gothic-spatial",
+      "command": "generate",
+      "recipe": "gothic-spatial.recipe"
+    },
+    {
+      "id": "inline",
+      "command": "generate",
+      "recipe": "inline.recipe"
+    },
+    {
+      "id": "hat",
+      "command": "generate",
+      "recipe": "hat.recipe"
+    },
+    {
+      "id": "botanical-authored",
+      "command": "generate",
+      "recipe": "botanical-authored.recipe"
+    },
+    {
+      "id": "botanical-grown",
+      "command": "generate",
+      "recipe": "botanical-grown.recipe"
+    }
+  ]
+}

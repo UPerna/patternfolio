@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-11-06",
+  "sources": [
+    {
+      "url": "https://ctan.math.illinois.edu/info/xetexref/xetex-reference.pdf",
+      "version": "2025-02-11",
+      "sections": "8.1 Geometry; 8.5 File handling",
+      "use": "XeTeX uses pdfsavepos/pdflastxpos/pdflastypos; Unicode and group-delimited filenames."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/latex3/latex2e/develop/base/ltshipout.dtx",
+      "version": "2026-10-13 v1.0r",
+      "sections": "Information counters; shipout/background",
+      "use": "Read-only actual shipped index after discard decision, and physical background picture placement."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/latex3/latex2e/develop/base/ltfiles.dtx",
+      "version": "2026-06-01 v1.2w",
+      "sections": "include and @include file handling",
+      "use": "Included chapters use separate auxiliary files; main aux alone cannot establish convergence."
+    },
+    {
+      "url": "https://tug.org/texinfohtml/web2c.html",
+      "version": "Web2c 2026",
+      "sections": "3.2 Common options, recorder",
+      "use": "Recorder captures opened input/output paths; jobname controls the fls basename."
+    },
+    {
+      "url": "https://tug.org/texinfohtml/kpathsea.html",
+      "version": "6.4.2/dev, January 2026",
+      "sections": "kpsewhich --format; supported file formats",
+      "use": "The explicit opentype fonts and truetype fonts format names match the existing Lua font lookup; no shell quoting is required in argument arrays."
+    }
+  ],
+  "status": "Primary API references inspected; native adapter and convergence gates remain unrun."
+}

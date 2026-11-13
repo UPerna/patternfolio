@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Florilegium browser runtime verification</title></head>
+<body><main><h1>Florilegium browser runtime</h1><p>This verification page runs the shared Lua core in a dedicated worker. The pattern editor follows in stage 32.</p><output id="status">Loading local runtime assets…</output></main>
+<script type="module">import {PatternWorkerClient} from './client.js';window.patternClient = new PatternWorkerClient('./');window.runtimeReady=patternClient.load().then(data=>{document.querySelector('#status').textContent='Local shared core ready';return data;}).catch(error=>{document.querySelector('#status').textContent=error.message;throw error;});</script>
+</body></html>

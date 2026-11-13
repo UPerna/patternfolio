@@ -1,0 +1,52 @@
+{
+  "scope": "Self-check on actual native book page with intentional PDF page clipping and foreground overpaint, without recompilation",
+  "book_pdf_sha256": "d1ea5d8d8af45b2b439bc0357cb2695e50a90c7b7115acd42d9bb796cc14179f",
+  "oracle_script_sha256": "dba9fe7876664fc34b8cdad901a3cbdcd108c189c360f9d4a9a97417b68cd8a4",
+  "registration": {
+    "actual_form_matrix": [
+      0.75003,
+      0.0,
+      0.0,
+      0.75003,
+      195.591,
+      247.064
+    ],
+    "registration_matrix": [
+      1.333280002133248,
+      0,
+      0,
+      1.333280002133248,
+      -260.7775688972441,
+      -329.4054904470488
+    ],
+    "source_box_bp": [
+      0.0,
+      0.0,
+      113.38582677165354,
+      24.044570962536536
+    ],
+    "actual_book_page_paint_retained": true,
+    "original_page_content_sha256": "6f9ebd45738bbab9c17ce35a4646eb960d0e35abfead4d7c923a393d02127d31",
+    "original_page_content_bytes_preserved": true,
+    "original_page_clip_bp": [
+      0.0,
+      0.0,
+      419.528,
+      595.276
+    ]
+  },
+  "failures_rejected": {
+    "page-clip": {
+      "rejected": true,
+      "diagnostic": "('page-clip', (13, 18, 213, 41), (13, 18, 114, 41))"
+    },
+    "foreground-occlusion": {
+      "rejected": true,
+      "diagnostic": "('foreground-occlusion', (13, 18, 213, 41), (13, 18, 113, 39))"
+    },
+    "implicit-page-crop": {
+      "rejected": true,
+      "diagnostic": "('implicit-page-crop', (13, 18, 213, 41), (13, 18, 114, 41))"
+    }
+  }
+}

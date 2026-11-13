@@ -1,0 +1,721 @@
+﻿2026-11-07T01:19:19.7719177Z Current runner version: '2.338.2'
+2026-11-07T01:19:19.7740893Z ##[group]Runner Image Provisioner
+2026-11-07T01:19:19.7741658Z Hosted Compute Agent
+2026-11-07T01:19:19.7742148Z Version: 20261028.624
+2026-11-07T01:19:19.7742750Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+2026-11-07T01:19:19.7743361Z Build Date: 2026-10-28T21:51:42Z
+2026-11-07T01:19:19.7743965Z Worker ID: {77f1bc2b-d80d-4ec9-9d6c-005e8642fc26}
+2026-11-07T01:19:19.7744624Z Region: westus2
+2026-11-07T01:19:19.7745112Z Cloud: Azure
+2026-11-07T01:19:19.7745626Z ##[endgroup]
+2026-11-07T01:19:19.7747037Z ##[group]Operating System
+2026-11-07T01:19:19.7747625Z Ubuntu
+2026-11-07T01:19:19.7748129Z 24.04.5
+2026-11-07T01:19:19.7748602Z LTS
+2026-11-07T01:19:19.7749090Z ##[endgroup]
+2026-11-07T01:19:19.7749569Z ##[group]Runner Image
+2026-11-07T01:19:19.7750069Z Image: ubuntu-24.04
+2026-11-07T01:19:19.7751032Z Version: 20261101.360.1
+2026-11-07T01:19:19.7752194Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-07T01:19:19.7753529Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+2026-11-07T01:19:19.7754308Z ##[endgroup]
+2026-11-07T01:19:19.7755349Z ##[group]GITHUB_TOKEN Permissions
+2026-11-07T01:19:19.7757048Z Contents: read
+2026-11-07T01:19:19.7757566Z Metadata: read
+2026-11-07T01:19:19.7758046Z ##[endgroup]
+2026-11-07T01:19:19.7759896Z Secret source: Actions
+2026-11-07T01:19:19.7760900Z Cache mode: write
+2026-11-07T01:19:19.7761593Z Prepare workflow directory
+2026-11-07T01:19:19.8029484Z Prepare all required actions
+2026-11-07T01:19:19.8068587Z Getting action download info
+2026-11-07T01:19:20.1465740Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-07T01:19:20.2605963Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-11-07T01:19:20.3869419Z Download action repository 'actions/download-artifact@v4' (SHA:d3f86a106a0bac45b974a628896c90dbdf5c8093)
+2026-11-07T01:19:20.6270056Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-07T01:19:20.9330778Z Complete job name: browser
+2026-11-07T01:19:21.0022651Z ##[group]Run actions/checkout@v4
+2026-11-07T01:19:21.0023325Z with:
+2026-11-07T01:19:21.0023685Z   persist-credentials: false
+2026-11-07T01:19:21.0024125Z   repository: UPerna/florilegium
+2026-11-07T01:19:21.0027263Z   token: ***
+2026-11-07T01:19:21.0027611Z   ssh-strict: true
+2026-11-07T01:19:21.0027973Z   ssh-user: git
+2026-11-07T01:19:21.0028310Z   clean: true
+2026-11-07T01:19:21.0028670Z   sparse-checkout-cone-mode: true
+2026-11-07T01:19:21.0029091Z   fetch-depth: 1
+2026-11-07T01:19:21.0029445Z   fetch-tags: false
+2026-11-07T01:19:21.0029796Z   show-progress: true
+2026-11-07T01:19:21.0030155Z   lfs: false
+2026-11-07T01:19:21.0030628Z   submodules: false
+2026-11-07T01:19:21.0030993Z   set-safe-directory: true
+2026-11-07T01:19:21.0031395Z   allow-unsafe-pr-checkout: false
+2026-11-07T01:19:21.0032005Z ##[endgroup]
+2026-11-07T01:19:21.4590813Z Syncing repository: UPerna/florilegium
+2026-11-07T01:19:21.4593580Z ##[group]Getting Git version info
+2026-11-07T01:19:21.4594930Z Working directory is '/home/runner/work/florilegium/florilegium'
+2026-11-07T01:19:21.4596352Z [command]/usr/bin/git version
+2026-11-07T01:19:21.4746448Z git version 2.56.0
+2026-11-07T01:19:21.4764030Z ##[endgroup]
+2026-11-07T01:19:21.4794170Z Temporarily overriding HOME='/home/runner/work/_temp/c4f71979-2b89-47ec-a01a-f31083aedd9b' before making global git config changes
+2026-11-07T01:19:21.4796480Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-07T01:19:21.4798298Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/florilegium/florilegium
+2026-11-07T01:19:21.4847890Z Deleting the contents of '/home/runner/work/florilegium/florilegium'
+2026-11-07T01:19:21.4855371Z ##[group]Initializing the repository
+2026-11-07T01:19:21.4861609Z [command]/usr/bin/git init /home/runner/work/florilegium/florilegium
+2026-11-07T01:19:21.4929889Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-07T01:19:21.4931495Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-07T01:19:21.4933043Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-07T01:19:21.4934165Z hint: call:
+2026-11-07T01:19:21.4935023Z hint:
+2026-11-07T01:19:21.4935833Z hint: 	git config --global init.defaultBranch <name>
+2026-11-07T01:19:21.4936436Z hint:
+2026-11-07T01:19:21.4937031Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-07T01:19:21.4937915Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-07T01:19:21.4938822Z hint:
+2026-11-07T01:19:21.4939226Z hint: 	git branch -m <name>
+2026-11-07T01:19:21.4939687Z hint:
+2026-11-07T01:19:21.4940794Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-07T01:19:21.4942504Z Initialized empty Git repository in /home/runner/work/florilegium/florilegium/.git/
+2026-11-07T01:19:21.4948571Z [command]/usr/bin/git remote add origin https://github.com/UPerna/florilegium
+2026-11-07T01:19:21.4993699Z ##[endgroup]
+2026-11-07T01:19:21.4996488Z ##[group]Disabling automatic garbage collection
+2026-11-07T01:19:21.4997553Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-07T01:19:21.5031970Z ##[endgroup]
+2026-11-07T01:19:21.5033262Z ##[group]Setting up auth
+2026-11-07T01:19:21.5039551Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-07T01:19:21.5079449Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-07T01:19:21.5397725Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-07T01:19:21.5436497Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-07T01:19:21.5647289Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-07T01:19:21.5688276Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-07T01:19:21.5910875Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-07T01:19:21.5956954Z ##[endgroup]
+2026-11-07T01:19:21.5957749Z ##[group]Fetching the repository
+2026-11-07T01:19:21.5967899Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +95edd0b106f115d2a0ee38da1abdeba982f785db:refs/remotes/pull/2/merge
+2026-11-07T01:19:23.1008393Z From https://github.com/UPerna/florilegium
+2026-11-07T01:19:23.1009801Z  * [new ref]         95edd0b106f115d2a0ee38da1abdeba982f785db -> pull/2/merge
+2026-11-07T01:19:23.1011962Z ##[endgroup]
+2026-11-07T01:19:23.1012410Z ##[group]Determining the checkout info
+2026-11-07T01:19:23.1013548Z ##[endgroup]
+2026-11-07T01:19:23.1025770Z [command]/usr/bin/git sparse-checkout disable
+2026-11-07T01:19:23.1078881Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-07T01:19:23.1114139Z ##[group]Checking out the ref
+2026-11-07T01:19:23.1117134Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/2/merge
+2026-11-07T01:19:23.2390219Z Note: switching to 'refs/remotes/pull/2/merge'.
+2026-11-07T01:19:23.2390935Z 
+2026-11-07T01:19:23.2391274Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-11-07T01:19:23.2391968Z changes and commit them, and you can discard any commits you make in this
+2026-11-07T01:19:23.2392708Z state without impacting any branches by switching back to a branch.
+2026-11-07T01:19:23.2393146Z 
+2026-11-07T01:19:23.2393511Z If you want to create a new branch to retain commits you create, you may
+2026-11-07T01:19:23.2394809Z do so (now or later) by using -c with the switch command. Example:
+2026-11-07T01:19:23.2395198Z 
+2026-11-07T01:19:23.2395408Z   git switch -c <new-branch-name>
+2026-11-07T01:19:23.2395695Z 
+2026-11-07T01:19:23.2395918Z Or undo this operation with:
+2026-11-07T01:19:23.2396245Z 
+2026-11-07T01:19:23.2396475Z   git switch -
+2026-11-07T01:19:23.2396800Z 
+2026-11-07T01:19:23.2397259Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-11-07T01:19:23.2397756Z 
+2026-11-07T01:19:23.2398317Z HEAD is now at 95edd0b Merge 5b0e739d2ac7905c555c3a40f2b3501233153df1 into 879610d82637229f0f4c06f828fe3a6d68d6faf6
+2026-11-07T01:19:23.2408954Z ##[endgroup]
+2026-11-07T01:19:23.2456429Z [command]/usr/bin/git log -1 --format=%H
+2026-11-07T01:19:23.2485505Z 95edd0b106f115d2a0ee38da1abdeba982f785db
+2026-11-07T01:19:23.2494139Z ##[group]Removing auth
+2026-11-07T01:19:23.2497059Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-07T01:19:23.2563693Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-07T01:19:23.2776802Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-07T01:19:23.2808272Z http.https://github.com/.extraheader
+2026-11-07T01:19:23.2814709Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-07T01:19:23.2853214Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-07T01:19:23.3055100Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-07T01:19:23.3089823Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-07T01:19:23.3289138Z ##[endgroup]
+2026-11-07T01:19:23.3523970Z ##[group]Run actions/setup-node@v4
+2026-11-07T01:19:23.3524344Z with:
+2026-11-07T01:19:23.3524647Z   node-version: 24
+2026-11-07T01:19:23.3524952Z   always-auth: false
+2026-11-07T01:19:23.3525255Z   check-latest: false
+2026-11-07T01:19:23.3527378Z   token: ***
+2026-11-07T01:19:23.3527676Z ##[endgroup]
+2026-11-07T01:19:23.5062941Z Found in cache @ /opt/hostedtoolcache/node/24.22.2/x64
+2026-11-07T01:19:23.5063986Z (node:2199) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-07T01:19:23.5065782Z ##[group]Environment details
+2026-11-07T01:19:23.5071685Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-07T01:19:24.0282566Z node: v24.22.2
+2026-11-07T01:19:24.0282888Z npm: 11.19.1
+2026-11-07T01:19:24.0283125Z yarn: 1.22.22
+2026-11-07T01:19:24.0284165Z ##[endgroup]
+2026-11-07T01:19:24.0414430Z ##[group]Run python3 -m pip install --disable-pip-version-check pypdf==6.10.0
+2026-11-07T01:19:24.0414946Z [36;1mpython3 -m pip install --disable-pip-version-check pypdf==6.10.0[0m
+2026-11-07T01:19:24.0415471Z [36;1mnpm install --prefix "$RUNNER_TEMP/florilegium-browser" --no-save --ignore-scripts playwright@1.62.1[0m
+2026-11-07T01:19:24.0416059Z [36;1mnode "$RUNNER_TEMP/florilegium-browser/node_modules/playwright/cli.js" install --with-deps chromium[0m
+2026-11-07T01:19:24.0442292Z shell: /usr/bin/bash -e {0}
+2026-11-07T01:19:24.0442541Z ##[endgroup]
+2026-11-07T01:19:25.8179631Z Defaulting to user installation because normal site-packages is not writeable
+2026-11-07T01:19:27.8190780Z Collecting pypdf==6.10.0
+2026-11-07T01:19:27.9365458Z   Downloading pypdf-6.10.0-py3-none-any.whl.metadata (7.1 kB)
+2026-11-07T01:19:28.0327168Z Downloading pypdf-6.10.0-py3-none-any.whl (334 kB)
+2026-11-07T01:19:28.0547407Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 334.5/334.5 kB 16.3 MB/s eta 0:00:00
+2026-11-07T01:19:28.2654878Z Installing collected packages: pypdf
+2026-11-07T01:19:28.4557811Z Successfully installed pypdf-6.10.0
+2026-11-07T01:19:33.3939240Z 
+2026-11-07T01:19:33.3939925Z added 2 packages in 5s
+2026-11-07T01:19:33.8704601Z Installing dependencies...
+2026-11-07T01:19:33.8783142Z Switching to root user to install dependencies...
+2026-11-07T01:19:33.9722568Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+2026-11-07T01:19:33.9981012Z Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+2026-11-07T01:19:34.0068205Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+2026-11-07T01:19:34.0086285Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+2026-11-07T01:19:34.0129196Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+2026-11-07T01:19:34.0153080Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+2026-11-07T01:19:34.0837882Z Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [743 kB]
+2026-11-07T01:19:34.1027151Z Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [675 kB]
+2026-11-07T01:19:34.1758164Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1425 kB]
+2026-11-07T01:19:34.1840254Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [313 kB]
+2026-11-07T01:19:34.1861587Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1711 kB]
+2026-11-07T01:19:34.1969190Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [344 kB]
+2026-11-07T01:19:34.2002295Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1840 kB]
+2026-11-07T01:19:34.2088219Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [420 kB]
+2026-11-07T01:19:34.2119512Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [50.7 kB]
+2026-11-07T01:19:34.2131020Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [14.3 kB]
+2026-11-07T01:19:34.2711170Z Get:17 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1157 kB]
+2026-11-07T01:19:34.2764681Z Get:18 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [234 kB]
+2026-11-07T01:19:34.3235168Z Get:19 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1228 kB]
+2026-11-07T01:19:34.3290771Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [248 kB]
+2026-11-07T01:19:34.3315892Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1721 kB]
+2026-11-07T01:19:34.3391933Z Get:22 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [394 kB]
+2026-11-07T01:19:34.3417959Z Get:23 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [45.4 kB]
+2026-11-07T01:19:34.3433711Z Get:24 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse Translation-en [12.4 kB]
+2026-11-07T01:19:40.2775471Z Fetched 13.0 MB in 1s (11.8 MB/s)
+2026-11-07T01:19:41.2541543Z Reading package lists...
+2026-11-07T01:19:41.4642606Z Reading package lists...
+2026-11-07T01:19:41.7091544Z Building dependency tree...
+2026-11-07T01:19:41.7105006Z Reading state information...
+2026-11-07T01:19:41.8697484Z libasound2t64 is already the newest version (1.2.11-1ubuntu0.3).
+2026-11-07T01:19:41.8698136Z libasound2t64 set to manually installed.
+2026-11-07T01:19:41.8698728Z libatk-bridge2.0-0t64 is already the newest version (2.52.0-1build1).
+2026-11-07T01:19:41.8699318Z libatk-bridge2.0-0t64 set to manually installed.
+2026-11-07T01:19:41.8699883Z libatk1.0-0t64 is already the newest version (2.52.0-1build1).
+2026-11-07T01:19:41.8700599Z libatk1.0-0t64 set to manually installed.
+2026-11-07T01:19:41.8701166Z libatspi2.0-0t64 is already the newest version (2.52.0-1build1).
+2026-11-07T01:19:41.8701703Z libatspi2.0-0t64 set to manually installed.
+2026-11-07T01:19:41.8702668Z libcairo2 is already the newest version (1.18.0-3build1).
+2026-11-07T01:19:41.8703136Z libcairo2 set to manually installed.
+2026-11-07T01:19:41.8703606Z libcups2t64 is already the newest version (2.4.7-1.2ubuntu7.14).
+2026-11-07T01:19:41.8704055Z libcups2t64 set to manually installed.
+2026-11-07T01:19:41.8704510Z libdbus-1-3 is already the newest version (1.14.10-4ubuntu4.1).
+2026-11-07T01:19:41.8704837Z libdbus-1-3 set to manually installed.
+2026-11-07T01:19:41.8705170Z libdrm2 is already the newest version (2.4.125-1ubuntu0.1~24.04.2).
+2026-11-07T01:19:41.8705490Z libdrm2 set to manually installed.
+2026-11-07T01:19:41.8705908Z libgbm1 is already the newest version (25.2.8-0ubuntu0.24.04.4).
+2026-11-07T01:19:41.8706408Z libgbm1 set to manually installed.
+2026-11-07T01:19:41.8706745Z libglib2.0-0t64 is already the newest version (2.80.0-6ubuntu3.10).
+2026-11-07T01:19:41.8707079Z libglib2.0-0t64 set to manually installed.
+2026-11-07T01:19:41.8707460Z libnspr4 is already the newest version (2:4.35-1.1build1).
+2026-11-07T01:19:41.8707895Z libnspr4 set to manually installed.
+2026-11-07T01:19:41.8708247Z libnss3 is already the newest version (2:3.98-1ubuntu0.3).
+2026-11-07T01:19:41.8708536Z libnss3 set to manually installed.
+2026-11-07T01:19:41.8708859Z libpango-1.0-0 is already the newest version (1.52.1+ds-1build1).
+2026-11-07T01:19:41.8709182Z libpango-1.0-0 set to manually installed.
+2026-11-07T01:19:41.8709572Z libx11-6 is already the newest version (2:1.8.7-1ubuntu0.1).
+2026-11-07T01:19:41.8709986Z libx11-6 set to manually installed.
+2026-11-07T01:19:41.8710515Z libxcb1 is already the newest version (1.15-1ubuntu2).
+2026-11-07T01:19:41.8710935Z libxcb1 set to manually installed.
+2026-11-07T01:19:41.8711421Z libxcomposite1 is already the newest version (1:0.4.5-1build3).
+2026-11-07T01:19:41.8711887Z libxcomposite1 set to manually installed.
+2026-11-07T01:19:41.8712368Z libxdamage1 is already the newest version (1:1.1.6-1build1).
+2026-11-07T01:19:41.8712762Z libxdamage1 set to manually installed.
+2026-11-07T01:19:41.8713074Z libxext6 is already the newest version (2:1.3.4-1build2).
+2026-11-07T01:19:41.8713429Z libxext6 set to manually installed.
+2026-11-07T01:19:41.8713903Z libxfixes3 is already the newest version (1:6.0.0-2build1).
+2026-11-07T01:19:41.8714373Z libxfixes3 set to manually installed.
+2026-11-07T01:19:41.8714847Z libxkbcommon0 is already the newest version (1.6.0-1build1).
+2026-11-07T01:19:41.8715208Z libxkbcommon0 set to manually installed.
+2026-11-07T01:19:41.8715531Z libxrandr2 is already the newest version (2:1.5.2-2build1).
+2026-11-07T01:19:41.8715823Z libxrandr2 set to manually installed.
+2026-11-07T01:19:41.8716126Z xvfb is already the newest version (2:21.1.12-1ubuntu1.9).
+2026-11-07T01:19:41.8716709Z fonts-noto-color-emoji is already the newest version (2.047-0ubuntu0.24.04.1).
+2026-11-07T01:19:41.8717412Z libfontconfig1 is already the newest version (2.15.0-1.1ubuntu2).
+2026-11-07T01:19:41.8718275Z libfontconfig1 set to manually installed.
+2026-11-07T01:19:41.8718853Z libfreetype6 is already the newest version (2.13.2+dfsg-1ubuntu0.2).
+2026-11-07T01:19:41.8719382Z libfreetype6 set to manually installed.
+2026-11-07T01:19:41.8719895Z fonts-liberation is already the newest version (1:2.1.5-3).
+2026-11-07T01:19:41.8720536Z fonts-liberation set to manually installed.
+2026-11-07T01:19:41.8721019Z The following additional packages will be installed:
+2026-11-07T01:19:41.8721450Z   xfonts-encodings xfonts-utils
+2026-11-07T01:19:41.8721788Z Recommended packages:
+2026-11-07T01:19:41.8722130Z   fonts-ipafont-mincho fonts-tlwg-loma
+2026-11-07T01:19:41.8903824Z The following NEW packages will be installed:
+2026-11-07T01:19:41.8904586Z   fonts-freefont-ttf fonts-ipafont-gothic fonts-tlwg-loma-otf fonts-unifont
+2026-11-07T01:19:41.8914158Z   fonts-wqy-zenhei xfonts-cyrillic xfonts-encodings xfonts-scalable
+2026-11-07T01:19:41.8914622Z   xfonts-utils
+2026-11-07T01:19:41.9099198Z 0 upgraded, 9 newly installed, 0 to remove and 27 not upgraded.
+2026-11-07T01:19:41.9100107Z Need to get 21.1 MB of archives.
+2026-11-07T01:19:41.9100850Z After this operation, 79.5 MB of additional disk space will be used.
+2026-11-07T01:19:41.9101477Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+2026-11-07T01:19:42.4551023Z Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-ipafont-gothic all 00303-21ubuntu1 [3513 kB]
+2026-11-07T01:20:44.3461962Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 fonts-freefont-ttf all 20211204+svn4273-2 [5641 kB]
+2026-11-07T01:22:20.9716288Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-tlwg-loma-otf all 1:0.7.3-1 [107 kB]
+2026-11-07T01:22:23.4828024Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-unifont all 1:15.1.01-1build1 [2993 kB]
+2026-11-07T01:23:20.1921208Z Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-wqy-zenhei all 0.9.45-8 [7472 kB]
+2026-11-07T01:23:20.4167960Z Get:7 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-encodings all 1:1.0.5-0ubuntu2 [578 kB]
+2026-11-07T01:23:20.4914208Z Get:8 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-utils amd64 1:7.7+6build3 [94.4 kB]
+2026-11-07T01:23:20.5627336Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 xfonts-cyrillic all 1:1.0.5+nmu1 [384 kB]
+2026-11-07T01:23:20.6354061Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-scalable all 1:1.0.3-1.3 [304 kB]
+2026-11-07T01:23:20.8803665Z Fetched 21.1 MB in 3min 39s (96.4 kB/s)
+2026-11-07T01:23:20.9005307Z Selecting previously unselected package fonts-ipafont-gothic.
+2026-11-07T01:23:20.9220119Z (Reading database ... 
+2026-11-07T01:23:20.9220573Z (Reading database ... 5%
+2026-11-07T01:23:20.9220862Z (Reading database ... 10%
+2026-11-07T01:23:20.9221138Z (Reading database ... 15%
+2026-11-07T01:23:20.9221419Z (Reading database ... 20%
+2026-11-07T01:23:20.9221687Z (Reading database ... 25%
+2026-11-07T01:23:20.9222666Z (Reading database ... 30%
+2026-11-07T01:23:20.9223030Z (Reading database ... 35%
+2026-11-07T01:23:20.9223366Z (Reading database ... 40%
+2026-11-07T01:23:20.9223652Z (Reading database ... 45%
+2026-11-07T01:23:20.9223932Z (Reading database ... 50%
+2026-11-07T01:23:20.9256386Z (Reading database ... 55%
+2026-11-07T01:23:21.1524296Z (Reading database ... 60%
+2026-11-07T01:23:21.3604243Z (Reading database ... 65%
+2026-11-07T01:23:21.5518911Z (Reading database ... 70%
+2026-11-07T01:23:21.7255681Z (Reading database ... 75%
+2026-11-07T01:23:21.8992849Z (Reading database ... 80%
+2026-11-07T01:23:22.2589090Z (Reading database ... 85%
+2026-11-07T01:23:22.4824028Z (Reading database ... 90%
+2026-11-07T01:23:22.6603552Z (Reading database ... 95%
+2026-11-07T01:23:22.6603946Z (Reading database ... 100%
+2026-11-07T01:23:22.6604468Z (Reading database ... 215960 files and directories currently installed.)
+2026-11-07T01:23:22.6649222Z Preparing to unpack .../0-fonts-ipafont-gothic_00303-21ubuntu1_all.deb ...
+2026-11-07T01:23:22.6825246Z Unpacking fonts-ipafont-gothic (00303-21ubuntu1) ...
+2026-11-07T01:23:22.9578705Z Selecting previously unselected package fonts-freefont-ttf.
+2026-11-07T01:23:22.9702610Z Preparing to unpack .../1-fonts-freefont-ttf_20211204+svn4273-2_all.deb ...
+2026-11-07T01:23:22.9709384Z Unpacking fonts-freefont-ttf (20211204+svn4273-2) ...
+2026-11-07T01:23:23.0881520Z Selecting previously unselected package fonts-tlwg-loma-otf.
+2026-11-07T01:23:23.1006099Z Preparing to unpack .../2-fonts-tlwg-loma-otf_1%3a0.7.3-1_all.deb ...
+2026-11-07T01:23:23.1013694Z Unpacking fonts-tlwg-loma-otf (1:0.7.3-1) ...
+2026-11-07T01:23:23.1219762Z Selecting previously unselected package fonts-unifont.
+2026-11-07T01:23:23.1342309Z Preparing to unpack .../3-fonts-unifont_1%3a15.1.01-1build1_all.deb ...
+2026-11-07T01:23:23.1350108Z Unpacking fonts-unifont (1:15.1.01-1build1) ...
+2026-11-07T01:23:23.3385455Z Selecting previously unselected package fonts-wqy-zenhei.
+2026-11-07T01:23:23.3509458Z Preparing to unpack .../4-fonts-wqy-zenhei_0.9.45-8_all.deb ...
+2026-11-07T01:23:23.3605595Z Unpacking fonts-wqy-zenhei (0.9.45-8) ...
+2026-11-07T01:23:23.8263905Z Selecting previously unselected package xfonts-encodings.
+2026-11-07T01:23:23.8387629Z Preparing to unpack .../5-xfonts-encodings_1%3a1.0.5-0ubuntu2_all.deb ...
+2026-11-07T01:23:23.8394299Z Unpacking xfonts-encodings (1:1.0.5-0ubuntu2) ...
+2026-11-07T01:23:23.8664765Z Selecting previously unselected package xfonts-utils.
+2026-11-07T01:23:23.8788592Z Preparing to unpack .../6-xfonts-utils_1%3a7.7+6build3_amd64.deb ...
+2026-11-07T01:23:23.8794842Z Unpacking xfonts-utils (1:7.7+6build3) ...
+2026-11-07T01:23:23.9107724Z Selecting previously unselected package xfonts-cyrillic.
+2026-11-07T01:23:23.9231657Z Preparing to unpack .../7-xfonts-cyrillic_1%3a1.0.5+nmu1_all.deb ...
+2026-11-07T01:23:23.9239676Z Unpacking xfonts-cyrillic (1:1.0.5+nmu1) ...
+2026-11-07T01:23:23.9544424Z Selecting previously unselected package xfonts-scalable.
+2026-11-07T01:23:23.9668252Z Preparing to unpack .../8-xfonts-scalable_1%3a1.0.3-1.3_all.deb ...
+2026-11-07T01:23:23.9674747Z Unpacking xfonts-scalable (1:1.0.3-1.3) ...
+2026-11-07T01:23:24.0146202Z Setting up fonts-wqy-zenhei (0.9.45-8) ...
+2026-11-07T01:23:24.0246183Z Setting up fonts-freefont-ttf (20211204+svn4273-2) ...
+2026-11-07T01:23:24.0271760Z Setting up fonts-tlwg-loma-otf (1:0.7.3-1) ...
+2026-11-07T01:23:24.0288129Z Setting up xfonts-encodings (1:1.0.5-0ubuntu2) ...
+2026-11-07T01:23:24.0304017Z Setting up fonts-ipafont-gothic (00303-21ubuntu1) ...
+2026-11-07T01:23:24.0363121Z update-alternatives: using /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf to provide /usr/share/fonts/truetype/fonts-japanese-gothic.ttf (fonts-japanese-gothic.ttf) in auto mode
+2026-11-07T01:23:24.0378533Z Setting up fonts-unifont (1:15.1.01-1build1) ...
+2026-11-07T01:23:24.0403706Z Setting up xfonts-utils (1:7.7+6build3) ...
+2026-11-07T01:23:24.0440000Z Setting up xfonts-cyrillic (1:1.0.5+nmu1) ...
+2026-11-07T01:23:24.0737732Z Setting up xfonts-scalable (1:1.0.3-1.3) ...
+2026-11-07T01:23:24.0978263Z Processing triggers for man-db (2.12.0-4build2) ...
+2026-11-07T01:23:24.0995706Z Not building database; man-db/auto-update is not 'true'.
+2026-11-07T01:23:24.1006661Z Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
+2026-11-07T01:23:24.7874844Z 
+2026-11-07T01:23:24.7875441Z Running kernel seems to be up-to-date.
+2026-11-07T01:23:24.7875751Z 
+2026-11-07T01:23:24.7875935Z No services need to be restarted.
+2026-11-07T01:23:24.7876147Z 
+2026-11-07T01:23:24.7876311Z No containers need to be restarted.
+2026-11-07T01:23:24.7876532Z 
+2026-11-07T01:23:24.7876733Z No user sessions are running outdated binaries.
+2026-11-07T01:23:24.7876991Z 
+2026-11-07T01:23:24.7877321Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2026-11-07T01:23:25.7939811Z Downloading Chrome for Testing 151.0.7922.34 (playwright chromium v1234) from https://cdn.playwright.dev/builds/cft/151.0.7922.34/linux64/chrome-linux64.zip
+2026-11-07T01:23:26.7335602Z |                                                                                |   0% of 184.3 MiB
+2026-11-07T01:23:26.8833219Z |■■■■■■■■                                                                        |  10% of 184.3 MiB
+2026-11-07T01:23:27.0077147Z |■■■■■■■■■■■■■■■■                                                                |  20% of 184.3 MiB
+2026-11-07T01:23:27.1166328Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 184.3 MiB
+2026-11-07T01:23:27.2102154Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 184.3 MiB
+2026-11-07T01:23:27.3058949Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 184.3 MiB
+2026-11-07T01:23:27.4131638Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 184.3 MiB
+2026-11-07T01:23:27.5129070Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 184.3 MiB
+2026-11-07T01:23:27.6237807Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 184.3 MiB
+2026-11-07T01:23:27.7778506Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 184.3 MiB
+2026-11-07T01:23:27.9082175Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 184.3 MiB
+2026-11-07T01:23:30.4243195Z Chrome for Testing 151.0.7922.34 (playwright chromium v1234) downloaded to /home/runner/.cache/ms-playwright/chromium-1234
+2026-11-07T01:23:30.4253285Z Downloading FFmpeg (playwright ffmpeg v1011) from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+2026-11-07T01:23:31.3462245Z |                                                                                |   0% of 2.3 MiB
+2026-11-07T01:23:31.3584903Z |■■■■■■■■                                                                        |  10% of 2.3 MiB
+2026-11-07T01:23:31.3641844Z |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+2026-11-07T01:23:31.3667491Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+2026-11-07T01:23:31.3694243Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+2026-11-07T01:23:31.3707826Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+2026-11-07T01:23:31.3731385Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+2026-11-07T01:23:31.3744965Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+2026-11-07T01:23:31.3760773Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+2026-11-07T01:23:31.3776161Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+2026-11-07T01:23:31.3784794Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+2026-11-07T01:23:31.4317874Z FFmpeg (playwright ffmpeg v1011) downloaded to /home/runner/.cache/ms-playwright/ffmpeg-1011
+2026-11-07T01:23:31.4320048Z Downloading Chrome Headless Shell 151.0.7922.34 (playwright chromium-headless-shell v1234) from https://cdn.playwright.dev/builds/cft/151.0.7922.34/linux64/chrome-headless-shell-linux64.zip
+2026-11-07T01:23:32.3704027Z |                                                                                |   0% of 114.7 MiB
+2026-11-07T01:23:32.4778004Z |■■■■■■■■                                                                        |  10% of 114.7 MiB
+2026-11-07T01:23:32.5460744Z |■■■■■■■■■■■■■■■■                                                                |  20% of 114.7 MiB
+2026-11-07T01:23:32.6081949Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 114.7 MiB
+2026-11-07T01:23:32.6802522Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 114.7 MiB
+2026-11-07T01:23:32.7390887Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 114.7 MiB
+2026-11-07T01:23:32.8079698Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 114.7 MiB
+2026-11-07T01:23:32.9159997Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 114.7 MiB
+2026-11-07T01:23:32.9946354Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 114.7 MiB
+2026-11-07T01:23:33.0532523Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 114.7 MiB
+2026-11-07T01:23:33.1134101Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 114.7 MiB
+2026-11-07T01:23:34.9021296Z Chrome Headless Shell 151.0.7922.34 (playwright chromium-headless-shell v1234) downloaded to /home/runner/.cache/ms-playwright/chromium_headless_shell-1234
+2026-11-07T01:23:34.9214386Z ##[group]Run actions/download-artifact@v4
+2026-11-07T01:23:34.9214638Z with:
+2026-11-07T01:23:34.9214816Z   name: florilegium-pdfs
+2026-11-07T01:23:34.9215065Z   path: build/native-browser-reference
+2026-11-07T01:23:34.9215309Z   merge-multiple: false
+2026-11-07T01:23:34.9215516Z   repository: UPerna/florilegium
+2026-11-07T01:23:34.9215719Z   run-id: 42318922466
+2026-11-07T01:23:34.9215909Z ##[endgroup]
+2026-11-07T01:23:35.0474498Z Downloading single artifact
+2026-11-07T01:23:35.0633956Z (node:2944) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-07T01:23:35.0634999Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-07T01:23:35.3191559Z Preparing to download the following artifacts:
+2026-11-07T01:23:35.3192438Z - florilegium-pdfs (ID: 13553843215, Size: 34069176, Expected Digest: sha256:996a8435359d92e6f5640cf55a763d0c7df9fda848dd618b32b385c92fd11e3f)
+2026-11-07T01:23:35.5469919Z Redirecting to blob download url: https://productionresultssa10.blob.core.windows.net/actions-results/66c6f84c-9068-8024-b25a-2c864b1d1cff/workflow-job-run-9c0dcdcd-4e47-55d8-b754-22671d677e04/artifacts/b4587b973104b4d2a260bad43397a5ee884bbc5441047ff69dca9d7f8a598a9a.zip
+2026-11-07T01:23:35.5472082Z Starting download of artifact to: /home/runner/work/florilegium/florilegium/build/native-browser-reference
+2026-11-07T01:23:35.8620629Z (node:2944) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2026-11-07T01:23:37.6262609Z SHA256 digest of downloaded artifact is 996a8435359d92e6f5640cf55a763d0c7df9fda848dd618b32b385c92fd11e3f
+2026-11-07T01:23:37.6263136Z Artifact download completed successfully.
+2026-11-07T01:23:37.6263443Z Total of 1 artifact(s) downloaded
+2026-11-07T01:23:37.6268177Z Download artifact has finished successfully
+2026-11-07T01:23:37.7023182Z ##[group]Run python3 tools/browser_ci.py --native build/native-browser-reference --playwright "$RUNNER_TEMP/florilegium-browser/node_modules/playwright"
+2026-11-07T01:23:37.7024242Z [36;1mpython3 tools/browser_ci.py --native build/native-browser-reference --playwright "$RUNNER_TEMP/florilegium-browser/node_modules/playwright"[0m
+2026-11-07T01:23:37.7043454Z shell: /usr/bin/bash -e {0}
+2026-11-07T01:23:37.7043684Z ##[endgroup]
+2026-11-07T01:23:40.8054610Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /runtime.html HTTP/1.1" 200 -
+2026-11-07T01:23:40.8243524Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:23:40.8309521Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:23:40.8357385Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:23:40.8389526Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:23:40.8427683Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:23:40.8486030Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:23:40.8514424Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:23:40.8561919Z 127.0.0.1 - - [07/Nov/2026 01:23:40] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:23:40.9632435Z Starting actual browser generation botanical-panel 2026-11-07T01:23:40.958Z
+2026-11-07T01:23:49.2780109Z Starting actual browser instance replay botanical-panel 2026-11-07T01:23:49.277Z
+2026-11-07T01:23:57.8161995Z Browser/native generation and replay passed botanical-panel
+2026-11-07T01:23:57.8162867Z Starting actual browser generation periodic 2026-11-07T01:23:57.815Z
+2026-11-07T01:24:00.2187233Z Starting actual browser instance replay periodic 2026-11-07T01:24:00.217Z
+2026-11-07T01:24:03.4466995Z Browser/native generation and replay passed periodic
+2026-11-07T01:24:03.4467678Z Starting actual browser generation celtic 2026-11-07T01:24:03.446Z
+2026-11-07T01:24:03.8490168Z Starting actual browser instance replay celtic 2026-11-07T01:24:03.848Z
+2026-11-07T01:24:04.2465984Z Browser/native generation and replay passed celtic
+2026-11-07T01:24:04.2467003Z Starting actual browser generation islamic 2026-11-07T01:24:04.246Z
+2026-11-07T01:24:05.5245267Z Starting actual browser instance replay islamic 2026-11-07T01:24:05.524Z
+2026-11-07T01:24:07.0634325Z Browser/native generation and replay passed islamic
+2026-11-07T01:24:07.0635154Z Starting actual browser generation freeform 2026-11-07T01:24:07.063Z
+2026-11-07T01:24:07.8857640Z Starting actual browser instance replay freeform 2026-11-07T01:24:07.885Z
+2026-11-07T01:24:09.0162110Z Browser/native generation and replay passed freeform
+2026-11-07T01:24:09.0162902Z Starting actual browser generation substitution 2026-11-07T01:24:09.015Z
+2026-11-07T01:24:11.2149633Z Starting actual browser instance replay substitution 2026-11-07T01:24:11.214Z
+2026-11-07T01:24:13.8426552Z Browser/native generation and replay passed substitution
+2026-11-07T01:24:13.8429812Z Starting actual browser generation penrose 2026-11-07T01:24:13.841Z
+2026-11-07T01:24:20.9514188Z Starting actual browser instance replay penrose 2026-11-07T01:24:20.951Z
+2026-11-07T01:24:30.0714262Z Browser/native generation and replay passed penrose
+2026-11-07T01:24:30.0721054Z Starting actual browser generation spectre 2026-11-07T01:24:30.071Z
+2026-11-07T01:24:32.0900221Z Starting actual browser instance replay spectre 2026-11-07T01:24:32.089Z
+2026-11-07T01:24:34.5325303Z Browser/native generation and replay passed spectre
+2026-11-07T01:24:34.5330887Z Starting actual browser generation beenker 2026-11-07T01:24:34.532Z
+2026-11-07T01:24:39.6877423Z Starting actual browser instance replay beenker 2026-11-07T01:24:39.687Z
+2026-11-07T01:24:46.3275897Z Browser/native generation and replay passed beenker
+2026-11-07T01:24:46.3276414Z Starting actual browser generation completion 2026-11-07T01:24:46.327Z
+2026-11-07T01:24:46.5972513Z Starting actual browser instance replay completion 2026-11-07T01:24:46.596Z
+2026-11-07T01:24:46.9031381Z Browser/native generation and replay passed completion
+2026-11-07T01:24:46.9032196Z Starting actual browser generation tracery 2026-11-07T01:24:46.902Z
+2026-11-07T01:24:47.2280532Z Starting actual browser instance replay tracery 2026-11-07T01:24:47.227Z
+2026-11-07T01:24:47.6151416Z Browser/native generation and replay passed tracery
+2026-11-07T01:24:47.6152240Z Starting actual browser generation escher 2026-11-07T01:24:47.614Z
+2026-11-07T01:24:52.2946068Z Starting actual browser instance replay escher 2026-11-07T01:24:52.294Z
+2026-11-07T01:24:54.3883078Z Browser/native generation and replay passed escher
+2026-11-07T01:24:54.3883787Z Starting actual browser generation mosaic 2026-11-07T01:24:54.388Z
+2026-11-07T01:24:56.3133719Z Starting actual browser instance replay mosaic 2026-11-07T01:24:56.313Z
+2026-11-07T01:24:57.2573732Z Browser/native generation and replay passed mosaic
+2026-11-07T01:24:57.2574452Z Starting actual browser generation stroke 2026-11-07T01:24:57.257Z
+2026-11-07T01:25:01.2335579Z Starting actual browser instance replay stroke 2026-11-07T01:25:01.233Z
+2026-11-07T01:25:02.0397180Z Browser/native generation and replay passed stroke
+2026-11-07T01:25:02.0398019Z Starting actual browser generation maze 2026-11-07T01:25:02.039Z
+2026-11-07T01:25:03.8811086Z Starting actual browser instance replay maze 2026-11-07T01:25:03.880Z
+2026-11-07T01:25:06.2213788Z Browser/native generation and replay passed maze
+2026-11-07T01:25:06.2214500Z Starting actual browser generation micrography 2026-11-07T01:25:06.220Z
+2026-11-07T01:25:16.3736675Z Starting actual browser instance replay micrography 2026-11-07T01:25:16.373Z
+2026-11-07T01:25:22.1752658Z Browser/native generation and replay passed micrography
+2026-11-07T01:25:22.1754199Z Starting actual browser generation decobrush 2026-11-07T01:25:22.175Z
+2026-11-07T01:25:24.0845049Z Starting actual browser instance replay decobrush 2026-11-07T01:25:24.084Z
+2026-11-07T01:25:24.7543206Z Browser/native generation and replay passed decobrush
+2026-11-07T01:25:24.7544059Z Starting actual browser generation gothic-spatial 2026-11-07T01:25:24.754Z
+2026-11-07T01:25:25.1034310Z Starting actual browser instance replay gothic-spatial 2026-11-07T01:25:25.103Z
+2026-11-07T01:25:25.5611480Z Browser/native generation and replay passed gothic-spatial
+2026-11-07T01:25:25.5612303Z Starting actual browser generation inline 2026-11-07T01:25:25.560Z
+2026-11-07T01:25:26.0973099Z Starting actual browser instance replay inline 2026-11-07T01:25:26.097Z
+2026-11-07T01:25:26.7496434Z Browser/native generation and replay passed inline
+2026-11-07T01:25:26.7496985Z Starting actual browser generation hat 2026-11-07T01:25:26.749Z
+2026-11-07T01:25:27.9361240Z Starting actual browser instance replay hat 2026-11-07T01:25:27.935Z
+2026-11-07T01:25:29.3487872Z Browser/native generation and replay passed hat
+2026-11-07T01:25:29.3488732Z Starting actual browser generation botanical-authored 2026-11-07T01:25:29.348Z
+2026-11-07T01:26:53.0296433Z Starting actual browser instance replay botanical-authored 2026-11-07T01:26:53.029Z
+2026-11-07T01:28:23.4823232Z Browser/native generation and replay passed botanical-authored
+2026-11-07T01:28:46.0595697Z Starting actual browser generation botanical-grown 2026-11-07T01:28:23.482Z
+2026-11-07T01:28:46.0596587Z Starting actual browser instance replay botanical-grown 2026-11-07T01:28:46.059Z
+2026-11-07T01:29:10.8215438Z Browser/native generation and replay passed botanical-grown
+2026-11-07T01:29:10.8226299Z Real browser family gate passed22 families: 8165b08b2b64e3aeb29fa950a2aa156c940a47f0084ab8129ac0cd6b31b960aa
+2026-11-07T01:29:11.2714965Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /runtime.html HTTP/1.1" 200 -
+2026-11-07T01:29:11.2926145Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:29:11.2966296Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:29:11.3004276Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:29:11.3066171Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:29:11.3106679Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:29:11.3149527Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:29:11.3173736Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:29:11.3224602Z 127.0.0.1 - - [07/Nov/2026 01:29:11] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:29:18.9921576Z Actual browser adversarial checks passed 34 8165b08b2b64e3aeb29fa950a2aa156c940a47f0084ab8129ac0cd6b31b960aa
+2026-11-07T01:29:19.1588707Z Comparator adversarial:54 label corruptions,5 coordinate and3 nonfinite controls passed
+2026-11-07T01:29:19.5616738Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET / HTTP/1.1" 200 -
+2026-11-07T01:29:19.5750291Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:29:19.5758062Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:29:19.6025703Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:29:19.6064351Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:29:19.6137003Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:29:19.6248548Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:29:19.6278136Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:29:19.6373935Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:29:19.6508027Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:29:19.6585027Z 127.0.0.1 - - [07/Nov/2026 01:29:19] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:29:39.3658215Z Editor task passed border-monochrome
+2026-11-07T01:30:01.6699679Z Editor task passed border
+2026-11-07T01:30:01.7135562Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET / HTTP/1.1" 200 -
+2026-11-07T01:30:01.7243365Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:30:01.7245967Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:30:01.7410122Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:30:01.7419708Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:30:01.7457939Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:30:01.7531217Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:30:01.7648030Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:30:01.7682252Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:30:01.7697526Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:30:01.7731473Z 127.0.0.1 - - [07/Nov/2026 01:30:01] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:30:03.6685521Z Editor task passed knot
+2026-11-07T01:30:03.7082558Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET / HTTP/1.1" 200 -
+2026-11-07T01:30:03.7189525Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:30:03.7201701Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:30:03.7360076Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:30:03.7364026Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:30:03.7415039Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:30:03.7495489Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:30:03.7592270Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:30:03.7632071Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:30:03.7648111Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:30:03.7686164Z 127.0.0.1 - - [07/Nov/2026 01:30:03] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:30:28.6104731Z Editor task passed penrose
+2026-11-07T01:30:28.6497595Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET / HTTP/1.1" 200 -
+2026-11-07T01:30:28.6585435Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:30:28.6586252Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:30:28.6756386Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:30:28.6762900Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:30:28.6821729Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:30:28.6866527Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:30:28.6902715Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:30:28.7006772Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:30:28.7025031Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:30:28.7057790Z 127.0.0.1 - - [07/Nov/2026 01:30:28] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:30:36.0240733Z Editor task passed spectre
+2026-11-07T01:30:36.0642809Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET / HTTP/1.1" 200 -
+2026-11-07T01:30:36.0739693Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:30:36.0740870Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:30:36.0913668Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:30:36.0921418Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:30:36.0981866Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:30:36.1030191Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:30:36.1051317Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:30:36.1151717Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:30:36.1171267Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:30:36.1202176Z 127.0.0.1 - - [07/Nov/2026 01:30:36] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:30:40.2248736Z Editor task passed exemplar
+2026-11-07T01:30:40.2633520Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET / HTTP/1.1" 200 -
+2026-11-07T01:30:40.2726507Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:30:40.2728481Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:30:40.2885894Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:30:40.2888136Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:30:40.2943885Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:30:40.3016352Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:30:40.3100594Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:30:40.3138972Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:30:40.3157391Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:30:40.3191676Z 127.0.0.1 - - [07/Nov/2026 01:30:40] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:30:54.9264198Z Editor task passed microgram
+2026-11-07T01:30:54.9699348Z 127.0.0.1 - - [07/Nov/2026 01:30:54] "GET / HTTP/1.1" 200 -
+2026-11-07T01:30:54.9801100Z 127.0.0.1 - - [07/Nov/2026 01:30:54] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:30:54.9802098Z 127.0.0.1 - - [07/Nov/2026 01:30:54] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:30:54.9983516Z 127.0.0.1 - - [07/Nov/2026 01:30:54] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:30:54.9985861Z 127.0.0.1 - - [07/Nov/2026 01:30:54] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:30:55.0049055Z 127.0.0.1 - - [07/Nov/2026 01:30:55] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:30:55.0118883Z 127.0.0.1 - - [07/Nov/2026 01:30:55] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:30:55.0229263Z 127.0.0.1 - - [07/Nov/2026 01:30:55] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:30:55.0271126Z 127.0.0.1 - - [07/Nov/2026 01:30:55] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:30:55.0294570Z 127.0.0.1 - - [07/Nov/2026 01:30:55] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:30:55.0329715Z 127.0.0.1 - - [07/Nov/2026 01:30:55] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:31:02.8710736Z Editor task passed maze
+2026-11-07T01:31:02.9082467Z 127.0.0.1 - - [07/Nov/2026 01:31:02] "GET / HTTP/1.1" 200 -
+2026-11-07T01:31:02.9170130Z 127.0.0.1 - - [07/Nov/2026 01:31:02] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:31:02.9172669Z 127.0.0.1 - - [07/Nov/2026 01:31:02] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:31:02.9317403Z 127.0.0.1 - - [07/Nov/2026 01:31:02] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:31:02.9329053Z 127.0.0.1 - - [07/Nov/2026 01:31:02] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:31:02.9367780Z 127.0.0.1 - - [07/Nov/2026 01:31:02] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:31:02.9467580Z 127.0.0.1 - - [07/Nov/2026 01:31:02] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:31:02.9558308Z 127.0.0.1 - - [07/Nov/2026 01:31:02] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:31:03.0404343Z 127.0.0.1 - - [07/Nov/2026 01:31:03] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:31:03.0429665Z 127.0.0.1 - - [07/Nov/2026 01:31:03] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:31:03.0462579Z 127.0.0.1 - - [07/Nov/2026 01:31:03] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:31:16.8419920Z 127.0.0.1 - - [07/Nov/2026 01:31:16] "GET / HTTP/1.1" 304 -
+2026-11-07T01:31:47.2721203Z Editor task passed recovery
+2026-11-07T01:31:47.3137142Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET / HTTP/1.1" 200 -
+2026-11-07T01:31:47.3225939Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:31:47.3228978Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:31:47.3266856Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:31:47.3273009Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:31:47.3307940Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:31:47.3522844Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:31:47.3628138Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:31:47.3674504Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:31:47.3692237Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:31:47.3726302Z 127.0.0.1 - - [07/Nov/2026 01:31:47] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:31:50.5733450Z 127.0.0.1 - - [07/Nov/2026 01:31:50] "GET / HTTP/1.1" 304 -
+2026-11-07T01:32:03.3701879Z Editor task passed structural-refresh
+2026-11-07T01:32:03.4088146Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET / HTTP/1.1" 200 -
+2026-11-07T01:32:03.4179307Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:32:03.4180994Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:32:03.4339712Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:32:03.4349490Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:32:03.4383223Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:32:03.4453431Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:32:03.4559919Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:32:03.4600130Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:32:03.4618006Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:32:03.4652876Z 127.0.0.1 - - [07/Nov/2026 01:32:03] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:32:06.6793422Z 127.0.0.1 - - [07/Nov/2026 01:32:06] "GET / HTTP/1.1" 304 -
+2026-11-07T01:32:20.8777110Z Editor task passed invalid-edit-recovery
+2026-11-07T01:32:20.9165532Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET / HTTP/1.1" 200 -
+2026-11-07T01:32:20.9262829Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:32:20.9274061Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:32:20.9411410Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:32:20.9429830Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:32:20.9485113Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:32:20.9540861Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:32:20.9587640Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:32:20.9675093Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:32:20.9692764Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:32:20.9723593Z 127.0.0.1 - - [07/Nov/2026 01:32:20] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:32:22.6348384Z Editor task passed partial-packing
+2026-11-07T01:32:22.6735774Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET / HTTP/1.1" 200 -
+2026-11-07T01:32:22.6825073Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:32:22.6826846Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:32:22.6979872Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:32:22.6985805Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:32:22.7057442Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:32:22.7106474Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:32:22.7205955Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:32:22.7255485Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:32:22.7275011Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:32:22.7312762Z 127.0.0.1 - - [07/Nov/2026 01:32:22] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:32:35.7188678Z Editor task passed page-controls
+2026-11-07T01:32:50.3721235Z Editor task passed microgram-controls
+2026-11-07T01:32:50.4187068Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET / HTTP/1.1" 200 -
+2026-11-07T01:32:50.4279436Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /editor.css HTTP/1.1" 200 -
+2026-11-07T01:32:50.4280765Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /editor.js HTTP/1.1" 200 -
+2026-11-07T01:32:50.4468430Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /client.js HTTP/1.1" 200 -
+2026-11-07T01:32:50.4481918Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /cache.js HTTP/1.1" 200 -
+2026-11-07T01:32:50.4547303Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /assets.json HTTP/1.1" 200 -
+2026-11-07T01:32:50.4610299Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /worker.js HTTP/1.1" 200 -
+2026-11-07T01:32:50.4714814Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /wasmoon.js HTTP/1.1" 200 -
+2026-11-07T01:32:50.4764802Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /sha256.js HTTP/1.1" 200 -
+2026-11-07T01:32:50.4785439Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /runtime.wasm HTTP/1.1" 200 -
+2026-11-07T01:32:50.4826180Z 127.0.0.1 - - [07/Nov/2026 01:32:50] "GET /bundle.json HTTP/1.1" 200 -
+2026-11-07T01:32:53.3802636Z Editor task passed canvas
+2026-11-07T01:32:54.1028274Z Independently inspected real editor vectors: 15
+2026-11-07T01:32:54.3974377Z Error: ENOENT: no such file or directory, open '/home/runner/work/florilegium/florilegium/build/native-browser-reference/performance/workloads.json'
+2026-11-07T01:32:54.3975281Z     at Object.readFileSync (node:fs:483:20)
+2026-11-07T01:32:54.3975931Z     at main (/home/runner/work/florilegium/florilegium/tools/browser-performance.cjs:9:31)
+2026-11-07T01:32:54.3977395Z     at Object.<anonymous> (/home/runner/work/florilegium/florilegium/tools/browser-performance.cjs:89:1)
+2026-11-07T01:32:54.3978084Z     at Module._compile (node:internal/modules/cjs/loader:1929:14)
+2026-11-07T01:32:54.3978777Z     at Object..js (node:internal/modules/cjs/loader:2060:10)
+2026-11-07T01:32:54.3979255Z     at Module.load (node:internal/modules/cjs/loader:1651:32)
+2026-11-07T01:32:54.3979788Z     at Module._load (node:internal/modules/cjs/loader:1443:12)
+2026-11-07T01:32:54.3980301Z     at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+2026-11-07T01:32:54.3981086Z     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+2026-11-07T01:32:54.3981489Z     at node:internal/main/run_main_module:33:47 {
+2026-11-07T01:32:54.3981749Z   errno: -2,
+2026-11-07T01:32:54.3981928Z   code: 'ENOENT',
+2026-11-07T01:32:54.3982132Z   syscall: 'open',
+2026-11-07T01:32:54.3982605Z   path: '/home/runner/work/florilegium/florilegium/build/native-browser-reference/performance/workloads.json'
+2026-11-07T01:32:54.3983076Z }
+2026-11-07T01:32:54.5260768Z Traceback (most recent call last):
+2026-11-07T01:32:54.5261534Z   File "/home/runner/work/florilegium/florilegium/tools/browser_ci.py", line 54, in <module>
+2026-11-07T01:32:54.5262221Z     if __name__=='__main__':main()
+2026-11-07T01:32:54.5262568Z                             ^^^^^^
+2026-11-07T01:32:54.5263176Z   File "/home/runner/work/florilegium/florilegium/tools/browser_ci.py", line 51, in main
+2026-11-07T01:32:54.5264361Z     subprocess.run(['node',str(ROOT/'tools/browser-performance.cjs'),*common,'--recipes',str(args.native/'performance')],cwd=ROOT,check=True,timeout=1800)
+2026-11-07T01:32:54.5265317Z   File "/usr/lib/python3.12/subprocess.py", line 571, in run
+2026-11-07T01:32:54.5265681Z     raise CalledProcessError(retcode, process.args,
+2026-11-07T01:32:54.5267265Z subprocess.CalledProcessError: Command '['node', '/home/runner/work/florilegium/florilegium/tools/browser-performance.cjs', '--url', 'http://127.0.0.1:37981/runtime.html', '--playwright', '/home/runner/work/_temp/florilegium-browser/node_modules/playwright', '--recipes', 'build/native-browser-reference/performance']' returned non-zero exit status 1.
+2026-11-07T01:32:54.5453694Z ##[error]Process completed with exit code 1.
+2026-11-07T01:32:54.5511939Z ##[group]Run actions/upload-artifact@v4
+2026-11-07T01:32:54.5512266Z with:
+2026-11-07T01:32:54.5512442Z   name: florilegium-browser
+2026-11-07T01:32:54.5512858Z   path: build/browser-check/
+build/editor-check/
+build/browser-performance/
+build/adversarial/
+build/web/assets.json
+
+2026-11-07T01:32:54.5513292Z   if-no-files-found: error
+2026-11-07T01:32:54.5513499Z   compression-level: 6
+2026-11-07T01:32:54.5513692Z   overwrite: false
+2026-11-07T01:32:54.5513876Z   include-hidden-files: false
+2026-11-07T01:32:54.5514089Z ##[endgroup]
+2026-11-07T01:32:54.6961333Z (node:3764) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-07T01:32:54.6962364Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-07T01:32:54.7304543Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-11-07T01:32:54.7307498Z The least common ancestor is /home/runner/work/florilegium/florilegium/build. This will be the root directory of the artifact
+2026-11-07T01:32:54.7308535Z With the provided path, there will be 214 files uploaded
+2026-11-07T01:32:54.7313822Z Artifact name is valid!
+2026-11-07T01:32:54.7314514Z Root directory input is valid!
+2026-11-07T01:32:55.1078416Z Beginning upload of artifact content to blob storage
+2026-11-07T01:32:55.5631375Z (node:3764) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-07T01:32:56.3500960Z Uploaded bytes 4962197
+2026-11-07T01:32:56.4241690Z Finished uploading artifact content to blob storage!
+2026-11-07T01:32:56.4242620Z SHA256 digest of uploaded artifact zip is 077b3a2f7974a5b2abe3e7a9095bcbd5b278f99c86bc2f3268722854c3f1945b
+2026-11-07T01:32:56.4243668Z Finalizing artifact upload
+2026-11-07T01:32:56.8561867Z Artifact florilegium-browser.zip successfully finalized. Artifact ID 13555145586
+2026-11-07T01:32:56.8563081Z Artifact florilegium-browser has been successfully uploaded! Final size is 4962197 bytes. Artifact ID is 13555145586
+2026-11-07T01:32:56.8567418Z Artifact download URL: https://github.com/UPerna/florilegium/actions/runs/42318922466/artifacts/13555145586
+2026-11-07T01:32:56.8792393Z Post job cleanup.
+2026-11-07T01:32:56.9502969Z [command]/usr/bin/git version
+2026-11-07T01:32:56.9540668Z git version 2.56.0
+2026-11-07T01:32:56.9572120Z Temporarily overriding HOME='/home/runner/work/_temp/c543d452-d729-42e7-b562-c754aaca3bd9' before making global git config changes
+2026-11-07T01:32:56.9573476Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-07T01:32:56.9576932Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/florilegium/florilegium
+2026-11-07T01:32:56.9616388Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-07T01:32:56.9650086Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-07T01:32:56.9924593Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-07T01:32:56.9959843Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-07T01:32:57.0197163Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-07T01:32:57.0238874Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-07T01:32:57.0602367Z Cleaning up orphan processes
+2026-11-07T01:32:57.0917217Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/download-artifact@v4, actions/setup-node@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

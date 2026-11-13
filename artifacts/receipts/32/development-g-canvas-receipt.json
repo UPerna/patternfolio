@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "source_digest": "8b05cfdada7cf3cf9189d778b961939c8f53d0c8059dd17173e5b625d69dcc16",
+  "instance_sha256": "167c42ae0fa61eee27d59867783137495edf3410d385795b7466db7508a97b4e",
+  "claims": [
+    "Guide point drag under zoom preserves intended world coordinates",
+    "Native regeneration changes scaffold geometry",
+    "Protected rectangle drawn under zoom uses physical coordinates",
+    "Mask revision preserves source instance"
+  ],
+  "vector_structure": {
+    "paths": 13,
+    "texts": 0,
+    "rasters": 0,
+    "width": "5.4000000000000004cm",
+    "height": "5.5cm",
+    "viewbox": "0 0 5.4000000000000004 5.5",
+    "semantic_refs": 11,
+    "clips": 2
+  },
+  "assets_sha256": {
+    "instance.json": "167c42ae0fa61eee27d59867783137495edf3410d385795b7466db7508a97b4e",
+    "pattern.pdf": "86f9a4bd2c2b39934fef11d5d96d369c81702129afcfcf7349dd3fd03d43d116",
+    "pattern.svg": "ce9c25fc9c29b66faa8b15a6c0965027346d38c1ad3f376520021b7b19e08e0c",
+    "recipe.json": "7428dc88246155074aae0594689dff6547900847d30454ba606acbeab32cffa6",
+    "record.json": "f2d560a241a1bc4143edef1c760d35760de3a3d3c74084724c67dc8f916e4354",
+    "scene.json": "2b899e0636e17e64312ffabd525b686067185e7ec491ab017df61e4d5eb544a7",
+    "view.json": "5c16507aa387fe4ba8e4c35a38c39b7d0c0e917dd88386154cc4a83557823d30"
+  }
+}

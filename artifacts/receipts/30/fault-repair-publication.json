@@ -1,0 +1,36 @@
+{
+  "stage": "30",
+  "revision": "818c88890f4fb2c33deb308eeebfc949c6e14870",
+  "parent": "6be6efcb7286a1beadb4c1c5a56f2ad115f2f6a1",
+  "tree": "5f847f611b2882d02d260bbf8abdc2e6c9873c4a",
+  "route": "independent ordinary Git fetch",
+  "changed_files": [
+    {
+      "path": "artifacts/receipts/30/empty-output-native-diagnosis.json",
+      "sha256": "2d53b439118b9eb367a2c19db78634b7498745e26cc4439e7614410c94ad0718",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "401b2f0c6405cbe2bc46d9ec1e09492c80ad5dad846185b69018e2073228814b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "3298272dc164920257d9a1d0049e11378e1ae1706a62fd02238aca590a2aa50d",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/pattern_dual_tex_consumer.py",
+      "sha256": "f4211c969ea420a68a9b0a4c96ce8985d86db392d4d292e23a61a371e0645246",
+      "mode": "100644"
+    },
+    {
+      "path": "tools/tex_build_consumer.py",
+      "sha256": "a3da4c889a21772c29300fee99b9c886178c901b36d7a6c815248612371cc80b",
+      "mode": "100644"
+    }
+  ],
+  "unchanged_parent_objects_and_modes": 659,
+  "native_acceptance": "pending exact-head CI and artifact verification"
+}

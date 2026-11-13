@@ -1,0 +1,104 @@
+{
+  "stage": "13",
+  "revision": "5fc7a9ee535e36614fc640d682fcfbfbffcbe08c",
+  "parent": "e84897bb13b311c934de906965f024f7e6364d45",
+  "tree": "e509b84f5bf617a9391bd61bd096d4f2a241fefc",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "47f2e2fb89ccc0706d86b2a173ae60ebb5f668c4b14e0ebddb6e7da57aec70f7",
+      "bytes": 4905
+    },
+    {
+      "path": "Makefile",
+      "sha256": "27ffd473b5ce0a0fd1ae8ec1031f06e48a2d114445dd44814550c5f537d65d44",
+      "bytes": 6019
+    },
+    {
+      "path": "artifacts/receipts/12/ci-final.json",
+      "sha256": "4422b8187be837293bc620fcf3926b484a5e06c5bd069347af5b55262f573b85",
+      "bytes": 4030
+    },
+    {
+      "path": "artifacts/receipts/12/native-local-parity.json",
+      "sha256": "5024d10a33a48b9d34286f8a8e0948e8096bba88c1ece55ea13470f1b0b921ca",
+      "bytes": 1502
+    },
+    {
+      "path": "artifacts/receipts/12/publication.json",
+      "sha256": "951298abaee57fd180254861e3d49277f97e9a9fea8792aa5a5b19e8485e95f3",
+      "bytes": 3447
+    },
+    {
+      "path": "artifacts/receipts/13/oracle.json",
+      "sha256": "d2f9c2ef8ae373b88325b3abe78d01c011c73dfa718ed1b54167f72423eb8982",
+      "bytes": 1205
+    },
+    {
+      "path": "artifacts/receipts/13/receipt-Lua-5.3.json",
+      "sha256": "d0867c27fbb15af56f95a79e0cbab677a1205907d71123b6987872c3ac4820b3",
+      "bytes": 13740
+    },
+    {
+      "path": "artifacts/receipts/13/receipt-Lua-5.4.json",
+      "sha256": "aa0ce4c57293647784015b437553faa22b8bc2136e2c26525414e76b0b670902",
+      "bytes": 13740
+    },
+    {
+      "path": "docs/architecture/FINITE-SUBSTITUTION.md",
+      "sha256": "63a0776124c86afc9884cf77a80919b3c26de03c00b53736e730bfec1786493a",
+      "bytes": 2634
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "ae74cea310a6fa38cb623d4d1dcba148c7b077455b97694131358a86f09178b6",
+      "bytes": 48815
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "a84e6a09fe6af653930771c4240493b87f32aaad8a873a5a426d1fa8470bcf78",
+      "bytes": 424
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "0f9e392aa5ca8813fdf2207a6efefd7fe3d9301381beccc2fc7823891e792579",
+      "bytes": 30151
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "8fd3154937cda6a29466a314f1728f46adc9d1101c1c1f8a6421d26c95ab8df6",
+      "bytes": 39352
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "e2d0c0f24e069e65f6316fa3a7e75955787f1bca27a518a4808e47d11b31c81b",
+      "bytes": 24415
+    },
+    {
+      "path": "pattern_aperiodic.lua",
+      "sha256": "52cbe619c95ae7258e71df59198c3d8e9e52fd9b3e5a30e41775c93d0865d515",
+      "bytes": 18970
+    },
+    {
+      "path": "pattern_recipe.lua",
+      "sha256": "e7c5ad78d36aae6568c9e05bf34e34e1db16320a7505e6ea53c2aeed17c3a8bb",
+      "bytes": 12414
+    },
+    {
+      "path": "tools/substitution_oracle.py",
+      "sha256": "bd1f73c8772e2d61e7140f750ac074e4ea4b0eadabb325aa7d2068e0c909928a",
+      "bytes": 10694
+    },
+    {
+      "path": "tools/substitutioncheck.lua",
+      "sha256": "6f5fb1751e4e00a55ccdedd56cbb9273c5fbc9c4367a4f2821c646567bf0a9c1",
+      "bytes": 7296
+    }
+  ],
+  "unchanged_parent_entries": 287,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41829970438,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

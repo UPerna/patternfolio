@@ -1,0 +1,84 @@
+{
+  "stage": "10",
+  "revision": "c45310b2d7db36dd0d423a28407950140906c01a",
+  "parent": "ac76ce9c75522f2a653b697ddd8d97cd3dc803bf",
+  "tree": "9d629e4498588b349c0b18cbf6fe90ef5ea7fa27",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "d92129f69d1e570ac473c8d726239cbd87c04d3a4d5e00fbe13c4e240cd3b216",
+      "bytes": 4530
+    },
+    {
+      "path": "Makefile",
+      "sha256": "2f931c2404e0d8d95f802382ab005386480b135345be5670ab5bcb552f9673a7",
+      "bytes": 5773
+    },
+    {
+      "path": "artifacts/receipts/09/ci-final.json",
+      "sha256": "6064e88c1aa732b288c847014c5d82317de4540a7a9cd3b8f8f7275ef1a1b4a8",
+      "bytes": 4760
+    },
+    {
+      "path": "artifacts/receipts/09/publication.json",
+      "sha256": "55c466f98c11b8bb647d25400be4e66adb7c5647a1761f84599db42490896a25",
+      "bytes": 5561
+    },
+    {
+      "path": "artifacts/receipts/10/oracle.json",
+      "sha256": "85449096e73d3d6a359869cbeec80db9875d3515eafa9d55d7a589de47684011",
+      "bytes": 2189
+    },
+    {
+      "path": "artifacts/receipts/10/receipt-Lua-5.3.json",
+      "sha256": "a0b8a83af7a4b01b4036cdb81bf524cfcd9c0fa7467e32a2b4c1b47c0f7a18ed",
+      "bytes": 6463
+    },
+    {
+      "path": "artifacts/receipts/10/receipt-Lua-5.4.json",
+      "sha256": "caf7fb150f389c784842f9879e9202f0a17de2f72503e06bbf235d6bf6353fb5",
+      "bytes": 6463
+    },
+    {
+      "path": "docs/architecture/CELTIC.md",
+      "sha256": "0acf755e4c0e2885b5c8290f495df95e7f5c29a01f6fa3f1f398dc765f2395c8",
+      "bytes": 3030
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "c35a85b63587515011303d31e2db498385db18facbac4268fe296714f9be71f0",
+      "bytes": 46883
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "87ea33adb14beac6f63d26126ea86bee8a36502190ffb1ef93cfcf696dd99875",
+      "bytes": 367
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "7e3fda010295ad1b30b29ea5f91cb74a492ac5629aa5a1c443ebc435935e7263",
+      "bytes": 38183
+    },
+    {
+      "path": "pattern_celtic.lua",
+      "sha256": "027405ce0f3c8485f52d412b0c2b5e96209c0a4b1c383126117dcf4882c8789a",
+      "bytes": 17190
+    },
+    {
+      "path": "tools/celtic_oracle.py",
+      "sha256": "a3089d67c7f9186e989d50021e065c011fb5cc33e8f484610c3ba2033286b401",
+      "bytes": 6142
+    },
+    {
+      "path": "tools/celticcheck.lua",
+      "sha256": "169988a6844e5dfd8971114c83bced26355ada458b73d2139e1ef56b757e4c4f",
+      "bytes": 5299
+    }
+  ],
+  "unchanged_parent_entries": 260,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41817152170,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

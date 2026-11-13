@@ -1,0 +1,86 @@
+{
+  "run": {
+    "id": 41928392109,
+    "head_sha": "a30898e35bd9cd9db3a33268ac4c4084a418a3da",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "jobs": [
+    {
+      "id": 126918741675,
+      "name": "portable",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 126918742134,
+      "name": "pdfs",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 126918744070,
+      "name": "gallery",
+      "status": "completed",
+      "conclusion": "skipped"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 13372255761,
+      "name": "florilegium-pdfs",
+      "size_in_bytes": 28456534,
+      "url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13372255761",
+      "archive_download_url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13372255761/zip",
+      "expired": false,
+      "created_at": "2026-11-04T23:06:24Z",
+      "expires_at": "2027-02-02T22:48:01Z",
+      "updated_at": "2026-11-04T23:06:24Z",
+      "digest": "sha256:7faaa51eaa4194bca614791c1bb57294775f0ea41b0d9642f74a3700ab22492c",
+      "workflow_run": {
+        "id": 41928392109,
+        "repository_id": 1440218114,
+        "head_repository_id": 1440218114,
+        "head_branch": "pattern/common-platform",
+        "head_sha": "a30898e35bd9cd9db3a33268ac4c4084a418a3da"
+      }
+    },
+    {
+      "id": 13370234527,
+      "name": "florilegium-portable-kit",
+      "size_in_bytes": 13258048,
+      "url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13370234527",
+      "archive_download_url": "https://api.github.com/repos/UPerna/florilegium/actions/artifacts/13370234527/zip",
+      "expired": false,
+      "created_at": "2026-11-04T22:56:20Z",
+      "expires_at": "2027-02-02T22:48:01Z",
+      "updated_at": "2026-11-04T22:56:20Z",
+      "digest": "sha256:062a278259cbd2120bd6a0b27fc6a3d31e8057e4ac72141d4a999ec40b92af0d",
+      "workflow_run": {
+        "id": 41928392109,
+        "repository_id": 1440218114,
+        "head_repository_id": 1440218114,
+        "head_branch": "pattern/common-platform",
+        "head_sha": "a30898e35bd9cd9db3a33268ac4c4084a418a3da"
+      }
+    }
+  ],
+  "kit_hashes": 466,
+  "native_checks": 8,
+  "native_output_hashes": 22,
+  "oracle": {
+    "source_digest": "0410fe01cab3d9334958eb3083a718279fa9a0a4c9dbddd74558a841cf6a884d",
+    "junctions": 4,
+    "separate_depth_crossings": 2,
+    "nested_supports": 2,
+    "spatial_samples": 635,
+    "chord_probes": 3125,
+    "projected_samples": 1878
+  },
+  "native_local_differences": [],
+  "visual_review": "Accepted four native PDF/SVG pairs at 9 x 9.5 cm, complete curves with clear nested units and upright views.",
+  "archive_sha256": {
+    "pdfs": "7faaa51eaa4194bca614791c1bb57294775f0ea41b0d9642f74a3700ab22492c",
+    "portable": "062a278259cbd2120bd6a0b27fc6a3d31e8057e4ac72141d4a999ec40b92af0d"
+  }
+}

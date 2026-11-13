@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "profile": "pattern-canonical-v1 / sha256-frame-v1 / pm16807-schrage-v1",
+  "sha256": [
+    {
+      "name": "empty",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text": ""
+    },
+    {
+      "name": "abc",
+      "sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "text": "abc"
+    },
+    {
+      "name": "padding-55",
+      "sha256": "d5e285683cd4efc02d021a5c62014694958901005d6f71e89e0989fac77e4072",
+      "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    {
+      "name": "padding-56",
+      "sha256": "04c26261370ee7541549d16dee320c723e3fd14671e66a099afe0a377c16888e",
+      "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    {
+      "name": "padding-63",
+      "sha256": "75220b47218278e656f2013bb8f0c455a25eaf01e86c64924e9d48d89776d6f2",
+      "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    {
+      "name": "padding-64",
+      "sha256": "7ce100971f64e7001e8fe5a51973ecdfe1ced42befe7ee8d5fd6219506b5393c",
+      "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    {
+      "name": "padding-65",
+      "sha256": "9537c5fdf120482f7d58d25e9ed583f52c02b4e304ea814db1633ad565aed7e9",
+      "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    {
+      "name": "all-byte-values",
+      "sha256": "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+      "hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff"
+    },
+    {
+      "name": "million-a",
+      "sha256": "cdc76e5c9914fb9281a1c7e284d73e67f1809a48a497200e046d39ccc7112cd0",
+      "repeat_text": "a",
+      "count": 1000000
+    }
+  ],
+  "numbers": [
+    {
+      "input": "0",
+      "canonical": "0"
+    },
+    {
+      "input": "-0.0",
+      "canonical": "0"
+    },
+    {
+      "input": "1",
+      "canonical": "1"
+    },
+    {
+      "input": "-17",
+      "canonical": "-17"
+    },
+    {
+      "input": "0.1",
+      "canonical": "0.10000000000000001"
+    },
+    {
+      "input": "1e-7",
+      "canonical": "9.9999999999999995e-8"
+    },
+    {
+      "input": "1e-20",
+      "canonical": "9.9999999999999995e-21"
+    },
+    {
+      "input": "1e20",
+      "canonical": "1e+20"
+    },
+    {
+      "input": "9007199254740991",
+      "canonical": "9007199254740991"
+    },
+    {
+      "input": "2.2250738585072014e-308",
+      "canonical": "2.2250738585072014e-308"
+    },
+    {
+      "input": "1.7976931348623157e308",
+      "canonical": "1.7976931348623157e+308"
+    }
+  ],
+  "streams": [
+    {
+      "root": 7,
+      "namespace": "fixture/flower@1",
+      "name": "flowers",
+      "semantic_id": "plant/root/flower/0",
+      "seed": 1590731295,
+      "first": [
+        1396953562,
+        159803883,
+        1469302831,
+        658223764,
+        1078535851
+      ]
+    },
+    {
+      "root": 7,
+      "namespace": "fixture/flower@1",
+      "name": "visitors",
+      "semantic_id": "bee/0",
+      "seed": 429073409,
+      "first": [
+        186698437,
+        367022392,
+        972308160,
+        1380175097,
+        1631984032
+      ]
+    },
+    {
+      "root": 7,
+      "namespace": "fixture/flower@1",
+      "name": "flowers",
+      "semantic_id": "plant/root/flower/1",
+      "seed": 1791493428,
+      "first": [
+        1909313456,
+        2130601518,
+        1877382948,
+        197981665,
+        1025674452
+      ]
+    }
+  ],
+  "sorted_object": "{\"a\":2,\"z\":1,\"α\":3}"
+}

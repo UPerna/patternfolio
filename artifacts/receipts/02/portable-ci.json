@@ -1,0 +1,14 @@
+{
+  "revision": "879610d82637229f0f4c06f828fe3a6d68d6faf6",
+  "run": 41462720343,
+  "job": 125335590986,
+  "conclusion": "success",
+  "observed_lines": [
+    "2026-11-02T14:32:09.0223627Z Digest: sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7",
+    "2026-11-02T14:33:44.4097142Z enginecheck: 11 dual-engine documents, vector/text/metadata/mono/offset parity, cached animation, PDF assets, included auxiliary convergence, stale rebuilds and 6 rejected inputs passed",
+    "2026-11-02T14:33:50.3583172Z offsetcheck: 8 rendered physical and content-relative reservations passed",
+    "2026-11-02T14:34:20.7463248Z visualcheck: book-side placement, protected callout, overlapping barriers and full-page reservation passed",
+    "2026-11-02T14:34:37.1924370Z packagecheck: 118 file hashes, reproducible archive and extracted Lua/Xe template builds passed"
+  ],
+  "remaining_gate": "pdfs job"
+}

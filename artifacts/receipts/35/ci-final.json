@@ -1,0 +1,61 @@
+{
+  "stage": "35",
+  "revision": "96390d9afce26246dcf6da878e33fcb95b2c1b28",
+  "tree": "122a3dce50a51bacf93b428ab164c0917478fb03",
+  "run": 42331909848,
+  "run_number": 65,
+  "workflow_status": "completed",
+  "workflow_conclusion": "success",
+  "jobs": [
+    {
+      "id": 128280135492,
+      "name": "pdfs",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 42331909848
+    },
+    {
+      "id": 128280135738,
+      "name": "patterns-dual",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 42331909848
+    },
+    {
+      "id": 128280135747,
+      "name": "portable",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 42331909848
+    },
+    {
+      "id": 128280135827,
+      "name": "patterns-luatex",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 42331909848
+    },
+    {
+      "id": 128280136873,
+      "name": "gallery",
+      "status": "completed",
+      "conclusion": "skipped",
+      "run_id": 42331909848
+    },
+    {
+      "id": 128288199849,
+      "name": "browser",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 42331909848
+    }
+  ],
+  "required": [
+    "pdfs",
+    "portable",
+    "patterns-luatex",
+    "patterns-dual",
+    "browser"
+  ],
+  "accepted": false
+}

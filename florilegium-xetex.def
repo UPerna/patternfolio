@@ -12,7 +12,7 @@
 \def\flo@drawn#1#2{\def\flo@drawncount{#1}\def\flo@drawnmd5{#2}}
 \def\flo@initialstatus#1#2{\expandafter\gdef\csname flo@status@#1\endcsname{#2}}
 \AtBeginDocument{%
-  \InputIfFileExists{\jobname-flo.tex}{}{}%
+  \ifdefined\flo@externalstale\else\InputIfFileExists{\jobname-flo.tex}{}{}\fi%
   \immediate\openout\flo@out=\jobname.flo\relax}
 \def\flo@applycolors{}
 \def\flo@colrec{ink={\flo@ink},accent={\flo@acc}}

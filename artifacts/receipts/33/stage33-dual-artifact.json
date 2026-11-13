@@ -1,0 +1,11 @@
+{
+  "kind": "dual",
+  "artifact_id": 13544985423,
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "job": 128173725046,
+  "sha256": "e05b370d885c68ef60e209e1b3311f212fb27a6b23ef088a5ce7ebe573d02bde",
+  "archive_bytes": 7120044,
+  "verified_archive_sha256": "e05b370d885c68ef60e209e1b3311f212fb27a6b23ef088a5ce7ebe573d02bde",
+  "safe_extraction": true
+}

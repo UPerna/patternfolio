@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/UPerna/florilegium/pull/2",
+  "number": 2,
+  "state": "open",
+  "merged": false,
+  "draft": true,
+  "base": "improve/layout-controls",
+  "base_sha": "879610d82637229f0f4c06f828fe3a6d68d6faf6",
+  "head": "pattern/common-platform",
+  "head_sha": "8c1e33e289898de93c4f9f7c8733edd62a0a79d2",
+  "updated_at": "2026-11-07T05:40:17Z",
+  "body": "Adds a common Lua pattern platform alongside the original floral workflows. Generate or replay 22 admitted profiles from recipes, place their shared vector output in LuaLaTeX and XeLaTeX, and edit, import and export patterns in the browser studio. The generated Pattern Atlas shows canonical and presentation versions with complete replay bundles. Compass Garden demonstrates a collection, facing-page tiles and hybrid ornament.\n\n[Quickstart](https://github.com/UPerna/florilegium/blob/pattern/common-platform/docs/QUICKSTART.md) · [Coverage and limits](https://github.com/UPerna/florilegium/blob/pattern/common-platform/docs/research/COVERAGE.csv) · [Compatibility](https://github.com/UPerna/florilegium/blob/pattern/common-platform/docs/COMPATIBILITY.md)\n\nValidation at `8c1e33e289898de93c4f9f7c8733edd62a0a79d2`: [build 66](https://github.com/UPerna/florilegium/actions/runs/42337399300) passed all five required jobs. Downloaded evidence verifies both native TeX adapters, 22 CLI and browser profiles, extracted source-kit replay, 44 unchanged clean vectors, diagnostic/monochrome/crop exports, 13 editor workflows and the 836-file atlas with 48 browser-rendered images. Named comparison tolerances and finite example limits are documented. Native Windows TeX, other browsers and physical printing remain untested.\n\nThis draft remains on the feature branch for candidate packaging and review. No upstream merge, public tagged release or production deployment.",
+  "title": "Build the common pattern platform and botanical compatibility"
+}

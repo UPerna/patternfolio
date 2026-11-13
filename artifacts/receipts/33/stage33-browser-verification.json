@@ -1,0 +1,88 @@
+{
+  "stage": "33",
+  "status": "passed",
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "job": 128192378615,
+  "browser": "151.0.7922.34",
+  "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "browser_source_digest": "9374ca795b9efb2744d5fce25a694148ee0750998adab6ce14b9fc08b9cbfb7b",
+  "native_cli_source_digest": "351d50f2ca3e2df6e7523558424df12be317d05bbb1908e484f4e82b6495af18",
+  "source_files": 87,
+  "native_byte_exact_families": [
+    "botanical-panel",
+    "periodic",
+    "celtic",
+    "islamic",
+    "freeform",
+    "substitution",
+    "penrose",
+    "spectre",
+    "beenker",
+    "completion",
+    "tracery",
+    "escher",
+    "mosaic",
+    "stroke",
+    "maze",
+    "gothic-spatial",
+    "inline",
+    "hat",
+    "botanical-authored",
+    "botanical-grown"
+  ],
+  "native_numerical_comparisons": [
+    {
+      "family": "micrography",
+      "comparison": {
+        "numeric_values_compared": 92451,
+        "roundoff_differences": 3412,
+        "maximum_absolute_difference": 2.220446049250313e-15,
+        "maximum_fraction_of_roundoff_bound": 0.1969856468378289,
+        "bound": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b))); integer identities/text/order/topology/non-geometric fields exact"
+      }
+    },
+    {
+      "family": "decobrush",
+      "comparison": {
+        "numeric_values_compared": 7431,
+        "roundoff_differences": 1,
+        "maximum_absolute_difference": 5.551115123125783e-17,
+        "maximum_fraction_of_roundoff_bound": 0.0078125,
+        "bound": "min(1e-10,32*binary64_epsilon*max(1,abs(a),abs(b))); integer identities/text/order/topology/non-geometric fields exact"
+      }
+    }
+  ],
+  "byte_identical_own_replays": [
+    "botanical-panel",
+    "periodic",
+    "celtic",
+    "islamic",
+    "freeform",
+    "substitution",
+    "penrose",
+    "spectre",
+    "beenker",
+    "completion",
+    "tracery",
+    "escher",
+    "mosaic",
+    "stroke",
+    "maze",
+    "micrography",
+    "decobrush",
+    "gothic-spatial",
+    "inline",
+    "hat",
+    "botanical-authored",
+    "botanical-grown"
+  ],
+  "adversarial_checks": 34,
+  "binary_sha256_vectors": 24,
+  "golden_prng_values": 10,
+  "cache_caller_mutation_race_repaired": true,
+  "source_kit_browser_files_verified": 16,
+  "native_receipt_sha256": "3fdbc04dc0ab75f4dfc3afcce216174270598f5bc5a04b00a0e6f405763714a9",
+  "family_receipt_sha256": "e45d73073b675fb1846c51e065fc7f063732a1ece25893ab2e28ccbda00b4a52",
+  "adversarial_receipt_sha256": "8ca8c156d2faee6e313a3cf61e69c64e90177937ca3679e3d5c6b87a5725bb7b"
+}

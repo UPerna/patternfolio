@@ -1,0 +1,1563 @@
+{
+  "schema_version": 1,
+  "source_digest": "2307b7d09ddf4d37a726fa6879873bf8555dd867beab6a7afe09d7862265d87a",
+  "source_files": {
+    "tools/build_statecheck.py": "88e8951bac74d8f1ed84946602f033b4e8a38c2de053f2aa26a17d7a67e0e271",
+    "tools/build.py": "9d30118b2f7733a34b44484fd5ba4499613472b9259ffb341e67adb78ee29484"
+  },
+  "results": {
+    "stable": {
+      "compiler_calls": 2,
+      "status": "complete",
+      "diagnostic": null,
+      "pass_evidence": [
+        {
+          "pass": 1,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.aux",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.lof",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.lot",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.toc",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\chapter-one.aux"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        },
+        {
+          "pass": 2,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\stable Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true
+        }
+      ]
+    },
+    "missing-pdf": {
+      "compiler_calls": 1,
+      "status": "failed",
+      "diagnostic": "Compiler reported success but its PDF is missing or incomplete: C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\missing-pdf Ω output\\case.pdf; see C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\missing-pdf Ω output\\case.pass-1.log",
+      "pass_evidence": [
+        {
+          "pass": 1,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc"
+        }
+      ]
+    },
+    "partial-pdf": {
+      "compiler_calls": 1,
+      "status": "failed",
+      "diagnostic": "Compiler reported success but its PDF is missing or incomplete: C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\partial-pdf Ω output\\case.pdf; see C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\partial-pdf Ω output\\case.pass-1.log",
+      "pass_evidence": [
+        {
+          "pass": 1,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc"
+        }
+      ]
+    },
+    "one-pass": {
+      "compiler_calls": 1,
+      "status": "failed",
+      "diagnostic": "Document did not converge in 1 passes; changing: case.aux, case.lof, case.lot, case.toc, chapter-one.aux; see C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output",
+      "pass_evidence": [
+        {
+          "pass": 1,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.aux",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.lof",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.lot",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.toc",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\chapter-one.aux"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\one-pass Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        }
+      ]
+    },
+    "chapter-one.aux": {
+      "compiler_calls": 3,
+      "status": "failed",
+      "diagnostic": "Document did not converge in 3 passes; changing: chapter-one.aux; see C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output",
+      "pass_evidence": [
+        {
+          "pass": 1,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux",
+              "1c3435becb985aec0bf6ecf3f8571e7aebe59b95eb9385ef2acc2e6e300be5b9"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.aux",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lof",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lot",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.toc",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux",
+              "1c3435becb985aec0bf6ecf3f8571e7aebe59b95eb9385ef2acc2e6e300be5b9"
+            ]
+          ]
+        },
+        {
+          "pass": 2,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux",
+              "07b1656abb2371fd5d1e2eb36ed05cab3b9ead4d35fbb2bca973cb3adc4f65d6"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux",
+              "07b1656abb2371fd5d1e2eb36ed05cab3b9ead4d35fbb2bca973cb3adc4f65d6"
+            ]
+          ]
+        },
+        {
+          "pass": 3,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux",
+              "9133c999ad4fa6be57270f0327d196e9f59c42d0cca38639a960f3f2feed3afc"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\chapter-one.aux Ω output\\chapter-one.aux",
+              "9133c999ad4fa6be57270f0327d196e9f59c42d0cca38639a960f3f2feed3afc"
+            ]
+          ]
+        }
+      ]
+    },
+    "case.toc": {
+      "compiler_calls": 3,
+      "status": "failed",
+      "diagnostic": "Document did not converge in 3 passes; changing: case.toc; see C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output",
+      "pass_evidence": [
+        {
+          "pass": 1,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc",
+              "1c3435becb985aec0bf6ecf3f8571e7aebe59b95eb9385ef2acc2e6e300be5b9"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.aux",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lof",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lot",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\chapter-one.aux"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc",
+              "1c3435becb985aec0bf6ecf3f8571e7aebe59b95eb9385ef2acc2e6e300be5b9"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        },
+        {
+          "pass": 2,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc",
+              "07b1656abb2371fd5d1e2eb36ed05cab3b9ead4d35fbb2bca973cb3adc4f65d6"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc",
+              "07b1656abb2371fd5d1e2eb36ed05cab3b9ead4d35fbb2bca973cb3adc4f65d6"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        },
+        {
+          "pass": 3,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc",
+              "9133c999ad4fa6be57270f0327d196e9f59c42d0cca38639a960f3f2feed3afc"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\case.toc",
+              "9133c999ad4fa6be57270f0327d196e9f59c42d0cca38639a960f3f2feed3afc"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.toc Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        }
+      ]
+    },
+    "case.lof": {
+      "compiler_calls": 3,
+      "status": "failed",
+      "diagnostic": "Document did not converge in 3 passes; changing: case.lof; see C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output",
+      "pass_evidence": [
+        {
+          "pass": 1,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof",
+              "1c3435becb985aec0bf6ecf3f8571e7aebe59b95eb9385ef2acc2e6e300be5b9"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.aux",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lot",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.toc",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\chapter-one.aux"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof",
+              "1c3435becb985aec0bf6ecf3f8571e7aebe59b95eb9385ef2acc2e6e300be5b9"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        },
+        {
+          "pass": 2,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof",
+              "07b1656abb2371fd5d1e2eb36ed05cab3b9ead4d35fbb2bca973cb3adc4f65d6"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof",
+              "07b1656abb2371fd5d1e2eb36ed05cab3b9ead4d35fbb2bca973cb3adc4f65d6"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        },
+        {
+          "pass": 3,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof",
+              "9133c999ad4fa6be57270f0327d196e9f59c42d0cca38639a960f3f2feed3afc"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lof",
+              "9133c999ad4fa6be57270f0327d196e9f59c42d0cca38639a960f3f2feed3afc"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.lot",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lof Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        }
+      ]
+    },
+    "case.lot": {
+      "compiler_calls": 3,
+      "status": "failed",
+      "diagnostic": "Document did not converge in 3 passes; changing: case.lot; see C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output",
+      "pass_evidence": [
+        {
+          "pass": 1,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot",
+              "1c3435becb985aec0bf6ecf3f8571e7aebe59b95eb9385ef2acc2e6e300be5b9"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.aux",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lof",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.toc",
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\chapter-one.aux"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot",
+              "1c3435becb985aec0bf6ecf3f8571e7aebe59b95eb9385ef2acc2e6e300be5b9"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        },
+        {
+          "pass": 2,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot",
+              "07b1656abb2371fd5d1e2eb36ed05cab3b9ead4d35fbb2bca973cb3adc4f65d6"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot",
+              "07b1656abb2371fd5d1e2eb36ed05cab3b9ead4d35fbb2bca973cb3adc4f65d6"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        },
+        {
+          "pass": 3,
+          "rendered": false,
+          "external_before": "verified",
+          "compiler_command": [
+            "lualatex",
+            "-no-shell-escape",
+            "-halt-on-error",
+            "-interaction=nonstopmode",
+            "-recorder",
+            "-jobname=case",
+            "\\input{C:/Users/EN33948/Documents/Codex/2026-11-02/goal-execute-the-attached-pattern-platform-2/work/stage30/build/build-state-uaskc39w/Sources Ω with spaces/example book.tex}"
+          ],
+          "compiler_exit": 0,
+          "log_sha256": "114f81951274d692e2b9d233a400f11ba787bbf5dcea9837a6b48f2a12dee5dc",
+          "pdf_sha256": "df306eaa9f8ba847cace39c36a6125a8bea955bb097647d1509e9b8b93fe6d5b",
+          "auxiliaries_before_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot",
+              "9133c999ad4fa6be57270f0327d196e9f59c42d0cca38639a960f3f2feed3afc"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ],
+          "changed_auxiliaries": [
+            "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot"
+          ],
+          "compiler_inputs": {},
+          "compiler_inputs_stable_during_pass": true,
+          "auxiliaries_after_render": [
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case-patterns.json",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lof",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.lot",
+              "9133c999ad4fa6be57270f0327d196e9f59c42d0cca38639a960f3f2feed3afc"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.nav",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.out",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.snm",
+              null
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\case.toc",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ],
+            [
+              "C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\case.lot Ω output\\chapter-one.aux",
+              "98602522dec9253a4c8d125ea13f805ceeedf9d73f49b089a16afb85eb4b56c4"
+            ]
+          ]
+        }
+      ]
+    },
+    "stale_inputs_and_outputs": {
+      "renderer.lua": "renderer or runtime changed",
+      "source.recipe": "renderer, font, recipe or bound input changed: C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\external\\source.recipe",
+      "source.otf": "renderer, font, recipe or bound input changed: C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\external\\source.otf",
+      "case.flo": "external document records changed",
+      "asset.scene": "generated output is stale or damaged: C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\external\\asset.scene",
+      "asset.pdf": "generated output is stale or damaged: C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\external\\asset.pdf",
+      "case-patterns.tex": "generated output is stale or damaged: C:\\Users\\EN33948\\Documents\\Codex\\2026-11-02\\goal-execute-the-attached-pattern-platform-2\\work\\stage30\\build\\build-state-uaskc39w\\external\\case-patterns.tex"
+    }
+  },
+  "scope": "Actual driver control flow with a synthetic compiler and explicit byte mutations; native dual-engine QA remains mandatory",
+  "native_tex_compiled": false
+}

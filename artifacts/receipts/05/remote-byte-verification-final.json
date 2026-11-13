@@ -1,0 +1,60 @@
+{
+  "commit": "814d7723bdb0aed8fd1ef740876a04ab6f0e2820",
+  "tree": "bd281d0681c1a26231751eccf6a88b5fc3fb906d",
+  "independent_native_fetch": true,
+  "matched_files": [
+    {
+      "path": "artifacts/receipts/05/ci-initial.json",
+      "sha256": "02b88df2a764282cbd7ccde5b72d0c0fe48451c8504e249ae46a50fbe38ce374"
+    },
+    {
+      "path": "artifacts/receipts/05/local-checks-interval.json",
+      "sha256": "fb0c9a9228c832bcc809aa8ad5ac22420733440561f1f4400cceb0f30e565aff"
+    },
+    {
+      "path": "artifacts/receipts/05/local-checks.json",
+      "sha256": "56ec1d736920b39e08327368e77aad51a7aadd4b33d8a653ee0570e2d9a16d64"
+    },
+    {
+      "path": "artifacts/receipts/05/publication.json",
+      "sha256": "12cb88f2f2c3aa14caf015cb79fa98ccd730c412422cf8ea0fb61de40a219eb0"
+    },
+    {
+      "path": "artifacts/receipts/05/remote-byte-verification.json",
+      "sha256": "a82750431968c5ac97365fbaf81b0a817de8cb7b4d1b4d89b29107abb506b4ef"
+    },
+    {
+      "path": "artifacts/receipts/05/source-kit.json",
+      "sha256": "43035b2bd136b28f8b0a74b56f99a171b7d9227343db77f2b0da7737943d70d7"
+    },
+    {
+      "path": "artifacts/receipts/05/verification-notes.json",
+      "sha256": "88b567f3c163bd59d18c987ac7bfd07ad51847fd241108b6c78bff5e8d56f83d"
+    },
+    {
+      "path": "docs/architecture/GEOMETRY.md",
+      "sha256": "d938d731b2d183a9d9b4f01e794dc9b7052df3d271eda2633824cfa3fd7311ca"
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "9957d87fa68cb982d6d03c81c43a132f363100437bc0e2b53f3df6fc25e0352b"
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "d519436b2d1819b905d4d15a288a883189bce7ba7952d765ec3a58b76710d554"
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "edf06fd1365d68558da568b18d7f65946fad41aa62325c00d35c71c3b006e66e"
+    },
+    {
+      "path": "tools/geometry_oracle.py",
+      "sha256": "5298b47d801b43c49a0b2f802cfad997c39015a1cdd095902adc715b1a1beb72"
+    },
+    {
+      "path": "tools/geometrycheck.lua",
+      "sha256": "3aa84394e161b2a336e13c0a139a46b11b55abac05c00b55444154566a314aa7"
+    }
+  ],
+  "geometry_modules_unchanged_from": "ededcd38dcf83a163f0ca2816d12a5e8a9d37e80"
+}

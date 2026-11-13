@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "browser": "156.0.4314.58",
+  "source_digest": "10f76287e8a293ae14b76702f968b8b05bec221575da9d93d66654d6035fd794",
+  "editorcheck_sha256": "740ae3d9670db2a8eceb9e04376bdb7c8908087366cad42de12f3307c327d704",
+  "cases": {
+    "border": {
+      "status": "passed",
+      "source_digest": "10f76287e8a293ae14b76702f968b8b05bec221575da9d93d66654d6035fd794",
+      "instance_sha256": "e13a423658abeda38aa1ed4d4fd0e5a3fd0f7bb5d9c8d2fc963a83b55b870a55",
+      "claims": [
+        "Native 10×14cm planned page with protected center",
+        "True monochrome then palette native vector output",
+        "Paint changes preserve generated instance"
+      ],
+      "vector_structure": {
+        "paths": 401,
+        "texts": 0,
+        "rasters": 0,
+        "width": "10cm",
+        "height": "14cm",
+        "viewbox": "0 0 10 14",
+        "semantic_refs": 399,
+        "clips": 2
+      },
+      "assets_sha256": {
+        "instance.json": "e13a423658abeda38aa1ed4d4fd0e5a3fd0f7bb5d9c8d2fc963a83b55b870a55",
+        "pattern.pdf": "053292803d672ab76f63facdf820f49d2e7f6c52a65bad988780f7ccc88f7411",
+        "pattern.svg": "aab562c28d9dbbc96feb691962f479adb4e2a7ba4b16602fd8a56a3cf2aa7648",
+        "recipe.json": "86081a6276ab6b65503650a2c23daf713ab420dfe41acebcf67b3db669ee4ca4",
+        "record.json": "5ce03e37abaaefaf8d4115fec71e022d0643526e1a5411d2977677067b0021d8",
+        "scene.json": "d780f67856a4b2f0eb24123138d0f4def7a451b523f7b92316ff77a9b9453812",
+        "view.json": "65829f2ceb11ef6c435c672cfe087c0f99690a8c8727adf6d3c6c8d8debcb294"
+      }
+    },
+    "knot": {
+      "status": "passed",
+      "source_digest": "10f76287e8a293ae14b76702f968b8b05bec221575da9d93d66654d6035fd794",
+      "instance_sha256": "948fe0bb419a1f923ac41457e1b5a26af5bdd7ec69b9cbb1deeae1a1e62a2c28",
+      "claims": [
+        "Authored open sector changes native strand topology",
+        "Actual scaffold vertices/edges and crossing pins exposed",
+        "Generated topology validated by native family"
+      ],
+      "vector_structure": {
+        "paths": 12,
+        "texts": 0,
+        "rasters": 0,
+        "width": "5.4000000000000004cm",
+        "height": "5.5cm",
+        "viewbox": "0 0 5.4000000000000004 5.5",
+        "semantic_refs": 11,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "948fe0bb419a1f923ac41457e1b5a26af5bdd7ec69b9cbb1deeae1a1e62a2c28",
+        "pattern.pdf": "b86cf6a2049a994ce96d29615508ede494fd2ef5c57a0a27cedd6a8339971c98",
+        "pattern.svg": "db7abd28865f9cb3c6183e081413e56055fc80a9d3ef42d2fa4f89b5474a71e7",
+        "recipe.json": "ba2f358f24464b336206eb6083d4e69024e39d08082c0c1612cbfcb09c2eec2c",
+        "record.json": "c08f1b8fe87d78889882d04078ea7ef01c90a6bcbc93fc2f1c505522af6c72e2",
+        "scene.json": "66014ad85a2734e529c617e954110b192951c0840247776856add5839c31a504",
+        "view.json": "e2ad46935ca26f7d6b714eb16c10925dfaba75a5487d3a0c1dc34f807102f38e"
+      }
+    },
+    "penrose": {
+      "status": "passed",
+      "source_digest": "10f76287e8a293ae14b76702f968b8b05bec221575da9d93d66654d6035fd794",
+      "instance_sha256": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+      "claims": [
+        "World-anchored source instance unchanged after physical crop",
+        "Native planner context retained",
+        "View revision lineage records original source"
+      ],
+      "vector_structure": {
+        "paths": 161,
+        "texts": 0,
+        "rasters": 0,
+        "width": "2.2999999999999998cm",
+        "height": "3cm",
+        "viewbox": "0 0 2.2999999999999998 3",
+        "semantic_refs": 160,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+        "pattern.pdf": "d617e508c105d014e3c8074090f6a83b47f0424bae32722e731ec8ddb0b2d43e",
+        "pattern.svg": "f957da2736509c00750c35c9ea028ff0dd40c878a9911cbca965b6d3b6ac0b0e",
+        "recipe.json": "db3572f77c79e610c8150ab5eb708fdd1784e24d87c9244b79de15395059a3e1",
+        "record.json": "ef2ad6a0b3636a404ae0f9467d6645b6a34a8bc83b64089c0266f1acb4c1250b",
+        "scene.json": "e6025a2ae1d2ace651cb49f97d5cc30d16ef9a001eb1e31e6e1ac11ef6b39080",
+        "view.json": "c1e1026844cf9aead8bdfbc5dd8f940b7b996d7d956e6b950641639ec80c3f0a"
+      }
+    },
+    "spectre": {
+      "status": "passed",
+      "source_digest": "10f76287e8a293ae14b76702f968b8b05bec221575da9d93d66654d6035fd794",
+      "instance_sha256": "a154b6bddcde8c38c357892707727ce3086f21a8a7cd3b2b7b971251d4242c4e",
+      "claims": [
+        "World-anchored source instance unchanged after physical crop",
+        "Native planner context retained",
+        "View revision lineage records original source"
+      ],
+      "vector_structure": {
+        "paths": 62,
+        "texts": 0,
+        "rasters": 0,
+        "width": "1.3499999999999996cm",
+        "height": "2.0999999999999996cm",
+        "viewbox": "0 0 1.3499999999999996 2.0999999999999996",
+        "semantic_refs": 61,
+        "clips": 1
+      },
+      "assets_sha256": {
+        "instance.json": "a154b6bddcde8c38c357892707727ce3086f21a8a7cd3b2b7b971251d4242c4e",
+        "pattern.pdf": "604b062dc1299831db19ea9e2433ae7529db83d8e33943114291735980410753",
+        "pattern.svg": "907df5234c59d42d31f1a705eb02f378887d4246094694026173a3aa30ca135d",
+        "recipe.json": "bcdca6160aa519945fb56cd13e2cc0cf0ae1f1503c5594d9802eb5e567a61d4d",
+        "record.json": "998cd557679281c0c370cf40507ac5232a1ed2178eeadebba13beb6619bd5a76",
+        "scene.json": "c95896c19a22e730f1027b5f70e9afe3c5a7389e7bf409d4d4adb111a5696dc6",
+        "view.json": "882e8e3b17bc4c9f40dcc5d8a28ced554bb1dd5b6f66f08b58d6f04e4739ca72"
+      }
+    }
+  },
+  "errors": [],
+  "scope": "Actual DOM/worker tasks and exact downloaded vector bytes; visual review is a separate required evidence receipt."
+}

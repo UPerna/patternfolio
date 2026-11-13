@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "source_sha256": "4835921f197c1033a92ff29e191b032a887cf12cb7a93e5c5d22324e5da7aa82",
+  "actual_downloaded_native_revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "actual_native_zip_sha256": "996a8435359d92e6f5640cf55a763d0c7df9fda848dd618b32b385c92fd11e3f",
+  "workload_recipes_verified": 27,
+  "resolved_relative_to_artifact_root": "build/performance",
+  "missing_root_rejected_before_browser_launch": true,
+  "full_current_head_CI": "mandatory after new publication"
+}

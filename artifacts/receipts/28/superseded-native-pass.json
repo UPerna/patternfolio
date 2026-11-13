@@ -1,0 +1,59 @@
+{
+  "revision": "549e4770397132f2770de2f9efe3d4043e3cd04d",
+  "run": 42025446905,
+  "status": "Both native jobs passed; superseded by d891f8e recipe line-ending fix. This is preflight evidence, not final-head acceptance.",
+  "native_cli_checks": {
+    "families": 22,
+    "core": 17,
+    "failure": 20
+  },
+  "pdf_archive_sha256": "cd43028168cbc712053782c55cc1b5e59cf340fee14e97182b0ab7162f1f82d7",
+  "comparison": {
+    "revision": "549e4770397132f2770de2f9efe3d4043e3cd04d",
+    "native_cli_source_digest": "d50ca5dc265b53d9efb97f9aa401892c3031565def3f4670d4f7cc5be5aa26ff",
+    "exact_controls_and_categorical_structure": true,
+    "numeric_tolerance": 2e-9,
+    "files": {
+      "freeform.pdf": {
+        "numeric_entries": 38,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "freeform.svg": {
+        "numeric_entries": 38,
+        "maximum_absolute_delta": 8.881784197001252e-16
+      },
+      "micrography.pdf": {
+        "numeric_entries": 142,
+        "maximum_absolute_delta": 3.3881317890172014e-21
+      },
+      "micrography.svg": {
+        "numeric_entries": 142,
+        "maximum_absolute_delta": 3.3881317890172014e-21
+      },
+      "decobrush.pdf": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "decobrush.svg": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      }
+    },
+    "pdf_raster_cross_host": {
+      "decobrush": {
+        "normalized_mean": 0,
+        "peak_channel_delta": 0
+      },
+      "freeform": {
+        "normalized_mean": 0,
+        "peak_channel_delta": 0
+      },
+      "micrography": {
+        "normalized_mean": 0,
+        "peak_channel_delta": 0
+      }
+    },
+    "native_visual_review": "pending"
+  },
+  "visual_review": "All 22 native PDF/SVG pairs inspected and accepted."
+}

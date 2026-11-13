@@ -1,0 +1,559 @@
+{
+  "hatch": {
+    "strokes": 44,
+    "segments": 1194,
+    "minimum_clearance_cm": 0.2125595505577693,
+    "maximum_normalized_tangent_error": 8.993325786724139e-05,
+    "termination_counts": {
+      "step_budget": 14,
+      "separation": 953,
+      "hole": 10,
+      "boundary": 27
+    },
+    "backend_mean_error": 0.005718023428989652,
+    "pixels_darker_than_210": [
+      12112,
+      11731
+    ]
+  },
+  "tone": {
+    "strokes": 185,
+    "segments": 185,
+    "minimum_clearance_cm": 0.09679912720684178,
+    "counts": [
+      29,
+      65,
+      91
+    ],
+    "ink_area_cm2": [
+      0.07662030322840147,
+      0.1717351624084861,
+      0.24042922737188074
+    ],
+    "backend_mean_error": 0.00443530113868464,
+    "pixels_darker_than_210": [
+      1926,
+      2499
+    ]
+  },
+  "uniform": {
+    "strokes": 185,
+    "segments": 185,
+    "minimum_clearance_cm": 0.09679912720684178,
+    "counts": [
+      55,
+      62,
+      68
+    ],
+    "ink_area_cm2": [
+      0.14531436819179586,
+      0.16380892414347903,
+      0.17966140067349318
+    ],
+    "backend_mean_error": 0.004459209899237472,
+    "pixels_darker_than_210": [
+      1918,
+      2485
+    ]
+  },
+  "causal": {
+    "strokes": 122,
+    "segments": 122,
+    "minimum_clearance_cm": 0.07283363604955327,
+    "reference": {
+      "points": {
+        "count": 3,
+        "mean_length": 0.08827188724235693,
+        "mean_width": 0.044,
+        "mean_angle": 0.3217505543966422,
+        "mean_proximity": 0.6399999999999998,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 6,
+        "mean_length": 0.3826987164671944,
+        "mean_width": 0.0360000000000002,
+        "mean_angle": 0.5800027742076811,
+        "mean_proximity": 0.5600000000000003,
+        "mean_parallelism": 0.0
+      },
+      "upright": {
+        "count": 3,
+        "mean_length": 0.3841738071710735,
+        "mean_width": 0.03600000000000015,
+        "mean_angle": 1.353685012059991,
+        "mean_proximity": 0.64,
+        "mean_parallelism": 4.7119328614274324e-17
+      }
+    },
+    "synthesized": {
+      "points": {
+        "count": 11,
+        "mean_length": 0.08827188724235696,
+        "mean_width": 0.044,
+        "mean_angle": 0.3217505543966425,
+        "mean_proximity": 0.48999343779540494,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 42,
+        "mean_length": 0.3815558593243371,
+        "mean_width": 0.034857142857143045,
+        "mean_angle": 0.5800027742076809,
+        "mean_proximity": 0.48274560075183315,
+        "mean_parallelism": 1.2452965419486786e-16
+      },
+      "upright": {
+        "count": 8,
+        "mean_length": 0.38217380717107374,
+        "mean_width": 0.034000000000000224,
+        "mean_angle": 1.353685012059991,
+        "mean_proximity": 0.6382860147784196,
+        "mean_parallelism": 0.0
+      }
+    },
+    "matched": 51,
+    "corrected": 0,
+    "fallbacks": 6,
+    "relaxation": [],
+    "backend_mean_error": 0.0018716650071486929,
+    "pixels_darker_than_210": [
+      3175,
+      3312
+    ]
+  },
+  "independent": {
+    "strokes": 126,
+    "segments": 126,
+    "minimum_clearance_cm": 0.10186247984170602,
+    "reference": {
+      "points": {
+        "count": 3,
+        "mean_length": 0.08827188724235693,
+        "mean_width": 0.044,
+        "mean_angle": 0.3217505543966422,
+        "mean_proximity": 0.6399999999999998,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 6,
+        "mean_length": 0.3826987164671944,
+        "mean_width": 0.0360000000000002,
+        "mean_angle": 0.5800027742076811,
+        "mean_proximity": 0.5600000000000003,
+        "mean_parallelism": 0.0
+      },
+      "upright": {
+        "count": 3,
+        "mean_length": 0.3841738071710735,
+        "mean_width": 0.03600000000000015,
+        "mean_angle": 1.353685012059991,
+        "mean_proximity": 0.64,
+        "mean_parallelism": 4.7119328614274324e-17
+      }
+    },
+    "synthesized": {
+      "points": {
+        "count": 18,
+        "mean_length": 0.08827188724235692,
+        "mean_width": 0.044,
+        "mean_angle": 0.32175055439664246,
+        "mean_proximity": 0.5534932360367901,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 30,
+        "mean_length": 0.38216538313386106,
+        "mean_width": 0.035466666666666855,
+        "mean_angle": 0.580002774207681,
+        "mean_proximity": 0.5716001255000069,
+        "mean_parallelism": 3.0391966956206937e-16
+      },
+      "upright": {
+        "count": 15,
+        "mean_length": 0.38364047383774025,
+        "mean_width": 0.03546666666666685,
+        "mean_angle": 1.353685012059991,
+        "mean_proximity": 0.7674159865722581,
+        "mean_parallelism": 5.654319433712919e-17
+      }
+    },
+    "matched": 0,
+    "corrected": 0,
+    "fallbacks": 0,
+    "relaxation": [],
+    "backend_mean_error": 0.0018039545462282135,
+    "pixels_darker_than_210": [
+      2977,
+      3152
+    ]
+  },
+  "cloning": {
+    "strokes": 128,
+    "segments": 128,
+    "minimum_clearance_cm": 0.10989539460520527,
+    "reference": {
+      "points": {
+        "count": 3,
+        "mean_length": 0.08827188724235693,
+        "mean_width": 0.044,
+        "mean_angle": 0.3217505543966422,
+        "mean_proximity": 0.6399999999999998,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 6,
+        "mean_length": 0.3826987164671944,
+        "mean_width": 0.0360000000000002,
+        "mean_angle": 0.5800027742076811,
+        "mean_proximity": 0.5600000000000003,
+        "mean_parallelism": 0.0
+      },
+      "upright": {
+        "count": 3,
+        "mean_length": 0.3841738071710735,
+        "mean_width": 0.03600000000000015,
+        "mean_angle": 1.353685012059991,
+        "mean_proximity": 0.64,
+        "mean_parallelism": 4.7119328614274324e-17
+      }
+    },
+    "synthesized": {
+      "points": {
+        "count": 20,
+        "mean_length": 0.0882718872423569,
+        "mean_width": 0.044,
+        "mean_angle": 0.3217505543966426,
+        "mean_proximity": 0.6385338951940801,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 30,
+        "mean_length": 0.38216538313386106,
+        "mean_width": 0.035466666666666855,
+        "mean_angle": 0.6484097929795917,
+        "mean_proximity": 0.5760598329100262,
+        "mean_parallelism": 0.028228407943236847
+      },
+      "upright": {
+        "count": 14,
+        "mean_length": 0.383602378599645,
+        "mean_width": 0.03542857142857161,
+        "mean_angle": 1.2611714412069621,
+        "mean_proximity": 0.8222250834734487,
+        "mean_parallelism": 0.05872974835679359
+      }
+    },
+    "matched": 0,
+    "corrected": 62,
+    "fallbacks": 0,
+    "relaxation": [
+      {
+        "iteration": 0,
+        "relative_deviation": 0.14234168825236487,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 1,
+        "relative_deviation": 0.10699378550120639,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 2,
+        "relative_deviation": 0.08586041604305449,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 3,
+        "relative_deviation": 0.08081518322908728,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 4,
+        "relative_deviation": 0.0809663802516185,
+        "target": 0.06666666666666297
+      }
+    ],
+    "backend_mean_error": 0.0019052675866353486,
+    "pixels_darker_than_210": [
+      2922,
+      3113
+    ]
+  },
+  "copying": {
+    "strokes": 130,
+    "segments": 130,
+    "minimum_clearance_cm": 0.15623681287078234,
+    "reference": {
+      "points": {
+        "count": 3,
+        "mean_length": 0.08827188724235693,
+        "mean_width": 0.044,
+        "mean_angle": 0.3217505543966422,
+        "mean_proximity": 0.6399999999999998,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 6,
+        "mean_length": 0.3826987164671944,
+        "mean_width": 0.0360000000000002,
+        "mean_angle": 0.5800027742076811,
+        "mean_proximity": 0.5600000000000003,
+        "mean_parallelism": 0.0
+      },
+      "upright": {
+        "count": 3,
+        "mean_length": 0.3841738071710735,
+        "mean_width": 0.03600000000000015,
+        "mean_angle": 1.353685012059991,
+        "mean_proximity": 0.64,
+        "mean_parallelism": 4.7119328614274324e-17
+      }
+    },
+    "synthesized": {
+      "points": {
+        "count": 17,
+        "mean_length": 0.08827188724235693,
+        "mean_width": 0.044,
+        "mean_angle": 0.32175055439664213,
+        "mean_proximity": 0.8632146557015644,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 27,
+        "mean_length": 0.38284686461534256,
+        "mean_width": 0.036592592592592794,
+        "mean_angle": 0.6786135561475041,
+        "mean_proximity": 0.648909269071959,
+        "mean_parallelism": 0.04997955973951929
+      },
+      "upright": {
+        "count": 21,
+        "mean_length": 0.3851261881234544,
+        "mean_width": 0.03447619047619067,
+        "mean_angle": 1.2529824081919763,
+        "mean_proximity": 0.6714094841285979,
+        "mean_parallelism": 0.06123845596071083
+      }
+    },
+    "matched": 0,
+    "corrected": 63,
+    "fallbacks": 0,
+    "relaxation": [
+      {
+        "iteration": 0,
+        "relative_deviation": 0.14234168825236487,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 1,
+        "relative_deviation": 0.10699378550120639,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 2,
+        "relative_deviation": 0.08586041604305449,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 3,
+        "relative_deviation": 0.08081518322908728,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 4,
+        "relative_deviation": 0.0809663802516185,
+        "target": 0.06666666666666297
+      }
+    ],
+    "backend_mean_error": 0.0019039777369281045,
+    "pixels_darker_than_210": [
+      3017,
+      3224
+    ]
+  },
+  "sampling": {
+    "strokes": 128,
+    "segments": 128,
+    "minimum_clearance_cm": 0.10220197691686234,
+    "reference": {
+      "points": {
+        "count": 3,
+        "mean_length": 0.08827188724235693,
+        "mean_width": 0.044,
+        "mean_angle": 0.3217505543966422,
+        "mean_proximity": 0.6399999999999998,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 6,
+        "mean_length": 0.3826987164671944,
+        "mean_width": 0.0360000000000002,
+        "mean_angle": 0.5800027742076811,
+        "mean_proximity": 0.5600000000000003,
+        "mean_parallelism": 0.0
+      },
+      "upright": {
+        "count": 3,
+        "mean_length": 0.3841738071710735,
+        "mean_width": 0.03600000000000015,
+        "mean_angle": 1.353685012059991,
+        "mean_proximity": 0.64,
+        "mean_parallelism": 4.7119328614274324e-17
+      }
+    },
+    "synthesized": {
+      "points": {
+        "count": 17,
+        "mean_length": 0.08827188724235695,
+        "mean_width": 0.044000000000000004,
+        "mean_angle": 0.3217505543966422,
+        "mean_proximity": 0.7894436667557282,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 29,
+        "mean_length": 0.38225722926792666,
+        "mean_width": 0.03664485826271571,
+        "mean_angle": 0.6697646619005375,
+        "mean_proximity": 0.5873777350986983,
+        "mean_parallelism": 0.031699378488977116
+      },
+      "upright": {
+        "count": 18,
+        "mean_length": 0.38376373639296374,
+        "mean_width": 0.03484227543755237,
+        "mean_angle": 1.2776943210925966,
+        "mean_proximity": 0.6528025143753499,
+        "mean_parallelism": 0.03876790652659863
+      }
+    },
+    "matched": 0,
+    "corrected": 62,
+    "fallbacks": 0,
+    "relaxation": [
+      {
+        "iteration": 0,
+        "relative_deviation": 0.14234168825236487,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 1,
+        "relative_deviation": 0.10699378550120639,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 2,
+        "relative_deviation": 0.08586041604305449,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 3,
+        "relative_deviation": 0.08081518322908728,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 4,
+        "relative_deviation": 0.0809663802516185,
+        "target": 0.06666666666666297
+      }
+    ],
+    "backend_mean_error": 0.0019350538066789215,
+    "pixels_darker_than_210": [
+      3003,
+      3199
+    ]
+  },
+  "scaled": {
+    "strokes": 108,
+    "segments": 108,
+    "minimum_clearance_cm": 0.10188083453773539,
+    "reference": {
+      "points": {
+        "count": 3,
+        "mean_length": 0.08827188724235693,
+        "mean_width": 0.044,
+        "mean_angle": 0.3217505543966422,
+        "mean_proximity": 0.6399999999999998,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 6,
+        "mean_length": 0.3826987164671944,
+        "mean_width": 0.0360000000000002,
+        "mean_angle": 0.5800027742076811,
+        "mean_proximity": 0.5600000000000003,
+        "mean_parallelism": 0.0
+      },
+      "upright": {
+        "count": 3,
+        "mean_length": 0.3841738071710735,
+        "mean_width": 0.03600000000000015,
+        "mean_angle": 1.353685012059991,
+        "mean_proximity": 0.64,
+        "mean_parallelism": 4.7119328614274324e-17
+      }
+    },
+    "synthesized": {
+      "points": {
+        "count": 20,
+        "mean_length": 0.11916704777718183,
+        "mean_width": 0.0594,
+        "mean_angle": 0.3217505543966426,
+        "mean_proximity": 0.6612895117545174,
+        "mean_parallelism": null
+      },
+      "slanted": {
+        "count": 23,
+        "mean_length": 0.5157041367959299,
+        "mean_width": 0.04766086956521765,
+        "mean_angle": 0.6257509413154697,
+        "mean_proximity": 0.6527357557816837,
+        "mean_parallelism": 0.02402745487757564
+      },
+      "upright": {
+        "count": 11,
+        "mean_length": 0.5176528214991312,
+        "mean_width": 0.04761818181818204,
+        "mean_angle": 1.2570898449918848,
+        "mean_proximity": 0.9001020986984366,
+        "mean_parallelism": 0.09170625291608014
+      }
+    },
+    "matched": 0,
+    "corrected": 52,
+    "fallbacks": 0,
+    "relaxation": [
+      {
+        "iteration": 0,
+        "relative_deviation": 0.14234168825236487,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 1,
+        "relative_deviation": 0.10699378550120639,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 2,
+        "relative_deviation": 0.08586041604305449,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 3,
+        "relative_deviation": 0.08081518322908728,
+        "target": 0.06666666666666297
+      },
+      {
+        "iteration": 4,
+        "relative_deviation": 0.0809663802516185,
+        "target": 0.06666666666666297
+      }
+    ],
+    "backend_mean_error": 0.0026343917015590954,
+    "pixels_darker_than_210": [
+      3933,
+      4256
+    ]
+  }
+}

@@ -1,6 +1,19 @@
 -- Small vector-PDF backend, adapted from wilsybubs/florilegium 6f1d846 (MIT).
 -- Geometry stays in ink.lua; this module only owns resources and PDF objects.
 local M = {}
+function M.encode(objs,catalog)
+  local buf,offs={"%PDF-1.5\n%\xE2\xE3\xCF\xD3\n"},{}
+  local pos=#buf[1]
+  for i,o in ipairs(objs) do
+    offs[i]=pos
+    local s=string.format("%d 0 obj\n%s\nendobj\n",i,o)
+    buf[#buf+1]=s;pos=pos+#s
+  end
+  buf[#buf+1]=string.format("xref\n0 %d\n0000000000 65535 f \n",#objs+1)
+  for i=1,#objs do buf[#buf+1]=string.format("%010d 00000 n \n",offs[i]) end
+  buf[#buf+1]=string.format("trailer\n<< /Size %d /Root %d 0 R >>\nstartxref\n%d\n%%%%EOF\n",#objs+1,catalog,pos)
+  return table.concat(buf)
+end
 function M.new()
   local self = { pages={}, resources={}, streams={}, has_text=false }
   self.backend = {
@@ -39,17 +52,8 @@ function M.new()
     end
     objs[catalog]=string.format("<< /Type /Catalog /Pages %d 0 R >>",pages)
     objs[pages]=string.format("<< /Type /Pages /Kids [%s] /Count %d >>",table.concat(refs," "),#refs)
-    local buf,offs={"%PDF-1.5\n%\xE2\xE3\xCF\xD3\n"},{}
-    local pos=#buf[1]
-    for i,o in ipairs(objs) do
-      offs[i]=pos
-      local s=string.format("%d 0 obj\n%s\nendobj\n",i,o)
-      buf[#buf+1]=s;pos=pos+#s
-    end
-    buf[#buf+1]=string.format("xref\n0 %d\n0000000000 65535 f \n",#objs+1)
-    for i=1,#objs do buf[#buf+1]=string.format("%010d 00000 n \n",offs[i]) end
-    buf[#buf+1]=string.format("trailer\n<< /Size %d /Root %d 0 R >>\nstartxref\n%d\n%%%%EOF\n",#objs+1,catalog,pos)
-    local f=assert(io.open(path..".tmp","wb"));assert(f:write(table.concat(buf)));assert(f:close())
+    local bytes=M.encode(objs,catalog)
+    local f=assert(io.open(path..".tmp","wb"));assert(f:write(bytes));assert(f:close())
     assert(os.rename(path..".tmp",path))
   end
   return self

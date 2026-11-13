@@ -1,0 +1,127 @@
+{
+  "commit": "ededcd38dcf83a163f0ca2816d12a5e8a9d37e80",
+  "tree": "13c04807e0f9959f10296333236b8d5f4016f7f1",
+  "independent_native_fetch": true,
+  "matched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "2e2180a235773987e78c097d6d87376d92a13e5c83dfdf0051250ecca57e6c0e"
+    },
+    {
+      "path": "Makefile",
+      "sha256": "eaceb00452377e20cb3db02d1d8786d2a3cc2a7ed17b96525f91f940ca7e39d7"
+    },
+    {
+      "path": "artifacts/receipts/04/ci-final.json",
+      "sha256": "310928846f30a99a2361df602a5bd36c3aae08844f8c0caa7a115f1b4e3ecbaf"
+    },
+    {
+      "path": "artifacts/receipts/04/portable-ci.json",
+      "sha256": "23394ba30ba6a61576a54264931a8e94a63d615cad6a1782cf0129e4308fd117"
+    },
+    {
+      "path": "artifacts/receipts/04/publication.json",
+      "sha256": "c0e8288a89201fbe9c8f0ff7c11bbd3922b02771c584c7f64abe5133b148ca63"
+    },
+    {
+      "path": "artifacts/receipts/04/remote-byte-verification.json",
+      "sha256": "a056556497428d69e5895ec0a463666219196aeb3f0e822153f74a4a539320d5"
+    },
+    {
+      "path": "artifacts/receipts/04/source-kit.json",
+      "sha256": "fdb3b092feb38800da1165c92dabdf834eceabc081a22f3f72f54f725154a845"
+    },
+    {
+      "path": "artifacts/receipts/05/local-checks.json",
+      "sha256": "c1087435ae06c0df4a8c24286f1786266a2a7409ead5c5b5c208b49e0b3cf9ea"
+    },
+    {
+      "path": "artifacts/receipts/05/orientation-oracle-initial.json",
+      "sha256": "ea07d14c36f4bd64ed24799991b1193f0f3676cdc6a1fe5958c3fea76024ca1c"
+    },
+    {
+      "path": "artifacts/receipts/05/orientation-oracle.json",
+      "sha256": "5c1cb1d68fc12152d54afe8e225775b20338bda14d2b7b7f8f36dedc50fee0ea"
+    },
+    {
+      "path": "artifacts/receipts/05/verification-notes.json",
+      "sha256": "6f5b92da06bb3ec6b323677fea2e8f3793c66af584d8ff0c336addd57eb213f1"
+    },
+    {
+      "path": "docs/architecture/CONTRACTS.md",
+      "sha256": "3b2dd3f048980f916e5d418e1dfa1974df9e2760c65de20a96ec17272e491bad"
+    },
+    {
+      "path": "docs/architecture/GEOMETRY.md",
+      "sha256": "68d659306dd3443176bd31202fe27aee186aa9c1daac356f8275adf3816f2971"
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "1282544f1170d7bc46f188ef75073c8ac07db44937d16dce87edc39a773cdd9b"
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "187cd91d25a6bf6531511b746eb3d52acd964f959dc05a74a98e03988e26778c"
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "a3d9fbf2d2e001b6c5132604f279ac7ff2fb2780b9b1529c02a5395fe773c1b5"
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "ab76398a459358cbcd0a312b7d300b57c097b3b66a97cd97ab72993e2beb8a6c"
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "f4317a8c8e77de7508a5fefe2e320c8ca9cccec23d97f4e78474c6d29a22f549"
+    },
+    {
+      "path": "docs/validation/fixtures/geometry-v1.json",
+      "sha256": "0c5ec2a091ab024ffd4b7e3f677592f6534bff354ed5c8abf352eba2ea9a657f"
+    },
+    {
+      "path": "pattern.lua",
+      "sha256": "bd459baaac27ba5198224f249a4a66f382e16186f2559ddb0eaf2d3715c838e2"
+    },
+    {
+      "path": "pattern_bounds.lua",
+      "sha256": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9"
+    },
+    {
+      "path": "pattern_curves.lua",
+      "sha256": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad"
+    },
+    {
+      "path": "pattern_exact.lua",
+      "sha256": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697"
+    },
+    {
+      "path": "pattern_geometry.lua",
+      "sha256": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95"
+    },
+    {
+      "path": "pattern_predicates.lua",
+      "sha256": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0"
+    },
+    {
+      "path": "pattern_spatial.lua",
+      "sha256": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274"
+    },
+    {
+      "path": "pattern_topology.lua",
+      "sha256": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff"
+    },
+    {
+      "path": "tools/geometry_oracle.py",
+      "sha256": "d479a260ca371efe3f4ff8fbe3a3d89a2492aed099f2a0162d8000433b1a7be0"
+    },
+    {
+      "path": "tools/geometrycheck.lua",
+      "sha256": "ff9dc335180e254d8891f43331a1524fdc87bf5e7d33a30c633b317d2dfe694d"
+    },
+    {
+      "path": "tools/orientation_fuzz.py",
+      "sha256": "1172fe416f778f65355207fef0c2c2a42907e28dbf0b17e63f6cec96b4bf075b"
+    }
+  ]
+}

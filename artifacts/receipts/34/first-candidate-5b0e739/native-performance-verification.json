@@ -1,0 +1,23 @@
+{
+  "stage": "34",
+  "status": "native_passed_browser_pending",
+  "revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "native_cache_checks": 1245,
+  "packing_checks": 15,
+  "native_bounds": 54,
+  "floral_editor_seed_checks": 12,
+  "native_workloads": 27,
+  "native_phases": 81,
+  "hardware_runtime": {
+    "platform": "Linux-7.0.0-1017-azure-x86_64-with-musl1",
+    "machine": "x86_64",
+    "python": "3.14.8",
+    "logical_cpus": 4,
+    "reported_cpu": "AMD EPYC 7763 64-Core Processor",
+    "power_thermal_background_activity": "uncontrolled",
+    "whole_process_memory_limit": "not claimed",
+    "os_visible_ram_bytes": 16760344576
+  },
+  "source_guards_checked": true,
+  "matrix_sha256": "bd7662399403a5f5dcc350949411c46388ce2bb3b30d5a9bff87d1f0e95515c9"
+}

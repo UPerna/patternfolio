@@ -1,0 +1,645 @@
+﻿2026-11-06T09:33:23.0393264Z Current runner version: '2.338.2'
+2026-11-06T09:33:23.0418105Z ##[group]Runner Image Provisioner
+2026-11-06T09:33:23.0419187Z Hosted Compute Agent
+2026-11-06T09:33:23.0419809Z Version: 20261028.624
+2026-11-06T09:33:23.0420474Z Commit: 54898b74c23fde5556c9b3c3a2290865feef0dfe
+2026-11-06T09:33:23.0421338Z Build Date: 2026-10-28T21:51:42Z
+2026-11-06T09:33:23.0422049Z Worker ID: {259601fb-0b27-436a-832d-fe0f647660eb}
+2026-11-06T09:33:23.0422799Z Region: centralus
+2026-11-06T09:33:23.0423368Z Cloud: Azure
+2026-11-06T09:33:23.0423899Z ##[endgroup]
+2026-11-06T09:33:23.0425846Z ##[group]Operating System
+2026-11-06T09:33:23.0426508Z Ubuntu
+2026-11-06T09:33:23.0427017Z 24.04.5
+2026-11-06T09:33:23.0427634Z LTS
+2026-11-06T09:33:23.0428155Z ##[endgroup]
+2026-11-06T09:33:23.0428837Z ##[group]Runner Image
+2026-11-06T09:33:23.0429442Z Image: ubuntu-24.04
+2026-11-06T09:33:23.0429993Z Version: 20261101.360.1
+2026-11-06T09:33:23.0431341Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261101.360/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-06T09:33:23.0432996Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261101.360
+2026-11-06T09:33:23.0434023Z ##[endgroup]
+2026-11-06T09:33:23.0435321Z ##[group]GITHUB_TOKEN Permissions
+2026-11-06T09:33:23.0437491Z Contents: read
+2026-11-06T09:33:23.0438082Z Metadata: read
+2026-11-06T09:33:23.0438790Z ##[endgroup]
+2026-11-06T09:33:23.0440789Z Secret source: Actions
+2026-11-06T09:33:23.0441940Z Cache mode: write
+2026-11-06T09:33:23.0443499Z Prepare workflow directory
+2026-11-06T09:33:23.0794256Z Prepare all required actions
+2026-11-06T09:33:23.0866561Z Getting action download info
+2026-11-06T09:33:23.3788473Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-11-06T09:33:23.4729623Z Download action repository 'xu-cheng/latex-action@v3' (SHA:e2f99d4b3685b0da93f97e1b86ad8fab81105098)
+2026-11-06T09:33:23.7038325Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-11-06T09:33:23.9319525Z Complete job name: patterns-dual
+2026-11-06T09:33:24.0193180Z ##[group]Run actions/checkout@v4
+2026-11-06T09:33:24.0194059Z with:
+2026-11-06T09:33:24.0194726Z   persist-credentials: false
+2026-11-06T09:33:24.0195271Z   repository: UPerna/florilegium
+2026-11-06T09:33:24.0200626Z   token: ***
+2026-11-06T09:33:24.0201369Z   ssh-strict: true
+2026-11-06T09:33:24.0201879Z   ssh-user: git
+2026-11-06T09:33:24.0202295Z   clean: true
+2026-11-06T09:33:24.0202739Z   sparse-checkout-cone-mode: true
+2026-11-06T09:33:24.0203263Z   fetch-depth: 1
+2026-11-06T09:33:24.0203685Z   fetch-tags: false
+2026-11-06T09:33:24.0204125Z   show-progress: true
+2026-11-06T09:33:24.0204936Z   lfs: false
+2026-11-06T09:33:24.0205359Z   submodules: false
+2026-11-06T09:33:24.0205804Z   set-safe-directory: true
+2026-11-06T09:33:24.0206304Z   allow-unsafe-pr-checkout: false
+2026-11-06T09:33:24.0207214Z ##[endgroup]
+2026-11-06T09:33:24.3355209Z Syncing repository: UPerna/florilegium
+2026-11-06T09:33:24.3357059Z ##[group]Getting Git version info
+2026-11-06T09:33:24.3357862Z Working directory is '/home/runner/work/florilegium/florilegium'
+2026-11-06T09:33:24.3359047Z [command]/usr/bin/git version
+2026-11-06T09:33:24.3474574Z git version 2.56.0
+2026-11-06T09:33:24.3499584Z ##[endgroup]
+2026-11-06T09:33:24.3515911Z Temporarily overriding HOME='/home/runner/work/_temp/ce30fb7d-2e69-4a46-be94-9f38eae1b67f' before making global git config changes
+2026-11-06T09:33:24.3518458Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-06T09:33:24.3521680Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/florilegium/florilegium
+2026-11-06T09:33:24.3579367Z Deleting the contents of '/home/runner/work/florilegium/florilegium'
+2026-11-06T09:33:24.3589607Z ##[group]Initializing the repository
+2026-11-06T09:33:24.3593858Z [command]/usr/bin/git init /home/runner/work/florilegium/florilegium
+2026-11-06T09:33:24.3715992Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-06T09:33:24.3718139Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-06T09:33:24.3719704Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-06T09:33:24.3720847Z hint: call:
+2026-11-06T09:33:24.3721247Z hint:
+2026-11-06T09:33:24.3721776Z hint: 	git config --global init.defaultBranch <name>
+2026-11-06T09:33:24.3722401Z hint:
+2026-11-06T09:33:24.3722998Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-06T09:33:24.3723914Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-06T09:33:24.3725038Z hint:
+2026-11-06T09:33:24.3725468Z hint: 	git branch -m <name>
+2026-11-06T09:33:24.3725947Z hint:
+2026-11-06T09:33:24.3726569Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-06T09:33:24.3732344Z Initialized empty Git repository in /home/runner/work/florilegium/florilegium/.git/
+2026-11-06T09:33:24.3744335Z [command]/usr/bin/git remote add origin https://github.com/UPerna/florilegium
+2026-11-06T09:33:24.3796690Z ##[endgroup]
+2026-11-06T09:33:24.3798025Z ##[group]Disabling automatic garbage collection
+2026-11-06T09:33:24.3800371Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-06T09:33:24.3836491Z ##[endgroup]
+2026-11-06T09:33:24.3837832Z ##[group]Setting up auth
+2026-11-06T09:33:24.3845234Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-06T09:33:24.3890161Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-06T09:33:24.4377523Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-06T09:33:24.4420750Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-06T09:33:24.4665792Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-06T09:33:24.4709633Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-06T09:33:24.4949956Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-06T09:33:24.4997147Z ##[endgroup]
+2026-11-06T09:33:24.5010156Z ##[group]Fetching the repository
+2026-11-06T09:33:24.5011729Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b4f03e7aaab699025448ba7d4a2002c0cc028154:refs/remotes/pull/2/merge
+2026-11-06T09:33:25.2815904Z From https://github.com/UPerna/florilegium
+2026-11-06T09:33:25.2817842Z  * [new ref]         b4f03e7aaab699025448ba7d4a2002c0cc028154 -> pull/2/merge
+2026-11-06T09:33:25.2839969Z ##[endgroup]
+2026-11-06T09:33:25.2846587Z ##[group]Determining the checkout info
+2026-11-06T09:33:25.2848515Z ##[endgroup]
+2026-11-06T09:33:25.2849690Z [command]/usr/bin/git sparse-checkout disable
+2026-11-06T09:33:25.2906225Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-06T09:33:25.2947891Z ##[group]Checking out the ref
+2026-11-06T09:33:25.2950903Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/2/merge
+2026-11-06T09:33:25.4106152Z Note: switching to 'refs/remotes/pull/2/merge'.
+2026-11-06T09:33:25.4107152Z 
+2026-11-06T09:33:25.4107903Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-11-06T09:33:25.4109600Z changes and commit them, and you can discard any commits you make in this
+2026-11-06T09:33:25.4111272Z state without impacting any branches by switching back to a branch.
+2026-11-06T09:33:25.4112230Z 
+2026-11-06T09:33:25.4112787Z If you want to create a new branch to retain commits you create, you may
+2026-11-06T09:33:25.4114107Z do so (now or later) by using -c with the switch command. Example:
+2026-11-06T09:33:25.4115646Z 
+2026-11-06T09:33:25.4116022Z   git switch -c <new-branch-name>
+2026-11-06T09:33:25.4116574Z 
+2026-11-06T09:33:25.4116919Z Or undo this operation with:
+2026-11-06T09:33:25.4117429Z 
+2026-11-06T09:33:25.4117719Z   git switch -
+2026-11-06T09:33:25.4118134Z 
+2026-11-06T09:33:25.4118892Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-11-06T09:33:25.4120011Z 
+2026-11-06T09:33:25.4121160Z HEAD is now at b4f03e7 Merge 818c88890f4fb2c33deb308eeebfc949c6e14870 into 879610d82637229f0f4c06f828fe3a6d68d6faf6
+2026-11-06T09:33:25.4125838Z ##[endgroup]
+2026-11-06T09:33:25.4179406Z [command]/usr/bin/git log -1 --format=%H
+2026-11-06T09:33:25.4214891Z b4f03e7aaab699025448ba7d4a2002c0cc028154
+2026-11-06T09:33:25.4225107Z ##[group]Removing auth
+2026-11-06T09:33:25.4229054Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-06T09:33:25.4271363Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-06T09:33:25.4512219Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-06T09:33:25.4548188Z http.https://github.com/.extraheader
+2026-11-06T09:33:25.4557859Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-11-06T09:33:25.4695598Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-06T09:33:25.4851969Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-06T09:33:25.4895133Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-06T09:33:25.5129261Z ##[endgroup]
+2026-11-06T09:33:25.5593810Z ##[group]Run xu-cheng/latex-action@v3
+2026-11-06T09:33:25.5595283Z with:
+2026-11-06T09:33:25.5596099Z   root_file: folio-demo.tex
+2026-11-06T09:33:25.5597123Z   latexmk_use_lualatex: true
+2026-11-06T09:33:25.5598509Z   extra_system_packages: python3 py3-pillow py3-pypdf poppler-utils
+2026-11-06T09:33:25.5601343Z   post_compile: texlua tools/check-pattern-xetex.lua && python3 tools/build_statecheck.py && python3 tools/pattern_dual_tex_consumer.py
+2026-11-06T09:33:25.5603803Z   work_in_root_file_dir: false
+2026-11-06T09:33:25.5605092Z   continue_on_error: false
+2026-11-06T09:33:25.5606093Z   compiler: latexmk
+2026-11-06T09:33:25.5607394Z   args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+2026-11-06T09:33:25.5608946Z   latexmk_shell_escape: false
+2026-11-06T09:33:25.5610340Z   latexmk_use_xelatex: false
+2026-11-06T09:33:25.5611352Z ##[endgroup]
+2026-11-06T09:33:25.5685375Z ##[start-action display=Run "${GITHUB_ACTION_PATH}/action.sh";id=__xu-cheng_latex-action.__run]
+2026-11-06T09:33:25.5751772Z ##[group]Run "${GITHUB_ACTION_PATH}/action.sh"
+2026-11-06T09:33:25.5753183Z [36;1m"${GITHUB_ACTION_PATH}/action.sh"[0m
+2026-11-06T09:33:25.5779632Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-06T09:33:25.5781017Z env:
+2026-11-06T09:33:25.5781793Z   INPUT_TEXLIVE_VERSION: 
+2026-11-06T09:33:25.5782766Z   INPUT_DOCKER_IMAGE: 
+2026-11-06T09:33:25.5783715Z   INPUT_ROOT_FILE: folio-demo.tex
+2026-11-06T09:33:25.5785115Z   INPUT_WORKING_DIRECTORY: 
+2026-11-06T09:33:25.5786149Z   INPUT_WORK_IN_ROOT_FILE_DIR: false
+2026-11-06T09:33:25.5787269Z   INPUT_CONTINUE_ON_ERROR: false
+2026-11-06T09:33:25.5788313Z   INPUT_COMPILER: latexmk
+2026-11-06T09:33:25.5789730Z   INPUT_ARGS: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+2026-11-06T09:33:25.5791768Z   INPUT_EXTRA_SYSTEM_PACKAGES: python3 py3-pillow py3-pypdf poppler-utils
+2026-11-06T09:33:25.5793321Z   INPUT_EXTRA_FONTS: 
+2026-11-06T09:33:25.5794217Z   INPUT_PRE_COMPILE: 
+2026-11-06T09:33:25.5796648Z   INPUT_POST_COMPILE: texlua tools/check-pattern-xetex.lua && python3 tools/build_statecheck.py && python3 tools/pattern_dual_tex_consumer.py
+2026-11-06T09:33:25.5799409Z   INPUT_LATEXMK_SHELL_ESCAPE: false
+2026-11-06T09:33:25.5800515Z   INPUT_LATEXMK_USE_LUALATEX: true
+2026-11-06T09:33:25.5801600Z   INPUT_LATEXMK_USE_XELATEX: false
+2026-11-06T09:33:25.5802635Z ##[endgroup]
+2026-11-06T09:33:25.5931279Z ::stop-commands::***
+2026-11-06T09:33:25.5969846Z [1;34m'docker' 'run' '--rm' '-e' 'BIBINPUTS' '-e' 'BSTINPUTS' '-e' 'MFINPUTS' '-e' 'TEXINPUTS' '-e' 'TFMFONTS' '-e' 'HOME' '-e' 'INPUT_ROOT_FILE' '-e' 'INPUT_WORKING_DIRECTORY' '-e' 'INPUT_WORK_IN_ROOT_FILE_DIR' '-e' 'INPUT_CONTINUE_ON_ERROR' '-e' 'INPUT_COMPILER' '-e' 'INPUT_ARGS' '-e' 'INPUT_EXTRA_SYSTEM_PACKAGES' '-e' 'INPUT_EXTRA_FONTS' '-e' 'INPUT_PRE_COMPILE' '-e' 'INPUT_POST_COMPILE' '-e' 'INPUT_LATEXMK_SHELL_ESCAPE' '-e' 'INPUT_LATEXMK_USE_LUALATEX' '-e' 'INPUT_LATEXMK_USE_XELATEX' '-e' 'INPUT_TLMGR_REPO' '-e' 'GITHUB_JOB' '-e' 'GITHUB_REF' '-e' 'GITHUB_SHA' '-e' 'GITHUB_REPOSITORY' '-e' 'GITHUB_REPOSITORY_OWNER' '-e' 'GITHUB_REPOSITORY_OWNER_ID' '-e' 'GITHUB_RUN_ID' '-e' 'GITHUB_RUN_NUMBER' '-e' 'GITHUB_RETENTION_DAYS' '-e' 'GITHUB_RUN_ATTEMPT' '-e' 'GITHUB_REPOSITORY_ID' '-e' 'GITHUB_ACTOR_ID' '-e' 'GITHUB_ACTOR' '-e' 'GITHUB_TRIGGERING_ACTOR' '-e' 'GITHUB_WORKFLOW' '-e' 'GITHUB_HEAD_REF' '-e' 'GITHUB_BASE_REF' '-e' 'GITHUB_EVENT_NAME' '-e' 'GITHUB_SERVER_URL' '-e' 'GITHUB_API_URL' '-e' 'GITHUB_GRAPHQL_URL' '-e' 'GITHUB_REF_NAME' '-e' 'GITHUB_REF_PROTECTED' '-e' 'GITHUB_REF_TYPE' '-e' 'GITHUB_WORKFLOW_REF' '-e' 'GITHUB_WORKFLOW_SHA' '-e' 'GITHUB_WORKSPACE' '-e' 'GITHUB_ACTION' '-e' 'GITHUB_EVENT_PATH' '-e' 'GITHUB_ACTION_REPOSITORY' '-e' 'GITHUB_ACTION_REF' '-e' 'GITHUB_PATH' '-e' 'GITHUB_ENV' '-e' 'GITHUB_STEP_SUMMARY' '-e' 'GITHUB_STATE' '-e' 'GITHUB_OUTPUT' '-e' 'RUNNER_OS' '-e' 'RUNNER_ARCH' '-e' 'RUNNER_NAME' '-e' 'RUNNER_ENVIRONMENT' '-e' 'RUNNER_TOOL_CACHE' '-e' 'RUNNER_TEMP' '-e' 'RUNNER_WORKSPACE' '-e' 'ACTIONS_RUNTIME_URL' '-e' 'ACTIONS_RUNTIME_TOKEN' '-e' 'ACTIONS_CACHE_URL' '-e' 'GITHUB_ACTIONS=true' '-e' 'CI=true' '-v' '/var/run/docker.sock:/var/run/docker.sock' '-v' '/home/runner:/home/runner' '-v' '/home/runner/work/_temp/_runner_file_commands/set_env_7876fed1-2cf0-44a8-9c6d-f96501a7379a:/home/runner/work/_temp/_runner_file_commands/set_env_7876fed1-2cf0-44a8-9c6d-f96501a7379a' '-v' '/home/runner/work/_temp/_runner_file_commands/set_output_7876fed1-2cf0-44a8-9c6d-f96501a7379a:/home/runner/work/_temp/_runner_file_commands/set_output_7876fed1-2cf0-44a8-9c6d-f96501a7379a' '-v' '/home/runner/work/_temp/_runner_file_commands/step_summary_7876fed1-2cf0-44a8-9c6d-f96501a7379a:/home/runner/work/_temp/_runner_file_commands/step_summary_7876fed1-2cf0-44a8-9c6d-f96501a7379a' '-v' '/home/runner/work/_temp/_runner_file_commands/add_path_7876fed1-2cf0-44a8-9c6d-f96501a7379a:/home/runner/work/_temp/_runner_file_commands/add_path_7876fed1-2cf0-44a8-9c6d-f96501a7379a' '-v' '/home/runner/work/florilegium/florilegium:/home/runner/work/florilegium/florilegium' '-v' '/home/runner/work/_actions/xu-cheng/latex-action/v3/entrypoint.sh:/entrypoint.sh' '-w' '/home/runner/work/florilegium/florilegium' '--entrypoint' '/entrypoint.sh' 'ghcr.io/xu-cheng/texlive-full:latest'[0m
+2026-11-06T09:33:25.6007499Z ::***::
+2026-11-06T09:33:25.6984669Z Unable to find image 'ghcr.io/xu-cheng/texlive-full:latest' locally
+2026-11-06T09:33:26.2030360Z latest: Pulling from xu-cheng/texlive-full
+2026-11-06T09:33:26.3354507Z e2de96513ba9: Already exists
+2026-11-06T09:33:26.3386639Z 7e14dd475591: Pulling fs layer
+2026-11-06T09:33:26.3387364Z 3ce7d9dd60f0: Pulling fs layer
+2026-11-06T09:33:26.3387751Z a4d366ca9d39: Pulling fs layer
+2026-11-06T09:33:26.3388133Z 8c7bdee3f91f: Pulling fs layer
+2026-11-06T09:33:26.3388474Z 8c7bdee3f91f: Waiting
+2026-11-06T09:33:26.4946584Z 3ce7d9dd60f0: Verifying Checksum
+2026-11-06T09:33:26.4947323Z 3ce7d9dd60f0: Download complete
+2026-11-06T09:33:26.5249059Z 7e14dd475591: Verifying Checksum
+2026-11-06T09:33:26.5250098Z 7e14dd475591: Download complete
+2026-11-06T09:33:26.5627909Z a4d366ca9d39: Download complete
+2026-11-06T09:33:26.8724997Z 7e14dd475591: Pull complete
+2026-11-06T09:33:27.0265659Z 3ce7d9dd60f0: Pull complete
+2026-11-06T09:33:27.1189045Z a4d366ca9d39: Pull complete
+2026-11-06T09:33:33.4877387Z 8c7bdee3f91f: Verifying Checksum
+2026-11-06T09:33:33.4878011Z 8c7bdee3f91f: Download complete
+2026-11-06T09:34:43.2778240Z 8c7bdee3f91f: Pull complete
+2026-11-06T09:34:43.2814906Z Digest: sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7
+2026-11-06T09:34:43.2828384Z Status: Downloaded newer image for ghcr.io/xu-cheng/texlive-full:latest
+2026-11-06T09:34:43.5030648Z [1;34mInstall python3 by apk[0m
+2026-11-06T09:34:44.1960234Z OK: 462.0 MiB in 153 packages
+2026-11-06T09:34:44.2412160Z [1;34mInstall py3-pillow by apk[0m
+2026-11-06T09:34:44.6125108Z (1/4) Installing libimagequant (4.2.2-r0)
+2026-11-06T09:34:44.6309856Z (2/4) Installing libwebpdemux (1.6.0-r0)
+2026-11-06T09:34:44.6458039Z (3/4) Installing py3-pillow (12.2.0-r0)
+2026-11-06T09:34:44.6817037Z (4/4) Installing py3-pillow-pyc (12.2.0-r0)
+2026-11-06T09:34:44.7186450Z OK: 465.7 MiB in 157 packages
+2026-11-06T09:34:44.7422215Z [1;34mInstall py3-pypdf by apk[0m
+2026-11-06T09:34:45.1348897Z (1/2) Installing py3-pypdf (6.12.1-r0)
+2026-11-06T09:34:45.1625138Z (2/2) Installing py3-pypdf-pyc (6.12.1-r0)
+2026-11-06T09:34:45.1979575Z OK: 469.0 MiB in 159 packages
+2026-11-06T09:34:45.2188107Z [1;34mInstall poppler-utils by apk[0m
+2026-11-06T09:34:45.6124000Z (1/4) Installing nspr (4.38.2-r0)
+2026-11-06T09:34:45.6291670Z (2/4) Installing nss (3.124-r0)
+2026-11-06T09:34:45.6707329Z (3/4) Installing poppler (25.12.0-r1)
+2026-11-06T09:34:45.7037859Z (4/4) Installing poppler-utils (25.12.0-r1)
+2026-11-06T09:34:45.7247060Z Executing busybox-1.37.0-r31.trigger
+2026-11-06T09:34:45.7411479Z OK: 476.5 MiB in 163 packages
+2026-11-06T09:34:45.7713247Z [1;34mCompile folio-demo.tex[0m
+2026-11-06T09:34:45.8799293Z Rc files read (in order):
+2026-11-06T09:34:45.8799738Z   NONE
+2026-11-06T09:34:45.8800618Z Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+2026-11-06T09:34:45.8809307Z No existing .aux file, so I'll make a simple one, and require run of *latex.
+2026-11-06T09:34:45.8817274Z Latexmk: applying rule 'lualatex'...
+2026-11-06T09:34:45.8818062Z Rule 'lualatex':  Reasons for rerun
+2026-11-06T09:34:45.8818502Z Category 'other':
+2026-11-06T09:34:45.8818914Z   Rerun of 'lualatex' forced or previously required:
+2026-11-06T09:34:45.8819260Z     Reason or flag: 'Initial setup'
+2026-11-06T09:34:45.8819440Z 
+2026-11-06T09:34:45.8819528Z ------------
+2026-11-06T09:34:45.8819747Z Run number 1 of rule 'lualatex'
+2026-11-06T09:34:45.8819990Z ------------
+2026-11-06T09:34:45.8823362Z ------------
+2026-11-06T09:34:45.8824657Z Running 'lualatex  --file-line-error --halt-on-error --interaction=nonstopmode -recorder  "folio-demo.tex"'
+2026-11-06T09:34:45.8825396Z ------------
+2026-11-06T09:34:45.9612333Z This is LuaHBTeX, Version 1.24.0 (TeX Live 2026) 
+2026-11-06T09:34:46.1499029Z  restricted system commands enabled.
+2026-11-06T09:34:46.1817699Z (./folio-demo.tex
+2026-11-06T09:34:46.1818291Z LaTeX2e <2026-06-01>
+2026-11-06T09:34:46.1818866Z L3 programming layer <2026-09-09>
+2026-11-06T09:34:46.4519353Z  (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
+2026-11-06T09:34:46.4520144Z Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+2026-11-06T09:34:46.5620561Z (/opt/texlive/texdir/texmf-dist/tex/latex/base/size11.clo))
+2026-11-06T09:34:46.5633443Z (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
+2026-11-06T09:34:46.5680973Z (/opt/texlive/texdir/texmf-dist/tex/latex/lm/t1lmr.fd))
+2026-11-06T09:34:46.5697601Z (/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
+2026-11-06T09:34:46.5718762Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty)
+2026-11-06T09:34:46.5735053Z (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
+2026-11-06T09:34:46.5801257Z (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty)))
+2026-11-06T09:34:46.5818922Z (./florilegium.sty
+2026-11-06T09:34:46.5833932Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+2026-11-06T09:34:46.5849853Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+2026-11-06T09:34:46.5861268Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+2026-11-06T09:34:46.5881409Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+2026-11-06T09:34:46.5898117Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+2026-11-06T09:34:46.5909919Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+2026-11-06T09:34:46.5935877Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+2026-11-06T09:34:46.5952833Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+2026-11-06T09:34:46.5972877Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
+2026-11-06T09:34:46.5988376Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphics.sty
+2026-11-06T09:34:46.6009226Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/trig.sty)
+2026-11-06T09:34:46.6023385Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+2026-11-06T09:34:46.6069253Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/luatex.def)))
+2026-11-06T09:34:46.6083071Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+2026-11-06T09:34:46.6094118Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+2026-11-06T09:34:46.6132050Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+2026-11-06T09:34:46.6132714Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltere
+2026-11-06T09:34:46.6177479Z d.code.tex))
+2026-11-06T09:34:46.6190281Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+2026-11-06T09:34:46.6203167Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+2026-11-06T09:34:46.6205643Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.d
+2026-11-06T09:34:46.6227282Z ef)))
+2026-11-06T09:34:46.6228072Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
+2026-11-06T09:34:46.6246304Z .tex)
+2026-11-06T09:34:46.6247569Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
+2026-11-06T09:34:46.6382321Z .tex)) (/opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty
+2026-11-06T09:34:46.6415654Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+2026-11-06T09:34:46.6458471Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+2026-11-06T09:34:46.6470340Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+2026-11-06T09:34:46.6481359Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+2026-11-06T09:34:46.6498165Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+2026-11-06T09:34:46.6526154Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+2026-11-06T09:34:46.6533900Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+2026-11-06T09:34:46.6546535Z 
+2026-11-06T09:34:46.6547531Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.cod
+2026-11-06T09:34:46.6574210Z e.tex)
+2026-11-06T09:34:46.6575171Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonome
+2026-11-06T09:34:46.6645329Z tric.code.tex)
+2026-11-06T09:34:46.6646068Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.co
+2026-11-06T09:34:46.6661484Z de.tex)
+2026-11-06T09:34:46.6662029Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compariso
+2026-11-06T09:34:46.6682045Z n.code.tex)
+2026-11-06T09:34:46.6682767Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code
+2026-11-06T09:34:46.6700724Z .tex)
+2026-11-06T09:34:46.6701592Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.cod
+2026-11-06T09:34:46.6717575Z e.tex)
+2026-11-06T09:34:46.6718397Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code
+2026-11-06T09:34:46.6742083Z .tex)
+2026-11-06T09:34:46.6742470Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerar
+2026-11-06T09:34:46.6756728Z ithmetics.code.tex)
+2026-11-06T09:34:46.6772262Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+2026-11-06T09:34:46.6842102Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+2026-11-06T09:34:46.6855571Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+2026-11-06T09:34:46.6856512Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
+2026-11-06T09:34:46.6884079Z ex)
+2026-11-06T09:34:46.6885007Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
+2026-11-06T09:34:46.6908247Z .code.tex)
+2026-11-06T09:34:46.6909231Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.cod
+2026-11-06T09:34:46.6932860Z e.tex)
+2026-11-06T09:34:46.6933785Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.t
+2026-11-06T09:34:46.6958678Z ex)
+2026-11-06T09:34:46.6959804Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
+2026-11-06T09:34:46.6976427Z code.tex)
+2026-11-06T09:34:46.6977028Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformatio
+2026-11-06T09:34:46.6999347Z ns.code.tex)
+2026-11-06T09:34:46.6999778Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.te
+2026-11-06T09:34:46.7013851Z x)
+2026-11-06T09:34:46.7015620Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.
+2026-11-06T09:34:46.7028741Z tex)
+2026-11-06T09:34:46.7029657Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessin
+2026-11-06T09:34:46.7046178Z g.code.tex)
+2026-11-06T09:34:46.7046590Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.t
+2026-11-06T09:34:46.7110140Z ex)
+2026-11-06T09:34:46.7110979Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.te
+2026-11-06T09:34:46.7131286Z x)
+2026-11-06T09:34:46.7131886Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
+2026-11-06T09:34:46.7151136Z x)
+2026-11-06T09:34:46.7151747Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code
+2026-11-06T09:34:46.7176001Z .tex)
+2026-11-06T09:34:46.7176757Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.t
+2026-11-06T09:34:46.7190412Z ex)
+2026-11-06T09:34:46.7191142Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.
+2026-11-06T09:34:46.7209121Z code.tex)
+2026-11-06T09:34:46.7210021Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code
+2026-11-06T09:34:46.7224390Z .tex)
+2026-11-06T09:34:46.7227298Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex)
+2026-11-06T09:34:46.7245569Z ))
+2026-11-06T09:34:46.7246136Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+2026-11-06T09:34:46.7274791Z x)
+2026-11-06T09:34:46.7288891Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+2026-11-06T09:34:46.7311146Z 
+2026-11-06T09:34:46.7311769Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-6
+2026-11-06T09:34:46.7361489Z 5.sty)
+2026-11-06T09:34:46.7362109Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-1
+2026-11-06T09:34:46.7409862Z 8.sty)) (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+2026-11-06T09:34:46.7417683Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+2026-11-06T09:34:46.7438890Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+2026-11-06T09:34:46.7451076Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+2026-11-06T09:34:46.7467237Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+2026-11-06T09:34:46.7494731Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+2026-11-06T09:34:46.7496013Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.te
+2026-11-06T09:34:46.7507348Z x
+2026-11-06T09:34:46.7508049Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
+2026-11-06T09:34:46.7608586Z s.code.tex)
+2026-11-06T09:34:46.7609654Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.te
+2026-11-06T09:34:46.7701173Z x)
+2026-11-06T09:34:46.7701933Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
+2026-11-06T09:34:46.7734548Z kzlibrarytopaths.code.tex)))
+2026-11-06T09:34:46.7836751Z (/opt/texlive/texdir/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+2026-11-06T09:34:46.7901889Z (./florilegium-luatex.def) (./florilegium-patterns.def))
+2026-11-06T09:34:46.7902738Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
+2026-11-06T09:34:46.8021029Z kzlibrarycalc.code.tex)
+2026-11-06T09:34:46.8046852Z (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-luatex.def)
+2026-11-06T09:34:46.8051438Z (./folio-demo.aux)
+2026-11-06T09:34:46.8051985Z *geometry* driver: auto-detecting
+2026-11-06T09:34:46.8052346Z *geometry* detected driver: luatex
+2026-11-06T09:34:46.8077980Z (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+2026-11-06T09:34:46.8078690Z [Loading MPS to PDF converter (version 2006.09.02).]
+2026-11-06T09:34:46.8129114Z ) (/opt/texlive/texdir/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+2026-11-06T09:34:46.8149532Z (/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+2026-11-06T09:34:46.8174272Z (/opt/texlive/texdir/texmf-dist/tex/latex/grfext/grfext.sty
+2026-11-06T09:34:46.8199772Z (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+2026-11-06T09:34:46.8216592Z (/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+2026-11-06T09:34:46.8241799Z (/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+2026-11-06T09:34:46.8278835Z (/opt/texlive/texdir/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+2026-11-06T09:34:46.8328816Z (/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
+2026-11-06T09:34:47.3971784Z (/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+2026-11-06T09:34:47.3972696Z florilegium: grew 4086 cells, 12 motifs, 1457 stem points, 750 KB; visitors: 1 
+2026-11-06T09:34:47.9027185Z snail [14{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+2026-11-06T09:34:47.9028219Z florilegium: grew 4464 cells, 12 motifs, 292 stem points, 701 KB; visitors: 1 s
+2026-11-06T09:34:48.5085959Z nail [15] (/opt/texlive/texdir/texmf-dist/tex/latex/lm/t1lmtt.fd)
+2026-11-06T09:34:48.5086820Z florilegium: grew 4528 cells, 23 motifs, 413 stem points, 1551 KB; visitors: no
+2026-11-06T09:34:49.2973298Z ne [38]
+2026-11-06T09:34:49.2974081Z florilegium: grew 4528 cells, 23 motifs, 412 stem points, 1549 KB; visitors: no
+2026-11-06T09:34:49.5603577Z ne [39] (./folio-demo.aux)
+2026-11-06T09:34:49.5604047Z 
+2026-11-06T09:34:49.5604951Z LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+2026-11-06T09:34:49.5605539Z 
+2026-11-06T09:34:49.5606013Z )
+2026-11-06T09:34:49.5606410Z  418 words of node memory still in use:
+2026-11-06T09:34:49.5607434Z    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 49 glue_spec
+2026-11-06T09:34:49.5608459Z , 5 attribute_list, 2 write nodes
+2026-11-06T09:34:49.5609833Z    avail lists: 2:252,3:151,4:14,5:180,6:24,7:2782,9:152,10:6,11:186
+2026-11-06T09:34:49.5620494Z {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</opt/texlive/texd
+2026-11-06T09:34:49.5652006Z ir/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></opt/texlive/texdir/texmf-dist/
+2026-11-06T09:34:49.5685430Z fonts/type1/public/lm/lmr10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/pub
+2026-11-06T09:34:49.5714750Z lic/lm/lmr9.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/lm/lmri10.pf
+2026-11-06T09:34:49.5785706Z b></opt/texlive/texdir/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+2026-11-06T09:34:49.5786907Z Output written on folio-demo.pdf (4 pages, 1100808 bytes).
+2026-11-06T09:34:49.5860495Z Transcript written on folio-demo.log.
+2026-11-06T09:34:49.6422927Z Latexmk: Getting log file 'folio-demo.log'
+2026-11-06T09:34:49.6439678Z Latexmk: Examining 'folio-demo.fls'
+2026-11-06T09:34:49.6490233Z Latexmk: Examining 'folio-demo.log'
+2026-11-06T09:34:49.6982568Z Latexmk: References changed.
+2026-11-06T09:34:49.6983993Z Latexmk: References changed.
+2026-11-06T09:34:49.7017515Z Latexmk: Log file says output to 'folio-demo.pdf'
+2026-11-06T09:34:49.7561689Z Latexmk: applying rule 'lualatex'...
+2026-11-06T09:34:49.7562332Z Rule 'lualatex':  Reasons for rerun
+2026-11-06T09:34:49.7562914Z Changed files or newly in use/created:
+2026-11-06T09:34:49.7563466Z   folio-demo.aux
+2026-11-06T09:34:49.7563728Z 
+2026-11-06T09:34:49.7563883Z ------------
+2026-11-06T09:34:49.7564328Z Run number 2 of rule 'lualatex'
+2026-11-06T09:34:49.7565084Z ------------
+2026-11-06T09:34:49.7579810Z ------------
+2026-11-06T09:34:49.7580402Z Running 'lualatex  --file-line-error --halt-on-error --interaction=nonstopmode -recorder  "folio-demo.tex"'
+2026-11-06T09:34:49.7581073Z ------------
+2026-11-06T09:34:49.8415716Z This is LuaHBTeX, Version 1.24.0 (TeX Live 2026) 
+2026-11-06T09:34:50.0322690Z  restricted system commands enabled.
+2026-11-06T09:34:50.0638422Z (./folio-demo.tex
+2026-11-06T09:34:50.0638892Z LaTeX2e <2026-06-01>
+2026-11-06T09:34:50.0639377Z L3 programming layer <2026-09-09>
+2026-11-06T09:34:50.3351467Z  (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
+2026-11-06T09:34:50.3352328Z Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+2026-11-06T09:34:50.3649234Z (/opt/texlive/texdir/texmf-dist/tex/latex/base/size11.clo))
+2026-11-06T09:34:50.3661941Z (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
+2026-11-06T09:34:50.3707985Z (/opt/texlive/texdir/texmf-dist/tex/latex/lm/t1lmr.fd))
+2026-11-06T09:34:50.3726827Z (/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
+2026-11-06T09:34:50.3748228Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty)
+2026-11-06T09:34:50.3764100Z (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
+2026-11-06T09:34:50.3829629Z (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty)))
+2026-11-06T09:34:50.3848663Z (./florilegium.sty
+2026-11-06T09:34:50.3863180Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+2026-11-06T09:34:50.3878548Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+2026-11-06T09:34:50.3892345Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+2026-11-06T09:34:50.3912430Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+2026-11-06T09:34:50.3929335Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+2026-11-06T09:34:50.3941758Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+2026-11-06T09:34:50.3966741Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+2026-11-06T09:34:50.3983584Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+2026-11-06T09:34:50.4003460Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
+2026-11-06T09:34:50.4019430Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphics.sty
+2026-11-06T09:34:50.4040156Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/trig.sty)
+2026-11-06T09:34:50.4054665Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+2026-11-06T09:34:50.4100252Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/luatex.def)))
+2026-11-06T09:34:50.4114169Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+2026-11-06T09:34:50.4125633Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+2026-11-06T09:34:50.4163392Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+2026-11-06T09:34:50.4164595Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltere
+2026-11-06T09:34:50.4208520Z d.code.tex))
+2026-11-06T09:34:50.4219578Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+2026-11-06T09:34:50.4231136Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+2026-11-06T09:34:50.4231723Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.d
+2026-11-06T09:34:50.4252963Z ef)))
+2026-11-06T09:34:50.4253757Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
+2026-11-06T09:34:50.4268622Z .tex)
+2026-11-06T09:34:50.4269369Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
+2026-11-06T09:34:50.4402208Z .tex)) (/opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty
+2026-11-06T09:34:50.4435244Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+2026-11-06T09:34:50.4477350Z (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+2026-11-06T09:34:50.4489584Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+2026-11-06T09:34:50.4500768Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+2026-11-06T09:34:50.4517758Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+2026-11-06T09:34:50.4546169Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+2026-11-06T09:34:50.4553785Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+2026-11-06T09:34:50.4566194Z 
+2026-11-06T09:34:50.4566801Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.cod
+2026-11-06T09:34:50.4593412Z e.tex)
+2026-11-06T09:34:50.4594046Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonome
+2026-11-06T09:34:50.4663912Z tric.code.tex)
+2026-11-06T09:34:50.4664649Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.co
+2026-11-06T09:34:50.4680692Z de.tex)
+2026-11-06T09:34:50.4681549Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compariso
+2026-11-06T09:34:50.4700739Z n.code.tex)
+2026-11-06T09:34:50.4701474Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code
+2026-11-06T09:34:50.4720930Z .tex)
+2026-11-06T09:34:50.4721535Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.cod
+2026-11-06T09:34:50.4736972Z e.tex)
+2026-11-06T09:34:50.4737572Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code
+2026-11-06T09:34:50.4759047Z .tex)
+2026-11-06T09:34:50.4759418Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerar
+2026-11-06T09:34:50.4773948Z ithmetics.code.tex)
+2026-11-06T09:34:50.4789401Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+2026-11-06T09:34:50.4858068Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+2026-11-06T09:34:50.4871134Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+2026-11-06T09:34:50.4872334Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
+2026-11-06T09:34:50.4899681Z ex)
+2026-11-06T09:34:50.4900436Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
+2026-11-06T09:34:50.4923266Z .code.tex)
+2026-11-06T09:34:50.4923847Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.cod
+2026-11-06T09:34:50.4946510Z e.tex)
+2026-11-06T09:34:50.4947125Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.t
+2026-11-06T09:34:50.4969897Z ex)
+2026-11-06T09:34:50.4970464Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
+2026-11-06T09:34:50.4985469Z code.tex)
+2026-11-06T09:34:50.4986230Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformatio
+2026-11-06T09:34:50.5008689Z ns.code.tex)
+2026-11-06T09:34:50.5009329Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.te
+2026-11-06T09:34:50.5022224Z x)
+2026-11-06T09:34:50.5022853Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.
+2026-11-06T09:34:50.5035866Z tex)
+2026-11-06T09:34:50.5036970Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessin
+2026-11-06T09:34:50.5052858Z g.code.tex)
+2026-11-06T09:34:50.5053471Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.t
+2026-11-06T09:34:50.5117337Z ex)
+2026-11-06T09:34:50.5117935Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.te
+2026-11-06T09:34:50.5138200Z x)
+2026-11-06T09:34:50.5138782Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
+2026-11-06T09:34:50.5157445Z x)
+2026-11-06T09:34:50.5158297Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code
+2026-11-06T09:34:50.5182681Z .tex)
+2026-11-06T09:34:50.5183289Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.t
+2026-11-06T09:34:50.5197289Z ex)
+2026-11-06T09:34:50.5197890Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.
+2026-11-06T09:34:50.5215610Z code.tex)
+2026-11-06T09:34:50.5216227Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code
+2026-11-06T09:34:50.5230101Z .tex)
+2026-11-06T09:34:50.5233361Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex)
+2026-11-06T09:34:50.5251701Z ))
+2026-11-06T09:34:50.5252175Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+2026-11-06T09:34:50.5280491Z x)
+2026-11-06T09:34:50.5294873Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+2026-11-06T09:34:50.5315925Z 
+2026-11-06T09:34:50.5316562Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-6
+2026-11-06T09:34:50.5365686Z 5.sty)
+2026-11-06T09:34:50.5366467Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-1
+2026-11-06T09:34:50.5413084Z 8.sty)) (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+2026-11-06T09:34:50.5420624Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+2026-11-06T09:34:50.5442078Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+2026-11-06T09:34:50.5453497Z (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+2026-11-06T09:34:50.5468596Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+2026-11-06T09:34:50.5495657Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+2026-11-06T09:34:50.5496584Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.te
+2026-11-06T09:34:50.5507785Z x
+2026-11-06T09:34:50.5508829Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
+2026-11-06T09:34:50.5609079Z s.code.tex)
+2026-11-06T09:34:50.5609776Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.te
+2026-11-06T09:34:50.5701800Z x)
+2026-11-06T09:34:50.5702724Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
+2026-11-06T09:34:50.5735822Z kzlibrarytopaths.code.tex)))
+2026-11-06T09:34:50.5846521Z (/opt/texlive/texdir/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+2026-11-06T09:34:50.5911647Z (./florilegium-luatex.def) (./florilegium-patterns.def))
+2026-11-06T09:34:50.5912565Z (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
+2026-11-06T09:34:50.6028172Z kzlibrarycalc.code.tex)
+2026-11-06T09:34:50.6052648Z (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-luatex.def)
+2026-11-06T09:34:50.6058277Z (./folio-demo.aux)
+2026-11-06T09:34:50.6058913Z *geometry* driver: auto-detecting
+2026-11-06T09:34:50.6059390Z *geometry* detected driver: luatex
+2026-11-06T09:34:50.6085390Z (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+2026-11-06T09:34:50.6085929Z [Loading MPS to PDF converter (version 2006.09.02).]
+2026-11-06T09:34:50.6136399Z ) (/opt/texlive/texdir/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+2026-11-06T09:34:50.6158119Z (/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+2026-11-06T09:34:50.6180769Z (/opt/texlive/texdir/texmf-dist/tex/latex/grfext/grfext.sty
+2026-11-06T09:34:50.6218152Z (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
+2026-11-06T09:34:50.6227094Z (/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+2026-11-06T09:34:50.6252402Z (/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+2026-11-06T09:34:50.6291152Z (/opt/texlive/texdir/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+2026-11-06T09:34:50.6340321Z (/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
+2026-11-06T09:34:51.1907270Z (/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+2026-11-06T09:34:51.1907932Z florilegium: grew 4086 cells, 12 motifs, 1457 stem points, 750 KB; visitors: 1 
+2026-11-06T09:34:51.6928913Z snail [14{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+2026-11-06T09:34:51.6929481Z florilegium: grew 4464 cells, 12 motifs, 292 stem points, 701 KB; visitors: 1 s
+2026-11-06T09:34:52.2970082Z nail [15] (/opt/texlive/texdir/texmf-dist/tex/latex/lm/t1lmtt.fd)
+2026-11-06T09:34:52.2970631Z florilegium: grew 4528 cells, 23 motifs, 413 stem points, 1551 KB; visitors: no
+2026-11-06T09:34:53.0209726Z ne [38]
+2026-11-06T09:34:53.0210196Z florilegium: grew 4528 cells, 23 motifs, 412 stem points, 1549 KB; visitors: no
+2026-11-06T09:34:53.2838633Z ne [39] (./folio-demo.aux))
+2026-11-06T09:34:53.2839119Z  418 words of node memory still in use:
+2026-11-06T09:34:53.2839747Z    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 49 glue_spec
+2026-11-06T09:34:53.2840382Z , 5 attribute_list, 2 write nodes
+2026-11-06T09:34:53.2840938Z    avail lists: 2:250,3:151,4:14,5:180,6:24,7:2782,9:152,10:6,11:186
+2026-11-06T09:34:53.2848187Z {/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</opt/texlive/texd
+2026-11-06T09:34:53.2878694Z ir/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></opt/texlive/texdir/texmf-dist/
+2026-11-06T09:34:53.2912247Z fonts/type1/public/lm/lmr10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/pub
+2026-11-06T09:34:53.2942919Z lic/lm/lmr9.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/lm/lmri10.pf
+2026-11-06T09:34:53.3013929Z b></opt/texlive/texdir/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+2026-11-06T09:34:53.3014981Z Output written on folio-demo.pdf (4 pages, 1100808 bytes).
+2026-11-06T09:34:53.3091923Z Transcript written on folio-demo.log.
+2026-11-06T09:34:53.3721732Z Latexmk: Getting log file 'folio-demo.log'
+2026-11-06T09:34:53.3736719Z Latexmk: Examining 'folio-demo.fls'
+2026-11-06T09:34:53.3786137Z Latexmk: Examining 'folio-demo.log'
+2026-11-06T09:34:53.4311370Z Latexmk: Log file says output to 'folio-demo.pdf'
+2026-11-06T09:34:53.4431039Z Latexmk: All targets (folio-demo.pdf) are up-to-date
+2026-11-06T09:34:53.4432994Z 
+2026-11-06T09:34:53.4464203Z [1;34mRun post compile commands[0m
+2026-11-06T09:35:16.3647118Z External record adapter checks	119	0766dac497fde8d2afd249453ad483267e8714190045c56243e8242e28b530ac
+2026-11-06T09:35:16.5536787Z Build control checks passed: fresh complete output, one-pass rejection, chapter/TOC/LOF/LOT churn and eight stale-input/output mutations 7731d00bee74fc4be073c157bb4ebd69dc325493b708daca075fec6009299dad
+2026-11-06T09:44:54.2024505Z Native common-pattern TeX consumer passed lua 4 pages, 9 physical placements, 4 load orders and 10 failure cases
+2026-11-06T09:44:54.2026064Z Native common-pattern TeX consumer passed xe 4 pages, 9 physical placements, 4 load orders and 10 failure cases
+2026-11-06T09:44:54.2033518Z Traceback (most recent call last):
+2026-11-06T09:44:54.2040061Z   File "/home/runner/work/florilegium/florilegium/tools/pattern_dual_tex_consumer.py", line 218, in <module>
+2026-11-06T09:44:54.2040753Z     main()
+2026-11-06T09:44:54.2040943Z     ~~~~^^
+2026-11-06T09:44:54.2041376Z   File "/home/runner/work/florilegium/florilegium/tools/pattern_dual_tex_consumer.py", line 202, in main
+2026-11-06T09:44:54.2041920Z     failures = build_cases(folder / 'build-faults')
+2026-11-06T09:44:54.2042465Z   File "/home/runner/work/florilegium/florilegium/tools/tex_build_consumer.py", line 246, in build_cases
+2026-11-06T09:44:54.2043450Z     result['font-fallback-' + engine] = {'receipt': receipt, 'visible_enlarged_initial': painted_large_a(pdf),
+2026-11-06T09:44:54.2044020Z                                                                                          ~~~~~~~~~~~~~~~^^^^^
+2026-11-06T09:44:54.2045031Z   File "/home/runner/work/florilegium/florilegium/tools/tex_build_consumer.py", line 102, in painted_large_a
+2026-11-06T09:44:54.2045699Z     assert painted, 'Fallback has a searchable label but no visible enlarged initial'
+2026-11-06T09:44:54.2046108Z            ^^^^^^^
+2026-11-06T09:44:54.2046459Z AssertionError: Fallback has a searchable label but no visible enlarged initial
+2026-11-06T09:44:54.4168473Z ##[error]Process completed with exit code 1.
+2026-11-06T09:44:54.4183041Z ##[end-action id=__xu-cheng_latex-action.__run;outcome=failure;conclusion=failure;duration_ms=688849]
+2026-11-06T09:44:54.4249158Z ##[group]Run for folder in build/pattern-xetex build/pattern-luatex build/pattern-dual build/build-control; do
+2026-11-06T09:44:54.4249985Z [36;1mfor folder in build/pattern-xetex build/pattern-luatex build/pattern-dual build/build-control; do[0m
+2026-11-06T09:44:54.4250563Z [36;1m  if [ -d "$folder" ]; then sudo chmod -R a+rX "$folder"; fi[0m
+2026-11-06T09:44:54.4250894Z [36;1mdone[0m
+2026-11-06T09:44:54.4271750Z shell: /usr/bin/bash -e {0}
+2026-11-06T09:44:54.4272008Z ##[endgroup]
+2026-11-06T09:44:54.4745564Z ##[group]Run actions/upload-artifact@v4
+2026-11-06T09:44:54.4745872Z with:
+2026-11-06T09:44:54.4746127Z   name: florilegium-common-dual
+2026-11-06T09:44:54.4746563Z   path: build/pattern-xetex/
+build/pattern-luatex/
+build/pattern-dual/
+build/build-control/
+
+2026-11-06T09:44:54.4747030Z   if-no-files-found: warn
+2026-11-06T09:44:54.4747270Z   compression-level: 6
+2026-11-06T09:44:54.4747490Z   overwrite: false
+2026-11-06T09:44:54.4747711Z   include-hidden-files: false
+2026-11-06T09:44:54.4747948Z ##[endgroup]
+2026-11-06T09:44:54.6459810Z (node:3144) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-06T09:44:54.6461464Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-06T09:44:54.8520716Z Multiple search paths detected. Calculating the least common ancestor of all paths
+2026-11-06T09:44:54.8523776Z The least common ancestor is /home/runner/work/florilegium/florilegium/build. This will be the root directory of the artifact
+2026-11-06T09:44:54.8524818Z With the provided path, there will be 911 files uploaded
+2026-11-06T09:44:54.8532278Z Artifact name is valid!
+2026-11-06T09:44:54.8533146Z Root directory input is valid!
+2026-11-06T09:44:55.1332367Z Beginning upload of artifact content to blob storage
+2026-11-06T09:44:56.1659310Z (node:3144) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-11-06T09:44:56.7115130Z Uploaded bytes 6943858
+2026-11-06T09:44:56.7528470Z Finished uploading artifact content to blob storage!
+2026-11-06T09:44:56.7529401Z SHA256 digest of uploaded artifact zip is efa2e914866566421ada4843df3cdf155bdebe1a3ea59f13039df351360d2ac1
+2026-11-06T09:44:56.7530668Z Finalizing artifact upload
+2026-11-06T09:44:57.2472702Z Artifact florilegium-common-dual.zip successfully finalized. Artifact ID 13493265060
+2026-11-06T09:44:57.2474603Z Artifact florilegium-common-dual has been successfully uploaded! Final size is 6943858 bytes. Artifact ID is 13493265060
+2026-11-06T09:44:57.2480882Z Artifact download URL: https://github.com/UPerna/florilegium/actions/runs/42195933816/artifacts/13493265060
+2026-11-06T09:44:57.2787111Z Post job cleanup.
+2026-11-06T09:44:57.3644924Z [command]/usr/bin/git version
+2026-11-06T09:44:57.3723029Z git version 2.56.0
+2026-11-06T09:44:57.3763502Z Temporarily overriding HOME='/home/runner/work/_temp/9a275f9b-d1c9-4d39-baf4-aac53191c097' before making global git config changes
+2026-11-06T09:44:57.3765279Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-06T09:44:57.3769325Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/florilegium/florilegium
+2026-11-06T09:44:57.3811940Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-06T09:44:57.3851805Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-06T09:44:57.4140434Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-06T09:44:57.4189977Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-06T09:44:57.4473592Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-06T09:44:57.4521049Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-06T09:44:57.4988732Z Cleaning up orphan processes
+2026-11-06T09:44:57.5387793Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

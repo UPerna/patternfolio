@@ -1,0 +1,107 @@
+{
+  "edited_samples": 1,
+  "fixed_stamp_paths": 21,
+  "fixtures": {
+    "branched": {
+      "area": 0.610865706163107,
+      "coherent_corrections": 643,
+      "cut_energies": [
+        {
+          "energy": 613,
+          "flow": 613,
+          "straight_energy": 755
+        },
+        {
+          "energy": 572,
+          "flow": 572,
+          "straight_energy": 841
+        }
+      ],
+      "endpoint_ink_count": 0,
+      "fixed_middle_stamp_endpoint_ink_count": 2,
+      "holes": 0,
+      "outer_boundaries": 1,
+      "piece_roles": [
+        "start",
+        "middle",
+        "finish"
+      ]
+    },
+    "branched-edit": {
+      "area": 0.6093635778695096,
+      "coherent_corrections": 643,
+      "cut_energies": [
+        {
+          "energy": 613,
+          "flow": 613,
+          "straight_energy": 755
+        },
+        {
+          "energy": 572,
+          "flow": 572,
+          "straight_energy": 841
+        }
+      ],
+      "endpoint_ink_count": 0,
+      "fixed_middle_stamp_endpoint_ink_count": 2,
+      "holes": 0,
+      "outer_boundaries": 1,
+      "piece_roles": [
+        "start",
+        "middle",
+        "finish"
+      ]
+    },
+    "floral": {
+      "area": 0.6353156605282334,
+      "coherent_corrections": 651,
+      "cut_energies": [
+        {
+          "energy": 577,
+          "flow": 577,
+          "straight_energy": 577
+        },
+        {
+          "energy": 572,
+          "flow": 572,
+          "straight_energy": 767
+        }
+      ],
+      "endpoint_ink_count": 0,
+      "fixed_middle_stamp_endpoint_ink_count": 2,
+      "holes": 1,
+      "outer_boundaries": 1,
+      "piece_roles": [
+        "start",
+        "middle",
+        "finish"
+      ]
+    },
+    "geometric": {
+      "area": 0.6312926915477217,
+      "coherent_corrections": 637,
+      "cut_energies": [
+        {
+          "energy": 577,
+          "flow": 577,
+          "straight_energy": 577
+        },
+        {
+          "energy": 572,
+          "flow": 572,
+          "straight_energy": 577
+        }
+      ],
+      "endpoint_ink_count": 0,
+      "fixed_middle_stamp_endpoint_ink_count": 2,
+      "holes": 1,
+      "outer_boundaries": 1,
+      "piece_roles": [
+        "start",
+        "middle",
+        "finish"
+      ]
+    }
+  },
+  "source_digest": "4c7ef6dae1b91465d49f3bd67470d49111f35cb0e3dcdc37495efc0dc1099410"
+}

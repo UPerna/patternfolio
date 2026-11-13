@@ -1,0 +1,178 @@
+{
+  "stage": "24",
+  "source_digest": "db86975e19bf0ee07f497ff26ab212bfd5e4b7372da041ab87b43309970b07a5",
+  "native_checks": 19,
+  "native_output_hashes": 13,
+  "native_local_differences": [
+    "combining.instance",
+    "combining.pdf",
+    "combining.svg",
+    "failures.json",
+    "greek.instance",
+    "greek.pdf",
+    "greek.svg",
+    "latin.instance",
+    "latin.pdf",
+    "latin.svg"
+  ],
+  "kit_hashes": 431,
+  "oracle": {
+    "latin": {
+      "boundary_labels": 455,
+      "examined": 4096,
+      "energy": -12.853498535795229,
+      "all_aligned_energy": 0,
+      "minimum_representation_x": 0.9931446444280377,
+      "field_residual": 9.951950374897933e-11,
+      "triangles": 288,
+      "runs": 7,
+      "graphemes": 432,
+      "glyphs": 428,
+      "visible_glyphs": 345,
+      "minimum_line_gap_cm": 0.5348911966743227,
+      "maximum_curvature_per_cm": 3.6528318072709996e-05,
+      "maximum_glyph_rotation_rad": 0.05836583589221231,
+      "pdf_words": 84,
+      "pdf_extractor": "Poppler pdftotext -raw",
+      "svg_runs": 7,
+      "vector_glyph_paths": 345,
+      "mean_backend_error": 0.005730864060367736,
+      "ink_pixels": [
+        14848,
+        14471
+      ]
+    },
+    "combining": {
+      "boundary_labels": 455,
+      "examined": 1024,
+      "energy": -14.589642969980808,
+      "all_aligned_energy": 0,
+      "minimum_representation_x": 0.9547315190872958,
+      "field_residual": 9.915376852909219e-11,
+      "triangles": 288,
+      "runs": 6,
+      "graphemes": 350,
+      "glyphs": 345,
+      "visible_glyphs": 280,
+      "minimum_line_gap_cm": 0.4691076421023499,
+      "maximum_curvature_per_cm": 0.007356369208747283,
+      "maximum_glyph_rotation_rad": 0.09265573154032092,
+      "pdf_words": 66,
+      "pdf_extractor": "Poppler pdftotext -raw",
+      "svg_runs": 6,
+      "vector_glyph_paths": 280,
+      "mean_backend_error": 0.004469858356002657,
+      "ink_pixels": [
+        12591,
+        12352
+      ]
+    },
+    "greek": {
+      "boundary_labels": 455,
+      "examined": 4096,
+      "energy": -16.155715784310352,
+      "all_aligned_energy": 0,
+      "minimum_representation_x": 0.9931446444280377,
+      "field_residual": 9.951950374897933e-11,
+      "triangles": 288,
+      "runs": 6,
+      "graphemes": 213,
+      "glyphs": 213,
+      "visible_glyphs": 170,
+      "minimum_line_gap_cm": 0.5407039549675681,
+      "maximum_curvature_per_cm": 0.00018240659714333638,
+      "maximum_glyph_rotation_rad": 0.05844420494890016,
+      "pdf_words": 44,
+      "pdf_extractor": "Poppler pdftotext -raw",
+      "svg_runs": 6,
+      "vector_glyph_paths": 170,
+      "mean_backend_error": 0.003194586127720319,
+      "ink_pixels": [
+        15229,
+        14637
+      ]
+    }
+  },
+  "visual_review": "Accepted all three native PDF/SVG pairs and the separate Latin, combining-accent and Greek text extraction checks.",
+  "difference_analysis": {
+    "analysis": "Categorical JSON, graph, path command and SVG attributes agree. Checked all differing numeric values with physical bounds. Failure text differs only by Windows/Linux path separators.",
+    "exact_controls_and_categorical_structure": true,
+    "files": {
+      "combining.instance": {
+        "numeric_entries": 324,
+        "maximum_absolute_delta": 6.800116025829084e-15
+      },
+      "combining.pdf": {
+        "numeric_entries": 169,
+        "maximum_absolute_delta": 4.440892098500626e-16
+      },
+      "combining.svg": {
+        "numeric_entries": 209,
+        "maximum_absolute_delta": 4.440892098500626e-16
+      },
+      "failures.json": {
+        "numeric_entries": 0,
+        "maximum_absolute_delta": 0.0
+      },
+      "greek.instance": {
+        "numeric_entries": 99,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "greek.pdf": {
+        "numeric_entries": 62,
+        "maximum_absolute_delta": 3.3881317890172014e-21
+      },
+      "greek.svg": {
+        "numeric_entries": 62,
+        "maximum_absolute_delta": 3.3881317890172014e-21
+      },
+      "latin.instance": {
+        "numeric_entries": 163,
+        "maximum_absolute_delta": 2.135039717178662e-16
+      },
+      "latin.pdf": {
+        "numeric_entries": 142,
+        "maximum_absolute_delta": 3.3881317890172014e-21
+      },
+      "latin.svg": {
+        "numeric_entries": 142,
+        "maximum_absolute_delta": 3.3881317890172014e-21
+      }
+    },
+    "pdf_raster_cross_host": {
+      "combining-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "greek-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "latin-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      }
+    }
+  },
+  "revision": "27eef521f814e71a49ce38a5b333c29e2bb9e3be",
+  "tree": "546d3bcf350a0bf46251fc510c78842ab6a4776b",
+  "run": 41908776000,
+  "jobs": {
+    "pdfs": {
+      "id": 126850441576,
+      "conclusion": "success"
+    },
+    "portable": {
+      "id": 126850441883,
+      "conclusion": "success"
+    },
+    "gallery": {
+      "id": 126850444274,
+      "conclusion": "skipped"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "e45a6cb6ecd729b26489a833227a6ed893ce187a9fdcbc763861156afd110c43",
+    "portable": "54e8d2a95e16c9a4c4e0ba4a61fb1778dbb3d7e5cc864a8e1cd2eb5cf10d76b4"
+  }
+}

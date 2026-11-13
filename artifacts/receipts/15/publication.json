@@ -1,0 +1,104 @@
+{
+  "stage": "15",
+  "revision": "34dc7614459c2694910d24710835006cdc73eb43",
+  "parent": "580053a163b33ab2bf7dd4284fcb66f13021fcbb",
+  "tree": "e89f192af8140a47f9ad73a0bfaea02575e05db0",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "88745aa891fb12b52bad5ef935a5c478c9acf35d84ede909dc9693710a15de80",
+      "bytes": 5143
+    },
+    {
+      "path": "Makefile",
+      "sha256": "274f12833a735ebffef947bde2b3c0f03ded72f1234a2dbb5e0534adf016cd41",
+      "bytes": 6175
+    },
+    {
+      "path": "artifacts/receipts/14/ci-final.json",
+      "sha256": "59771a3a94c613ce97fe65e9ded07d20cf6008e08aec82af0f3c56225f420fb4",
+      "bytes": 5986
+    },
+    {
+      "path": "artifacts/receipts/14/publication.json",
+      "sha256": "850795d5f16529dfed50521b19f03a4922657ef69ab3a1b6c0ac1fe1bea19ff4",
+      "bytes": 3468
+    },
+    {
+      "path": "artifacts/receipts/15/oracle.json",
+      "sha256": "8f09edcfabcdb18f147f0fd9706c421ca39bf9f08b3f370e1ed33b34a16e8092",
+      "bytes": 5366
+    },
+    {
+      "path": "artifacts/receipts/15/receipt-Lua-5.3.json",
+      "sha256": "5d9245a69433a1c543867297c88d61742168c68c551ad9430161dff4ab1334b7",
+      "bytes": 17941
+    },
+    {
+      "path": "artifacts/receipts/15/receipt-Lua-5.4.json",
+      "sha256": "2e7667fcf49ea50f245d395bf8e1c69380a9b2319cdc23257eb7ecbc2c625866",
+      "bytes": 17941
+    },
+    {
+      "path": "artifacts/receipts/15/source-reference.json",
+      "sha256": "a36416babac3851f0de986406c0a500b4ad63e1c958d5302911ae37aebd1fcb7",
+      "bytes": 857
+    },
+    {
+      "path": "docs/architecture/SPECTRE.md",
+      "sha256": "028529e773ad2631a5ad4d800a0d20f8318f98a72eb51c0f240cbf984b4ba561",
+      "bytes": 3253
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "5b239f45bf0b95c974de735c1c5bcc5e96eec3cfc5867c42f0d8587fa31244ce",
+      "bytes": 50016
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "97e2158da96b2c57f2df68043a429185f3d71b6e0238bf7865f4297854cf9ffe",
+      "bytes": 431
+    },
+    {
+      "path": "docs/research/BIBLIOGRAPHY.json",
+      "sha256": "a051d3535382fa5b88e9f08cb462bc5f6718df4a855abd8fd525614e6c83cde5",
+      "bytes": 30378
+    },
+    {
+      "path": "docs/research/COVERAGE.csv",
+      "sha256": "147aec4762acb4004f5410f85083b32877676552b014f8e64be43cb6b9e6d5ca",
+      "bytes": 39490
+    },
+    {
+      "path": "docs/research/OPEN_OBLIGATIONS.json",
+      "sha256": "4a4cafbd21903370bd64d26d8984c1308cd05e9cdc22980b05882a108feb839c",
+      "bytes": 2535
+    },
+    {
+      "path": "docs/validation/fixtures/spectre-reference-hashes.json",
+      "sha256": "fc3986480084a52f4ffd03b901db676be01792a1ef55c75a6a43ae049be81d53",
+      "bytes": 723
+    },
+    {
+      "path": "pattern_spectre.lua",
+      "sha256": "cb381682b8aeff73fa0d257f682fb2ebcb61121db9458886dbb54efc055a62b3",
+      "bytes": 23808
+    },
+    {
+      "path": "tools/spectre_oracle.py",
+      "sha256": "750118c60c45b139171ec94ce6154d4ff74d62e5500f797ca3aa5f3fd8e1b590",
+      "bytes": 15978
+    },
+    {
+      "path": "tools/spectrecheck.lua",
+      "sha256": "a59cae423a578b0b878a9cbc7d0bd0d342de83b1a102a07b9b59980dc2032683",
+      "bytes": 7520
+    }
+  ],
+  "unchanged_parent_entries": 308,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41840276674,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

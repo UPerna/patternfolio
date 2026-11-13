@@ -1,0 +1,19 @@
+{
+  "scope": "Actual native LuaTeX CID fallback PDF plus an intentionally hidden actual glyph; existing visible/hidden/mixed ASCII controls retained",
+  "pypdf": "6.10.0",
+  "source_pdf_sha256": "ac18c2e489db88e939e104af7652a790006c2d7997bc3aac651b9d776e5b5ff8",
+  "actual_painted_enlarged_a": [
+    {
+      "text": "A",
+      "effective_size_pt": 61.161742850399996,
+      "visibility": "painted text operators only"
+    }
+  ],
+  "hidden_actual_cid_a_rejected": "Fallback has a searchable label but no visible enlarged initial",
+  "ascii_controls": {
+    "visible": true,
+    "hidden_rejected": true,
+    "hidden_a_visible_b_rejected": true
+  },
+  "helper_script_sha256": "5d473de7b90b382503379dca1231ed7630d2e0b3f5acfdead7e4ad6829021828"
+}

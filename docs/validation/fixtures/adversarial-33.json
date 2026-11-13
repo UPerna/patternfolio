@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "scope": "Named minimal mutations of pinned catalog inputs; do not replace baselines",
+  "base_revision": "b4b6bed11e73298191f844574b41d4bc56935e39",
+  "catalog": "examples/cli/catalog.json",
+  "generator_version": "1",
+  "runner": "tools/adversarialcheck.lua",
+  "cases": [
+    {
+      "recipe": "periodic.recipe",
+      "mutation": "append duplicate first cell",
+      "expected": "reject duplicate cell",
+      "seed": 7,
+      "recipe_sha256": "0f7a9b9355b1a53b911ebac8628eea679d4792c10af6d2fcb8b696f9bf6383ab",
+      "definition_id": "tiling/periodic",
+      "generator_version": "1"
+    },
+    {
+      "recipe": "penrose.recipe",
+      "mutation": "first edge matching.class= invented",
+      "expected": "reject matching reconstruction",
+      "seed": 14,
+      "recipe_sha256": "dd9f678ca3108fc442d63ef7befa657ce69175a6f1ec0364e5c1cd4e93e77de0",
+      "definition_id": "tiling/penrose-p3",
+      "generator_version": "1"
+    },
+    {
+      "recipe": "spectre.recipe",
+      "mutation": "first cell exact_transform.reflected=true",
+      "expected": "reject illicit reflection",
+      "seed": 15,
+      "recipe_sha256": "85502ed8baf851dbc4b0619243232d56d1090643e1691164e7329e85192c3e4e",
+      "definition_id": "tiling/spectre",
+      "generator_version": "1"
+    },
+    {
+      "recipe": "spectre.recipe",
+      "mutation": "first hierarchy type=Invented",
+      "expected": "reject hierarchy reconstruction",
+      "seed": 15,
+      "recipe_sha256": "85502ed8baf851dbc4b0619243232d56d1090643e1691164e7329e85192c3e4e",
+      "definition_id": "tiling/spectre",
+      "generator_version": "1"
+    },
+    {
+      "recipe": "micrography.recipe",
+      "mutation": "first position line=1-2^-53",
+      "expected": "reject positions/1/line",
+      "seed": 24,
+      "recipe_sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+      "definition_id": "text/digital-micrography",
+      "generator_version": "1"
+    },
+    {
+      "recipe": "micrography.recipe",
+      "mutation": "first span start=1-2^-53",
+      "expected": "reject positions/1/spans/1/1",
+      "seed": 24,
+      "recipe_sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+      "definition_id": "text/digital-micrography",
+      "generator_version": "1"
+    },
+    {
+      "recipe": "micrography.recipe",
+      "mutation": "first field triangle first index=999999",
+      "expected": "reject field/triangles/1/1",
+      "seed": 24,
+      "recipe_sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+      "definition_id": "text/digital-micrography",
+      "generator_version": "1"
+    },
+    {
+      "recipe": "micrography.recipe",
+      "mutation": "first boundary label=1-label",
+      "expected": "reject field/labels/samples/1/label",
+      "seed": 24,
+      "recipe_sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+      "definition_id": "text/digital-micrography",
+      "generator_version": "1"
+    }
+  ],
+  "seeds_and_recipe_sha256": "Runner persists actual seed/version/original recipe beside every complete corrupt instance and diagnostic; catalog SHA256 is verified by full native CLI corpus.",
+  "numeric_controls": "tools/parity_adversarial.py",
+  "raw_transport": "tools/browser-adversarial.cjs: raw-module-transport-leading-newline-crlf-controls"
+}

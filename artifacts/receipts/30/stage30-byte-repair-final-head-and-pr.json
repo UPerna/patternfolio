@@ -1,0 +1,12 @@
+{
+  "revision": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "run": 42198761489,
+  "branch_head": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "pr_head": "a9f29b0313668762acfdfa45e28d99ccaabb1bd5",
+  "pr_number": 2,
+  "draft": true,
+  "merged": false,
+  "pr_url": "https://github.com/UPerna/florilegium/pull/2",
+  "base": "improve/layout-controls",
+  "base_sha": "879610d82637229f0f4c06f828fe3a6d68d6faf6"
+}

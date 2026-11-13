@@ -1,0 +1,39 @@
+{
+  "stage": "28",
+  "revision": "549e4770397132f2770de2f9efe3d4043e3cd04d",
+  "parent": "9f5af38a5d2f41392560ce15d9023bd84d2513a4",
+  "tree": "bfe35db4d31792ee7a581d690fbf7bfe8da77ff5",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": "tools/clicheck.py",
+      "sha256": "be9e63d55d06cbff96efc3d1c81a22e6b815aae04bee488418be359de607e661",
+      "bytes": 8446
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "0fa52cd37d08b749a5319ebd1f6096bb5b98d96e992b7f86c6458cd41e17c02b",
+      "bytes": 63117
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "76fa8390567896fea52ab12aab28e97fe400406365fc6536c5b3a6df44a9918a",
+      "bytes": 507
+    },
+    {
+      "path": "artifacts/receipts/28/initial-native-rejected.json",
+      "sha256": "1b80d06b6ef8909c9633ca41fae3e57769fcdedb99ed9ae7dc4732ddcc28cf4f",
+      "bytes": 1034
+    },
+    {
+      "path": "artifacts/receipts/28/initial-native-job-excerpt.log",
+      "sha256": "9b3befa048dbf83cdbe30e01873d505789ba1bb764f77e5f9a367574175ab150",
+      "bytes": 15778
+    }
+  ],
+  "unchanged_parent_entries": 548,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42025446905,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

@@ -1,0 +1,11 @@
+{
+  "stage": "23",
+  "source": "R09",
+  "title": "Image-Guided Maze Construction",
+  "authors": ["Jie Xu", "Craig S. Kaplan"],
+  "year": 2008,
+  "sha256": "139852bf5fc462e16c3631e3df5faca26bff33e67a03bbe8ab9b9bd80f245004",
+  "scope": "Sections 3, 4.1–4.3, 5 and 6.1–6.2 and Figures 4–8 and 10–11",
+  "variant": "Bounded synthetic orthogonal and concentric charts, seeded isotropic displacement and relaxation, single pinned route, and explicit homography.",
+  "redistribution": "Primary PDF stays private. Independently authored original vector fixtures."
+}

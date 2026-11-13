@@ -1,0 +1,90 @@
+{
+  "stage": "06",
+  "revision": "76cc324cd68f564f924f1e00729a19579eb4a78d",
+  "tree": "897ffca8f76f1c73628454e49a4bdc45712cd293",
+  "run_id": 41505209725,
+  "url": "https://github.com/UPerna/florilegium/actions/runs/41505209725",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 125482631191,
+      "name": "pdfs",
+      "conclusion": "success"
+    },
+    {
+      "id": 125482631671,
+      "name": "portable",
+      "conclusion": "success"
+    },
+    {
+      "id": 125482632792,
+      "name": "gallery",
+      "conclusion": "skipped"
+    }
+  ],
+  "verification_lines": {
+    "pdfs": [
+      "2026-11-02T18:59:10.1409871Z contractcheck: 61 checks passed; actual floral + graph + tiling examples; semantic-only text/strands/3D/field fixtures",
+      "2026-11-02T18:59:18.5013573Z replaycheck: numeric locales exercised 3; unavailable locales skipped explicitly",
+      "2026-11-02T18:59:18.5110556Z replaycheck: 145 checks passed; golden vectors, actual generation/replay, dependency mutations, failure records and atomic filesystem faults",
+      "2026-11-02T18:59:18.5475149Z determinism_oracle: independent Python hashlib, canonical-number and modular-integer vectors passed",
+      "2026-11-02T18:59:20.4492892Z geometrycheck: 91 analytical/adversarial checks passed; oracle corpus2000 orientations/500 segments/66 cubics/128 bounds, source b347785e24dc99430cdbedd99fd528de60a0a58721d40f7f05c881b3b1d88560, cache 2bd23f9d9a2242e078e374adb40465992ae9e27285515c6965e344662cc6760c",
+      "2026-11-02T18:59:21.0430916Z geometry_oracle: Fraction checks passed; {'orientations': 2000, 'segments': 500, 'cubics': 66, 'bounds': 128} across 1 current-source reports",
+      "2026-11-02T18:59:26.7510981Z scenecheck: 44 checks passed; six actual PDF/SVG fixtures in build/scenes/cad26079ee23ce1e6c8103dce7940fbd11c7bb42a0aea2e4c620081052e47618",
+      "2026-11-02T18:59:29.6668421Z scene_oracle: six vector pairs, physical bounds, Unicode/order, dash/winding probes and strict protected ink passed cad26079ee23ce1e6c8103dce7940fbd11c7bb42a0aea2e4c620081052e47618",
+      "2026-11-02T18:59:39.8299423Z layoutcheck: 28 checks passed",
+      "2026-11-02T18:59:39.8428046Z spacecheck: clearance, detours, determinism and blocked corridors passed",
+      "2026-11-02T18:59:39.8529703Z initialcheck: missing reader, unreadable font, missing glyph and malformed bounds handled",
+      "2026-11-02T18:59:39.8748211Z backendcheck: standalone paths, resources, spread/fixed seeds, mono, controls and upright Arabic/Roman bodies passed",
+      "2026-11-02T19:00:33.0493572Z bookcheck: 9 cases passed; fallback initial remains searchable"
+    ],
+    "portable": [
+      "2026-11-02T18:58:58.2308142Z enginecheck: 11 dual-engine documents, vector/text/metadata/mono/offset parity, cached animation, PDF assets, included auxiliary convergence, stale rebuilds and 6 rejected inputs passed",
+      "2026-11-02T18:59:03.7526209Z offsetcheck: 8 rendered physical and content-relative reservations passed",
+      "2026-11-02T18:59:29.9965161Z exportcheck: {\"inline_bytes\": 996019, \"reused_bytes\": 23955, \"reduction_percent\": 97.6, \"mean_pixel_error\": 0.0553, \"svg_paths\": 535, \"boundary_cases\": 35}",
+      "2026-11-02T18:59:35.6400394Z visualcheck: book-side placement, protected callout, overlapping barriers and full-page reservation passed",
+      "2026-11-02T18:59:51.0912969Z packagecheck: 203 file hashes, reproducible archive and extracted Lua/Xe template builds passed"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": 13171420162,
+      "name": "florilegium-portable-kit",
+      "digest": "sha256:a4484d2daf25b160ed306fdb40a7d6676e1b21426d54dd79cf0348490a78368f",
+      "size": 12582386
+    },
+    {
+      "id": 13170883151,
+      "name": "florilegium-pdfs",
+      "digest": "sha256:fb3c39e75ba52daa5b1c08518d444833107a17a61f13c62803851120426ccfa6",
+      "size": 10429373
+    }
+  ],
+  "visual_review": {
+    "status": "passed actual corrected CI image pairs",
+    "fixture_count": 6,
+    "blend_point_cm": [
+      0.9,
+      1
+    ],
+    "expected_RGB": [
+      91,
+      82,
+      99
+    ],
+    "PDF_RGB": [
+      90,
+      81,
+      98
+    ],
+    "SVG_RGB": [
+      91,
+      82,
+      99
+    ],
+    "max_channel_difference": 3,
+    "protected_ROI_minimum_channel": 255
+  },
+  "runtime_parity": "All12 PDF/SVG files byte-identical in native texlua CI and local Lua5.3/5.4",
+  "gate": "passed"
+}

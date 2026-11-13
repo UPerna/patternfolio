@@ -1,0 +1,48 @@
+{
+  "revision": "4bb9d01999e4e84accc2a78d0fa279ef20b47263",
+  "files": {
+    "LICENSE": {
+      "git_blob": "ea1326aade5f67587f9fd0e3e205d0f746463357",
+      "sha256": "a5690b1ca33c5d13194d9a68b9c276c8ee042dcae671332a4a72d7f6038057eb",
+      "url": "https://raw.githubusercontent.com/isohedral/hatviz/4bb9d01999e4e84accc2a78d0fa279ef20b47263/LICENSE"
+    },
+    "geometry.js": {
+      "git_blob": "46e19f05545ed0152776c5fbeec74547932273f1",
+      "sha256": "a6d4ab9b8baf5513bf03a7414c6cc41c1fb8108c18b89370a279d4ad47ec9d8c",
+      "url": "https://raw.githubusercontent.com/isohedral/hatviz/4bb9d01999e4e84accc2a78d0fa279ef20b47263/geometry.js"
+    },
+    "hat.js": {
+      "git_blob": "d8c1839bd4861c6f871eba83d6a42d010f1d9551",
+      "sha256": "577deec32bf67d1620f7453572b7dc6db86d9642490ad8260b6e3daf1fdf1041",
+      "url": "https://raw.githubusercontent.com/isohedral/hatviz/4bb9d01999e4e84accc2a78d0fa279ef20b47263/hat.js"
+    }
+  },
+  "retrieved": "2026-11-04",
+  "license": "BSD-3-Clause",
+  "paper": {
+    "url": "https://escholarship.org/uc/item/3317z9z9",
+    "version": "Combinatorial Theory 4(1), #6 (2024)",
+    "sha256": "ee1505e15db590730bd424c4954837bab7488e5312a88c6ececd50dd2cf81f29",
+    "sections": [
+      "§2 and Figs. 2.1–2.10",
+      "§4 clustering",
+      "§5 four-tile substitution"
+    ]
+  },
+  "comparison": {
+    "roots": [
+      "H",
+      "T",
+      "P",
+      "F"
+    ],
+    "depths": [
+      1,
+      2,
+      3
+    ],
+    "hashes": "docs/validation/fixtures/hat-reference-hashes.json",
+    "method": "Original pinned JS run in private restricted VM. Normalized integral triangular coordinates, ordered leaf addresses, source labels, and determinant signs."
+  },
+  "reuse": "Translated placement/group data and guide formulas in pattern_hat_rules.lua. Original private app code and paper excluded from source archives. BSD-3-Clause license retained."
+}

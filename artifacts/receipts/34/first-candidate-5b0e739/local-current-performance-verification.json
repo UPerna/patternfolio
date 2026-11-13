@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "revision": "5b0e739d2ac7905c555c3a40f2b3501233153df1",
+  "native_workloads": 27,
+  "native_phases": 81,
+  "source_files_bound_to_canonical_archive": 90,
+  "native_source_digest": "1fa4d5c9f9b8a90e9928c4ec7a6dae291d23fd0c4954b99cab25dc9bef072a14",
+  "browser_workloads": 27,
+  "browser_bounds": 54,
+  "browser_mode": "full_matrix",
+  "browser": "156.0.4314.58",
+  "studio": {
+    "status": "passed",
+    "family": "botanical-grown",
+    "edit_during_pending_ms": 17,
+    "cancel_during_pending_ms": 40,
+    "accepted_outputs": 0,
+    "native_host_design_seed_synchronized": true,
+    "seed": "102",
+    "state": "Cancelled \u00b7 previous work preserved"
+  },
+  "post_seed_before_after_pairs": 3,
+  "maximum_observed_main_thread_gap_ms": 52.39999997615814,
+  "matrix_sha256": "4c4d2392f6836f6af75d808ffb9123e5dfd3b22a4881f9c44be63f5be4c68ef5",
+  "browser_receipt_sha256": "9a0129e5306b21f93d03e6986925e67610221b219491549f5d243d9e7e6275c3",
+  "scope": "Actual current published code on local Windows/Lupa/Edge. Exact-current-head native CI and actual artifact verification remain separate mandatory gates."
+}

@@ -1,0 +1,4 @@
+Measured actual workload	mosaic-packing-large	cold-generation	3.255505
+Measured actual workload	mosaic-packing-large	warm-generation	2.553429
+Measured actual workload	mosaic-packing-large	validated-instance-replay	1.304808
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 12649728

@@ -1,0 +1,11 @@
+{
+  "kind": "pdfs",
+  "artifact_id": 13546436129,
+  "revision": "e883cf50e2367274d5aa1f0d41b62ff29690930a",
+  "run": 42299628203,
+  "job": 128173724653,
+  "sha256": "037130041abe200739e249024e8913663de32d319f2ea5481fdfb7558c2492dd",
+  "archive_bytes": 33678709,
+  "verified_archive_sha256": "037130041abe200739e249024e8913663de32d319f2ea5481fdfb7558c2492dd",
+  "safe_extraction": true
+}

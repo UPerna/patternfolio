@@ -2,6 +2,7 @@ build/
 scratch/
 *.aux
 *.log
+!artifacts/receipts/**/*.log
 *.out
 *.synctex.gz
 *.fdb_latexmk

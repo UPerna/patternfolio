@@ -1,0 +1,109 @@
+{
+  "stage": "29",
+  "revision": "200db9a8bc209eb067f2d6e20c8b50dafb225cee",
+  "parent": "c4729e2901bdfcaf6f10e09e2571a0c0ea034ae9",
+  "tree": "1224838417fdadfe77adaa31cb9cfc219192535e",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "5a5b6b7b78229a724799e4fa708fcac492279475b1c7d77abeb2f703f3d39bca",
+      "bytes": 7876
+    },
+    {
+      "path": "artifacts/receipts/29/core-repair-lua53.json",
+      "sha256": "2dd9f0b9f2744f052f19a89247f53bb4560c8431f19d6900330f2a9bdf469fd6",
+      "bytes": 10434
+    },
+    {
+      "path": "artifacts/receipts/29/core-repair-lua54.json",
+      "sha256": "2bcb4a98c0a78f3de6ca1393c5261e8891c642760f1da4a5aae585e7a335cffd",
+      "bytes": 10434
+    },
+    {
+      "path": "artifacts/receipts/29/host-lookup-Lua-5.3.json",
+      "sha256": "9121cb28e7c9dc04616fecd3ecc010bda36befd6eb4974c3c223693434f295f8",
+      "bytes": 8210
+    },
+    {
+      "path": "artifacts/receipts/29/host-lookup-Lua-5.4.json",
+      "sha256": "8e9ea260e92d8f372197b20bcfd58fa338bae675a5a9ed52bb412c0f9242c7ea",
+      "bytes": 8210
+    },
+    {
+      "path": "artifacts/receipts/29/initial-native-rejected.json",
+      "sha256": "2b75c1dbb3ab811a7c131b8fd3b4ee32c7ba8d430ded494c3a74c65fe3dee3ac",
+      "bytes": 506
+    },
+    {
+      "path": "artifacts/receipts/29/planner-repair-Lua-5.3.json",
+      "sha256": "efd996f69f4308d07f78f8ac4bd6e2f1d3bc55f0c1b433289a087b32a9ed1bf3",
+      "bytes": 157848
+    },
+    {
+      "path": "artifacts/receipts/29/planner-repair-Lua-5.4.json",
+      "sha256": "7a6b5da8c443a1370664618efd151fce195a7dbc9b4009c4477745bb61b44e51",
+      "bytes": 157848
+    },
+    {
+      "path": "artifacts/receipts/29/publication.json",
+      "sha256": "f68357a50214d9aa46554e42880b70a188be6d1e1fd156b91b9dfcb48165d65c",
+      "bytes": 8893
+    },
+    {
+      "path": "docs/LUALATEX-PATTERNS.md",
+      "sha256": "dfa49b2cbd2bdd5dd25df5c69ae4c07d637d47506804aecaa44a0d81e38c3e03",
+      "bytes": 6942
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "46dc7f0650ec6a274bb83608c155e569be8ab760c5ab2fe480d0869fedecb35e",
+      "bytes": 7582
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "cf11383fb7e742c8ab9e63782f7e610ead19e9180450f9df914f37e2cb1f862e",
+      "bytes": 65792
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "1f033a549b16dce01bc28384c33be9500a7119ec9416799321cf6197eced3f36",
+      "bytes": 1131
+    },
+    {
+      "path": "pattern_luatex.lua",
+      "sha256": "77a171fa15bd948a27d66aa531ab544af491bf2045a0f1277079b079f88c78d0",
+      "bytes": 8645
+    },
+    {
+      "path": "pattern_planner.lua",
+      "sha256": "8d3362c03deb5bb26339be4b16874c7fe0149b247b82bec7f115afb439c4c122",
+      "bytes": 31242
+    },
+    {
+      "path": "pattern_tex.lua",
+      "sha256": "b545c2f2e5ff337903b4e496dfc1227b20196d5f12406fbf05c6834d5bcb1896",
+      "bytes": 12433
+    },
+    {
+      "path": "tools/check-pattern-luatex-host.lua",
+      "sha256": "a4b94ac53cf89b958dbe9c78b037ad31a6bc2abdae3113b7020f688aff2e6adf",
+      "bytes": 2361
+    },
+    {
+      "path": "tools/check-pattern-tex.lua",
+      "sha256": "605b770c2a52cc6a0c78bcccec35e679a6c9c8a21940efec489591f8d023fe6c",
+      "bytes": 8763
+    },
+    {
+      "path": "tools/pattern_tex_consumer.py",
+      "sha256": "2f0caeb2a59cf14f348cd1b8ff35d0178ca6ecbcce2ebd70730c0cdd5789863f",
+      "bytes": 10936
+    }
+  ],
+  "unchanged_parent_entries": 584,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42044636324,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

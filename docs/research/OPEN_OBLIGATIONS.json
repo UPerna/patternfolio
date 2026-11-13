@@ -6,42 +6,54 @@
       "source": "R08",
       "owner": "24",
       "reason": "Primary full PDF download closes; web service rejects size",
-      "next_action": "Retrieve primary paper through author/publication mirror or chunked PDF access; inspect field optimization and text placement before implementing; do not redistribute restricted images."
+      "next_action": "Retain provenance and private source boundary.",
+      "status": "resolved",
+      "resolution": "Full 11-page R08 paper recovered and sections 4–7 inspected. See artifacts/receipts/24/source-reference.json."
     },
     {
       "id": "O02",
       "source": "R10a",
       "owner": "22",
       "reason": "HAL anti-bot denial; primary ARTIS PDF timeout",
-      "next_action": "Retrieve authorized primary publisher/author copy; read clustering, topology/neighborhood and synthesis formulation. R10b is separate and cannot satisfy R10a fidelity."
+      "next_action": "Retain provenance and private paper boundary.",
+      "status": "resolved",
+      "resolution": "Full R10a primary text recovered and inspected. See artifacts/receipts/22/source-reference.json."
     },
     {
       "id": "O03",
       "source": "R16b",
       "owner": "17",
-      "reason": "Institutional linked PDF returns 403 on both hosts",
-      "next_action": "Recover institutional report via repository document service or verified author-hosted source; pin projection formula, window and boundary tie assumptions before stage 17 pass."
+      "reason": "Full primary report recovered from the TU/e institutional archive and exact tetragrid sections reviewed.",
+      "next_action": "Implement the source tetragrid with explicit phase and coherent tie decisions. Keep the PDF private.",
+      "status": "resolved",
+      "evidence": "artifacts/receipts/17/primary-recovery.json"
     },
     {
       "id": "O04",
       "source": "R19a;R19b",
       "owner": "14",
-      "reason": "Primary institutional metadata retrieved; complete original text not yet recovered",
-      "next_action": "Retrieve original de Bruijn papers through institutional/publisher open copy; fix admissible pentagrid phase rules and matching construction before stage 14 implementation."
+      "reason": "Full primary Parts I and II recovered and read",
+      "next_action": "Proceed with regular pentagrid P3 under the recovered source assumptions.",
+      "status": "resolved",
+      "evidence": "artifacts/receipts/14/primary-recovery.json"
     },
     {
       "id": "O05",
       "source": "R04c",
       "owner": "20",
-      "reason": "Original publisher PDF unavailable; author thesis full text available",
-      "next_action": "Compare original paper with thesis Chapter 4.3–4.5 before claiming exact reproduction. Record any thesis-based variant explicitly."
+      "reason": "Original SIGGRAPH 2000 primary recovered and read alongside the later thesis and dihedral paper.",
+      "next_action": "Retain source-specific finite scope and original code.",
+      "status": "resolved",
+      "evidence": "artifacts/receipts/20/source-reference.json"
     },
     {
       "id": "O06",
       "source": "R15",
       "owner": "15",
-      "reason": "Browser reference app available; reusable code license unverified",
-      "next_action": "Verify reference source/license if reusing code; otherwise implement published rules independently and validate against licensed/reference fixtures."
+      "reason": "Published mathematical rules implemented independently. Reference app used privately for comparison hashes.",
+      "next_action": "Keep official app code and artwork outside the source tree unless redistribution is separately authorized.",
+      "status": "resolved",
+      "evidence": "artifacts/receipts/15/source-reference.json"
     },
     {
       "id": "O07",

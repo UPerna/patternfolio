@@ -1,0 +1,46 @@
+{
+  "retrieved": "2026-11-06",
+  "sources": [
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGraphicsElement/getScreenCTM",
+      "sections": "Return value DOMMatrix; SVG viewport coordinate transformation",
+      "use": "Map pointer input through native SVG/DOM matrices for editing overlays; no JavaScript ornament geometry port."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Guides/Scripting",
+      "sections": "DOMPoint matrixTransform with getScreenCTM inverse",
+      "use": "Consistent screen-to-native-view coordinates with pan/zoom."
+    },
+    {
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/",
+      "sections": "Keyboard interaction, roving tabindex, arrow/Home/End focus, native button grouping",
+      "use": "Accessible real editor canvas toolbar; no unsupported interactive roles."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
+      "sections": "Explicit user file selection, FileList, object URL lifetime",
+      "use": "Local-only bounded recipe/exemplar/instance imports, object URL revocation."
+    },
+    {
+      "source": "Current shared project source",
+      "version": "uncommitted32 based on accepted bd11",
+      "sections": "pattern_recipe exact replay binding; pattern_planner.recipe_view_inputs; pattern_document.new/import; family validators/lowerers",
+      "use": "Add checked style/view revision and preserve paired native planning metadata. Existing parent-record body identity now checked; actual earlier native Escher bundle remains replayable."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
+      "sections": "Object stores; readwrite transaction oncomplete/onerror; updating/getting records",
+      "use": "Autosave typed-array results and drafts atomically; show saved only on transaction completion."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/DOMParser/parseFromString",
+      "sections": "image/svg+xml; parsererror handling; active content/injection risks",
+      "use": "Parse native SVG, reject malformed or active/external content; admit only the native pinned-font stylesheet grammar."
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "sections": "setPointerCapture; implicit release after pointerup/pointercancel; touch-action",
+      "use": "Pointer drag for native guide/scaffold coordinates and protected rectangles, with cancellation."
+    }
+  ]
+}

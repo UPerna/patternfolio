@@ -5,7 +5,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 import zipfile
-from package import package, ROOT
+from package import package, REQUIRED_NOTICES, ROOT
 
 
 def main():
@@ -17,9 +17,16 @@ def main():
             z.extractall(scratch)
         kit = Path(scratch) / "florilegium"
         manifest = (kit / "SHA256SUMS").read_text().splitlines()
+        checked = set()
         for row in manifest:
             digest, name = row.split("  ", 1)
             assert hashlib.sha256((kit / name).read_bytes()).hexdigest() == digest
+            checked.add(name)
+        for module, notice in REQUIRED_NOTICES.items():
+            if (kit / module).is_file():
+                assert notice in checked and (kit / notice).read_bytes() == (ROOT / notice).read_bytes(), (
+                    f"Missing or incorrect notice for {module}"
+                )
         readme = (kit / "README.md").read_text()
         images = re.findall(r'!\[[^\]]*\]\(([^)]+)\)|<img\b[^>]*\bsrc="([^"]+)"', readme)
         for markdown, html in images:

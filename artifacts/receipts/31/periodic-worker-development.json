@@ -1,0 +1,44 @@
+{
+  "elapsed_ms": 15484.099999964237,
+  "assets": [
+    {
+      "bytes": 715232,
+      "name": "instance.json",
+      "sha256": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21"
+    },
+    {
+      "bytes": 3626,
+      "name": "pattern.pdf",
+      "sha256": "96b996b1e6c1ac0d1fe7586cda74e74ea746f06d0231ad2d52dd0d5dbad11662"
+    },
+    {
+      "bytes": 6370,
+      "name": "pattern.svg",
+      "sha256": "0d80c8b0855abe1f1282f784a6ec5624b3de75caee363938e28e05f2a9af4acf"
+    },
+    {
+      "bytes": 3482,
+      "name": "recipe.json",
+      "sha256": "0f7a9b9355b1a53b911ebac8628eea679d4792c10af6d2fcb8b696f9bf6383ab"
+    },
+    {
+      "bytes": 9876,
+      "name": "record.json",
+      "sha256": "0b421fb80565d82dc43afe6bc9e71913146725f5ca6d6c7a17f351dc8930e9cb"
+    },
+    {
+      "bytes": 5038,
+      "name": "scene.json",
+      "sha256": "354c46f2fcb68ed23cd4b7617c3748f6160263454befef5af6025b248ac62635"
+    },
+    {
+      "bytes": 8191,
+      "name": "view.json",
+      "sha256": "e56510429f77a4740571ac1285220ea13cd05f9f1082b8243e4bb92320710fcf"
+    }
+  ],
+  "stats": {
+    "instructions": 1066760000,
+    "lua_memory_bytes": 10576634
+  }
+}

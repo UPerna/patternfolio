@@ -1,0 +1,29 @@
+%% Opt-in common pattern API. Existing botanical commands retain their paths.
+\newif\ifflo@patternsactive
+\ifLuaTeX
+  \def\flo@patterninit{\global\flo@patternsactivetrue\directlua{florilegium_patterns=florilegium_patterns or require('pattern_luatex')}}
+  \newcommand\florilegiumpatterninput[2]{\flo@patterninit\directlua{florilegium_patterns.input("\luaescapestring{#1}","\luaescapestring{#2}")}}
+  \newcommand\florilegiumpatterndeclare[2]{\flo@patterninit\directlua{florilegium_patterns.declare("\luaescapestring{#1}","\luaescapestring{#2}")}}
+  \NewDocumentCommand\florilegiumpatterninline{O{0pt} m}{\leavevmode\flo@patterninit
+    \directlua{florilegium_patterns.use("\luaescapestring{#2}",\number\dimexpr#1\relax)}}
+  \NewDocumentCommand\florilegiumpatterndivider{O{.75\linewidth} m}{\par\addvspace{.7\baselineskip}
+    \noindent\makebox[\linewidth][c]{\florilegiumpatterninline[#1]{#2}}\par\addvspace{.7\baselineskip}}
+  \pgfkeys{/florilegium/pattern/.is family,/florilegium/pattern,
+    region/.store in=\flo@pregion,spread/.store in=\flo@pspread,
+    protect-text/.store in=\flo@pprotect,padding/.store in=\flo@ppadding}
+  \NewDocumentCommand\florilegiumpatternpage{O{} m}{\begingroup\flo@patterninit
+    \pgfkeys{/florilegium/pattern/.cd,region=outer,spread=none,protect-text=true,padding=3mm,#1}
+    \directlua{florilegium_patterns.queue("\luaescapestring{#2}","\luaescapestring{\flo@pregion}",
+      "\luaescapestring{\flo@pspread}","\luaescapestring{\flo@pprotect}",\number\dimexpr\flo@ppadding\relax)}\endgroup}
+  \AddToHook{begindocument}{\ifflo@patternsactive\directlua{florilegium_patterns.begin_document()}\fi}
+  \AddToHook{shipout/before}[florilegium-patterns]{\ifflo@patternsactive
+    \directlua{florilegium_patterns.capture(\number\ShipoutBox,"\luaescapestring{\thepage}")}\fi}
+  \AddToHook{shipout/background}[florilegium-patterns]{\ifflo@patternsactive
+    \directlua{florilegium_patterns.background(\number\ReadonlyShipoutCounter)}\fi}
+  \AddToHook{enddocument/afterlastpage}{\ifflo@patternsactive\directlua{florilegium_patterns.finish()}\fi}
+\else
+  \input{florilegium-patterns-xetex.def}
+\fi
+\@onlypreamble\florilegiumpatterninput
+\@onlypreamble\florilegiumpatterndeclare
+\endinput

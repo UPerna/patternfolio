@@ -1,0 +1,349 @@
+{
+  "stage": "23",
+  "source_digest": "21796412413bc1e219a7e52e50455f30c7689bff38a1ba347dd3cb36b43d0f62",
+  "native_checks": 31,
+  "native_output_hashes": 51,
+  "native_local_differences": [
+    "failures.json",
+    "spiral.instance",
+    "vortex.instance"
+  ],
+  "kit_hashes": 416,
+  "oracle": {
+    "geometry": {
+      "directional": {
+        "cells": 330,
+        "passages": 329,
+        "closed_walls": 366,
+        "route_cells": 148,
+        "guide_edges": 0,
+        "preferred_removals": 308,
+        "limited_wall_widths": 15,
+        "ink_clearance_cm": 0.009625000000000022
+      },
+      "unguided": {
+        "cells": 330,
+        "passages": 329,
+        "closed_walls": 366,
+        "route_cells": 68,
+        "guide_edges": 0,
+        "preferred_removals": 167,
+        "limited_wall_widths": 15,
+        "ink_clearance_cm": null
+      },
+      "ribbon": {
+        "cells": 322,
+        "passages": 321,
+        "closed_walls": 358,
+        "route_cells": 128,
+        "guide_edges": 0,
+        "preferred_removals": 299,
+        "limited_wall_widths": 0,
+        "ink_clearance_cm": null
+      },
+      "perspective": {
+        "cells": 280,
+        "passages": 279,
+        "closed_walls": 313,
+        "route_cells": 100,
+        "guide_edges": 0,
+        "preferred_removals": 260,
+        "limited_wall_widths": 7,
+        "ink_clearance_cm": null
+      },
+      "spiral": {
+        "cells": 132,
+        "passages": 131,
+        "closed_walls": 131,
+        "route_cells": 12,
+        "guide_edges": 0,
+        "preferred_removals": 126,
+        "limited_wall_widths": 0,
+        "ink_clearance_cm": null
+      },
+      "vortex": {
+        "cells": 132,
+        "passages": 131,
+        "closed_walls": 131,
+        "route_cells": 24,
+        "guide_edges": 0,
+        "preferred_removals": 131,
+        "limited_wall_widths": 0,
+        "ink_clearance_cm": null
+      },
+      "random": {
+        "cells": 266,
+        "passages": 265,
+        "closed_walls": 298,
+        "route_cells": 32,
+        "guide_edges": 0,
+        "preferred_removals": 0,
+        "limited_wall_widths": 0,
+        "ink_clearance_cm": null
+      },
+      "guided": {
+        "cells": 330,
+        "passages": 329,
+        "closed_walls": 366,
+        "route_cells": 40,
+        "guide_edges": 39,
+        "preferred_removals": 308,
+        "limited_wall_widths": 15,
+        "ink_clearance_cm": 0.009625000000000022
+      },
+      "holed": {
+        "cells": 272,
+        "passages": 271,
+        "closed_walls": 322,
+        "route_cells": 50,
+        "guide_edges": 0,
+        "preferred_removals": 0,
+        "limited_wall_widths": 0,
+        "ink_clearance_cm": 0.21214395328931196
+      },
+      "aperiodic": {
+        "cells": 163,
+        "passages": 162,
+        "closed_walls": 194,
+        "route_cells": 34,
+        "guide_edges": 0,
+        "preferred_removals": 0,
+        "limited_wall_widths": 0,
+        "ink_clearance_cm": 0.16102404816664512
+      }
+    },
+    "renders": {
+      "directional": {
+        "mean_backend_error": 0.015576967823985512,
+        "dark_fraction": 0.11215401731135997,
+        "dimensions": [
+          676,
+          484
+        ],
+        "tone_darkness_bands": [
+          0.09978099135514218,
+          0.06491306507699957,
+          0.044760111470964814
+        ]
+      },
+      "unguided": {
+        "mean_backend_error": 0.014555680048275689,
+        "dark_fraction": 0.13173932710645997,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "ribbon": {
+        "mean_backend_error": 0.017471486532572505,
+        "dark_fraction": 0.1061543351753142,
+        "dimensions": [
+          676,
+          484
+        ],
+        "ribbon_darkness": [
+          0.20028184810836436,
+          0.02766672058065364
+        ]
+      },
+      "perspective": {
+        "mean_backend_error": 0.004815982500063125,
+        "dark_fraction": 0.11320541346765123,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "spiral": {
+        "mean_backend_error": 0.0034411409925601617,
+        "dark_fraction": 0.02844271113501883,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "vortex": {
+        "mean_backend_error": 0.0034012841448053293,
+        "dark_fraction": 0.03432625067240452,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "random": {
+        "mean_backend_error": 0.004265186114219434,
+        "dark_fraction": 0.06423602621155068,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "guided": {
+        "mean_backend_error": 0.015576016948908762,
+        "dark_fraction": 0.11213262262213311,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "holed": {
+        "mean_backend_error": 0.009602887400090198,
+        "dark_fraction": 0.056995452100347205,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "aperiodic": {
+        "mean_backend_error": 0.004559390059184383,
+        "dark_fraction": 0.046102498899701694,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "directional-solution": {
+        "mean_backend_error": 0.017005246113637722,
+        "dark_fraction": 0.12596276101520856,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "guided-solution": {
+        "mean_backend_error": 0.01640255911646286,
+        "dark_fraction": 0.11597144114626633,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "holed-solution": {
+        "mean_backend_error": 0.010235067505738011,
+        "dark_fraction": 0.06202320406865861,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "aperiodic-solution": {
+        "mean_backend_error": 0.0049184732494070215,
+        "dark_fraction": 0.051179153014817354,
+        "dimensions": [
+          676,
+          484
+        ]
+      },
+      "crop": {
+        "mean_backend_error": 0.013773745226389219,
+        "dark_fraction": 0.08155119165549793,
+        "dimensions": [
+          262,
+          262
+        ]
+      }
+    }
+  },
+  "visual_review": "Accepted 15 native PDF/SVG pairs including the tone ramp, ribbon, perspective, polar charts, guided route, holed and aperiodic extensions and display crop.",
+  "difference_analysis": {
+    "analysis": "Categorical JSON, graph, path command and SVG attributes agree. Checked all differing numeric values with physical bounds. Failure text differs only by Windows/Linux path separators.",
+    "exact_controls_and_categorical_structure": true,
+    "files": {
+      "failures.json": {
+        "numeric_entries": 0,
+        "maximum_absolute_delta": 0.0
+      },
+      "spiral.instance": {
+        "numeric_entries": 7,
+        "maximum_absolute_delta": 4.440892098500626e-16
+      },
+      "vortex.instance": {
+        "numeric_entries": 7,
+        "maximum_absolute_delta": 4.440892098500626e-16
+      }
+    },
+    "pdf_raster_cross_host": {
+      "aperiodic-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "aperiodic-solution-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "crop-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "directional-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "directional-solution-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "guided-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "guided-solution-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "holed-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "holed-solution-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "perspective-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "random-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "ribbon-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "spiral-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "unguided-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "vortex-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      }
+    }
+  },
+  "revision": "24fe6eb72dc39ad70ff835a2f2a126c35a79f054",
+  "tree": "c3a531418ad25535fe5f2bb334bb79248095914d",
+  "run": 41900860345,
+  "jobs": {
+    "portable": {
+      "id": 126822564917,
+      "conclusion": "success"
+    },
+    "pdfs": {
+      "id": 126822565356,
+      "conclusion": "success"
+    },
+    "gallery": {
+      "id": 126822567779,
+      "conclusion": "skipped"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "ae3085b6db8034cc587203c7efbafe2080357134e7afe668d0265c4e47305d0a",
+    "portable": "867d48e64bb9c4c8a08f688dd118661e858e794b264ab5af8aee3e4081ea1e1f"
+  }
+}

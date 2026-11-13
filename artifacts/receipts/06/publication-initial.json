@@ -1,0 +1,194 @@
+{
+  "stage": "06",
+  "revision": "07f3fdb3f44dc82707d2f0d9320eb652410e1130",
+  "parent": "814d7723bdb0aed8fd1ef740876a04ab6f0e2820",
+  "tree": "d85293185943a4369ecaf77ea2370a09ecfc0d26",
+  "route": "normal Git fetch from origin independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "8258c20bdf66dd3e168971f041b07e32afd881babbad9f188edd352c1832ed27",
+      "bytes": 3890
+    },
+    {
+      "path": "Makefile",
+      "sha256": "efe9e16ceed9a1d032537301518d057c8a2d81f065d1fb5f25610bb432367565",
+      "bytes": 5346
+    },
+    {
+      "path": "README.md",
+      "sha256": "c14fe43ae846e52d857effdbdda59bc0092db5e451712d3dcb2dc987470ff5d4",
+      "bytes": 26907
+    },
+    {
+      "path": "artifacts/receipts/05/ci-final.json",
+      "sha256": "1b31ce770b9fccb968414aec5629db7668a387653d3a0ada29cf28f66f52a8cb",
+      "bytes": 1459
+    },
+    {
+      "path": "artifacts/receipts/05/portable-ci-final.json",
+      "sha256": "94848985aaf0b16772e87ce541687df3fa203c1ea668108eb3e865c8c9464761",
+      "bytes": 773
+    },
+    {
+      "path": "artifacts/receipts/05/publication-final.json",
+      "sha256": "4696080f8a3dbc41fef964abf6a90f84ae4b197c98cedafd3b1057ca6b47049b",
+      "bytes": 643
+    },
+    {
+      "path": "artifacts/receipts/05/remote-byte-verification-final.json",
+      "sha256": "e4662bd421843a7213f3c0f3ba1235027580d2fef5eb4edf5bfbe494ed0d91eb",
+      "bytes": 2179
+    },
+    {
+      "path": "artifacts/receipts/05/source-kit-final.json",
+      "sha256": "799c6e3c01d86d002d97d54982148c58919942f5e8c2e1099a3ce8a802538f4b",
+      "bytes": 173
+    },
+    {
+      "path": "artifacts/receipts/06/fonttools-preparation-dependency.json",
+      "sha256": "35c9aa4ff4e9147dca29fd747a6cc2ddfa6d2ffca93f8efec542debb2f04f32a",
+      "bytes": 376
+    },
+    {
+      "path": "artifacts/receipts/06/receipt-Lua-5.3.json",
+      "sha256": "c5e0b8e7da408b246f4460dcaeba5a6f6395c8c3aa5411d016fe68059ca319ff",
+      "bytes": 7666
+    },
+    {
+      "path": "artifacts/receipts/06/receipt-Lua-5.4.json",
+      "sha256": "c5e0b8e7da408b246f4460dcaeba5a6f6395c8c3aa5411d016fe68059ca319ff",
+      "bytes": 7666
+    },
+    {
+      "path": "artifacts/receipts/06/scene-oracle-local.json",
+      "sha256": "b2e7aeb95b175e54da23720d4307779b5f5a5276a6684f939eb8da043ebfe0e0",
+      "bytes": 3244
+    },
+    {
+      "path": "artifacts/receipts/06/verification-notes.json",
+      "sha256": "9ce6550f7d06ca46ff37977a3f5f978510dc097859e491b8a38983352db4b69c",
+      "bytes": 1786
+    },
+    {
+      "path": "docs/architecture/SCENES.md",
+      "sha256": "930b69f1201a8d6bc3347770a155d48a8010299c04daecfaf45b8f8866350420",
+      "bytes": 6703
+    },
+    {
+      "path": "docs/fonts/GUST-FONT-LICENSE.md",
+      "sha256": "2bd69affc3da00715116f713f57eab9707e96daf3562ad0215987b15b9c16f73",
+      "bytes": 1456
+    },
+    {
+      "path": "docs/fonts/LPPL-1.3c.md",
+      "sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66",
+      "bytes": 19102
+    },
+    {
+      "path": "docs/fonts/README-PatternSceneFixture.md",
+      "sha256": "5ca23e570b01a7bbe703a9abca18f3e42dabbc169994ef470bec9d1fac3f44aa",
+      "bytes": 1958
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "6d9ccfd9889a1e8637ca494cc3d4f46cf4e2865459152d1aa0c9cb491c04ff6b",
+      "bytes": 4628
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "398cb706c751275f9a2b353286f4a698a4e74de5f4de52027ef814661e2a92a2",
+      "bytes": 40136
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "7e951a3e67b5941ac8470953314a0da7916299eca3de5aae1e278fc1abdff99d",
+      "bytes": 1489
+    },
+    {
+      "path": "docs/research/SOURCES.md",
+      "sha256": "4782234ef0eb564caccebfeaa96e4765fafe73f75e6ff627aa20c4330d2b3a41",
+      "bytes": 19861
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "1a21225e079e2031a72410c3d2a4f0b1a4bbc58d690c3877c65797fc166aacc5",
+      "bytes": 4151
+    },
+    {
+      "path": "docs/validation/fixtures/scene-font.json",
+      "sha256": "938eda59e05dbd5bc756d047aa0c3c57ee86233035842d2fefdcbe859fe5ad37",
+      "bytes": 11090
+    },
+    {
+      "path": "ink.lua",
+      "sha256": "f67873a5db499835047a2caea56b7df92c1b5a615f14c0bfa0f1a97e190df59d",
+      "bytes": 28307
+    },
+    {
+      "path": "pattern.lua",
+      "sha256": "59d03975daa8938d1ea2239d864238a4a141fb3d9d0a23686f09f700d9fdebf5",
+      "bytes": 23769
+    },
+    {
+      "path": "pattern_artifact.lua",
+      "sha256": "db95a095a5c38022e17af5a89105da51a0abb0abafc71f554bd9aa896d6cae8c",
+      "bytes": 1316
+    },
+    {
+      "path": "pattern_bytes.lua",
+      "sha256": "674472f68688668764febad93514a8f5b161b4c5d33d2b0881bdc5c14e53ce2c",
+      "bytes": 3211
+    },
+    {
+      "path": "pattern_draw.lua",
+      "sha256": "93d9290d9a96a1bee71ce50fa3af33cdd7f5d930d27c61f0c8071e0e9c9e7498",
+      "bytes": 10455
+    },
+    {
+      "path": "pattern_examples.lua",
+      "sha256": "c6952a09e85a2918d89cac05c0d7b3c1bbb275501d153617bf893fa98098589c",
+      "bytes": 7768
+    },
+    {
+      "path": "pattern_ink.lua",
+      "sha256": "18ba5b5797da64c13b888588d18fb982a6c9cd449cba8c386d1db113dddb85e4",
+      "bytes": 1145
+    },
+    {
+      "path": "pattern_render.lua",
+      "sha256": "98c4888eb749c3195fd9ee7c66cd7537e4122cd32fdb648b9c9317bee9ed50e9",
+      "bytes": 11177
+    },
+    {
+      "path": "pdfwriter.lua",
+      "sha256": "6f4c733b22a5177d41c067c62fa2b8ffaebd02368aed3972212ddf0a2a25ee5b",
+      "bytes": 2860
+    },
+    {
+      "path": "tools/contractcheck.lua",
+      "sha256": "0add04dba84fea9f0b23b33d58682ecddeab818834c88b2f0be09d29ea746e2f",
+      "bytes": 7406
+    },
+    {
+      "path": "tools/preparescenefont.py",
+      "sha256": "e8b52fb499374425a67ff8acc88491101a56249350116b51798e60a170fcabe4",
+      "bytes": 5520
+    },
+    {
+      "path": "tools/scene_oracle.py",
+      "sha256": "e108fd39ec4406f168ffe30aa78036bdb067ec6ba079bfe35a3a86600869ab62",
+      "bytes": 7649
+    },
+    {
+      "path": "tools/scenecheck.lua",
+      "sha256": "808b092acd428587a7c1b4ebbd2190e3feff99cd07a0fa2a5ab384e1b99de07e",
+      "bytes": 8851
+    }
+  ],
+  "unchanged_parent_entries": 166,
+  "binary_files": "all inherited Git object IDs/modes preserved",
+  "ci_run": 41502953750,
+  "ci_status": "in_progress",
+  "status": "publication verified; stage gate remains in_progress"
+}

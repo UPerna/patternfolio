@@ -1,0 +1,93 @@
+{
+  "stage": "13",
+  "source_digest": "bab2ab2270431a9014d98a445ed24fc713d9a167b148a889acfb9e8ceff90d0a",
+  "native_checks": 18,
+  "native_output_hashes": 14,
+  "native_local_differences": [],
+  "kit_hashes": 299,
+  "oracle": {
+    "stage": "13",
+    "source_digest": "bab2ab2270431a9014d98a445ed24fc713d9a167b148a889acfb9e8ceff90d0a",
+    "finite_root": {
+      "leaves": 256,
+      "unit_squares": 768
+    },
+    "queries": {
+      "root": {
+        "leaves": 256,
+        "edges": 1088,
+        "query_cuts": 0,
+        "ancestors": 85
+      },
+      "a": {
+        "leaves": 93,
+        "edges": 411,
+        "query_cuts": 43,
+        "ancestors": 38
+      },
+      "b": {
+        "leaves": 94,
+        "edges": 422,
+        "query_cuts": 84,
+        "ancestors": 46
+      },
+      "expanded": {
+        "leaves": 149,
+        "edges": 648,
+        "query_cuts": 48,
+        "ancestors": 59
+      }
+    },
+    "shared_leaves": 64,
+    "outputs": 14,
+    "same_world_view": "byte and pixel exact",
+    "rasters": {
+      "root": {
+        "mean_backend_error": 0.024423974219317357,
+        "size": [
+          480,
+          480
+        ]
+      },
+      "a": {
+        "mean_backend_error": 0.031744137086185016,
+        "size": [
+          165,
+          135
+        ]
+      },
+      "common-a": {
+        "mean_backend_error": 0.032610893246187364,
+        "size": [
+          60,
+          75
+        ]
+      },
+      "common-b": {
+        "mean_backend_error": 0.032610893246187364,
+        "size": [
+          60,
+          75
+        ]
+      }
+    }
+  },
+  "visual_review": "Four native PDF/SVG pairs accepted, including the whole finite root and the same world window from two separate queries.",
+  "revision": "5fc7a9ee535e36614fc640d682fcfbfbffcbe08c",
+  "tree": "e509b84f5bf617a9391bd61bd096d4f2a241fefc",
+  "run": 41829970438,
+  "jobs": {
+    "portable": {
+      "id": 126574309587,
+      "conclusion": "success"
+    },
+    "pdfs": {
+      "id": 126574310315,
+      "conclusion": "success"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "c731e4e62074026a45139f137f775c6d5211de33f1852850fa64009fcaf937be",
+    "portable": "be82d45e6ebb4a8b9cbaf5308c03b27ce764d68927a4d5c36bf905988c197927"
+  }
+}

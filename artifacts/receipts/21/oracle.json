@@ -1,0 +1,89 @@
+{
+  "geometry": {
+    "analytic": {
+      "tiles": 136,
+      "coverage": 0.5469288588343825,
+      "grout_fraction": 0.45307114116561753,
+      "crossings": 0,
+      "orientation_error_rad": 0,
+      "max_overlap_cm2": 0.0,
+      "colors": 3,
+      "grid_samples": 1700,
+      "energy": 1.0661659205011293,
+      "iterations": 13
+    },
+    "baseline": {
+      "tiles": 136,
+      "coverage": 0.5469288588343825,
+      "grout_fraction": 0.45307114116561753,
+      "crossings": 17,
+      "orientation_error_rad": 0.5644319549913603,
+      "max_overlap_cm2": 0.0,
+      "colors": 4,
+      "grid_samples": 1700,
+      "energy": 1.0661659205011293,
+      "iterations": 13
+    },
+    "curved": {
+      "tiles": 141,
+      "coverage": 0.5081034082927794,
+      "grout_fraction": 0.49189659170722055,
+      "crossings": 11,
+      "orientation_error_rad": 7.1347493438347e-16,
+      "max_overlap_cm2": 0.0,
+      "colors": 4,
+      "grid_samples": 1700,
+      "energy": 1.0971413651481414,
+      "iterations": 18
+    },
+    "irregular": {
+      "tiles": 114,
+      "coverage": 0.5243969935020879,
+      "grout_fraction": 0.4756030064979121,
+      "crossings": 8,
+      "orientation_error_rad": 6.827041999591138e-16,
+      "max_overlap_cm2": 0.0,
+      "colors": 4,
+      "grid_samples": 1214,
+      "energy": 1.0283410975071456,
+      "iterations": 18
+    }
+  },
+  "renders": {
+    "analytic": {
+      "mean_backend_error": 0.006916014561206427,
+      "dimensions": [
+        384,
+        256
+      ]
+    },
+    "baseline": {
+      "mean_backend_error": 0.005749844154241558,
+      "dimensions": [
+        384,
+        256
+      ]
+    },
+    "curved": {
+      "mean_backend_error": 0.0018180897033292483,
+      "dimensions": [
+        384,
+        256
+      ]
+    },
+    "irregular": {
+      "mean_backend_error": 0.0020496908615876904,
+      "dimensions": [
+        384,
+        256
+      ]
+    },
+    "detail": {
+      "mean_backend_error": 0.00285621482389252,
+      "dimensions": [
+        192,
+        96
+      ]
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "stage": "25",
+  "source_digest": "4c7ef6dae1b91465d49f3bd67470d49111f35cb0e3dcdc37495efc0dc1099410",
+  "native_checks": 8,
+  "native_output_hashes": 19,
+  "native_local_differences": [
+    "branched-edit.instance",
+    "branched-edit.pdf",
+    "branched-edit.svg",
+    "branched.instance",
+    "branched.pdf",
+    "branched.svg",
+    "floral.instance",
+    "floral.pdf",
+    "floral.svg",
+    "geometric.instance",
+    "geometric.pdf",
+    "geometric.svg"
+  ],
+  "kit_hashes": 454,
+  "oracle": {
+    "edited_samples": 1,
+    "fixed_stamp_paths": 21,
+    "fixtures": {
+      "branched": {
+        "area": 0.610865706163107,
+        "coherent_corrections": 643,
+        "cut_energies": [
+          {
+            "energy": 613,
+            "flow": 613,
+            "straight_energy": 755
+          },
+          {
+            "energy": 572,
+            "flow": 572,
+            "straight_energy": 841
+          }
+        ],
+        "endpoint_ink_count": 0,
+        "fixed_middle_stamp_endpoint_ink_count": 2,
+        "holes": 0,
+        "outer_boundaries": 1,
+        "piece_roles": [
+          "start",
+          "middle",
+          "finish"
+        ]
+      },
+      "branched-edit": {
+        "area": 0.6093635778695096,
+        "coherent_corrections": 643,
+        "cut_energies": [
+          {
+            "energy": 613,
+            "flow": 613,
+            "straight_energy": 755
+          },
+          {
+            "energy": 572,
+            "flow": 572,
+            "straight_energy": 841
+          }
+        ],
+        "endpoint_ink_count": 0,
+        "fixed_middle_stamp_endpoint_ink_count": 2,
+        "holes": 0,
+        "outer_boundaries": 1,
+        "piece_roles": [
+          "start",
+          "middle",
+          "finish"
+        ]
+      },
+      "floral": {
+        "area": 0.6353156605282333,
+        "coherent_corrections": 651,
+        "cut_energies": [
+          {
+            "energy": 577,
+            "flow": 577,
+            "straight_energy": 577
+          },
+          {
+            "energy": 572,
+            "flow": 572,
+            "straight_energy": 767
+          }
+        ],
+        "endpoint_ink_count": 0,
+        "fixed_middle_stamp_endpoint_ink_count": 2,
+        "holes": 1,
+        "outer_boundaries": 1,
+        "piece_roles": [
+          "start",
+          "middle",
+          "finish"
+        ]
+      },
+      "geometric": {
+        "area": 0.6312926915477216,
+        "coherent_corrections": 637,
+        "cut_energies": [
+          {
+            "energy": 577,
+            "flow": 577,
+            "straight_energy": 577
+          },
+          {
+            "energy": 572,
+            "flow": 572,
+            "straight_energy": 577
+          }
+        ],
+        "endpoint_ink_count": 0,
+        "fixed_middle_stamp_endpoint_ink_count": 2,
+        "holes": 1,
+        "outer_boundaries": 1,
+        "piece_roles": [
+          "start",
+          "middle",
+          "finish"
+        ]
+      }
+    },
+    "source_digest": "4c7ef6dae1b91465d49f3bd67470d49111f35cb0e3dcdc37495efc0dc1099410"
+  },
+  "visual_review": "Accepted all five native PDF/SVG pairs, including local erase and rigid stamp comparison.",
+  "difference_analysis": {
+    "analysis": "Categorical JSON, path commands and SVG attributes agree. Checked all differing numeric values with physical bounds.",
+    "exact_controls_and_categorical_structure": true,
+    "files": {
+      "branched-edit.instance": {
+        "numeric_entries": 9,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "branched-edit.pdf": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "branched-edit.svg": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "branched.instance": {
+        "numeric_entries": 9,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "branched.pdf": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "branched.svg": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "floral.instance": {
+        "numeric_entries": 10,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "floral.pdf": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "floral.svg": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "geometric.instance": {
+        "numeric_entries": 11,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "geometric.pdf": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      },
+      "geometric.svg": {
+        "numeric_entries": 2,
+        "maximum_absolute_delta": 1.1102230246251565e-16
+      }
+    },
+    "pdf_raster_cross_host": {
+      "branched-edit-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "branched-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "fixed-stamp-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "floral-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      },
+      "geometric-pdf.png": {
+        "normalized_mean": 0.0,
+        "peak_channel_delta": 0
+      }
+    }
+  },
+  "revision": "af18c263e2cf9fbc1eb8b5103d1dd47d1f2a65bf",
+  "tree": "76b3a99987cb1378e0a3b9ecd7e996f5cd405a91",
+  "run": 41922300569,
+  "jobs": {
+    "pdfs": {
+      "id": 126897608269,
+      "conclusion": "success"
+    },
+    "portable": {
+      "id": 126897608455,
+      "conclusion": "success"
+    },
+    "gallery": {
+      "id": 126897610680,
+      "conclusion": "skipped"
+    }
+  },
+  "archive_sha256": {
+    "pdfs": "69d47740b2618df95286c0033a05f7d6eb1fd29716f25c0673d5aa9e213ce084",
+    "portable": "610fb3415471515ac6658bf2abc632b8ff35e0c1808ac3cc8349afc8d73c8057"
+  }
+}

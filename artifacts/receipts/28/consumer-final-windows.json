@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "source_digest": "d50ca5dc265b53d9efb97f9aa401892c3031565def3f4670d4f7cc5be5aa26ff",
+  "families": {
+    "botanical-panel": {
+      "family": "botanical/asymmetric-garden",
+      "artifacts": {
+        "instance.json": "cb22737c5b71fbbfab6d49d4bf6356ae5b50499cb2f7d896da34534df87aab0c",
+        "pattern.pdf": "ab661827ab76bbda015cd7d0fea4f251f01b676389ffba47f6f7185c0f0e1131",
+        "pattern.svg": "1415a92587e4191489f06017503cf2d35b4bd60337f6eaabd314c44999023304"
+      },
+      "parent_record": "build/88df27172e7b908416b953b848c04bf18209c2b1ad61b4d5f08879a17449b165",
+      "replay_record": "build/b89d9ad253994abe3f7870fa6c4972755363442897ea368232072a93dbc7ca45",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "periodic": {
+      "family": "tiling/periodic",
+      "artifacts": {
+        "instance.json": "52f96409fa57ffd06ce02ed428e9289a05afa56cfb4b2657f17cf396f6a3ff21",
+        "pattern.pdf": "96b996b1e6c1ac0d1fe7586cda74e74ea746f06d0231ad2d52dd0d5dbad11662",
+        "pattern.svg": "0d80c8b0855abe1f1282f784a6ec5624b3de75caee363938e28e05f2a9af4acf"
+      },
+      "parent_record": "build/ab1ee1a3c9257d0a54e318ce3c4934708b9b4234a60a7db1100ca8684b7257f4",
+      "replay_record": "build/49dcf014f013e185017fa16d0c54e575b9e2c8fcaf08bf4e4b644461db416d40",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "celtic": {
+      "family": "strand/celtic",
+      "artifacts": {
+        "instance.json": "0df09e1caafb9c253ab7a54f75ba95c69b8f371d16c3c610d277c6f8498838ca",
+        "pattern.pdf": "71dd4f0f1e210c06118584cf3a2259a8733c7b9d1ac9f0d22a22c069d6258cd1",
+        "pattern.svg": "aef7897a30b6c6dd56d9bfa8b0bd88c1b30a614f2e81bd266e29c820db705a01"
+      },
+      "parent_record": "build/c5b98ea33ed16c41e50a8063c7a9fd6ead2c3b594d4e5f984bedef7cd3fd57da",
+      "replay_record": "build/a6668dc96d8dd0e0ccc5bd71e4591ace2f567a66d1466168fce871d4631dfa8f",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "islamic": {
+      "family": "ornament/islamic-pic",
+      "artifacts": {
+        "instance.json": "cc33714ee79f7a49376f5a4a42ebfac35252a68922cfb04e6104fca0f19e04da",
+        "pattern.pdf": "a86be2ac288d0a1e08e6a3a9570827194f1f9c25218837d5984c4e738c020916",
+        "pattern.svg": "7d914794d7fc30c968e22500c21f381ab16800144afa64086409a28c47eef16b"
+      },
+      "parent_record": "build/1577b13169abfd7fb3b3e2755c5dc24d771490e1ee5573822e772fd3d979f0ef",
+      "replay_record": "build/31691ff8c1cf823ab05ac1f5a15cb54a3a1d2e2a56599ea9621cfd49adef5cd1",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "freeform": {
+      "family": "ornament/islamic-freeform",
+      "artifacts": {
+        "instance.json": "bbcaceb42f54125a51ffa4713e6d9462273d6010482c4c3cceb40430afea8a4d",
+        "pattern.pdf": "d67bf1f9cec20db0602d6a6289571a7ac511ebeb796ed039b25518efe2d7583b",
+        "pattern.svg": "80e20d647bdb4f949f43ef37b8e0c9fd056fcc909c883739273eb56efc0e2512"
+      },
+      "parent_record": "build/a89869d39675aba26a7137ac13f8ba088ee89bb16794b7ff16282c71982d3123",
+      "replay_record": "build/180d2a1b45f6cd2e5fe714468a9a79e2f3dd1182e0cadafd39ef374bea1e4e2f",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "substitution": {
+      "family": "tiling/finite-substitution",
+      "artifacts": {
+        "instance.json": "fbda60a3a97a2908e2729319a6d68ea5638beda532058b3ff51c892b8f7d622e",
+        "pattern.pdf": "129051b7dde58e3f031dd8963683026c47be7e184fa8914de21ed7ff438507f9",
+        "pattern.svg": "fef51be6be6d7467dda4dc0f5bf3d2fa0b0b0c909f2449164a7f8069c758c73e"
+      },
+      "parent_record": "build/183cbe72a5b8b3d711590adf720549478a77b3d64fee1644f6d4abb26e24d84b",
+      "replay_record": "build/b1a2de83ee60b11e2820fa3986ba9c2d805b32f590799686ac250618bf8f0cb5",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "penrose": {
+      "family": "tiling/penrose-p3",
+      "artifacts": {
+        "instance.json": "4832c3a86ee0192e269b4d6779bc3caf6acc1da5194937001491b5473418f635",
+        "pattern.pdf": "c11d72d93a43d200bae35d3d6b7e02e866548416c51ce3e98294a131e080b6e8",
+        "pattern.svg": "14b4285f1d83cbbd29365dc6631fb9ff9796bbccfc7cea82b54da1f79855774f"
+      },
+      "parent_record": "build/d592a9604c87cbe7a63253010afe61d0ef076dbc10281ff8385cce3623a67c10",
+      "replay_record": "build/d43688f0bd5f2f22e16048c4ef8749db37d724c96bb63a4516532b9851ab9dba",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "spectre": {
+      "family": "tiling/spectre",
+      "artifacts": {
+        "instance.json": "a154b6bddcde8c38c357892707727ce3086f21a8a7cd3b2b7b971251d4242c4e",
+        "pattern.pdf": "a84dc160e806a92f8a84d946cccbc2383609c766eb7e8d9cdc37c07ab75b6ea7",
+        "pattern.svg": "a41fbc9c0d05f39b6851387f0377cf11019f5274d893510845bcc0a7590efd75"
+      },
+      "parent_record": "build/7d54ce66c69cce897783d1e1bfc174cb08cf280134f484b5d5d77abc8c11b411",
+      "replay_record": "build/a8a57a66b8ce8a9a64e217f97e8d26c6a6f71f5080e7fddb2c8bcaafa4d94cef",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "beenker": {
+      "family": "tiling/ammann-beenker",
+      "artifacts": {
+        "instance.json": "8c982efc4d08bde99eb29e5df4fd16ff3ed52989236758aeda6f8c68d34a5013",
+        "pattern.pdf": "438d168538af0c487263f922257ae402a057298fe4c9d4758f10ea47699dcb33",
+        "pattern.svg": "44c6e4816d0ec8d90c9515618a3b2d1f4c7e1a0ab4faf78437d7914e9128938c"
+      },
+      "parent_record": "build/365a4c13c9e3a4042e8e191581ecf3875ce70160ec01be3911ef79046fb0da8e",
+      "replay_record": "build/c209b45ec40c8ce901052e2208e1791b9d323e4402f3913abfa44287f426f6ad",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "completion": {
+      "family": "tiling/marked-square-completion",
+      "artifacts": {
+        "instance.json": "e8980b8f218d0c2268a28b3c74bce1cfa9ff1c23764f72fa66221b7250b8d43d",
+        "pattern.pdf": "e96f6ceedb90cfb8dd2c425c9741101b715158bb25f39ec1e39efea35c14af23",
+        "pattern.svg": "c605ca42af989c141dcedae3b1a2e60ea7fde14b93ee311fc07a62c945ad93e7"
+      },
+      "parent_record": "build/aa3465ba0d739849f544f5b61989c276859928129e3b0e29fefa8876b0f29038",
+      "replay_record": "build/1dfd5619ebf8638c11cb55d47cae2c60eb9cbf11fd70ecccfcda08e9879bb75b",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "tracery": {
+      "family": "ornament/gothic-tracery",
+      "artifacts": {
+        "instance.json": "51ffec5b1e08f1ba9ff4f11ca71758ac04823c58808730b7c34515666c86d689",
+        "pattern.pdf": "308572f1e64ed060edc50c121cd9d7db486fbf6502b9439b79478142a53936e3",
+        "pattern.svg": "f3e042ddf9579528bdf72853c6c7049b75b633edbef2a2740e38c7414e017f71"
+      },
+      "parent_record": "build/edbc03256dec5ecd875a6f0f2979f4f8f355164d74c0cae8b1985de8a0bc13e3",
+      "replay_record": "build/44221d59b34c084e1129cb34174ec510e5c7009ea1f8a93df5a11ebfb7b50a9a",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "escher": {
+      "family": "tiling/escherization",
+      "artifacts": {
+        "instance.json": "2d9bd3ba8aea496f6f92562b1d20166d704b344ada8cff007f984065fa96984f",
+        "pattern.pdf": "acdf1c368bc0273f80a8300422ea81cc0e08b2e2ebe27f2d6ad80b502d7291e6",
+        "pattern.svg": "9b3d751e07ac75dd3d989d1a6b24107befd0767bccdecc4559d92bda4cbbde29"
+      },
+      "parent_record": "build/0e2000cfb7fa2899747e24ce74720e05e47a43825e90bad52d380878c14074ee",
+      "replay_record": "build/f32a9830bda1ffdb8f9b3ff8c1cad08c29093dffbe83fc0979a83011442fe97d",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "mosaic": {
+      "family": "mosaic/hausner",
+      "artifacts": {
+        "instance.json": "2118cebf967c33d0fcd6623b7c701e92b387cf3cca98f4d1fba0264b59cda43e",
+        "pattern.pdf": "bbcb172faa0dcae7363d323856f48302b76b1577e73d5ec86d86b5b7233c7f29",
+        "pattern.svg": "1e71574101c758e30748a042de6722d39bc235d91a01da5fe217ad63d838bd20"
+      },
+      "parent_record": "build/c96361d3976c954e988c663c35a853dd60f230da484583d59f2913d7c2f139e9",
+      "replay_record": "build/e386be7fa2d146f7e101e42f6f9deb5e9ceafcd73cb2131c4e45f95baeef4997",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "stroke": {
+      "family": "stroke/fields-and-examples",
+      "artifacts": {
+        "instance.json": "2a32b0ed2fafd57270b233242b30bc2df380d0215cea52b6e1cf9545ba135993",
+        "pattern.pdf": "ffabd11bd8b78636f49de85de6bbdb834191bfe6668e3f317bb745b1cf858683",
+        "pattern.svg": "b06ba2c6dd007ad89ba514f4bb7f95e9ad0c16b1863d6af065dcb66712987dc3"
+      },
+      "parent_record": "build/4589e882cafcf1a41fb7f5d1877e0a95eaa9117b295f021a4009d6febe299a8d",
+      "replay_record": "build/768390ad3a145134e31a262ca6c77d2467f6e02fb1209b30c1cb240d96a587a9",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "maze": {
+      "family": "maze/image-guided",
+      "artifacts": {
+        "instance.json": "f4625f06657b2817ee512b6650f830a2160dc0b66aa7323cd71bdc9cbb293388",
+        "pattern.pdf": "dfc02d4f730c56e80eb409bb1fcd0181fa3634e17f5ab32648ebfd1acb99eba2",
+        "pattern.svg": "b7aad2106a061f69e6eb5e24e04cfd50e69b5682b25f92265ce5312ffc976ff4"
+      },
+      "parent_record": "build/d462b2085bd4048ca4ab376e95aac538e38520810a1c7e816382e8aece4c9f9a",
+      "replay_record": "build/329526b2c501b2fa2b4c6821e37c9cf23d89ae9ac85c3e4d09389863f8885e32",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "micrography": {
+      "family": "text/digital-micrography",
+      "artifacts": {
+        "instance.json": "32bdd320b78ab296194b3046052150b9289afd20e63fcc29b9ca7ab42e939578",
+        "pattern.pdf": "287ec34e839d43d8d1161da052b0acbfaac0fc142ed6e9eb78ca45c840579efe",
+        "pattern.svg": "9117c26810c4eaa7d3d4cdf8f220e86d3e9be5719313329a36e3ae0cfb0c2017"
+      },
+      "parent_record": "build/ff0c2cf60d9a63aaf9e9a6c6200a12b5e1b51a5090b59b26bd4fff0335d7e7e3",
+      "replay_record": "build/a7eebc95e3a4ec5326fbe8422a69a574b8a9dbe568316dd78f05fd9efc4f3c26",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "decobrush": {
+      "family": "decoration/decobrush",
+      "artifacts": {
+        "instance.json": "857b7b33b0407f0276ff695d44fe1be8bc16b8cd8c00f54f587c565a3820d077",
+        "pattern.pdf": "967c6ae83984f8f1b703fdc0334ebd8f4827c877346557bf09e5670d663f5b16",
+        "pattern.svg": "a976a1a77a77d5a919b0f3bd322e01dd037d5aa52566dd9cae626c7625b78b04"
+      },
+      "parent_record": "build/18fd9e2c7e54651b26a4a1a5106b290f0eb9ab3608a600c14a4e61f9be5a644b",
+      "replay_record": "build/cf830e983abb58d3e2e19e6ff2b562ce5087d3d457591f1090206c8fec1ef778",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "gothic-spatial": {
+      "family": "gothic/spatial-ogee",
+      "artifacts": {
+        "instance.json": "f94ac2f770aa55d48e83c23e2e86184a2c53093ea6bd1e74fba729bbd6f22554",
+        "pattern.pdf": "18bfefc400f9539d80f77216a69a9e5c9903cca1ef8747c3b2b72afee5f61e02",
+        "pattern.svg": "a5394305eaf92c4c7117a1a131dd4d84b82ee83f5e541d0f3a69e5112bf86993"
+      },
+      "parent_record": "build/2b4b3ff083c164e4284d0a60eddffc2bc998bf60235bee8ac5fca3f11d7d4941",
+      "replay_record": "build/0925a3a754503fcbf1df761919ddb207dff0ad609db1d5e2217d7c5cbf9b6cd4",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "inline": {
+      "family": "collection/ornament",
+      "artifacts": {
+        "instance.json": "9ad99cae5be0ac604461342ed82be0535633b6ef343709bdc5ff37366795c637",
+        "pattern.pdf": "9f606eb95f5d0240b6bd1c1a437dec4e609dd8bdc7c82aba589cd761393f4988",
+        "pattern.svg": "adc7261ac03aa9b1897d8d80f7d314e160876f69b91fd0129e3b0d98d77e441a"
+      },
+      "parent_record": "build/a0f47a904ce1168e33d54b16bd86d0d2ca284553904d099a78a23d9470bdd9f6",
+      "replay_record": "build/ef1a40da3fa7fcdc923b080758d78be3836cd9b5cd7e03b936edc79d3294877e",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "hat": {
+      "family": "tiling/hat",
+      "artifacts": {
+        "instance.json": "0db5784066555888269a6fefe69bc3d73092bbbfd8c4a43683d8b035d9bbe128",
+        "pattern.pdf": "3f75830c1c7717bd86b9f5c684945d2c6702674d7a9803f5eda2b8f5714eec29",
+        "pattern.svg": "d76eaf30decb588b86512e10858557f354e66dd6ef5f7d28282411bef99a0865"
+      },
+      "parent_record": "build/a039d8ee064ee4195ee2be6fc99feee7337bc1298e6a76373ef5d9431b4c4ad5",
+      "replay_record": "build/0417f97e0b481e06d34c6f47482f33af72b1e181431bf0ed1914c2f48028bbd5",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "botanical-authored": {
+      "family": "botanical/legacy-authored",
+      "artifacts": {
+        "instance.json": "39a2aa177d49bda3e832d1e97ec1b22eeb3fe8a8693324ce5855fe8b65c45edb",
+        "pattern.pdf": "eba407109e1b5ba13f2bd3ed13d7b18790334fc8fe738647621c38fe6f3254d2",
+        "pattern.svg": "e4abcd3483755573bedc2082390dbe89d5ba6a20e9b8f7d8963c3713d1d9d2af"
+      },
+      "parent_record": "build/cb97fe633a033525738601195c020f6bcac10fe8dc6baa063b71b26c494b8570",
+      "replay_record": "build/313a9be1070f03dc908d5fc498ea93ed2477d7a9d66ff6dd172af257d1c87c8b",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    },
+    "botanical-grown": {
+      "family": "botanical/legacy-grown",
+      "artifacts": {
+        "instance.json": "484e28af660f55a5f0057e5138d854f9e74d3b6468ffbc7f4ef6f6cc5551a14b",
+        "pattern.pdf": "3e092fbf5b735aa390af1042cad795f4ba9ac59196d2144f378abe0efc1625d2",
+        "pattern.svg": "5fc636b0bcc8e9d0e67299a0f264aebfdd086612de24c81df1c421211f0cf356"
+      },
+      "parent_record": "build/6823e28c9965956e018b3343f356958f4a079734c6c92f542f1c3b5f323327a5",
+      "replay_record": "build/4b978028966cdfc5842ab3ccb47ee57938240ae1d5500ae18c3f9be52168a4c9",
+      "source_digest": "28ed86e9fa345abe298e771041876b1b7baa16d073479b085578b01333bbd16d"
+    }
+  },
+  "public_commands": {
+    "capabilities": 1,
+    "schema": 22,
+    "validate": 22,
+    "batch": 1,
+    "validate-instance": 22,
+    "replay": 23,
+    "render": 1,
+    "diagnose": 1
+  },
+  "pdf_reader": "pypdf local QA",
+  "failures": {
+    "checks": 19,
+    "symlink_checked": false,
+    "signal_cancellation_checked": false,
+    "junction_checked": true,
+    "timeout_checked": true,
+    "hardlink_lock_checked": true,
+    "partial_batch_repaired": true,
+    "damaged_output_rebuilt": true,
+    "unicode_paths_checked": true,
+    "concurrent_destination_checked": true
+  },
+  "cached_optimizer_replay": "Generator bypass plus unchanged Escher solver witness and output"
+}

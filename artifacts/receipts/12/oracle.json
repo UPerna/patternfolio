@@ -1,0 +1,100 @@
+{
+  "stage": "12",
+  "source_digest": "ecda35ad85d8abe10ad21e94b0a077144cc4d7547a60a9f4c4f1bb138e04cebc",
+  "fixtures": {
+    "base": {
+      "circles": 7,
+      "tangencies": 12,
+      "maximum_tangency_residual": 1.9984014443252818e-15,
+      "minimum_nonedge_clearance": 1.3176914536239794,
+      "maximum_embedded_angle_residual": 0.0,
+      "intrinsic_angle_residual": 0.0,
+      "orders": [
+        12
+      ],
+      "faces": 19,
+      "joined_ports": 72,
+      "seam_direction_residual": 2.9394713984828794e-15
+    },
+    "mixed": {
+      "circles": 8,
+      "tangencies": 15,
+      "maximum_tangency_residual": 4.942157794118884e-12,
+      "minimum_nonedge_clearance": 0.9253668413718675,
+      "maximum_embedded_angle_residual": 0.0,
+      "intrinsic_angle_residual": 3.768541034787631e-12,
+      "orders": [
+        6,
+        14
+      ],
+      "faces": 26,
+      "joined_ports": 106,
+      "seam_direction_residual": 2.7822109252321576e-15
+    },
+    "panel": {
+      "circles": 8,
+      "tangencies": 15,
+      "maximum_tangency_residual": 3.844036200462142e-12,
+      "minimum_nonedge_clearance": 0.719729765511453,
+      "maximum_embedded_angle_residual": 0.0,
+      "intrinsic_angle_residual": 3.770317391627032e-12,
+      "orders": [
+        6,
+        14
+      ],
+      "faces": 26,
+      "joined_ports": 106,
+      "seam_direction_residual": 5.064917260848195e-15
+    }
+  },
+  "tolerance_sensitivity": [
+    {
+      "circles": 8,
+      "tangencies": 15,
+      "maximum_tangency_residual": 9.794666189222312e-10,
+      "minimum_nonedge_clearance": 0.9253668413521842,
+      "maximum_embedded_angle_residual": 0.0,
+      "intrinsic_angle_residual": 7.470255525277025e-10
+    },
+    {
+      "circles": 8,
+      "tangencies": 15,
+      "maximum_tangency_residual": 4.942157794118884e-12,
+      "minimum_nonedge_clearance": 0.9253668413718675,
+      "maximum_embedded_angle_residual": 0.0,
+      "intrinsic_angle_residual": 3.768541034787631e-12
+    },
+    {
+      "circles": 8,
+      "tangencies": 15,
+      "maximum_tangency_residual": 2.142730437526552e-14,
+      "minimum_nonedge_clearance": 0.9253668413719677,
+      "maximum_embedded_angle_residual": 0.0,
+      "intrinsic_angle_residual": 1.9539925233402755e-14
+    }
+  ],
+  "outputs": 13,
+  "raster": {
+    "base": {
+      "ink_pixels": [
+        4748,
+        4727
+      ],
+      "mean_normalized_error": 0.0016034454934237068
+    },
+    "mixed": {
+      "ink_pixels": [
+        4705,
+        4695
+      ],
+      "mean_normalized_error": 0.0015657730170257405
+    },
+    "panel": {
+      "ink_pixels": [
+        3545,
+        3518
+      ],
+      "mean_normalized_error": 0.0011097998870330025
+    }
+  }
+}

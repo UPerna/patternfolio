@@ -1,0 +1,25 @@
+{
+  "status": "local-repair-verified_nativeCI-pending",
+  "parent": "ef55779a121317ccd9a909c5d4e84b94d368122a",
+  "findings": [
+    "False-valued native edit fields were silently ignored and invalid GUI drafts replaced",
+    "Applied structural change restored with previous preview incorrectly labeled Complete",
+    "JS key order used in place of actual native canonical recipe identity"
+  ],
+  "fixes": [
+    "Native object/array guards for all edit containers; bad edit request types/commands rejected before host reads",
+    "Previous preview explicitly labeled after refresh/history until generation",
+    "Native canonical recipe SHA compared to result-manifest recipe SHA; preview assumptions use its actual recipe"
+  ],
+  "actual_checks": [
+    "17revision+17oldCLIcore+92editor/planner/color/parser/types checks each under Lupa2.8 Lua5.3 and5.4",
+    "Invalid-draft and structural-refresh cases fail against previous candidate",
+    "Updated browser structural-refresh, invalid-edit-recovery, strong recovery and partial-packing pass",
+    "IndependentPDF/XML inspection of4currentoutputs passed"
+  ],
+  "full_required_editor_coverage": {
+    "workflows": 13,
+    "outputs": 15
+  },
+  "native_ci": "Must rerun all five exact-new-head jobs and artifacts; previous 59/60 candidates remain unaccepted"
+}

@@ -1,0 +1,36 @@
+{
+  "stage": "09",
+  "original_source": "ffd3dc459e24ca70ca5be5be1802bcfd8fc79c7befc11fa95422132ecbd1f9cb",
+  "initial_result": "failed preflight expectation of maximum channel difference <=1 across different SVG viewports",
+  "initial_overlap": {
+    "pdf": {
+      "pixels": 17056,
+      "changed": 0,
+      "peak": 0
+    },
+    "svg": {
+      "pixels": 17056,
+      "changed": 7,
+      "peak": 4,
+      "histogram": {
+        "0": 17049,
+        "1": 5,
+        "2": 1,
+        "4": 1
+      }
+    }
+  },
+  "diagnosis": "Subpixel rasterization difference between distinct viewport clips. Retaining original world path coordinates and stable edge order left the same seven differences. The matched geometry and common-window results verify the underlying pattern.",
+  "current_source": "0486f488b10f94f89672dbd40427936aa52d4a2c792d182be671dadfc98d54ee",
+  "current_exact_world_paths": 54,
+  "common_window": {
+    "pdf": "fcc201889eca8a49dcabc3b79a8cc985f6b58b9e6af00785586489ff7b47deaf",
+    "svg": "04d6d0a0c018bcbe4e0ae4eaa5e2f4ef9a9cdb041d8cfcea4535d3a096530bdd",
+    "plan": "7d767232886f31e920aa29abdbd176e62fb04304c56548275941ddf081312fcf",
+    "pixel_max_error": {
+      "pdf": 0,
+      "svg": 0
+    }
+  },
+  "original_artifacts": "build/periodic/ffd3dc459e24ca70ca5be5be1802bcfd8fc79c7befc11fa95422132ecbd1f9cb/; work/stage09-world-audit retains the targeted world-coordinate re-render"
+}

@@ -8,16 +8,40 @@ on:
 permissions:
   contents: read
 
+env:
+  FLO_CANDIDATE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+
 jobs:
-  pdfs:
+  release-admission:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: ${{ env.FLO_CANDIDATE_SHA }}
+          persist-credentials: false
+      - name: Verify exact source and locked release inputs
+        run: python3 tools/release_admission.py --expected-revision "$FLO_CANDIDATE_SHA"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          archive: true
+          name: florilegium-release-admission
+          path: build/release-admission.json
+          if-no-files-found: error
+
+  pdfs:
+    needs: release-admission
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.FLO_CANDIDATE_SHA }}
           persist-credentials: false
       - name: authored and grown (lualatex)
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@e2f99d4b3685b0da93f97e1b86ad8fab81105098 # v3
         with:
+          docker_image: ghcr.io/xu-cheng/texlive-full@sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7
           root_file: |
             florilegium.tex
             florilegium-grow.tex
@@ -27,8 +51,74 @@ jobs:
             folio-demo.tex
             specimen.tex
           latexmk_use_lualatex: true
-          extra_system_packages: python3 py3-pillow poppler-utils inkscape
+          extra_system_packages: git python3 py3-pillow poppler-utils inkscape
           post_compile: >-
+            texlua tools/contractcheck.lua &&
+            texlua tools/replaycheck.lua &&
+            python3 tools/determinism_oracle.py &&
+            texlua tools/geometrycheck.lua &&
+            python3 tools/geometry_oracle.py &&
+            texlua tools/scenecheck.lua &&
+            python3 tools/scene_oracle.py &&
+            texlua tools/plannercheck.lua &&
+            python3 tools/planner_oracle.py &&
+            texlua tools/botanicalcheck.lua --legacy-layout &&
+            python3 tools/botanical_oracle.py &&
+            texlua tools/periodiccheck.lua &&
+            python3 tools/periodic_oracle.py &&
+            texlua tools/celticcheck.lua &&
+            python3 tools/celtic_oracle.py &&
+            texlua tools/islamiccheck.lua &&
+            python3 tools/islamic_oracle.py &&
+            texlua tools/freeformcheck.lua &&
+            python3 tools/freeform_oracle.py &&
+            texlua tools/substitutioncheck.lua &&
+            python3 tools/substitution_oracle.py &&
+            texlua tools/penrosecheck.lua &&
+            python3 tools/penrose_oracle.py &&
+            texlua tools/spectrecheck.lua &&
+            python3 tools/spectre_oracle.py &&
+            texlua tools/integrationcheck.lua &&
+            python3 tools/integration_oracle.py &&
+            texlua tools/beenkercheck.lua &&
+            python3 tools/beenker_oracle.py &&
+            texlua tools/hatcheck.lua &&
+            python3 tools/hat_oracle.py &&
+            texlua tools/tracerycheck.lua &&
+            python3 tools/tracery_oracle.py &&
+            texlua tools/eschercheck.lua &&
+            python3 tools/escher_oracle.py &&
+            texlua tools/mosaiccheck.lua &&
+            python3 tools/mosaic_oracle.py &&
+            texlua tools/strokecheck.lua &&
+            python3 tools/stroke_oracle.py &&
+            texlua tools/mazecheck.lua &&
+            python3 tools/maze_oracle.py &&
+            texlua tools/micrographycheck.lua &&
+            python3 tools/micrography_oracle.py &&
+            texlua tools/check-deco-integration.lua &&
+            texlua tools/decocheck.lua &&
+            python3 tools/deco_oracle.py &&
+            texlua tools/gothiccheck.lua &&
+            python3 tools/gothic_oracle.py &&
+            texlua tools/collectioncheck.lua &&
+            python3 tools/collection_oracle.py &&
+            texlua tools/check-cli-core.lua &&
+            texlua tools/check-editor-revision.lua &&
+            texlua tools/check-editor-prepare.lua &&
+            texlua tools/adversarialcheck.lua &&
+            python3 tools/adversarial_oracle.py &&
+            texlua tools/check-hash-cache.lua &&
+            texlua tools/check-packing-scale.lua &&
+            texlua tools/perf_prepare.lua &&
+            texlua tools/check-floral-editor-seed.lua &&
+            texlua tools/check-performance-bounds.lua &&
+            python3 tools/perf_bench.py --label native-ci &&
+            python3 tools/clicheck.py &&
+            python3 tools/export_review.py &&
+            python3 tools/make-gallery.py &&
+            python3 tools/check-gallery.py build/pattern-atlas &&
+            python3 tools/release_candidate.py --atlas build/pattern-atlas --verify-repeat &&
             texlua tools/layoutcheck.lua &&
             texlua tools/spacecheck.lua &&
             texlua tools/initialcheck.lua &&
@@ -36,8 +126,15 @@ jobs:
             python3 tools/layoutsmoke.py &&
             python3 tools/bookcheck.py &&
             texlua tools/animcheck.lua 1 6
-      - uses: actions/upload-artifact@v4
+      - name: make public export examples readable
+        if: always()
+        run: |
+          if test -d build/export-review; then sudo chmod -R a+rX build/export-review; fi
+          if test -d build/pattern-atlas; then sudo chmod -R a+rX build/pattern-atlas; fi
+          if test -d build/release-candidate; then sudo chmod -R a+rX build/release-candidate; fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
+          archive: true
           name: florilegium-pdfs
           path: |
             florilegium.pdf
@@ -47,19 +144,137 @@ jobs:
             asset-demo.pdf
             folio-demo.pdf
             specimen.pdf
+            build/scenes/
+            build/planner/
+            build/botanical/
+            build/periodic/
+            build/celtic/
+            build/islamic/
+            build/freeform/
+            build/substitution/
+            build/penrose/
+            build/spectre/
+            build/integration/
+            build/beenker/
+            build/hat/
+            build/tracery/
+            build/escher/
+            build/mosaic/
+            build/strokes/
+            build/maze/
+            build/micrography/
+            build/decobrush/
+            build/gothic/
+            build/collection/
+            build/cli-core/
+            build/editor-revision/
+            build/editor-prepare/
+            build/adversarial/
+            build/hash-cache/
+            build/packing-scale/
+            build/performance/
+            build/performance-bounds/
+            build/floral-editor-seed/
+            build/cli/
+            build/export-review/
+            build/pattern-atlas/
+            build/release-reproducibility.json
+      - name: Store the review candidate
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          archive: true
+          name: florilegium-release-candidate
+          path: build/release-candidate/
+          compression-level: 0
+          if-no-files-found: error
 
-  portable:
+  patterns-luatex:
+    needs: release-admission
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: ${{ env.FLO_CANDIDATE_SHA }}
           persist-credentials: false
-      - name: shared renderer and source kit
-        uses: xu-cheng/latex-action@v3
+      - name: common semantic patterns in real LuaLaTeX documents
+        uses: xu-cheng/latex-action@e2f99d4b3685b0da93f97e1b86ad8fab81105098 # v3
         with:
+          docker_image: ghcr.io/xu-cheng/texlive-full@sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7
           root_file: folio-demo.tex
           latexmk_use_lualatex: true
-          extra_system_packages: python3 py3-pillow poppler-utils inkscape
+          extra_system_packages: python3 py3-pillow py3-pypdf poppler-utils
+          post_compile: >-
+            texlua tools/check-pattern-tex.lua &&
+            texlua tools/check-pattern-luatex-host.lua &&
+            python3 tools/pattern_tex_consumer.py
+      - name: make common-pattern verification files readable
+        if: always()
+        run: |
+          for folder in build/pattern-tex build/pattern-luatex-host build/pattern-luatex; do
+            if [ -d "$folder" ]; then sudo chmod -R a+rX "$folder"; fi
+          done
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: florilegium-common-luatex
+          path: |
+            build/pattern-tex/
+            build/pattern-luatex-host/
+            build/pattern-luatex/
+
+  patterns-dual:
+    needs: release-admission
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.FLO_CANDIDATE_SHA }}
+          persist-credentials: false
+      - name: shared semantic patterns and bounded builds in both native engines
+        uses: xu-cheng/latex-action@e2f99d4b3685b0da93f97e1b86ad8fab81105098 # v3
+        with:
+          docker_image: ghcr.io/xu-cheng/texlive-full@sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7
+          root_file: folio-demo.tex
+          latexmk_use_lualatex: true
+          extra_system_packages: python3 py3-pillow py3-pypdf poppler-utils
+          post_compile: >-
+            texlua tools/check-pattern-xetex.lua &&
+            python3 tools/build_statecheck.py &&
+            python3 tools/pattern_dual_tex_consumer.py
+      - name: preserve dual-engine verification evidence
+        if: always()
+        run: |
+          for folder in build/pattern-xetex build/pattern-luatex build/pattern-dual build/build-control; do
+            if [ -d "$folder" ]; then sudo chmod -R a+rX "$folder"; fi
+          done
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: florilegium-common-dual
+          path: |
+            build/pattern-xetex/
+            build/pattern-luatex/
+            build/pattern-dual/
+            build/build-control/
+
+  portable:
+    needs: release-admission
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.FLO_CANDIDATE_SHA }}
+          persist-credentials: false
+      - name: shared renderer and source kit
+        uses: xu-cheng/latex-action@e2f99d4b3685b0da93f97e1b86ad8fab81105098 # v3
+        with:
+          docker_image: ghcr.io/xu-cheng/texlive-full@sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7
+          root_file: folio-demo.tex
+          latexmk_use_lualatex: true
+          extra_system_packages: git python3 py3-pillow py3-pypdf poppler-utils inkscape
           post_compile: >-
             python3 tools/enginecheck.py --require-outlines &&
             python3 tools/offsetcheck.py &&
@@ -67,38 +282,108 @@ jobs:
             python3 tools/visualcheck.py &&
             python3 tools/foliopreview.py &&
             python3 tools/build.py folio-demo.tex --engine xe --output-dir build/xe &&
-            python3 tools/packagecheck.py
+            python3 tools/packagecheck.py &&
+            python3 tools/botanical_enginecheck.py &&
+            python3 tools/release_sourcecheck.py
       - name: make container build evidence readable
         if: always()
         run: sudo chmod -R a+rX build
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
+          archive: true
           name: florilegium-portable-kit
           path: |
             build/florilegium-v1.4-source.zip
             build/xe/folio-demo.pdf
             gallery/folio-guide.png
             gallery/folio-labels.png
+            build/botanical-engine-*/receipt.json
+            build/release-source-check/receipt.json
+            build/release-source-check/cli-receipt.json
+            build/release-source-check/dual-receipt.json
+            build/release-source-check/*.log
       - name: preserve portable failure evidence
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
+          archive: true
           name: florilegium-portable-failure
           path: |
             build/engine-check-*/
             build/offset-check/
+            build/botanical-engine-*/
+            build/release-source-check/
           if-no-files-found: ignore
+
+  browser:
+    runs-on: ubuntu-latest
+    needs: [pdfs, portable]
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.FLO_CANDIDATE_SHA }}
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.22.2'
+          package-manager-cache: false
+      - name: install pinned browser test dependencies
+        run: |
+          python3 -m pip install --disable-pip-version-check pypdf==6.10.0
+          npm install --prefix "$RUNNER_TEMP/florilegium-browser" --no-save --ignore-scripts playwright@1.62.1
+          node "$RUNNER_TEMP/florilegium-browser/node_modules/playwright/cli.js" install --with-deps chromium
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: florilegium-pdfs
+          path: build/native-browser-reference
+          skip-decompress: false
+          digest-mismatch: error
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: florilegium-release-candidate
+          path: build/native-release-reference
+          skip-decompress: false
+          digest-mismatch: error
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: florilegium-portable-kit
+          path: build/native-clean-reference
+          skip-decompress: false
+          digest-mismatch: error
+      - name: real browser parity, bounded failures and extracted source kit
+        run: python3 tools/browser_ci.py --native build/native-browser-reference --release build/native-release-reference --release-clean-proof build/native-clean-reference/build/release-source-check/receipt.json --playwright "$RUNNER_TEMP/florilegium-browser/node_modules/playwright"
+      - name: real SVG transparency and protected areas
+        run: PATTERN_PLAYWRIGHT="$RUNNER_TEMP/florilegium-browser/node_modules/playwright" node tools/export_review.cjs build/native-browser-reference/build/export-review build/export-review-browser
+      - name: open the generated atlas and verify its links and images
+        run: python3 tools/check-gallery.py build/native-browser-reference/build/pattern-atlas --playwright "$RUNNER_TEMP/florilegium-browser/node_modules/playwright"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: florilegium-browser
+          path: |
+            build/browser-check/
+            build/editor-check/
+            build/browser-performance/
+            build/export-review-browser/
+            build/gallery-browser/
+            build/release-browser-binding.json
+            build/adversarial/
+            build/web/assets.json
+          if-no-files-found: error
 
   gallery:
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: ${{ env.FLO_CANDIDATE_SHA }}
           persist-credentials: false
       - name: render six seeds
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@e2f99d4b3685b0da93f97e1b86ad8fab81105098 # v3
         with:
+          docker_image: ghcr.io/xu-cheng/texlive-full@sha256:c06416ebbc69c8e90e07d1f1a6f7a3f9b334e773daa3543ce879ea533317c3a7
           root_file: gallery.tex
           latexmk_use_lualatex: true
           extra_system_packages: python3 py3-pillow poppler-utils
@@ -106,7 +391,9 @@ jobs:
             python3 tools/gallery.py --seeds 1 2 3 4 5 6 --jobs 2 &&
             python3 tools/gallery.py --seed 6 --inks 2456C4 5B2A1F 2F6B4F 8E1B3A 4B3B8F 1D6E7A --jobs 2 &&
             python3 tools/gallery.py --seed 6 --ages 0 0.33 0.67 1 --jobs 2
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
+          archive: true
           name: gallery
           path: gallery/
+

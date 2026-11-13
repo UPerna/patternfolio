@@ -1,0 +1,17 @@
+{
+  "stage": "18",
+  "initial_revision": "d3fb59365faff5b73f87ba776ce8dd5f6c86c33f",
+  "initial_run": 41861516912,
+  "initial_archive_id": 13339569437,
+  "initial_ci_archive_sha256": "81fe389a3c744afae9ad40159ef51b6524cda3fcd48946e73215507ffcaaf02e",
+  "initial_kit_sha256": "5cf977a5650ea9fc8347587a483626f35a0d1ddef58db5adfa633d3dc5400a9e",
+  "initial_kit_entries": 351,
+  "finding": "Adapted rule module was included while the required BSD notice was excluded by the docs extension filter.",
+  "repair": "Explicitly require and include the notice when the adapted module is packaged. Verify the notice bytes and manifest entry in extracted-kit CI.",
+  "local_archive_sha256": "2f3f57e660f54e48a541d8de10cbbcc596bf141fc8bd9d3a56e62f8f9c2f526c",
+  "local_archive_entries": 352,
+  "notice": "docs/research/licenses/HATVIZ-BSD-3-Clause.txt",
+  "notice_sha256": "a5690b1ca33c5d13194d9a68b9c276c8ee042dcae671332a4a72d7f6038057eb",
+  "missing_notice_fixture": "Rejected with FileNotFoundError",
+  "archive_reproducibility": "same bytes in two builds"
+}

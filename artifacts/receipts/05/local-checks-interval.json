@@ -1,0 +1,44 @@
+{
+  "stage": "05",
+  "scope": "Local Lupa 2.8 Lua 5.3/5.4; real filesystem via Lua IO and Python atomic mkdir/rmdir adapters; TeX CI and browser gates separate",
+  "checks": [
+    {
+      "runtime": "lua53",
+      "check": "geometrycheck",
+      "status": "passed",
+      "seconds": 1.391
+    },
+    {
+      "runtime": "lua54",
+      "check": "geometrycheck",
+      "status": "passed",
+      "seconds": 1.266
+    }
+  ],
+  "source_lf_sha256": {
+    "pattern.lua": "bd459baaac27ba5198224f249a4a66f382e16186f2559ddb0eaf2d3715c838e2",
+    "pattern_bounds.lua": "1f6994cf811b95ac4dc2b3ccbb506ecc05595df925c2082e470bdae9951cf8b9",
+    "pattern_curves.lua": "cbd321d061de889c43843a0c9329d3d9ebcd520d54857893039d9184832a0aad",
+    "pattern_exact.lua": "0518cb1af20e10cb0ec4718a1ff7a7e9fa8e4232b4908333f78cce44f4a7a697",
+    "pattern_examples.lua": "caabaca4448306a418684fb6d9fca35532e2ee26ee78edd7a1f1103840c424ad",
+    "pattern_geometry.lua": "8b14f6148652609deaf3f239b93fd8fdb0bb0ad8f41cb5216655995b0a7a4d95",
+    "pattern_hash.lua": "99c9347bdc7714fe8d224a478785d7a85127cc5a16b2bf6a5c40e0608be01861",
+    "pattern_json.lua": "197cb50834c642f84b4cf99fe724932c50e6d9c92faec7ad89aa25e91df4d481",
+    "pattern_parse.lua": "edbc6750d08089c36044392ed3d88df1b628ba3d18c1f04657b529f46630bcbf",
+    "pattern_predicates.lua": "dc1bf8a558da31b14c2e4f746447a27d066b49d4a740d370ac963effe3e7bbb0",
+    "pattern_random.lua": "e130642e1829f07718beb572fc834e933458cf8b84706aacf63a935e87f50af3",
+    "pattern_recipe.lua": "1f8e98d453802bcc837a3b5bad868427733d69908179b04f1dd6556786f022ee",
+    "pattern_registry.lua": "91fe763f10d6338bddbf1bb756d4d5a919786aff7356db00913abe1472ada7d6",
+    "pattern_spatial.lua": "dab321b226250421c66f6bce4ddd24df219046385c26a09e05c157dd99d9a274",
+    "pattern_store.lua": "6bbbe53ec3573e4dee4ee005af54c01966cbabbe8dfed43ee3095bda787aabde",
+    "pattern_topology.lua": "8356c510e9f12f022f7aab7dadc197400af2fba34c75995d4dedca1cc3e21dff",
+    "tools/contractcheck.lua": "0dfd152496450521510705da034dcdc53f06c1781556b839b0c093e2485579bb",
+    "tools/replaycheck.lua": "cbaea756dcc0b853d2cb141ca97858519292974a6bac8ab046d4cc1259096196",
+    "tools/fixtures/replay-floral.lua": "7a622fdeb5486c03afb004d9254f1e6e4a84faf6c0a6f1e8f2bfb8016f7b95b4",
+    "tools/determinism_oracle.py": "ba2d8477e8c78605ab13e59c6b59fa2eb5a246dc3a4aa2aff0765f4c3876da53",
+    "docs/validation/fixtures/determinism-v1.json": "645812b9fba12042ae76df449298f47d0b619d47d5751415f5b577a3047c4fe8",
+    "tools/geometrycheck.lua": "3aa84394e161b2a336e13c0a139a46b11b55abac05c00b55444154566a314aa7",
+    "tools/geometry_oracle.py": "5298b47d801b43c49a0b2f802cfad997c39015a1cdd095902adc715b1a1beb72",
+    "docs/validation/fixtures/geometry-v1.json": "0c5ec2a091ab024ffd4b7e3f677592f6534bff354ed5c8abf352eba2ea9a657f"
+  }
+}

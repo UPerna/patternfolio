@@ -1,0 +1,4 @@
+Measured actual workload	projection-large	cold-generation	10.312370
+Measured actual workload	projection-large	warm-generation	6.154479
+Measured actual workload	projection-large	validated-instance-replay	6.077395
+Measured actual local lua53 with256MiB Lua allocation cap; current Lua-owned bytes 47595711

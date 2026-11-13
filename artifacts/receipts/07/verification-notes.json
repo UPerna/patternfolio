@@ -1,0 +1,52 @@
+{
+  "stage": "07",
+  "status": "in_progress",
+  "parent": "76cc324cd68f564f924f1e00729a19579eb4a78d",
+  "source_digest": "5be36b4338c117ecb388de4c7832d7db7173decd0b3954a150940308007a99c6",
+  "checks": {
+    "each_lua_runtime": {
+      "contracts": 61,
+      "replay": 145,
+      "geometry": 91,
+      "scenes": 56,
+      "planner": 82
+    },
+    "independent": {
+      "Fraction_coordinate_comparisons": 516,
+      "Decimal_affine_cases": 3,
+      "host_SP_parity_cases": 8,
+      "book_pages": 2,
+      "actual_overlap_max_channel_error": {
+        "pdf": 0,
+        "svg": 0
+      },
+      "protected_minimum_channel": 255
+    },
+    "single_page_compatibility": "sixPDF and sixSVG hashes match verified06 native CI; separate12PDF compatibility checks on both Lua runtimes",
+    "legacy_context_import": "eight actual-host context roundtrips and changed-host rejection passed",
+    "visual_review": "six exact vector-input-matched local view pairs plus current pinned-style open/reserved floral pages inspected",
+    "repairs": [
+      "corrected independent hand-calculated panel right edge to3.75-.4+.1",
+      "preserved decimal runtime filename suffix in raster lookup",
+      "test host body narrowed to a feasible11.4cm for all8 sides/parities;18mm rejection unchanged"
+    ],
+    "visual_review_vector_input_reuse": {
+      "document_pairs": "all12 exact vector inputs compared before raster reuse",
+      "legacy_pdf_bytes_match_reviewed_c8": "fresh current pinned-style images independently inspected; no old legacy image reused"
+    },
+    "recipe_replay": "actual saved source, scene and BuildRecord independently verified; fixed view/adaptive construction key separation passed",
+    "legacy_regressions": "28 layout/backend checks per Lua; old/new two-page PDF byte equality; all12 single-page PDF digests and six SVG golden digests retained"
+  },
+  "boundaries": [
+    "analytic unit-grid fixture does not complete periodic/wallpaper09",
+    "legacy reserved grower reports route_failures1; masks protect ink without certified continuous-route claim",
+    "full-page semantic floral migration08",
+    "full shaping24",
+    "browser31"
+  ],
+  "pending": [
+    "exact-head guarded publication/independent tree byte checks",
+    "native Linux Inkscape/Poppler and both TeX-host CI",
+    "fresh CI visual review"
+  ]
+}

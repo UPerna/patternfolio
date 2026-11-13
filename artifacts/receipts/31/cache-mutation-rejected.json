@@ -1,0 +1,9 @@
+{
+  "put": {
+    "digest": "8ebeca261047f24a9f685547f59a4f0141638a64e414efcfd6cbbcb6cc82cbfe",
+    "reused": false
+  },
+  "get": {
+    "error": "Damaged cached asset"
+  }
+}

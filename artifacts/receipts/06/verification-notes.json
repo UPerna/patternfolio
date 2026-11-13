@@ -1,0 +1,54 @@
+{
+  "stage": "06",
+  "status": "in_progress",
+  "parent": "814d7723bdb0aed8fd1ef740876a04ab6f0e2820",
+  "scene_source_digest": "8234d27ad31be92eb0975f6159f91d567ca6d01be372663e86573aa0d3323019",
+  "checks": {
+    "lua53": {
+      "contracts": 61,
+      "replay": 145,
+      "geometry": 91,
+      "scenes": 44,
+      "layout": 28,
+      "backend": "passed"
+    },
+    "lua54": {
+      "contracts": 61,
+      "replay": 145,
+      "geometry": 91,
+      "scenes": 44,
+      "layout": 28,
+      "backend": "passed"
+    },
+    "legacy_pdf_bytes": {
+      "status": "identical",
+      "pages": 2,
+      "sha256": "4a7da419eea0dfe484d8e23ab3b0ad3d4becf794ae6b6929f0df210d7becc85b"
+    },
+    "font_preparation": {
+      "status": "same two-glyph geometry, metrics and renamed subset regenerated",
+      "sha256": "af30d2705b6af0da5615aed0547ce5a0d9090d968028cd6f561cb74429847722"
+    },
+    "independent_local_raster": "six pairs passed; mode0 Type3 opacity probe passed; each protected ROI minimum channel255",
+    "visual_review": "local six-pair contact sheet reviewed; geometry/units/orientation/clips/glyphs agree; expected antialias/stroke coverage differences",
+    "repairs": [
+      "neutral capture taper hook",
+      "immutable proxy resource inspection",
+      "stable rerun check count/receipt filenames",
+      "positive SVG dash offset",
+      "explicit zero opacity for Type3 logical text"
+    ]
+  },
+  "pending": [
+    "guarded publication and independent Git byte/tree verification",
+    "exact-head Linux Inkscape/Poppler QA",
+    "both legacy TeX hosts/source-kit workflows",
+    "latest CI PNG visual review"
+  ],
+  "boundaries": [
+    "stage08 full-page floral migration",
+    "stage24 shaping",
+    "stage31 browser runtime",
+    "no merge/release/deploy before39"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "original_design": "Compass Garden",
+  "source_method_fixtures": "Kept in their existing separate family suites",
+  "upstream_repository": "kevinraymond/florilegium",
+  "revision": "efee1ffe2e624c0a369e16758e8a52502fa06c05",
+  "review_date": "2026-11-05",
+  "reviewed": {
+    "docs/themes.md": "40f1e1448e03e6839d3830ea7e414d96d637d32a",
+    "florilegium.sty": "eea0974253e64693613aa995f5048c935c5c72a4",
+    "tools/ornament.lua": "a6390494733390692f0457222f23f7ed87cb97c7",
+    "florilegium-ink.lua": "Reviewed current set_pale and tone/accent behavior"
+  },
+  "scope": "Explicit collection controls, convex-cell decoration, native glyph and botanical primitives. Upstream geometric and math implementations remain unsupported."
+}

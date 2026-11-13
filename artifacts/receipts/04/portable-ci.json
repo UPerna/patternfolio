@@ -1,0 +1,13 @@
+{
+  "stage": "04",
+  "commit": "e7e7e32e90b151e7d51e02ad4582207d6ad52174",
+  "run": 41476967379,
+  "job": 125384988603,
+  "conclusion": "success",
+  "evidence": [
+    "2026-11-02T16:02:06.6450480Z enginecheck: 11 dual-engine documents, vector/text/metadata/mono/offset parity, cached animation, PDF assets, included auxiliary convergence, stale rebuilds and 6 rejected inputs passed",
+    "2026-11-02T16:02:13.4622051Z offsetcheck: 8 rendered physical and content-relative reservations passed",
+    "2026-11-02T16:02:49.9175948Z visualcheck: book-side placement, protected callout, overlapping barriers and full-page reservation passed",
+    "2026-11-02T16:03:08.7952756Z packagecheck: 147 file hashes, reproducible archive and extracted Lua/Xe template builds passed"
+  ]
+}

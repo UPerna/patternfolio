@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "source_digest": "10f76287e8a293ae14b76702f968b8b05bec221575da9d93d66654d6035fd794",
+  "instance_sha256": "2c2068231411ef1ecda53337f50cb8cf0afa582bd6b9a4aaf96534f53a6bfe30",
+  "claims": [
+    "User-selected JSON exemplar library imported and natively validated",
+    "Actual DecoBrush synthesis uses imported start/middle/finish pieces"
+  ],
+  "vector_structure": {
+    "paths": 2,
+    "texts": 0,
+    "rasters": 0,
+    "width": "4cm",
+    "height": "1.5cm",
+    "viewbox": "0 0 4 1.5",
+    "semantic_refs": 1,
+    "clips": 1
+  },
+  "assets_sha256": {
+    "instance.json": "2c2068231411ef1ecda53337f50cb8cf0afa582bd6b9a4aaf96534f53a6bfe30",
+    "pattern.pdf": "69ffac10e5634b1800d21ccffb2a439a4ca0a85bd6d5a27f90e34573747fcb71",
+    "pattern.svg": "b2a786ceec0deb635ae964b04791ea66185bd3aa1d7991e28c1547055754f986",
+    "recipe.json": "bd343d9c6fb1e08f72052d57fc7f9c774adbd2ae5c7482e94843eb291b7a3fb7",
+    "record.json": "8d856aaf36cbb74ca6989f3b344977e99d538462c0a85ed8f726a2e45bb31921",
+    "scene.json": "f4df4e93cb1cc8a1ebefa241717900a2cfb5811f4fcf76ca7e6cc9eb0b107d0e",
+    "view.json": "0ff38641e45c7a00754613233870f028eae19c3190d7f32831bd2f7a6f7de76b"
+  }
+}

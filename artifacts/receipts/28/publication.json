@@ -1,0 +1,264 @@
+{
+  "stage": "28",
+  "revision": "9f5af38a5d2f41392560ce15d9023bd84d2513a4",
+  "parent": "d840207e204e1b268bedfd1a0a226ca12f4dff1c",
+  "tree": "6b71e24d458908c29f4db2bf3a6fa1963a247830",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "sha256": "7f4a746d9ccc597f7119a364c7b5cf466d40ec3605e3b1b0767dd6c377f8accb",
+      "bytes": 6763
+    },
+    {
+      "path": "artifacts/receipts/27/ci-final.json",
+      "sha256": "3ead04661e0f4fb6735e3824eac231aedd586e26371e57e39ba1b8261b9292c2",
+      "bytes": 2223
+    },
+    {
+      "path": "artifacts/receipts/27/portable.json",
+      "sha256": "9279b23c3683803dcb7e598d90dcdf6a215e7a6fbf3742441f88d0696264ee1a",
+      "bytes": 219
+    },
+    {
+      "path": "artifacts/receipts/27/publication.json",
+      "sha256": "2a0fc92b43009c9e1c06ffa06c54c6c1b2a16dcc10b8ab6bd5f64e99ff2b2ca2",
+      "bytes": 8146
+    },
+    {
+      "path": "artifacts/receipts/28/consumer-local.json",
+      "sha256": "0a7ba34149fb9d7d8c63bf2da1619f5b6dfa9d21c61a83a96d403134b5fa6368",
+      "bytes": 15196
+    },
+    {
+      "path": "artifacts/receipts/28/cross-host-cache.json",
+      "sha256": "809e7338f38cf27abc5a48e15993eb7df18840f7c090d207535c611a1716b3d4",
+      "bytes": 509
+    },
+    {
+      "path": "artifacts/receipts/28/development-replay-audit.json",
+      "sha256": "6f24dfe25026c3c40a77d40db9244065c1f3278c68df321e223bd82b688c2205",
+      "bytes": 11985
+    },
+    {
+      "path": "artifacts/receipts/28/receipt-Lua-5.3.json",
+      "sha256": "217bc9d04084d5e8d9663f25f194b78d67133bc94d930d2e77adfd5e2d78b0cf",
+      "bytes": 116
+    },
+    {
+      "path": "artifacts/receipts/28/receipt-Lua-5.4.json",
+      "sha256": "217bc9d04084d5e8d9663f25f194b78d67133bc94d930d2e77adfd5e2d78b0cf",
+      "bytes": 116
+    },
+    {
+      "path": "artifacts/receipts/28/regressions-local.json",
+      "sha256": "c4b139d760083f2f4c7c71e79fbbcc0d66ce7f31010eba09d23550479b5e95b7",
+      "bytes": 332
+    },
+    {
+      "path": "docs/CLI.md",
+      "sha256": "a566eab77dd865247885e69fe9486fe7799363eb0bf4fe33f2240fb4e6baacb1",
+      "bytes": 8545
+    },
+    {
+      "path": "docs/project/DECISIONS.md",
+      "sha256": "75bd7e63c1dbebe7bd6a0411dd9bd05cabaf77e7445b4a37913e0c6bad5f1a92",
+      "bytes": 6626
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "3c9d60c1bc4ec3bdfc98bd03ac6bd292c544360d67d06f0211c1eda0e4538363",
+      "bytes": 63255
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "39ab794fe508f35fbf1efb80ad6ed0054c5c25fe9150a814e755b3ebbc382d34",
+      "bytes": 1019
+    },
+    {
+      "path": "docs/validation/CLAIMS.md",
+      "sha256": "8a6d886cfe4d2a30c978da34e3cc544e892780c5473ac39c43f2a50c15eab001",
+      "bytes": 8815
+    },
+    {
+      "path": "docs/validation/fixtures/escher-cross-host.json",
+      "sha256": "337034a7ef569dfad32f048f136b8227564f52614dfc861ed56ba4f54fb0016e",
+      "bytes": 369407
+    },
+    {
+      "path": "examples/cli/README.md",
+      "sha256": "9f64306e02ae6cfba3a9dad0200dc2bc9ec4c897445a68d57f67857f8e45c1f3",
+      "bytes": 741
+    },
+    {
+      "path": "examples/cli/all-families.json",
+      "sha256": "5e2ff395c0e7a0239b6476cc66487342d2d9e13428737caccc487a8d56064a1a",
+      "bytes": 2275
+    },
+    {
+      "path": "examples/cli/beenker.recipe",
+      "sha256": "2d45d2058383d50a46bfff232b0d9902332cc119c331f26eb9d6c7fd67452ad1",
+      "bytes": 3290
+    },
+    {
+      "path": "examples/cli/botanical-authored.recipe",
+      "sha256": "554142ca591c380fae69972e2f5125446ca8b8f8fd3ae390397fe06b3a211e8b",
+      "bytes": 1367
+    },
+    {
+      "path": "examples/cli/botanical-grown.recipe",
+      "sha256": "86638fc0dac2763bee69ef4f113339a6f8c3d80ade3a54c0216c351eb7a13c46",
+      "bytes": 1352
+    },
+    {
+      "path": "examples/cli/botanical-panel.recipe",
+      "sha256": "cb04a4485843e1eaaf22eec28f4672d13d8996da2bdf0f3f3d88d649d375a15e",
+      "bytes": 3458
+    },
+    {
+      "path": "examples/cli/catalog.json",
+      "sha256": "dac9941dfafb89a4d31769920313da3ce1fefc407c4528601116173de0f4624a",
+      "bytes": 6085
+    },
+    {
+      "path": "examples/cli/celtic.recipe",
+      "sha256": "6a305820ae2024e4fc6e9cccfed3b2e730a51c7b84830813a5ef57dc84d3dfd3",
+      "bytes": 3224
+    },
+    {
+      "path": "examples/cli/completion.recipe",
+      "sha256": "30299eb32576fde785078a594f8e2874bc482f06c1290b4cf26d3fc1ff0ae7ec",
+      "bytes": 1509
+    },
+    {
+      "path": "examples/cli/decobrush.recipe",
+      "sha256": "d6d9fb02a6845cca23478ee07134aa81f01e2c526e911b93365557e105dd5559",
+      "bytes": 3056
+    },
+    {
+      "path": "examples/cli/escher.recipe",
+      "sha256": "f2927b4fa41624d7aa46cbc5f1f4398cc7bd5102ee01c8b36550db16b5f07ade",
+      "bytes": 2517
+    },
+    {
+      "path": "examples/cli/freeform.recipe",
+      "sha256": "2519e49fa5379bef09d7b17acfb34e98a0b07bf05e76d80f047a9b9bba37b6af",
+      "bytes": 3035
+    },
+    {
+      "path": "examples/cli/gothic-spatial.recipe",
+      "sha256": "945cd19c3714aa3bd8bd7c9cc5f00ccee57de1ce7a0967281e6126c4cf661722",
+      "bytes": 1580
+    },
+    {
+      "path": "examples/cli/hat.recipe",
+      "sha256": "f351ad94c8330821b829699508595782ac47cf16a5c825097a774a36b0906a8b",
+      "bytes": 1261
+    },
+    {
+      "path": "examples/cli/inline.recipe",
+      "sha256": "cb3da822e99109edc3e692bc6edbfe96963bb1077c179ec0aacb4ab90437a495",
+      "bytes": 1126
+    },
+    {
+      "path": "examples/cli/islamic.recipe",
+      "sha256": "4314e59dda865286d6c0a51d9057aec38f620650cce30b3e0ecbc876a19900d4",
+      "bytes": 1910
+    },
+    {
+      "path": "examples/cli/maze.recipe",
+      "sha256": "cf23af66d4b2ebcb5ee352d573ff4b6890099b53bc58226766a3c8f5cd94c4ba",
+      "bytes": 2380
+    },
+    {
+      "path": "examples/cli/micrography.recipe",
+      "sha256": "26fd52d1d884854e67557c8c4149a912559441660a5ce05fa8e25496990fed74",
+      "bytes": 116368
+    },
+    {
+      "path": "examples/cli/mosaic.recipe",
+      "sha256": "e8d23847e8230efc62ea274d8ecbaeeba29606e5a4fb9b2b2c44e6eae3ecdde8",
+      "bytes": 2641
+    },
+    {
+      "path": "examples/cli/penrose.recipe",
+      "sha256": "dd9f678ca3108fc442d63ef7befa657ce69175a6f1ec0364e5c1cd4e93e77de0",
+      "bytes": 3555
+    },
+    {
+      "path": "examples/cli/periodic.recipe",
+      "sha256": "0f7a9b9355b1a53b911ebac8628eea679d4792c10af6d2fcb8b696f9bf6383ab",
+      "bytes": 3482
+    },
+    {
+      "path": "examples/cli/spectre.recipe",
+      "sha256": "85502ed8baf851dbc4b0619243232d56d1090643e1691164e7329e85192c3e4e",
+      "bytes": 3129
+    },
+    {
+      "path": "examples/cli/stroke.recipe",
+      "sha256": "45096933af2988ecdd2bb0ca42868dd7533fae19f6d61fa99d4087c1a4f25a56",
+      "bytes": 2517
+    },
+    {
+      "path": "examples/cli/substitution.recipe",
+      "sha256": "5765c035274653c48be4598db511780c01650632ff3fbbd16d05cee7587dbbae",
+      "bytes": 2732
+    },
+    {
+      "path": "examples/cli/tracery.recipe",
+      "sha256": "d3875a48ea7de87313c85b2522d2256bfb0fe07904a70bb54ca875bda7bb661a",
+      "bytes": 3264
+    },
+    {
+      "path": "pattern_cli_core.lua",
+      "sha256": "9d9708637bd32c645e23d5f400d82ae09252778a7728c06064e4cbec4c923e40",
+      "bytes": 6861
+    },
+    {
+      "path": "pattern_escher.lua",
+      "sha256": "e0f389e5683485c0c6d00a0dec1f31875d8912d423eb95435098470508460e6e",
+      "bytes": 13927
+    },
+    {
+      "path": "pattern_recipe.lua",
+      "sha256": "c3387b16d375cf77ac8c51e817912be7ed52a4b8dda34ad6504d2592c0fc57d5",
+      "bytes": 14798
+    },
+    {
+      "path": "pattern_registry.lua",
+      "sha256": "35cb8d53bc2affdd0ff559af582f9f5bf1aba05f5acbaa5c865c07e617e46ed3",
+      "bytes": 5957
+    },
+    {
+      "path": "tools/check-cli-core.lua",
+      "sha256": "fece37576e1abba77dd657fbda60c4c0e9a513ecdfa229830bcf465eae4215e8",
+      "bytes": 4196
+    },
+    {
+      "path": "tools/cli_failcheck.py",
+      "sha256": "a8aa39dd6b7d545154635c8a54e3772da17099c1001ca770a69959cbaa48c0a9",
+      "bytes": 9237
+    },
+    {
+      "path": "tools/clicheck.py",
+      "sha256": "dc25594c5f3426cf626b140cbfb747064c3fc710fad14163a17e50d470e6bdfc",
+      "bytes": 8161
+    },
+    {
+      "path": "tools/pattern-driver.lua",
+      "sha256": "b18b0997aecf4e756459e37e4c6ce5baa3bbed5279b94915f4602e3be200f663",
+      "bytes": 1583
+    },
+    {
+      "path": "tools/pattern.py",
+      "sha256": "07ca00b2cef0d411c1aee2b90a033f91f6b01c561a6007f99c6b0aa38002ce6f",
+      "bytes": 24310
+    }
+  ],
+  "unchanged_parent_entries": 501,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 42020681071,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

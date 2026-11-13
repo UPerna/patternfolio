@@ -1,0 +1,25 @@
+\documentclass[twoside,openany,10pt]{book}
+\usepackage[a5paper,inner=23mm,outer=40mm,bindingoffset=3mm,top=22mm,bottom=24mm]{geometry}
+\usepackage[grown,nomargin,sections]{florilegium}
+\usepackage{hyperref}
+\hoffset=3mm\voffset=-2mm
+\florilegiumpatterndeclare{hybrid}{hybrid.recipe}
+\florilegiumpatterndeclare{initial}{initial.recipe}
+\florilegiumpatterndeclare{folio}{folio.recipe}
+\florilegiumpatterndeclare{divider}{divider.recipe}
+\florilegiumpatterndeclare{penrose}{penrose.recipe}
+\florilegiumpatterndeclare{micrography}{micrography.recipe}
+\begin{document}
+\pagenumbering{roman}
+\tableofcontents
+\bigskip
+The shared pattern core places validated semantic objects into this book.
+The physical page index is recorded separately from the printed page label.
+\par\medskip
+\florilegiumpatterninline[20mm]{initial}
+\florilegiumpatterninline[20mm]{folio}
+\clearpage
+\setcounter{page}{42}
+\include{chapter-one}
+\include{chapter-two}
+\end{document}

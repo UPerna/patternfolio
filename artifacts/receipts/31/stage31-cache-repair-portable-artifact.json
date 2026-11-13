@@ -1,0 +1,10 @@
+{
+  "revision": "bd11eefd36d21104ad46cbdde2684401ec6ee9b8",
+  "run": 42216668040,
+  "job": 127888299673,
+  "artifact_id": 13501063982,
+  "sha256": "c3bc79729549742e035c3105dbc683fdcf8470d8f334574f247ed3b76b619aab",
+  "archive_bytes": 14857481,
+  "verified_archive_sha256": "c3bc79729549742e035c3105dbc683fdcf8470d8f334574f247ed3b76b619aab",
+  "safe_extraction": true
+}

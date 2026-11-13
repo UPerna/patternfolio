@@ -1,0 +1,16 @@
+{
+  "revision": "b2ec1c6cfb2287545da3437bbd1f42df150276c7",
+  "gap": "Inline uniform scaling omitted source-declared physical print minima",
+  "repair": "Check original shared render plan against minima divided by positive inline scale, preserving existing planner rounding guards; return evidence in physical cm",
+  "expected_native_failures": 10,
+  "local_checks": {
+    "source_digest": "43f74f22b177613d857262d021f960604a003b94396cf637860ccc088bc13415",
+    "adapter_checks": 42,
+    "lua_versions": [
+      "5.3",
+      "5.4"
+    ],
+    "actual_host_fallback": "passed"
+  },
+  "native_checks": "pending"
+}

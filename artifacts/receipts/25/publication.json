@@ -1,0 +1,59 @@
+{
+  "stage": "25",
+  "revision": "af18c263e2cf9fbc1eb8b5103d1dd47d1f2a65bf",
+  "parent": "f2b4ff790c8919a97b60e1d47d9604e46b3ccdce",
+  "tree": "76b3a99987cb1378e0a3b9ecd7e996f5cd405a91",
+  "route": "normal Git fetch independently of connector publication",
+  "verified_files": [
+    {
+      "path": "artifacts/receipts/25/ci-initial-rejected.json",
+      "sha256": "6e6ca2a0c573a1b86ca5898d96c43ff4858ff42fd433a9c6ad8f4b0c1a69921e",
+      "bytes": 3961
+    },
+    {
+      "path": "artifacts/receipts/25/oracle.json",
+      "sha256": "4bc229232e3499a03521104e41a22a056771c620d9a0115b21517788910f21ff",
+      "bytes": 2327
+    },
+    {
+      "path": "artifacts/receipts/25/portable.json",
+      "sha256": "9c2f5f5f20d212f07825e6ffed47c4528e47cdf09b4d057869130c4abcf0dd66",
+      "bytes": 212
+    },
+    {
+      "path": "artifacts/receipts/25/publication-initial.json",
+      "sha256": "7c932963b4ab27a8d6d173463ee9c30f042b4aaf42fea9d2d78532283652f412",
+      "bytes": 613
+    },
+    {
+      "path": "artifacts/receipts/25/receipt-Lua-5.3.json",
+      "sha256": "00845491dc42ce05a3635eb5793b600375d8830753136a4ada598bb44e64a40e",
+      "bytes": 1720
+    },
+    {
+      "path": "artifacts/receipts/25/receipt-Lua-5.4.json",
+      "sha256": "511eaa2cb368d420d74f018b0ef2c2af5ae54e2e6a72327e66139128d81f1e0b",
+      "bytes": 1720
+    },
+    {
+      "path": "docs/project/STAGES.json",
+      "sha256": "6647a8b358ee4a348d926335ed72e3f70beb7608d4268751dea3c8cc0b8aa582",
+      "bytes": 60605
+    },
+    {
+      "path": "docs/project/STATUS.md",
+      "sha256": "8864c67d0591ab18ed8e12dc88622601f52e9b881ea3c4ef7394330c67524b2b",
+      "bytes": 647
+    },
+    {
+      "path": "tools/decocheck.lua",
+      "sha256": "7b718b4bfed3f76d5c89c5ebc01fd2e5daa15707f10207e6f1a3d756afca8f0d",
+      "bytes": 5843
+    }
+  ],
+  "unchanged_parent_entries": 452,
+  "binary_files": "all inherited object IDs/modes preserved",
+  "ci_run": 41922300569,
+  "ci_status": "in_progress",
+  "status": "publication verified; native CI and visual gate pending"
+}

@@ -1,0 +1,28 @@
+{
+  "package": "wasmoon",
+  "version": "1.16.0",
+  "registry_url": "https://registry.npmjs.org/wasmoon/latest",
+  "dist_url": "https://registry.npmjs.org/wasmoon/-/wasmoon-1.16.0.tgz",
+  "integrity": "sha512-FlRLb15WwAOz1A9OQDbf6oOKKSiefi5VK0ZRF2wgH9xk3o5SnU11tNPaOnQuAh1Ucr66cwwvVXaeVRaFdRBt5g==",
+  "tar_sha256": "7a07cb6d39af10911fabd50740833477b18b47b6f03148f15218edf474c8af56",
+  "tar_bytes": 160431,
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/ceifa/wasmoon.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "@types/emscripten": "1.39.10"
+  },
+  "files": {
+    "glue.wasm.base64": "9c19e278b8a7d9c87a5f952ef55dbd28bdd7ee72d8d7f0742d3bd40edcbec03d",
+    "index.js": "dc2dcf019449008bb224370052473dc760db28b3ba14fc604e1ca3e8646af35d",
+    "LICENSE": "9ed9226c0138819a0859cf3c55a3414b4a186a17a4eaf4b5a51ceed7937615ac",
+    "LUA-LICENSE.txt": "b5412fd42e0763f0ee941a527e95f874a57597c26a87bfab41ec65000748c6ae"
+  },
+  "raw_wasm_sha256": "95f3f19ddb740125883bc41d5ec670cd0828e7b58c8bdad385323cbff497b55c",
+  "package_source_commit": "87c783a8d0bf65afeda933fa47d8dc996be53bb3",
+  "embedded_lua_source_commit": "be908a7d4d8130264ad67c5789169769f824c5d1",
+  "embedded_lua_release": "5.4.5",
+  "embedded_lua_source_url": "https://github.com/lua/lua/tree/be908a7d4d8130264ad67c5789169769f824c5d1"
+}

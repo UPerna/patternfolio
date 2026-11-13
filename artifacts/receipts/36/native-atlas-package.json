@@ -1,0 +1,12 @@
+{
+  "stage": "36",
+  "status": "verified_native_downloadable_atlas",
+  "revision": "8c1e33e289898de93c4f9f7c8733edd62a0a79d2",
+  "run": 42337399300,
+  "origin_artifact": 13562495113,
+  "filename": "Florilegium_Stage36_Pattern_Atlas.zip",
+  "sha256": "2d94f8cf46bc4a0e3e36ab24ed4b2563bca467126593cf08b597d2db38ab9d8a",
+  "files": 836,
+  "bytes": 14310102,
+  "scope": "Standalone archive of actual downloaded native atlas bytes. Separate browser evidence remains mandatory."
+}

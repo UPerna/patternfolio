@@ -1,0 +1,11 @@
+# DecoBrush profile
+
+The decoration/decobrush provider accepts a guide polyline in centimeters with a full rib width at each station. A reusable library supplies ordered start, middle and finish exemplars, with a reference length, width, turn and closed polygon primitives in local spine/rib coordinates. Overlapping primitives represent a union. The examples and their geometry are original to this project.
+
+The method follows the stages in Lu et al. (R11), sections 4.1–4.3 and 5.1–5.5. The caller supplies the parameterized exemplar spine and ribs in place of image-based spine extraction. The signed field measures Euclidean distance to the exposed boundary of the polygon union. Dynamic programming chooses pieces and interval lengths using endpoint roles, stretch, turning angle, rib width and overlap profiles. A triangulated ARAP chart pins each spine station while solving for free rib vertices. Positive triangle Jacobians, bounded edge stretch, a residual limit, and a simple query-chart boundary guard the warp.
+
+The overlap solver uses an integral directed four-neighbor cut with pinned exterior columns. Its certificate compares cut cost with maximum flow and with a central straight seam. Seam refinement searches exemplar coordinates on three spatial strides over the shared lattice. It samples the analytic signed field instead of building image pyramids, and uses a bounded local and coherent neighbor search in place of the paper's broad texture search. A local edit applies a second refinement pass to a declared world-coordinate mask, with hard ink or erase constraints. Samples outside the mask are preserved exactly from the unedited synthesis. The method fails if the required sign is infeasible within the search.
+
+Vector contours are the exact zero level of the piecewise-linear interpolant on the triangulated lattice. The area receipt compares the traced loops with independently accumulated clipped-triangle area. This profile supports simple guide charts and original closed polygon primitives. It does not implement the full paper's raster exemplar extraction or search.
+
+The native fixture suite builds floral, geometric and branched examples through the provider and shared PDF/SVG renderer. It includes a masked branch-tip erase, a rigid repeated middle-stamp diagnostic, and failure witnesses for length, bend and document bounds.

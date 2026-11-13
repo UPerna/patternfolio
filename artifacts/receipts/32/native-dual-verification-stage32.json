@@ -1,0 +1,1011 @@
+{
+  "revision": "cc23ebe635039e1495e212708ec41e8e8b3745a4",
+  "run": 42245712407,
+  "job": 127987265499,
+  "artifact_sha256": "86756a150659490ca1b7a288118befc5823c3d57a058cffb00680aeb932d970b",
+  "common_source_digest": "50eec23cb2b12bad967a4926d9dad57f48a3e3c3cd5ca0cb6e8b6d24c0c81936",
+  "dual_source_digest": "444c615e06adc8d6e102f00616196b2af59ab67eed2938f40effd946ecfdf67f",
+  "verified_source_files": 113,
+  "record_adapter": [
+    {
+      "checks": 122,
+      "source_digest": "a9a0f8cbe3876909049672c863c11be22196de7bfaf813e61aa5f69077caeedb",
+      "verified_output_hashes": 12
+    }
+  ],
+  "build_control": [
+    {
+      "source_digest": "7731d00bee74fc4be073c157bb4ebd69dc325493b708daca075fec6009299dad",
+      "receipt_sha256": "a87f32fd7510b03ed2adecba7206fab3cc6e6888414b17c06e751dc652620e26"
+    }
+  ],
+  "actual_native_consumer_receipts_verified": 2,
+  "engines": {
+    "lua": {
+      "placements": [
+        {
+          "pdf": "florilegium-pattern-fcbe26da618754af6e3d00063702568caf3da4a6f369d6728dc812ca4f7a8b55.pdf",
+          "measured_cm": [
+            3.4272008333333335,
+            8.45742388888889,
+            5.427200833339445,
+            10.457423888895
+          ],
+          "expected_cm": [
+            3.4271887764429936,
+            8.457422656033796,
+            5.427188442848324,
+            10.457422322439127
+          ],
+          "maximum_absolute_error_cm": 1.239049112022883e-05,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-1d05a2ae1efce253ae9f340b222d43d802436ac71cf21dfc1456059724cf8155.pdf",
+          "measured_cm": [
+            5.544220277777778,
+            8.45742388888889,
+            7.5442202777838885,
+            10.457423888895
+          ],
+          "expected_cm": [
+            5.544224621772898,
+            8.457422656033796,
+            7.5442242881782295,
+            10.457422322439127
+          ],
+          "maximum_absolute_error_cm": 4.343995120059674e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-4ae009b28f4f4494d993f81684d7e874529e8cf7cd4e13c5fdea8b3b5bc7eeca.pdf",
+          "measured_cm": [
+            0.0,
+            8.650005277777778,
+            14.799999891058055,
+            12.350005250551112
+          ],
+          "expected_cm": [
+            0,
+            8.650000005172828,
+            14.799999891053893,
+            12.349999977936303
+          ],
+          "maximum_absolute_error_cm": 5.272614808760068e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-6e8841ade6942bea2fc45c909afd9bee0744a3d3c757070e49d898fca2c1de91.pdf",
+          "measured_cm": [
+            0.3000022222222222,
+            8.9500075,
+            4.000002983312778,
+            12.650008261090555
+          ],
+          "expected_cm": [
+            0.29999949411846405,
+            8.949998718996468,
+            4.000000255221035,
+            12.64999948009904
+          ],
+          "maximum_absolute_error_cm": 8.781003531410647e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-7cb281cb8d94e6bb0fc55f5388b57dfdbe95efc50842a15044d6b6e8130846f0.pdf",
+          "measured_cm": [
+            0.0,
+            8.650005277777778,
+            14.799999891058055,
+            12.350005250551112
+          ],
+          "expected_cm": [
+            0,
+            8.650000005172828,
+            14.799999891053893,
+            12.349999977936303
+          ],
+          "maximum_absolute_error_cm": 5.272614808760068e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-68a6a47ee7cb66cf89226e5db147e26c8b2cd2fa327ae7031f3403d4af80173b.pdf",
+          "measured_cm": [
+            5.499981944444444,
+            9.722767222222222,
+            8.500101944435974,
+            12.72288722221375
+          ],
+          "expected_cm": [
+            5.499999602811208,
+            9.72276321801734,
+            8.499999370561754,
+            12.722762985767886
+          ],
+          "maximum_absolute_error_cm": 0.00012423644586334603,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-d4e45b7fca8f4f1940ccba16c32ef91a9718ba57ffb7d49f75fde1985d369279.pdf",
+          "measured_cm": [
+            0.3000022222222222,
+            8.9500075,
+            4.000002983312778,
+            12.650008261090555
+          ],
+          "expected_cm": [
+            0.29999949411846405,
+            8.949998718996468,
+            4.000000255221035,
+            12.64999948009904
+          ],
+          "maximum_absolute_error_cm": 8.781003531410647e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-fccbcd22a74b5f45ffac06c113280bb519abf00119f3b6d1daf63e7c522ecfa9.pdf",
+          "measured_cm": [
+            6.900015833333334,
+            8.715868888888888,
+            9.9001358333425,
+            9.352073609455866
+          ],
+          "expected_cm": [
+            6.9000002809796115,
+            8.715874534555203,
+            9.900000048730158,
+            9.35205375868822
+          ],
+          "maximum_absolute_error_cm": 0.0001357846123415385,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-0aa37c7c283bbfc33ec7c59c1d3d275528774146ceb7f7043c1203fa71ea18dd.pdf",
+          "measured_cm": [
+            4.300008333333334,
+            6.09981,
+            11.300118333335726,
+            8.385525536301122
+          ],
+          "expected_cm": [
+            4.2999997493394995,
+            6.099805024303933,
+            11.29999938618581,
+            8.385484524197892
+          ],
+          "maximum_absolute_error_cm": 0.00011894714991633748,
+          "tolerance_cm": 0.01
+        }
+      ],
+      "maximum_error_cm": 0.0001357846123415385,
+      "protected_ink": [
+        {
+          "name": "penrose",
+          "protected": [
+            0,
+            0
+          ],
+          "unprotected_control": [
+            4961,
+            1920
+          ]
+        },
+        {
+          "name": "hybrid",
+          "protected": [
+            0,
+            0
+          ],
+          "unprotected_control": [
+            0,
+            28
+          ]
+        }
+      ],
+      "negative_cases": [
+        "inline-stroke-minimum",
+        "inline-text-minimum",
+        "unknown-asset",
+        "unknown-region",
+        "unknown-control",
+        "fully-protected",
+        "wrong-spread",
+        "late-declaration",
+        "missing-spread-partner",
+        "occupied-generated-file-preserved"
+      ],
+      "verified_diagnostic_logs": 10,
+      "runtime": {
+        "pypdf": "6.12.1",
+        "Pillow": "12.2.0",
+        "lualatex": "This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)"
+      },
+      "full_promised_text_pypdf": true
+    },
+    "xe": {
+      "placements": [
+        {
+          "pdf": "florilegium-pattern-fcbe26da618754af6e3d00063702568caf3da4a6f369d6728dc812ca4f7a8b55.pdf",
+          "measured_cm": [
+            3.4271831944444444,
+            8.457423888888888,
+            5.427183194415278,
+            10.45742388885972
+          ],
+          "expected_cm": [
+            3.4271883903177214,
+            8.457423578444171,
+            5.427188056723052,
+            10.457423244849503
+          ],
+          "maximum_absolute_error_cm": 5.195873276964136e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-1d05a2ae1efce253ae9f340b222d43d802436ac71cf21dfc1456059724cf8155.pdf",
+          "measured_cm": [
+            5.544237916666667,
+            8.457423888888888,
+            7.544237916637501,
+            10.45742388885972
+          ],
+          "expected_cm": [
+            5.544224235647626,
+            8.457423578444171,
+            7.544223902052957,
+            10.457423244849503
+          ],
+          "maximum_absolute_error_cm": 1.4014584543531328e-05,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-4a5954748d724fd5c8f72809a12af36e8d385563fc9eda3d8bae866e41ba20b2.pdf",
+          "measured_cm": [
+            0.0,
+            8.650005277777776,
+            14.799999891163887,
+            12.350005250480555
+          ],
+          "expected_cm": [
+            0,
+            8.650000005172828,
+            14.799999891053893,
+            12.349999977936303
+          ],
+          "maximum_absolute_error_cm": 5.272604948203252e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-1c796507b02ac310d1564cdbe23fd5ca54623d35a2401bba2c30c41d9771a8fd.pdf",
+          "measured_cm": [
+            0.30000222222222217,
+            8.950007499999998,
+            4.000002983383334,
+            12.65000826116111
+          ],
+          "expected_cm": [
+            0.29999949411846405,
+            8.949998718996468,
+            4.000000255221035,
+            12.64999948009904
+          ],
+          "maximum_absolute_error_cm": 8.781062069473933e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-13d54f7aac0f65e841dc358c128710fa49739ab61b79596b90672aa8df0081d0.pdf",
+          "measured_cm": [
+            0.0,
+            8.650005277777776,
+            14.799999891163887,
+            12.350005250480555
+          ],
+          "expected_cm": [
+            0,
+            8.650000005172828,
+            14.799999891053893,
+            12.349999977936303
+          ],
+          "maximum_absolute_error_cm": 5.272604948203252e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-68a6a47ee7cb66cf89226e5db147e26c8b2cd2fa327ae7031f3403d4af80173b.pdf",
+          "measured_cm": [
+            5.500005867011112,
+            9.722768866166666,
+            8.500125867055557,
+            12.722888866211111
+          ],
+          "expected_cm": [
+            5.4999994848284866,
+            9.722763067857514,
+            8.499999252579034,
+            12.72276283560806
+          ],
+          "maximum_absolute_error_cm": 0.00012661447652284608,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-bf2f9473b3eae0fee535350935859293af2d012029b25d361176bdf56d7483d8.pdf",
+          "measured_cm": [
+            0.30000222222222217,
+            8.950007499999998,
+            4.000002983383334,
+            12.65000826116111
+          ],
+          "expected_cm": [
+            0.29999949411846405,
+            8.949998718996468,
+            4.000000255221035,
+            12.64999948009904
+          ],
+          "maximum_absolute_error_cm": 8.781062069473933e-06,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-fccbcd22a74b5f45ffac06c113280bb519abf00119f3b6d1daf63e7c522ecfa9.pdf",
+          "measured_cm": [
+            6.9000143421416675,
+            8.715885246136109,
+            9.900134342097916,
+            9.352089966623709
+          ],
+          "expected_cm": [
+            6.900000162996889,
+            8.715875456965579,
+            9.899999930747436,
+            9.352054681098595
+          ],
+          "maximum_absolute_error_cm": 0.00013441135047997932,
+          "tolerance_cm": 0.01
+        },
+        {
+          "pdf": "florilegium-pattern-0aa37c7c283bbfc33ec7c59c1d3d275528774146ceb7f7043c1203fa71ea18dd.pdf",
+          "measured_cm": [
+            4.300017798361111,
+            6.099822101688886,
+            11.300127798401498,
+            8.385537637914025
+          ],
+          "expected_cm": [
+            4.299999363214227,
+            6.099805946714308,
+            11.299999000060538,
+            8.385485446608268
+          ],
+          "maximum_absolute_error_cm": 0.00012879834095969045,
+          "tolerance_cm": 0.01
+        }
+      ],
+      "maximum_error_cm": 0.00013441135047997932,
+      "protected_ink": [
+        {
+          "name": "penrose",
+          "protected": [
+            0,
+            0
+          ],
+          "unprotected_control": [
+            4961,
+            1920
+          ]
+        },
+        {
+          "name": "hybrid",
+          "protected": [
+            0,
+            0
+          ],
+          "unprotected_control": [
+            0,
+            28
+          ]
+        }
+      ],
+      "negative_cases": [
+        "inline-stroke-minimum",
+        "inline-text-minimum",
+        "unknown-asset",
+        "unknown-region",
+        "unknown-control",
+        "fully-protected",
+        "wrong-spread",
+        "late-declaration",
+        "missing-spread-partner",
+        "occupied-generated-file-preserved"
+      ],
+      "verified_diagnostic_logs": 10,
+      "runtime": {
+        "pypdf": "6.12.1",
+        "Pillow": "12.2.0",
+        "xelatex": "XeTeX 3.141592653-2.6-0.999998 (TeX Live 2026)"
+      },
+      "full_promised_text_pypdf": true
+    }
+  },
+  "dual_raster_checks": [
+    {
+      "name": "actual-page/1/inline/initial",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 2796,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          56,
+          69,
+          143,
+          164
+        ],
+        [
+          56,
+          69,
+          143,
+          164
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 1,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 1,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            97.149,
+            239.738
+          ],
+          "registration_matrix": [
+            2.0,
+            0,
+            0,
+            2.0,
+            -194.298,
+            -479.476
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            113.38582677165354
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "57431ea68962f65c50dae94af1cb57fb78cea33e0d4a6756ccd006222b2104d1",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            97.1485,
+            239.73799999999994
+          ],
+          "registration_matrix": [
+            2.0,
+            0,
+            0,
+            2.0,
+            -194.297,
+            -479.4759999999999
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            113.38582677165354
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "d737ad91db6ad41d0db960b53d38dabe127560b06b2025d684f548c6c4fdb744",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actual-page/1/inline/folio",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 956,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          63,
+          95,
+          121,
+          164
+        ],
+        [
+          63,
+          95,
+          121,
+          164
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            157.159,
+            239.738
+          ],
+          "registration_matrix": [
+            2.0,
+            0,
+            0,
+            2.0,
+            -314.318,
+            -479.476
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            113.38582677165354
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "57431ea68962f65c50dae94af1cb57fb78cea33e0d4a6756ccd006222b2104d1",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.5,
+            0.0,
+            0.0,
+            0.5,
+            157.1595,
+            239.73799999999994
+          ],
+          "registration_matrix": [
+            2.0,
+            0,
+            0,
+            2.0,
+            -314.319,
+            -479.4759999999999
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            113.38582677165354
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "d737ad91db6ad41d0db960b53d38dabe127560b06b2025d684f548c6c4fdb744",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actual-page/2/background",
+      "changed_colored_pixels": 10,
+      "union_colored_pixels": 68556,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          0,
+          490,
+          840,
+          701
+        ],
+        [
+          0,
+          490,
+          840,
+          701
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      }
+    },
+    {
+      "name": "actual-page/3/background",
+      "changed_colored_pixels": 10,
+      "union_colored_pixels": 72912,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          0,
+          490,
+          840,
+          701
+        ],
+        [
+          0,
+          490,
+          840,
+          701
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      }
+    },
+    {
+      "name": "actual-page/3/inline/hybrid",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 2869,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          99,
+          42,
+          341,
+          288
+        ],
+        [
+          99,
+          42,
+          341,
+          288
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 3,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 3,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.50002,
+            0.0,
+            0.0,
+            0.50002,
+            155.905,
+            275.606
+          ],
+          "registration_matrix": [
+            1.9999200031998718,
+            0,
+            0,
+            1.9999200031998718,
+            -311.79752809887606,
+            -551.1899524019038
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            170.0787401574803,
+            170.0787401574803
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "641892a130070c5772b4f1ab8d24d36632c519e46a74b4d45d49fc87507ab99e",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.50002,
+            0.0,
+            0.0,
+            0.50002,
+            155.90567812,
+            275.60604659999996
+          ],
+          "registration_matrix": [
+            1.9999200031998718,
+            0,
+            0,
+            1.9999200031998718,
+            -311.7988842846286,
+            -551.190045598176
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            170.0787401574803,
+            170.0787401574803
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "ae632499dd045bd99cdaf3fb98def103fbe83b07e82d4e218bf1fe1daf10cb2f",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actual-page/4/background",
+      "changed_colored_pixels": 3,
+      "union_colored_pixels": 1125,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          78,
+          535,
+          146,
+          651
+        ],
+        [
+          78,
+          535,
+          146,
+          651
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 2,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 1,
+        "minimum_coverage": 1.0
+      }
+    },
+    {
+      "name": "actual-page/4/inline/divider",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 614,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          13,
+          18,
+          213,
+          41
+        ],
+        [
+          13,
+          18,
+          213,
+          41
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 3,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 3,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.75003,
+            0.0,
+            0.0,
+            0.75003,
+            195.591,
+            247.064
+          ],
+          "registration_matrix": [
+            1.333280002133248,
+            0,
+            0,
+            1.333280002133248,
+            -260.7775688972441,
+            -329.4054904470488
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            24.044570962536536
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "6f9ebd45738bbab9c17ce35a4646eb960d0e35abfead4d7c923a393d02127d31",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.75003,
+            0.0,
+            0.0,
+            0.75003,
+            195.59095773,
+            247.06446366999992
+          ],
+          "registration_matrix": [
+            1.333280002133248,
+            0,
+            0,
+            1.333280002133248,
+            -260.77751253949845,
+            -329.4061086489873
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            113.38582677165354,
+            24.044570962536536
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "60db5a100031fd93f90e88cb0e2767629b5bb26b58f90be134922d782ff29f0a",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    },
+    {
+      "name": "actual-page/4/inline/micrography",
+      "changed_colored_pixels": 0,
+      "union_colored_pixels": 9520,
+      "changed_fraction_limit": 0.005,
+      "ink_bounds": [
+        [
+          70,
+          7,
+          670,
+          234
+        ],
+        [
+          70,
+          7,
+          670,
+          234
+        ]
+      ],
+      "coverage_lua_to_xe": {
+        "components": 655,
+        "minimum_coverage": 1.0
+      },
+      "coverage_xe_to_lua": {
+        "components": 655,
+        "minimum_coverage": 1.0
+      },
+      "measured_frame_registration": [
+        {
+          "actual_form_matrix": [
+            0.53847,
+            0.0,
+            0.0,
+            0.53847,
+            121.89000000000001,
+            172.908
+          ],
+          "registration_matrix": [
+            1.8571136739279812,
+            0,
+            0,
+            1.8571136739279812,
+            -226.36358571508165,
+            -321.10981113153935
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            368.503937007874,
+            120.32599116370575
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "6f9ebd45738bbab9c17ce35a4646eb960d0e35abfead4d7c923a393d02127d31",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.528,
+            595.276
+          ]
+        },
+        {
+          "actual_form_matrix": [
+            0.53847,
+            0.0,
+            0.0,
+            0.53847,
+            121.8902683,
+            172.90834303999992
+          ],
+          "registration_matrix": [
+            1.8571136739279812,
+            0,
+            0,
+            1.8571136739279812,
+            -226.36408397868033,
+            -321.1104481958139
+          ],
+          "source_box_bp": [
+            0.0,
+            0.0,
+            368.503937007874,
+            120.32599116370575
+          ],
+          "actual_book_page_paint_retained": true,
+          "original_page_content_sha256": "60db5a100031fd93f90e88cb0e2767629b5bb26b58f90be134922d782ff29f0a",
+          "original_page_content_bytes_preserved": true,
+          "original_page_clip_bp": [
+            0.0,
+            0.0,
+            419.53,
+            595.28
+          ]
+        }
+      ]
+    }
+  ],
+  "native_faults_verified": [
+    "auxiliaries-lua",
+    "auxiliaries-xe",
+    "empty-output-lua",
+    "empty-output-xe",
+    "first-pass-lua",
+    "first-pass-xe",
+    "font-fallback-lua",
+    "font-fallback-xe",
+    "font-stale-xe",
+    "recipe-stale-xe",
+    "renderer-stale-xe",
+    "scene-corruption-xe"
+  ],
+  "retained_native_pass_logs_verified": 23,
+  "dual_receipt_sha256": "cb3da73b1ec511296d484949c166b9b589ffb41af3ff7fa60e377834bc5983c8",
+  "visual_review": "pending",
+  "exact_head_ci": "must separately verify all four mandatory jobs"
+}
