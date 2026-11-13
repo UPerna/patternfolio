@@ -46,3 +46,8 @@ footer { padding-block: 14px 24px; border-top: 1px solid var(--line); font-size:
   .work { padding: 12px; }
   .collection { margin-block: 35px; }
 }
+
+.downloads { margin-block: 48px; border-top: 1px solid var(--line); padding-top: 24px; }
+.downloads p { max-width: 56ch; color: #49524a; }
+.downloads ul { padding-left: 20px; }
+.downloads li + li { margin-top: 8px; }

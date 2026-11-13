@@ -21,10 +21,10 @@
     <div class="work">
       <form id="controls">
         <label for="pattern">Pattern</label>
-        <select id="pattern"><option value="penrose">Penrose tiling</option><option value="botanical-panel">Botanical panel</option></select>
+        <select id="pattern" disabled><option value="penrose">Penrose tiling</option><option value="botanical-panel">Botanical panel</option></select>
         <div id="phase-field">
           <label for="phase">Pentagrid phase</label>
-          <select id="phase"><option value="amber">Amber</option><option value="indigo">Indigo</option></select>
+          <select id="phase" disabled><option value="amber">Amber</option><option value="indigo">Indigo</option></select>
         </div>
         <div id="seed-field" hidden>
           <label for="seed">Seed</label>
@@ -34,10 +34,11 @@
       </form>
       <div class="exports">
         <a id="svg" class="button" download="compass-garden.svg" href="./preview/decorated.svg">Download SVG</a>
+        <a id="pdf" class="button" download="compass-garden.pdf" href="./downloads/Compass_Garden_Showcase.pdf">Download chapter PDF</a>
         <button id="copy" type="button" disabled>Copy recipe</button>
         <a id="recipe" class="button" download="pattern.recipe" hidden>Download recipe</a>
       </div>
-      <p id="status" role="status">Loading the pattern engine…</p>
+      <p id="status" role="status" aria-live="polite">Loading the pattern engine…</p>
       <noscript><p>Enable JavaScript to generate a pattern. The Compass Garden SVG is available above.</p></noscript>
     </div>
     <figure class="preview">
@@ -51,6 +52,16 @@
       <img src="./preview/collection-1.svg" alt="Left page of Compass Garden with an ornamental initial and a Penrose band" loading="lazy">
       <img src="./preview/collection-2.svg" alt="Right page of Compass Garden with matching ornaments and Penrose band" loading="lazy">
     </figure>
+  </section>
+  <section class="downloads" aria-labelledby="downloads-title">
+    <h2 id="downloads-title">Use it in your own document</h2>
+    <p>The Compass Garden example includes the LaTeX source and its vector artwork. It compiles with LuaLaTeX or XeLaTeX.</p>
+    <ul>
+      <li><a href="./downloads/Patternfolio_Compass_Garden_LaTeX_Showcase.zip" download>Download the LaTeX example</a></li>
+      <li><a href="./downloads/Compass_Garden_Showcase.pdf">View the compiled chapter opener</a></li>
+      <li><a href="./downloads/Patternfolio_8cdfdb52_Browser_Studio.zip" download>Download the offline browser studio</a> · <a href="https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/RELEASE-CANDIDATE.md">Local setup</a></li>
+      <li><a href="./downloads/SHA256SUMS">SHA-256 checksums</a></li>
+    </ul>
   </section>
 </main>
 <footer class="wrap">Open-source browser demo built from <a href="https://github.com/UPerna/patternfolio/commit/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8">Patternfolio 8cdfdb52</a> · Based on <a href="https://github.com/kevinraymond/florilegium">Florilegium</a></footer>

@@ -9,6 +9,7 @@ const generate = get('generate');
 const copy = get('copy');
 const recipeLink = get('recipe');
 const svgLink = get('svg');
+const pdfLink = get('pdf');
 const status = get('status');
 const decoder = new TextDecoder('utf-8', { fatal: true });
 let recipes;
@@ -22,18 +23,23 @@ function refreshFields() {
   seed.disabled = isPenrose;
 }
 
-function showResult(svg, recipe) {
+function showResult(svg, pdf, recipe) {
   const svgUrl = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }));
+  const pdfUrl = URL.createObjectURL(new Blob([pdf], { type: 'application/pdf' }));
   const recipeUrl = URL.createObjectURL(new Blob([recipe], { type: 'application/json' }));
   const previousUrls = resultUrls;
-  resultUrls = [svgUrl, recipeUrl];
+  resultUrls = [svgUrl, pdfUrl, recipeUrl];
   result = recipe;
   get('art').src = svgUrl;
   get('art').alt = 'Generated ' + pattern.selectedOptions[0].textContent.toLowerCase();
   get('caption').textContent = pattern.selectedOptions[0].textContent;
   svgLink.href = svgUrl;
   svgLink.download = pattern.value + '.svg';
+  pdfLink.href = pdfUrl;
+  pdfLink.download = pattern.value + '.pdf';
+  pdfLink.textContent = 'Download PDF';
   recipeLink.href = recipeUrl;
+  recipeLink.download = pattern.value + '.recipe';
   recipeLink.hidden = false;
   for (const url of previousUrls) URL.revokeObjectURL(url);
 }
@@ -61,14 +67,16 @@ get('controls').addEventListener('submit', async event => {
     const output = await client.execute({
       command: 'generate',
       files: { 'recipe.json': JSON.stringify(recipe) },
-      formats: ['svg'],
+      formats: ['svg', 'pdf'],
     });
     const record = JSON.parse(decoder.decode(output.assets['record.json']));
-    if (record.status !== 'complete' || !output.assets['pattern.svg']) {
-      throw new Error('The generator did not return a complete SVG.');
+    const svg = output.assets['pattern.svg'];
+    const pdf = output.assets['pattern.pdf'];
+    if (record.status !== 'complete' || !svg || !pdf) {
+      throw new Error('The generator did not return a complete SVG and PDF.');
     }
-    showResult(output.assets['pattern.svg'], decoder.decode(output.assets['recipe.json']));
-    status.textContent = 'Pattern ready. Download the SVG or keep its recipe.';
+    showResult(svg, pdf, decoder.decode(output.assets['recipe.json']));
+    status.textContent = 'Pattern ready. Download the SVG, PDF or recipe.';
   } catch (error) {
     status.textContent = 'Generation failed. ' + error.message;
   } finally {
@@ -96,7 +104,7 @@ try {
     return [option.value, bundle.examples[row.recipe]];
   }));
   seed.value = JSON.parse(recipes.get('botanical-panel')).design.seed;
-  generate.disabled = false;
+  generate.disabled = pattern.disabled = phase.disabled = false;
   status.textContent = 'Choose a pattern and select Generate pattern.';
 } catch {
   status.textContent = 'The engine could not load. Reload to try again, or download the Compass Garden SVG.';
