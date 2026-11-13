@@ -39,7 +39,7 @@ Each preview shows the canonical output of its linked recipe. The Pattern Atlas 
 
 ## Get started
 
-The verified candidate download contains source, browser, and atlas ZIPs with SHA-256 manifests. It was built from commit `49d2fd911cc58398e3c748095031e3ca1ee62cc8`. Extract the atlas ZIP and open `index.html` to explore the gallery. [Download the candidate](https://github.com/UPerna/patternfolio/actions/runs/42343792080/artifacts/13564570460) · [Build and checksums](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/RELEASE-CANDIDATE.md)
+The verified candidate download contains source, browser, and atlas ZIPs with SHA-256 manifests. It was built from commit `8cdfdb52dfe84ac94a94058ed2dacd947ed559c8`. Extract the atlas ZIP and open `index.html` to explore the gallery. [Download the candidate packages (GitHub sign-in required)](https://github.com/UPerna/patternfolio/actions/runs/42356202542/artifacts/13569855046) · [Download the source snapshot](https://github.com/UPerna/patternfolio/archive/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8.zip) · [Build and checksums](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/RELEASE-CANDIDATE.md)
 
 ### Use the browser studio
 
@@ -75,6 +75,6 @@ Open `book.pdf` in the corresponding output folder. For a floral book template, 
 
 ## Verification and licenses
 
-The candidate build exercised all 22 profiles, both TeX adapters, and the shipped browser files in Chromium. The coverage ledger links each capability to its evidence. The compatibility guide explains tested environments, finite construction limits, and the comparison rules for outputs. [Candidate build](https://github.com/UPerna/patternfolio/actions/runs/42343792080) · [Coverage ledger](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/research/COVERAGE.csv) · [Compatibility](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/COMPATIBILITY.md)
+The candidate build exercised all 22 profiles, both TeX adapters, and the shipped browser files in Chromium. The coverage ledger links each capability to its evidence. The compatibility guide explains tested environments, finite construction limits, and the comparison rules for outputs. [Candidate build](https://github.com/UPerna/patternfolio/actions/runs/42356202542) · [Coverage ledger](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/research/COVERAGE.csv) · [Compatibility](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/COMPATIBILITY.md)
 
 Florilegium code and its original examples are MIT licensed. The source includes separate notices for borrowed substitution tables, fonts, and browser dependencies. [MIT license](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/LICENSE) · [Third-party notices](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/COMPATIBILITY.md#compatibility-comparisons-and-licenses) · [Adding a pattern family](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/ADDING-A-FAMILY.md)
