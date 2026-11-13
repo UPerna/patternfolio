@@ -31,13 +31,16 @@
           <input id="seed" type="number" step="1" required>
         </div>
         <button id="generate" type="submit" class="primary" disabled>Generate pattern</button>
+        <button id="cancel" type="button" hidden>Cancel generation</button>
       </form>
       <div class="exports">
         <a id="svg" class="button" download="compass-garden.svg" href="./preview/decorated.svg">Download SVG</a>
         <a id="pdf" class="button" download="compass-garden.pdf" href="./downloads/Compass_Garden_Showcase.pdf">Download chapter PDF</a>
         <button id="copy" type="button" disabled>Copy recipe</button>
+        <button id="share" type="button" disabled>Copy pattern link</button>
         <a id="recipe" class="button" download="pattern.recipe" hidden>Download recipe</a>
       </div>
+      <input id="share-fallback" type="url" aria-label="Pattern link" readonly hidden>
       <p id="status" role="status" aria-live="polite">Loading the pattern engine…</p>
       <noscript><p>Enable JavaScript to generate a pattern. The Compass Garden SVG is available above.</p></noscript>
     </div>
@@ -65,6 +68,6 @@
   </section>
 </main>
 <footer class="wrap">Open-source browser demo built from <a href="https://github.com/UPerna/patternfolio/commit/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8">Patternfolio 8cdfdb52</a> · Based on <a href="https://github.com/kevinraymond/florilegium">Florilegium</a></footer>
-<script type="module" src="./demo.js"></script>
+<script type="module" src="./demo.js?v=2"></script>
 </body>
 </html>

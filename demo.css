@@ -51,3 +51,6 @@ footer { padding-block: 14px 24px; border-top: 1px solid var(--line); font-size:
 .downloads p { max-width: 56ch; color: #49524a; }
 .downloads ul { padding-left: 20px; }
 .downloads li + li { margin-top: 8px; }
+
+#cancel { width: 100%; margin-top: 6px; }
+#share-fallback { margin-top: 8px; }

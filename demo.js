@@ -7,6 +7,8 @@ const phase = get('phase');
 const seed = get('seed');
 const generate = get('generate');
 const copy = get('copy');
+const share = get('share');
+const cancel = get('cancel');
 const recipeLink = get('recipe');
 const svgLink = get('svg');
 const pdfLink = get('pdf');
@@ -14,6 +16,7 @@ const status = get('status');
 const decoder = new TextDecoder('utf-8', { fatal: true });
 let recipes;
 let result;
+let resultLink;
 let resultUrls = [];
 
 function refreshFields() {
@@ -30,6 +33,16 @@ function showResult(svg, pdf, recipe) {
   const previousUrls = resultUrls;
   resultUrls = [svgUrl, pdfUrl, recipeUrl];
   result = recipe;
+  const accepted = JSON.parse(recipe);
+  const url = new URL(location.pathname, location.origin);
+  url.searchParams.set('pattern', pattern.value);
+  if (pattern.value === 'penrose') {
+    url.searchParams.set('phase', accepted.design.parameters.phase);
+  } else {
+    url.searchParams.set('seed', accepted.design.seed);
+  }
+  resultLink = url.href;
+  get('share-fallback').hidden = true;
   get('art').src = svgUrl;
   get('art').alt = 'Generated ' + pattern.selectedOptions[0].textContent.toLowerCase();
   get('caption').textContent = pattern.selectedOptions[0].textContent;
@@ -44,7 +57,15 @@ function showResult(svg, pdf, recipe) {
   for (const url of previousUrls) URL.revokeObjectURL(url);
 }
 
-pattern.addEventListener('change', refreshFields);
+function noteChange() {
+  refreshFields();
+  if (result) status.textContent = 'Settings changed. Generate to update the preview and downloads.';
+}
+
+pattern.addEventListener('change', noteChange);
+phase.addEventListener('change', noteChange);
+seed.addEventListener('input', noteChange);
+cancel.addEventListener('click', () => client.cancel());
 refreshFields();
 
 get('controls').addEventListener('submit', async event => {
@@ -61,7 +82,8 @@ get('controls').addEventListener('submit', async event => {
     }
     recipe.design.seed = value;
   }
-  generate.disabled = pattern.disabled = phase.disabled = seed.disabled = copy.disabled = true;
+  generate.disabled = pattern.disabled = phase.disabled = seed.disabled = copy.disabled = share.disabled = true;
+  cancel.hidden = false;
   status.textContent = 'Generating pattern…';
   try {
     const output = await client.execute({
@@ -78,10 +100,13 @@ get('controls').addEventListener('submit', async event => {
     showResult(svg, pdf, decoder.decode(output.assets['recipe.json']));
     status.textContent = 'Pattern ready. Download the SVG, PDF or recipe.';
   } catch (error) {
-    status.textContent = 'Generation failed. ' + error.message;
+    status.textContent = error.code === 'cancelled'
+      ? 'Generation cancelled. The previous preview and downloads are still available.'
+      : 'Generation failed. ' + error.message;
   } finally {
     generate.disabled = pattern.disabled = phase.disabled = false;
-    copy.disabled = !result;
+    cancel.hidden = true;
+    copy.disabled = share.disabled = !result;
     refreshFields();
   }
 });
@@ -96,6 +121,20 @@ copy.addEventListener('click', async () => {
   }
 });
 
+share.addEventListener('click', async () => {
+  if (!resultLink) return;
+  try {
+    await navigator.clipboard.writeText(resultLink);
+    status.textContent = 'Pattern link copied.';
+  } catch {
+    const fallback = get('share-fallback');
+    fallback.value = resultLink;
+    fallback.hidden = false;
+    fallback.select();
+    status.textContent = 'Copy the pattern link from the selected field.';
+  }
+});
+
 try {
   const { bundle } = await client.load();
   const catalog = JSON.parse(bundle.examples['catalog.json']).examples;
@@ -105,7 +144,24 @@ try {
   }));
   seed.value = JSON.parse(recipes.get('botanical-panel')).design.seed;
   generate.disabled = pattern.disabled = phase.disabled = false;
-  status.textContent = 'Choose a pattern and select Generate pattern.';
+  const params = new URLSearchParams(location.search);
+  const requested = params.get('pattern');
+  if (recipes.has(requested)) {
+    pattern.value = requested;
+    const requestedPhase = params.get('phase');
+    if (requested === 'penrose' && ['amber', 'indigo'].includes(requestedPhase)) {
+      phase.value = requestedPhase;
+    }
+    const requestedSeed = params.get('seed');
+    if (requested === 'botanical-panel' && /^-?\d+$/.test(requestedSeed ?? '') &&
+        Number.isSafeInteger(Number(requestedSeed))) {
+      seed.value = requestedSeed;
+    }
+    refreshFields();
+    get('controls').requestSubmit();
+  } else {
+    status.textContent = 'Choose a pattern and select Generate pattern.';
+  }
 } catch {
   status.textContent = 'The engine could not load. Reload to try again, or download the Compass Garden SVG.';
 }
