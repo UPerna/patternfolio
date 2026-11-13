@@ -11,16 +11,16 @@
 ## Make your first pattern
 
 1. [Open the demo](https://uperna.github.io/patternfolio/) and choose a Penrose phase or enter a botanical seed.
-2. Select **Generate pattern**, then **Download SVG**.
-3. Copy or download the recipe to reuse it. For all 22 patterns and PDF export, use the [full studio](https://uperna.github.io/patternfolio/studio/).
+2. Select **Generate pattern**, then **Download SVG** or **Download PDF**.
+3. Copy or download the recipe to reuse it. For all 22 patterns and advanced editing, use the [full studio](https://uperna.github.io/patternfolio/studio/).
 
 ## Run it locally
 
 | Use | Start here |
 | --- | --- |
-| Browser studio | [Offline package and setup](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/RELEASE-CANDIDATE.md) |
+| Browser studio | [Download offline studio](https://uperna.github.io/patternfolio/downloads/Patternfolio_8cdfdb52_Browser_Studio.zip) · [Local setup](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/RELEASE-CANDIDATE.md) |
 | Command line | [Quickstart](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/QUICKSTART.md) · [CLI reference](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/CLI.md) |
-| TeX documents | [LuaLaTeX guide](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/LUALATEX-PATTERNS.md) · [XeLaTeX guide](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/XELATEX-PATTERNS.md) |
+| TeX documents | [Download the Compass Garden example](https://uperna.github.io/patternfolio/downloads/Patternfolio_Compass_Garden_LaTeX_Showcase.zip) · [Preview PDF](https://uperna.github.io/patternfolio/downloads/Compass_Garden_Showcase.pdf) · [LuaLaTeX guide](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/LUALATEX-PATTERNS.md) · [XeLaTeX guide](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/XELATEX-PATTERNS.md) |
 | Pattern Atlas | [Atlas guide](https://github.com/UPerna/patternfolio/blob/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8/docs/GALLERY.md) · [Pattern catalog](PATTERNS.md) |
 
 [Download source ZIP](https://github.com/UPerna/patternfolio/archive/8cdfdb52dfe84ac94a94058ed2dacd947ed559c8.zip) · [Download verified source, studio, and Atlas packages (GitHub sign-in)](https://github.com/UPerna/patternfolio/actions/runs/42356202542/artifacts/13569855046)
